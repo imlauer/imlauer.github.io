@@ -8,12 +8,32 @@
     <language>es-es</language>
     <lastBuildDate>Sat, 12 May 2018 15:48:00 +0530</lastBuildDate><atom:link href="https://imlauer.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Diseño Página Web Estática</title>
-      <link>https://imlauer.github.io/products/web_design/</link>
+      <title>Diseño Blog Personal</title>
+      <link>https://imlauer.github.io/products/web_design_blog/</link>
       <pubDate>Sat, 12 May 2018 15:48:00 +0530</pubDate>
       
-      <guid>https://imlauer.github.io/products/web_design/</guid>
+      <guid>https://imlauer.github.io/products/web_design_blog/</guid>
       <description> Diseño Página Ecommerse Diseño Página Web Estática Diseño Blog Personal  </description>
+    </item>
+    
+    <item>
+      <title>Diseño de Páginas Web Estáticas</title>
+      <link>https://imlauer.github.io/products/web_design_static/</link>
+      <pubDate>Sat, 12 May 2018 15:48:00 +0530</pubDate>
+      
+      <guid>https://imlauer.github.io/products/web_design_static/</guid>
+      <description> Diseño Página Ecommerse Diseño Página Web Estática Diseño Blog Personal  </description>
+    </item>
+    
+    <item>
+      <title>Diseño de Tiendas Online (Ecommerse)</title>
+      <link>https://imlauer.github.io/products/web_design_ecommerse/</link>
+      <pubDate>Sat, 12 May 2018 15:48:00 +0530</pubDate>
+      
+      <guid>https://imlauer.github.io/products/web_design_ecommerse/</guid>
+      <description>El desarrollo de un diseño de página de e-commerce puede seguir los siguientes pasos:
+  Investigación y planificación: Antes de comenzar a diseñar la página, es fundamental realizar una investigación sobre el mercado y los competidores, así como planificar los objetivos y requerimientos de la página, como la funcionalidad, el contenido, la estructura y el diseño.
+  Elección de plataforma: Seleccionar la plataforma de e-commerce que mejor se adapte a las necesidades del negocio, como Shopify, WooCommerce o Magento, entre otras.</description>
     </item>
     
   </channel>
