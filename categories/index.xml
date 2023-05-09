@@ -6,40 +6,31 @@
     <description>Recent content in Categories on Informática Imlauer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sat, 12 May 2018 15:54:25 +0530</lastBuildDate><atom:link href="https://imlauer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 13:50:55 +0530</lastBuildDate><atom:link href="https://imlauer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>servicios</title>
-      <link>https://imlauer.github.io/categories/servicios/</link>
+      <title>web</title>
+      <link>https://imlauer.github.io/categories/web/</link>
+      <pubDate>Thu, 12 May 2022 13:50:55 +0530</pubDate>
+      
+      <guid>https://imlauer.github.io/categories/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mantenimiento</title>
+      <link>https://imlauer.github.io/categories/mantenimiento/</link>
       <pubDate>Sat, 12 May 2018 15:54:25 +0530</pubDate>
       
-      <guid>https://imlauer.github.io/categories/servicios/</guid>
+      <guid>https://imlauer.github.io/categories/mantenimiento/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Floor Light</title>
-      <link>https://imlauer.github.io/categories/floor-light/</link>
-      <pubDate>Sat, 12 May 2018 15:48:00 +0530</pubDate>
+      <title>impresora</title>
+      <link>https://imlauer.github.io/categories/impresora/</link>
+      <pubDate>Thu, 10 May 2018 08:02:34 +0530</pubDate>
       
-      <guid>https://imlauer.github.io/categories/floor-light/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wall Light</title>
-      <link>https://imlauer.github.io/categories/wall-light/</link>
-      <pubDate>Fri, 11 May 2018 22:35:06 +0530</pubDate>
-      
-      <guid>https://imlauer.github.io/categories/wall-light/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pendant Light</title>
-      <link>https://imlauer.github.io/categories/pendant-light/</link>
-      <pubDate>Thu, 10 May 2018 20:17:46 +0530</pubDate>
-      
-      <guid>https://imlauer.github.io/categories/pendant-light/</guid>
+      <guid>https://imlauer.github.io/categories/impresora/</guid>
       <description></description>
     </item>
     
