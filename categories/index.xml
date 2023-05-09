@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Informática Imlauer</title>
+    <link>https://informaticaimlauer.github.io/categories/</link>
+    <description>Recent content in Categories on Informática Imlauer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Sat, 12 May 2018 15:54:25 +0530</lastBuildDate><atom:link href="https://informaticaimlauer.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>servicios</title>
+      <link>https://informaticaimlauer.github.io/categories/servicios/</link>
+      <pubDate>Sat, 12 May 2018 15:54:25 +0530</pubDate>
+      
+      <guid>https://informaticaimlauer.github.io/categories/servicios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Floor Light</title>
+      <link>https://informaticaimlauer.github.io/categories/floor-light/</link>
+      <pubDate>Sat, 12 May 2018 15:48:00 +0530</pubDate>
+      
+      <guid>https://informaticaimlauer.github.io/categories/floor-light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wall Light</title>
+      <link>https://informaticaimlauer.github.io/categories/wall-light/</link>
+      <pubDate>Fri, 11 May 2018 22:35:06 +0530</pubDate>
+      
+      <guid>https://informaticaimlauer.github.io/categories/wall-light/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pendant Light</title>
+      <link>https://informaticaimlauer.github.io/categories/pendant-light/</link>
+      <pubDate>Thu, 10 May 2018 20:17:46 +0530</pubDate>
+      
+      <guid>https://informaticaimlauer.github.io/categories/pendant-light/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
