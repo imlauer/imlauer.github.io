@@ -39,6 +39,7 @@ School blocks real education.
 * Zero sum games are bad.
 * Statistics are a new form of advertising.
 * Zoomers a mail client is an "app".
+* Vibecoding is a scam: You are still doing the coding, you are just using a different language (English in this case), and English is a poor language for many reasons: it's not precise.
 
 ---
 
