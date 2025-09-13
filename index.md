@@ -45,26 +45,28 @@ School blocks real education.
 
 ### People who I look up to
 
-* George Hotz
-* Tsoding
-* Luke Smith
-* Richard Stallman
-* Sean Strickland
-* Alex Story from Cancerslug
-* Reckful
+* [George Hotz](https://geohot.github.io/blog): [In this video he teachs you: how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk).
+* [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).
+* [Luke Smith](https://lukesmith.xyz).
+* [Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy).
+* Sean Strickland: [1](https://www.youtube.com/embed/rGMQXNUpJo8), [2](https://www.youtube.com/embed/hNc6u7gaL4Q).
+* Alex Story from Cancerslug: [1](https://www.youtube.com/embed/Jaf-R6kyXVU), [2](https://www.youtube.com/embed/ZV_Hga8f5D4), [3](https://www.youtube.com/embed/1bP4plDxYBY), [4](https://www.youtube.com/embed/1bP4plDxYBY).
+* Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Embarrasses Old Ladies with his Question](https://www.youtube.com/embed/GPFXUVv1s1w) 
+* [Reckful Archive](https://reckful-archive.org/](https://reckful-archive.org/)
 
 ---
    
 ### Contacts and social media:   
    
 * [necro@tfwno.gf](mailto:necro@tfwno.gf)   
+* [imlauerandres@gmail.com](mailto:imlauerandres@gmail.com)   
 * [My YouTube Channel](https://www.youtube.com/channel/UCIBeANd-ORSKPOg7PPMWCqw)   
    
 ---   
    
 #### Some things I like (no particular order):   
    
-Ranting. Computers. Programming. Software. Electricity. Installations. Circuits. Safety.   
+ranting, computers, c, programming, software, electricity.
    
 #### Some things I dislike (disliking people doesn't contradict loving them):   
    
@@ -72,7 +74,7 @@ ads, cheesy positivity, political correctness, memorizing without understanding,
    
 ---   
    
-During my free time, I like working on various technology and non-technology projects, playing various video games, chatting on IRC servers, and web forums, trying new things, volunteering for different causes, and whatever else I find interesting.   
+During my free time, I like working on various technology and non-technology projects, playing doom and 0ad, chatting on IRC servers, and web forums, trying new things, volunteering for different causes, and whatever else I find interesting.   
    
 ---   
    
@@ -112,6 +114,7 @@ During my free time, I like working on various technology and non-technology pro
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html)   
 * [DigDeeper](https://digdeeper.love/)   
 * [SpyWare](https://spyware.neocities.org/articles/)   
+* [How to drop out](http://ranprieur.com/essays/dropout.html)   
 * [BasedSites](https://basedsites.neocities.org)   
 * [George Hotz' Blog](https://geohot.github.io/blog)   
 * [Marginalia](https://explore2.marginalia.nu/)   
