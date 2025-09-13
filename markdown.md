@@ -1,20 +1,21 @@
-# En el 2025 podes escribir tu pagina en MARKDOWN y transformarla a HTML
-¡Sí!, como escuchaste.
+---
+title: Create your site with Markdown and pandoc.
+date: 2025-09-13
+---
+# In 2025, you can write your page in MARKDOWN and convert it to HTML
+Yes!, as you heard.
 
-**Solo usando el siguiente comando**:
+### Just using the following command**
+
 ```bash
 pandoc index.md -o index.html
 ```
+Or you can use `cmark` also.
 
 ---
 
-### Construí tu sitio ONLINE
-
-##### Lista de Links
-
-* [asdf](https://asdf.org)
-* [imlauer](https://imlauer.github.io)
+### Build your site ONLINE now.
 
 ---
 
-Copyright 2025
+Copyleft 2025
