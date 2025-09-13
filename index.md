@@ -49,7 +49,9 @@ School blocks real education.
 * Tsoding
 * Luke Smith
 * Richard Stallman
-* Alex Story from Cancerslug.
+* Sean Strickland
+* Alex Story from Cancerslug
+* Reckful
 
 ---
    
