@@ -111,7 +111,7 @@ During my free time, I like working on various technology and non-technology pro
 
 Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).
 
-This side was generate with [markdown](/markdown.html) and pandoc:
+This site was generate with [markdown](/markdown.html) and pandoc:
 
 ```bash
 pandoc -s index.md -o index.html
