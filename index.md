@@ -22,7 +22,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * COVID-19 pandemic was a planned laboratory creation.   
 * Civilization will end in a decade or two.   
 * Free will doesn't exist.   
-* Ads should be ilegal?   
+* Ads should be ilegal? Advertising is like fishing, but you're the one who ends up getting caught.
 * Bitcoin's value is purely "human stupidity"   
 * Voting is pointless.   
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
@@ -38,7 +38,7 @@ School blocks real education.
 * Most jobs are fake.   
 * [Zero sum games are bad](https://i.ibb.co/Jw4KSzvK/geohot.jpg): patent trolls, finance, sales, real estate, tip screen design, advertising.    
 * Statistics are a new form of advertising.   
-* Zoomers a mail client is an "app".   
+* For Zoomers a mail client is an "app".   
 * Vibecoding is a scam: You are still doing the coding, you are just using a different language (English in this case), and English is a poor language for many reasons: it's not precise.   
    
 ---   
