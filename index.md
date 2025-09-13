@@ -19,11 +19,11 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
 * Public Universities are taxpayer-funded scams.   
 * Feminism is a male construct designed to oppress other men.   
-* COVID-19 pandemic was a planned laboratory creation.   
+* COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Civilization will end in a decade or two.   
 * Free will doesn't exist.   
 * Ads should be ilegal? Advertising is like fishing, but you're the one who ends up getting caught.
-* Bitcoin's value is purely "human stupidity"   
+* Bitcoin's value is purely "human stupidity".   
 * Voting is pointless.   
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
@@ -42,6 +42,16 @@ School blocks real education.
 * Vibecoding is a scam: You are still doing the coding, you are just using a different language (English in this case), and English is a poor language for many reasons: it's not precise.   
    
 ---   
+
+### People who I look up to
+
+* George Hotz
+* Tsoding
+* Luke Smith
+* Richard Stallman
+* Alex Story from Cancerslug.
+
+---
    
 ### Contacts and social media:   
    
