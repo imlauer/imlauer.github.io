@@ -1,9 +1,7 @@
 ---
-title: "Andrew Imlauer's Personal Page"
+title: Andrew Imlauer's Personal Page
 date: 2025-04-08T21:45:57-03:00
 ---
-# Andrew Imlauer's Personal Page
-
 I was born in 1995 and I live in Argentina. I studied Computer Science from Universidad Nacional de Rosario. Now I'm studying electricity.
 
 I've been doing various minimum wage jobs such as cleaning, computer repair and camera installation.
@@ -113,4 +111,8 @@ During my free time, I like working on various technology and non-technology pro
 
 Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).
 
-This side was generate with [markdown](/markdown.html) and pandoc.
+This side was generate with [markdown](/markdown.html) and pandoc:
+
+```bash
+pandoc -s index.md -o index.html
+```
