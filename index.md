@@ -22,6 +22,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * COVID-19 pandemic was a planned laboratory creation.
 * Civilization will end in a decade or two.
 * Free will doesn't exist.
+* Ads should be ilegal?
 * Bitcoin's value is purely "human stupidity"
 * Voting is pointless.
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw)
