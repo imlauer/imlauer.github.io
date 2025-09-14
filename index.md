@@ -52,7 +52,8 @@ Here's a rewritten version of your statement:
 
 * George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). 
 
-Articles I recommend reading from his blog:   
+##### Articles I recommend reading from his blog:   
+
 1. Class Warfare: [https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)   
 2. Pieces of shit: [https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)   
 3. consumer class divide: [https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html](https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html)   
