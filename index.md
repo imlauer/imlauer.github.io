@@ -24,7 +24,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Free will doesn't exist.   
 * Ads should be ilegal? Advertising is like fishing, but you're the one who ends up getting caught.
 * Bitcoin's value is purely "human stupidity".   
-* Voting is pointless.   
+* Voting is pointless: zero sum games are the problem and I don't see any politician talking about it.    
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
