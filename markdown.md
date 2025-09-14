@@ -8,7 +8,7 @@ Yes!, as you heard.
 ### Just using the following command**
 
 ```bash
-pandoc index.md -o index.html
+pandoc -s index.md -o index.html
 ```
 Or you can use `cmark` also.
 
