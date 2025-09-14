@@ -14,7 +14,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
    
 * I used to study computer science but dropped it.   
 * I am studying electricity because I like things that can actually shock me, not just bore me.   
-* Capitalism is going to die unless we ban ads.
+* Capitalism is going to die unless we ban ads and separate of church and state including universities.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
 * Public Universities are taxpayer-funded scams.   
