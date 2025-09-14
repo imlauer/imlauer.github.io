@@ -12,8 +12,8 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
    
 #### Fun facts about me:   
    
-* I am studying electricity because I like things that can actually shock me, not just bore me.   
 * I used to study computer science but dropped it.   
+* I am studying electricity because I like things that can actually shock me, not just bore me.   
 * Capitalism is going to die unless we ban ads.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
@@ -32,14 +32,16 @@ School blocks real education.
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. Spotify lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers.   
 * As a natural leader, you have no need for validation from anyone. You view the entire education system as a manipulative tool designed to train "slaves" to constantly seek external approval.   
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
+* Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * Be the seller, not the buyer.   
 * C++ was created to only sell expensive books and live off of them.   
 * The power isn't what you have, it's what people believe you have.   
 * Most jobs are fake.   
-* [Zero sum games are bad](https://i.ibb.co/Jw4KSzvK/geohot.jpg): patent trolls, finance, sales, real estate, tip screen design, advertising.    
+* [Zero sum games are bad](https://i.ibb.co/Jw4KSzvK/geohot.jpg): patent trolls, finance, sales, real estate, tip screen design, fake jobs, advertising.    
 * Statistics are a new form of advertising.   
 * For Zoomers a mail client is an "app".   
-* Vibecoding is a scam: You are still doing the coding, you are just using a different language (English in this case), and English is a poor language for many reasons: it's not precise.   
+* Vibecoding is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
+* In Argentina, internet service providers like Claro, Personal, and Movistar block access to LibreFutbol by DNS, due to few customers are willing to pay for the premium channels and in the US Google removes all the piracy links which is why I use Yandex and torrent search with **qBitTorrent** with **Jackett**.
    
 ---   
 
@@ -48,7 +50,7 @@ School blocks real education.
 * [George Hotz](https://geohot.github.io/blog): [In this video he teachs you: how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk).
 * [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).
 * [Luke Smith](https://lukesmith.xyz).
-* [Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy).
+* [Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
 * Sean Strickland: [1](https://www.youtube.com/embed/rGMQXNUpJo8), [2](https://www.youtube.com/embed/hNc6u7gaL4Q).
 * Alex Story from Cancerslug: [1](https://www.youtube.com/embed/Jaf-R6kyXVU), [2](https://www.youtube.com/embed/ZV_Hga8f5D4), [3](https://www.youtube.com/embed/1bP4plDxYBY), [4](https://www.youtube.com/embed/1bP4plDxYBY).
 * Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Embarrasses Old Ladies with his Question](https://www.youtube.com/embed/GPFXUVv1s1w) 
