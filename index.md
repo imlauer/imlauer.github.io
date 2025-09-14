@@ -37,7 +37,7 @@ School blocks real education.
 * C++ was created to only sell expensive books and live off of them.   
 * The power isn't what you have, it's what people believe you have.   
 * Most jobs are fake.   
-* [Zero sum games are bad](https://ibb.co/Rkm9JC39): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.    
+* **[Zero sum games are bad](https://ibb.co/Rkm9JC39): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.**
 * Statistics are a new form of advertising.   
 * For Zoomers a mail client is an "app".   
 * Vibecoding is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
