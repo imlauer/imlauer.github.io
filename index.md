@@ -52,7 +52,7 @@ School blocks real education.
 * [Luke Smith](https://lukesmith.xyz).
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
 * Sean Strickland: [1](https://www.youtube.com/embed/rGMQXNUpJo8), [2](https://www.youtube.com/embed/hNc6u7gaL4Q).
-* Alex Story from Cancerslug: [1](https://www.youtube.com/embed/Jaf-R6kyXVU), [2](https://www.youtube.com/embed/ZV_Hga8f5D4), [3](https://www.youtube.com/embed/1bP4plDxYBY), [4](https://www.youtube.com/embed/1bP4plDxYBY).
+* Alex Story from Cancerslug: [1](https://www.youtube.com/embed/Jaf-R6kyXVU), [2](https://www.youtube.com/embed/ZV_Hga8f5D4), [3](https://www.youtube.com/embed/1bP4plDxYBY), [4](https://www.youtube.com/embed/fuIh2IaW_ng).
 * Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Embarrasses Old Ladies with his Question](https://www.youtube.com/embed/GPFXUVv1s1w) 
 * [Reckful Archive](https://reckful-archive.org/](https://reckful-archive.org/)
 
