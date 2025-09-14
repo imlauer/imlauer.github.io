@@ -113,8 +113,8 @@ During my free time, I like working on various technology and non-technology pro
    
 #### Some links   
    
-* open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://palined.com/search](https://palined.com/search), [https://odcrawler.xyz ](https://odcrawler.xyz).
-* good source for proxies: [https://proxydb.net](https://proxydb.net)
+* open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).
+* good source for proxies (you don't need vpn): [https://proxydb.net](https://proxydb.net)
 * [CroxyProxy](https://croxyproxy.com)
 * [My Blog](https://imlauera.github.io)   
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html)   
