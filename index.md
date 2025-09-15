@@ -2,7 +2,7 @@
 title: Andres Imlauer's Personal Page
 date: 2025-04-08T21:45:57-03:00
 ---
-I was born in 1995 and I live in Argentina. I studied Computer Science from Universidad Nacional de Rosario. Now I'm studying electricity.   
+I was born in Argentina. I studied Computer Science from Universidad Nacional de Rosario. Now I'm studying electricity.   
    
 I've been doing various minimum wage jobs such as cleaning, computer repair and camera installation.   
    
