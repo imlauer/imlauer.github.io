@@ -29,7 +29,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.</li>   
-* Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. Spotify lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers.   
+* Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. Ex-Twitter show fake "trends".   
 * As a natural leader, you have no need for validation from anyone. You view the entire education system as a manipulative tool designed to train "slaves" to constantly seek external approval.   
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
@@ -41,7 +41,7 @@ School blocks real education.
 * Statistics are a new form of advertising.   
 * For Zoomers a mail client is an "app".   
 * Vibecoding is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
-* In Argentina, internet service providers like Claro, Personal, and Movistar block access to LibreFutbol by DNS, due to few customers are willing to pay for the premium channels and in the US Google removes all the piracy links which is why I use Yandex and torrent search with **qBitTorrent** with **Jackett**.
+* In Argentina, internet service providers like Claro, Personal, and Movistar block access to LibreFutbol by DNS, due to few customers are willing to pay for the premium channels, Google removes all the piracy links which is why I use Yandex and torrent search with **qBitTorrent** with **Jackett**.
 Here's a rewritten version of your statement:
 * I believe most of **social media influencers are psychopaths** that are willing to promote any scam like VPN scams and online gambling, in order to profit from their followers. 
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
