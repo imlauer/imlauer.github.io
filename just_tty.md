@@ -159,11 +159,11 @@ ffmpeg -f alsa -i pipewire -f fbdev -r 30 -i /dev/fb0 record.mp4
 My current alias for web-browsing:
 
 ```bash
-alias dgg='w3m  dgg.gg'
+alias dgg 'w3m  dgg.gg'
 alias mojeek "w3m https://www.mojeek.com/search?q=hola"
-alias wiby="w3m http://wiby.org"
-alias news="netsurf-fb -f sdl -w 1366 -h 768 news.ycombinator.com"
+alias wiby "w3m http://wiby.org"
+alias news "netsurf-fb -f sdl -w 1366 -h 768 news.ycombinator.com"
 alias doom 'cd doom; bash play_doom.sh;'
-alias rcommandline="w3m old.reddit.com/r/commandline"
+alias rcommandline "w3m old.reddit.com/r/commandline"
 alias google 'w3m  google.com'
 ```
