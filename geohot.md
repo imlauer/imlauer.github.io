@@ -3,6 +3,8 @@ title: George Hotz's zero sum games.
 date: 2025-09-14
 ---
 
+[Volver inicio](/)
+
 Basado en los textos proporcionados, se describen varios **juegos de suma cero** y **estafas** en diferentes contextos:
 
 ---
@@ -292,3 +294,5 @@ No contienen referencias directas nuevas; "Vampire Attack" es una estrategia com
 - **Patrones comunes**: Hotz ve la industria tech (especialmente AI chips y self-driving) como plagada de estafas basadas en hype, overfunding y no-entrega. Juegos de suma cero dominan en fundraising (VCs vs. inversores) y marketing (compañías vs. compradores).
 - **Impacto**: Argumenta que esto destruye valor real, proponiendo alternativas honestas (ej. open source, productos reales).
 - **Exhaustividad**: Revisé el texto completo (truncado en ~425k chars, pero cubre todos los posts listados). No hay más instancias obvias. Si necesitas expansión en alguna, avísame.
+
+[Volver inicio](/)
