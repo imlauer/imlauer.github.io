@@ -1,5 +1,5 @@
 ---
-title: "Unleashing the Power: TTY, Linux Framebuffer, EGLFS and SDL - Without the weight of Xorg or Wayland"
+title: "TTY, Linux Framebuffer, EGLFS and SDL - Without the weight of Xorg or Wayland"
 date: 2025-09-13
 ---
 
