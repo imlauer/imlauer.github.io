@@ -22,7 +22,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Civilization will end in a decade or two.   
 * Free will doesn't exist.   
-* Ads should be ilegal? Advertising is like fishing, but you're the one who ends up getting caught.
+* Ads should be illegal? Advertising is like fishing, but you're the one who ends up getting caught.
 * Bitcoin's value is purely "human stupidity".   
 * Voting is pointless: zero sum games are the problem and I don't see any politician talking about it.    
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).

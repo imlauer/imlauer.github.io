@@ -11,11 +11,9 @@ For efficient management of your terminals and processes, it is essential to use
     *   For `fish` shell, add to the `.config/fish/config.fish` file:  
   
 ```bash  
-if status --is-login  
-	if test -z "$DISPLAY" -a $XDG_VTNR = 1  
-		exec tmux  
-	end  
-end  
+if test -z "$TMUX" -a $XDG_VTNR = 1
+  tmux attach || exec tmux new-session
+end
 ```  
 This will automatically start `tmux` in the tty number 1 (a terminal multiplexer similar to `tmux`).        
 **Alternatively, you can use `dvtm`.**

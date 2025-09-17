@@ -252,11 +252,9 @@ essential to use a terminal multiplexer.</p>
 </ul></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="ex">status</span> <span class="at">--is-login</span>  </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">test</span> <span class="at">-z</span> <span class="st">&quot;</span><span class="va">$DISPLAY</span><span class="st">&quot;</span> <span class="at">-a</span> <span class="va">$XDG_VTNR</span> = 1  </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">exec</span> tmux  </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">end</span>  </span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">end</span>  </span></code></pre></div>
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">test</span> <span class="at">-z</span> <span class="st">&quot;</span><span class="va">$TMUX</span><span class="st">&quot;</span> <span class="at">-a</span> <span class="va">$XDG_VTNR</span> = 1</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">tmux</span> attach <span class="kw">||</span> <span class="bu">exec</span> tmux new-session</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">end</span></span></code></pre></div>
 <p>This will automatically start <code>tmux</code> in the tty number 1
 (a terminal multiplexer similar to <code>tmux</code>).<br />
 <strong>Alternatively, you can use <code>dvtm</code>.</strong></p>
