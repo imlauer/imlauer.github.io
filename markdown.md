@@ -16,33 +16,6 @@ Or you can use `cmark` also.
 
 ### Build your site ONLINE now.
 
-# RSS support
-
-```bash
-pandoc -t rss --template=feed.xml.template --output=feed.xml --variable=site_url=https://example.com your_markdown_file.md
-```
-You'll also need a `feed.xml.template` file containing:
-
-```bash
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>$title$</title>
-    <link>$site_url$</link>
-    <description>$description$</description>
-    <language>en-us</language>
-    <lastBuildDate>$date$</lastBuildDate>
-    <item>
-      <title>$title$</title>
-      <link>$site_url$/path/to/post</link>
-      <description>$body$</description>
-      <pubDate>$date$</pubDate>
-    </item>
-  </channel>
-</rss>
-
-```
-
 ---
 
 Copyleft 2025
