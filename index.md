@@ -28,7 +28,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
-* Everyone oppresses everyone else: human existence itself is pure egoism.</li>   
+* Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. Ex-Twitter show fake "trends".   
 * As a natural leader, you have no need for validation from anyone. You view the entire education system as a manipulative tool designed to train "slaves" to constantly seek external approval.   
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
@@ -37,6 +37,7 @@ School blocks real education.
 * C++ was created to only sell expensive books and live off of them.   
 * The power isn't what you have, it's what people believe you have.   
 * Most jobs are fake.   
+* Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.**
 * The goal of computer science is to automate all jobs. The more computing advances, the more people lose work. That's why there is no real money in tech: if you are honest, each passing year programming work gets harder and pays worse.
 * If you are a con artist like Mark Zuckerberg—whose core aim is to make you addicted to your phone to show you ads—or companies like [Spotify](http://stallman.org/spotify.html) that collect money supposedly for musicians while spying and manipulating song popularity, or Tinder that charges the same to men and women, or the former Twitter that lied about trends, then you can make money. Or companies like [Netflix](http://stallman.org/netflix.html) that turned people who once used torrents into paying subscribers, or Google that censors results while promoting certain platforms, or Udemy selling low-quality courses, or all the aggressive marketing that pushes you to create accounts on shady sites or crypto scams. But that is NOT technology; technology is supposed to improve our lives, not make us addicted to advertising or be Ponzi-style scams or zero-sum games.
