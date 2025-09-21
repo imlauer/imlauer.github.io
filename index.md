@@ -107,7 +107,7 @@ During my free time, I like working on various technology and non-technology pro
 * **desktop**: TTY with tmux only with Qt apps without Xorg or Wayland.   
 * **text editor**: vim.   
 * **terminal**: tty.   
-* **browser**: w3m, chawan, Falkon, QuteBrowser, NetSurf, wget, curl.   
+* **browser**: w3m, chawan, Falkon (to take a screenshot use print to pdf), QuteBrowser, NetSurf, wget, curl.   
 * **email client**: neomutt with mw (mutt wizard by luke smith).   
 * **video editor**: ffmpeg.   
 * **audio editor**: Audacity.   
