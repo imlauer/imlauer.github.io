@@ -66,19 +66,19 @@ Here's a rewritten version of your statement:
 
 ##### Articles I recommend reading from his blog:   
 
-1. Class Warfare: [https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html).
-2. Pieces of shit: [https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html).
-3. consumer class divide: [https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html](https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html).
+1. Class Warfare: [https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
+2. Pieces of shit: [https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)
+3. consumer class divide: [https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html](https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html)
 4. demoralization is just beginning: [https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html](https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html): **Back the dollar by gold** (not socially constructed crypto), and bring major crackdowns to finance to tie it to real world value. Trading is not a job. Passive income is not a thing. Instead, go produce something real and exchange it for gold.
-5. money is the map: [https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html](https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html).
-5. beauty after covid: [https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html](https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html).
-6. dangerous misinformation: [https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html](https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html).
-7. you are a good person: [https://geohot.github.io/blog/jekyll/update/2025/09/02/you-are-a-good-person.html](https://geohot.github.io/blog/jekyll/update/2025/09/02/you-are-a-good-person.html).
-8. Wireheading city: [https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).
-9. idiots are going to kill me: [https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html](https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html).
-10. are we the baddies: [https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html](https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html).
-11. happy brithday to me: [https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html](https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html).
-12. collective marshmallow test: [https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html](https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html).
+5. money is the map: [https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html](https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html)
+5. beauty after covid: [https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html](https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html)
+6. dangerous misinformation: [https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html](https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html)
+7. you are a good person: [https://geohot.github.io/blog/jekyll/update/2025/09/02/you-are-a-good-person.html](https://geohot.github.io/blog/jekyll/update/2025/09/02/you-are-a-good-person.html)
+8. Wireheading city: [https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html)
+9. idiots are going to kill me: [https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html](https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html)
+10. are we the baddies: [https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html](https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html)
+11. happy brithday to me: [https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html](https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html)
+12. collective marshmallow test: [https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html](https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html)
    
 * [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).
 * [Luke Smith](https://lukesmith.xyz).
