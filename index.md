@@ -79,7 +79,8 @@ Here's a rewritten version of your statement:
 9. idiots are going to kill me: [https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html](https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html)
 10. are we the baddies: [https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html](https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html)
 11. happy brithday to me: [https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html](https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html)
-12. collective marshmallow test: [https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html](https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html)
+12. collective marshmallow test: [https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html](https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html)   
+13. a way forward: [https://geohot.github.io/blog/jekyll/update/2025/04/22/a-way-forward.html](https://geohot.github.io/blog/jekyll/update/2025/04/22/a-way-forward.html)
    
 * [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).
 * [Luke Smith](https://lukesmith.xyz).
