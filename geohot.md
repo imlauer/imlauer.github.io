@@ -295,4 +295,52 @@ No contienen referencias directas nuevas; "Vampire Attack" es una estrategia com
 - **Impacto**: Argumenta que esto destruye valor real, proponiendo alternativas honestas (ej. open source, productos reales).
 - **Exhaustividad**: Revisé el texto completo (truncado en ~425k chars, pero cubre todos los posts listados). No hay más instancias obvias. Si necesitas expansión en alguna, avísame.
 
+--------------------------------------------------------------------
+
+
+### Technology, AI, and Hardware
+
+*   **AI Compute & Timeline:** A desktop computer is projected to match human cognitive capability in about **15 years**, and a mobile phone in 25 years. The author defines one "person of compute" (human brain power) as approximately **20 PFLOPS**.
+*   **AI Control and Safety:** The AI Control Problem is fundamentally a **political problem**, not a mathematical one. AGI is defined as a machine capable of taking (almost) any human job, implying it must be capable of learning.
+*   **AI Architecture:** The author supports the idea that **compression is prediction is intelligence**. While opposing rigid hand-coding (the "Bitter Lesson"), the author agrees that modeling AI agents on specific human brain components (neocortex, hippocampus, etc.) may be useful for creating "knock-off humans".
+*   **AI Coding Critique:** AI programming tools should be viewed as compilers. Natural language (English) is criticized as a poor input for coding due to its lack of precision and non-deterministic nature compared to formal languages.
+*   **AI Chip Industry Critique & Correction:** Many AI chip startups are criticized as wildly overcapitalized without product-market fit or revenue. The initial criticism of architectures like Groq and Graphcore was their reliance on pushing complexity to complex compilers, similar to past failures like Itanium. However, the author later corrected this view, noting that for **deep learning**, complex compilers and very long instruction word (VLIW) architectures are appropriate because the operations are non-data-dependent and highly repetitive. **Data locality** is considered key to power efficiency in chip design.
+*   **tiny corp and tinygrad:** The goal of the newly started *the tiny corp* company is to **"commoditize the petaflop"**. *tinygrad* is an open-source deep learning framework aiming for simplicity (under 25k lines) and speed, intending to replace or compete with larger frameworks like PyTorch and JAX. The company is working to build a fully **sovereign software stack for AMD chips** (like the MI300X) to challenge NVIDIA's dominance.
+
+### Self-Driving Cars and comma.ai
+
+*   **comma.ai Status:** The company has been operating for 10 years, is profitable, and is growing rapidly, succeeding where most competitors failed and took billions of dollars.
+*   **Author's Involvement:** The author is taking time away from comma.ai, feeling the self-driving problem is largely "planned out" and that it only remains to see if the plan works.
+*   **Philosophy:** comma.ai uses an **end-to-end learning** approach and views explicit references to features like lanes in code as an "original sin," preferring the model to learn from real-world data. Driving is considered the best current applied AI problem, simpler than tasks like cleaning a house.
+
+### Social, Political, and Economic Philosophy
+
+*   **Societal Critique:** The social fabric of America is believed to be "torn to shreds". The modern world is characterized by **fake and zero-sum experiences**, with survival being a "technocratic plod".
+*   **The Professional Managerial Class (PMC):** This class is highly criticized as unproductive and engaged in zero-sum games within organizations. Up to **73% of US jobs** are categorized as Group 1, which do not contribute to overall money creation, suggesting a contributing factor to the decline of the US economy.
+*   **Proposed Solutions:** The author advocates for removing the PMC from power, suggesting they should be given pensions and creature comforts ("wireheaded") but forbidden from exercising power or influencing society.
+*   **Consumerism and Advertising:** The author proposes to **abolish the consumer class**. Advertising is criticized as a zero-sum, manipulative game and should be heavily taxed (e.g., 500%) or made illegal. The use of advanced AI for subtle manipulation (**"nudge"**) in everyday social interactions is a major concern.
+*   **Money and Growth:** Money is only a **"map, it is not a territory"**. An economic system is successful only if it effectively deploys capital for real economic growth ("make the pie bigger"), not based on moral justifications or distribution.
+*   **Wokeism:** This ideology is defined as prioritizing **equality of outcome**. It relies on tactics resembling the Inquisition to enforce its narrative and suppress contradictory findings (such as those challenging the idea of a "blank slate").
+*   **Political Decentralization:** The core strategy for the future is to build **technology without industry**. This means replacing the useful functions of the state (electricity, food, healthcare, protection) with locally controlled, decentralized machines, leading to the state withering and dying by disruption.
+*   **Wireheading City Proposal:** An entirely voluntary, opt-in special economic zone providing **free basic needs** (food, shelter, entertainment, basic medicine) and **free drugs** (including meth, heroin, and weed) for those who wish to exit mainstream society or are homeless. Citizens in this state would renounce their status and political influence.
+*   **Extreme Acceleration (nuke/acc):** The use of nuclear weapons is treated as an inevitable "Chekhov's gun". Accelerating this event (*nuke/acc*) could force complex systems to decentralize and become more robust.
+
+### Narrative Elements (John and Operant)
+
+*   **John:** The protagonist is avoiding contact after Detective James Reese of the Nassau County Police left him a business card.
+*   **Missing Mother:** John's mother disappeared, leaving a suspicious note claiming she went to the Hamptons. John discovered the associated email for her car's tracker had been changed to *skinner666@gmail.com*.
+*   **The Investigation:** John's friend, Dave, helped investigate the car's last known whereabouts using a commercial "data marketplace" for dashcam footage. Dave's brother, Tom Park, committed suicide while working at the company **Operant**.
+*   **Operant's Function:** Detective Reese is investigating Operant for corporate espionage and its connection to Tom Park's death. Operant specializes in subtly influencing human behavior through environmental adjustments (HVAC, lights, elevator "door nudges") to make actions look like predictions, a technique called **"nudge"**. John's father also previously worked at Operant and "kind of went crazy".
+
+
+
+
+
+
+
+
+
+
+
+
 [Volver inicio](/)
