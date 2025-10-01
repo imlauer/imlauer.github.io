@@ -57,7 +57,8 @@ School blocks real education.
 Here's a rewritten version of your statement:
 * I believe most of **social media influencers are psychopaths** that are willing to promote any scam like VPN scams and online gambling, in order to profit from their followers. 
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
-   
+* I read news through RSS with `newsraft`.
+
 ---   
 
 ### People who I look up to
