@@ -85,8 +85,7 @@ Here's a rewritten version of your statement:
 * [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).
 * [Luke Smith](https://lukesmith.xyz).
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
-* Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [Instagram-Stories-Viewer (requires javascript)](https://insta-stories-viewer.com/stricklandmma), [1](https://www.youtube.com/embed/rGMQXNUpJo8), [2](https://www.youtube.com/embed/hNc6u7gaL4Q).
-* Alex Story from Cancerslug: [1](https://www.youtube.com/embed/Jaf-R6kyXVU), [2](https://www.youtube.com/embed/ZV_Hga8f5D4), [3](https://www.youtube.com/embed/1bP4plDxYBY), [4](https://www.youtube.com/embed/fuIh2IaW_ng).
+* Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss).
 * Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Embarrasses Old Ladies with his Question](https://www.youtube.com/embed/GPFXUVv1s1w), [Reckful Archive](https://reckful-archive.org/).
 
 ---
