@@ -4,8 +4,6 @@ date: 2025-04-08T21:45:57-03:00
 ---
 I was born in Argentina. I studied Computer Science from Universidad Nacional de Rosario. Now I'm studying electricity.   
    
-I've been doing various minimum wage jobs such as cleaning, computer repair and camera installation.   
-   
 My online nicks are esotericwarfare, atavistic11.   
    
 Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
