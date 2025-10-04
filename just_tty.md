@@ -152,7 +152,7 @@ ffmpeg -f alsa -i pipewire -f fbdev -r 30 -i /dev/fb0 record.mp4
     *   You need to use `GPM` to have mouse support in the TTY: `sudo systemctl start gpm`.  
   
 *   **Copy and Paste Text from Graphical Browser:**  
-    *   This is the solution I use I'm sure there's better: I use `privatebin`, to copy text (e.g., from `qutebrowser`), paste it into `privatebin`, and then save the paste to a file.    
+    *   This is the solution I use I'm sure there's better: I use `butterfly` a web terminal, to copy text (e.g., from `qutebrowser`), paste it into `vim` in  butterfly.
 
 My current alias for web-browsing:
 
