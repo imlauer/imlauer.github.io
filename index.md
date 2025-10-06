@@ -84,7 +84,7 @@ Here's a rewritten version of your statement:
 * [Luke Smith](https://lukesmith.xyz).
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
 * Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss).
-* Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Embarrasses Old Ladies with his Question](https://www.youtube.com/embed/GPFXUVv1s1w), [Reckful Archive](https://reckful-archive.org/).
+* Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
 
 ---
    
