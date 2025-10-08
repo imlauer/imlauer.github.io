@@ -3,6 +3,30 @@ title: "TTY, Linux Framebuffer, EGLFS and SDL - Without the weight of Xorg or Wa
 date: 2025-09-13
 ---
 
+Currently, I'm only using EGLFS with ttyd, I start my browser with the following script:
+
+
+```bash
+#!/bin/bash
+sudo chmod 666 /dev/input/event*
+
+ttyd --port 2020 --writable fish & 
+
+falkon "http://localhost:2020"
+```
+
+And in `.config/fish/config.fish` I had:
+
+```bash
+if test -z "$TMUX" -a $XDG_VTNR = 1
+  tmux attach || exec tmux new-session
+end
+export QT_QPA_PLATFORM=eglfs  
+export XKB_DEFAULT_LAYOUT=es
+set -U fish_greeting
+```
+
+
 #### **1. TTY Environment Setup**  
   
 For efficient management of your terminals and processes, it is essential to use a terminal multiplexer.  
@@ -152,7 +176,7 @@ ffmpeg -f alsa -i pipewire -f fbdev -r 30 -i /dev/fb0 record.mp4
     *   You need to use `GPM` to have mouse support in the TTY: `sudo systemctl start gpm`.  
   
 *   **Copy and Paste Text from Graphical Browser:**  
-    *   This is the solution I use I'm sure there's better: I use `butterfly` a web terminal, to copy text (e.g., from `qutebrowser`), paste it into `vim` in  butterfly.
+    *   This is the solution I use I'm sure there's better: I use `ttyd` a web terminal, to copy text (e.g., from `qutebrowser`), paste it into `vim` in  ttyd.
 
 My current alias for web-browsing:
 
