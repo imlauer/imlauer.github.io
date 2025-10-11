@@ -98,11 +98,11 @@ Here's a rewritten version of your statement:
    
 #### Some things I like (no particular order):   
    
-ranting, computers, c, programming, software, electricity.
+decentralization, ranting, computers, c, programming, software, electricity.
    
 #### Some things I dislike (disliking people doesn't contradict loving them):   
    
-ads, cheesy positivity, political correctness, memorizing without understanding, boredom, dishonesty, fake people, being stuck, not improving, cliché phrases, acting normal.   
+centralization, ads, feminism, cheesy positivity, political correctness, boredom, fake people, being stuck, not improving, cliché phrases, acting normal.   
    
 ---   
    
