@@ -129,7 +129,7 @@ During my free time, I like working on various technology and non-technology pro
 * **email client**: neomutt with mw (mutt wizard by luke smith).   
 * **video editor**: ffmpeg.   
 * **audio editor**: Audacity.   
-* **screen recording**: ffmpeg, Simple Screen Recorder, obs.   
+* **screen recording**: ffmpeg, Simple Screen Recorder, sometimes I use obs (these idiots signed the letter against Richard Stallman) :(
 * **programming**: C99, Python, bash.   
 * **personal transport**: a bike.   
    
