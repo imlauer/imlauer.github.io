@@ -61,9 +61,15 @@ Here's a rewritten version of your statement:
 
 ### People who I look up to
 
+* Richard Stallman.
 * George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). 
+* Vegan Gains: I learnt a lot of English watching his stupid videos.
+* Luke Smith.
+* Tsoding.
 
-##### Articles I recommend reading from his blog:   
+---
+
+### Articles I recommend reading from his blog:   
 
 1. Class Warfare: [https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
 2. Pieces of shit: [https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)
@@ -131,7 +137,7 @@ During my free time, I like working on various technology and non-technology pro
    
 #### If you're a billionaire and want to give me 5 kg of gold (enough to make me financially independent for the rest of my life) that would be nice.
 
-##### BTC: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3
+#### BTC: [bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3](https://blockstream.info/address/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3).
    
 ---   
    
