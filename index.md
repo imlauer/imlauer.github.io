@@ -168,4 +168,8 @@ This site was generate with [markdown](/markdown.html) and pandoc:
    
 ```bash   
 pandoc -s index.md -o index.html   
+
+o
+
+cmark index.md | tee index.html
 ```   
