@@ -50,6 +50,7 @@ School blocks real education.
 * Financing with advertising is equivalent to financing with taxes. Advertising should be illegal and most education is useless; public university is a scam.
 * In poor countries the struggle is not against nature but against zero-sum games and scams. Real economic growth is only about 3% — any gain above that often means someone else loses.
 * For marketing, truth doesn't matter—only what sells and raises stock prices. YouTube removed dislikes and promotes shorts to show ads. Then they "worry" and remove videos for being "false". 
+* Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://www.youtube.com/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
 * Statistics are a new form of advertising.   
 * For Zoomers a mail client is an "app".   
 * Vibecoding is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
