@@ -85,7 +85,7 @@ Here's a rewritten version of your statement:
 
 ### Advertising and Economic Exploitation
 
-*   **Advertising should be illegal** because it is a form of abusing and taking advantage of "stupid people" ("giles").
+*   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
 *   Most "tech companies" are fundamentally **advertising companies**.
 *   Companies like Facebook/Meta use the most advanced AI in the world to train people's brains to consume advertising and become addicted to their screens.
 *   Facebook "gives away" cell phones in poor countries, recovering the cost through advertising, which is viewed as a form of abuse.
