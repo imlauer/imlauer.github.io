@@ -67,7 +67,6 @@ Here's a rewritten version of your statement:
 *   The system measures *how much you question* what you are told to do.
 *   Schools destroy autonomy, which in turn destroys intelligence.
 *   When a student uses Artificial Intelligence (AI) for homework, they demonstrate a lack of **motivation** or interest in the subject matter, which is the true problem.
-*   The author's specific university course, LCC, is deemed a waste of time and useless.
 *   University education is a **zero-sum game** that serves no beneficial purpose to society.
 
 ---
