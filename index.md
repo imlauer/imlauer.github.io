@@ -137,7 +137,7 @@ During my free time, I like working on various technology and non-technology pro
    
 #### If you're a billionaire and want to give me 5 kg of gold (enough to make me financially independent for the rest of my life) that would be nice.
 
-#### BTC: [bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3](https://blockstream.info/address/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3)
+#### BTC: [bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3](https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3)
    
 ---   
    
