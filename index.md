@@ -208,6 +208,7 @@ During my free time, I like working on various technology and non-technology pro
 * [George Hotz' Blog](https://geohot.github.io/blog)   
 * [Marginalia](https://explore2.marginalia.nu/)   
 * [Wiby](https://wiby.me)   
+* [LibreX](https://github.com/hnhx/librex/)
 * [No-JS](https://no-js.club/)   
 * [Based or Botnet](https://based-or-botnet.neocities.org/search_engines)
 * [Curso Electricidad](https://cursoelectricidad.github.io/)   
