@@ -59,6 +59,48 @@ Here's a rewritten version of your statement:
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
 * I read news through RSS with `newsraft`.
 
+
+
+### Critique of Education and Intelligence
+
+*   **Intelligence is genetic**, and one cannot study to become intelligent; access to information is already available.
+*   The "educational system" (schools and universities) does **not measure intelligence**. Instead, they measure an individual's **level of compliance or "slave status"**.
+*   The system measures *how much you question* what you are told to do.
+*   Schools destroy autonomy, which in turn destroys intelligence.
+*   When a student uses Artificial Intelligence (AI) for homework, they demonstrate a lack of **motivation** or interest in the subject matter, which is the true problem.
+*   The author's specific university course, LCC, is deemed a waste of time and useless.
+*   University education is a **zero-sum game** that serves no beneficial purpose to society.
+
+### Technology: Centralization vs. Decentralization
+
+*   **True technology is decentralized**. Decentralized technology gives power over money and data to the individual.
+*   Examples of true decentralized technology include the original Internet, email (SMTP), torrents, and Bitcoin (in its original form).
+*   **"Centralized technology" is anti-technology** and leads to **slavery**. Centralization gives power over money and data to the corporation.
+*   Centralized AI will make humanity slaves; therefore, technology must be decentralized.
+*   **There is no money in true decentralized technology**. Companies hate decentralized technology because they cannot profit from it.
+*   "Tech companies" (BigTech) realized they couldn't make money from decentralized systems, so they began to centralize everything, which is their true objective.
+*   Examples of centralized anti-technology include Discord, Slack, Twitter, Instagram, YouTube, Facebook/Meta, Netflix, Spotify, and banks selling Bitcoin.
+*   Many "technological" companies intentionally **worsen their products** (e.g., Google search results, MercadoLibre filters) in order to earn more money.
+*   The original purpose of **Bitcoin was to destroy banks and evade taxes**. The fact that banks now sell Bitcoin demonstrates they are working against the technology's initial goals.
+
+### Advertising and Economic Exploitation
+
+*   **Advertising should be illegal** because it is a form of abusing and taking advantage of "stupid people" ("giles").
+*   Most "tech companies" are fundamentally **advertising companies**.
+*   Companies like Facebook/Meta use the most advanced AI in the world to train people's brains to consume advertising and become addicted to their screens.
+*   Facebook "gives away" cell phones in poor countries, recovering the cost through advertising, which is viewed as a form of abuse.
+*   Activities that are **"zero-sum games"** (not creating value, only extracting it) should be heavily taxed or outlawed. These include: advertising, marketing, finance, rentals/real estate, reselling, journalism, and tip applications.
+*   Mark Zuckerberg should close Facebook and collect welfare (*plan social*) because his work does not serve society, but rather aims to make people addicted to advertising.
+
+### Social and Political Criticism
+
+*   The entire society is influenceable; **free will does not exist**.
+*   The Professional Managerial Class (PMC) is seen as unproductive, engaging in zero-sum games, and should be removed from power.
+*   The goal of technology should be to replace the useful functions of the State with locally controlled machines, causing the **State to weaken and die by disruption**.
+*   The system rewards those who create "traps for humans," not those who help others.
+*   The State, the church, and the universities should be separated.
+*   One should **never trust Hollywood**, as it will use and break you.
+
 ---   
 
 ### People who I look up to
