@@ -159,6 +159,7 @@ During my free time, I like working on various technology and non-technology pro
 * [My Blog](https://imlauera.github.io)   
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html)   
 * [DigDeeper](https://digdeeper.love/)   
+* [SecretOnions](https://secretonions.neocities.org/)
 * [SpyWare](https://spyware.neocities.org/articles/)   
 * [How to drop out](http://ranprieur.com/essays/dropout.html)   
 * [BasedSites](https://basedsites.neocities.org)   
