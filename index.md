@@ -60,9 +60,7 @@ Here's a rewritten version of your statement:
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
 * I read news through RSS with `newsraft`.
 
-
-
-### Critique of Education and Intelligence
+---
 
 *   **Intelligence is genetic**, and one cannot study to become intelligent; access to information is already available.
 *   The "educational system" (schools and universities) does **not measure intelligence**. Instead, they measure an individual's **level of compliance or "slave status"**.
@@ -72,7 +70,7 @@ Here's a rewritten version of your statement:
 *   The author's specific university course, LCC, is deemed a waste of time and useless.
 *   University education is a **zero-sum game** that serves no beneficial purpose to society.
 
-### Technology: Centralization vs. Decentralization
+---
 
 *   **True technology is decentralized**. Decentralized technology gives power over money and data to the individual.
 *   Examples of true decentralized technology include the original Internet, email (SMTP), torrents, and Bitcoin (in its original form).
@@ -84,7 +82,7 @@ Here's a rewritten version of your statement:
 *   Many "technological" companies intentionally **worsen their products** (e.g., Google search results, MercadoLibre filters) in order to earn more money.
 *   The original purpose of **Bitcoin was to destroy banks and evade taxes**. The fact that banks now sell Bitcoin demonstrates they are working against the technology's initial goals.
 
-### Advertising and Economic Exploitation
+---
 
 *   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
 *   Most "tech companies" are fundamentally **advertising companies**.
@@ -93,7 +91,7 @@ Here's a rewritten version of your statement:
 *   Activities that are **"zero-sum games"** (not creating value, only extracting it) should be heavily taxed or outlawed. These include: advertising, marketing, finance, rentals/real estate, reselling, journalism, and tip applications.
 *   Mark Zuckerberg should close Facebook and collect welfare (*plan social*) because his work does not serve society, but rather aims to make people addicted to advertising.
 
-### Social and Political Criticism
+---
 
 *   The entire society is influenceable; **free will does not exist**.
 *   The Professional Managerial Class (PMC) is seen as unproductive, engaging in zero-sum games, and should be removed from power.
