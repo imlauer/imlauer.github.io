@@ -203,6 +203,7 @@ During my free time, I like working on various technology and non-technology pro
 * [DigDeeper](https://digdeeper.love/)   
 * [SecretOnions](https://secretonions.neocities.org/)
 * [ZLibrary](https://z-library.la)
+* [RexResearch1](https://rexresearch1.com/)
 * [SpyWare](https://spyware.neocities.org/articles/)   
 * [How to drop out](http://ranprieur.com/essays/dropout.html)   
 * [BasedSites](https://basedsites.neocities.org)   
