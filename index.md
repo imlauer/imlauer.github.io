@@ -104,11 +104,11 @@ Here's a rewritten version of your statement:
    
 #### Some things I like (no particular order):   
    
-decentralization, ranting, programming, c, suckless software, maybe electricity.
+decentralization, free software, ranting, programming, c, suckless software, maybe electricity.
    
 #### Some things I dislike (disliking people doesn't contradict loving them):   
    
-centralization, ads, feminism, cheesy positivity, political correctness, boredom, phony people, being stuck, not improving, cliché phrases, acting normal.   
+centralization, ads, feminism, cheesy positivity, political correctness, boredom, phony people, being stuck, not improving, cliché phrases, acting normal, copyright, proprietary software. 
    
 ---   
    
