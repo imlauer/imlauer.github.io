@@ -63,9 +63,6 @@ Here's a rewritten version of your statement:
 
 * Richard Stallman.
 * George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). 
-* Vegan Gains: I learnt a lot of English watching his stupid videos.
-* Luke Smith.
-* Tsoding.
 
 ---
 
@@ -86,11 +83,12 @@ Here's a rewritten version of your statement:
 12. [collective marshmallow test](https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html)   
 13. [a way forward](https://geohot.github.io/blog/jekyll/update/2025/04/22/a-way-forward.html)
    
-* [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).
+* [Vegan Gains](https://www.youtube.com/channel/UCr2eKhGzPhN5RPVk5dd5o3g): I learnt a lot of English watching his stupid videos. This [channel](https://www.youtube.com/channel/UCoRKQ5h9mAfiXhvSrHggtVw) uploads his streams because you have to pay to watch them.     
+* [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).  
 * [Luke Smith](https://lukesmith.xyz).
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
-* Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss).
 * Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
+* Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss).
 
 ---
    
