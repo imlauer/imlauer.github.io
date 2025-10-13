@@ -157,6 +157,7 @@ During my free time, I like working on various technology and non-technology pro
 * open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)
 * [My Blog](https://imlauera.github.io)   
+* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html)   
 * [DigDeeper](https://digdeeper.love/)   
 * [SecretOnions](https://secretonions.neocities.org/)
