@@ -8,6 +8,8 @@ My online nicks are esotericwarfare, atavistic11.
    
 Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
    
+This website was inspired by [TastyFish](http://www.tastyfish.cz) lol.
+
 #### Fun facts about me:   
    
 * I used to study computer science but dropped it.   
