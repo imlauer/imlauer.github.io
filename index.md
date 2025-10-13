@@ -18,7 +18,7 @@ This website was inspired by [TastyFish](http://www.tastyfish.cz) lol.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
 * Public Universities are taxpayer-funded scams.   
-* Feminism is a male construct designed to oppress other men.   
+* Javascript was a mistake.
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Civilization will end in a decade or two.   
 * Free will doesn't exist.   
