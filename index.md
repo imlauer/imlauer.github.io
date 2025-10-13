@@ -95,11 +95,9 @@ Here's a rewritten version of your statement:
 ---
 
 *   The entire society is influenceable; **free will does not exist**.
-*   The Professional Managerial Class (PMC) is seen as unproductive, engaging in zero-sum games, and should be removed from power.
 *   The goal of technology should be to replace the useful functions of the State with locally controlled machines, causing the **State to weaken and die by disruption**.
 *   The system rewards those who create "traps for humans," not those who help others.
 *   The State, the church, and the universities should be separated.
-*   One should **never trust Hollywood**, as it will use and break you.
 
 ---   
 
