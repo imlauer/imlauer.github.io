@@ -10,7 +10,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
    
 ---
 
-#### Fun facts about me:   
+#### Some facts:
    
 * I used to study computer science but dropped it.   
 * I am studying electricity because I like things that can actually shock me, not just bore me.   
@@ -22,8 +22,9 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Civilization will end in a decade or two.   
 * Free will doesn't exist.   
-* Ads should be illegal? Advertising is like fishing, but you're the one who ends up getting caught.
-* Bitcoin's value is purely "human stupidity".   
+* Ads should be illegal. Advertising is like fishing, but you're the one who ends up getting caught.
+* Today, the internet is flooded with ads and manipulation, but "tech companies" claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.
+* **Bitcoin's value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
 * Voting is pointless: zero sum games are the problem and I don't see any politician talking about it.    
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
