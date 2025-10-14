@@ -197,6 +197,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)
 * [My Blog](https://imlauera.github.io)   
 * [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)
+* [leta.mullvad.net](https://leta.mullvad.net)
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html)   
 * [DigDeeper](https://digdeeper.love/)   
 * [SecretOnions](https://secretonions.neocities.org/)
