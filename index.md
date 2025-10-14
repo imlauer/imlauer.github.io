@@ -192,7 +192,7 @@ During my free time, I like working on various technology and non-technology pro
    
 #### Some links   
    
-* open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).
+* Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)
 * [My Blog](https://imlauera.github.io)   
@@ -204,7 +204,7 @@ During my free time, I like working on various technology and non-technology pro
 * [ZLibrary](https://z-library.la)
 * [RexResearch1](https://rexresearch1.com/)
 * [SpyWare](https://spyware.neocities.org/articles/)   
-* [How to drop out](http://ranprieur.com/essays/dropout.html)   
+* [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)    
 * [BasedSites](https://basedsites.neocities.org)   
 * [George Hotz' Blog](https://geohot.github.io/blog)   
 * [Marginalia](https://explore2.marginalia.nu/)   
