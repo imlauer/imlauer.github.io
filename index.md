@@ -208,6 +208,7 @@ During my free time, I like working on various technology and non-technology pro
 * [SpyWare](https://spyware.neocities.org/articles/)   
 * [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)    
 * [BasedSites](https://basedsites.neocities.org)   
+* [LurkMore](http://lurkmore.com/)
 * [George Hotz' Blog](https://geohot.github.io/blog)   
 * [Marginalia](https://explore2.marginalia.nu/)   
 * [Wiby](https://wiby.me)   
