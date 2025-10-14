@@ -110,7 +110,8 @@ Here's a rewritten version of your statement:
 ### Articles I recommend reading from his blog:   
 
 1. [Class Warfare](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
-2. [Pieces of shit](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)
+2. [Sell outs](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)
+2. [Pieces of shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html)
 3. [consumer class divide](https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html)
 4. [demoralization is just beginning](https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html): **Back the dollar by gold** (not socially constructed crypto), and bring major crackdowns to finance to tie it to real world value. Trading is not a job. Passive income is not a thing. Instead, go produce something real and exchange it for gold.
 5. [money is the map](https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html)
