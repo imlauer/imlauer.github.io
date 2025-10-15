@@ -194,7 +194,7 @@ During my free time, I like working on various technology and non-technology pro
 #### Education   
    
 * I used to study computer science but dropped it.   
-* I'm studying electrician.  
+* I'm studying electricity.  
    
 ---   
    
