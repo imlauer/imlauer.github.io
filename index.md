@@ -135,6 +135,11 @@ Here's a rewritten version of your statement:
 * Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss): _"I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it"_
 
 ---
+
+### Music
+
+* Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4).
+
    
 ### Contacts and social media:   
    
@@ -188,7 +193,7 @@ During my free time, I like working on various technology and non-technology pro
 #### Education   
    
 * I used to study computer science but dropped it.   
-* I'm a licensed electrician   
+* I'm studying electrician.  
    
 ---   
    
