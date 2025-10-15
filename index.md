@@ -233,5 +233,6 @@ o
 cmark index.md | tee index.html
 ```   
 
-This website was inspired by [TastyFish](http://www.tastyfish.cz) lol.
+This website was inspired by [TastyFish](http://www.tastyfish.cz).     
+[TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png).
 

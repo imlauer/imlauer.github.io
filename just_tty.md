@@ -189,3 +189,13 @@ alias doom 'cd doom; bash play_doom.sh;'
 alias rcommandline "w3m old.reddit.com/r/commandline"
 alias google 'w3m  google.com'
 ```
+
+#### Upload files from tty to archive.
+
+```bash
+python -m venv internetarchive
+pip install internetarchive
+source internetarchive/bin/activate.fish
+ia upload tag *.jpg
+ia metadata tag
+```
