@@ -225,7 +225,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Reparación Electromésticos](https://cursoelectrodomesticos.github.io/)   
 * [Aire Acondicionado](https://cursoaa.github.io/)   
 * [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)
-* [Tastyfish talking about suckless software](https://youtube.com/watch?v=SJmEWLGpqeY)
+* [Tastyfish talking about freedom(suckless software)](https://youtube.com/watch?v=SJmEWLGpqeY)
    
 ---   
    
