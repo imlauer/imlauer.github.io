@@ -218,6 +218,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Curso Electricidad](https://cursoelectricidad.github.io/)   
 * [Reparación Electromésticos](https://cursoelectrodomesticos.github.io/)   
 * [Aire Acondicionado](https://cursoaa.github.io/)   
+* [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)
    
 ---   
    
