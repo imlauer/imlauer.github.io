@@ -231,7 +231,7 @@ During my free time, I like working on various technology and non-technology pro
    
 Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).   
    
-This site was generate with [markdown](/markdown.html) and pandoc:   
+This site was generate with [markdown](/markdown.html) and cmark (_you can also use pandoc_):   
    
 ```bash   
 pandoc -s index.md -o index.html   
@@ -243,4 +243,3 @@ cmark index.md | tee index.html
 
 This website was inspired by [TastyFish](http://www.tastyfish.cz).     
 [Image: TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png). _Previously I asked him how to make an "illegal" streaming site lol_.
-
