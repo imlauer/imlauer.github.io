@@ -4,7 +4,7 @@ date: 2025-04-08T21:45:57-03:00
 ---
 I was born in Argentina. I studied Computer Science from Universidad Nacional de Rosario. Now I'm studying electricity.   
    
-My online nicks are esotericwarfare, atavistic11.   
+My online nicknames are esotericwarfare, atavistic11.   
    
 Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
    
@@ -18,14 +18,14 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
 * Public Universities are taxpayer-funded scams.   
-* Javascript was a mistake.
+* Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, badwolf, netsurf.   
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
-* Civilization will end in a decade or two.   
 * Free will doesn't exist.   
 * Ads should be illegal. Advertising is like fishing, but you're the one who ends up getting caught.
 * Today, the internet is flooded with ads and manipulation, but "tech companies" claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.
 * **Bitcoin's value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
 * Voting is pointless: zero sum games are the problem and I don't see any politician talking about it.    
+* Modern games were created to sell expensive hardware to dumb people.
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
