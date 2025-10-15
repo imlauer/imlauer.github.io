@@ -187,7 +187,7 @@ alias wiby "w3m http://wiby.org"
 alias news "netsurf-fb -f sdl -w 1366 -h 768 news.ycombinator.com"
 alias doom 'cd doom; bash play_doom.sh;'
 alias rcommandline "w3m old.reddit.com/r/commandline"
-alias google 'w3m  google.com'
+alias google 'w3m https://leta.mullvad.net/search?q=google&engine=google'
 ```
 
 #### Upload files from tty to archive.

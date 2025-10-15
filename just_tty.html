@@ -506,6 +506,14 @@ class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href=
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> news <span class="st">&quot;netsurf-fb -f sdl -w 1366 -h 768 news.ycombinator.com&quot;</span></span>
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> doom <span class="st">&#39;cd doom; bash play_doom.sh;&#39;</span></span>
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> rcommandline <span class="st">&quot;w3m old.reddit.com/r/commandline&quot;</span></span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> google <span class="st">&#39;w3m  google.com&#39;</span></span></code></pre></div>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="bu">alias</span> google <span class="st">&#39;w3m https://leta.mullvad.net/search?q=google&amp;engine=google&#39;</span></span></code></pre></div>
+<h4 id="upload-files-from-tty-to-archive.">Upload files from tty to
+archive.</h4>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> venv internetarchive</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install internetarchive</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="bu">source</span> internetarchive/bin/activate.fish</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="ex">ia</span> upload tag <span class="pp">*</span>.jpg</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="ex">ia</span> metadata tag</span></code></pre></div>
 </body>
 </html>
