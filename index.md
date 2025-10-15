@@ -234,5 +234,5 @@ cmark index.md | tee index.html
 ```   
 
 This website was inspired by [TastyFish](http://www.tastyfish.cz).     
-[TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png).
+[Capture: TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png). _Previously I asked him how to make an "illegal" streaming site lol_.
 
