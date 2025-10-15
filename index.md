@@ -205,6 +205,7 @@ During my free time, I like working on various technology and non-technology pro
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)
 * [My Blog](https://imlauera.github.io)   
+* [oldskool.s-config.com](http://oldskool.s-config.com)
 * [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)
