@@ -189,6 +189,7 @@ alias doom 'cd doom; bash play_doom.sh;'
 alias rcommandline "w3m old.reddit.com/r/commandline"
 alias google 'w3m https://leta.mullvad.net/search?q=google&engine=google'
 alias images="w3m https://pinterest.lurkmore.com/"
+alias lyrics="w3m https://genius.lurkmore.com/"
 ```
 
 #### Upload files from tty to archive.
