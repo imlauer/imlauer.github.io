@@ -129,7 +129,7 @@ Here's a rewritten version of your statement:
    
 ---
 
-* [Vegan Gains](https://www.youtube.com/channel/UCr2eKhGzPhN5RPVk5dd5o3g): I learnt a lot of English watching his stupid videos. This [channel](https://www.youtube.com/channel/UCoRKQ5h9mAfiXhvSrHggtVw) uploads his streams because you have to pay to watch them.     
+* [Vegan Gains](https://www.youtube.com/channel/UCr2eKhGzPhN5RPVk5dd5o3g): I learnt a lot of English watching his stupid videos. This [channel](https://www.youtube.com/channel/UCoRKQ5h9mAfiXhvSrHggtVw) uploads his streams because you have to pay to watch them. [This](https://www.youtube.com/embed/eHJet_hathc) video is funny.     
 * [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).  
 * [Luke Smith](https://lukesmith.xyz).
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
