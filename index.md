@@ -19,6 +19,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
 * Public Universities are taxpayer-funded scams.   
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, badwolf, netsurf.   
+* **The best method to find out if something is free: disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Free will doesn't exist.   
 * Ads should be illegal. Advertising is like fishing, but you're the one who ends up getting caught.
@@ -212,6 +213,7 @@ During my free time, I like working on various technology and non-technology pro
 * [DigDeeper](https://digdeeper.love/)   
 * [SecretOnions](https://secretonions.neocities.org/)
 * [ZLibrary](https://z-library.la)
+* [NixOS Made Me Lose My Wife](https://archive.is/wip/Mtu5s)
 * [RexResearch1](https://rexresearch1.com/)
 * [SpyWare](https://spyware.neocities.org/articles/)   
 * [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)    
