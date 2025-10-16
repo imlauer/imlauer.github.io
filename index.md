@@ -173,8 +173,8 @@ During my free time, I like working on various technology and non-technology pro
 * **memory**: 3.70 GiB    
 * **cell phone**: Moto G4.      
 * **keyboard**: [Ajazz (AK33)](https://vas.neocities.org/pics/ak33_vs_old.jpg).      
-* **mouse**: some noname generic mouse: Verbatim.      
-* **desktop**: TTY with tmux only with Qt apps without Xorg or Wayland(EGLFS).      
+* **mouse**: Verbatim.      
+* **desktop**: [TTY with tmux only with Qt apps without Xorg or Wayland(EGLFS)](/just_tty.html).      
 * **text editor**: vim.      
 * **terminal**: tty.   
 * **browser**: w3m, chawan, Falkon with EGLFS (to take a screenshot use print to pdf), QuteBrowser, NetSurf with SDL, wget, curl.   
