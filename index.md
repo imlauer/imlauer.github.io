@@ -220,6 +220,7 @@ During my free time, I like working on various technology and non-technology pro
 * [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)    
 * [BasedSites](https://basedsites.neocities.org)   
 * [LurkMore](http://lurkmore.com/)
+* [Search Engine Party](https://searchengine.party/)
 * [Searx NO-JS](https://searx.neocities.org/nojs)
 * [George Hotz' Blog](https://geohot.github.io/blog)   
 * [Marginalia](https://explore2.marginalia.nu/)   
