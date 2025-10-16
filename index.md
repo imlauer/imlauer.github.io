@@ -18,7 +18,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * Everything is a lie: news, porn, music, education, democracy. It's all manipulation.   
 * Public Universities are taxpayer-funded scams.   
-* Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, badwolf, netsurf.   
+* Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * **The best method to find out if something is free: disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Free will doesn't exist.   
