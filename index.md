@@ -220,7 +220,7 @@ During my free time, I like working on various technology and non-technology pro
 * [SpyWare](https://spyware.neocities.org/articles/)     
 * [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)      
 * [BasedSites](https://basedsites.neocities.org)     
-* Use [wiby.me](https://wiby.me) to search based neocities sites.     
+* Use [wiby.me](https://wiby.me) to search neocities sites.     
 * [LurkMore](http://lurkmore.com/)     
 * [Search Engine Party](https://searchengine.party/)  
 * [Searx NO-JS](https://searx.neocities.org/nojs)  
