@@ -195,62 +195,63 @@ During my free time, I like working on various technology and non-technology pro
    
 #### Education   
    
-* I used to study computer science but dropped it.   
-* I'm studying electricity.  
-   
----   
-   
-#### Some links   
-   
-* Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).
-* good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)
-* [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)
-* [My Blog](https://imlauera.github.io)   
-* [Thinking without google](http://oldskool.s-config.com/thinking-without-google-welcome-old-web/)
-* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)
-* [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)
-* [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)
-* [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)
-* [DigDeeper](https://digdeeper.love/)   
-* [SecretOnions](https://secretonions.neocities.org/)
-* [ZLibrary](https://z-library.la)
-* [NixOS Made Me Lose My Wife](https://archive.is/wip/Mtu5s)
-* [RexResearch1](https://rexresearch1.com/)
-* [SpyWare](https://spyware.neocities.org/articles/)   
-* [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)    
-* [BasedSites](https://basedsites.neocities.org)   
-* [LurkMore](http://lurkmore.com/)
-* [Search Engine Party](https://searchengine.party/)
-* [Searx NO-JS](https://searx.neocities.org/nojs)
-* [George Hotz' Blog](https://geohot.github.io/blog)   
-* [Marginalia](https://explore2.marginalia.nu/)   
-* [Wiby](https://wiby.me)   
-* [LibreX](https://github.com/hnhx/librex/)
-* [No-JS](https://no-js.club/)   
-* [Based or Botnet](https://based-or-botnet.neocities.org/search_engines)
-* [Curso Electricidad](https://cursoelectricidad.github.io/)   
-* [Reparación Electromésticos](https://cursoelectrodomesticos.github.io/)   
-* [Aire Acondicionado](https://cursoaa.github.io/)   
-* [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)
-* [Tastyfish talking about freedom(suckless software)](https://youtube.com/watch?v=SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).
-   
----   
-   
-Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).   
-   
-This site was generate with [markdown](/markdown.html) and cmark (_you can also use pandoc_):   
-   
-```bash   
-pandoc -s index.md -o index.html   
-
-o
-
-cmark index.md | tee index.html
-```   
-
-This website was inspired by [TastyFish](http://www.tastyfish.cz).     
-[Image: TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png). _Previously I asked him how to make an "illegal" streaming site lol_.
-
----
-
-No rights reserved - Fuck copyright
+* I used to study computer science but dropped it.     
+* I'm studying electricity.    
+     
+---     
+     
+#### Some links     
+     
+* Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
+* good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
+* [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
+* [My Blog](https://imlauera.github.io)     
+* [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
+* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)  
+* [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)  
+* [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
+* [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)  
+* [DigDeeper](https://digdeeper.love/)     
+* [SecretOnions](https://secretonions.neocities.org/)  
+* [ZLibrary](https://z-library.la)  
+* [NixOS Made Me Lose My Wife](https://archive.is/wip/Mtu5s)  
+* [RexResearch1](https://rexresearch1.com/)  
+* [SpyWare](https://spyware.neocities.org/articles/)     
+* [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)      
+* [BasedSites](https://basedsites.neocities.org)     
+* Use [wiby.me](https://wiby.me) to search based neocities sites.     
+* [LurkMore](http://lurkmore.com/)     
+* [Search Engine Party](https://searchengine.party/)  
+* [Searx NO-JS](https://searx.neocities.org/nojs)  
+* [George Hotz' Blog](https://geohot.github.io/blog)     
+* [Marginalia](https://explore2.marginalia.nu/)     
+* [Wiby](https://wiby.me)     
+* [LibreX](https://github.com/hnhx/librex/)  
+* [No-JS](https://no-js.club/)     
+* [Based or Botnet](https://based-or-botnet.neocities.org/search_engines)  
+* [Curso Electricidad](https://cursoelectricidad.github.io/)     
+* [Reparación Electromésticos](https://cursoelectrodomesticos.github.io/)     
+* [Aire Acondicionado](https://cursoaa.github.io/)     
+* [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)  
+* [Tastyfish talking about freedom(suckless software)](https://youtube.com/watch?v=SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
+     
+---     
+     
+Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
+     
+This site was generate with [markdown](/markdown.html) and cmark (_you can also use pandoc_):     
+     
+```bash     
+pandoc -s index.md -o index.html     
+  
+o  
+  
+cmark index.md | tee index.html  
+```     
+  
+This website was inspired by [TastyFish](http://www.tastyfish.cz).       
+[Image: TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png). _Previously I asked him how to make an "illegal" streaming site lol_.  
+  
+---  
+  
+No rights reserved - Fuck copyright  
