@@ -254,6 +254,7 @@ During my free time, I like working on various technology and non-technology pro
 * [LibreX](https://github.com/hnhx/librex/)  
 * [Install Gentoo](https://igwiki.lyci.de//wiki/Main_Page)
 * [Onion Email](https://onionmail.org/)
+* [Awesome Alternative Frontends](https://github.com/Myzel394/awesome-alternative-frontends)
 * [What The Zuck](https://whatthezuck.net/)
 * [Doxbin](https://doxbin.com/)
 * [BlackHost](https://www.blackhost.xyz/)
