@@ -182,7 +182,7 @@ During my free time, I like working on various technology and non-technology pro
    
 #### List of tech I'm using:   
    
-* **operating system**: ArchLinux.      
+* **operating system**: [ArchLinux](https://imlauera.github.io/post/instalacion_arch_basica)                
 * **cpu**: Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz   
 * **memory**: 3.70 GiB    
 * **cell phone**: Moto G4.      
