@@ -1,0 +1,15 @@
+.git/
+.github/
+node_modules/
+*.map
+*.ts
+*.tsx
+*.jsx
+*.yml
+*.yaml
+*.md
+*.zip
+*.json5
+package*
+README*
+
