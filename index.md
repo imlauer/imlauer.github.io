@@ -225,6 +225,7 @@ During my free time, I like working on various technology and non-technology pro
 * [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)  
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)  
+* [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
 * [Wikipedia is badly biased](https://larrysanger.org/2020/05/wikipedia-is-badly-biased/)
 * [I don't use or trust Wikipedia anymore](https://www.youtube.com/embed/c_Q7reJtiLU)
 * [DigDeeper](https://digdeeper.love/)     
