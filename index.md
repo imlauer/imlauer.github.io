@@ -12,7 +12,6 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 
 #### Some facts:
    
-* I love all that lives, even those that cause me pain.
 * I used to study computer science but dropped it.   
 * I am studying electricity because I like things that can actually shock me, not just bore me.   
 * Capitalism is going to die unless we ban ads and separate of church and state including universities.
@@ -63,6 +62,7 @@ Here's a rewritten version of your statement:
 * I believe most of **social media influencers are psychopaths** that are willing to promote any scam like VPN scams and online gambling, in order to profit from their followers. 
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
 * I read news through RSS with `newsraft`.
+* I love all that lives, even those that cause me pain.
 
 ---
 
