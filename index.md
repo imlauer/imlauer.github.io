@@ -7,11 +7,12 @@ I was born in Argentina. I studied Computer Science from Universidad Nacional de
 My online nicknames are esotericwarfare, atavistic11.   
    
 Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
-   
+
 ---
 
 #### Some facts:
    
+* I love all that lives, even those that cause me pain.
 * I used to study computer science but dropped it.   
 * I am studying electricity because I like things that can actually shock me, not just bore me.   
 * Capitalism is going to die unless we ban ads and separate of church and state including universities.
@@ -228,24 +229,44 @@ During my free time, I like working on various technology and non-technology pro
 * [Search Engine Party](https://searchengine.party/)  
 * [Searx NO-JS](https://searx.neocities.org/nojs)  
 * [George Hotz' Blog](https://geohot.github.io/blog)     
+* ["Big tech" is anti-tech](https://stallman.org/facebook.html)
 * [Marginalia](https://explore2.marginalia.nu/)     
 * [Wiby](https://wiby.me)     
 * [Darweb neocities](https://neocities.org/browse?tag=darkweb)
+* [TextFiles](http://textfiles.com)
 * [Deepweb neocities](https://neocities.org/browse?tag=deepweb)
 * [Security neocities](https://neocities.org/browse?tag=security)
-* [Tor neocities](https://neocities.org/browse?tag=tor)
 * [LibreX](https://github.com/hnhx/librex/)  
+* [Install Gentoo](https://igwiki.lyci.de//wiki/Main_Page)
+* [Onion Email](https://onionmail.org/)
+* [What The Zuck](https://whatthezuck.net/)
+* [Doxbin](https://doxbin.com/)
+* [BlackHost](https://www.blackhost.xyz/)
+* [Surveillance Self-Defense](https://ssd.eff.org/)
 * [No-JS](https://no-js.club/)     
 * [Based or Botnet](https://based-or-botnet.neocities.org/search_engines)  
 * [Curso Electricidad](https://cursoelectricidad.github.io/)     
-* [Reparación Electromésticos](https://cursoelectrodomesticos.github.io/)     
+* [Reparacion Electromesticos](https://cursoelectrodomesticos.github.io/)     
 * [Aire Acondicionado](https://cursoaa.github.io/)     
 * [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)  
 * [Tastyfish talking about freedom(suckless software)](https://youtube.com/watch?v=SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
+* [Tor neocities](https://neocities.org/browse?tag=tor)
+* [Azidal](https://azidal.neocities.org/)
+* [Tor Email](https://onionmail.org/)
+
+#### Privacy is not a crime: Tor.
+
+* [Tor: HiddenWiki](http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/)
+* [Tor: Daniel Tutoriales](http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/)
+* [Tor: Email](http://j3bv7g27oramhbxxuv6gl3dcyfmf44qnvju3offdyrap7hurfprq74qd.onion/)
+* [Tor: Email Sonar](http://sonarmsng5vzwqezlvtu2iiwwdn3dxkhotftikhowpfjuzg7p3ca5eid.onion/)
+* [Tor: CIA](http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion/)
+* [Tor: Recommended F-DROID apps](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/fdroid.html)
+* [Tor: WikiPage](http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/index.php)
      
 ---     
      
-Andrés Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
+Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
      
 This site was generate with [markdown](/markdown.html) and cmark (_you can also use pandoc_):     
      
