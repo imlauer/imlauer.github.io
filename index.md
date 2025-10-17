@@ -147,10 +147,10 @@ Music is a big part of my life.
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4).
 * Cancerslug: [1](https://youtube.com/watch?v=1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/watch?v=z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G).
-* Nirvana: [Index Of /](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
+* Nirvana: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
-* Sabaton: [Index Of /](https://library.idiotempire.com/Music/Sabaton/)
-* Disturbed: [Index Of /](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/)
+* Sabaton: [Albums](https://library.idiotempire.com/Music/Sabaton/)
+* Disturbed: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/)
 * As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
 * System Of a Down: [Albums](http://maslovd.ru/public/mp3/System%20Of%20A%20Down/Albums/)
 * Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
