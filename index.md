@@ -149,12 +149,12 @@ Music is a big part of my life.
 * Cancerslug: [1](https://youtube.com/watch?v=1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/watch?v=z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G).
 * Nirvana: [Index Of /](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
-* Sabaton:
-* Disturbed:
+* Sabaton: [Index Of /](https://library.idiotempire.com/Music/Sabaton/)
+* Disturbed: [Index Of /](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/)
 * As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
-* System Of a Down:
-* Amon Amarth:
-* GG Allin:
+* System Of a Down: [Albums](http://maslovd.ru/public/mp3/System%20Of%20A%20Down/Albums/)
+* Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
+* GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc)
 
 ---
    
