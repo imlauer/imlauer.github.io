@@ -33,6 +33,7 @@ School blocks real education.
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. Ex-Twitter show fake "trends".   
 * As a natural leader, you have no need for validation from anyone. You view the entire education system as a manipulative tool designed to train "slaves" to constantly seek external approval.   
+* Women are more emotional than men, therefore they are more violent.
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * C++ was created to only sell expensive books and live off of them.   
@@ -65,6 +66,7 @@ Here's a rewritten version of your statement:
 ---
 
 *   **Intelligence is genetic**, and one cannot study to become intelligent; access to information is already available.
+* Harvard costs $70,000 per year to study something you can find on Internet, I don't understand why people pay that. Buy your kid a house instead, lol.
 *   The "educational system" (schools and universities) does **not measure intelligence**. Instead, they measure an individual's **level of compliance or "slave status"**.
 *   The system measures *how much you question* what you are told to do.
 *   Schools destroy autonomy, which in turn destroys intelligence.
@@ -238,7 +240,7 @@ During my free time, I like working on various technology and non-technology pro
      
 ---     
      
-Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
+Andrés Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
      
 This site was generate with [markdown](/markdown.html) and cmark (_you can also use pandoc_):     
      
