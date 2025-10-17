@@ -13,3 +13,25 @@ node_modules/
 package*
 README*
 
+
+# Ignore git and GitHub folders
+.git/
+.github/
+
+# Ignore workflow and metadata
+.neocitiesignore
+README*
+LICENSE*
+
+# Ignore scripts and source files
+*.sh
+*.md
+*.template
+
+# Ignore common development files
+node_modules/
+package*
+*.map
+*.lock
+*.json5
+
