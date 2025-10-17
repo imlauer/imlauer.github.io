@@ -218,6 +218,7 @@ During my free time, I like working on various technology and non-technology pro
 * [WebsiteReview](https://websitereview.neocities.org/)  
 * [ZLibrary](https://z-library.la)  
 * [NixOS Made Me Lose My Wife](https://archive.is/wip/Mtu5s)  
+* [DaveWebsite](https://davewebsite.neocities.org/)
 * [RexResearch1](https://rexresearch1.com/)  
 * [SpyWare](https://spyware.neocities.org/articles/)     
 * [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)      
