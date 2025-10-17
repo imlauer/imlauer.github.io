@@ -299,4 +299,4 @@ This website was inspired by [TastyFish](http://www.tastyfish.cz).
   
 ---  
   
-No rights reserved - [Fuck copyright](https://denshi.org/blog/copying-is-cool/)
+No rights reserved - [Fuck copyright](https://denshi.org/blog/copying-is-cool/).
