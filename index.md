@@ -139,7 +139,7 @@ Here's a rewritten version of your statement:
 * [Luke Smith](https://lukesmith.xyz).
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/).
 * Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
-* Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss): _"I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it"_ ([Read the Twitt on Nitter](https://nitter.net/SStricklandMMA/status/1977847462334431693)).
+* Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss): _"I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it"_ ([Read it on Nitter](https://nitter.net/SStricklandMMA/status/1977847462334431693)).
 
 ---
 
