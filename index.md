@@ -262,6 +262,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Tor neocities](https://neocities.org/browse?tag=tor)
 * [Azidal](https://azidal.neocities.org/)
 * [Tor Email](https://onionmail.org/)
+* [LibRedirect](https://libredirect.codeberg.page/)
 
 ### Privacy is not a crime: Tor.
 
