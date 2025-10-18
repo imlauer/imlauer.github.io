@@ -19,7 +19,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to MercadoPago—to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
 * Public Universities are taxpayer-funded scams.   
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
-* **The best method to find out if something is free: disable JavaScript and see if you can still use it.**
+* **The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Technology has made access cheaper and more convenient — streaming music, movies, or storing data online costs far less than buying physical media. However, this convenience comes with a trade-off: users no truly own anything anymore.
 * All content and services are locked behind subscriptions and centralized platforms. If access is revoked or payment stops, everything — music, photos, data, even communication — can disappear instantly. This creates digital dependency and corporate control, where participation in modern life often requires a credit card and compliance with corporate systems. This is not what tech is about, this is against technology.
