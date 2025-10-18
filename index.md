@@ -141,24 +141,21 @@ Here's a rewritten version of your statement:
 
 ---
 
-### Music
+## Music
 
 Music is a big part of my life.
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
+* Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
 * Cancerslug: [1](https://youtube.com/watch?v=1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/watch?v=z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G)
 * Nirvana: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
-* Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
-* Sabaton: [Albums](https://library.idiotempire.com/Music/Sabaton/)
-* Disturbed: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/)
 * As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
-* System Of a Down: [Albums](http://maslovd.ru/public/mp3/System%20Of%20A%20Down/Albums/)
 * Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
 * GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc)
 
 ---
    
-### Contacts and social media:   
+## Contacts and social media:   
    
 * [necro@tfwno.gf](mailto:necro@tfwno.gf)   
 * [imlauerandres@gmail.com](mailto:imlauerandres@gmail.com)   
@@ -166,11 +163,11 @@ Music is a big part of my life.
    
 ---   
    
-#### Some things I like (no particular order):   
+### Some things I like (no particular order):   
    
-decentralization, free software, ranting, programming, c, suckless software, maybe electricity.
+decentralization, free software, ranting, programming, c, suckless software, _maybe electricity_.
    
-#### Some things I dislike (disliking people doesn't contradict loving them):   
+### Some things I dislike (disliking people doesn't contradict loving them):   
    
 centralization, ads, feminism, cheesy positivity, political correctness, boredom, phony people, being stuck, not improving, cliché phrases, acting normal, copyright, proprietary software. 
    
@@ -180,7 +177,7 @@ During my free time, I like working on various technology and non-technology pro
    
 ---   
    
-#### List of tech I'm using:   
+### List of tech I'm using:   
    
 * **operating system**: [ArchLinux](https://imlauera.github.io/post/instalacion_arch_basica)                
 * **cpu**: Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz   
@@ -205,13 +202,6 @@ During my free time, I like working on various technology and non-technology pro
 
 #### BTC: [bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3](https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3)
    
----   
-   
-#### Education   
-   
-* I used to study computer science but dropped it.     
-* I'm studying electricity.    
-     
 ---     
      
 #### Some links     
@@ -273,7 +263,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Azidal](https://azidal.neocities.org/)
 * [Tor Email](https://onionmail.org/)
 
-#### Privacy is not a crime: Tor.
+### Privacy is not a crime: Tor.
 
 * [Tor: HiddenWiki](http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/)
 * [Tor: Daniel Tutoriales](http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/)
@@ -292,9 +282,11 @@ This site was generate with [markdown](/markdown.html) and cmark (_you can also 
      
 ```bash     
 pandoc -s index.md -o index.html     
-  
+```
+ 
 o  
   
+```bash
 cmark index.md | tee index.html  
 ```     
   
