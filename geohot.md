@@ -295,6 +295,104 @@ No contienen referencias directas nuevas; "Vampire Attack" es una estrategia com
 - **Impacto**: Argumenta que esto destruye valor real, proponiendo alternativas honestas (ej. open source, productos reales).
 - **Exhaustividad**: Revisé el texto completo (truncado en ~425k chars, pero cubre todos los posts listados). No hay más instancias obvias. Si necesitas expansión en alguna, avísame.
 
+
+# Resumen de una novela escrita por George Hotz.
+
+# ChatGPT
+Aquí tienes un resumen de los siete capítulos del relato en el blog **The Singularity Is Nearer** por George Hotz:
+
+---
+
+### Capítulo 1 – *“John”*
+
+El protagonista, John, de 19 años, vive con su madre en Brooklyn. Su padre lo había abandonado años atrás, trabajando en Wall Street y luego huyendo a Idaho tras una crisis personal. Una noche, John está en casa solo cuando llaman al timbre: fuera hay dos hombres vestidos con traje que dejan una tarjeta de la policía del condado de Nassau dirigida a “John – call me”. John entra en paranoia: ¿y si lo están vigilando o persiguiendo por algo que su padre hizo? ([Geohot][1])
+Se percibe que John se siente desconectado —aburrido de la vida social y de sexo, atrapado entre la generación en línea y el mundo real— y de repente aparece esa visita misteriosa que lo hace cuestionar todo. ([Geohot][1])
+
+---
+
+### Capítulo 2 – *“Party”*
+
+John decide no llamar a la policía tras recibir la tarjeta (sabe lo que hacen las interrogaciones). Siente que puede estar siendo vigilado, que los agentes lo están empujando a reaccionar de cierta forma. ([Geohot][2])
+Va a una fiesta (o lo que ellos llaman fiesta) en el sótano del amigo Brian, donde hay cerveza, lo fiestan, están con un vaporizador grande (“Volcano”), vídeos de IA, reflexiones sobre estar atrapados en un laberinto como un ratón: una metáfora de la sociedad y la vigilancia. ([Geohot][2])
+Al volver a casa se siente cada vez más observado y precavido. ([Geohot][2])
+
+---
+
+### Capítulo 3 – *“Father”*
+
+Ahora se narra unos 7 años atrás, centrado en el padre (Jonathan) de John, que trabajaba en una empresa de capital con fondos ilimitados (“Operant Capital”) y encabezaba un proyecto llamado RPS (rock-paper-scissors) para predecir decisiones humanas. ([Geohot][3])
+Jonathan se da cuenta de que el mercado no obedece leyes físicas: es un juego de predicciones entre humanos que predicen a otros humanos. La investigación del RPS buscaba explotar las irregularidades humanas, incluso usando tecnología de magnetómetros SQUID para detectar elecciones antes de que la persona las tomara. ([Geohot][3])
+Se establece una idea central: que la “predicción humana” puede transformarse en “control” o al menos en manipulación. ([Geohot][3])
+
+---
+
+### Capítulo 4 – *“Bagel”*
+
+John y sus amigos (Brian y Dave) salen a desayunar bagels después de una noche de fumar. Dave es un personaje más complicado: su hermano mayor se suicidó, su madre nunca fue la misma, Dave se volvió más retraído, se dedicó al estudio, al ciclismo, pero también al consumo de drogas. ([Geohot][4])
+Al desayunar, John se da cuenta de que quizá los agentes tocaban a su padre (no a él) cuando dejaron la tarjeta: su padre se llama Jonathan y John es su nombre, simplificado a “John” por los agentes. Brian le dice que la empresa donde trabaja el padre (“Operant”) está envuelta en algo raro, donde también trabajó el hermano de Dave. ([Geohot][4])
+Este capítulo mezcla lo cotidiano (desayuno, amigos, bagels) con la tensión de lo desconocido: la sospecha de que detrás de su padre hay algo más siniestro.
+
+---
+
+### Capítulo 5 – *“Sleuthing”*
+
+John empieza a investigar. Envía mensajes a su madre, Dave le habla de que su padre trabajó en la empresa “Operant” y que está “loco también”. John sube a la habitación de su madre, revisa sus cajones: encuentra juguetes sexuales, papeles de su infancia, pero también un documento que dice que alguien (Jessica Baker) recibe 10 000 USD al mes del “Triangle Trust”. ([Geohot][5])
+Además, nota que el correo de su madre no se ha entregado, su app de coche está asociada a un e-mail extraño ([skinner666@gmail.com](mailto:skinner666@gmail.com)) que no conoce. ([Geohot][5])
+El capítulo mezcla el descubrimiento de secretos familiares con la sensación de una investigación amateur que se va saliendo de control.
+
+---
+
+### Capítulo 6 – *“Dashcam”*
+
+Dave llega a la casa de John y juntos analizan lo extraño: cuentas de la madre hackeadas, correos que indican cambios de contraseña a horas raras, e-mails desde Atlanta vía VPN. ([Geohot][6])
+Utilizan un mercado de datos (dash-cams y CCTV) para rastrear el coche de la madre: consiguen dos clips. Uno la muestra en el puente Manhattan a las 5:36 pm, otro la muestra en Sheepshead Bay a las 11:29 pm (cuando John ya había vuelto). ([Geohot][6])
+John empieza a aceptar que algo serio ha pasado: su madre desapareció, su cuenta de coche cambió, su padre quizá vinculado a algo clandestino. Está fuera de su zona de confort: «el verdadero truco no es predecir, es controlar». El capítulo intensifica la intriga y la tecnología como herramienta de vigilancia y búsqueda.
+
+---
+
+### Capítulo 7 – *“Nudge”*
+
+Aquí aparece el detective James Reese del condado de Nassau, que lleva 5 años investigando la empresa Operant y el caso de un empleado joven llamado Tom Park que murió tras “caerse” de un techo. ([Geohot][7])
+Se describe cómo la empresa usaba “tiles” en techo, luces que se modulaban, puertas que se “empujaban” (nudges) y sistemas para que una persona pareciera haber tomado una decisión cuando en realidad alguien más la había preparado. Estructura de manipulación mediante timing, ambiente, ambiente controlado. ([Geohot][7])
+El detective habla de cómo en los logs todo parece legal, todo parece normal: la puerta “empujada”, la luz “rampada”, el sistema “no-listado”. Ninguna ley quebrantada: sólo sincronización. ([Geohot][7])
+El capítulo cierra con la sensación de que John está entrando en un mundo mayor de conspiración, vigilancia, manipulación temporal, y su padre quizá está profundamente involucrado.
+
+---
+
+Si quieres, puedo hacer **un resumen conjunto** de los siete capítulos (temas, trama, personajes) o preparar **predicciones** de qué puede venir en los siguientes capítulos. ¿Cuál prefieres?
+
+[1]: https://geohot.github.io/blog/jekyll/update/2025/09/06/chapter-one.html "chapter one: john | the singularity is nearer"
+[2]: https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html "chapter two: party | the singularity is nearer"
+[3]: https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html "chapter three: father | the singularity is nearer"
+[4]: https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-four.html "chapter four: bagel | the singularity is nearer"
+[5]: https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-five.html "chapter five: sleuthing | the singularity is nearer"
+[6]: https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-six.html "chapter six: dashcam | the singularity is nearer"
+[7]: https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html "chapter seven: nudge | the singularity is nearer"
+
+# Grok
+
+### Capítulo 1: John
+En este capítulo, se presenta a John, un joven de 19 años que vive con su madre en Nueva York y reflexiona sobre su deseo insatisfecho de sexo en una generación desinteresada por ello. Recuerda a su padre ausente, un ex cuantitativo de Wall Street que abandonó a la familia cuando John tenía 12 años tras una crisis de conciencia, mudándose a una cabaña remota en Idaho llena de equipo científico. John visitó una vez, pero la experiencia fue desconectada, marcada por charlas de su padre sobre "cosas de hombres" y el silencio inquietante del bosque. En su cumpleaños, su padre visita brevemente bajo el pretexto de una reunión en Long Island, destacando su relación tensa. Aburrido y bebiendo Bud Light solo, John navega por YouTube consumiendo contenido como chismes de celebridades, speedruns y videos de crímenes verdaderos sobre maestras involucradas con estudiantes, lamentando el internet sanitizado y algorítmico que evita temas como prostitutas. Anticipa una fiesta discreta en el sótano de su amigo Brian, con cerveza, marihuana y scrolls en teléfonos, pero nota la ausencia de interés romántico. La tensión aumenta cuando dos hombres trajeados dejan una tarjeta de visita de un detective en la puerta, dirigida a John, dejándolo ansioso.
+
+### Capítulo 2: Fiesta
+El protagonista lidia con paranoia intensa después de que detectives del condado de Nassau dejen una tarjeta en su casa en Brooklyn, cuestionando por qué lo buscan a pesar de no estar involucrado en crímenes. Sospecha que se relaciona con la reciente reunión de su padre en Long Island y decide no contactarlos, temiendo tácticas manipuladoras. Sintiéndose vigilado, se calma con una Bud Light antes de ir a una fiesta. Llega al sótano de Brian con cervezas, donde él y Dave comparten marihuana con un vaporizador Volcano, proporcionando normalidad. Ven videos: uno generado por IA de un ratón en un laberinto que cuestiona la sociedad humana como un experimento, y otro ligero de dos chicas compartiendo un helado. Después de medianoche, camina a casa, aliviado por los sonidos de la ciudad, nota la ausencia de su madre y se asegura la casa antes de dormir. Temas clave incluyen paranoia por autoridad, sistemas manipuladores, alivio temporal a través de lazos sociales y sustancias, y reflexiones existenciales sobre control social.
+
+### Capítulo 3: Padre
+Ambientado siete años antes, sigue a Jonathan, un prodigio infantil y investigador senior en Operant Capital, una firma que predice movimientos de mercado. Jonathan, medallista de oro en IMO a los 14 y graduado de MIT en tres años, trabaja en el proyecto RPS (Piedra-Papel-Tijeras), aplicando teoría de juegos y técnicas de lectura mental para explotar sesgos humanos en decisiones, reflejando la naturaleza impredecible de los mercados financieros. Eventos clave incluyen su commute en un Mercedes autónomo y llegada a la oficina, donde el colega junior Tom (otro ganador de IMO de 17 años) demuestra un setup de RPS usando SQUIDs para predecir movimientos sin feedback. Jonathan prueba el sistema y pierde todas las rondas; Tom revela un log preescrito de todas sus acciones, predichas desde su entrada. Personajes centrales: Jonathan, el padre impulsado; Tom, el joven prodigio; menciones breves a la esposa e hijo de Jonathan en un viaje de camping. Temas: inteligencia y predicción en sistemas complejos, la carrera de la Reina Roja de estrategias evolutivas, límites éticos en tecnología de lectura mental y tensión entre intuición humana y precisión máquina.
+
+### Capítulo 4: Bagel
+Sigue al narrador John y amigos Brian y Dave comprando bagels después de fumar marihuana. Dave, alto y catatónico, ordena un bagel de canela con pasas; Brian paga con la tarjeta de su mamá. Se revela el trasfondo de Dave: el suicidio de su hermano mayor llevó a la ruptura familiar; Dave fuma mucho, empezó a ir en bici a la escuela y se graduó como valedictorian imitando a su hermano, pero no ayudó a su madre. Brian y Dave comparten un lazo influido por comedias de fumados de los 2000s. John menciona la visita policial, pero Brian deduce que buscan al padre de John, Jonathan, quien trabajó en "cosas raras" en la misma empresa que el hermano de Dave. Bromean sobre sus padres ausentes. John se alivia al saber que no es por él, especula sobre su padre y regresa a casa encontrando a su mamá ausente. Temas: coping con trauma vía sustancias y logros, padres problemáticos, dinámicas de amistad masculina y alivio de paranoia equivocada.
+
+### Capítulo 5: Investigación
+El protagonista adolescente en Brooklyn investiga a su madre desaparecida, Jessica Baker. Eventos clave: conversación con Dave revelando que el padre trabajó en Operant (vinculada al padre de Dave, quien "enloqueció" allí con "matemáticas con imanes"). Declina visitar a la madre de Dave pero invita a Dave. Llega Anne, amiga de su madre, con bagels; evita mencionar la ausencia. Inspirado en podcasts de crímenes, busca en la habitación de su madre: encuentra pagos mensuales de $10,000 del Triangle Trust, ítems personales, papeles viejos y certificado de matrimonio (sin divorcio). Textos no entregados, llamadas a voicemail; la app del Mercedes muestra email cambiado a skinner666@gmail.com. Experimenta ansiedad por descubrimientos. Temas: secretos familiares, abandono parental, dependencia financiera, aislamiento vía podcasts y investigación amateur en contexto siniestro ligado a Operant.
+
+### Capítulo 6: Dashcam
+Preocupado por su madre desaparecida, el narrador descubre que el email de la app de rastreo del auto cambió a "skinner666". Enlista a Dave, experto en tech, para investigar. Dave accede al viejo Gmail familiar y encuentra cambios en cuentas entre 2-3 AM, incluido un intento de login bloqueado desde un IP de NordVPN en Atlanta. Para localizar el auto, usa un sitio de mercado de datos para buscar footage de dashcam por placa, obteniendo tres hits. Analizan dos clips vía ChatGPT: uno muestra el Mercedes en el puente de Manhattan hacia Manhattan a las 5:36 PM, otro en Emmons Ave en Sheepshead Bay a las 11:29 PM. El tercero no se descarga. Encuentra una nota de su madre en el refrigerador: "Conocí a un tipo. Voy a los Hamptons. Podría estar sin servicio," firmada con corazón, cuestionando si regresó brevemente. Personajes: narrador preocupado; Dave, inteligente y desconfiado de autoridades por experiencias familiares; madre desaparecida. Temas: vigilancia vía sensores conectados y mercados de datos, desconfianza en policía, paranoia e investigación amateur ante intrusión digital y desaparición familiar.
+
+### Capítulo 7: Empujón
+El detective James Reese narra su investigación de cinco años en Operant, que movió operaciones a Long Island. Comienza con un PI atrapado plantando un dispositivo en Jane Street, sospechado de espionaje; FBI lo confisca antes de su disolución. Enfoque en Tom Park, investigador joven que muere cayendo del techo de Operant. Footage CCTV muestra a Tom con un dispositivo antes de caminar; registros contradicen, sugiriendo manipulación vía "empujones" ambientales como luces, HVAC y elevadores. Experimentos del escuadrón con cues sutiles aumentan tasas de acierto en un juego sin coerción percibida. Logs revelan sistemas coordinados; un tracker filtrado discute predicción vs. control, con características de seguridad desactivadas. Temas: sutileza de "empujón" sobre control mental, vía sistemas cotidianos que hacen acciones sentir predestinadas; integración de Operant en la vida diaria.
+
+
 --------------------------------------------------------------------
 
 

@@ -209,16 +209,15 @@ During my free time, I like working on various technology and non-technology pro
 #### Some links     
      
 * Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
-* [LRS Wiki](http://www.tastyfish.cz/lrs/main.html)
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [My Blog](https://imlauera.github.io)     
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
+* [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
 * [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)  
 * [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)  
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)  
-* [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
 * [Wikipedia is badly biased](https://larrysanger.org/2020/05/wikipedia-is-badly-biased/)
 * [I don't use or trust Wikipedia anymore](https://www.youtube.com/embed/c_Q7reJtiLU)
 * [DigDeeper](https://digdeeper.love/)     
