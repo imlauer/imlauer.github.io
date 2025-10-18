@@ -209,6 +209,7 @@ During my free time, I like working on various technology and non-technology pro
 #### Some links     
      
 * Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
+* [LRS Wiki](http://www.tastyfish.cz/lrs/main.html)
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [My Blog](https://imlauera.github.io)     
