@@ -274,14 +274,16 @@ During my free time, I like working on various technology and non-technology pro
 * [LibRedirect](https://libredirect.codeberg.page/)
 
 ### Privacy is not a crime: Tor.
-How to I use Tor:
+How do I use Tor:
 
 ```console
 sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
 sudo systemctl start tor
 torsocks curl https://ifconfig.me
+mkdir onion && cd onion
 # Save the index to your hard drive.
 curl -L https://secretonions.neocities.org/index.html -o secret.html
+curl -L https://davewebsite.neocities.org/index.html -o dave.html
 torsocks w3m secret.html
 sudo systemctl restart tor # To reroute Tor.
 ```

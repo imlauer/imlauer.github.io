@@ -257,12 +257,14 @@ Here's a rewritten version of your statement:</li>
 <li><a href="https://libredirect.codeberg.page/">LibRedirect</a></li>
 </ul>
 <h3>Privacy is not a crime: Tor.</h3>
-<p>How to I use Tor:</p>
+<p>How do I use Tor:</p>
 <pre><code class="language-console">sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
 sudo systemctl start tor
 torsocks curl https://ifconfig.me
+mkdir onion &amp;&amp; cd onion
 # Save the index to your hard drive.
 curl -L https://secretonions.neocities.org/index.html -o secret.html
+curl -L https://davewebsite.neocities.org/index.html -o dave.html
 torsocks w3m secret.html
 sudo systemctl restart tor # To reroute Tor.
 </code></pre>
