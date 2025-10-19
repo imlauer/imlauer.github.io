@@ -279,8 +279,11 @@ How to I use Tor:
 ```console
 sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
 sudo systemctl start tor
-wget https://secretonions.neocities.org/index.html
-torsocks w3m startpage.html
+torsocks curl https://ifconfig.me
+# Save the index to your hard drive.
+curl -L https://secretonions.neocities.org/index.html -o secret.html
+torsocks w3m secret.html
+sudo systemctl restart tor # To reroute Tor.
 ```
 
 * [Tor: HiddenWiki](http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/)
