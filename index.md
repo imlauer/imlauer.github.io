@@ -146,6 +146,8 @@ Here's a rewritten version of your statement:
 ## Music
 
 Music is a big part of my life.
+Millennial music: nirvana, disturbed, system of a down, papa roach, all metal bands, limp bizkit, red hot chili peppers, 
+
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
@@ -203,6 +205,9 @@ During my free time, I like working on various technology and non-technology pro
 #### If you're a billionaire and want to give me 4 kg of gold (enough to make me financially independent for the rest of my life) that would be nice.
 
 #### BTC: [bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3](https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3)
+#### [PayPal](https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6)
+#### [KoFi](https://ko-fi.com/i1andres)
+#### [Donate me 5 dollars on MercadoPago](https://mpago.la/2SQubGu)
    
 ---     
      
