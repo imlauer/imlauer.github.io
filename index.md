@@ -274,6 +274,14 @@ During my free time, I like working on various technology and non-technology pro
 * [LibRedirect](https://libredirect.codeberg.page/)
 
 ### Privacy is not a crime: Tor.
+How to I use Tor:
+
+```console
+sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
+sudo systemctl start tor
+wget https://secretonions.neocities.org/index.html
+torsocks w3m startpage.html
+```
 
 * [Tor: HiddenWiki](http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/)
 * [Tor: Daniel Tutoriales](http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/)
