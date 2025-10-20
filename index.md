@@ -33,7 +33,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
-* Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. Ex-Twitter show fake "trends".   
+* Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. 
 * As a natural leader, you have no need for validation from anyone. You view the entire education system as a manipulative tool designed to train "slaves" to constantly seek external approval.   
 * Women are more emotional than men, therefore they are more violent.
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
@@ -44,11 +44,11 @@ School blocks real education.
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.**
 * The goal of computer science is to automate all jobs. The more computing advances, the more people lose work. That's why there is no real money in tech: if you are honest, each passing year programming work gets harder and pays worse.
-* If you are a con artist like Mark Zuckerberg—whose core aim is to make you addicted to your phone to show you ads—or companies like [Spotify](http://stallman.org/spotify.html) that collect money supposedly for musicians while spying and manipulating song popularity, or Tinder that charges the same to men and women and Tinder doesn't ask the body count (very important question if you're looking for some casual sex) or Ex-Twitter that lied about trends, then you can make money. Companies like [Netflix](http://stallman.org/netflix.html) that turned people who once used torrents into paying subscribers, or Google that censors results while promoting certain platforms, or Udemy selling low-quality courses, or all the aggressive marketing that pushes you to create accounts on shady sites or crypto scams. But that is NOT technology; technology is supposed to improve our lives, not make us addicted to advertising or be Ponzi-style scams or zero-sum games.
+* If you are a con artist like Mark Zuckerberg—whose core aim is to make you addicted to your phone to show you ads—or companies like [Spotify](http://stallman.org/spotify.html), Tinder that charges the same to men and women and Tinder doesn't ask the body count (very important question if you're looking for some casual sex) or Ex-Twitter show fake "trends", then you can make money. Companies like [Netflix](http://stallman.org/netflix.html) that turned people who once used torrents into paying subscribers, or Google that censors piracy and sites without Google Adsense while promoting Reddit, or Udemy selling low-quality courses, or all the aggressive marketing that pushes you to create accounts on shady sites or crypto scams. But that is NOT technology; technology is supposed to improve our lives, not make us addicted to advertising or be Ponzi-style scams or zero-sum games.
 * Tech companies intentionally worsen their products to make more money. Programming died ten years ago; they tried to delay artificial intelligence because they want to live off fake jobs a computer can do.
 * Elizabeth Holmes was used as a scapegoat—unjustly blamed for a larger failure. The investors who put money into that mess should be thoroughly investigated.
-* In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then abused others. Apps are zero-sum: Ex-Twitter lies about trends; Tinder manipulates ratios; [Spotify](http://stallman.org/spotify.html) manipulates song popularity; YouTube removed dislikes; Facebook optimizes for ads. Cryptocurrencies were created to undermine states, now banks sell them.
-* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. [Spotify](http://stallman.org/spotify.html) manipulates song popularity. Former Twitter lied about trends. Tinder charges the same to men and women and remains inefficient to extract profit. Google censors piracy while promoting Reddit. YouTube removed dislikes and promotes short videos. Facebook is an advertising company whose objective is to make you addicted to your phone to show ads. The COVID origin debate persists?... Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. The real fight in poor countries is against zero-sum games and scams.
+* In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then abused others. [Spotify](http://stallman.org/spotify.html) manipulates song popularity; YouTube removed dislikes; Facebook optimizes for ads. Cryptocurrencies were created to undermine states, now banks sell them.
+* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. Google censors piracy while promoting Reddit. YouTube removed dislikes and promotes short videos. Facebook is an advertising company whose objective is to make you addicted to your phone to show ads. The COVID origin debate persists?... Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. The real fight in poor countries is against zero-sum games and scams.
 * What matters to Facebook/Meta is maximizing phone addiction to show as much advertising as possible. They may think it's genius, but it's fraud. Advertising should be illegal or heavily taxed so it's not profitable. If we abolish advertising, many so-called journalists would have to work in construction, and the country would improve.
 * Teachers punish students for using Artificial Intelligence—again the education system fails to encourage critical thinking.
 * You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here. - George Hotz.
@@ -114,7 +114,7 @@ Here's a rewritten version of your statement:
 ---
 
 ### Articles I recommend reading from his blog:   
-
+0. [Father](https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html) - The trick is not to use [artificial intelligence to predict the stock market](http://www.tastyfish.cz/lrs/ai.html), but to influence people and manipulate people.
 1. [Class Warfare](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
 1. [Sell outs](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)
 1. [Pieces of shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html)
@@ -212,15 +212,17 @@ During my free time, I like working on various technology and non-technology pro
    
 ---     
      
-#### Some links     
+#### Some links    
      
+* Use [wiby.me](https://wiby.me)
+* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)  
 * Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [My Blog](https://imlauera.github.io)     
+* [TastyFish Living in Caravan](https://youtu.be/watch?v=8qvddkIgo4A)
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
 * [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
-* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)  
 * [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)  
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)  
@@ -237,14 +239,12 @@ During my free time, I like working on various technology and non-technology pro
 * [How to drop out](http://ranprieur.com/essays/dropout.html) (if you wanna check if a search engine is good search for this article)      
 * [Let's Decentralize](https://letsdecentralize.org/)
 * [BasedSites](https://basedsites.neocities.org)     
-* Use [wiby.me](https://wiby.me) to search neocities sites.     
 * [LurkMore](http://lurkmore.com/)     
 * [Search Engine Party](https://searchengine.party/)  
 * [Searx NO-JS](https://searx.neocities.org/nojs)  
 * [George Hotz' Blog](https://geohot.github.io/blog)     
 * ["Big tech" is anti-tech](https://stallman.org/facebook.html)
 * [Marginalia](https://explore2.marginalia.nu/)     
-* [Wiby](https://wiby.me)     
 * [Darweb neocities](https://neocities.org/browse?tag=darkweb)
 * [TextFiles](http://textfiles.com)
 * [Deepweb neocities](https://neocities.org/browse?tag=deepweb)
@@ -276,7 +276,7 @@ During my free time, I like working on various technology and non-technology pro
 ### Privacy is not a crime: Tor.
 How do I use Tor:
 
-```console
+```
 sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
 sudo systemctl start tor
 torsocks curl https://ifconfig.me
