@@ -152,7 +152,7 @@ I like **Millennial music**: nirvana, disturbed, system of a down, papa roach, a
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
-* Cancerslug: [1](https://youtube.com/watch?v=1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/watch?v=z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G)
+* Cancerslug: [1](https://youtube.com/embed/1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/embed/z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G)
 * Nirvana: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
 * As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
 * Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
@@ -220,7 +220,7 @@ During my free time, I like working on various technology and non-technology pro
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [My Blog](https://imlauera.github.io)     
-* [TastyFish Living in Caravan](https://youtu.be/watch?v=8qvddkIgo4A)
+* [TastyFish Living in Caravan](https://youtu.be/embed/8qvddkIgo4A)
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
 * [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
 * [DefectiveByDesign](https://www.defectivebydesign.org/)
@@ -273,11 +273,12 @@ During my free time, I like working on various technology and non-technology pro
 * [Reparacion Electromesticos](https://cursoelectrodomesticos.github.io/)     
 * [Aire Acondicionado](https://cursoaa.github.io/)     
 * [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)  
-* [Tastyfish talking about freedom(suckless software)](https://youtube.com/watch?v=SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
+* [Tastyfish talking about freedom(suckless software)](https://youtube.com/embed/SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
 * [Tor neocities](https://neocities.org/browse?tag=tor)
 * [Azidal](https://azidal.neocities.org/)
 * [Tor Email](https://onionmail.org/)
 * [LibRedirect](https://libredirect.codeberg.page/)
+* [DIY Raspberry Pi Cyberdeck](https://youtube.com/embed/bsT4CR9Jw-c)
 
 ### Privacy is not a crime: Tor.
 How do I use Tor:
