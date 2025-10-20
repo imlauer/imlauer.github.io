@@ -235,6 +235,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Wikipedia is badly biased](https://larrysanger.org/2020/05/wikipedia-is-badly-biased/)
 * [I don't use or trust Wikipedia anymore](https://www.youtube.com/embed/c_Q7reJtiLU)
 * [DigDeeper](https://digdeeper.love/)     
+* [Richard Stallman Interview](https://youtube.com/embed/fkkDvKGcNSo)
 * [SecretOnions](https://secretonions.neocities.org/)  
 * [WebsiteReview](https://websitereview.neocities.org/)  
 * [ZLibrary](https://z-library.la)  
