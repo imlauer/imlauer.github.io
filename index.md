@@ -145,10 +145,11 @@ Here's a rewritten version of your statement:
 
 ## Music
 
-I think all musicians are narcissists who seek to be the center of attention. I still like the music.
+All musicians are narcissists who live off of attention.
 
-**Millennial music**: nirvana, disturbed, system of a down, papa roach, all metal bands, limp bizkit.
+"Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians.
 
+I like **Millennial music**: nirvana, disturbed, system of a down, papa roach, all metal bands, limp bizkit.
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
