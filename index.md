@@ -13,7 +13,6 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 #### Some facts:
    
 * I used to study computer science but dropped it.   
-* I am studying electricity because I like things that can actually shock me, not just bore me.   
 * Capitalism is going to die unless we ban ads and separate of church and state including universities.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
