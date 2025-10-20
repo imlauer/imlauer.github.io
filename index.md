@@ -249,6 +249,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Searx NO-JS](https://searx.neocities.org/nojs)  
 * [George Hotz' Blog](https://geohot.github.io/blog)     
 * ["Big tech" is anti-tech](https://stallman.org/facebook.html)
+* [Marginalia provides downloadable domain databases so you can browse the “small web” offline or create your own local index.](https://downloads.marginalia.nu/)
 * [Marginalia](https://explore2.marginalia.nu/) and [stallman.org(marginalia)](https://explore2.marginalia.nu/search?domain=stallman.org)
 * [Darweb neocities](https://neocities.org/browse?tag=darkweb)
 * [TextFiles](http://textfiles.com)
