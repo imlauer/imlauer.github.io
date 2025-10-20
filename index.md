@@ -54,6 +54,7 @@ School blocks real education.
 * You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here. - George Hotz.
 * Financing with advertising is equivalent to financing with taxes. Advertising should be illegal and most education is useless; public university is a scam.
 * In poor countries the struggle is not against nature but against zero-sum games and scams. Real economic growth is only about 3% — any gain above that often means someone else loses.
+* "The simplification changes the meaning" - Richard Stallman.
 * For marketing, truth doesn't matter—only what sells and raises stock prices. YouTube removed dislikes and promotes shorts to show ads. Then they "worry" and remove videos for being "false". 
 * Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://www.youtube.com/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
 * Statistics are a new form of advertising.   
