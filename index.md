@@ -95,7 +95,7 @@ Here's a rewritten version of your statement:
 *   Companies like Facebook/Meta use the most advanced AI in the world to train people's brains to consume advertising and become addicted to their screens.
 *   Facebook "gives away" cell phones in poor countries, recovering the cost through advertising, which is viewed as a form of abuse.
 *   Activities that are **"zero-sum games"** (not creating value, only extracting it) should be heavily taxed or outlawed. These include: advertising, marketing, finance, rentals/real estate, reselling, journalism, and tip applications.
-*   Mark Zuckerberg should close Facebook and collect welfare (*plan social*) because his work does not serve society, but rather aims to make people addicted to advertising.
+*   Mark Zuckerberg should close Facebook and live off the state because his work does not serve society, but rather aims to make people addicted to advertising.
 
 ---
 
