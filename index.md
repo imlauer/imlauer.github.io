@@ -282,7 +282,7 @@ During my free time, I like working on various technology and non-technology pro
 * [LibRedirect](https://libredirect.codeberg.page/)
 * [DIY Raspberry Pi Cyberdeck](https://youtube.com/embed/bsT4CR9Jw-c)
 
-### Privacy is not a crime: Tor, I2P and Freenet.
+### Privacy is not a crime: [Tor](https://www.torproject.org/download/), [I2P](https://geti2p.net/en/) and [Freenet](https://www.hyphanet.org/index.html).
 How do I use Tor:
 
 ```
