@@ -226,6 +226,7 @@ During my free time, I like working on various technology and non-technology pro
 * [DefectiveByDesign](https://www.defectivebydesign.org/)
 * [FSF - Twitter](https://www.fsf.org/twitter)
 * [FSF - Windows](https://www.fsf.org/windows)
+* [Download FSF Wiki](https://static.fsf.org/nosvn/directory/directory.xml.bz2)
 * [YaCy a decentralized P2P search engine that can run fully offline with own index.](https://yacy.net/)
 * [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)  
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
