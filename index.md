@@ -33,7 +33,8 @@ School blocks real education.
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. 
-* As a natural leader, you have no need for validation from anyone. You view the entire education system as a manipulative tool designed to train "slaves" to constantly seek external approval.   
+* As a natural leader, you have no need for validation from anyone.
+* I view the entire "education system" as a manipulative tool designed to train "slaves" to constantly seek external approval.   
 * Women are more emotional than men, therefore they are more violent.
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
