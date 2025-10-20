@@ -221,7 +221,7 @@ During my free time, I like working on various technology and non-technology pro
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [My Blog](https://imlauera.github.io)     
-* [TastyFish Living in Caravan](https://youtu.be/embed/8qvddkIgo4A)
+* [TastyFish Living in Caravan](https://youtube.com/embed/8qvddkIgo4A)
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
 * [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
 * [DefectiveByDesign](https://www.defectivebydesign.org/)
@@ -249,9 +249,9 @@ During my free time, I like working on various technology and non-technology pro
 * [LurkMore](http://lurkmore.com/)     
 * [Search Engine Party](https://searchengine.party/)  
 * [Searx NO-JS](https://searx.neocities.org/nojs)  
-* [George Hotz' Blog](https://geohot.github.io/blog)     
-* ["Big tech" is anti-tech](https://stallman.org/facebook.html)
-* [Marginalia provides downloadable domain databases so you can browse the “small web” offline or create your own local index.](https://downloads.marginalia.nu/)
+* [George Hotz's Blog](https://geohot.github.io/blog)     
+* ["Big Tech" is anti-tech](https://stallman.org/facebook.html)
+* [Marginalia provides downloadable domain databases so you can browse the "small web” offline or create your own local index.](https://downloads.marginalia.nu/)
 * [Marginalia](https://explore2.marginalia.nu/) and [stallman.org(marginalia)](https://explore2.marginalia.nu/search?domain=stallman.org)
 * [Darweb neocities](https://neocities.org/browse?tag=darkweb)
 * [TextFiles](http://textfiles.com)
@@ -264,8 +264,7 @@ During my free time, I like working on various technology and non-technology pro
 * [GotHub](https://codeberg.org/gothub/gothub)
 * [What The Zuck](https://whatthezuck.net/)
 * [Doxbin](https://doxbin.com/)
-* [4get instances](https://4get.ca/instances)
-* [4get](https://4get.ch/)
+* [4get instances](https://4get.ca/instances) / [4get](https://4get.ch/)
 * [Alternative frontends](https://github.com/Myzel394/awesome-alternative-frontends)
 * [BlackHost](https://www.blackhost.xyz/)
 * [Surveillance Self-Defense](https://ssd.eff.org/)
@@ -305,7 +304,8 @@ sudo systemctl restart tor # To reroute Tor.
 * [Tor: Recommended F-DROID apps](http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/fdroid.html)
 * [Tor: WikiPage](http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/index.php)
 * [Tor: Ahmia](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion)
-     
+* [FreeNet: A la mierda copyright](http://127.0.0.1:8888/USK@NiPBeAA-PpA715zb8Jc~Q-ohFbKPt8Mo-YiH~w1D56A,--ZTBvgu7XMdX0QUJGBHp-Hogoh0AQK1p8WoY6IR80Q,AQACAAE/lawiki/5/)
+
 ---     
      
 Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
