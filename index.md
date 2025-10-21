@@ -70,6 +70,7 @@ School blocks real education.
 * In Argentina, internet service providers like Claro, Personal, and Movistar block access to LibreFutbol by DNS, due to few customers are willing to pay for the premium channels, Google removes all the piracy links which is why I use Yandex and torrent search with **qBitTorrent, btstrm** with **Jackett**.
 Here's a rewritten version of your statement:
 * I believe most of **social media influencers are psychopaths** that are willing to promote any scam like VPN scams and online gambling, in order to profit from their followers. 
+* [Discord is an Inferior Alternative to Mumble](https://wrongthink.link/posts/discord-inferior-alternative-to-mumble/)
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
 * I read news through RSS with `newsraft`.
 * I love all that lives, even those that cause me pain.
