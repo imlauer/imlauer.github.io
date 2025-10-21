@@ -42,7 +42,7 @@ School blocks real education.
 * The power isn't what you have, it's what people believe you have.   
 * Most jobs are fake.   
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
-* **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.**
+* **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)**.
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
 * Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it "business".
 * End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
