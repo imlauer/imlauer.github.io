@@ -71,6 +71,7 @@ Here's a rewritten version of your statement:
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
 * I read news through RSS with `newsraft`.
 * I love all that lives, even those that cause me pain.
+* Finances: [http://wermenh.com/fay/index.html](http://wermenh.com/fay/index.html)
 
 ---
 
