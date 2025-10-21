@@ -23,10 +23,16 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Technology has made access cheaper and more convenient — streaming music, movies, or storing data online costs far less than buying physical media. However, this convenience comes with a trade-off: users no truly own anything anymore.
 * All content and services are locked behind subscriptions and centralized platforms. If access is revoked or payment stops, everything — music, photos, data, even communication — can disappear instantly. This creates digital dependency and corporate control, where participation in modern life often requires a credit card and compliance with corporate systems. This is not what tech is about, this is against technology.
 * Free will doesn't exist.   
+* Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
+* Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it “business.” 3. End infinite rent.
+* End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
+* Ban corporate landlords: Homes belong to people, not balance sheets. Empty houses in a housing crisis should be taxed into use.
+* [Infinite Rent Unpatched Exploit](https://wrongthink.link/posts/infinite-rent-unpatched-exploit/) ([In Spanish](/infinite-rent-unpatched-exploit.html))
 * Ads should be illegal. Advertising is like fishing, but you're the one who ends up getting caught.
 * Today, the internet is flooded with ads and manipulation, but "tech companies" claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.
 * **Bitcoin's value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
-* Voting is pointless: zero sum games are the problem and I don't see any politician talking about it.    
+* **Voting is manipulation**: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.
+* I believe voting is pointless because zero-sum games are the real issue, yet I never hear politicians discussing it. To make matters worse, the majority of working individuals lack the time to stay up-to-date on current events, which inevitably leads to poorly informed voting decisions.
 * Modern games were created to sell expensive hardware to dumb people.
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
@@ -280,7 +286,6 @@ During my free time, I like working on various technology and non-technology pro
 * [Tor Email](https://onionmail.org/)
 * [LibRedirect](https://libredirect.codeberg.page/)
 * [DIY Raspberry Pi Cyberdeck](https://youtube.com/embed/bsT4CR9Jw-c)
-* [Infinite Rent Unpatched Exploit](https://wrongthink.link/posts/infinite-rent-unpatched-exploit/) [Spanish](/infinite-rent-unpatched-exploit.md)
 
 ### Privacy is not a crime: [Tor](https://www.torproject.org/download/), [I2P](https://geti2p.net/en/) and [Freenet](https://www.hyphanet.org/index.html), ZeroNet, Lokinet.
 How do I use Tor:
