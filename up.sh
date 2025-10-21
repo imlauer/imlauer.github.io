@@ -23,7 +23,7 @@ for markdown in *.md; do
 	#echo '</html>'
 	#) | tee $filename_only.html &&
 	#cp $filename_only.html neocities/ 
-	pandoc -s $markdown | tee $filename_only.html
+	pandoc -s $markdown -c style.css | tee $filename_only.html
 	cp $filename_only.html neocities/
 done ;
 
