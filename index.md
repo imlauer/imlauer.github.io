@@ -44,7 +44,7 @@ School blocks real education.
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.**
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
-* Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it “business.” 3. End infinite rent.
+* Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it "business".
 * End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
 * Ban corporate landlords: Homes belong to people, not balance sheets. Empty houses in a housing crisis should be taxed into use.
 * [Infinite Rent Unpatched Exploit](https://wrongthink.link/posts/infinite-rent-unpatched-exploit/) ([In Spanish](/infinite-rent-unpatched-exploit.html))
@@ -53,14 +53,14 @@ School blocks real education.
 * Tech companies intentionally worsen their products to make more money. Programming died ten years ago; they tried to delay artificial intelligence because they want to live off fake jobs a computer can do.
 * Elizabeth Holmes was used as a scapegoat—unjustly blamed for a larger failure. The investors who put money into that mess should be thoroughly investigated.
 * In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then abused others. [Spotify](http://stallman.org/spotify.html) manipulates song popularity; YouTube removed dislikes; Facebook optimizes for ads. Cryptocurrencies were created to undermine states, now banks sell them.
-* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. Google censors piracy while promoting Reddit. YouTube removed dislikes and promotes short videos. Facebook is an advertising company whose objective is to make you addicted to your phone to show ads. The COVID origin debate persists?... Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. The real fight in poor countries is against zero-sum games and scams.
+* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. Google censors piracy while promoting Reddit. The COVID origin debate persists?... Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. The real fight in poor countries is against zero-sum games and scams.
 * What matters to Facebook/Meta is maximizing phone addiction to show as much advertising as possible. They may think it's genius, but it's fraud. Advertising should be illegal or heavily taxed so it's not profitable. If we abolish advertising, many so-called journalists would have to work in construction, and the country would improve.
 * Teachers punish students for using Artificial Intelligence—again the education system fails to encourage critical thinking.
 * You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here. - George Hotz.
 * Financing with advertising is equivalent to financing with taxes. Advertising should be illegal and most education is useless; public university is a scam.
 * In poor countries the struggle is not against nature but against zero-sum games and scams. Real economic growth is only about 3% — any gain above that often means someone else loses.
 * "The simplification changes the meaning" - Richard Stallman.
-* For marketing, truth doesn't matter—only what sells and raises stock prices. YouTube removed dislikes and promotes shorts to show ads. Then they "worry" and remove videos for being "false". 
+* **For marketing, the truth doesn't matter—only what sells and raises stock prices**. _YouTube removed dislikes and promotes shorts to show ads_, then they "worry" and remove videos for being "false information". 
 * Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://www.youtube.com/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
 * Statistics are a new form of advertising.   
 * For Zoomers a mail client is an "app".   
