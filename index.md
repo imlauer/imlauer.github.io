@@ -30,7 +30,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Today, the internet is flooded with ads and manipulation, but "tech companies" claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.
 * **[Bitcoin](https://wrongthink.link/posts/bitcoin-is-a-tale-of-tragedy/)'s value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
 * **Voting is manipulation**: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.
-* Modern games were created to sell expensive hardware to dumb people, see [nethack](https://github.com/NetHack/NetHack), [DOOM](http://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](http://www.tastyfish.cz/lrs/anarch.html), Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM and Anarch have SDL support.
+* Modern games were created to sell expensive hardware to dumb people, see [nethack](https://github.com/NetHack/NetHack), [DOOM](http://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](http://www.tastyfish.cz/lrs/anarch.html), Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM, Anarch, Diablo I, 0ad have SDL support.
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
@@ -157,9 +157,7 @@ School blocks real education.
 
 All musicians are narcissists who live off of attention.
 
-"Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians.
-
-I like **Millennial music**: avenged sevenfold, nirvana, system of a down, disturbed.
+"Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians. But I still like music. 
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
@@ -168,6 +166,8 @@ I like **Millennial music**: avenged sevenfold, nirvana, system of a down, distu
 * As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
 * Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
 * GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc)
+
+**Millennial music** bands like Avenged Sevenfold, System of a Down, Disturbed.
 
 ---
    
@@ -205,7 +205,7 @@ During my free time, I like working on various technology and non-technology pro
 * **text editor**: vim.      
 * **terminal**: tty.   
 * **browser**: w3m, chawan, Falkon with EGLFS (to take a screenshot use print to pdf), QuteBrowser, NetSurf with SDL, wget, curl.   
-* **email client**: neomutt with mw (mutt wizard by luke smith).   
+* **email client**: neomutt with mw (mutt wizard by Luke Smith).   
 * **video editor**: ffmpeg.   
 * **audio editor**: Audacity.   
 * **screen recording**: ffmpeg, Simple Screen Recorder, sometimes I use obs (these idiots signed the letter against Richard Stallman) :(
