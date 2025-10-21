@@ -15,8 +15,10 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * I used to study computer science but dropped it.   
 * Capitalism is going to die unless we ban [ads](https://wrongthink.link/posts/advertising-cancer-on-society/) and separate of church and state including universities.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
+*   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://www.youtube.com/embed/-v8pD0d5Bmk).   
+* **Financing with advertising is equivalent to financing with taxes**. 
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * Politics is for losers.
 * **The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.**
@@ -28,24 +30,23 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Today, the internet is flooded with ads and manipulation, but "tech companies" claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.
 * **[Bitcoin](https://wrongthink.link/posts/bitcoin-is-a-tale-of-tragedy/)'s value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
 * **Voting is manipulation**: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.
-* Modern games were created to sell expensive hardware to dumb people see [DOOM](http://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](http://www.tastyfish.cz/lrs/anarch.html) those are real games!
+* Modern games were created to sell expensive hardware to dumb people, see [nethack](https://github.com/NetHack/NetHack), [DOOM](http://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](http://www.tastyfish.cz/lrs/anarch.html), Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM and Anarch have SDL support.
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. 
 * Women are more emotional than men, therefore they are more violent.
-* How to get girls: "Girls just wanna have fun". The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Ask yourself: How many couples would not have been formed without the use of alcohol?
+* How to get girls: "Girls just wanna have fun". The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Women pay less. Ask yourself: How many couples would not have been formed without the use of alcohol?
 * Marriage never benefits the man, always the woman, because the woman has power over sex while the man has power over the relationship. If the man gets married, he loses the only power he had over the relationship.
 * As a natural leader, you have no need for validation from anyone.
 * I view the entire "education system" as a manipulative tool designed to train "slaves" to constantly seek external approval.   
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
-* Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * C++ was created to only sell expensive books and live off of them.   
 * The power isn't what you have, it's what people believe you have.   
-* Most jobs are fake.   
+* Most jobs are fake, so don't worry AI won't take away your "job".
 * "Skill before certification" - [George Hotz - How to not be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk)
-* Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
+* Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem. **If you're fat you need to lose weight**.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([In Spanish](/rent_seeking.html)).
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
 * Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it "business".
@@ -55,37 +56,35 @@ School blocks real education.
 * The goal of computer science is to automate all jobs. The more computing advances, the more people lose work. That's why there is no real money in tech: if you are honest, each passing year programming work gets harder and pays worse.
 * If you are a con artist like Mark Zuckerberg—whose core aim is to make you addicted to your phone to show you ads—or companies like [Spotify](http://stallman.org/spotify.html), Tinder that charges the same to men and women and Tinder doesn't ask the body count (very important question if you're looking for some casual sex) or Ex-Twitter show fake "trends", then you can make money. Companies like [Netflix](http://stallman.org/netflix.html) that turned people who once used torrents into paying subscribers, or Google that censors piracy and sites without Google Adsense while promoting Reddit, or Udemy selling low-quality courses, or all the aggressive marketing that pushes you to create accounts on shady sites or crypto scams. But that is NOT technology; technology is supposed to improve our lives, not make us addicted to advertising or be Ponzi-style scams or zero-sum games.
 * Tech companies intentionally worsen their products to make more money. Programming died ten years ago; they tried to delay artificial intelligence because they want to live off fake jobs a computer can do.
-* Elizabeth Holmes was used as a scapegoat—unjustly blamed for a larger failure. The investors who put money into that mess should be thoroughly investigated.
-* In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then abused others. [Spotify](http://stallman.org/spotify.html) manipulates song popularity; YouTube removed dislikes; Facebook optimizes for ads. Cryptocurrencies were created to undermine states, now banks sell them.
-* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. Google censors piracy while promoting Reddit.
-* The COVID origin debate persists?...
-* Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. 
+* [Elizabeth Holmes](https://en.wikipedia.org/wiki/Elizabeth_Holmes) was used as a scapegoat—unjustly blamed for a larger failure. The investors who put money into that mess should be thoroughly investigated.
+* In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then scammed others: [Spotify](http://stallman.org/spotify.html) manipulates song popularity; YouTube removed dislikes; Facebook maximizes phone addiction to show as much advertising as possible.
+*   The original purpose of **Bitcoin was to destroy banks and evade taxes**. The fact that banks now sell Bitcoin demonstrates they are working against the technology's initial goals.
+* There is no money in technology: **most tech companies lie to society because they know people will buy stocks without understanding the product**. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. 
+* The COVID origin debate persists?... It came from a lab.
 * What matters to Facebook/Meta is maximizing phone addiction to show as much advertising as possible. They may think it's genius, but it's fraud. Advertising should be illegal or heavily taxed so it's not profitable. If we abolish advertising, many so-called journalists would have to work in construction, and the country would improve.
 * Teachers punish students for using Artificial Intelligence—again the education system fails to encourage critical thinking.
-* You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here. - George Hotz.
-* Financing with advertising is equivalent to financing with taxes. Advertising should be illegal and most education is useless; public university is a scam.
+* _"You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here."_ - George Hotz.
 * In poor countries the struggle is not against nature but against zero-sum games and scams. Real economic growth is only about 3% — any gain above that often means someone else loses.
 * "The simplification changes the meaning" - Richard Stallman.
-* **For marketing, the truth doesn't matter—only what sells and raises stock prices**. _YouTube removed dislikes and promotes shorts to show ads_, then they "worry" and remove videos for being "false information". 
+* **For marketing, the truth doesn't matter, what only matter is what sells and raises stock prices**. _YouTube removed dislikes and promotes youtube-shorts to show more ads_, then they "worry" and remove videos for "misinformation".
 * Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://www.youtube.com/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
 * Statistics are a new form of advertising.   
-* Vibecoding is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
-* In Argentina, internet service providers like Claro, Personal, and Movistar block access to LibreFutbol by DNS, due to few customers are willing to pay for the premium channels, Google removes all the piracy links which is why I use Yandex and torrent search with **qBitTorrent, btstrm** with **Jackett**.
-Here's a rewritten version of your statement:
-* I believe most of **social media influencers are psychopaths** that are willing to promote any scam like VPN scams and online gambling, in order to profit from their followers. 
+* Vibecoding(prompt engineering) is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
+* In Argentina, internet service providers like Claro, Personal, and Movistar block access to [https://librefutbol.su](https://librefutbol.su) by DNS, due to few customers are willing to pay for the premium channels, Google removes all the piracy links which is why I use [Yandex](https://yandex.com) and torrent search with **qBitTorrent, btstrm** with **Jackett**.
+* I believe most of **social media influencers are psychopaths** that are willing to promote any scam like VPN scams, online gambling and resell cheap clothing at a high price, in order to profit from their followers. They are the suckers of society.
 * [Discord is an Inferior Alternative to Mumble](https://wrongthink.link/posts/discord-inferior-alternative-to-mumble/)
 * The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use `pandoc` and `markdown` and can just use html also or `cmark` that's more minimalistic than `pandoc`.
-* I read news through RSS with `newsraft`.
+* I read news through RSS with `newsraft` and `newsboat`.
 * I love all that lives, even those that cause me pain.
-* Finances: [http://wermenh.com/fay/index.html](http://wermenh.com/fay/index.html)
+* Wanna learn about finances?: [http://wermenh.com/fay/index.html](http://wermenh.com/fay/index.html)
+* Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * For Zoomers a mail client is an "app".   
 
 ---
 
-*   **Intelligence is genetic**, and one cannot study to become intelligent; access to information is already available.
+*   **Intelligence is genetic**, and one cannot study to become intelligent; access to information is already available and there's still a lot of retarded people like me.
 *   Harvard costs $70,000 per year to study something you can find on Internet, I don't understand why people pay that. Buy your kid a house instead, lol.
-*   The "educational system" (schools and universities) does **not measure intelligence**. Instead, they measure an individual's **level of compliance or "slave status"**.
-*   The system measures *how much you question* what you are told to do.
+*   **The "educational system" (schools and universities) does not measure intelligence. Instead, they measure how much you question what you are told to do**.
 *   Schools destroy autonomy, which in turn destroys intelligence.
 *   When a student uses Artificial Intelligence (AI) for homework, they demonstrate a lack of **motivation** or interest in the subject matter, which is the true problem.
 *   University education is a **zero-sum game** that serves no beneficial purpose to society.
@@ -99,12 +98,10 @@ Here's a rewritten version of your statement:
 *   **There is no money in true decentralized technology**. Companies hate decentralized technology because they cannot profit from it.
 *   "Tech companies" (BigTech) realized they couldn't make money from decentralized systems, so they began to centralize everything, which is their true objective.
 *   Examples of centralized anti-technology include Discord, Slack, Twitter, Instagram, YouTube, Facebook/Meta, Netflix, Spotify, and banks selling Bitcoin.
-*   Many "technological" companies intentionally **worsen their products** (e.g., Google search results, MercadoLibre filters) in order to earn more money.
-*   The original purpose of **Bitcoin was to destroy banks and evade taxes**. The fact that banks now sell Bitcoin demonstrates they are working against the technology's initial goals.
+*   Many "technological" companies intentionally **worsen their products** (e.g., Google search results, Amazon) in order to earn more money.
 
 ---
 
-*   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
 *   Most "tech companies" are fundamentally **advertising companies**.
 *   Companies like Facebook/Meta use the most advanced AI in the world to train people's brains to consume advertising and become addicted to their screens.
 *   Facebook "gives away" cell phones in poor countries, recovering the cost through advertising, which is viewed as a form of abuse.
