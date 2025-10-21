@@ -153,11 +153,11 @@ School blocks real education.
 
 ---
 
-## Music
+### Music is a big part of my life.
 
 All musicians are narcissists who live off of attention.
 
-"Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians. But I still like music. 
+"Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians. 
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
@@ -165,9 +165,10 @@ All musicians are narcissists who live off of attention.
 * Nirvana: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
 * As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
 * Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
+* [Avenged Sevenfold](http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/)
 * GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc)
 
-**Millennial music** bands like Avenged Sevenfold, System of a Down, Disturbed.
+**Millennial music** bands like [System of a Down](http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/), [Disturbed](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/), Send Request.
 
 ---
    
