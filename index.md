@@ -285,6 +285,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Tor Email](https://onionmail.org/)
 * [LibRedirect](https://libredirect.codeberg.page/)
 * [DIY Raspberry Pi Cyberdeck](https://youtube.com/embed/bsT4CR9Jw-c)
+* [Softpanorama](https://softpanorama.org/index.shtml)
 
 ### Privacy is not a crime: [Tor](https://www.torproject.org/download/), [I2P](https://geti2p.net/en/) and [Freenet](https://www.hyphanet.org/index.html), ZeroNet, Lokinet.
 How do I use Tor:
