@@ -13,7 +13,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 #### Some facts:
    
 * I used to study computer science but dropped it.   
-* Capitalism is going to die unless we ban ads and separate of church and state including universities.
+* Capitalism is going to die unless we ban [ads](https://wrongthink.link/posts/advertising-cancer-on-society/) and separate of church and state including universities.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://www.youtube.com/embed/-v8pD0d5Bmk).   
