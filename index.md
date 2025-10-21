@@ -34,7 +34,6 @@ School blocks real education.
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. 
-* Advertising is as worst than child porn because you're abusing the stupid one.
 * Women are more emotional than men, therefore they are more violent.
 * How to get girls: "Girls just wanna have fun". The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Ask yourself: How many couples would not have been formed without the use of alcohol?
 * Marriage never benefits the man, always the woman, because the woman has power over sex while the man has power over the relationship. If the man gets married, he loses the only power he had over the relationship.
