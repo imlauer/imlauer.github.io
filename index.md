@@ -316,6 +316,10 @@ sudo systemctl restart tor # To reroute Tor.
 * [Tor: Ahmia](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion)
 * [FreeNet: A la mierda copyright](http://127.0.0.1:8888/USK@NiPBeAA-PpA715zb8Jc~Q-ohFbKPt8Mo-YiH~w1D56A,--ZTBvgu7XMdX0QUJGBHp-Hogoh0AQK1p8WoY6IR80Q,AQACAAE/lawiki/5/)
 
+### Things I've been watching lately
+
+* [Installing Guix as complete GNU/Linux system](https://www.youtube.com/embed/oSy-TmoxG_Y)
+
 ---     
      
 Andres Imlauer / [necro@tfwno.gf](mailto:necro@tfwno.gf).     
