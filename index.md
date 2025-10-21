@@ -168,8 +168,8 @@ All musicians are narcissists who live off of attention.
 * Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
 * [Avenged Sevenfold](http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/)
 * GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc)
-
-**Millennial music** bands like [System of a Down](http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/), [Disturbed](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/), Send Request.
+* **Millennial bands** like [System of a Down](http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/), [Disturbed](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/).   
+* **Zoomer bands** like end Request.
 
 ---
    
