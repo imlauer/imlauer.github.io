@@ -183,7 +183,7 @@ All musicians are narcissists who live off of attention.
    
 ### Some things I like (no particular order):   
    
-decentralization, free software, ranting, programming, c, suckless software, _maybe electricity_.
+decentralization, free software, ranting, whispering, asmr, programming, c, suckless software, _maybe electricity_.
    
 ### Some things I dislike (disliking people doesn't contradict loving them):   
    
