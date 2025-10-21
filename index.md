@@ -16,7 +16,7 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Capitalism is going to die unless we ban ads and separate of church and state including universities.
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
-* Public Universities are taxpayer-funded scams.   
+* Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://www.youtube.com/embed/-v8pD0d5Bmk).   
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * **The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
