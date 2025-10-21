@@ -1,285 +1,955 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta charset="UTF-8">
-  <title>Imlauer | index </title>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Andres Imlauer’s Personal Page</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
 </head>
 <body>
-<hr />
-<h2>title: Andres Imlauer's Personal Page
-date: 2025-04-08T21:45:57-03:00</h2>
-<p>I was born in Argentina. I studied Computer Science from <a href="https://dcc.fceia.unr.edu.ar/es/lcc/materias">Universidad Nacional de Rosario(Spanish)</a>. Now I'm studying electricity.</p>
+<header id="title-block-header">
+<h1 class="title">Andres Imlauer’s Personal Page</h1>
+<p class="date">2025-04-08T21:45:57-03:00</p>
+</header>
+<p>I was born in Argentina. I studied Computer Science from <a
+href="https://dcc.fceia.unr.edu.ar/es/lcc/materias">Universidad Nacional
+de Rosario(Spanish)</a>. Now I’m studying electricity.</p>
 <p>My online nicknames are esotericwarfare, atavistic11.</p>
-<p>Here is a photo of <a href="https://miinstagram.github.io/me/mpv-shot0034.jpg">me</a>.</p>
+<p>Here is a photo of <a
+href="https://miinstagram.github.io/me/mpv-shot0034.jpg">me</a>.</p>
 <hr />
-<h4>Some facts:</h4>
+<h4 id="some-facts">Some facts:</h4>
 <ul>
-<li>I used to study computer science but dropped it.</li>
-<li>Capitalism is going to die unless we ban <a href="https://wrongthink.link/posts/advertising-cancer-on-society/">ads</a> and separate of church and state including universities.</li>
-<li>I support <a href="https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html">Wireheading city</a>.</li>
-<li><strong>Advertising should be illegal</strong> because it is a form of abusing because it takes advantage of stupid people.</li>
-<li>The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.</li>
-<li>Public Universities are taxpayer-funded scams: <a href="https://www.youtube.com/embed/-v8pD0d5Bmk">how not to be a noob by george hotz</a>.</li>
-<li>The entire educational system is a scam because no matter what job you do, you're always going to encounter a problem and have to study on your own. Nobody can teach you everything in life. The educational system and public universities are a pyramid scheme.</li>
-<li><strong>Financing with advertising is equivalent to financing with taxes</strong>.</li>
-<li>Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.</li>
+<li>I used to study computer science but dropped it.<br />
+</li>
+<li>Capitalism is going to die unless we ban <a
+href="https://wrongthink.link/posts/advertising-cancer-on-society/">ads</a>
+and separate of church and state including universities.</li>
+<li>I support <a
+href="https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html">Wireheading
+city</a>.<br />
+</li>
+<li><strong>Advertising should be illegal</strong> because it is a form
+of abusing because it takes advantage of stupid people.</li>
+<li>The public university should be developing decentralized, free
+software to evade corrupt governments and decentralized
+cryptocurrencies—alternatives to make us free. Not forcing us to take
+all those exams that serve no purpose other than putting a logo on a
+piece of paper. That’s academic bullshit.</li>
+<li>Public Universities are taxpayer-funded scams: <a
+href="https://www.youtube.com/embed/-v8pD0d5Bmk">how not to be a noob by
+george hotz</a>.</li>
+<li>The entire educational system is a scam because no matter what job
+you do, you’re always going to encounter a problem and have to study on
+your own. Nobody can teach you everything in life. The educational
+system and public universities are a pyramid scheme.</li>
+<li><strong>Financing with advertising is equivalent to financing with
+taxes</strong>.</li>
+<li>Javascript was a mistake: Modern frontends so are bloated due to the
+amount of spying they do and the extreme amount of advertising they
+display. The solution to this is to disable JavaScript or use a browser
+without JavaScript support like w3m, links, netsurf.<br />
+</li>
 <li>Politics is for losers.</li>
-<li><strong>The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.</strong></li>
-<li>COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - &quot;Deaths&quot; from COVID: 3,250,648. Complete nonsense.</li>
-<li>Technology has made access cheaper and more convenient — streaming music, movies, or storing data online costs far less than buying physical media. However, this convenience comes with a trade-off: <strong>users no truly own anything anymore</strong>.</li>
-<li><strong>All content and services are locked behind subscriptions and centralized platforms. If access is revoked or payment stops, everything — music, photos, data, even communication — can disappear instantly</strong>. This creates digital dependency and corporate control, where participation in modern life often requires a credit card and compliance with corporate systems. This is not what tech is about, this is against technology.</li>
-<li>Free will doesn't exist.</li>
-<li>Ads should be illegal. Advertising is like fishing, but you're the one who ends up getting caught.</li>
-<li>Today, the internet is flooded with ads and manipulation, but &quot;tech companies&quot; claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.</li>
-<li><strong><a href="https://wrongthink.link/posts/bitcoin-is-a-tale-of-tragedy/">Bitcoin</a>'s value is purely human stupidity</strong>: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.</li>
-<li><strong>Voting is manipulation</strong>: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.</li>
-<li>Modern games were created to sell expensive hardware to dumb people, see <a href="https://github.com/NetHack/NetHack">nethack</a>, <a href="http://www.tastyfish.cz/lrs/doom.html">DOOM</a> and <a href="http://www.tastyfish.cz/lrs/anarch.html">Anarch by tastyfish</a>, Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM, Anarch, Diablo I, 0ad have SDL support.</li>
-<li>Schools don't measure intelligence, they measure &quot;alignment with their interests&quot; and train you for &quot;slavery&quot;. True prodigies, like programmers and chess masters, simply drop out. ( <a href="https://www.youtube.com/embed/6Ptopme84Vw">Tsoding</a> ).
-School blocks real education.</li>
-<li>Work is better than school ( <a href="https://digdeeper.love/articles/school.xhtml">The toxic schooling system</a> )</li>
-<li>Everyone oppresses everyone else: human existence itself is pure egoism.</li>
-<li>Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. <a href="http://stallman.org/spotify.html">Spotify</a> lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers.</li>
-<li>Women are more emotional than men, therefore they are more violent.</li>
-<li>How to get girls: &quot;Girls just wanna have fun&quot;. The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Women pay less. Ask yourself: How many couples would not have been formed without the use of alcohol?</li>
-<li>Marriage never benefits the man, always the woman, because the woman has power over sex while the man has power over the relationship. If the man gets married, he loses the only power he had over the relationship.</li>
-<li>As a natural leader, you have no need for validation from anyone.</li>
-<li>I view the entire &quot;education system&quot; as a manipulative tool designed to train &quot;slaves&quot; to constantly seek external approval.</li>
-<li>Social media is a tool for mass espionage, addiction, and selling ads to exploit society.</li>
-<li>C++ was created to only sell expensive books and live off of them.</li>
-<li>The power isn't what you have, it's what people believe you have.</li>
-<li>Most jobs are fake, so don't worry AI won't take away your &quot;job&quot;.</li>
-<li>&quot;Skill before certification&quot; - <a href="https://www.youtube.com/embed/-v8pD0d5Bmk">George Hotz - How to not be a noob</a></li>
-<li>Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem. <strong>If you're fat you need to lose weight</strong>.</li>
-<li><strong><a href="https://ibb.co/Rkm9JC39">Zero sum games are bad</a>(<a href="https://archive.is/vyaZd">Archive in case you're on Tor</a>): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, <a href="https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking">Rent-seeking</a></strong> (<a href="/rent_seeking.html">In Spanish</a>).</li>
-<li>Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.</li>
-<li>Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it &quot;business&quot;.</li>
-<li>End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.</li>
-<li>Ban corporate landlords: Homes belong to people, not balance sheets. Empty houses in a housing crisis should be taxed into use.</li>
-<li><a href="https://wrongthink.link/posts/infinite-rent-unpatched-exploit/">Infinite Rent Unpatched Exploit</a> (<a href="/infinite-rent-unpatched-exploit.html">In Spanish</a>)</li>
-<li>The goal of computer science is to automate all jobs. The more computing advances, the more people lose work. That's why there is no real money in tech: if you are honest, each passing year programming work gets harder and pays worse.</li>
-<li>If you are a con artist like Mark Zuckerberg—whose core aim is to make you addicted to your phone to show you ads—or companies like <a href="http://stallman.org/spotify.html">Spotify</a>, Tinder that charges the same to men and women and Tinder doesn't ask the body count (very important question if you're looking for some casual sex) or Ex-Twitter show fake &quot;trends&quot;, then you can make money. Companies like <a href="http://stallman.org/netflix.html">Netflix</a> that turned people who once used torrents into paying subscribers, or Google that censors piracy and sites without Google Adsense while promoting Reddit, or Udemy selling low-quality courses, or all the aggressive marketing that pushes you to create accounts on shady sites or crypto scams. But that is NOT technology; technology is supposed to improve our lives, not make us addicted to advertising or be Ponzi-style scams or zero-sum games.</li>
-<li>Tech companies intentionally worsen their products to make more money. Programming died ten years ago; they tried to delay artificial intelligence because they want to live off fake jobs a computer can do.</li>
-<li><a href="https://en.wikipedia.org/wiki/Elizabeth_Holmes">Elizabeth Holmes</a> was used as a scapegoat—unjustly blamed for a larger failure. The investors who put money into that mess should be thoroughly investigated.</li>
-<li>In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then scammed others: <a href="http://stallman.org/spotify.html">Spotify</a> manipulates song popularity; YouTube removed dislikes; Facebook maximizes phone addiction to show as much advertising as possible.</li>
-<li>The original purpose of <strong>Bitcoin was to destroy banks and evade taxes</strong>. The fact that banks now sell Bitcoin demonstrates they are working against the technology's initial goals.</li>
-<li>There is no money in technology: <strong>most tech companies lie to society because they know people will buy stocks without understanding the product</strong>. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors.</li>
-<li>The COVID origin debate persists?... It came from a lab.</li>
-<li>What matters to Facebook/Meta is maximizing phone addiction to show as much advertising as possible. They may think it's genius, but it's fraud. Advertising should be illegal or heavily taxed so it's not profitable. If we abolish advertising, many so-called journalists would have to work in construction, and the country would improve.</li>
-<li>Teachers punish students for using Artificial Intelligence—again the education system fails to encourage critical thinking.</li>
-<li><em>&quot;You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here.&quot;</em> - George Hotz.</li>
-<li>In poor countries the struggle is not against nature but against zero-sum games and scams. Real economic growth is only about 3% — any gain above that often means someone else loses.</li>
-<li>&quot;The simplification changes the meaning&quot; - Richard Stallman.</li>
-<li><strong>For marketing, the truth doesn't matter, what only matter is what sells and raises stock prices</strong>. <em>YouTube removed dislikes and promotes youtube-shorts to show more ads</em>, then they &quot;worry&quot; and remove videos for &quot;misinformation&quot;.</li>
-<li>Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this <a href="https://www.youtube.com/watch?v=ZfOwwCoR0dE&amp;list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5">movie</a>.</li>
-<li>Statistics are a new form of advertising.</li>
-<li>Vibecoding(prompt engineering) is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language.</li>
-<li>In Argentina, internet service providers like Claro, Personal, and Movistar block access to <a href="https://librefutbol.su">https://librefutbol.su</a> by DNS, due to few customers are willing to pay for the premium channels, Google removes all the piracy links which is why I use <a href="https://yandex.com">Yandex</a> and torrent search with <strong>qBitTorrent, btstrm</strong> with <strong>Jackett</strong>.</li>
-<li>I believe most of <strong>social media influencers are psychopaths</strong> that are willing to promote any scam like VPN scams, online gambling and resell cheap clothing at a high price, in order to profit from their followers. They are the suckers of society.</li>
-<li><a href="https://wrongthink.link/posts/discord-inferior-alternative-to-mumble/">Discord is an Inferior Alternative to Mumble</a></li>
-<li>The fewer dependencies you have, the better: Having fewer dependencies makes it easier to maintain that's why I use <code>pandoc</code> and <code>markdown</code> and can just use html also or <code>cmark</code> that's more minimalistic than <code>pandoc</code>.</li>
-<li>I read news through RSS with <code>newsraft</code> and <code>newsboat</code>.</li>
+<li><strong>The best method to find out if a website is really free: use
+Tor and disable JavaScript and see if you can still use
+it.</strong></li>
+<li>COVID-19 pandemic was a planned laboratory creation: Deaths from
+nukes: 226,000 - “Deaths” from COVID: 3,250,648. Complete nonsense.</li>
+<li>Technology has made access cheaper and more convenient — streaming
+music, movies, or storing data online costs far less than buying
+physical media. However, this convenience comes with a trade-off:
+<strong>users no truly own anything anymore</strong>.</li>
+<li><strong>All content and services are locked behind subscriptions and
+centralized platforms. If access is revoked or payment stops, everything
+— music, photos, data, even communication — can disappear
+instantly</strong>. This creates digital dependency and corporate
+control, where participation in modern life often requires a credit card
+and compliance with corporate systems. This is not what tech is about,
+this is against technology.</li>
+<li>Free will doesn’t exist.<br />
+</li>
+<li>Ads should be illegal. Advertising is like fishing, but you’re the
+one who ends up getting caught.</li>
+<li>Today, the internet is flooded with ads and manipulation, but “tech
+companies” claim to care about stopping the spread of misinformation.
+The irony is that their entire business model relies on showing us fake
+ads.</li>
+<li><strong><a
+href="https://wrongthink.link/posts/bitcoin-is-a-tale-of-tragedy/">Bitcoin</a>’s
+value is purely human stupidity</strong>: Bitcoin was not created to
+speculate on its value: buying cheap and selling high. It was created to
+set us free and eliminate banks and decentralized money.</li>
+<li><strong>Voting is manipulation</strong>: zero-sum games are the
+problem and I don’t see any politician talking about it. Additionally,
+most working people don’t have the time to stay informed about the news,
+so they will always end up voting wrong.</li>
+<li>Modern games were created to sell expensive hardware to dumb people,
+see <a href="https://github.com/NetHack/NetHack">nethack</a>, <a
+href="http://www.tastyfish.cz/lrs/doom.html">DOOM</a> and <a
+href="http://www.tastyfish.cz/lrs/anarch.html">Anarch by tastyfish</a>,
+Diablo I, 0ad those are real games! I can play them without have to run
+Xorg or Wayland just from the TTY. Nethack is a text base console game.
+DOOM, Anarch, Diablo I, 0ad have SDL support.</li>
+<li>Schools don’t measure intelligence, they measure “alignment with
+their interests” and train you for “slavery”. True prodigies, like
+programmers and chess masters, simply drop out. ( <a
+href="https://www.youtube.com/embed/6Ptopme84Vw">Tsoding</a> ). School
+blocks real education.<br />
+</li>
+<li>Work is better than school ( <a
+href="https://digdeeper.love/articles/school.xhtml">The toxic schooling
+system</a> )<br />
+</li>
+<li>Everyone oppresses everyone else: human existence itself is pure
+egoism.<br />
+</li>
+<li>Google’s self-driving cars? Fake, controlled by humans. Amazon’s AI
+supermarkets? Also fake, staffed by 100 Indians. <a
+href="http://stallman.org/spotify.html">Spotify</a> lies about song
+popularity, YouTube hides dislikes, and social media exists purely for
+mass espionage and selling ads to fellow scammers.</li>
+<li>Women are more emotional than men, therefore they are more
+violent.</li>
+<li>How to get girls: “Girls just wanna have fun”. The nightclub was
+made for women, women like to dance with their friends and receive male
+attention. Men go to night clubs only because there are women, not
+because they like the nightclub. Women pay less. Ask yourself: How many
+couples would not have been formed without the use of alcohol?</li>
+<li>Marriage never benefits the man, always the woman, because the woman
+has power over sex while the man has power over the relationship. If the
+man gets married, he loses the only power he had over the
+relationship.</li>
+<li>As a natural leader, you have no need for validation from
+anyone.</li>
+<li>I view the entire “education system” as a manipulative tool designed
+to train “slaves” to constantly seek external approval.<br />
+</li>
+<li>Social media is a tool for mass espionage, addiction, and selling
+ads to exploit society.<br />
+</li>
+<li>C++ was created to only sell expensive books and live off of
+them.<br />
+</li>
+<li>The power isn’t what you have, it’s what people believe you
+have.<br />
+</li>
+<li>Most jobs are fake, so don’t worry AI won’t take away your
+“job”.</li>
+<li>“Skill before certification” - <a
+href="https://www.youtube.com/embed/-v8pD0d5Bmk">George Hotz - How to
+not be a noob</a></li>
+<li>Watching porn, smoking cigarettes, or overeating is a way of
+cheating instead of addressing the underlying problem. <strong>If you’re
+fat you need to lose weight</strong>.</li>
+<li><strong><a href="https://ibb.co/Rkm9JC39">Zero sum games are
+bad</a>(<a href="https://archive.is/vyaZd">Archive in case you’re on
+Tor</a>): patent trolls, finance, sales, real estate, tip screen design,
+fake jobs, social media influencers, advertising, <a
+href="https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking">Rent-seeking</a></strong>
+(<a href="/rent_seeking.html">In Spanish</a>).</li>
+<li>Housing is a moral issue: No one needs three homes while others have
+none. Overhousing is greed — put your extra properties back on the
+market.</li>
+<li>Investment firms are parasites: They don’t build homes; they buy
+them to drain rent from workers. Flippers and funds inflate prices and
+call it “business”.</li>
+<li>End infinite rent: After paying the home’s value in rent, ownership
+should transfer. Rent should build equity, not vanish.</li>
+<li>Ban corporate landlords: Homes belong to people, not balance sheets.
+Empty houses in a housing crisis should be taxed into use.</li>
+<li><a
+href="https://wrongthink.link/posts/infinite-rent-unpatched-exploit/">Infinite
+Rent Unpatched Exploit</a> (<a
+href="/infinite-rent-unpatched-exploit.html">In Spanish</a>)</li>
+<li>The goal of computer science is to automate all jobs. The more
+computing advances, the more people lose work. That’s why there is no
+real money in tech: if you are honest, each passing year programming
+work gets harder and pays worse.</li>
+<li>If you are a con artist like Mark Zuckerberg—whose core aim is to
+make you addicted to your phone to show you ads—or companies like <a
+href="http://stallman.org/spotify.html">Spotify</a>, Tinder that charges
+the same to men and women and Tinder doesn’t ask the body count (very
+important question if you’re looking for some casual sex) or Ex-Twitter
+show fake “trends”, then you can make money. Companies like <a
+href="http://stallman.org/netflix.html">Netflix</a> that turned people
+who once used torrents into paying subscribers, or Google that censors
+piracy and sites without Google Adsense while promoting Reddit, or Udemy
+selling low-quality courses, or all the aggressive marketing that pushes
+you to create accounts on shady sites or crypto scams. But that is NOT
+technology; technology is supposed to improve our lives, not make us
+addicted to advertising or be Ponzi-style scams or zero-sum games.</li>
+<li>Tech companies intentionally worsen their products to make more
+money. Programming died ten years ago; they tried to delay artificial
+intelligence because they want to live off fake jobs a computer can
+do.</li>
+<li><a href="https://en.wikipedia.org/wiki/Elizabeth_Holmes">Elizabeth
+Holmes</a> was used as a scapegoat—unjustly blamed for a larger failure.
+The investors who put money into that mess should be thoroughly
+investigated.</li>
+<li>In technology there is no real money. Most people didn’t care about
+tech; they came because they heard there was money and then scammed
+others: <a href="http://stallman.org/spotify.html">Spotify</a>
+manipulates song popularity; YouTube removed dislikes; Facebook
+maximizes phone addiction to show as much advertising as possible.</li>
+<li>The original purpose of <strong>Bitcoin was to destroy banks and
+evade taxes</strong>. The fact that banks now sell Bitcoin demonstrates
+they are working against the technology’s initial goals.</li>
+<li>There is no money in technology: <strong>most tech companies lie to
+society because they know people will buy stocks without understanding
+the product</strong>. Examples: Elizabeth Holmes raised hundreds of
+millions and valued Theranos at $9 billion while deceiving
+investors.</li>
+<li>The COVID origin debate persists?… It came from a lab.</li>
+<li>What matters to Facebook/Meta is maximizing phone addiction to show
+as much advertising as possible. They may think it’s genius, but it’s
+fraud. Advertising should be illegal or heavily taxed so it’s not
+profitable. If we abolish advertising, many so-called journalists would
+have to work in construction, and the country would improve.</li>
+<li>Teachers punish students for using Artificial Intelligence—again the
+education system fails to encourage critical thinking.</li>
+<li><em>“You heard there was money and status in tech. You applied. You
+never cared about technology; you wanted to get rich. You’re a parasitic
+infiltrator. It’s time for you to leave. You won’t go voluntarily. We
+must act: give everything away for free so you have no reason to be
+here.”</em> - George Hotz.</li>
+<li>In poor countries the struggle is not against nature but against
+zero-sum games and scams. Real economic growth is only about 3% — any
+gain above that often means someone else loses.</li>
+<li>“The simplification changes the meaning” - Richard Stallman.</li>
+<li><strong>For marketing, the truth doesn’t matter, what only matter is
+what sells and raises stock prices</strong>. <em>YouTube removed
+dislikes and promotes youtube-shorts to show more ads</em>, then they
+“worry” and remove videos for “misinformation”.</li>
+<li>Before Netflix, YouTube, Spotify, people used P2P networks like
+Ares, Emule, Torrent to share music, but everything was corrupted by
+power, if you don’t believe me, watch this <a
+href="https://www.youtube.com/watch?v=ZfOwwCoR0dE&amp;list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5">movie</a>.</li>
+<li>Statistics are a new form of advertising.<br />
+</li>
+<li>Vibecoding(prompt engineering) is a scam: You’re still doing the
+coding, you’re just using a different language (English, in this case),
+and English is a poor language for coding due to its imprecision. The
+moment you need to accomplish something new, you’ll have to be as
+specific as possible, and the only reason it works for many common
+programming workflows is because they are common, the minute you try to
+do new things, you need to be as verbose as the underlying
+language.</li>
+<li>In Argentina, internet service providers like Claro, Personal, and
+Movistar block access to <a
+href="https://librefutbol.su">https://librefutbol.su</a> by DNS, due to
+few customers are willing to pay for the premium channels, Google
+removes all the piracy links which is why I use <a
+href="https://yandex.com">Yandex</a> and torrent search with
+<strong>qBitTorrent, btstrm</strong> with <strong>Jackett</strong>.</li>
+<li>I believe most of <strong>social media influencers are
+psychopaths</strong> that are willing to promote any scam like VPN
+scams, online gambling and resell cheap clothing at a high price, in
+order to profit from their followers. They are the suckers of
+society.</li>
+<li><a
+href="https://wrongthink.link/posts/discord-inferior-alternative-to-mumble/">Discord
+is an Inferior Alternative to Mumble</a></li>
+<li>The fewer dependencies you have, the better: Having fewer
+dependencies makes it easier to maintain that’s why I use
+<code>pandoc</code> and <code>markdown</code> and can just use html also
+or <code>cmark</code> that’s more minimalistic than
+<code>pandoc</code>.</li>
+<li>I read news through RSS with <code>newsraft</code> and
+<code>newsboat</code>.</li>
 <li>I love all that lives, even those that cause me pain.</li>
-<li>Wanna learn about finances?: <a href="http://wermenh.com/fay/index.html">http://wermenh.com/fay/index.html</a></li>
-<li>Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.</li>
-<li>For Zoomers a mail client is an &quot;app&quot;.</li>
+<li>Wanna learn about finances?: <a
+href="http://wermenh.com/fay/index.html">http://wermenh.com/fay/index.html</a></li>
+<li>Due to my laptop’s slow performance, I spoof my User-Agent to make
+it seem like I’m accessing from an Android device, which allows me to
+load resource-intensive sites like Twitch and YouTube more quickly.</li>
+<li>For Zoomers a mail client is an “app”.</li>
 </ul>
 <hr />
 <ul>
-<li><strong>Intelligence is genetic</strong>, and one cannot study to become intelligent; access to information is already available and there's still a lot of retarded people like me.</li>
-<li>Harvard costs $70,000 per year to study something you can find on Internet, I don't understand why people pay that. Buy your kid a house instead, lol.</li>
-<li><strong>The &quot;educational system&quot; (schools and universities) does not measure intelligence. Instead, they measure how much you question what you are told to do</strong>.</li>
+<li><strong>Intelligence is genetic</strong>, and one cannot study to
+become intelligent; access to information is already available and
+there’s still a lot of retarded people like me.</li>
+<li>Harvard costs $70,000 per year to study something you can find on
+Internet, I don’t understand why people pay that. Buy your kid a house
+instead, lol.</li>
+<li><strong>The “educational system” (schools and universities) does not
+measure intelligence. Instead, they measure how much you question what
+you are told to do</strong>.</li>
 <li>Schools destroy autonomy, which in turn destroys intelligence.</li>
-<li>When a student uses Artificial Intelligence (AI) for homework, they demonstrate a lack of <strong>motivation</strong> or interest in the subject matter, which is the true problem.</li>
-<li>University education is a <strong>zero-sum game</strong> that serves no beneficial purpose to society.</li>
+<li>When a student uses Artificial Intelligence (AI) for homework, they
+demonstrate a lack of <strong>motivation</strong> or interest in the
+subject matter, which is the true problem.</li>
+<li>University education is a <strong>zero-sum game</strong> that serves
+no beneficial purpose to society.</li>
 </ul>
 <hr />
 <ul>
-<li><strong>True technology is decentralized</strong>. Decentralized technology gives power over money and data to the individual.</li>
-<li>Examples of true decentralized technology include the original Internet, email (SMTP), torrents, and Bitcoin (in its original form).</li>
-<li><strong>&quot;Centralized technology&quot; is anti-technology</strong> and leads to <strong><a href="https://geohot.github.io/blog/jekyll/update/2025/10/06/always-been-at-war.html">slavery</a></strong>. Centralization gives power over money and data to the corporation.</li>
-<li>Centralized AI will make humanity slaves; therefore, technology must be decentralized.</li>
-<li><strong>There is no money in true decentralized technology</strong>. Companies hate decentralized technology because they cannot profit from it.</li>
-<li>&quot;Tech companies&quot; (BigTech) realized they couldn't make money from decentralized systems, so they began to centralize everything, which is their true objective.</li>
-<li>Examples of centralized anti-technology include Discord, Slack, Twitter, Instagram, YouTube, Facebook/Meta, Netflix, Spotify, and banks selling Bitcoin.</li>
-<li>Many &quot;technological&quot; companies intentionally <strong>worsen their products</strong> (e.g., Google search results, Amazon) in order to earn more money.</li>
+<li><strong>True technology is decentralized</strong>. Decentralized
+technology gives power over money and data to the individual.</li>
+<li>Examples of true decentralized technology include the original
+Internet, email (SMTP), torrents, and Bitcoin (in its original
+form).</li>
+<li><strong>“Centralized technology” is anti-technology</strong> and
+leads to <strong><a
+href="https://geohot.github.io/blog/jekyll/update/2025/10/06/always-been-at-war.html">slavery</a></strong>.
+Centralization gives power over money and data to the corporation.</li>
+<li>Centralized AI will make humanity slaves; therefore, technology must
+be decentralized.</li>
+<li><strong>There is no money in true decentralized technology</strong>.
+Companies hate decentralized technology because they cannot profit from
+it.</li>
+<li>“Tech companies” (BigTech) realized they couldn’t make money from
+decentralized systems, so they began to centralize everything, which is
+their true objective.</li>
+<li>Examples of centralized anti-technology include Discord, Slack,
+Twitter, Instagram, YouTube, Facebook/Meta, Netflix, Spotify, and banks
+selling Bitcoin.</li>
+<li>Many “technological” companies intentionally <strong>worsen their
+products</strong> (e.g., Google search results, Amazon) in order to earn
+more money.</li>
 </ul>
 <hr />
 <ul>
-<li>Most &quot;tech companies&quot; are fundamentally <strong>advertising companies</strong>.</li>
-<li>Companies like Facebook/Meta use the most advanced AI in the world to train people's brains to consume advertising and become addicted to their screens.</li>
-<li>Facebook &quot;gives away&quot; cell phones in poor countries, recovering the cost through advertising, which is viewed as a form of abuse.</li>
-<li>Activities that are <strong>&quot;zero-sum games&quot;</strong> (not creating value, only extracting it) should be heavily taxed or outlawed. These include: advertising, marketing, finance, rentals/real estate, reselling, journalism, and tip applications.</li>
-<li>Mark Zuckerberg should close Facebook and live off the state because his work does not serve society, but rather aims to make people addicted to advertising.</li>
+<li>Most “tech companies” are fundamentally <strong>advertising
+companies</strong>.</li>
+<li>Companies like Facebook/Meta use the most advanced AI in the world
+to train people’s brains to consume advertising and become addicted to
+their screens.</li>
+<li>Facebook “gives away” cell phones in poor countries, recovering the
+cost through advertising, which is viewed as a form of abuse.</li>
+<li>Activities that are <strong>“zero-sum games”</strong> (not creating
+value, only extracting it) should be heavily taxed or outlawed. These
+include: advertising, marketing, finance, rentals/real estate,
+reselling, journalism, and tip applications.</li>
+<li>Mark Zuckerberg should close Facebook and live off the state because
+his work does not serve society, but rather aims to make people addicted
+to advertising.</li>
 </ul>
 <hr />
 <ul>
-<li>The entire society is influenceable; <strong>free will does not exist</strong>.</li>
-<li>The goal of technology should be to replace the useful functions of the State with locally controlled machines, causing the <strong>State to weaken and die by disruption</strong>.</li>
-<li>The system rewards those who create &quot;traps for humans,&quot; not those who help others.</li>
-<li>The State, the church, and the universities should be separated.</li>
+<li>The entire society is influenceable; <strong>free will does not
+exist</strong>.</li>
+<li>The goal of technology should be to replace the useful functions of
+the State with locally controlled machines, causing the <strong>State to
+weaken and die by disruption</strong>.</li>
+<li>The system rewards those who create “traps for humans,” not those
+who help others.</li>
+<li>The State, the church, and the universities should be
+separated.</li>
 </ul>
 <hr />
-<h3>People who I look up to</h3>
+<h3 id="people-who-i-look-up-to">People who I look up to</h3>
 <ul>
-<li>George Hotz: <a href="https://geohot.github.io/blog">Blog</a>. In this video he teachs you: <a href="https://www.youtube.com/embed/-v8pD0d5Bmk">how not to be a noob</a>. <a href="/geohot.html">Spanish text of George Hotz talking about zero sums games</a>.</li>
+<li>George Hotz: <a href="https://geohot.github.io/blog">Blog</a>. In
+this video he teachs you: <a
+href="https://www.youtube.com/embed/-v8pD0d5Bmk">how not to be a
+noob</a>. <a href="/geohot.html">Spanish text of George Hotz talking
+about zero sums games</a>.</li>
 </ul>
 <hr />
-<h3>Articles I recommend reading from his blog:</h3>
-<ol start="0">
-<li><a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html">Father</a> - The trick is not to use <a href="http://www.tastyfish.cz/lrs/ai.html">artificial intelligence to predict the stock market</a>, but to influence people and manipulate people.</li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html">Class Warfare</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html">Sell outs</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html">Pieces of shit</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html">consumer class divide</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html">demoralization is just beginning</a>: <strong>Back the dollar by gold</strong> (not socially constructed crypto), and bring major crackdowns to finance to tie it to real world value. Trading is not a job. Passive income is not a thing. Instead, go produce something real and exchange it for gold.</li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html">money is the map</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html">beauty after covid</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html">dangerous misinformation</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2025/09/02/you-are-a-good-person.html">you are a good person</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html">Wireheading city</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html">idiots are going to kill me</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html">are we the baddies</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html">happy brithday to me</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html">collective marshmallow test</a></li>
-<li><a href="https://geohot.github.io/blog/jekyll/update/2025/04/22/a-way-forward.html">a way forward</a></li>
-<li><a href="https://geohot.github.io//blog/jekyll/update/2025/10/15/pathetic-losers.html">Pathetic Losers</a></li>
+<h3 id="articles-i-recommend-reading-from-his-blog">Articles I recommend
+reading from his blog:</h3>
+<ol start="0" type="1">
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html">Father</a>
+- The trick is not to use <a
+href="http://www.tastyfish.cz/lrs/ai.html">artificial intelligence to
+predict the stock market</a>, but to influence people and manipulate
+people.</li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html">Class
+Warfare</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html">Sell
+outs</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html">Pieces
+of shit</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html">consumer
+class divide</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html">demoralization
+is just beginning</a>: <strong>Back the dollar by gold</strong> (not
+socially constructed crypto), and bring major crackdowns to finance to
+tie it to real world value. Trading is not a job. Passive income is not
+a thing. Instead, go produce something real and exchange it for
+gold.</li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html">money
+is the map</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2022/03/05/beauty-after-covid.html">beauty
+after covid</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2024/08/12/dangerous-misinformation.html">dangerous
+misinformation</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/02/you-are-a-good-person.html">you
+are a good person</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html">Wireheading
+city</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2021/05/07/idiots-are-going-to-kill-me.html">idiots
+are going to kill me</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2025/07/05/are-we-the-baddies.html">are
+we the baddies</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2022/10/02/happy-brithday-to-me.html">happy
+brithday to me</a></li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html">collective
+marshmallow test</a><br />
+</li>
+<li><a
+href="https://geohot.github.io/blog/jekyll/update/2025/04/22/a-way-forward.html">a
+way forward</a></li>
+<li><a
+href="https://geohot.github.io//blog/jekyll/update/2025/10/15/pathetic-losers.html">Pathetic
+Losers</a></li>
 </ol>
 <hr />
 <ul>
-<li><a href="https://www.youtube.com/channel/UCr2eKhGzPhN5RPVk5dd5o3g">Vegan Gains</a>: I learnt a lot of English watching his stupid videos. This <a href="https://www.youtube.com/channel/UCoRKQ5h9mAfiXhvSrHggtVw">channel</a> uploads his streams because you have to pay to watch them. <a href="https://www.youtube.com/embed/eHJet_hathc">This</a> video is funny.</li>
-<li><a href="https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg">Tsoding</a>.</li>
+<li><a
+href="https://www.youtube.com/channel/UCr2eKhGzPhN5RPVk5dd5o3g">Vegan
+Gains</a>: I learnt a lot of English watching his stupid videos. This <a
+href="https://www.youtube.com/channel/UCoRKQ5h9mAfiXhvSrHggtVw">channel</a>
+uploads his streams because you have to pay to watch them. <a
+href="https://www.youtube.com/embed/eHJet_hathc">This</a> video is
+funny.<br />
+</li>
+<li><a
+href="https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg">Tsoding</a>.<br />
+</li>
 <li><a href="https://lukesmith.xyz">Luke Smith</a>.</li>
-<li>Reckful: <a href="https://www.youtube.com/embed/DpcMl9XP55M">renting vs buying a house</a>, <a href="https://reckful-archive.org/">Reckful Archive</a>.</li>
-<li>Sean Strickland: <a href="https://nitter.net/sstricklandmma">Nitter(Twitter)</a>, <a href="https://xcancel.com/sstricklandmma/rss">RSS</a>: <em>&quot;I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it&quot;</em> (<a href="https://nitter.net/SStricklandMMA/status/1977847462334431693">Read the tweet on Nitter</a>)(<a href="https://archive.is/DQ0vX">Archive</a>).</li>
-<li>Richard Stallman: <a href="https://stallman.org">RMS</a>, <a href="https://rms.sexy">RMS Sexy</a> and <a href="https://www.stallman.org/archives/">political news</a>(<a href="https://stallman.org/rss/rss.xml">RSS</a>).</li>
+<li>Reckful: <a href="https://www.youtube.com/embed/DpcMl9XP55M">renting
+vs buying a house</a>, <a href="https://reckful-archive.org/">Reckful
+Archive</a>.</li>
+<li>Sean Strickland: <a
+href="https://nitter.net/sstricklandmma">Nitter(Twitter)</a>, <a
+href="https://xcancel.com/sstricklandmma/rss">RSS</a>: <em>“I have to
+remind myself that business shapes society and business is marketing to
+a lower IQ, shorter attention span demographic Days of complexity are
+over. If we cant swipe through a 15 second video selected by mass data
+harvesting to give you a happy hit we dont want it”</em> (<a
+href="https://nitter.net/SStricklandMMA/status/1977847462334431693">Read
+the tweet on Nitter</a>)(<a
+href="https://archive.is/DQ0vX">Archive</a>).</li>
+<li>Richard Stallman: <a href="https://stallman.org">RMS</a>, <a
+href="https://rms.sexy">RMS Sexy</a> and <a
+href="https://www.stallman.org/archives/">political news</a>(<a
+href="https://stallman.org/rss/rss.xml">RSS</a>).</li>
 </ul>
 <hr />
-<h3>Music is a big part of my life.</h3>
+<h3 id="music-is-a-big-part-of-my-life.">Music is a big part of my
+life.</h3>
 <p>All musicians are narcissists who live off of attention.</p>
-<p>&quot;Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument.&quot; That's the attitude of musicians.</p>
+<p>“Look at me, look at me! I’m playing the guitar, I’m singing, I’m
+playing my instrument.” That’s the attitude of musicians.</p>
 <ul>
-<li>Alex Story: <a href="https://youtube.com/embed/Jaf-R6kyXVU">Pulling The Plug FULL ALBUM</a>, <a href="https://youtube.com/embed/ZV_Hga8f5D4">Alex Story - 3 FULL ALBUM</a></li>
-<li>Spanish Love Songs: <a href="https://youtube.com/embed/SUAq2KPRYJU">Losers 2</a></li>
-<li>Cancerslug: <a href="https://youtube.com/embed/1bP4plDxYBY">1</a>, <a href="https://www.youtube.com/embed/fuIh2IaW_ng">2</a>, <a href="https://youtube.com/embed/z0HwJJ2SRlM">3</a>, <a href="https://www.youtube.com/embed/z0HwJJ2SRlM">4</a>, <a href="https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G">5</a></li>
-<li>Nirvana: <a href="http://www.ashleecadell.com/xyzstorelibrary/Nirvana">Albums</a></li>
-<li>As I lay dying: <a href="https://youtube.com/embed/Hz5OKhhctQE">Greatest Hits</a></li>
-<li>Amon Amarth: <a href="https://www.youtube.com/embed/f8YOT5f1wVs">1</a>, <a href="https://www.youtube.com/embed/oOK0wyuGbtI">2</a>.</li>
-<li><a href="http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/">Avenged Sevenfold</a></li>
-<li>GG Allin: <a href="https://www.youtube.com/embed/THvr0WNOYPc">Live fast, die young lol</a></li>
+<li>Alex Story: <a href="https://youtube.com/embed/Jaf-R6kyXVU">Pulling
+The Plug FULL ALBUM</a>, <a
+href="https://youtube.com/embed/ZV_Hga8f5D4">Alex Story - 3 FULL
+ALBUM</a></li>
+<li>Spanish Love Songs: <a
+href="https://youtube.com/embed/SUAq2KPRYJU">Losers 2</a></li>
+<li>Cancerslug: <a href="https://youtube.com/embed/1bP4plDxYBY">1</a>,
+<a href="https://www.youtube.com/embed/fuIh2IaW_ng">2</a>, <a
+href="https://youtube.com/embed/z0HwJJ2SRlM">3</a>, <a
+href="https://www.youtube.com/embed/z0HwJJ2SRlM">4</a>, <a
+href="https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G">5</a></li>
+<li>Nirvana: <a
+href="http://www.ashleecadell.com/xyzstorelibrary/Nirvana">Albums</a></li>
+<li>As I lay dying: <a
+href="https://youtube.com/embed/Hz5OKhhctQE">Greatest Hits</a></li>
+<li>Amon Amarth: <a
+href="https://www.youtube.com/embed/f8YOT5f1wVs">1</a>, <a
+href="https://www.youtube.com/embed/oOK0wyuGbtI">2</a>.</li>
+<li><a
+href="http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/">Avenged
+Sevenfold</a></li>
+<li>GG Allin: <a href="https://www.youtube.com/embed/THvr0WNOYPc">Live
+fast, die young lol</a></li>
 </ul>
-<p><strong>Millennial music</strong> bands like <a href="http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/">System of a Down</a>, <a href="http://www.ashleecadell.com/xyzstorelibrary/Disturbed/">Disturbed</a>, Send Request.</p>
+<p><strong>Millennial music</strong> bands like <a
+href="http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/">System
+of a Down</a>, <a
+href="http://www.ashleecadell.com/xyzstorelibrary/Disturbed/">Disturbed</a>,
+Send Request.</p>
 <hr />
-<h2>Contacts and social media:</h2>
+<h2 id="contacts-and-social-media">Contacts and social media:</h2>
 <ul>
-<li><a href="mailto:necro@tfwno.gf">necro@tfwno.gf</a></li>
-<li><a href="mailto:imlauerandres@gmail.com">imlauerandres@gmail.com</a></li>
-<li><a href="https://www.youtube.com/channel/UCIBeANd-ORSKPOg7PPMWCqw">My YouTube Channel</a></li>
+<li><a href="mailto:necro@tfwno.gf">necro@tfwno.gf</a><br />
+</li>
+<li><a
+href="mailto:imlauerandres@gmail.com">imlauerandres@gmail.com</a><br />
+</li>
+<li><a
+href="https://www.youtube.com/channel/UCIBeANd-ORSKPOg7PPMWCqw">My
+YouTube Channel</a></li>
 </ul>
 <hr />
-<h3>Some things I like (no particular order):</h3>
-<p>decentralization, free software, ranting, programming, c, suckless software, <em>maybe electricity</em>.</p>
-<h3>Some things I dislike (disliking people doesn't contradict loving them):</h3>
-<p>centralization, ads, feminism, cheesy positivity, political correctness, boredom, phony people, being stuck, not improving, acting normal, copyright, proprietary software.</p>
+<h3 id="some-things-i-like-no-particular-order">Some things I like (no
+particular order):</h3>
+<p>decentralization, free software, ranting, programming, c, suckless
+software, <em>maybe electricity</em>.</p>
+<h3
+id="some-things-i-dislike-disliking-people-doesnt-contradict-loving-them">Some
+things I dislike (disliking people doesn’t contradict loving them):</h3>
+<p>centralization, ads, feminism, cheesy positivity, political
+correctness, boredom, phony people, being stuck, not improving, acting
+normal, copyright, proprietary software.</p>
 <hr />
-<p>During my free time, I like working on various technology and non-technology projects, playing doom and 0ad, chatting on IRC servers, and web forums, trying new things, volunteering for different causes, and whatever else I find interesting.</p>
+<p>During my free time, I like working on various technology and
+non-technology projects, playing doom and 0ad, chatting on IRC servers,
+and web forums, trying new things, volunteering for different causes,
+and whatever else I find interesting.</p>
 <hr />
-<h3>List of tech I'm using:</h3>
+<h3 id="list-of-tech-im-using">List of tech I’m using:</h3>
 <ul>
-<li><strong>operating system</strong>: <a href="https://imlauera.github.io/post/instalacion_arch_basica">ArchLinux</a></li>
-<li><strong>cpu</strong>: Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz</li>
-<li><strong>memory</strong>: 3.70 GiB</li>
-<li><strong>cell phone</strong>: Moto G4.</li>
-<li><strong>keyboard</strong>: <a href="https://vas.neocities.org/pics/ak33_vs_old.jpg">Ajazz (AK33)</a>.</li>
-<li><strong>mouse</strong>: Verbatim.</li>
-<li><strong>desktop</strong>: <a href="/just_tty.html">TTY with tmux only with Qt apps without Xorg or Wayland(EGLFS)</a>.</li>
-<li><strong>text editor</strong>: vim.</li>
-<li><strong>terminal</strong>: tty.</li>
-<li><strong>browser</strong>: w3m, chawan, Falkon with EGLFS (to take a screenshot use print to pdf), QuteBrowser, NetSurf with SDL, wget, curl.</li>
-<li><strong>email client</strong>: neomutt with mw (mutt wizard by Luke Smith).</li>
-<li><strong>video editor</strong>: ffmpeg.</li>
-<li><strong>audio editor</strong>: Audacity.</li>
-<li><strong>screen recording</strong>: ffmpeg, Simple Screen Recorder, sometimes I use obs (these idiots signed the letter against Richard Stallman) :(</li>
-<li><strong>programming</strong>: C99, Python, bash.</li>
+<li><strong>operating system</strong>: <a
+href="https://imlauera.github.io/post/instalacion_arch_basica">ArchLinux</a><br />
+</li>
+<li><strong>cpu</strong>: Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz<br />
+</li>
+<li><strong>memory</strong>: 3.70 GiB<br />
+</li>
+<li><strong>cell phone</strong>: Moto G4.<br />
+</li>
+<li><strong>keyboard</strong>: <a
+href="https://vas.neocities.org/pics/ak33_vs_old.jpg">Ajazz
+(AK33)</a>.<br />
+</li>
+<li><strong>mouse</strong>: Verbatim.<br />
+</li>
+<li><strong>desktop</strong>: <a href="/just_tty.html">TTY with tmux
+only with Qt apps without Xorg or Wayland(EGLFS)</a>.<br />
+</li>
+<li><strong>text editor</strong>: vim.<br />
+</li>
+<li><strong>terminal</strong>: tty.<br />
+</li>
+<li><strong>browser</strong>: w3m, chawan, Falkon with EGLFS (to take a
+screenshot use print to pdf), QuteBrowser, NetSurf with SDL, wget,
+curl.<br />
+</li>
+<li><strong>email client</strong>: neomutt with mw (mutt wizard by Luke
+Smith).<br />
+</li>
+<li><strong>video editor</strong>: ffmpeg.<br />
+</li>
+<li><strong>audio editor</strong>: Audacity.<br />
+</li>
+<li><strong>screen recording</strong>: ffmpeg, Simple Screen Recorder,
+sometimes I use obs (these idiots signed the letter against Richard
+Stallman) :(</li>
+<li><strong>programming</strong>: C99, Python, bash.<br />
+</li>
 <li><strong>personal transport</strong>: a bike.</li>
 </ul>
 <hr />
-<h4>If you're a billionaire and want to give me 4 kg of gold (enough to make me financially independent for the rest of my life) that would be nice.</h4>
-<h4>BTC: <a href="https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3">bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3</a></h4>
-<h4><a href="https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6">PayPal</a></h4>
-<h4><a href="https://ko-fi.com/i1andres">KoFi</a></h4>
-<h4><a href="https://mpago.la/2SQubGu">Donate me 5 dollars on MercadoPago</a></h4>
+<h4
+id="if-youre-a-billionaire-and-want-to-give-me-4-kg-of-gold-enough-to-make-me-financially-independent-for-the-rest-of-my-life-that-would-be-nice.">If
+you’re a billionaire and want to give me 4 kg of gold (enough to make me
+financially independent for the rest of my life) that would be
+nice.</h4>
+<h4 id="btc-bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3">BTC: <a
+href="https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3">bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3</a></h4>
+<h4 id="paypal"><a
+href="https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6">PayPal</a></h4>
+<h4 id="kofi"><a href="https://ko-fi.com/i1andres">KoFi</a></h4>
+<h4 id="donate-me-5-dollars-on-mercadopago"><a
+href="https://mpago.la/2SQubGu">Donate me 5 dollars on
+MercadoPago</a></h4>
 <hr />
-<h4>Some links</h4>
+<h4 id="some-links">Some links</h4>
 <ul>
 <li>Use <a href="https://wiby.me">wiby.me</a></li>
-<li><a href="http://www.tastyfish.cz/startpage.html">TastyFish Startpage</a></li>
-<li>Open directory search: <a href="https://lumpysoft.com">https://lumpysoft.com</a>, <a href="https://eyeofjustice.com/od">https://eyeofjustice.com/od</a>, <a href="https://opendirsearch.abifog.com">https://opendirsearch.abifog.com</a>, <a href="https://odcrawler.xyz">https://odcrawler.xyz </a>.</li>
-<li>good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): <a href="https://proxydb.net">https://proxydb.net</a></li>
-<li><a href="https://dorotac.eu/posts/fosswon/">Free Software hasn't won</a></li>
-<li><a href="https://imlauera.github.io">My Blog</a></li>
-<li><a href="https://youtube.com/embed/8qvddkIgo4A">TastyFish Living in Caravan</a></li>
-<li><a href="http://s-config.com/thinking-without-google-welcome-old-web/">Thinking without google</a></li>
-<li><a href="http://www.tastyfish.cz/lrs/main.html">LRS Wiki by TastyFish</a></li>
-<li><a href="https://www.defectivebydesign.org/">DefectiveByDesign</a></li>
+<li><a href="http://www.tastyfish.cz/startpage.html">TastyFish
+Startpage</a><br />
+</li>
+<li>Open directory search: <a
+href="https://lumpysoft.com">https://lumpysoft.com</a>, <a
+href="https://eyeofjustice.com/od">https://eyeofjustice.com/od</a>, <a
+href="https://opendirsearch.abifog.com">https://opendirsearch.abifog.com</a>,
+<a href="https://odcrawler.xyz">https://odcrawler.xyz</a>.<br />
+</li>
+<li>good source for proxies (you don’t need vpn, select socks5 and high
+anonymous or use tor): <a
+href="https://proxydb.net">https://proxydb.net</a><br />
+</li>
+<li><a href="https://dorotac.eu/posts/fosswon/">Free Software hasn’t
+won</a><br />
+</li>
+<li><a href="https://imlauera.github.io">My Blog</a><br />
+</li>
+<li><a href="https://youtube.com/embed/8qvddkIgo4A">TastyFish Living in
+Caravan</a></li>
+<li><a
+href="http://s-config.com/thinking-without-google-welcome-old-web/">Thinking
+without google</a><br />
+</li>
+<li><a href="http://www.tastyfish.cz/lrs/main.html">LRS Wiki by
+TastyFish</a></li>
+<li><a
+href="https://www.defectivebydesign.org/">DefectiveByDesign</a></li>
 <li><a href="https://www.fsf.org/twitter">FSF - Twitter</a></li>
 <li><a href="https://www.fsf.org/windows">FSF - Windows</a></li>
-<li><a href="https://static.fsf.org/nosvn/directory/directory.xml.bz2">Download FSF Wiki</a></li>
-<li><a href="https://yacy.net/">YaCy a decentralized P2P search engine that can run fully offline with own index.</a></li>
-<li><a href="https://www.increasinglyadequate.com/index.html">My increasingly adequate website</a></li>
-<li><a href="https://leta.mullvad.net/search?q=google&amp;engine=google">leta.mullvad.net(use Google anonymously)</a></li>
-<li><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/">HyperPhisics</a></li>
-<li><a href="https://larrysanger.org/2020/05/wikipedia-is-badly-biased/">Wikipedia is badly biased</a></li>
-<li><a href="https://www.youtube.com/embed/c_Q7reJtiLU">I don't use or trust Wikipedia anymore</a></li>
-<li><a href="https://digdeeper.love/">DigDeeper</a></li>
-<li><a href="https://youtube.com/embed/fkkDvKGcNSo">Richard Stallman Interview</a></li>
-<li><a href="https://secretonions.neocities.org/">SecretOnions</a></li>
-<li><a href="https://websitereview.neocities.org/">WebsiteReview</a></li>
-<li><a href="https://z-library.la">ZLibrary</a></li>
-<li><a href="https://archive.is/wip/Mtu5s">NixOS Made Me Lose My Wife</a></li>
+<li><a
+href="https://static.fsf.org/nosvn/directory/directory.xml.bz2">Download
+FSF Wiki</a></li>
+<li><a href="https://yacy.net/">YaCy a decentralized P2P search engine
+that can run fully offline with own index.</a></li>
+<li><a href="https://www.increasinglyadequate.com/index.html">My
+increasingly adequate website</a><br />
+</li>
+<li><a
+href="https://leta.mullvad.net/search?q=google&amp;engine=google">leta.mullvad.net(use
+Google anonymously)</a><br />
+</li>
+<li><a
+href="http://hyperphysics.phy-astr.gsu.edu/hbase/">HyperPhisics</a><br />
+</li>
+<li><a
+href="https://larrysanger.org/2020/05/wikipedia-is-badly-biased/">Wikipedia
+is badly biased</a></li>
+<li><a href="https://www.youtube.com/embed/c_Q7reJtiLU">I don’t use or
+trust Wikipedia anymore</a></li>
+<li><a href="https://digdeeper.love/">DigDeeper</a><br />
+</li>
+<li><a href="https://youtube.com/embed/fkkDvKGcNSo">Richard Stallman
+Interview</a></li>
+<li><a href="https://secretonions.neocities.org/">SecretOnions</a><br />
+</li>
+<li><a
+href="https://websitereview.neocities.org/">WebsiteReview</a><br />
+</li>
+<li><a href="https://z-library.la">ZLibrary</a><br />
+</li>
+<li><a href="https://archive.is/wip/Mtu5s">NixOS Made Me Lose My
+Wife</a><br />
+</li>
 <li><a href="https://davewebsite.neocities.org/">DaveWebsite</a></li>
-<li><a href="https://rexresearch1.com/">RexResearch1</a></li>
-<li><a href="https://spyware.neocities.org/articles/">SpyWare</a></li>
-<li><a href="http://ranprieur.com/essays/dropout.html">How to drop out</a> (if you wanna check if a search engine is good search for this article)</li>
-<li><a href="https://letsdecentralize.org/">Let's Decentralize</a></li>
-<li><a href="https://basedsites.neocities.org">BasedSites</a></li>
-<li><a href="http://lurkmore.com/">LurkMore</a></li>
-<li><a href="https://searchengine.party/">Search Engine Party</a></li>
-<li><a href="https://searx.neocities.org/nojs">Searx NO-JS</a></li>
-<li><a href="https://geohot.github.io/blog">George Hotz's Blog</a></li>
-<li><a href="https://stallman.org/facebook.html">&quot;Big Tech&quot; is anti-tech</a></li>
-<li><a href="https://downloads.marginalia.nu/">Marginalia provides downloadable domain databases so you can browse the &quot;small web” offline or create your own local index.</a></li>
-<li><a href="https://explore2.marginalia.nu/">Marginalia</a> and <a href="https://explore2.marginalia.nu/search?domain=stallman.org">stallman.org(marginalia)</a></li>
-<li><a href="https://neocities.org/browse?tag=darkweb">Darweb neocities</a></li>
+<li><a href="https://rexresearch1.com/">RexResearch1</a><br />
+</li>
+<li><a href="https://spyware.neocities.org/articles/">SpyWare</a><br />
+</li>
+<li><a href="http://ranprieur.com/essays/dropout.html">How to drop
+out</a> (if you wanna check if a search engine is good search for this
+article)<br />
+</li>
+<li><a href="https://letsdecentralize.org/">Let’s Decentralize</a></li>
+<li><a href="https://basedsites.neocities.org">BasedSites</a><br />
+</li>
+<li><a href="http://lurkmore.com/">LurkMore</a><br />
+</li>
+<li><a href="https://searchengine.party/">Search Engine Party</a><br />
+</li>
+<li><a href="https://searx.neocities.org/nojs">Searx NO-JS</a><br />
+</li>
+<li><a href="https://geohot.github.io/blog">George Hotz’s Blog</a><br />
+</li>
+<li><a href="https://stallman.org/facebook.html">“Big Tech” is
+anti-tech</a></li>
+<li><a href="https://downloads.marginalia.nu/">Marginalia provides
+downloadable domain databases so you can browse the “small web” offline
+or create your own local index.</a></li>
+<li><a href="https://explore2.marginalia.nu/">Marginalia</a> and <a
+href="https://explore2.marginalia.nu/search?domain=stallman.org">stallman.org(marginalia)</a></li>
+<li><a href="https://neocities.org/browse?tag=darkweb">Darweb
+neocities</a></li>
 <li><a href="http://textfiles.com">TextFiles</a></li>
-<li><a href="https://neocities.org/browse?tag=deepweb">Deepweb neocities</a></li>
-<li><a href="https://neocities.org/browse?tag=security">Security neocities</a></li>
-<li><a href="https://github.com/hnhx/librex/">LibreX</a></li>
-<li><a href="https://igwiki.lyci.de//wiki/Main_Page">Install Gentoo</a></li>
+<li><a href="https://neocities.org/browse?tag=deepweb">Deepweb
+neocities</a></li>
+<li><a href="https://neocities.org/browse?tag=security">Security
+neocities</a></li>
+<li><a href="https://github.com/hnhx/librex/">LibreX</a><br />
+</li>
+<li><a href="https://igwiki.lyci.de//wiki/Main_Page">Install
+Gentoo</a></li>
 <li><a href="https://onionmail.org/">Onion Email</a></li>
-<li><a href="https://github.com/Myzel394/awesome-alternative-frontends">Awesome Alternative Frontends</a></li>
+<li><a
+href="https://github.com/Myzel394/awesome-alternative-frontends">Awesome
+Alternative Frontends</a></li>
 <li><a href="https://codeberg.org/gothub/gothub">GotHub</a></li>
 <li><a href="https://whatthezuck.net/">What The Zuck</a></li>
 <li><a href="https://doxbin.com/">Doxbin</a></li>
-<li><a href="https://4get.ca/instances">4get instances</a> / <a href="https://4get.ch/">4get</a></li>
-<li><a href="https://github.com/Myzel394/awesome-alternative-frontends">Alternative frontends</a></li>
+<li><a href="https://4get.ca/instances">4get instances</a> / <a
+href="https://4get.ch/">4get</a></li>
+<li><a
+href="https://github.com/Myzel394/awesome-alternative-frontends">Alternative
+frontends</a></li>
 <li><a href="https://www.blackhost.xyz/">BlackHost</a></li>
 <li><a href="https://ssd.eff.org/">Surveillance Self-Defense</a></li>
-<li><a href="https://no-js.club/">No-JS</a></li>
-<li><a href="https://based-or-botnet.neocities.org/search_engines">Based or Botnet</a></li>
-<li><a href="https://cursoelectricidad.github.io/">Curso Electricidad</a></li>
-<li><a href="https://cursoelectrodomesticos.github.io/">Reparacion Electromesticos</a></li>
-<li><a href="https://cursoaa.github.io/">Aire Acondicionado</a></li>
-<li><a href="https://www.youtube.com/embed/_ABAX2IL3SY">GG Allin funny interview</a></li>
-<li><a href="https://youtube.com/embed/SJmEWLGpqeY">Tastyfish talking about freedom(suckless software)</a>. This is where I found the video: <a href="http://www.tastyfish.cz/works.html">tastyfish works</a>.</li>
-<li><a href="https://neocities.org/browse?tag=tor">Tor neocities</a></li>
+<li><a href="https://no-js.club/">No-JS</a><br />
+</li>
+<li><a href="https://based-or-botnet.neocities.org/search_engines">Based
+or Botnet</a><br />
+</li>
+<li><a href="https://cursoelectricidad.github.io/">Curso
+Electricidad</a><br />
+</li>
+<li><a href="https://cursoelectrodomesticos.github.io/">Reparacion
+Electromesticos</a><br />
+</li>
+<li><a href="https://cursoaa.github.io/">Aire Acondicionado</a><br />
+</li>
+<li><a href="https://www.youtube.com/embed/_ABAX2IL3SY">GG Allin funny
+interview</a><br />
+</li>
+<li><a href="https://youtube.com/embed/SJmEWLGpqeY">Tastyfish talking
+about freedom(suckless software)</a>. This is where I found the video:
+<a href="http://www.tastyfish.cz/works.html">tastyfish works</a>.<br />
+</li>
+<li><a href="https://neocities.org/browse?tag=tor">Tor
+neocities</a></li>
 <li><a href="https://azidal.neocities.org/">Azidal</a></li>
 <li><a href="https://onionmail.org/">Tor Email</a></li>
 <li><a href="https://libredirect.codeberg.page/">LibRedirect</a></li>
-<li><a href="https://youtube.com/embed/bsT4CR9Jw-c">DIY Raspberry Pi Cyberdeck</a></li>
+<li><a href="https://youtube.com/embed/bsT4CR9Jw-c">DIY Raspberry Pi
+Cyberdeck</a></li>
 <li><a href="https://softpanorama.org/index.shtml">Softpanorama</a></li>
-<li><a href="https://zerocontradictions.net/">ZeroContradictions</a></li>
+<li><a
+href="https://zerocontradictions.net/">ZeroContradictions</a></li>
 </ul>
-<h3>Privacy is not a crime: <a href="https://www.torproject.org/download/">Tor</a>, <a href="https://geti2p.net/en/">I2P</a>(<a href="https://imlauera.github.io/i2p/">my I2P spanish tutorial</a>) and <a href="https://www.hyphanet.org/index.html">Freenet</a>, <a href="https://zeronet.io/">ZeroNet</a>, <a href="https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/">Lokinet</a>.</h3>
+<h3
+id="privacy-is-not-a-crime-tor-i2pmy-i2p-spanish-tutorial-and-freenet-zeronet-lokinet.">Privacy
+is not a crime: <a href="https://www.torproject.org/download/">Tor</a>,
+<a href="https://geti2p.net/en/">I2P</a>(<a
+href="https://imlauera.github.io/i2p/">my I2P spanish tutorial</a>) and
+<a href="https://www.hyphanet.org/index.html">Freenet</a>, <a
+href="https://zeronet.io/">ZeroNet</a>, <a
+href="https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/">Lokinet</a>.</h3>
 <p>How do I use Tor:</p>
 <pre><code>sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
 sudo systemctl start tor
@@ -289,34 +959,60 @@ mkdir onion &amp;&amp; cd onion
 curl -L https://secretonions.neocities.org/index.html -o secret.html
 curl -L https://davewebsite.neocities.org/index.html -o dave.html
 torsocks w3m secret.html
-sudo systemctl restart tor # To reroute Tor.
-</code></pre>
+sudo systemctl restart tor # To reroute Tor.</code></pre>
 <ul>
-<li><a href="http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/">Tor: HiddenWiki</a></li>
-<li><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/">Tor: Daniel Tutoriales</a></li>
-<li><a href="http://j3bv7g27oramhbxxuv6gl3dcyfmf44qnvju3offdyrap7hurfprq74qd.onion/">Tor: Email</a></li>
-<li><a href="http://sonarmsng5vzwqezlvtu2iiwwdn3dxkhotftikhowpfjuzg7p3ca5eid.onion/">Tor: Email Sonar</a></li>
-<li><a href="http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion/">Tor: CIA</a></li>
-<li><a href="http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/fdroid.html">Tor: Recommended F-DROID apps</a></li>
-<li><a href="http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/index.php">Tor: WikiPage</a></li>
-<li><a href="http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion">Tor: Ahmia</a></li>
-<li><a href="http://127.0.0.1:8888/USK@NiPBeAA-PpA715zb8Jc~Q-ohFbKPt8Mo-YiH~w1D56A,--ZTBvgu7XMdX0QUJGBHp-Hogoh0AQK1p8WoY6IR80Q,AQACAAE/lawiki/5/">FreeNet: A la mierda copyright</a></li>
+<li><a
+href="http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/">Tor:
+HiddenWiki</a></li>
+<li><a
+href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/">Tor:
+Daniel Tutoriales</a></li>
+<li><a
+href="http://j3bv7g27oramhbxxuv6gl3dcyfmf44qnvju3offdyrap7hurfprq74qd.onion/">Tor:
+Email</a></li>
+<li><a
+href="http://sonarmsng5vzwqezlvtu2iiwwdn3dxkhotftikhowpfjuzg7p3ca5eid.onion/">Tor:
+Email Sonar</a></li>
+<li><a
+href="http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion/">Tor:
+CIA</a></li>
+<li><a
+href="http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/fdroid.html">Tor:
+Recommended F-DROID apps</a></li>
+<li><a
+href="http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/index.php">Tor:
+WikiPage</a></li>
+<li><a
+href="http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion">Tor:
+Ahmia</a></li>
+<li><a
+href="http://127.0.0.1:8888/USK@NiPBeAA-PpA715zb8Jc~Q-ohFbKPt8Mo-YiH~w1D56A,--ZTBvgu7XMdX0QUJGBHp-Hogoh0AQK1p8WoY6IR80Q,AQACAAE/lawiki/5/">FreeNet:
+A la mierda copyright</a></li>
 </ul>
-<h3>Things I've been watching lately</h3>
+<h3 id="things-ive-been-watching-lately">Things I’ve been watching
+lately</h3>
 <ul>
-<li><a href="https://www.youtube.com/embed/oSy-TmoxG_Y">Installing Guix as complete GNU/Linux system</a></li>
+<li><a href="https://www.youtube.com/embed/oSy-TmoxG_Y">Installing Guix
+as complete GNU/Linux system</a></li>
 </ul>
 <hr />
-<p>Andres Imlauer / <a href="mailto:necro@tfwno.gf">necro@tfwno.gf</a>.</p>
-<p>This site was generate with <a href="/markdown.html">markdown</a> and cmark (<em>you can also use pandoc</em>):</p>
-<pre><code class="language-bash">pandoc -s index.md -o index.html     
-</code></pre>
+<p>Andres Imlauer / <a
+href="mailto:necro@tfwno.gf">necro@tfwno.gf</a>.</p>
+<p>This site was generate with <a href="/markdown.html">markdown</a> and
+cmark (<em>you can also use pandoc</em>):</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-s</span> index.md <span class="at">-o</span> index.html     </span></code></pre></div>
 <p>o</p>
-<pre><code class="language-bash">cmark index.md | tee index.html  
-</code></pre>
-<p>This website was inspired by <a href="http://www.tastyfish.cz">TastyFish</a>.<br />
-<a href="https://archive.org/download/tastyfish_response/tastyfish.png">Image: TastyFish Response</a>. <em>Previously I asked him how to make an &quot;illegal&quot; streaming site lol</em>.</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">cmark</span> index.md <span class="kw">|</span> <span class="fu">tee</span> index.html  </span></code></pre></div>
+<p>This website was inspired by <a
+href="http://www.tastyfish.cz">TastyFish</a>.<br />
+<a
+href="https://archive.org/download/tastyfish_response/tastyfish.png">Image:
+TastyFish Response</a>. <em>Previously I asked him how to make an
+“illegal” streaming site lol</em>.</p>
 <hr />
-<p>No rights reserved - <a href="https://denshi.org/blog/copying-is-cool/">Fuck copyright</a>.</p>
+<p>No rights reserved - <a
+href="https://denshi.org/blog/copying-is-cool/">Fuck copyright</a>.</p>
 </body>
 </html>

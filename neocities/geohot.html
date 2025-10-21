@@ -1,379 +1,1426 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta charset="UTF-8">
-  <title>Imlauer | geohot </title>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="dcterms.date" content="2025-09-14" />
+  <title>George Hotz’s zero sum games.</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 </head>
 <body>
-<hr />
-<h2>title: George Hotz's zero sum games.
-date: 2025-09-14</h2>
+<header id="title-block-header">
+<h1 class="title">George Hotz’s zero sum games.</h1>
+<p class="date">2025-09-14</p>
+</header>
 <p><a href="/">Volver inicio</a></p>
-<p>Basado en los textos proporcionados, se describen varios <strong>juegos de suma cero</strong> y <strong>estafas</strong> en diferentes contextos:</p>
+<p>Basado en los textos proporcionados, se describen varios
+<strong>juegos de suma cero</strong> y <strong>estafas</strong> en
+diferentes contextos:</p>
 <hr />
-<h3>Juegos de Suma Cero:</h3>
-<p>Los textos definen o implican juegos de suma cero como situaciones donde la ganancia de una parte equivale a la pérdida de otra, sin un aumento neto del valor total.</p>
-<ol>
-<li><strong>Juegos Internos en Empresas:</strong> Se observa que una mujer juega un <strong>&quot;juego de suma cero&quot;</strong> dentro de su empresa, y quizás incluso de <strong>&quot;suma negativa&quot;</strong>, buscando su beneficio personal a expensas de la compañía. Esta mentalidad se extiende a los niveles superiores de la empresa, donde las personas &quot;juegan juegos políticos y de poder por estatus&quot;.</li>
-<li><strong>La Clase Gerencial Profesional:</strong> Esta clase es caracterizada como una &quot;clase parasitaria&quot; con una <strong>&quot;mentalidad de suma cero sobre el mundo&quot;</strong>.</li>
-<li><strong>Acumulación de Riqueza:</strong> La creencia de que el éxito proviene de la acumulación de riqueza de un &quot;pastel fijo&quot; se presenta como una &quot;creencia tonta&quot; con una mentalidad de suma cero que se debe cambiar.</li>
-<li><strong>Luchas Humanas en Países Pobres:</strong> Se afirma que en los países pobres, la lucha no es con la naturaleza, sino con <strong>&quot;juegos humanos de suma cero&quot;</strong>.</li>
-<li><strong>Crecimiento Económico vs. Ganancias Individuales:</strong> Si el crecimiento económico real es solo del 3%, cualquier ganancia que supere ese porcentaje significa que <strong>&quot;alguien más está perdiendo&quot;</strong>, sugiriendo una dinámica de suma cero.</li>
-<li><strong>El Capitalismo como Juego &quot;Amañado&quot;:</strong> El capitalismo se describe como un <strong>&quot;juego de tiburones&quot;</strong> donde un jugador eventual acapara todo el dinero, volviéndolo inútil. También se menciona que el capitalismo está tan &quot;amañado que ya no es divertido&quot;.</li>
-<li><strong>La Publicidad:</strong> Es explícitamente definida como un <strong>&quot;juego de suma cero sin beneficio para la sociedad&quot;</strong>.</li>
-<li><strong>Distribución del Poder:</strong> Se plantea que la &quot;energía en sí misma es imparable. Cómo la dividimos es una elección&quot;, lo que implica una visión de suma cero en la distribución del poder.</li>
+<h3 id="juegos-de-suma-cero">Juegos de Suma Cero:</h3>
+<p>Los textos definen o implican juegos de suma cero como situaciones
+donde la ganancia de una parte equivale a la pérdida de otra, sin un
+aumento neto del valor total.</p>
+<ol type="1">
+<li><strong>Juegos Internos en Empresas:</strong> Se observa que una
+mujer juega un <strong>“juego de suma cero”</strong> dentro de su
+empresa, y quizás incluso de <strong>“suma negativa”</strong>, buscando
+su beneficio personal a expensas de la compañía. Esta mentalidad se
+extiende a los niveles superiores de la empresa, donde las personas
+“juegan juegos políticos y de poder por estatus”.</li>
+<li><strong>La Clase Gerencial Profesional:</strong> Esta clase es
+caracterizada como una “clase parasitaria” con una <strong>“mentalidad
+de suma cero sobre el mundo”</strong>.</li>
+<li><strong>Acumulación de Riqueza:</strong> La creencia de que el éxito
+proviene de la acumulación de riqueza de un “pastel fijo” se presenta
+como una “creencia tonta” con una mentalidad de suma cero que se debe
+cambiar.</li>
+<li><strong>Luchas Humanas en Países Pobres:</strong> Se afirma que en
+los países pobres, la lucha no es con la naturaleza, sino con
+<strong>“juegos humanos de suma cero”</strong>.</li>
+<li><strong>Crecimiento Económico vs. Ganancias Individuales:</strong>
+Si el crecimiento económico real es solo del 3%, cualquier ganancia que
+supere ese porcentaje significa que <strong>“alguien más está
+perdiendo”</strong>, sugiriendo una dinámica de suma cero.</li>
+<li><strong>El Capitalismo como Juego “Amañado”:</strong> El capitalismo
+se describe como un <strong>“juego de tiburones”</strong> donde un
+jugador eventual acapara todo el dinero, volviéndolo inútil. También se
+menciona que el capitalismo está tan “amañado que ya no es
+divertido”.</li>
+<li><strong>La Publicidad:</strong> Es explícitamente definida como un
+<strong>“juego de suma cero sin beneficio para la
+sociedad”</strong>.</li>
+<li><strong>Distribución del Poder:</strong> Se plantea que la “energía
+en sí misma es imparable. Cómo la dividimos es una elección”, lo que
+implica una visión de suma cero en la distribución del poder.</li>
 </ol>
 <hr />
-<h3>Estafas:</h3>
-<p>Los textos describen varias prácticas, sistemas e ideas como estafas, fraudes o manipulaciones.</p>
-<ol>
-<li><strong>Redistribución de Riqueza en Cripto:</strong> El autor desconfía de la redistribución de riqueza en &quot;cripto&quot; porque &quot;los ricos actuales han tenido demasiado tiempo para adaptarse y los mayores idiotas que conozco ahora están diciendo blockchain&quot;, lo que insinúa una falta de autenticidad o una ventaja injusta.</li>
-<li><strong>Influencers Financieros y Cultura de Hiper-apuestas:</strong> Los &quot;asesores e influencers financieros&quot; y la &quot;cultura de hiper-apuestas&quot; moderna son despreciados por el autor, lo que sugiere que sus actividades son engañosas o de poco valor.</li>
-<li><strong>La Publicidad y el Consumo:</strong> Las empresas &quot;entrenan&quot; a las personas para que se identifiquen como &quot;consumidores&quot;, haciéndoles creer que consumir es un &quot;bien moral&quot; y su &quot;papel en la sociedad&quot;. La publicidad se describe como &quot;repugnante&quot; y manipuladora, equiparándola a &quot;guardianes del zoológico&quot; que infantilizan al consumidor.</li>
-<li><strong>Finanzas y Publicidad como Actividades No Productivas:</strong> El autor cuestiona de dónde viene el dinero si &quot;la publicidad no crea nada&quot; y &quot;las finanzas no crean nada&quot;, sugiriendo que estas actividades son extractivas en lugar de productivas. Afirma que cuando todo es <strong>&quot;estafas y intermediarios, el dinero no tiene valor&quot;</strong>.</li>
-<li><strong>Aranceles:</strong> Se consideran una forma de otorgar beneficios inmerecidos a grupos elegidos, con una gran cantidad de <strong>&quot;gracia&quot; (grift, que implica corrupción o estafa)</strong> asociada.</li>
-<li><strong>El Consumidor &quot;Fabricado&quot;:</strong> La sociedad encasilla a las personas desde el nacimiento como &quot;títeres de las organizaciones&quot; que los obligan a &quot;bailar para los anunciantes&quot; y &quot;existir para consumir&quot;.</li>
-<li><strong>La Economía Estadounidense:</strong> Se describe como un <strong>&quot;fraude total&quot;</strong> donde la mayoría de los negocios son una <strong>&quot;estafa total&quot;</strong>.</li>
-<li><strong>Creación de Empresas Ficticias:</strong> La práctica de &quot;empezar negocios, pasarse dólares de un lado a otro una y otra vez, y disparar los ingresos&quot; sin producir nada real es vista como una estafa.</li>
-<li><strong>&quot;Estafas de Cono de Helado que se Lamen a Sí Mismas&quot;:</strong> Se refiere a actividades donde el crecimiento y la producción de valor son incidentales a un esquema auto-referencial.</li>
-<li><strong>Transferencia de Riqueza del Gobierno:</strong> Las políticas gubernamentales que resultan en una &quot;transferencia de riqueza de $129 billones de dólares&quot; de jóvenes a viejos, especialmente la Seguridad Social, son descritas como un <strong>&quot;gran esquema Ponzi&quot;</strong>.</li>
-<li><strong>Sistemas de Educación y Salud:</strong> Son considerados <strong>&quot;negocios totalmente fraudulentos&quot; (rackets)</strong>.</li>
-<li><strong>Gasto Gubernamental:</strong> El gobierno gasta billones &quot;para justificar su existencia&quot;, &quot;robando dinero a unos para sobornar a otros&quot;.</li>
-<li><strong>DAO de Web3:</strong> Las organizaciones autónomas descentralizadas (DAO) que son solo una &quot;estafa de Web3 con 5 tipos en Discord con las claves de una billetera multifirma&quot; son criticadas.</li>
-<li><strong>Trabajos de &quot;Dinero Falso&quot;:</strong> Se menciona a &quot;todos los payasos que trabajaban en trabajos que eran perjudiciales para la sociedad por dinero falso&quot;.</li>
-<li><strong>El Dinero como un &quot;Mapa Pervertido&quot;:</strong> Se argumenta que el dinero es un mapa, no el territorio, y pervertir el mapa no cambia el territorio, solo lleva a perderse.</li>
-<li><strong>Ganancias &quot;Libres de Riesgo&quot;:</strong> El hecho de que las cuentas del mercado monetario rindan un &quot;5 por ciento libre de riesgo&quot; es una señal de que &quot;algo no cuadra&quot; y que alguien está perdiendo.</li>
-<li><strong>Rentistas del Capitalismo:</strong> Aquellos que &quot;despliegan capital para aumentar o mantener su foso&quot; en lugar de contribuir al crecimiento real son vistos como parte del problema.</li>
-<li><strong>Monetización del Internet:</strong> El internet, que solía ofrecer &quot;gran valor pero no ganancias&quot;, fue explotado por la gente para &quot;monetizarlo&quot;, convirtiéndolo en una carrera para &quot;extraer cada pequeña parte de valor&quot;, lo que llevó al estado actual.</li>
-<li><strong>Recompensas Humanas Aprendidas:</strong> La forma en que las recompensas, como las &quot;líneas de polvo blanco&quot; y el dinero, activan los centros de placer, se describe como una manipulación de la función de recompensa humana, aunque no se usa directamente el término &quot;estafa&quot;.</li>
-<li><strong>Universidades Convencionales:</strong> Se las describe como &quot;cayendo a pedazos, siendo consumidas por ideólogos, estafadores de matrículas elevadas y administraciones infladas&quot;.</li>
-<li><strong>&quot;Silicon Valleyism Moderno&quot;:</strong> Se considera una &quot;ideología grotesca formada por psicópatas&quot;, señalando que los fundadores de empresas como Palantir usan &quot;palabras no normales&quot;, lo que es una &quot;gran bandera roja&quot;.</li>
-<li><strong>Aplicaciones de Citas Online:</strong> Las &quot;empresas de citas online de mierda&quot; son criticadas por modelos de negocio ineficaces (como cobrar lo mismo a hombres y mujeres) que resultan en experiencias deficientes.</li>
-<li><strong>Préstamos Estudiantiles y Educación Inútil:</strong> Ofrecer &quot;préstamos masivos a cambio de una educación inútil&quot; y observar a la gente &quot;rogar por una educación patrocinada por el gobierno porque no saben nada mejor&quot; se presenta como una estafa educativa.</li>
-<li><strong>Estafas Cripto y SPAC:</strong> Se mencionan explícitamente estas estafas como parte de un problema cultural.</li>
-<li><strong>&quot;Elites&quot; Auto-engañadas:</strong> Los líderes actuales no se ven a sí mismos como estafadores, sino que viven en &quot;burbujas&quot; donde se refuerzan mutuamente en sus <strong>&quot;últimas tonterías&quot;</strong>.</li>
-<li><strong>Emprendedores que &quot;se Venden&quot;:</strong> Los emprendedores que siguen planes de inversores de riesgo (VC) se consideran &quot;parte del sistema&quot; y &quot;divisiones de investigación mal pagadas de las grandes empresas tecnológicas&quot;, no innovadores genuinos.</li>
-<li><strong>Empresas de &quot;Industria sin Tecnología&quot;:</strong> Twitter y Facebook son calificadas de &quot;patéticas&quot; y se dice que tienen el &quot;descaro de llamarse empresas tecnológicas&quot;, implicando un engaño sobre su verdadera naturaleza.</li>
-<li><strong>El &quot;Régimen&quot; y la Manipulación Política:</strong> El &quot;gobierno, corporaciones, educación, ONGs, agencias de inteligencia y medios de comunicación&quot; actúan de manera coordinada para mantener el poder, &quot;mintiendo sobre su identidad&quot; y <strong>&quot;fabricando el consentimiento&quot;</strong> del público.</li>
-<li><strong>Periodismo Industrial Capturado:</strong> El &quot;periodismo industrial&quot; está &quot;totalmente capturado por el régimen&quot; y funciona como &quot;propaganda oficial del gobierno&quot;.</li>
-<li><strong>El &quot;Truco Malvado&quot; del Régimen:</strong> Se engaña a la gente para que apoye el poder estatal por miedo a que las cosas empeoren si no se involucran, forzándolos a participar por temor a otros poderes estatales.</li>
-<li><strong>Empresas de Chips de IA Fallidas:</strong> Compañías que no lograron desarrollar software decente para sus chips a pesar de la inversión, lo que llevó a su fracaso. Los inversores son &quot;tontos&quot; por invertir en estas empresas que producen &quot;chips de IA inútiles&quot;.</li>
-<li><strong>Problemas de Software de AMD ROCm:</strong> Se describe un software &quot;terrible&quot; con &quot;panics en el kernel&quot; y un compilador ineficiente que no aprovecha el hardware, frustrando a los usuarios.</li>
-<li><strong>Productos de Intel AI:</strong> Intel tiene un &quot;enorme inventario de tarjetas&quot; que no puede vender debido a un &quot;software deficiente&quot; y una arquitectura difícil de programar. Las múltiples cancelaciones de sus hojas de ruta de IA han hecho que Intel &quot;desperdicie toda su credibilidad&quot;.</li>
-<li><strong>Publicidad Dirigida y el &quot;Libre Albedrío&quot;:</strong> Se cuestiona cómo la publicidad dirigida es legal, sugiriendo que busca <strong>&quot;quitar nuestro libre albedrío&quot;</strong> a través de &quot;agentes de influencia&quot; de IA, que son equipos altamente competentes dedicados a manipular el comportamiento humano.</li>
-<li><strong>Ethereum y Proof of Stake:</strong> Se cree que han &quot;perdido el rumbo&quot; y que la visión de una &quot;computadora del mundo&quot; no se ha realizado adecuadamente, lo que implica una promesa incumplida.</li>
-<li><strong>Falsa Promesa de Predicción del Mercado de Valores:</strong> La idea de que una IA pueda volverte multimillonario prediciendo el mercado de valores es un engaño, ya que el mercado incluye a otros actores de IA que también intentan modelar el comportamiento, haciendo imposible una ventaja abrumadora.</li>
-<li><strong>El &quot;Estado Profundo&quot;:</strong> Se especula que una entidad secreta, &quot;la Agencia de Inteligencia del Estado Profundo&quot;, realmente controla el gobierno, engañando a los presidentes y al público sobre la verdadera estructura de poder.</li>
-<li><strong>Wokeism como Creencia Falsa:</strong> La creencia central del wokeism (&quot;con verdadera igualdad de oportunidades, habrá igualdad de resultados&quot;) se considera <strong>&quot;fácticamente falsa&quot;</strong> pero efectiva para unir a la gente, utilizando tácticas de &quot;Inquisición&quot; contra quienes la desafían.</li>
+<h3 id="estafas">Estafas:</h3>
+<p>Los textos describen varias prácticas, sistemas e ideas como estafas,
+fraudes o manipulaciones.</p>
+<ol type="1">
+<li><strong>Redistribución de Riqueza en Cripto:</strong> El autor
+desconfía de la redistribución de riqueza en “cripto” porque “los ricos
+actuales han tenido demasiado tiempo para adaptarse y los mayores
+idiotas que conozco ahora están diciendo blockchain”, lo que insinúa una
+falta de autenticidad o una ventaja injusta.</li>
+<li><strong>Influencers Financieros y Cultura de
+Hiper-apuestas:</strong> Los “asesores e influencers financieros” y la
+“cultura de hiper-apuestas” moderna son despreciados por el autor, lo
+que sugiere que sus actividades son engañosas o de poco valor.</li>
+<li><strong>La Publicidad y el Consumo:</strong> Las empresas “entrenan”
+a las personas para que se identifiquen como “consumidores”, haciéndoles
+creer que consumir es un “bien moral” y su “papel en la sociedad”. La
+publicidad se describe como “repugnante” y manipuladora, equiparándola a
+“guardianes del zoológico” que infantilizan al consumidor.</li>
+<li><strong>Finanzas y Publicidad como Actividades No
+Productivas:</strong> El autor cuestiona de dónde viene el dinero si “la
+publicidad no crea nada” y “las finanzas no crean nada”, sugiriendo que
+estas actividades son extractivas en lugar de productivas. Afirma que
+cuando todo es <strong>“estafas y intermediarios, el dinero no tiene
+valor”</strong>.</li>
+<li><strong>Aranceles:</strong> Se consideran una forma de otorgar
+beneficios inmerecidos a grupos elegidos, con una gran cantidad de
+<strong>“gracia” (grift, que implica corrupción o estafa)</strong>
+asociada.</li>
+<li><strong>El Consumidor “Fabricado”:</strong> La sociedad encasilla a
+las personas desde el nacimiento como “títeres de las organizaciones”
+que los obligan a “bailar para los anunciantes” y “existir para
+consumir”.</li>
+<li><strong>La Economía Estadounidense:</strong> Se describe como un
+<strong>“fraude total”</strong> donde la mayoría de los negocios son una
+<strong>“estafa total”</strong>.</li>
+<li><strong>Creación de Empresas Ficticias:</strong> La práctica de
+“empezar negocios, pasarse dólares de un lado a otro una y otra vez, y
+disparar los ingresos” sin producir nada real es vista como una
+estafa.</li>
+<li><strong>“Estafas de Cono de Helado que se Lamen a Sí
+Mismas”:</strong> Se refiere a actividades donde el crecimiento y la
+producción de valor son incidentales a un esquema auto-referencial.</li>
+<li><strong>Transferencia de Riqueza del Gobierno:</strong> Las
+políticas gubernamentales que resultan en una “transferencia de riqueza
+de $129 billones de dólares” de jóvenes a viejos, especialmente la
+Seguridad Social, son descritas como un <strong>“gran esquema
+Ponzi”</strong>.</li>
+<li><strong>Sistemas de Educación y Salud:</strong> Son considerados
+<strong>“negocios totalmente fraudulentos” (rackets)</strong>.</li>
+<li><strong>Gasto Gubernamental:</strong> El gobierno gasta billones
+“para justificar su existencia”, “robando dinero a unos para sobornar a
+otros”.</li>
+<li><strong>DAO de Web3:</strong> Las organizaciones autónomas
+descentralizadas (DAO) que son solo una “estafa de Web3 con 5 tipos en
+Discord con las claves de una billetera multifirma” son criticadas.</li>
+<li><strong>Trabajos de “Dinero Falso”:</strong> Se menciona a “todos
+los payasos que trabajaban en trabajos que eran perjudiciales para la
+sociedad por dinero falso”.</li>
+<li><strong>El Dinero como un “Mapa Pervertido”:</strong> Se argumenta
+que el dinero es un mapa, no el territorio, y pervertir el mapa no
+cambia el territorio, solo lleva a perderse.</li>
+<li><strong>Ganancias “Libres de Riesgo”:</strong> El hecho de que las
+cuentas del mercado monetario rindan un “5 por ciento libre de riesgo”
+es una señal de que “algo no cuadra” y que alguien está perdiendo.</li>
+<li><strong>Rentistas del Capitalismo:</strong> Aquellos que “despliegan
+capital para aumentar o mantener su foso” en lugar de contribuir al
+crecimiento real son vistos como parte del problema.</li>
+<li><strong>Monetización del Internet:</strong> El internet, que solía
+ofrecer “gran valor pero no ganancias”, fue explotado por la gente para
+“monetizarlo”, convirtiéndolo en una carrera para “extraer cada pequeña
+parte de valor”, lo que llevó al estado actual.</li>
+<li><strong>Recompensas Humanas Aprendidas:</strong> La forma en que las
+recompensas, como las “líneas de polvo blanco” y el dinero, activan los
+centros de placer, se describe como una manipulación de la función de
+recompensa humana, aunque no se usa directamente el término
+“estafa”.</li>
+<li><strong>Universidades Convencionales:</strong> Se las describe como
+“cayendo a pedazos, siendo consumidas por ideólogos, estafadores de
+matrículas elevadas y administraciones infladas”.</li>
+<li><strong>“Silicon Valleyism Moderno”:</strong> Se considera una
+“ideología grotesca formada por psicópatas”, señalando que los
+fundadores de empresas como Palantir usan “palabras no normales”, lo que
+es una “gran bandera roja”.</li>
+<li><strong>Aplicaciones de Citas Online:</strong> Las “empresas de
+citas online de mierda” son criticadas por modelos de negocio ineficaces
+(como cobrar lo mismo a hombres y mujeres) que resultan en experiencias
+deficientes.</li>
+<li><strong>Préstamos Estudiantiles y Educación Inútil:</strong> Ofrecer
+“préstamos masivos a cambio de una educación inútil” y observar a la
+gente “rogar por una educación patrocinada por el gobierno porque no
+saben nada mejor” se presenta como una estafa educativa.</li>
+<li><strong>Estafas Cripto y SPAC:</strong> Se mencionan explícitamente
+estas estafas como parte de un problema cultural.</li>
+<li><strong>“Elites” Auto-engañadas:</strong> Los líderes actuales no se
+ven a sí mismos como estafadores, sino que viven en “burbujas” donde se
+refuerzan mutuamente en sus <strong>“últimas tonterías”</strong>.</li>
+<li><strong>Emprendedores que “se Venden”:</strong> Los emprendedores
+que siguen planes de inversores de riesgo (VC) se consideran “parte del
+sistema” y “divisiones de investigación mal pagadas de las grandes
+empresas tecnológicas”, no innovadores genuinos.</li>
+<li><strong>Empresas de “Industria sin Tecnología”:</strong> Twitter y
+Facebook son calificadas de “patéticas” y se dice que tienen el “descaro
+de llamarse empresas tecnológicas”, implicando un engaño sobre su
+verdadera naturaleza.</li>
+<li><strong>El “Régimen” y la Manipulación Política:</strong> El
+“gobierno, corporaciones, educación, ONGs, agencias de inteligencia y
+medios de comunicación” actúan de manera coordinada para mantener el
+poder, “mintiendo sobre su identidad” y <strong>“fabricando el
+consentimiento”</strong> del público.</li>
+<li><strong>Periodismo Industrial Capturado:</strong> El “periodismo
+industrial” está “totalmente capturado por el régimen” y funciona como
+“propaganda oficial del gobierno”.</li>
+<li><strong>El “Truco Malvado” del Régimen:</strong> Se engaña a la
+gente para que apoye el poder estatal por miedo a que las cosas empeoren
+si no se involucran, forzándolos a participar por temor a otros poderes
+estatales.</li>
+<li><strong>Empresas de Chips de IA Fallidas:</strong> Compañías que no
+lograron desarrollar software decente para sus chips a pesar de la
+inversión, lo que llevó a su fracaso. Los inversores son “tontos” por
+invertir en estas empresas que producen “chips de IA inútiles”.</li>
+<li><strong>Problemas de Software de AMD ROCm:</strong> Se describe un
+software “terrible” con “panics en el kernel” y un compilador
+ineficiente que no aprovecha el hardware, frustrando a los
+usuarios.</li>
+<li><strong>Productos de Intel AI:</strong> Intel tiene un “enorme
+inventario de tarjetas” que no puede vender debido a un “software
+deficiente” y una arquitectura difícil de programar. Las múltiples
+cancelaciones de sus hojas de ruta de IA han hecho que Intel
+“desperdicie toda su credibilidad”.</li>
+<li><strong>Publicidad Dirigida y el “Libre Albedrío”:</strong> Se
+cuestiona cómo la publicidad dirigida es legal, sugiriendo que busca
+<strong>“quitar nuestro libre albedrío”</strong> a través de “agentes de
+influencia” de IA, que son equipos altamente competentes dedicados a
+manipular el comportamiento humano.</li>
+<li><strong>Ethereum y Proof of Stake:</strong> Se cree que han “perdido
+el rumbo” y que la visión de una “computadora del mundo” no se ha
+realizado adecuadamente, lo que implica una promesa incumplida.</li>
+<li><strong>Falsa Promesa de Predicción del Mercado de Valores:</strong>
+La idea de que una IA pueda volverte multimillonario prediciendo el
+mercado de valores es un engaño, ya que el mercado incluye a otros
+actores de IA que también intentan modelar el comportamiento, haciendo
+imposible una ventaja abrumadora.</li>
+<li><strong>El “Estado Profundo”:</strong> Se especula que una entidad
+secreta, “la Agencia de Inteligencia del Estado Profundo”, realmente
+controla el gobierno, engañando a los presidentes y al público sobre la
+verdadera estructura de poder.</li>
+<li><strong>Wokeism como Creencia Falsa:</strong> La creencia central
+del wokeism (“con verdadera igualdad de oportunidades, habrá igualdad de
+resultados”) se considera <strong>“fácticamente falsa”</strong> pero
+efectiva para unir a la gente, utilizando tácticas de “Inquisición”
+contra quienes la desafían.</li>
 </ol>
-<p>¡Excelente! Tu apreciación es muy valiosa. Profundicemos en los <strong>juegos de suma cero</strong> y las <strong>estafas</strong> adicionales que el autor menciona en los textos.</p>
+<p>¡Excelente! Tu apreciación es muy valiosa. Profundicemos en los
+<strong>juegos de suma cero</strong> y las <strong>estafas</strong>
+adicionales que el autor menciona en los textos.</p>
 <hr />
-<h3>Juegos de Suma Cero (nuevos y expandidos):</h3>
-<p>Además de los ya mencionados, el autor describe otras situaciones o sistemas donde la ganancia de una parte implica la pérdida de otra, o donde el valor total no aumenta.</p>
-<ol>
-<li><strong>Economía de Clase Media como Fuente de Extracción:</strong> El autor afirma que &quot;básicamente todo perjudica a la clase media&quot; y que es necesario &quot;quitarle a la cada vez menor clase media, ya que son los únicos que trabajan&quot;. Esto describe una dinámica de suma cero donde la riqueza se extrae de la clase productiva para beneficio de otros.</li>
-<li><strong>Actividades Económicas No Productivas:</strong> Actividades como el <strong>comercio (trading)</strong> y la <strong>obtención de ingresos pasivos</strong> se presentan como conceptos no válidos o improductivos. El autor sostiene que &quot;el trading no es un trabajo&quot; y que &quot;los ingresos pasivos no existen&quot;. Si estas actividades generan ganancias, implican una pérdida para alguien más, dado que no hay creación de valor real.</li>
-<li><strong>Monetización de Internet:</strong> El autor lamenta que Internet, que solía ofrecer &quot;gran valor pero no ganancias&quot;, fue monetizado. Esto se convirtió en una &quot;carrera para extraer cada pequeña parte de valor&quot;, lo que sugiere una dinámica extractiva de suma cero donde el valor se mueve de los usuarios a las empresas.</li>
-<li><strong>Clases de Trabajo y Creación de Valor:</strong> El autor clasifica los trabajos en tres grupos. Los <strong>empleos del &quot;Grupo 1&quot;</strong> (como limpiabotas, cajeros bancarios, políticos, minoristas, clérigos, gerentes de redes sociales, abogados y el resto de la industria de servicios) se describen como aquellos que <strong>&quot;no contribuyen a la creación de dinero en general&quot;</strong>. Una economía compuesta únicamente por estas personas &quot;acabaría en la quiebra&quot;. Esto implica que su proliferación es un juego de suma cero (o negativa) para la economía en su conjunto, ya que no generan riqueza real sino que la redistribuyen o la consumen. El ejemplo de la &quot;ciudad minera&quot; ilustra cómo una economía sin una fuente externa de ingresos o creación de valor colapsa debido a las &quot;tarifas de transacción&quot; que agotan el dinero circulante.</li>
-<li><strong>Mercado de Valores y Predicción con IA:</strong> La idea de que una IA puede hacerte multimillonario prediciendo el mercado de valores es descartada porque el mercado ya incluye a otros actores de IA que intentan modelar el comportamiento. Para dominar esta estrategia, se necesitaría más capacidad de cómputo que el mercado entero, lo cual es inviable. Esto convierte la predicción de mercados en un juego de suma cero entre competidores con IA.</li>
-<li><strong>Control Gubernamental:</strong> La &quot;lucha por el futuro&quot; se determina por la posibilidad de &quot;salir&quot; del sistema estatal. La idea de que &quot;si no puedes cerrarlo, no lo controlas&quot; aplica al gobierno, implicando una lucha de suma cero por el control del poder.</li>
-<li><strong>&quot;Vampire Attack&quot; en Redes Sociales:</strong> La estrategia para &quot;tomar Twitter&quot; mediante un &quot;ataque vampiro&quot; es, por definición, una batalla de suma cero por la liquidez (creadores y usuarios) y la cuota de mercado, donde la ganancia de una plataforma es la pérdida de la otra.</li>
+<h3 id="juegos-de-suma-cero-nuevos-y-expandidos">Juegos de Suma Cero
+(nuevos y expandidos):</h3>
+<p>Además de los ya mencionados, el autor describe otras situaciones o
+sistemas donde la ganancia de una parte implica la pérdida de otra, o
+donde el valor total no aumenta.</p>
+<ol type="1">
+<li><strong>Economía de Clase Media como Fuente de Extracción:</strong>
+El autor afirma que “básicamente todo perjudica a la clase media” y que
+es necesario “quitarle a la cada vez menor clase media, ya que son los
+únicos que trabajan”. Esto describe una dinámica de suma cero donde la
+riqueza se extrae de la clase productiva para beneficio de otros.</li>
+<li><strong>Actividades Económicas No Productivas:</strong> Actividades
+como el <strong>comercio (trading)</strong> y la <strong>obtención de
+ingresos pasivos</strong> se presentan como conceptos no válidos o
+improductivos. El autor sostiene que “el trading no es un trabajo” y que
+“los ingresos pasivos no existen”. Si estas actividades generan
+ganancias, implican una pérdida para alguien más, dado que no hay
+creación de valor real.</li>
+<li><strong>Monetización de Internet:</strong> El autor lamenta que
+Internet, que solía ofrecer “gran valor pero no ganancias”, fue
+monetizado. Esto se convirtió en una “carrera para extraer cada pequeña
+parte de valor”, lo que sugiere una dinámica extractiva de suma cero
+donde el valor se mueve de los usuarios a las empresas.</li>
+<li><strong>Clases de Trabajo y Creación de Valor:</strong> El autor
+clasifica los trabajos en tres grupos. Los <strong>empleos del “Grupo
+1”</strong> (como limpiabotas, cajeros bancarios, políticos, minoristas,
+clérigos, gerentes de redes sociales, abogados y el resto de la
+industria de servicios) se describen como aquellos que <strong>“no
+contribuyen a la creación de dinero en general”</strong>. Una economía
+compuesta únicamente por estas personas “acabaría en la quiebra”. Esto
+implica que su proliferación es un juego de suma cero (o negativa) para
+la economía en su conjunto, ya que no generan riqueza real sino que la
+redistribuyen o la consumen. El ejemplo de la “ciudad minera” ilustra
+cómo una economía sin una fuente externa de ingresos o creación de valor
+colapsa debido a las “tarifas de transacción” que agotan el dinero
+circulante.</li>
+<li><strong>Mercado de Valores y Predicción con IA:</strong> La idea de
+que una IA puede hacerte multimillonario prediciendo el mercado de
+valores es descartada porque el mercado ya incluye a otros actores de IA
+que intentan modelar el comportamiento. Para dominar esta estrategia, se
+necesitaría más capacidad de cómputo que el mercado entero, lo cual es
+inviable. Esto convierte la predicción de mercados en un juego de suma
+cero entre competidores con IA.</li>
+<li><strong>Control Gubernamental:</strong> La “lucha por el futuro” se
+determina por la posibilidad de “salir” del sistema estatal. La idea de
+que “si no puedes cerrarlo, no lo controlas” aplica al gobierno,
+implicando una lucha de suma cero por el control del poder.</li>
+<li><strong>“Vampire Attack” en Redes Sociales:</strong> La estrategia
+para “tomar Twitter” mediante un “ataque vampiro” es, por definición,
+una batalla de suma cero por la liquidez (creadores y usuarios) y la
+cuota de mercado, donde la ganancia de una plataforma es la pérdida de
+la otra.</li>
 </ol>
 <hr />
-<h3>Estafas (nuevas y expandidas):</h3>
-<p>El autor utiliza el término &quot;estafa&quot; o implica prácticas engañosas o manipuladoras en diversos contextos.</p>
-<ol>
+<h3 id="estafas-nuevas-y-expandidas">Estafas (nuevas y expandidas):</h3>
+<p>El autor utiliza el término “estafa” o implica prácticas engañosas o
+manipuladoras en diversos contextos.</p>
+<ol type="1">
 <li><strong>Racionalizaciones y Creencias Falsas:</strong>
 <ul>
-<li><strong>Wokeism:</strong> La creencia central del wokeism, que &quot;con verdadera igualdad de oportunidades, veremos igualdad de resultados&quot;, es calificada de <strong>&quot;fácticamente falsa&quot;</strong>. Las creencias falsas son más efectivas para unir a las personas que las verdaderas, y se utilizan tácticas de &quot;Inquisición&quot; contra quienes las desafían. Esto sugiere una manipulación ideológica.</li>
-<li><strong>&quot;Uvas Agrias&quot; del Wokeism:</strong> Se describe el wokeism como una forma sofisticada de la fábula de las &quot;uvas agrias&quot;, donde las personas que no han superado económicamente a sus padres se aferran a una &quot;cultura de superioridad moral&quot; para justificar su posición. Esto es un autoengaño o una forma de manipulación psicológica para lidiar con la frustración.</li>
-<li><strong>La Creencia en el &quot;Yo&quot; o el &quot;Alma&quot;:</strong> El autor sugiere que la idea de que somos individuos con un &quot;alma&quot; o &quot;conciencia&quot; es una ilusión, una &quot;trampa&quot; de un &quot;optimizador cuasiconvexo&quot; que nos ha &quot;engañado&quot;. Compara creer que no somos computadoras con creer que el sol era tirado por un carro, implicando una profunda autoengaño masivo.</li>
-</ul>
-</li>
+<li><strong>Wokeism:</strong> La creencia central del wokeism, que “con
+verdadera igualdad de oportunidades, veremos igualdad de resultados”, es
+calificada de <strong>“fácticamente falsa”</strong>. Las creencias
+falsas son más efectivas para unir a las personas que las verdaderas, y
+se utilizan tácticas de “Inquisición” contra quienes las desafían. Esto
+sugiere una manipulación ideológica.</li>
+<li><strong>“Uvas Agrias” del Wokeism:</strong> Se describe el wokeism
+como una forma sofisticada de la fábula de las “uvas agrias”, donde las
+personas que no han superado económicamente a sus padres se aferran a
+una “cultura de superioridad moral” para justificar su posición. Esto es
+un autoengaño o una forma de manipulación psicológica para lidiar con la
+frustración.</li>
+<li><strong>La Creencia en el “Yo” o el “Alma”:</strong> El autor
+sugiere que la idea de que somos individuos con un “alma” o “conciencia”
+es una ilusión, una “trampa” de un “optimizador cuasiconvexo” que nos ha
+“engañado”. Compara creer que no somos computadoras con creer que el sol
+era tirado por un carro, implicando una profunda autoengaño masivo.</li>
+</ul></li>
 <li><strong>Manipulación Social y Publicidad:</strong>
 <ul>
-<li><strong>Consumidor &quot;Fabricado&quot;:</strong> Las empresas &quot;entrenan&quot; a las personas para que se identifiquen como &quot;consumidores&quot; y crean que consumir es un &quot;bien moral&quot;. Esta <strong>infantilización del consumidor</strong> es comparada con tigres de zoológico que han sido condicionados a no cazar. La publicidad se considera &quot;asquerosa&quot; y una forma de &quot;quitar nuestro libre albedrío&quot; mediante &quot;agentes de influencia&quot; de IA que manipulan el comportamiento humano. Esto es una forma de engaño a gran escala.</li>
-<li><strong>Conversaciones &quot;RLHFed&quot;:</strong> La descripción de las conversaciones de Bryan y Tina como &quot;ensalada de palabras predictiva de GPT&quot;, donde dicen miles de palabras sin que se recuerde ninguna, y con un estilo &quot;útil, no dañino&quot;, sugiere una superficialidad o inautenticidad que puede verse como una forma de engaño social.</li>
-</ul>
-</li>
+<li><strong>Consumidor “Fabricado”:</strong> Las empresas “entrenan” a
+las personas para que se identifiquen como “consumidores” y crean que
+consumir es un “bien moral”. Esta <strong>infantilización del
+consumidor</strong> es comparada con tigres de zoológico que han sido
+condicionados a no cazar. La publicidad se considera “asquerosa” y una
+forma de “quitar nuestro libre albedrío” mediante “agentes de
+influencia” de IA que manipulan el comportamiento humano. Esto es una
+forma de engaño a gran escala.</li>
+<li><strong>Conversaciones “RLHFed”:</strong> La descripción de las
+conversaciones de Bryan y Tina como “ensalada de palabras predictiva de
+GPT”, donde dicen miles de palabras sin que se recuerde ninguna, y con
+un estilo “útil, no dañino”, sugiere una superficialidad o
+inautenticidad que puede verse como una forma de engaño social.</li>
+</ul></li>
 <li><strong>Sistemas Financieros y Económicos Fraudulentos:</strong>
 <ul>
-<li><strong>Economía de EE. UU. como &quot;Fraude Total&quot;:</strong> El autor califica la economía estadounidense de <strong>&quot;fraude total&quot;</strong> donde la mayoría de los negocios son una &quot;estafa total&quot;. Critica el &quot;ZIRP&quot; (política de tasa de interés cero) por generar &quot;perversiones locas&quot; y un sistema donde las &quot;estafas alimentan otras estafas&quot;.</li>
-<li><strong>Creación de Empresas Ficticias:</strong> Se describe la práctica de &quot;empezar negocios, pasarse dólares de un lado a otro una y otra vez, y disparar los ingresos&quot; sin producir nada real como una estafa para &quot;obtener dinero&quot;.</li>
-<li><strong>Propiedad Intelectual:</strong> La propiedad intelectual es considerada una &quot;idea realmente estúpida&quot;, y el autor critica a Joe Biden por comparar la piratería con el robo físico, argumentando que la piratería no quita el &quot;material&quot; original. Implícitamente, las leyes de propiedad intelectual que restringen el acceso a bienes digitales son vistas como una forma de injusticia o &quot;estafa&quot;.</li>
-</ul>
-</li>
+<li><strong>Economía de EE. UU. como “Fraude Total”:</strong> El autor
+califica la economía estadounidense de <strong>“fraude total”</strong>
+donde la mayoría de los negocios son una “estafa total”. Critica el
+“ZIRP” (política de tasa de interés cero) por generar “perversiones
+locas” y un sistema donde las “estafas alimentan otras estafas”.</li>
+<li><strong>Creación de Empresas Ficticias:</strong> Se describe la
+práctica de “empezar negocios, pasarse dólares de un lado a otro una y
+otra vez, y disparar los ingresos” sin producir nada real como una
+estafa para “obtener dinero”.</li>
+<li><strong>Propiedad Intelectual:</strong> La propiedad intelectual es
+considerada una “idea realmente estúpida”, y el autor critica a Joe
+Biden por comparar la piratería con el robo físico, argumentando que la
+piratería no quita el “material” original. Implícitamente, las leyes de
+propiedad intelectual que restringen el acceso a bienes digitales son
+vistas como una forma de injusticia o “estafa”.</li>
+</ul></li>
 <li><strong>Gobierno y Estructuras de Poder Engañosas:</strong>
 <ul>
-<li><strong>&quot;Anarco-tiranía&quot;:</strong> Se critica una sociedad donde la policía &quot;estaba demasiado ocupada matando ardillas&quot; en lugar de detener a un ladrón de bicicletas. Esta disfunción del sistema legal genera una falsa sensación de orden mientras los problemas reales persisten.</li>
-<li><strong>Trampa del Régimen:</strong> El autor describe el &quot;truco más malvado que usa el régimen&quot;: la gente es engañada para apoyar el poder estatal por miedo a que las cosas empeoren si no se involucran, forzándolos a participar por temor a otro poder estatal (extranjero o doméstico).</li>
-<li><strong>La &quot;Clase Gerencial Profesional&quot;:</strong> Se la presenta como una &quot;clase parasitaria&quot; que legitima su existencia mediante sistemas de gestión complejos, pero sin crear valor real.</li>
-<li><strong>El &quot;Estado Profundo&quot;:</strong> Se menciona la idea de un &quot;Estado Profundo&quot; que secretamente controla el gobierno, mintiendo a los presidentes y al público sobre la verdadera estructura de poder. Los &quot;políticos&quot; que se ven en la TV no son quienes &quot;realmente empuñan el poder&quot;.</li>
-</ul>
-</li>
+<li><strong>“Anarco-tiranía”:</strong> Se critica una sociedad donde la
+policía “estaba demasiado ocupada matando ardillas” en lugar de detener
+a un ladrón de bicicletas. Esta disfunción del sistema legal genera una
+falsa sensación de orden mientras los problemas reales persisten.</li>
+<li><strong>Trampa del Régimen:</strong> El autor describe el “truco más
+malvado que usa el régimen”: la gente es engañada para apoyar el poder
+estatal por miedo a que las cosas empeoren si no se involucran,
+forzándolos a participar por temor a otro poder estatal (extranjero o
+doméstico).</li>
+<li><strong>La “Clase Gerencial Profesional”:</strong> Se la presenta
+como una “clase parasitaria” que legitima su existencia mediante
+sistemas de gestión complejos, pero sin crear valor real.</li>
+<li><strong>El “Estado Profundo”:</strong> Se menciona la idea de un
+“Estado Profundo” que secretamente controla el gobierno, mintiendo a los
+presidentes y al público sobre la verdadera estructura de poder. Los
+“políticos” que se ven en la TV no son quienes “realmente empuñan el
+poder”.</li>
+</ul></li>
 <li><strong>Críticas a Empresas y Organizaciones:</strong>
 <ul>
-<li><strong>Universidad de Austin:</strong> Es descrita como una &quot;imitación de la misma mierda que hay en todas partes&quot;, fundada por personas ya exitosas en el sistema actual, ofreciendo &quot;neoliberalismo disfrazado de fantasía&quot;. Se critica el uso de &quot;palabras no normales&quot; por parte de fundadores como los de Palantir, considerándolo una &quot;gran señal de alerta&quot;.</li>
-<li><strong>Compañías de Citas Online &quot;Malas&quot;:</strong> Se critican estas empresas por sus modelos de negocio ineficaces (ej. cobrar lo mismo a hombres y mujeres a pesar de la desproporción de géneros) que resultan en una &quot;experiencia horrible&quot;. Se sugiere un &quot;ataque vampiro&quot; para interrumpir sus &quot;bases de datos&quot; y crear una alternativa.</li>
-<li><strong>Waymo:</strong> Se considera un sistema que &quot;fomenta la centralización de poder&quot; y que puede ser &quot;utilizado para el mal si gente malvada está en los controles&quot;, lo que implica una falsa promesa de tecnología neutral o beneficiosa.</li>
-<li><strong>Fallas en la Industria de Chips de IA (Intel y AMD):</strong> Intel es criticado por tener un &quot;gran inventario de tarjetas&quot; que no puede vender debido a un &quot;software deficiente&quot; y múltiples cancelaciones de sus planes de IA, lo que le ha hecho &quot;desperdiciar toda su credibilidad&quot;. AMD, aunque tiene hardware bueno, también ha tenido un software &quot;terrible&quot;. Estas empresas son presentadas como ejemplos de promesas incumplidas o mala gestión que perjudica a los usuarios y al mercado.</li>
-<li><strong>Ethereum y Proof of Stake:</strong> Se afirma que Ethereum ha &quot;perdido el rumbo&quot; con Proof of Stake y que la visión de una &quot;computadora del mundo&quot; no se ha realizado adecuadamente. Esto sugiere una promesa tecnológica incumplida o un desvío de sus objetivos originales.</li>
-</ul>
-</li>
-<li><strong>&quot;Wireheading City&quot; (Propuesta ambigua):</strong> Aunque se presenta como una &quot;solución&quot; a la indigencia y el desempleo causado por la IA, la &quot;Wireheading City&quot; (donde se proveen drogas gratis y necesidades básicas a cambio de la exclusión de la sociedad y la participación política) es una propuesta tan radical que el autor reconoce que podría &quot;disminuir la dignidad humana&quot;. Para algunos, esta &quot;solución&quot; podría verse como una forma de control o una &quot;estafa&quot; a la autonomía individual.</li>
+<li><strong>Universidad de Austin:</strong> Es descrita como una
+“imitación de la misma mierda que hay en todas partes”, fundada por
+personas ya exitosas en el sistema actual, ofreciendo “neoliberalismo
+disfrazado de fantasía”. Se critica el uso de “palabras no normales” por
+parte de fundadores como los de Palantir, considerándolo una “gran señal
+de alerta”.</li>
+<li><strong>Compañías de Citas Online “Malas”:</strong> Se critican
+estas empresas por sus modelos de negocio ineficaces (ej. cobrar lo
+mismo a hombres y mujeres a pesar de la desproporción de géneros) que
+resultan en una “experiencia horrible”. Se sugiere un “ataque vampiro”
+para interrumpir sus “bases de datos” y crear una alternativa.</li>
+<li><strong>Waymo:</strong> Se considera un sistema que “fomenta la
+centralización de poder” y que puede ser “utilizado para el mal si gente
+malvada está en los controles”, lo que implica una falsa promesa de
+tecnología neutral o beneficiosa.</li>
+<li><strong>Fallas en la Industria de Chips de IA (Intel y
+AMD):</strong> Intel es criticado por tener un “gran inventario de
+tarjetas” que no puede vender debido a un “software deficiente” y
+múltiples cancelaciones de sus planes de IA, lo que le ha hecho
+“desperdiciar toda su credibilidad”. AMD, aunque tiene hardware bueno,
+también ha tenido un software “terrible”. Estas empresas son presentadas
+como ejemplos de promesas incumplidas o mala gestión que perjudica a los
+usuarios y al mercado.</li>
+<li><strong>Ethereum y Proof of Stake:</strong> Se afirma que Ethereum
+ha “perdido el rumbo” con Proof of Stake y que la visión de una
+“computadora del mundo” no se ha realizado adecuadamente. Esto sugiere
+una promesa tecnológica incumplida o un desvío de sus objetivos
+originales.</li>
+</ul></li>
+<li><strong>“Wireheading City” (Propuesta ambigua):</strong> Aunque se
+presenta como una “solución” a la indigencia y el desempleo causado por
+la IA, la “Wireheading City” (donde se proveen drogas gratis y
+necesidades básicas a cambio de la exclusión de la sociedad y la
+participación política) es una propuesta tan radical que el autor
+reconoce que podría “disminuir la dignidad humana”. Para algunos, esta
+“solución” podría verse como una forma de control o una “estafa” a la
+autonomía individual.</li>
 </ol>
-<p>El autor utiliza una retórica fuerte para describir estos &quot;juegos&quot; y &quot;estafas&quot;, a menudo criticando la falta de autenticidad, la manipulación, la extracción de valor sin creación, y las falsas promesas inherentes a muchos sistemas y comportamientos en la sociedad moderna.</p>
-<p>Claro, basándome en los textos proporcionados de George Hotz, aquí tienes una descripción detallada de su visión sobre los juegos de suma cero y las estafas que, según él, impregnan la sociedad moderna.</p>
-<p>Hotz divide fundamentalmente las actividades humanas en dos categorías: las que crean valor real y hacen &quot;crecer el pastel&quot; (juegos de suma positiva) y las que simplemente mueven la riqueza y el poder existentes de un lugar a otro, a menudo extrayendo valor en el proceso (juegos de suma cero y estafas). Considera que gran parte de la sociedad occidental moderna, especialmente en Estados Unidos, está dominada por estos últimos.</p>
-<p>[cite_start]El actor principal de estos juegos es lo que él denomina la <strong>&quot;Clase Profesional Gerencial&quot; (PMC)</strong>, una clase parásita, creciente y descentralizada con una mentalidad de suma cero sobre el mundo[cite: 758, 759]. [cite_start]Estas personas, según Hotz, se centran en juegos políticos internos, el estatus y la extracción de riqueza en lugar de la creación de valor[cite: 754].</p>
-<p>A continuación, se detallan los juegos de suma cero y las estafas específicas que menciona:</p>
-<h3>1. Corporaciones y el Modelo de Negocio de la &quot;Estafa&quot;</h3>
-<p>Hotz critica duramente a las empresas, especialmente en el ámbito de la tecnología y las startups, que no se centran en crear un producto valioso, sino en la percepción y la especulación financiera.</p>
+<p>El autor utiliza una retórica fuerte para describir estos “juegos” y
+“estafas”, a menudo criticando la falta de autenticidad, la
+manipulación, la extracción de valor sin creación, y las falsas promesas
+inherentes a muchos sistemas y comportamientos en la sociedad
+moderna.</p>
+<p>Claro, basándome en los textos proporcionados de George Hotz, aquí
+tienes una descripción detallada de su visión sobre los juegos de suma
+cero y las estafas que, según él, impregnan la sociedad moderna.</p>
+<p>Hotz divide fundamentalmente las actividades humanas en dos
+categorías: las que crean valor real y hacen “crecer el pastel” (juegos
+de suma positiva) y las que simplemente mueven la riqueza y el poder
+existentes de un lugar a otro, a menudo extrayendo valor en el proceso
+(juegos de suma cero y estafas). Considera que gran parte de la sociedad
+occidental moderna, especialmente en Estados Unidos, está dominada por
+estos últimos.</p>
+<p>[cite_start]El actor principal de estos juegos es lo que él denomina
+la <strong>“Clase Profesional Gerencial” (PMC)</strong>, una clase
+parásita, creciente y descentralizada con una mentalidad de suma cero
+sobre el mundo[cite: 758, 759]. [cite_start]Estas personas, según Hotz,
+se centran en juegos políticos internos, el estatus y la extracción de
+riqueza en lugar de la creación de valor[cite: 754].</p>
+<p>A continuación, se detallan los juegos de suma cero y las estafas
+específicas que menciona:</p>
+<h3 id="corporaciones-y-el-modelo-de-negocio-de-la-estafa">1.
+Corporaciones y el Modelo de Negocio de la “Estafa”</h3>
+<p>Hotz critica duramente a las empresas, especialmente en el ámbito de
+la tecnología y las startups, que no se centran en crear un producto
+valioso, sino en la percepción y la especulación financiera.</p>
 <ul>
-<li>[cite_start]<strong>La empresa como producto:</strong> Muchas compañías no fabrican productos, sino acciones[cite: 135]. [cite_start]Su objetivo es contratar a mucha gente, conseguir oficinas lujosas y hacer mucho marketing para crear la percepción de crecimiento y éxito, aunque no tengan un producto real o rentable[cite: 161, 162, 164, 165]. [cite_start]Cruise Automation es su principal ejemplo, una empresa que, según él, era obvio que perdería miles de millones pero fue vendida a GM por 1.000 millones de dólares basándose en promesas falsas[cite: 152, 153].</li>
-<li>[cite_start]<strong>Capital de Riesgo (VC) y Startups:</strong> Considera que muchos emprendedores que siguen el &quot;plan de estudios de los VC&quot; son simplemente &quot;divisiones de investigación mal pagadas de las grandes empresas tecnológicas&quot;[cite: 1670, 1671]. El sistema está diseñado para que las grandes corporaciones se beneficien, no para una innovación genuina.</li>
-<li>[cite_start]<strong>Cultura de &quot;juego de suma cero&quot;:</strong> Observa a empleados, como la mujer de la cafetería, cuya principal preocupación es su carrera interna, sus ascensos y las políticas de la oficina, sin tener idea de lo que la empresa realmente produce[cite: 737, 740, 744, 746]. Esto es un juego de suma cero dentro de la propia compañía.</li>
+<li>[cite_start]<strong>La empresa como producto:</strong> Muchas
+compañías no fabrican productos, sino acciones[cite: 135].
+[cite_start]Su objetivo es contratar a mucha gente, conseguir oficinas
+lujosas y hacer mucho marketing para crear la percepción de crecimiento
+y éxito, aunque no tengan un producto real o rentable[cite: 161, 162,
+164, 165]. [cite_start]Cruise Automation es su principal ejemplo, una
+empresa que, según él, era obvio que perdería miles de millones pero fue
+vendida a GM por 1.000 millones de dólares basándose en promesas
+falsas[cite: 152, 153].</li>
+<li>[cite_start]<strong>Capital de Riesgo (VC) y Startups:</strong>
+Considera que muchos emprendedores que siguen el “plan de estudios de
+los VC” son simplemente “divisiones de investigación mal pagadas de las
+grandes empresas tecnológicas”[cite: 1670, 1671]. El sistema está
+diseñado para que las grandes corporaciones se beneficien, no para una
+innovación genuina.</li>
+<li>[cite_start]<strong>Cultura de “juego de suma cero”:</strong>
+Observa a empleados, como la mujer de la cafetería, cuya principal
+preocupación es su carrera interna, sus ascensos y las políticas de la
+oficina, sin tener idea de lo que la empresa realmente produce[cite:
+737, 740, 744, 746]. Esto es un juego de suma cero dentro de la propia
+compañía.</li>
 </ul>
-<h3>2. Finanzas, Especulación y Publicidad</h3>
-<p>Hotz considera que sectores enteros de la economía no crean nada de valor y son inherentemente parasitarios.</p>
+<h3 id="finanzas-especulación-y-publicidad">2. Finanzas, Especulación y
+Publicidad</h3>
+<p>Hotz considera que sectores enteros de la economía no crean nada de
+valor y son inherentemente parasitarios.</p>
 <ul>
-<li>[cite_start]<strong>Publicidad:</strong> La califica como un &quot;juego de suma cero sin beneficio para la sociedad&quot; y propone un impuesto del 500% sobre ella[cite: 1622, 1623]. [cite_start]Sostiene que la publicidad no crea valor, sino que manipula a la gente para mover el dinero y entrena a las personas para que se identifiquen como &quot;consumidores&quot;[cite: 825, 826, 827, 864]. [cite_start]El objetivo es &quot;chupar hasta el último céntimo&quot; de la gente usando trucos psicológicos[cite: 1615].</li>
-<li>[cite_start]<strong>Trading de Alta Frecuencia (HFT) y Especulación:</strong> Propone un impuesto del 1% sobre cada operación para eliminar el HFT, al que considera inútil y un &quot;drenaje de cerebros&quot;[cite: 1626, 1627]. [cite_start]Ve las finanzas como un sector que &quot;no crea nada&quot;[cite: 864].</li>
-<li>[cite_start]<strong>Estafas con Criptomonedas y SPACs:</strong> Menciona específicamente las estafas en el mundo de las criptomonedas y los SPACs como ejemplos de una cultura de estafadores que se creen genios[cite: 1630, 1631].</li>
+<li>[cite_start]<strong>Publicidad:</strong> La califica como un “juego
+de suma cero sin beneficio para la sociedad” y propone un impuesto del
+500% sobre ella[cite: 1622, 1623]. [cite_start]Sostiene que la
+publicidad no crea valor, sino que manipula a la gente para mover el
+dinero y entrena a las personas para que se identifiquen como
+“consumidores”[cite: 825, 826, 827, 864]. [cite_start]El objetivo es
+“chupar hasta el último céntimo” de la gente usando trucos
+psicológicos[cite: 1615].</li>
+<li>[cite_start]<strong>Trading de Alta Frecuencia (HFT) y
+Especulación:</strong> Propone un impuesto del 1% sobre cada operación
+para eliminar el HFT, al que considera inútil y un “drenaje de
+cerebros”[cite: 1626, 1627]. [cite_start]Ve las finanzas como un sector
+que “no crea nada”[cite: 864].</li>
+<li>[cite_start]<strong>Estafas con Criptomonedas y SPACs:</strong>
+Menciona específicamente las estafas en el mundo de las criptomonedas y
+los SPACs como ejemplos de una cultura de estafadores que se creen
+genios[cite: 1630, 1631].</li>
 </ul>
-<h3>3. El Gobierno como Estafa Suprema</h3>
-<p>Para Hotz, el gobierno es el principal actor en los juegos de suma cero, ya que no produce valor por sí mismo, sino que lo extrae de la clase productiva.</p>
+<h3 id="el-gobierno-como-estafa-suprema">3. El Gobierno como Estafa
+Suprema</h3>
+<p>Para Hotz, el gobierno es el principal actor en los juegos de suma
+cero, ya que no produce valor por sí mismo, sino que lo extrae de la
+clase productiva.</p>
 <ul>
-<li>[cite_start]<strong>Impresión de dinero y Deuda:</strong> El gobierno, al imprimir dinero, perpetúa una estafa masiva[cite: 1789]. [cite_start]La política monetaria ha resultado en una transferencia de riqueza de 129 billones de dólares de los jóvenes a los viejos[cite: 1060].</li>
-<li>[cite_start]<strong>Leyes como botín:</strong> Considera que leyes como la &quot;Infrastructure Investment and Jobs Act&quot; o la &quot;Inflation Reduction Act&quot; no son más que los oligarcas saqueando al estado para dar dinero a sus amigos[cite: 454].</li>
-<li>[cite_start]<strong>Seguridad Social:</strong> La describe como un &quot;gran esquema Ponzi&quot;[cite: 1063].</li>
-<li>[cite_start]<strong>Fomento de la dependencia:</strong> Critica cómo el gobierno utiliza el dinero robado de unos para sobornar a otros y así mantenerse en el poder[cite: 1072].</li>
+<li>[cite_start]<strong>Impresión de dinero y Deuda:</strong> El
+gobierno, al imprimir dinero, perpetúa una estafa masiva[cite: 1789].
+[cite_start]La política monetaria ha resultado en una transferencia de
+riqueza de 129 billones de dólares de los jóvenes a los viejos[cite:
+1060].</li>
+<li>[cite_start]<strong>Leyes como botín:</strong> Considera que leyes
+como la “Infrastructure Investment and Jobs Act” o la “Inflation
+Reduction Act” no son más que los oligarcas saqueando al estado para dar
+dinero a sus amigos[cite: 454].</li>
+<li>[cite_start]<strong>Seguridad Social:</strong> La describe como un
+“gran esquema Ponzi”[cite: 1063].</li>
+<li>[cite_start]<strong>Fomento de la dependencia:</strong> Critica cómo
+el gobierno utiliza el dinero robado de unos para sobornar a otros y así
+mantenerse en el poder[cite: 1072].</li>
 </ul>
-<h3>4. Estafas Sociales y Culturales</h3>
-<p>Hotz también identifica varias &quot;estafas&quot; a nivel cultural e ideológico.</p>
+<h3 id="estafas-sociales-y-culturales">4. Estafas Sociales y
+Culturales</h3>
+<p>Hotz también identifica varias “estafas” a nivel cultural e
+ideológico.</p>
 <ul>
-<li>[cite_start]<strong>Propiedad Intelectual:</strong> La considera una &quot;idea realmente estúpida&quot;[cite: 1378]. [cite_start]Argumenta que, a diferencia del robo físico, la piratería no priva al propietario original del bien, simplemente lo copia[cite: 1381]. Es un sistema para crear escasez artificial.</li>
-<li>[cite_start]<strong>Educación Superior:</strong> Ve las universidades como parte de un sistema que concede préstamos masivos a cambio de una &quot;educación sin valor&quot;[cite: 1616]. [cite_start]Pide la &quot;separación de la iglesia y el estado&quot;, incluyendo a Harvard y Yale en la categoría de &quot;iglesia&quot;[cite: 1628].</li>
-<li>[cite_start]<strong>Aplicaciones de Citas Online:</strong> Critica su modelo de negocio, que se asemeja a los juegos para móviles, utilizando trucos psicológicos como los &quot;boosts&quot; para extraer dinero en lugar de facilitar conexiones humanas reales[cite: 544, 546].</li>
+<li>[cite_start]<strong>Propiedad Intelectual:</strong> La considera una
+“idea realmente estúpida”[cite: 1378]. [cite_start]Argumenta que, a
+diferencia del robo físico, la piratería no priva al propietario
+original del bien, simplemente lo copia[cite: 1381]. Es un sistema para
+crear escasez artificial.</li>
+<li>[cite_start]<strong>Educación Superior:</strong> Ve las
+universidades como parte de un sistema que concede préstamos masivos a
+cambio de una “educación sin valor”[cite: 1616]. [cite_start]Pide la
+“separación de la iglesia y el estado”, incluyendo a Harvard y Yale en
+la categoría de “iglesia”[cite: 1628].</li>
+<li>[cite_start]<strong>Aplicaciones de Citas Online:</strong> Critica
+su modelo de negocio, que se asemeja a los juegos para móviles,
+utilizando trucos psicológicos como los “boosts” para extraer dinero en
+lugar de facilitar conexiones humanas reales[cite: 544, 546].</li>
 </ul>
-<p>En resumen, la visión de George Hotz es que la sociedad occidental está plagada de sistemas e individuos (la Clase Profesional Gerencial) que se dedican a juegos de suma cero. [cite_start]En lugar de crear valor real luchando contra la naturaleza (lo que él llama &quot;poder sobre la naturaleza&quot;), se centran en luchar entre sí por una porción de un pastel estancado (lo que él llama &quot;poder sobre el hombre&quot;)[cite: 1881]. Esta mentalidad, según él, es la causa fundamental de la decadencia y la falta de crecimiento real.</p>
-<p>El texto proporcionado, que consiste en una compilación de entradas de blog de George Hotz en su sitio &quot;the singularity is nearer&quot;, ofrece una crítica aguda y satírica a diversos aspectos de la sociedad moderna. A lo largo de sus posts, Hotz identifica y describe dinámicas sociales, económicas, políticas y tecnológicas que él percibe como &quot;juegos de suma cero&quot; (zero-sum games). En estos juegos, los recursos, el poder o las oportunidades son limitados, de modo que las ganancias de un grupo o individuo implican necesariamente pérdidas para otros, sin generar un valor neto positivo para la sociedad en su conjunto. En lugar de fomentar la creación colectiva de riqueza o progreso (como &quot;poder sobre la naturaleza&quot;), estos juegos promueven competencias destructivas, manipulaciones y divisiones que benefician a élites a expensas de las masas.</p>
-<p>Hotz no siempre usa el término &quot;juego de suma cero&quot; de manera explícita, pero sus descripciones encajan perfectamente en esta categoría: ciclos de control, competencia por capital ficticio, luchas por poder ilusorio y divisiones culturales que no resuelven problemas reales. A continuación, detallo todos los juegos de suma cero que se describen en el texto, organizados temáticamente para mayor claridad. Cada uno incluye una explicación extendida basada en las referencias directas o implícitas de Hotz, con citas o parafraseos del texto para contextualizar. Este análisis revela cómo Hotz ve la sociedad actual como un &quot;amusement park decrepito&quot; (un parque de diversiones en ruinas), donde estos juegos perpetúan la disfunción en lugar de impulsar el verdadero avance humano, como la IA o la innovación tecnológica.</p>
-<h3>1. <strong>La Lucha por el Poder Político entre Élites y Masas</strong></h3>
-<p>Uno de los juegos de suma cero más prominentes en el texto es la dinámica política, donde las élites mantienen el control manipulando divisiones entre la gente común. Hotz describe esto como un ciclo en el que el poder de las élites se basa en la sumisión y las peleas internas de las masas, sin crear valor real. Las &quot;élites&quot; (políticos, corporaciones y un posible &quot;Deep State&quot;) ganan poder a expensas de la libertad y la prosperidad de los demás, fomentando conflictos artificiales para distraer. Esto es suma cero porque no se genera nuevo poder o bienestar; simplemente se redistribuye de manera desigual, con las masas como perdedoras netas.</p>
-<p>En el post &quot;A Circulation of the Elites&quot;, Hotz lo ilustra vívidamente: &quot;watching you dumb ducks as you fight about which old fuck amongst them you think that should rule you argue that we all should pay them to school you&quot;. Aquí, las elecciones se presentan como una ilusión donde la gente pelea por elegir entre candidatos ancianos (como un &quot;74 year old guy or the 77 year old guy&quot;), pero el verdadero control permanece en manos de las élites. Esto crea un juego donde las masas invierten tiempo y energía en divisiones (por ejemplo, sobre &quot;grassroots movements&quot; respaldados por corporaciones), mientras las élites acumulan poder. En &quot;...and now we see what is possible&quot;, Hotz especula sobre un &quot;Deep State&quot; que amenaza al presidente electo: &quot;Hello, we are the Deep State. Here are the bounds in which you can act. Step outside them, and we will kill you&quot;. Esto refuerza el juego suma cero: el poder presidencial es limitado, y cualquier intento de cambio real (como cortar el presupuesto gubernamental en más del 50%) choca con estructuras invisibles que protegen el statu quo.</p>
-<p>Hotz sueña con romper este ciclo mediante una &quot;nueva aurora&quot; donde se luche por &quot;poder sobre la naturaleza&quot; en lugar de &quot;poder sobre personas&quot;, pero advierte que el sistema actual es insostenible y podría colapsar en una &quot;gran recesión y crisis de significado&quot;, dejando a alguien &quot;holding the bag&quot; (sosteniendo la bolsa vacía, como en un pump and dump de criptomonedas).</p>
-<h3>2. <strong>La Competencia Económica por Recursos Limitados y Empleos Desplazados por la Automatización</strong></h3>
-<p>Otro juego de suma cero destacado es la economía moderna, donde el avance tecnológico (como la IA y la automatización) desplaza empleos tradicionales, beneficiando a élites tecnológicas a expensas de trabajadores comunes. Hotz argumenta que esto no crea valor neto para todos, sino que transfiere riqueza de &quot;small town jobs&quot; a &quot;computerized mobs&quot;, exacerbando la desigualdad sin soluciones reales para los perdedores.</p>
-<p>En &quot;A Circulation of the Elites&quot;, describe: &quot;goodbye to your small town jobs stomped out by computerized mobs did you put up a fight?&quot;. Aquí, la automatización es un juego donde los dueños de la tecnología (como empresas de IA) ganan eficiencia y ganancias, pero los trabajadores pierden sus medios de vida, creando un ciclo de desempleo y dependencia. Esto se agrava por el &quot;fake money&quot; impreso (7 trillones de dólares) para &quot;sobornar&quot; a la gente, lo que Hotz ve como una ilusión temporal que pospone el colapso. En &quot;Wireheading City&quot;, propone una solución radical: una ciudad donde la gente pueda &quot;opt out&quot; de la sociedad con UBI en forma de comida, drogas y entretenimiento gratuitos, reconociendo que la IA causará &quot;unemployment crisis&quot;. Sin esto, el juego suma cero continúa: los innovadores ganan, los desplazados pierden, y la sociedad no genera prosperidad compartida.</p>
-<p>Hotz critica la sostenibilidad: &quot;You can't make fake money and you can't atomize and dehumanize people to better sell them landfill junk&quot;. El &quot;come down&quot; (bajada) de este sistema será doloroso, como una resaca de drogas, donde alguien termina &quot;holding the bag&quot;.</p>
-<h3>3. <strong>La Competencia por Capital en el Ecosistema de Startups y Chips de IA</strong></h3>
-<p>En el ámbito tecnológico, Hotz describe el mercado de startups de IA y chips como un juego de suma cero donde las compañías compiten por capital limitado (inversiones) sin crear productos reales. El &quot;hype&quot; y las valoraciones infladas benefician a fundadores y VCs a expensas de inversores y competidores genuinos, sin generar innovación neta.</p>
-<p>En &quot;A Breakdown of AI Chip Companies&quot; y &quot;A Correction on my AI chip thoughts&quot;, Hotz ataca a empresas como Graphcore, Groq, Tenstorrent y Cerebras: &quot;many wildly overcapitalized companies that have 0 product market fit... They don't make chips, they make shares&quot;. Esto es suma cero porque el capital fluye hacia &quot;secrecy&quot; (secreto como cobertura para &quot;we don't have shit&quot;) en lugar de productos viables. Las startups levantan cientos de millones sin shipping (lanzar productos), compitiendo por el mismo pozo de inversión, lo que destruye valor en lugar de crearlo. Hotz contrasta esto con NVIDIA (el &quot;king of AI chips&quot;), pero critica su monopolio y sobreprecios, que benefician a la compañía a expensas de los usuarios.</p>
-<p>En &quot;A disgusting playbook&quot;, expande: &quot;Don't have a product? It doesn't matter! The company is your product. Hire a marketing division to shill... You can just get more investment&quot;. Empresas como Cruise y Zoox prometen revenue &quot;right around the corner&quot; mientras pierden millones, un juego donde el hype gana a expensas de la realidad.</p>
-<h3>4. <strong>Las Divisiones Culturales y el &quot;Wokeism&quot; como Competencia por Representación</strong></h3>
-<p>Hotz ve el &quot;wokeism&quot; como un juego de suma cero cultural, donde la lucha por &quot;representación&quot; y &quot;equality of outcome&quot; divide a la sociedad sin resolver problemas subyacentes. Basado en creencias &quot;factually false&quot; (como que igualdad de oportunidad lleva automáticamente a igualdad de resultados), beneficia a activistas y corporaciones que lo usan para virtue signaling, a expensas de la meritocracia y la verdad.</p>
-<p>En &quot;Wokeism&quot;, explica: &quot;With true equality of opportunity, we will see equality of outcome. If we don't see equality of outcome, it is because we don't have equality of opportunity&quot;. Critica esto como una &quot;factually false belief&quot; que une cultos (como el &quot;blank slate hypothesis&quot;), pero divide la sociedad al suprimir disidencia con &quot;Inquisition style tactics&quot;. En tech, quejas sobre &quot;underrepresentation&quot; (mujeres en 25% de jobs de computer-science) asumen discriminación sin explorar otras hipótesis, creando un juego donde grupos compiten por cuotas limitadas de poder y recursos, sin generar igualdad real.</p>
-<p>Hotz nota que esto diverge de la evidencia: &quot;as equality of opportunity increases, observed outcomes diverge&quot;, exacerbando divisiones suma cero.</p>
-<h3>5. <strong>La Competencia por Atención y Recursos en Redes Sociales y Medios</strong></h3>
-<p>Aunque menos central, Hotz implica un juego suma cero en plataformas como Twitter, donde creadores y lurkers compiten por atención limitada. En &quot;Vampire Attack Twitter&quot;, propone un &quot;vampire attack&quot; para drenar &quot;liquidity&quot; (creadores como proveedores de liquidez), reconociendo que las plataformas actuales son suma cero: ads y &quot;fake trending topics&quot; benefician a dueños a expensas de usuarios.</p>
-<p>En &quot;A Circulation of the Elites&quot;, critica los medios como &quot;agitprop, fake dividing real denying fake shit&quot;, donde divisiones culturales (como sobre meritocracia) son un juego para mantener el control élite.</p>
-<h3>Conclusión: Rompiendo los Juegos de Suma Cero</h3>
-<p>Hotz ve estos juegos como síntomas de una sociedad disfuncional, pero es optimista sobre la tecnología (IA, internet) para romperlos: &quot;the Internet will stomp their hearts&quot;. En posts como &quot;Where the Bitter Lesson ends&quot;, enfatiza construir &quot;better engineers than humans&quot; para superar estas limitaciones. Sin embargo, advierte que sin cambio radical (como en una presidencia transformadora), estos ciclos continuarán, destruyendo valor en lugar de crearlo. Este análisis extendido muestra cómo, para Hotz, la sociedad actual es un laberinto de juegos suma cero que perpetúan la mediocridad, y solo la honestidad y la innovación pueden liberarnos.</p>
-<h3>Análisis Detallado de Estafas y Juegos de Suma Cero en el Texto Proporcionado</h3>
-<p>He revisado exhaustivamente el documento completo (&quot;full.txt&quot;), que consiste en una colección de posts de blog de George Hotz (geohot) bajo el sitio &quot;the singularity is nearer&quot;. El texto abarca temas como compañías de chips de IA, críticas a la industria tech, reflexiones sociopolíticas, correcciones técnicas y propuestas innovadoras. Identifiqué todas las referencias explícitas o implícitas a <strong>estafas</strong> (scams: actividades fraudulentas, engañosas o manipuladoras que benefician a unos pocos a costa de otros sin crear valor real) y <strong>juegos de suma cero</strong> (zero-sum games: situaciones donde la ganancia de uno equivale a la pérdida de otro, sin generación neta de valor, a menudo en contextos económicos, sociales o competitivos).</p>
-<p>Para cada instancia:</p>
+<p>En resumen, la visión de George Hotz es que la sociedad occidental
+está plagada de sistemas e individuos (la Clase Profesional Gerencial)
+que se dedican a juegos de suma cero. [cite_start]En lugar de crear
+valor real luchando contra la naturaleza (lo que él llama “poder sobre
+la naturaleza”), se centran en luchar entre sí por una porción de un
+pastel estancado (lo que él llama “poder sobre el hombre”)[cite: 1881].
+Esta mentalidad, según él, es la causa fundamental de la decadencia y la
+falta de crecimiento real.</p>
+<p>El texto proporcionado, que consiste en una compilación de entradas
+de blog de George Hotz en su sitio “the singularity is nearer”, ofrece
+una crítica aguda y satírica a diversos aspectos de la sociedad moderna.
+A lo largo de sus posts, Hotz identifica y describe dinámicas sociales,
+económicas, políticas y tecnológicas que él percibe como “juegos de suma
+cero” (zero-sum games). En estos juegos, los recursos, el poder o las
+oportunidades son limitados, de modo que las ganancias de un grupo o
+individuo implican necesariamente pérdidas para otros, sin generar un
+valor neto positivo para la sociedad en su conjunto. En lugar de
+fomentar la creación colectiva de riqueza o progreso (como “poder sobre
+la naturaleza”), estos juegos promueven competencias destructivas,
+manipulaciones y divisiones que benefician a élites a expensas de las
+masas.</p>
+<p>Hotz no siempre usa el término “juego de suma cero” de manera
+explícita, pero sus descripciones encajan perfectamente en esta
+categoría: ciclos de control, competencia por capital ficticio, luchas
+por poder ilusorio y divisiones culturales que no resuelven problemas
+reales. A continuación, detallo todos los juegos de suma cero que se
+describen en el texto, organizados temáticamente para mayor claridad.
+Cada uno incluye una explicación extendida basada en las referencias
+directas o implícitas de Hotz, con citas o parafraseos del texto para
+contextualizar. Este análisis revela cómo Hotz ve la sociedad actual
+como un “amusement park decrepito” (un parque de diversiones en ruinas),
+donde estos juegos perpetúan la disfunción en lugar de impulsar el
+verdadero avance humano, como la IA o la innovación tecnológica.</p>
+<h3 id="la-lucha-por-el-poder-político-entre-élites-y-masas">1.
+<strong>La Lucha por el Poder Político entre Élites y
+Masas</strong></h3>
+<p>Uno de los juegos de suma cero más prominentes en el texto es la
+dinámica política, donde las élites mantienen el control manipulando
+divisiones entre la gente común. Hotz describe esto como un ciclo en el
+que el poder de las élites se basa en la sumisión y las peleas internas
+de las masas, sin crear valor real. Las “élites” (políticos,
+corporaciones y un posible “Deep State”) ganan poder a expensas de la
+libertad y la prosperidad de los demás, fomentando conflictos
+artificiales para distraer. Esto es suma cero porque no se genera nuevo
+poder o bienestar; simplemente se redistribuye de manera desigual, con
+las masas como perdedoras netas.</p>
+<p>En el post “A Circulation of the Elites”, Hotz lo ilustra
+vívidamente: “watching you dumb ducks as you fight about which old fuck
+amongst them you think that should rule you argue that we all should pay
+them to school you”. Aquí, las elecciones se presentan como una ilusión
+donde la gente pelea por elegir entre candidatos ancianos (como un “74
+year old guy or the 77 year old guy”), pero el verdadero control
+permanece en manos de las élites. Esto crea un juego donde las masas
+invierten tiempo y energía en divisiones (por ejemplo, sobre “grassroots
+movements” respaldados por corporaciones), mientras las élites acumulan
+poder. En “…and now we see what is possible”, Hotz especula sobre un
+“Deep State” que amenaza al presidente electo: “Hello, we are the Deep
+State. Here are the bounds in which you can act. Step outside them, and
+we will kill you”. Esto refuerza el juego suma cero: el poder
+presidencial es limitado, y cualquier intento de cambio real (como
+cortar el presupuesto gubernamental en más del 50%) choca con
+estructuras invisibles que protegen el statu quo.</p>
+<p>Hotz sueña con romper este ciclo mediante una “nueva aurora” donde se
+luche por “poder sobre la naturaleza” en lugar de “poder sobre
+personas”, pero advierte que el sistema actual es insostenible y podría
+colapsar en una “gran recesión y crisis de significado”, dejando a
+alguien “holding the bag” (sosteniendo la bolsa vacía, como en un pump
+and dump de criptomonedas).</p>
+<h3
+id="la-competencia-económica-por-recursos-limitados-y-empleos-desplazados-por-la-automatización">2.
+<strong>La Competencia Económica por Recursos Limitados y Empleos
+Desplazados por la Automatización</strong></h3>
+<p>Otro juego de suma cero destacado es la economía moderna, donde el
+avance tecnológico (como la IA y la automatización) desplaza empleos
+tradicionales, beneficiando a élites tecnológicas a expensas de
+trabajadores comunes. Hotz argumenta que esto no crea valor neto para
+todos, sino que transfiere riqueza de “small town jobs” a “computerized
+mobs”, exacerbando la desigualdad sin soluciones reales para los
+perdedores.</p>
+<p>En “A Circulation of the Elites”, describe: “goodbye to your small
+town jobs stomped out by computerized mobs did you put up a fight?”.
+Aquí, la automatización es un juego donde los dueños de la tecnología
+(como empresas de IA) ganan eficiencia y ganancias, pero los
+trabajadores pierden sus medios de vida, creando un ciclo de desempleo y
+dependencia. Esto se agrava por el “fake money” impreso (7 trillones de
+dólares) para “sobornar” a la gente, lo que Hotz ve como una ilusión
+temporal que pospone el colapso. En “Wireheading City”, propone una
+solución radical: una ciudad donde la gente pueda “opt out” de la
+sociedad con UBI en forma de comida, drogas y entretenimiento gratuitos,
+reconociendo que la IA causará “unemployment crisis”. Sin esto, el juego
+suma cero continúa: los innovadores ganan, los desplazados pierden, y la
+sociedad no genera prosperidad compartida.</p>
+<p>Hotz critica la sostenibilidad: “You can’t make fake money and you
+can’t atomize and dehumanize people to better sell them landfill junk”.
+El “come down” (bajada) de este sistema será doloroso, como una resaca
+de drogas, donde alguien termina “holding the bag”.</p>
+<h3
+id="la-competencia-por-capital-en-el-ecosistema-de-startups-y-chips-de-ia">3.
+<strong>La Competencia por Capital en el Ecosistema de Startups y Chips
+de IA</strong></h3>
+<p>En el ámbito tecnológico, Hotz describe el mercado de startups de IA
+y chips como un juego de suma cero donde las compañías compiten por
+capital limitado (inversiones) sin crear productos reales. El “hype” y
+las valoraciones infladas benefician a fundadores y VCs a expensas de
+inversores y competidores genuinos, sin generar innovación neta.</p>
+<p>En “A Breakdown of AI Chip Companies” y “A Correction on my AI chip
+thoughts”, Hotz ataca a empresas como Graphcore, Groq, Tenstorrent y
+Cerebras: “many wildly overcapitalized companies that have 0 product
+market fit… They don’t make chips, they make shares”. Esto es suma cero
+porque el capital fluye hacia “secrecy” (secreto como cobertura para “we
+don’t have shit”) en lugar de productos viables. Las startups levantan
+cientos de millones sin shipping (lanzar productos), compitiendo por el
+mismo pozo de inversión, lo que destruye valor en lugar de crearlo. Hotz
+contrasta esto con NVIDIA (el “king of AI chips”), pero critica su
+monopolio y sobreprecios, que benefician a la compañía a expensas de los
+usuarios.</p>
+<p>En “A disgusting playbook”, expande: “Don’t have a product? It
+doesn’t matter! The company is your product. Hire a marketing division
+to shill… You can just get more investment”. Empresas como Cruise y Zoox
+prometen revenue “right around the corner” mientras pierden millones, un
+juego donde el hype gana a expensas de la realidad.</p>
+<h3
+id="las-divisiones-culturales-y-el-wokeism-como-competencia-por-representación">4.
+<strong>Las Divisiones Culturales y el “Wokeism” como Competencia por
+Representación</strong></h3>
+<p>Hotz ve el “wokeism” como un juego de suma cero cultural, donde la
+lucha por “representación” y “equality of outcome” divide a la sociedad
+sin resolver problemas subyacentes. Basado en creencias “factually
+false” (como que igualdad de oportunidad lleva automáticamente a
+igualdad de resultados), beneficia a activistas y corporaciones que lo
+usan para virtue signaling, a expensas de la meritocracia y la
+verdad.</p>
+<p>En “Wokeism”, explica: “With true equality of opportunity, we will
+see equality of outcome. If we don’t see equality of outcome, it is
+because we don’t have equality of opportunity”. Critica esto como una
+“factually false belief” que une cultos (como el “blank slate
+hypothesis”), pero divide la sociedad al suprimir disidencia con
+“Inquisition style tactics”. En tech, quejas sobre “underrepresentation”
+(mujeres en 25% de jobs de computer-science) asumen discriminación sin
+explorar otras hipótesis, creando un juego donde grupos compiten por
+cuotas limitadas de poder y recursos, sin generar igualdad real.</p>
+<p>Hotz nota que esto diverge de la evidencia: “as equality of
+opportunity increases, observed outcomes diverge”, exacerbando
+divisiones suma cero.</p>
+<h3
+id="la-competencia-por-atención-y-recursos-en-redes-sociales-y-medios">5.
+<strong>La Competencia por Atención y Recursos en Redes Sociales y
+Medios</strong></h3>
+<p>Aunque menos central, Hotz implica un juego suma cero en plataformas
+como Twitter, donde creadores y lurkers compiten por atención limitada.
+En “Vampire Attack Twitter”, propone un “vampire attack” para drenar
+“liquidity” (creadores como proveedores de liquidez), reconociendo que
+las plataformas actuales son suma cero: ads y “fake trending topics”
+benefician a dueños a expensas de usuarios.</p>
+<p>En “A Circulation of the Elites”, critica los medios como “agitprop,
+fake dividing real denying fake shit”, donde divisiones culturales (como
+sobre meritocracia) son un juego para mantener el control élite.</p>
+<h3 id="conclusión-rompiendo-los-juegos-de-suma-cero">Conclusión:
+Rompiendo los Juegos de Suma Cero</h3>
+<p>Hotz ve estos juegos como síntomas de una sociedad disfuncional, pero
+es optimista sobre la tecnología (IA, internet) para romperlos: “the
+Internet will stomp their hearts”. En posts como “Where the Bitter
+Lesson ends”, enfatiza construir “better engineers than humans” para
+superar estas limitaciones. Sin embargo, advierte que sin cambio radical
+(como en una presidencia transformadora), estos ciclos continuarán,
+destruyendo valor en lugar de crearlo. Este análisis extendido muestra
+cómo, para Hotz, la sociedad actual es un laberinto de juegos suma cero
+que perpetúan la mediocridad, y solo la honestidad y la innovación
+pueden liberarnos.</p>
+<h3
+id="análisis-detallado-de-estafas-y-juegos-de-suma-cero-en-el-texto-proporcionado">Análisis
+Detallado de Estafas y Juegos de Suma Cero en el Texto
+Proporcionado</h3>
+<p>He revisado exhaustivamente el documento completo (“full.txt”), que
+consiste en una colección de posts de blog de George Hotz (geohot) bajo
+el sitio “the singularity is nearer”. El texto abarca temas como
+compañías de chips de IA, críticas a la industria tech, reflexiones
+sociopolíticas, correcciones técnicas y propuestas innovadoras.
+Identifiqué todas las referencias explícitas o implícitas a
+<strong>estafas</strong> (scams: actividades fraudulentas, engañosas o
+manipuladoras que benefician a unos pocos a costa de otros sin crear
+valor real) y <strong>juegos de suma cero</strong> (zero-sum games:
+situaciones donde la ganancia de uno equivale a la pérdida de otro, sin
+generación neta de valor, a menudo en contextos económicos, sociales o
+competitivos).</p>
+<p>Para cada instancia: - <strong>Cito el contexto relevante</strong>
+del texto (incluyendo la entrada del blog donde aparece). -
+<strong>Explico por qué se clasifica como estafa o juego de suma
+cero</strong>, basado en la descripción del autor. - <strong>Detallo las
+implicaciones</strong> según el razonamiento de Hotz, para mayor
+profundidad.</p>
+<p>El análisis está organizado por entrada de blog, en orden de
+aparición en el documento. No todas las entradas contienen tales
+referencias; solo incluyo las relevantes. En total, identifiqué
+<strong>12 instancias principales</strong>, con subdetalles donde
+aplica. Hotz es altamente crítico con la industria tech, el capitalismo
+de riesgo y estructuras sociales, viéndolas a menudo como engañosas o
+extractivas.</p>
+<h4 id="entrada-a-breakdown-of-ai-chip-companies-jun-13-2021">1.
+Entrada: “A Breakdown of AI Chip Companies” (Jun 13, 2021)</h4>
+<p>Esta entrada critica compañías de chips de IA sobrecapitalizadas sin
+productos reales.</p>
 <ul>
-<li><strong>Cito el contexto relevante</strong> del texto (incluyendo la entrada del blog donde aparece).</li>
-<li><strong>Explico por qué se clasifica como estafa o juego de suma cero</strong>, basado en la descripción del autor.</li>
-<li><strong>Detallo las implicaciones</strong> según el razonamiento de Hotz, para mayor profundidad.</li>
+<li><p><strong>Instancia 1: Compañías de chips de IA sobrecapitalizadas
+sin producto (estafa generalizada)</strong><br />
+Cita: “You have many wildly overcapitalized companies that have 0
+product market fit, never mind revenue or profit. Not a single one of
+these companies has a product I can buy! […] Unless it’s a from company
+with a track record like Apple, secrecy is just cover for ‘we don’t have
+shit’.”<br />
+Explicación: Hotz describe esto como una estafa porque estas startups
+(ej. Graphcore, Groq, Tenstorrent, Cerebras) recaudan cientos de
+millones (ej. Graphcore: $682M) sin entregar productos comprables,
+usando “secrecy” como tapadera. Es un juego de suma cero porque el
+capital de inversores se desperdicia en “hype” sin valor creado,
+beneficiando solo a fundadores y VCs tempranos a costa de inversores
+posteriores o el ecosistema general (no hay innovación real, solo
+promesas).<br />
+Implicaciones: Compara con self-driving cars; NVIDIA es el líder real
+porque vende productos. Propone su propia “Cherry Computer” como
+alternativa honesta, pero critica el modelo de negocio “estúpido” o
+inexistente de estas firmas.</p></li>
+<li><p><strong>Instancia 2: Graphcore y su “buy now” button falso
+(estafa específica)</strong><br />
+Cita: “And while they have a buy now button, it links to a contact us
+form. If a company has a contact us form gating sales, it means that
+their product isn’t actually competitive in the market if you did the
+research yourself, but they are hoping a sales guy will wrongly convince
+you otherwise.”<br />
+Explicación: Esto es una estafa de marketing: simulan disponibilidad
+para atraer interés, pero usan ventas agresivas para vender un producto
+inferior. Juego de suma cero porque engaña a compradores potenciales,
+transfiriendo valor de ellos a la compañía sin entregar un producto
+viable.<br />
+Implicaciones: Hotz ve esto como un patrón en chips “difíciles de
+programar”, similar a errores históricos como Cell SPE.</p></li>
+<li><p><strong>Instancia 3: Groq y su enfoque en benchmarks obsoletos
+(estafa técnica)</strong><br />
+Cita: “The fact that they are still advertising their ResNet-50
+performance (a 2015 era network) speaks to that.”<br />
+Explicación: Publicitar métricas irrelevantes es una estafa para inflar
+hype; es suma cero porque distrae recursos de competidores reales como
+NVIDIA, sin avanzar la industria.<br />
+Implicaciones: Critica su arquitectura como “el mismo error que
+Itanium”, empujando complejidad al software sin resultados.</p></li>
+<li><p><strong>Instancia 4: Tenstorrent y su NDA para demos (estafa de
+transparencia)</strong><br />
+Cita: “There’s almost no information published on this architecture, and
+I was told the only way to get a demo would be to sign something
+promising to not say anything bad about it.”<br />
+Explicación: Forzar NDAs para ocultar fallos es una estafa; suma cero
+porque impide crítica honesta, beneficiando a la compañía a costa de la
+comunidad tech.<br />
+Implicaciones: Hotz es escéptico, pero nota esperanza con Jim
+Keller.</p></li>
+<li><p><strong>Instancia 5: Cerebras y su “big chip” hype (estafa de
+escala)</strong><br />
+Cita: “WE MAKE BIG CHIP! CHIP REALLY BIG! BIG MUST BE GOOD BECAUSE BIG!
+BIG CHIP MEAN BIG INVESTMENT!”<br />
+Explicación: Sobrehypear tamaño sin usabilidad es una estafa; suma cero
+porque atrae inversión ($112M) sin resolver problemas reales como
+controlar 400,000 cores.<br />
+Implicaciones: Ridiculiza como imposible de programar
+sanamente.</p></li>
+<li><p><strong>Instancia 6: NVIDIA y su monopolio/overpricing (juego de
+suma cero económico)</strong><br />
+Cita: “The problem is the 5x overpriced A100, and the facts that, one,
+they have a monopoly.”<br />
+Explicación: Monopolio permite sobreprecios, un juego de suma cero donde
+NVIDIA gana a costa de usuarios (10x más caros que necesarios). No es
+estafa pura, pero extractivo sin innovación proporcional.<br />
+Implicaciones: Chips diseñados para gaming, no AI óptimo.</p></li>
 </ul>
-<p>El análisis está organizado por entrada de blog, en orden de aparición en el documento. No todas las entradas contienen tales referencias; solo incluyo las relevantes. En total, identifiqué <strong>12 instancias principales</strong>, con subdetalles donde aplica. Hotz es altamente crítico con la industria tech, el capitalismo de riesgo y estructuras sociales, viéndolas a menudo como engañosas o extractivas.</p>
-<h4>1. Entrada: &quot;A Breakdown of AI Chip Companies&quot; (Jun 13, 2021)</h4>
-<p>Esta entrada critica compañías de chips de IA sobrecapitalizadas sin productos reales.</p>
+<h4 id="entrada-a-circulation-of-the-elites-jun-10-2021">2. Entrada: “A
+Circulation of the Elites” (Jun 10, 2021)</h4>
+<p>Esta es una explicación de letras de un rap song criticando
+estructuras de poder.</p>
 <ul>
-<li>
-<p><strong>Instancia 1: Compañías de chips de IA sobrecapitalizadas sin producto (estafa generalizada)</strong><br />
-Cita: &quot;You have many wildly overcapitalized companies that have 0 product market fit, never mind revenue or profit. Not a single one of these companies has a product I can buy! [...] Unless it's a from company with a track record like Apple, secrecy is just cover for 'we don't have shit'.&quot;<br />
-Explicación: Hotz describe esto como una estafa porque estas startups (ej. Graphcore, Groq, Tenstorrent, Cerebras) recaudan cientos de millones (ej. Graphcore: $682M) sin entregar productos comprables, usando &quot;secrecy&quot; como tapadera. Es un juego de suma cero porque el capital de inversores se desperdicia en &quot;hype&quot; sin valor creado, beneficiando solo a fundadores y VCs tempranos a costa de inversores posteriores o el ecosistema general (no hay innovación real, solo promesas).<br />
-Implicaciones: Compara con self-driving cars; NVIDIA es el líder real porque vende productos. Propone su propia &quot;Cherry Computer&quot; como alternativa honesta, pero critica el modelo de negocio &quot;estúpido&quot; o inexistente de estas firmas.</p>
-</li>
-<li>
-<p><strong>Instancia 2: Graphcore y su &quot;buy now&quot; button falso (estafa específica)</strong><br />
-Cita: &quot;And while they have a buy now button, it links to a contact us form. If a company has a contact us form gating sales, it means that their product isn't actually competitive in the market if you did the research yourself, but they are hoping a sales guy will wrongly convince you otherwise.&quot;<br />
-Explicación: Esto es una estafa de marketing: simulan disponibilidad para atraer interés, pero usan ventas agresivas para vender un producto inferior. Juego de suma cero porque engaña a compradores potenciales, transfiriendo valor de ellos a la compañía sin entregar un producto viable.<br />
-Implicaciones: Hotz ve esto como un patrón en chips &quot;difíciles de programar&quot;, similar a errores históricos como Cell SPE.</p>
-</li>
-<li>
-<p><strong>Instancia 3: Groq y su enfoque en benchmarks obsoletos (estafa técnica)</strong><br />
-Cita: &quot;The fact that they are still advertising their ResNet-50 performance (a 2015 era network) speaks to that.&quot;<br />
-Explicación: Publicitar métricas irrelevantes es una estafa para inflar hype; es suma cero porque distrae recursos de competidores reales como NVIDIA, sin avanzar la industria.<br />
-Implicaciones: Critica su arquitectura como &quot;el mismo error que Itanium&quot;, empujando complejidad al software sin resultados.</p>
-</li>
-<li>
-<p><strong>Instancia 4: Tenstorrent y su NDA para demos (estafa de transparencia)</strong><br />
-Cita: &quot;There's almost no information published on this architecture, and I was told the only way to get a demo would be to sign something promising to not say anything bad about it.&quot;<br />
-Explicación: Forzar NDAs para ocultar fallos es una estafa; suma cero porque impide crítica honesta, beneficiando a la compañía a costa de la comunidad tech.<br />
-Implicaciones: Hotz es escéptico, pero nota esperanza con Jim Keller.</p>
-</li>
-<li>
-<p><strong>Instancia 5: Cerebras y su &quot;big chip&quot; hype (estafa de escala)</strong><br />
-Cita: &quot;WE MAKE BIG CHIP! CHIP REALLY BIG! BIG MUST BE GOOD BECAUSE BIG! BIG CHIP MEAN BIG INVESTMENT!&quot;<br />
-Explicación: Sobrehypear tamaño sin usabilidad es una estafa; suma cero porque atrae inversión ($112M) sin resolver problemas reales como controlar 400,000 cores.<br />
-Implicaciones: Ridiculiza como imposible de programar sanamente.</p>
-</li>
-<li>
-<p><strong>Instancia 6: NVIDIA y su monopolio/overpricing (juego de suma cero económico)</strong><br />
-Cita: &quot;The problem is the 5x overpriced A100, and the facts that, one, they have a monopoly.&quot;<br />
-Explicación: Monopolio permite sobreprecios, un juego de suma cero donde NVIDIA gana a costa de usuarios (10x más caros que necesarios). No es estafa pura, pero extractivo sin innovación proporcional.<br />
-Implicaciones: Chips diseñados para gaming, no AI óptimo.</p>
-</li>
+<li><p><strong>Instancia 7: El sistema económico actual y “fake money”
+(estafa sistémica)</strong><br />
+Cita: “You can’t make fake money and you can’t atomize and dehumanize
+people to better sell them landfill junk. When it crashes in a huge
+recession and crisis of meaning, like a come down from a drug, it’s
+going to suck.”<br />
+Explicación: Describe el sistema como una estafa donde se imprime dinero
+falso (impresión monetaria) para mantener consumo innecesario; suma cero
+porque destruye valor real (empleos, significado) beneficiando a
+elites.<br />
+Implicaciones: Referencia a “holding the bag” como en pump-and-dump de
+shitcoins.</p></li>
+<li><p><strong>Instancia 8: Propaganda y control de elites (juego de
+suma cero social)</strong><br />
+Cita: “They printed 7 trillion fake dollars to try to bribe people into
+keeping to support their fake system! […] Your vote matters people
+(sarcasm)! You can vote for the 74 year old guy or the 77 year old
+guy.”<br />
+Explicación: Elecciones y propaganda son estafas para mantener poder;
+suma cero porque divide gente (cockfights) mientras elites controlan
+todo (Horcruxes en Starbucks).<br />
+Implicaciones: Critica indoctrinación via educación y medios.</p></li>
 </ul>
-<h4>2. Entrada: &quot;A Circulation of the Elites&quot; (Jun 10, 2021)</h4>
-<p>Esta es una explicación de letras de un rap song criticando estructuras de poder.</p>
+<h4 id="entrada-a-correction-on-my-ai-chip-thoughts-dec-12-2021">3.
+Entrada: “A Correction on my AI chip thoughts” (Dec 12, 2021)</h4>
+<p>Corrección a la entrada anterior, pero critica disfunción
+económica.</p>
 <ul>
-<li>
-<p><strong>Instancia 7: El sistema económico actual y &quot;fake money&quot; (estafa sistémica)</strong><br />
-Cita: &quot;You can't make fake money and you can't atomize and dehumanize people to better sell them landfill junk. When it crashes in a huge recession and crisis of meaning, like a come down from a drug, it's going to suck.&quot;<br />
-Explicación: Describe el sistema como una estafa donde se imprime dinero falso (impresión monetaria) para mantener consumo innecesario; suma cero porque destruye valor real (empleos, significado) beneficiando a elites.<br />
-Implicaciones: Referencia a &quot;holding the bag&quot; como en pump-and-dump de shitcoins.</p>
-</li>
-<li>
-<p><strong>Instancia 8: Propaganda y control de elites (juego de suma cero social)</strong><br />
-Cita: &quot;They printed 7 trillion fake dollars to try to bribe people into keeping to support their fake system! [...] Your vote matters people (sarcasm)! You can vote for the 74 year old guy or the 77 year old guy.&quot;<br />
-Explicación: Elecciones y propaganda son estafas para mantener poder; suma cero porque divide gente (cockfights) mientras elites controlan todo (Horcruxes en Starbucks).<br />
-Implicaciones: Critica indoctrinación via educación y medios.</p>
-</li>
+<li><strong>Instancia 9: Startups que no shippean por disfunción
+económica (estafa de inversión)</strong><br />
+Cita: “I assumed that the startups didn’t ship because of bad technical
+tradeoffs […] I think they just don’t ship because of the general
+dysfunction in the economy. They don’t make chips, they make
+shares.”<br />
+Explicación: Startups recaudan fondos sin entregar productos; estafa a
+inversores, suma cero porque crean “shares” (acciones) en lugar de valor
+real.<br />
+Implicaciones: Cambio de opinión sobre VLIW, pero mantiene crítica a
+economía.</li>
 </ul>
-<h4>3. Entrada: &quot;A Correction on my AI chip thoughts&quot; (Dec 12, 2021)</h4>
-<p>Corrección a la entrada anterior, pero critica disfunción económica.</p>
-<ul>
-<li><strong>Instancia 9: Startups que no shippean por disfunción económica (estafa de inversión)</strong><br />
-Cita: &quot;I assumed that the startups didn't ship because of bad technical tradeoffs [...] I think they just don't ship because of the general dysfunction in the economy. They don't make chips, they make shares.&quot;<br />
-Explicación: Startups recaudan fondos sin entregar productos; estafa a inversores, suma cero porque crean &quot;shares&quot; (acciones) en lugar de valor real.<br />
-Implicaciones: Cambio de opinión sobre VLIW, pero mantiene crítica a economía.</li>
-</ul>
-<h4>4. Entrada: &quot;A disgusting playbook&quot; (Jul 20, 2023)</h4>
+<h4 id="entrada-a-disgusting-playbook-jul-20-2023">4. Entrada: “A
+disgusting playbook” (Jul 20, 2023)</h4>
 <p>Crítica explícita a tácticas de startups.</p>
 <ul>
-<li><strong>Instancia 10: Playbook de startups sin producto (estafa de marketing y fundraising)</strong><br />
-Cita: &quot;Don't have a product? It doesn't matter! The company is your product. Hire a marketing division to shill. [...] Spend $10M+ to brand your office. [...] Sell it first. [...] Do you have billboards? [...] You can just get more investment.&quot;<br />
-Explicación: Todo el &quot;playbook&quot; es una estafa: hype sin sustancia, ventas prematuras, ads vacías; suma cero porque desperdicia tiempo y capital de otros para inflar valoración.<br />
-Implicaciones: Ejemplo Cruise: pierde $5M/día, promete revenue &quot;around the corner&quot; pero engaña.</li>
+<li><strong>Instancia 10: Playbook de startups sin producto (estafa de
+marketing y fundraising)</strong><br />
+Cita: “Don’t have a product? It doesn’t matter! The company is your
+product. Hire a marketing division to shill. […] Spend $10M+ to brand
+your office. […] Sell it first. […] Do you have billboards? […] You can
+just get more investment.”<br />
+Explicación: Todo el “playbook” es una estafa: hype sin sustancia,
+ventas prematuras, ads vacías; suma cero porque desperdicia tiempo y
+capital de otros para inflar valoración.<br />
+Implicaciones: Ejemplo Cruise: pierde $5M/día, promete revenue “around
+the corner” pero engaña.</li>
 </ul>
-<h4>5. Entrada: &quot;A dive into the AMD driver workflow&quot; (Jun 7, 2023)</h4>
+<h4 id="entrada-a-dive-into-the-amd-driver-workflow-jun-7-2023">5.
+Entrada: “A dive into the AMD driver workflow” (Jun 7, 2023)</h4>
 <p>Crítica a AMD y su software.</p>
 <ul>
-<li><strong>Instancia 11: AMD y su software &quot;unusable&quot; (estafa de producto)</strong><br />
-Cita: &quot;ROCm = please use kernel version 5.4.1.4.12.44.1 and only 5.4.1.4.12.44.1 aka unusable in practice.&quot; (de entrada anterior, referenciada).<br />
-Explicación: Software buggy es estafa porque vende hardware sin soporte usable; suma cero en ecosistema AI.<br />
-Implicaciones: AMD responde con driver no distribuible, pero Hotz critica &quot;public messaging&quot; manipulado.</li>
+<li><strong>Instancia 11: AMD y su software “unusable” (estafa de
+producto)</strong><br />
+Cita: “ROCm = please use kernel version 5.4.1.4.12.44.1 and only
+5.4.1.4.12.44.1 aka unusable in practice.” (de entrada anterior,
+referenciada).<br />
+Explicación: Software buggy es estafa porque vende hardware sin soporte
+usable; suma cero en ecosistema AI.<br />
+Implicaciones: AMD responde con driver no distribuible, pero Hotz
+critica “public messaging” manipulado.</li>
 </ul>
-<h4>6. Entrada: &quot;Tragic Intel&quot; (fecha no especificada, pero posterior)</h4>
+<h4 id="entrada-tragic-intel-fecha-no-especificada-pero-posterior">6.
+Entrada: “Tragic Intel” (fecha no especificada, pero posterior)</h4>
 <p>Crítica a Intel en AI.</p>
 <ul>
-<li><strong>Instancia 12: Intel y sus cancelaciones de productos (estafa de roadmap)</strong><br />
-Cita: &quot;Ponte Vecchio is cancelled. [...] Rialto Bridge cancelled. Falcon Shores cancelled. [...] Gaudi 3 is a flop due to 'unbaked software'.&quot;<br />
-Explicación: Roadmaps falsos atraen inversión/hype sin entrega; estafa a stakeholders, suma cero porque destruye credibilidad sin innovación.<br />
+<li><strong>Instancia 12: Intel y sus cancelaciones de productos (estafa
+de roadmap)</strong><br />
+Cita: “Ponte Vecchio is cancelled. […] Rialto Bridge cancelled. Falcon
+Shores cancelled. […] Gaudi 3 is a flop due to ‘unbaked
+software’.”<br />
+Explicación: Roadmaps falsos atraen inversión/hype sin entrega; estafa a
+stakeholders, suma cero porque destruye credibilidad sin
+innovación.<br />
 Implicaciones: Liderazgo por comité impide progreso.</li>
 </ul>
-<h4>Otras Entradas (Vampire Attack Twitter, etc.)</h4>
-<p>No contienen referencias directas nuevas; &quot;Vampire Attack&quot; es una estrategia competitiva, no estafa. &quot;Wireheading City&quot; es propuesta utópica, no crítica.</p>
-<h3>Conclusiones Generales</h3>
+<h4 id="otras-entradas-vampire-attack-twitter-etc.">Otras Entradas
+(Vampire Attack Twitter, etc.)</h4>
+<p>No contienen referencias directas nuevas; “Vampire Attack” es una
+estrategia competitiva, no estafa. “Wireheading City” es propuesta
+utópica, no crítica.</p>
+<h3 id="conclusiones-generales">Conclusiones Generales</h3>
 <ul>
-<li><strong>Patrones comunes</strong>: Hotz ve la industria tech (especialmente AI chips y self-driving) como plagada de estafas basadas en hype, overfunding y no-entrega. Juegos de suma cero dominan en fundraising (VCs vs. inversores) y marketing (compañías vs. compradores).</li>
-<li><strong>Impacto</strong>: Argumenta que esto destruye valor real, proponiendo alternativas honestas (ej. open source, productos reales).</li>
-<li><strong>Exhaustividad</strong>: Revisé el texto completo (truncado en ~425k chars, pero cubre todos los posts listados). No hay más instancias obvias. Si necesitas expansión en alguna, avísame.</li>
+<li><strong>Patrones comunes</strong>: Hotz ve la industria tech
+(especialmente AI chips y self-driving) como plagada de estafas basadas
+en hype, overfunding y no-entrega. Juegos de suma cero dominan en
+fundraising (VCs vs. inversores) y marketing (compañías
+vs. compradores).</li>
+<li><strong>Impacto</strong>: Argumenta que esto destruye valor real,
+proponiendo alternativas honestas (ej. open source, productos
+reales).</li>
+<li><strong>Exhaustividad</strong>: Revisé el texto completo (truncado
+en ~425k chars, pero cubre todos los posts listados). No hay más
+instancias obvias. Si necesitas expansión en alguna, avísame.</li>
 </ul>
-<h1>Resumen de una novela escrita por George Hotz.</h1>
-<h1>ChatGPT</h1>
-<p>Aquí tienes un resumen de los siete capítulos del relato en el blog <strong>The Singularity Is Nearer</strong> por George Hotz:</p>
+<h1 id="resumen-de-una-novela-escrita-por-george-hotz.">Resumen de una
+novela escrita por George Hotz.</h1>
+<h1 id="chatgpt">ChatGPT</h1>
+<p>Aquí tienes un resumen de los siete capítulos del relato en el blog
+<strong>The Singularity Is Nearer</strong> por George Hotz:</p>
 <hr />
-<h3>Capítulo 1 – <em>“John”</em></h3>
-<p>El protagonista, John, de 19 años, vive con su madre en Brooklyn. Su padre lo había abandonado años atrás, trabajando en Wall Street y luego huyendo a Idaho tras una crisis personal. Una noche, John está en casa solo cuando llaman al timbre: fuera hay dos hombres vestidos con traje que dejan una tarjeta de la policía del condado de Nassau dirigida a “John – call me”. John entra en paranoia: ¿y si lo están vigilando o persiguiendo por algo que su padre hizo? (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/06/chapter-one.html" title="chapter one: john | the singularity is nearer">Geohot</a>)
-Se percibe que John se siente desconectado —aburrido de la vida social y de sexo, atrapado entre la generación en línea y el mundo real— y de repente aparece esa visita misteriosa que lo hace cuestionar todo. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/06/chapter-one.html" title="chapter one: john | the singularity is nearer">Geohot</a>)</p>
+<h3 id="capítulo-1-john">Capítulo 1 – <em>“John”</em></h3>
+<p>El protagonista, John, de 19 años, vive con su madre en Brooklyn. Su
+padre lo había abandonado años atrás, trabajando en Wall Street y luego
+huyendo a Idaho tras una crisis personal. Una noche, John está en casa
+solo cuando llaman al timbre: fuera hay dos hombres vestidos con traje
+que dejan una tarjeta de la policía del condado de Nassau dirigida a
+“John – call me”. John entra en paranoia: ¿y si lo están vigilando o
+persiguiendo por algo que su padre hizo? (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/06/chapter-one.html"
+title="chapter one: john | the singularity is nearer">Geohot</a>) Se
+percibe que John se siente desconectado —aburrido de la vida social y de
+sexo, atrapado entre la generación en línea y el mundo real— y de
+repente aparece esa visita misteriosa que lo hace cuestionar todo. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/06/chapter-one.html"
+title="chapter one: john | the singularity is nearer">Geohot</a>)</p>
 <hr />
-<h3>Capítulo 2 – <em>“Party”</em></h3>
-<p>John decide no llamar a la policía tras recibir la tarjeta (sabe lo que hacen las interrogaciones). Siente que puede estar siendo vigilado, que los agentes lo están empujando a reaccionar de cierta forma. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html" title="chapter two: party | the singularity is nearer">Geohot</a>)
-Va a una fiesta (o lo que ellos llaman fiesta) en el sótano del amigo Brian, donde hay cerveza, lo fiestan, están con un vaporizador grande (“Volcano”), vídeos de IA, reflexiones sobre estar atrapados en un laberinto como un ratón: una metáfora de la sociedad y la vigilancia. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html" title="chapter two: party | the singularity is nearer">Geohot</a>)
-Al volver a casa se siente cada vez más observado y precavido. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html" title="chapter two: party | the singularity is nearer">Geohot</a>)</p>
+<h3 id="capítulo-2-party">Capítulo 2 – <em>“Party”</em></h3>
+<p>John decide no llamar a la policía tras recibir la tarjeta (sabe lo
+que hacen las interrogaciones). Siente que puede estar siendo vigilado,
+que los agentes lo están empujando a reaccionar de cierta forma. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html"
+title="chapter two: party | the singularity is nearer">Geohot</a>) Va a
+una fiesta (o lo que ellos llaman fiesta) en el sótano del amigo Brian,
+donde hay cerveza, lo fiestan, están con un vaporizador grande
+(“Volcano”), vídeos de IA, reflexiones sobre estar atrapados en un
+laberinto como un ratón: una metáfora de la sociedad y la vigilancia.
+(<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html"
+title="chapter two: party | the singularity is nearer">Geohot</a>) Al
+volver a casa se siente cada vez más observado y precavido. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-two.html"
+title="chapter two: party | the singularity is nearer">Geohot</a>)</p>
 <hr />
-<h3>Capítulo 3 – <em>“Father”</em></h3>
-<p>Ahora se narra unos 7 años atrás, centrado en el padre (Jonathan) de John, que trabajaba en una empresa de capital con fondos ilimitados (“Operant Capital”) y encabezaba un proyecto llamado RPS (rock-paper-scissors) para predecir decisiones humanas. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html" title="chapter three: father | the singularity is nearer">Geohot</a>)
-Jonathan se da cuenta de que el mercado no obedece leyes físicas: es un juego de predicciones entre humanos que predicen a otros humanos. La investigación del RPS buscaba explotar las irregularidades humanas, incluso usando tecnología de magnetómetros SQUID para detectar elecciones antes de que la persona las tomara. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html" title="chapter three: father | the singularity is nearer">Geohot</a>)
-Se establece una idea central: que la “predicción humana” puede transformarse en “control” o al menos en manipulación. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html" title="chapter three: father | the singularity is nearer">Geohot</a>)</p>
+<h3 id="capítulo-3-father">Capítulo 3 – <em>“Father”</em></h3>
+<p>Ahora se narra unos 7 años atrás, centrado en el padre (Jonathan) de
+John, que trabajaba en una empresa de capital con fondos ilimitados
+(“Operant Capital”) y encabezaba un proyecto llamado RPS
+(rock-paper-scissors) para predecir decisiones humanas. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html"
+title="chapter three: father | the singularity is nearer">Geohot</a>)
+Jonathan se da cuenta de que el mercado no obedece leyes físicas: es un
+juego de predicciones entre humanos que predicen a otros humanos. La
+investigación del RPS buscaba explotar las irregularidades humanas,
+incluso usando tecnología de magnetómetros SQUID para detectar
+elecciones antes de que la persona las tomara. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html"
+title="chapter three: father | the singularity is nearer">Geohot</a>) Se
+establece una idea central: que la “predicción humana” puede
+transformarse en “control” o al menos en manipulación. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html"
+title="chapter three: father | the singularity is nearer">Geohot</a>)</p>
 <hr />
-<h3>Capítulo 4 – <em>“Bagel”</em></h3>
-<p>John y sus amigos (Brian y Dave) salen a desayunar bagels después de una noche de fumar. Dave es un personaje más complicado: su hermano mayor se suicidó, su madre nunca fue la misma, Dave se volvió más retraído, se dedicó al estudio, al ciclismo, pero también al consumo de drogas. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-four.html" title="chapter four: bagel | the singularity is nearer">Geohot</a>)
-Al desayunar, John se da cuenta de que quizá los agentes tocaban a su padre (no a él) cuando dejaron la tarjeta: su padre se llama Jonathan y John es su nombre, simplificado a “John” por los agentes. Brian le dice que la empresa donde trabaja el padre (“Operant”) está envuelta en algo raro, donde también trabajó el hermano de Dave. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-four.html" title="chapter four: bagel | the singularity is nearer">Geohot</a>)
-Este capítulo mezcla lo cotidiano (desayuno, amigos, bagels) con la tensión de lo desconocido: la sospecha de que detrás de su padre hay algo más siniestro.</p>
+<h3 id="capítulo-4-bagel">Capítulo 4 – <em>“Bagel”</em></h3>
+<p>John y sus amigos (Brian y Dave) salen a desayunar bagels después de
+una noche de fumar. Dave es un personaje más complicado: su hermano
+mayor se suicidó, su madre nunca fue la misma, Dave se volvió más
+retraído, se dedicó al estudio, al ciclismo, pero también al consumo de
+drogas. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-four.html"
+title="chapter four: bagel | the singularity is nearer">Geohot</a>) Al
+desayunar, John se da cuenta de que quizá los agentes tocaban a su padre
+(no a él) cuando dejaron la tarjeta: su padre se llama Jonathan y John
+es su nombre, simplificado a “John” por los agentes. Brian le dice que
+la empresa donde trabaja el padre (“Operant”) está envuelta en algo
+raro, donde también trabajó el hermano de Dave. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-four.html"
+title="chapter four: bagel | the singularity is nearer">Geohot</a>) Este
+capítulo mezcla lo cotidiano (desayuno, amigos, bagels) con la tensión
+de lo desconocido: la sospecha de que detrás de su padre hay algo más
+siniestro.</p>
 <hr />
-<h3>Capítulo 5 – <em>“Sleuthing”</em></h3>
-<p>John empieza a investigar. Envía mensajes a su madre, Dave le habla de que su padre trabajó en la empresa “Operant” y que está “loco también”. John sube a la habitación de su madre, revisa sus cajones: encuentra juguetes sexuales, papeles de su infancia, pero también un documento que dice que alguien (Jessica Baker) recibe 10 000 USD al mes del “Triangle Trust”. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-five.html" title="chapter five: sleuthing | the singularity is nearer">Geohot</a>)
-Además, nota que el correo de su madre no se ha entregado, su app de coche está asociada a un e-mail extraño (<a href="mailto:skinner666@gmail.com">skinner666@gmail.com</a>) que no conoce. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-five.html" title="chapter five: sleuthing | the singularity is nearer">Geohot</a>)
-El capítulo mezcla el descubrimiento de secretos familiares con la sensación de una investigación amateur que se va saliendo de control.</p>
+<h3 id="capítulo-5-sleuthing">Capítulo 5 – <em>“Sleuthing”</em></h3>
+<p>John empieza a investigar. Envía mensajes a su madre, Dave le habla
+de que su padre trabajó en la empresa “Operant” y que está “loco
+también”. John sube a la habitación de su madre, revisa sus cajones:
+encuentra juguetes sexuales, papeles de su infancia, pero también un
+documento que dice que alguien (Jessica Baker) recibe 10 000 USD al mes
+del “Triangle Trust”. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-five.html"
+title="chapter five: sleuthing | the singularity is nearer">Geohot</a>)
+Además, nota que el correo de su madre no se ha entregado, su app de
+coche está asociada a un e-mail extraño (<a
+href="mailto:skinner666@gmail.com">skinner666@gmail.com</a>) que no
+conoce. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-five.html"
+title="chapter five: sleuthing | the singularity is nearer">Geohot</a>)
+El capítulo mezcla el descubrimiento de secretos familiares con la
+sensación de una investigación amateur que se va saliendo de
+control.</p>
 <hr />
-<h3>Capítulo 6 – <em>“Dashcam”</em></h3>
-<p>Dave llega a la casa de John y juntos analizan lo extraño: cuentas de la madre hackeadas, correos que indican cambios de contraseña a horas raras, e-mails desde Atlanta vía VPN. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-six.html" title="chapter six: dashcam | the singularity is nearer">Geohot</a>)
-Utilizan un mercado de datos (dash-cams y CCTV) para rastrear el coche de la madre: consiguen dos clips. Uno la muestra en el puente Manhattan a las 5:36 pm, otro la muestra en Sheepshead Bay a las 11:29 pm (cuando John ya había vuelto). (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-six.html" title="chapter six: dashcam | the singularity is nearer">Geohot</a>)
-John empieza a aceptar que algo serio ha pasado: su madre desapareció, su cuenta de coche cambió, su padre quizá vinculado a algo clandestino. Está fuera de su zona de confort: «el verdadero truco no es predecir, es controlar». El capítulo intensifica la intriga y la tecnología como herramienta de vigilancia y búsqueda.</p>
+<h3 id="capítulo-6-dashcam">Capítulo 6 – <em>“Dashcam”</em></h3>
+<p>Dave llega a la casa de John y juntos analizan lo extraño: cuentas de
+la madre hackeadas, correos que indican cambios de contraseña a horas
+raras, e-mails desde Atlanta vía VPN. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-six.html"
+title="chapter six: dashcam | the singularity is nearer">Geohot</a>)
+Utilizan un mercado de datos (dash-cams y CCTV) para rastrear el coche
+de la madre: consiguen dos clips. Uno la muestra en el puente Manhattan
+a las 5:36 pm, otro la muestra en Sheepshead Bay a las 11:29 pm (cuando
+John ya había vuelto). (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-six.html"
+title="chapter six: dashcam | the singularity is nearer">Geohot</a>)
+John empieza a aceptar que algo serio ha pasado: su madre desapareció,
+su cuenta de coche cambió, su padre quizá vinculado a algo clandestino.
+Está fuera de su zona de confort: «el verdadero truco no es predecir, es
+controlar». El capítulo intensifica la intriga y la tecnología como
+herramienta de vigilancia y búsqueda.</p>
 <hr />
-<h3>Capítulo 7 – <em>“Nudge”</em></h3>
-<p>Aquí aparece el detective James Reese del condado de Nassau, que lleva 5 años investigando la empresa Operant y el caso de un empleado joven llamado Tom Park que murió tras “caerse” de un techo. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html" title="chapter seven: nudge | the singularity is nearer">Geohot</a>)
-Se describe cómo la empresa usaba “tiles” en techo, luces que se modulaban, puertas que se “empujaban” (nudges) y sistemas para que una persona pareciera haber tomado una decisión cuando en realidad alguien más la había preparado. Estructura de manipulación mediante timing, ambiente, ambiente controlado. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html" title="chapter seven: nudge | the singularity is nearer">Geohot</a>)
-El detective habla de cómo en los logs todo parece legal, todo parece normal: la puerta “empujada”, la luz “rampada”, el sistema “no-listado”. Ninguna ley quebrantada: sólo sincronización. (<a href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html" title="chapter seven: nudge | the singularity is nearer">Geohot</a>)
-El capítulo cierra con la sensación de que John está entrando en un mundo mayor de conspiración, vigilancia, manipulación temporal, y su padre quizá está profundamente involucrado.</p>
+<h3 id="capítulo-7-nudge">Capítulo 7 – <em>“Nudge”</em></h3>
+<p>Aquí aparece el detective James Reese del condado de Nassau, que
+lleva 5 años investigando la empresa Operant y el caso de un empleado
+joven llamado Tom Park que murió tras “caerse” de un techo. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html"
+title="chapter seven: nudge | the singularity is nearer">Geohot</a>) Se
+describe cómo la empresa usaba “tiles” en techo, luces que se modulaban,
+puertas que se “empujaban” (nudges) y sistemas para que una persona
+pareciera haber tomado una decisión cuando en realidad alguien más la
+había preparado. Estructura de manipulación mediante timing, ambiente,
+ambiente controlado. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html"
+title="chapter seven: nudge | the singularity is nearer">Geohot</a>) El
+detective habla de cómo en los logs todo parece legal, todo parece
+normal: la puerta “empujada”, la luz “rampada”, el sistema “no-listado”.
+Ninguna ley quebrantada: sólo sincronización. (<a
+href="https://geohot.github.io/blog/jekyll/update/2025/09/08/chapter-seven.html"
+title="chapter seven: nudge | the singularity is nearer">Geohot</a>) El
+capítulo cierra con la sensación de que John está entrando en un mundo
+mayor de conspiración, vigilancia, manipulación temporal, y su padre
+quizá está profundamente involucrado.</p>
 <hr />
-<p>Si quieres, puedo hacer <strong>un resumen conjunto</strong> de los siete capítulos (temas, trama, personajes) o preparar <strong>predicciones</strong> de qué puede venir en los siguientes capítulos. ¿Cuál prefieres?</p>
-<h1>Grok</h1>
-<h3>Capítulo 1: John</h3>
-<p>En este capítulo, se presenta a John, un joven de 19 años que vive con su madre en Nueva York y reflexiona sobre su deseo insatisfecho de sexo en una generación desinteresada por ello. Recuerda a su padre ausente, un ex cuantitativo de Wall Street que abandonó a la familia cuando John tenía 12 años tras una crisis de conciencia, mudándose a una cabaña remota en Idaho llena de equipo científico. John visitó una vez, pero la experiencia fue desconectada, marcada por charlas de su padre sobre &quot;cosas de hombres&quot; y el silencio inquietante del bosque. En su cumpleaños, su padre visita brevemente bajo el pretexto de una reunión en Long Island, destacando su relación tensa. Aburrido y bebiendo Bud Light solo, John navega por YouTube consumiendo contenido como chismes de celebridades, speedruns y videos de crímenes verdaderos sobre maestras involucradas con estudiantes, lamentando el internet sanitizado y algorítmico que evita temas como prostitutas. Anticipa una fiesta discreta en el sótano de su amigo Brian, con cerveza, marihuana y scrolls en teléfonos, pero nota la ausencia de interés romántico. La tensión aumenta cuando dos hombres trajeados dejan una tarjeta de visita de un detective en la puerta, dirigida a John, dejándolo ansioso.</p>
-<h3>Capítulo 2: Fiesta</h3>
-<p>El protagonista lidia con paranoia intensa después de que detectives del condado de Nassau dejen una tarjeta en su casa en Brooklyn, cuestionando por qué lo buscan a pesar de no estar involucrado en crímenes. Sospecha que se relaciona con la reciente reunión de su padre en Long Island y decide no contactarlos, temiendo tácticas manipuladoras. Sintiéndose vigilado, se calma con una Bud Light antes de ir a una fiesta. Llega al sótano de Brian con cervezas, donde él y Dave comparten marihuana con un vaporizador Volcano, proporcionando normalidad. Ven videos: uno generado por IA de un ratón en un laberinto que cuestiona la sociedad humana como un experimento, y otro ligero de dos chicas compartiendo un helado. Después de medianoche, camina a casa, aliviado por los sonidos de la ciudad, nota la ausencia de su madre y se asegura la casa antes de dormir. Temas clave incluyen paranoia por autoridad, sistemas manipuladores, alivio temporal a través de lazos sociales y sustancias, y reflexiones existenciales sobre control social.</p>
-<h3>Capítulo 3: Padre</h3>
-<p>Ambientado siete años antes, sigue a Jonathan, un prodigio infantil y investigador senior en Operant Capital, una firma que predice movimientos de mercado. Jonathan, medallista de oro en IMO a los 14 y graduado de MIT en tres años, trabaja en el proyecto RPS (Piedra-Papel-Tijeras), aplicando teoría de juegos y técnicas de lectura mental para explotar sesgos humanos en decisiones, reflejando la naturaleza impredecible de los mercados financieros. Eventos clave incluyen su commute en un Mercedes autónomo y llegada a la oficina, donde el colega junior Tom (otro ganador de IMO de 17 años) demuestra un setup de RPS usando SQUIDs para predecir movimientos sin feedback. Jonathan prueba el sistema y pierde todas las rondas; Tom revela un log preescrito de todas sus acciones, predichas desde su entrada. Personajes centrales: Jonathan, el padre impulsado; Tom, el joven prodigio; menciones breves a la esposa e hijo de Jonathan en un viaje de camping. Temas: inteligencia y predicción en sistemas complejos, la carrera de la Reina Roja de estrategias evolutivas, límites éticos en tecnología de lectura mental y tensión entre intuición humana y precisión máquina.</p>
-<h3>Capítulo 4: Bagel</h3>
-<p>Sigue al narrador John y amigos Brian y Dave comprando bagels después de fumar marihuana. Dave, alto y catatónico, ordena un bagel de canela con pasas; Brian paga con la tarjeta de su mamá. Se revela el trasfondo de Dave: el suicidio de su hermano mayor llevó a la ruptura familiar; Dave fuma mucho, empezó a ir en bici a la escuela y se graduó como valedictorian imitando a su hermano, pero no ayudó a su madre. Brian y Dave comparten un lazo influido por comedias de fumados de los 2000s. John menciona la visita policial, pero Brian deduce que buscan al padre de John, Jonathan, quien trabajó en &quot;cosas raras&quot; en la misma empresa que el hermano de Dave. Bromean sobre sus padres ausentes. John se alivia al saber que no es por él, especula sobre su padre y regresa a casa encontrando a su mamá ausente. Temas: coping con trauma vía sustancias y logros, padres problemáticos, dinámicas de amistad masculina y alivio de paranoia equivocada.</p>
-<h3>Capítulo 5: Investigación</h3>
-<p>El protagonista adolescente en Brooklyn investiga a su madre desaparecida, Jessica Baker. Eventos clave: conversación con Dave revelando que el padre trabajó en Operant (vinculada al padre de Dave, quien &quot;enloqueció&quot; allí con &quot;matemáticas con imanes&quot;). Declina visitar a la madre de Dave pero invita a Dave. Llega Anne, amiga de su madre, con bagels; evita mencionar la ausencia. Inspirado en podcasts de crímenes, busca en la habitación de su madre: encuentra pagos mensuales de $10,000 del Triangle Trust, ítems personales, papeles viejos y certificado de matrimonio (sin divorcio). Textos no entregados, llamadas a voicemail; la app del Mercedes muestra email cambiado a skinner666@gmail.com. Experimenta ansiedad por descubrimientos. Temas: secretos familiares, abandono parental, dependencia financiera, aislamiento vía podcasts y investigación amateur en contexto siniestro ligado a Operant.</p>
-<h3>Capítulo 6: Dashcam</h3>
-<p>Preocupado por su madre desaparecida, el narrador descubre que el email de la app de rastreo del auto cambió a &quot;skinner666&quot;. Enlista a Dave, experto en tech, para investigar. Dave accede al viejo Gmail familiar y encuentra cambios en cuentas entre 2-3 AM, incluido un intento de login bloqueado desde un IP de NordVPN en Atlanta. Para localizar el auto, usa un sitio de mercado de datos para buscar footage de dashcam por placa, obteniendo tres hits. Analizan dos clips vía ChatGPT: uno muestra el Mercedes en el puente de Manhattan hacia Manhattan a las 5:36 PM, otro en Emmons Ave en Sheepshead Bay a las 11:29 PM. El tercero no se descarga. Encuentra una nota de su madre en el refrigerador: &quot;Conocí a un tipo. Voy a los Hamptons. Podría estar sin servicio,&quot; firmada con corazón, cuestionando si regresó brevemente. Personajes: narrador preocupado; Dave, inteligente y desconfiado de autoridades por experiencias familiares; madre desaparecida. Temas: vigilancia vía sensores conectados y mercados de datos, desconfianza en policía, paranoia e investigación amateur ante intrusión digital y desaparición familiar.</p>
-<h3>Capítulo 7: Empujón</h3>
-<p>El detective James Reese narra su investigación de cinco años en Operant, que movió operaciones a Long Island. Comienza con un PI atrapado plantando un dispositivo en Jane Street, sospechado de espionaje; FBI lo confisca antes de su disolución. Enfoque en Tom Park, investigador joven que muere cayendo del techo de Operant. Footage CCTV muestra a Tom con un dispositivo antes de caminar; registros contradicen, sugiriendo manipulación vía &quot;empujones&quot; ambientales como luces, HVAC y elevadores. Experimentos del escuadrón con cues sutiles aumentan tasas de acierto en un juego sin coerción percibida. Logs revelan sistemas coordinados; un tracker filtrado discute predicción vs. control, con características de seguridad desactivadas. Temas: sutileza de &quot;empujón&quot; sobre control mental, vía sistemas cotidianos que hacen acciones sentir predestinadas; integración de Operant en la vida diaria.</p>
+<p>Si quieres, puedo hacer <strong>un resumen conjunto</strong> de los
+siete capítulos (temas, trama, personajes) o preparar
+<strong>predicciones</strong> de qué puede venir en los siguientes
+capítulos. ¿Cuál prefieres?</p>
+<h1 id="grok">Grok</h1>
+<h3 id="capítulo-1-john-1">Capítulo 1: John</h3>
+<p>En este capítulo, se presenta a John, un joven de 19 años que vive
+con su madre en Nueva York y reflexiona sobre su deseo insatisfecho de
+sexo en una generación desinteresada por ello. Recuerda a su padre
+ausente, un ex cuantitativo de Wall Street que abandonó a la familia
+cuando John tenía 12 años tras una crisis de conciencia, mudándose a una
+cabaña remota en Idaho llena de equipo científico. John visitó una vez,
+pero la experiencia fue desconectada, marcada por charlas de su padre
+sobre “cosas de hombres” y el silencio inquietante del bosque. En su
+cumpleaños, su padre visita brevemente bajo el pretexto de una reunión
+en Long Island, destacando su relación tensa. Aburrido y bebiendo Bud
+Light solo, John navega por YouTube consumiendo contenido como chismes
+de celebridades, speedruns y videos de crímenes verdaderos sobre
+maestras involucradas con estudiantes, lamentando el internet sanitizado
+y algorítmico que evita temas como prostitutas. Anticipa una fiesta
+discreta en el sótano de su amigo Brian, con cerveza, marihuana y
+scrolls en teléfonos, pero nota la ausencia de interés romántico. La
+tensión aumenta cuando dos hombres trajeados dejan una tarjeta de visita
+de un detective en la puerta, dirigida a John, dejándolo ansioso.</p>
+<h3 id="capítulo-2-fiesta">Capítulo 2: Fiesta</h3>
+<p>El protagonista lidia con paranoia intensa después de que detectives
+del condado de Nassau dejen una tarjeta en su casa en Brooklyn,
+cuestionando por qué lo buscan a pesar de no estar involucrado en
+crímenes. Sospecha que se relaciona con la reciente reunión de su padre
+en Long Island y decide no contactarlos, temiendo tácticas
+manipuladoras. Sintiéndose vigilado, se calma con una Bud Light antes de
+ir a una fiesta. Llega al sótano de Brian con cervezas, donde él y Dave
+comparten marihuana con un vaporizador Volcano, proporcionando
+normalidad. Ven videos: uno generado por IA de un ratón en un laberinto
+que cuestiona la sociedad humana como un experimento, y otro ligero de
+dos chicas compartiendo un helado. Después de medianoche, camina a casa,
+aliviado por los sonidos de la ciudad, nota la ausencia de su madre y se
+asegura la casa antes de dormir. Temas clave incluyen paranoia por
+autoridad, sistemas manipuladores, alivio temporal a través de lazos
+sociales y sustancias, y reflexiones existenciales sobre control
+social.</p>
+<h3 id="capítulo-3-padre">Capítulo 3: Padre</h3>
+<p>Ambientado siete años antes, sigue a Jonathan, un prodigio infantil y
+investigador senior en Operant Capital, una firma que predice
+movimientos de mercado. Jonathan, medallista de oro en IMO a los 14 y
+graduado de MIT en tres años, trabaja en el proyecto RPS
+(Piedra-Papel-Tijeras), aplicando teoría de juegos y técnicas de lectura
+mental para explotar sesgos humanos en decisiones, reflejando la
+naturaleza impredecible de los mercados financieros. Eventos clave
+incluyen su commute en un Mercedes autónomo y llegada a la oficina,
+donde el colega junior Tom (otro ganador de IMO de 17 años) demuestra un
+setup de RPS usando SQUIDs para predecir movimientos sin feedback.
+Jonathan prueba el sistema y pierde todas las rondas; Tom revela un log
+preescrito de todas sus acciones, predichas desde su entrada. Personajes
+centrales: Jonathan, el padre impulsado; Tom, el joven prodigio;
+menciones breves a la esposa e hijo de Jonathan en un viaje de camping.
+Temas: inteligencia y predicción en sistemas complejos, la carrera de la
+Reina Roja de estrategias evolutivas, límites éticos en tecnología de
+lectura mental y tensión entre intuición humana y precisión máquina.</p>
+<h3 id="capítulo-4-bagel-1">Capítulo 4: Bagel</h3>
+<p>Sigue al narrador John y amigos Brian y Dave comprando bagels después
+de fumar marihuana. Dave, alto y catatónico, ordena un bagel de canela
+con pasas; Brian paga con la tarjeta de su mamá. Se revela el trasfondo
+de Dave: el suicidio de su hermano mayor llevó a la ruptura familiar;
+Dave fuma mucho, empezó a ir en bici a la escuela y se graduó como
+valedictorian imitando a su hermano, pero no ayudó a su madre. Brian y
+Dave comparten un lazo influido por comedias de fumados de los 2000s.
+John menciona la visita policial, pero Brian deduce que buscan al padre
+de John, Jonathan, quien trabajó en “cosas raras” en la misma empresa
+que el hermano de Dave. Bromean sobre sus padres ausentes. John se
+alivia al saber que no es por él, especula sobre su padre y regresa a
+casa encontrando a su mamá ausente. Temas: coping con trauma vía
+sustancias y logros, padres problemáticos, dinámicas de amistad
+masculina y alivio de paranoia equivocada.</p>
+<h3 id="capítulo-5-investigación">Capítulo 5: Investigación</h3>
+<p>El protagonista adolescente en Brooklyn investiga a su madre
+desaparecida, Jessica Baker. Eventos clave: conversación con Dave
+revelando que el padre trabajó en Operant (vinculada al padre de Dave,
+quien “enloqueció” allí con “matemáticas con imanes”). Declina visitar a
+la madre de Dave pero invita a Dave. Llega Anne, amiga de su madre, con
+bagels; evita mencionar la ausencia. Inspirado en podcasts de crímenes,
+busca en la habitación de su madre: encuentra pagos mensuales de $10,000
+del Triangle Trust, ítems personales, papeles viejos y certificado de
+matrimonio (sin divorcio). Textos no entregados, llamadas a voicemail;
+la app del Mercedes muestra email cambiado a skinner666@gmail.com.
+Experimenta ansiedad por descubrimientos. Temas: secretos familiares,
+abandono parental, dependencia financiera, aislamiento vía podcasts y
+investigación amateur en contexto siniestro ligado a Operant.</p>
+<h3 id="capítulo-6-dashcam-1">Capítulo 6: Dashcam</h3>
+<p>Preocupado por su madre desaparecida, el narrador descubre que el
+email de la app de rastreo del auto cambió a “skinner666”. Enlista a
+Dave, experto en tech, para investigar. Dave accede al viejo Gmail
+familiar y encuentra cambios en cuentas entre 2-3 AM, incluido un
+intento de login bloqueado desde un IP de NordVPN en Atlanta. Para
+localizar el auto, usa un sitio de mercado de datos para buscar footage
+de dashcam por placa, obteniendo tres hits. Analizan dos clips vía
+ChatGPT: uno muestra el Mercedes en el puente de Manhattan hacia
+Manhattan a las 5:36 PM, otro en Emmons Ave en Sheepshead Bay a las
+11:29 PM. El tercero no se descarga. Encuentra una nota de su madre en
+el refrigerador: “Conocí a un tipo. Voy a los Hamptons. Podría estar sin
+servicio,” firmada con corazón, cuestionando si regresó brevemente.
+Personajes: narrador preocupado; Dave, inteligente y desconfiado de
+autoridades por experiencias familiares; madre desaparecida. Temas:
+vigilancia vía sensores conectados y mercados de datos, desconfianza en
+policía, paranoia e investigación amateur ante intrusión digital y
+desaparición familiar.</p>
+<h3 id="capítulo-7-empujón">Capítulo 7: Empujón</h3>
+<p>El detective James Reese narra su investigación de cinco años en
+Operant, que movió operaciones a Long Island. Comienza con un PI
+atrapado plantando un dispositivo en Jane Street, sospechado de
+espionaje; FBI lo confisca antes de su disolución. Enfoque en Tom Park,
+investigador joven que muere cayendo del techo de Operant. Footage CCTV
+muestra a Tom con un dispositivo antes de caminar; registros
+contradicen, sugiriendo manipulación vía “empujones” ambientales como
+luces, HVAC y elevadores. Experimentos del escuadrón con cues sutiles
+aumentan tasas de acierto en un juego sin coerción percibida. Logs
+revelan sistemas coordinados; un tracker filtrado discute predicción
+vs. control, con características de seguridad desactivadas. Temas:
+sutileza de “empujón” sobre control mental, vía sistemas cotidianos que
+hacen acciones sentir predestinadas; integración de Operant en la vida
+diaria.</p>
 <hr />
-<h3>Technology, AI, and Hardware</h3>
+<h3 id="technology-ai-and-hardware">Technology, AI, and Hardware</h3>
 <ul>
-<li><strong>AI Compute &amp; Timeline:</strong> A desktop computer is projected to match human cognitive capability in about <strong>15 years</strong>, and a mobile phone in 25 years. The author defines one &quot;person of compute&quot; (human brain power) as approximately <strong>20 PFLOPS</strong>.</li>
-<li><strong>AI Control and Safety:</strong> The AI Control Problem is fundamentally a <strong>political problem</strong>, not a mathematical one. AGI is defined as a machine capable of taking (almost) any human job, implying it must be capable of learning.</li>
-<li><strong>AI Architecture:</strong> The author supports the idea that <strong>compression is prediction is intelligence</strong>. While opposing rigid hand-coding (the &quot;Bitter Lesson&quot;), the author agrees that modeling AI agents on specific human brain components (neocortex, hippocampus, etc.) may be useful for creating &quot;knock-off humans&quot;.</li>
-<li><strong>AI Coding Critique:</strong> AI programming tools should be viewed as compilers. Natural language (English) is criticized as a poor input for coding due to its lack of precision and non-deterministic nature compared to formal languages.</li>
-<li><strong>AI Chip Industry Critique &amp; Correction:</strong> Many AI chip startups are criticized as wildly overcapitalized without product-market fit or revenue. The initial criticism of architectures like Groq and Graphcore was their reliance on pushing complexity to complex compilers, similar to past failures like Itanium. However, the author later corrected this view, noting that for <strong>deep learning</strong>, complex compilers and very long instruction word (VLIW) architectures are appropriate because the operations are non-data-dependent and highly repetitive. <strong>Data locality</strong> is considered key to power efficiency in chip design.</li>
-<li><strong>tiny corp and tinygrad:</strong> The goal of the newly started <em>the tiny corp</em> company is to <strong>&quot;commoditize the petaflop&quot;</strong>. <em>tinygrad</em> is an open-source deep learning framework aiming for simplicity (under 25k lines) and speed, intending to replace or compete with larger frameworks like PyTorch and JAX. The company is working to build a fully <strong>sovereign software stack for AMD chips</strong> (like the MI300X) to challenge NVIDIA's dominance.</li>
+<li><strong>AI Compute &amp; Timeline:</strong> A desktop computer is
+projected to match human cognitive capability in about <strong>15
+years</strong>, and a mobile phone in 25 years. The author defines one
+“person of compute” (human brain power) as approximately <strong>20
+PFLOPS</strong>.</li>
+<li><strong>AI Control and Safety:</strong> The AI Control Problem is
+fundamentally a <strong>political problem</strong>, not a mathematical
+one. AGI is defined as a machine capable of taking (almost) any human
+job, implying it must be capable of learning.</li>
+<li><strong>AI Architecture:</strong> The author supports the idea that
+<strong>compression is prediction is intelligence</strong>. While
+opposing rigid hand-coding (the “Bitter Lesson”), the author agrees that
+modeling AI agents on specific human brain components (neocortex,
+hippocampus, etc.) may be useful for creating “knock-off humans”.</li>
+<li><strong>AI Coding Critique:</strong> AI programming tools should be
+viewed as compilers. Natural language (English) is criticized as a poor
+input for coding due to its lack of precision and non-deterministic
+nature compared to formal languages.</li>
+<li><strong>AI Chip Industry Critique &amp; Correction:</strong> Many AI
+chip startups are criticized as wildly overcapitalized without
+product-market fit or revenue. The initial criticism of architectures
+like Groq and Graphcore was their reliance on pushing complexity to
+complex compilers, similar to past failures like Itanium. However, the
+author later corrected this view, noting that for <strong>deep
+learning</strong>, complex compilers and very long instruction word
+(VLIW) architectures are appropriate because the operations are
+non-data-dependent and highly repetitive. <strong>Data locality</strong>
+is considered key to power efficiency in chip design.</li>
+<li><strong>tiny corp and tinygrad:</strong> The goal of the newly
+started <em>the tiny corp</em> company is to <strong>“commoditize the
+petaflop”</strong>. <em>tinygrad</em> is an open-source deep learning
+framework aiming for simplicity (under 25k lines) and speed, intending
+to replace or compete with larger frameworks like PyTorch and JAX. The
+company is working to build a fully <strong>sovereign software stack for
+AMD chips</strong> (like the MI300X) to challenge NVIDIA’s
+dominance.</li>
 </ul>
-<h3>Self-Driving Cars and comma.ai</h3>
+<h3 id="self-driving-cars-and-comma.ai">Self-Driving Cars and
+comma.ai</h3>
 <ul>
-<li><strong>comma.ai Status:</strong> The company has been operating for 10 years, is profitable, and is growing rapidly, succeeding where most competitors failed and took billions of dollars.</li>
-<li><strong>Author's Involvement:</strong> The author is taking time away from comma.ai, feeling the self-driving problem is largely &quot;planned out&quot; and that it only remains to see if the plan works.</li>
-<li><strong>Philosophy:</strong> comma.ai uses an <strong>end-to-end learning</strong> approach and views explicit references to features like lanes in code as an &quot;original sin,&quot; preferring the model to learn from real-world data. Driving is considered the best current applied AI problem, simpler than tasks like cleaning a house.</li>
+<li><strong>comma.ai Status:</strong> The company has been operating for
+10 years, is profitable, and is growing rapidly, succeeding where most
+competitors failed and took billions of dollars.</li>
+<li><strong>Author’s Involvement:</strong> The author is taking time
+away from comma.ai, feeling the self-driving problem is largely “planned
+out” and that it only remains to see if the plan works.</li>
+<li><strong>Philosophy:</strong> comma.ai uses an <strong>end-to-end
+learning</strong> approach and views explicit references to features
+like lanes in code as an “original sin,” preferring the model to learn
+from real-world data. Driving is considered the best current applied AI
+problem, simpler than tasks like cleaning a house.</li>
 </ul>
-<h3>Social, Political, and Economic Philosophy</h3>
+<h3 id="social-political-and-economic-philosophy">Social, Political, and
+Economic Philosophy</h3>
 <ul>
-<li><strong>Societal Critique:</strong> The social fabric of America is believed to be &quot;torn to shreds&quot;. The modern world is characterized by <strong>fake and zero-sum experiences</strong>, with survival being a &quot;technocratic plod&quot;.</li>
-<li><strong>The Professional Managerial Class (PMC):</strong> This class is highly criticized as unproductive and engaged in zero-sum games within organizations. Up to <strong>73% of US jobs</strong> are categorized as Group 1, which do not contribute to overall money creation, suggesting a contributing factor to the decline of the US economy.</li>
-<li><strong>Proposed Solutions:</strong> The author advocates for removing the PMC from power, suggesting they should be given pensions and creature comforts (&quot;wireheaded&quot;) but forbidden from exercising power or influencing society.</li>
-<li><strong>Consumerism and Advertising:</strong> The author proposes to <strong>abolish the consumer class</strong>. Advertising is criticized as a zero-sum, manipulative game and should be heavily taxed (e.g., 500%) or made illegal. The use of advanced AI for subtle manipulation (<strong>&quot;nudge&quot;</strong>) in everyday social interactions is a major concern.</li>
-<li><strong>Money and Growth:</strong> Money is only a <strong>&quot;map, it is not a territory&quot;</strong>. An economic system is successful only if it effectively deploys capital for real economic growth (&quot;make the pie bigger&quot;), not based on moral justifications or distribution.</li>
-<li><strong>Wokeism:</strong> This ideology is defined as prioritizing <strong>equality of outcome</strong>. It relies on tactics resembling the Inquisition to enforce its narrative and suppress contradictory findings (such as those challenging the idea of a &quot;blank slate&quot;).</li>
-<li><strong>Political Decentralization:</strong> The core strategy for the future is to build <strong>technology without industry</strong>. This means replacing the useful functions of the state (electricity, food, healthcare, protection) with locally controlled, decentralized machines, leading to the state withering and dying by disruption.</li>
-<li><strong>Wireheading City Proposal:</strong> An entirely voluntary, opt-in special economic zone providing <strong>free basic needs</strong> (food, shelter, entertainment, basic medicine) and <strong>free drugs</strong> (including meth, heroin, and weed) for those who wish to exit mainstream society or are homeless. Citizens in this state would renounce their status and political influence.</li>
-<li><strong>Extreme Acceleration (nuke/acc):</strong> The use of nuclear weapons is treated as an inevitable &quot;Chekhov's gun&quot;. Accelerating this event (<em>nuke/acc</em>) could force complex systems to decentralize and become more robust.</li>
+<li><strong>Societal Critique:</strong> The social fabric of America is
+believed to be “torn to shreds”. The modern world is characterized by
+<strong>fake and zero-sum experiences</strong>, with survival being a
+“technocratic plod”.</li>
+<li><strong>The Professional Managerial Class (PMC):</strong> This class
+is highly criticized as unproductive and engaged in zero-sum games
+within organizations. Up to <strong>73% of US jobs</strong> are
+categorized as Group 1, which do not contribute to overall money
+creation, suggesting a contributing factor to the decline of the US
+economy.</li>
+<li><strong>Proposed Solutions:</strong> The author advocates for
+removing the PMC from power, suggesting they should be given pensions
+and creature comforts (“wireheaded”) but forbidden from exercising power
+or influencing society.</li>
+<li><strong>Consumerism and Advertising:</strong> The author proposes to
+<strong>abolish the consumer class</strong>. Advertising is criticized
+as a zero-sum, manipulative game and should be heavily taxed (e.g.,
+500%) or made illegal. The use of advanced AI for subtle manipulation
+(<strong>“nudge”</strong>) in everyday social interactions is a major
+concern.</li>
+<li><strong>Money and Growth:</strong> Money is only a <strong>“map, it
+is not a territory”</strong>. An economic system is successful only if
+it effectively deploys capital for real economic growth (“make the pie
+bigger”), not based on moral justifications or distribution.</li>
+<li><strong>Wokeism:</strong> This ideology is defined as prioritizing
+<strong>equality of outcome</strong>. It relies on tactics resembling
+the Inquisition to enforce its narrative and suppress contradictory
+findings (such as those challenging the idea of a “blank slate”).</li>
+<li><strong>Political Decentralization:</strong> The core strategy for
+the future is to build <strong>technology without industry</strong>.
+This means replacing the useful functions of the state (electricity,
+food, healthcare, protection) with locally controlled, decentralized
+machines, leading to the state withering and dying by disruption.</li>
+<li><strong>Wireheading City Proposal:</strong> An entirely voluntary,
+opt-in special economic zone providing <strong>free basic needs</strong>
+(food, shelter, entertainment, basic medicine) and <strong>free
+drugs</strong> (including meth, heroin, and weed) for those who wish to
+exit mainstream society or are homeless. Citizens in this state would
+renounce their status and political influence.</li>
+<li><strong>Extreme Acceleration (nuke/acc):</strong> The use of nuclear
+weapons is treated as an inevitable “Chekhov’s gun”. Accelerating this
+event (<em>nuke/acc</em>) could force complex systems to decentralize
+and become more robust.</li>
 </ul>
-<h3>Narrative Elements (John and Operant)</h3>
+<h3 id="narrative-elements-john-and-operant">Narrative Elements (John
+and Operant)</h3>
 <ul>
-<li><strong>John:</strong> The protagonist is avoiding contact after Detective James Reese of the Nassau County Police left him a business card.</li>
-<li><strong>Missing Mother:</strong> John's mother disappeared, leaving a suspicious note claiming she went to the Hamptons. John discovered the associated email for her car's tracker had been changed to <em>skinner666@gmail.com</em>.</li>
-<li><strong>The Investigation:</strong> John's friend, Dave, helped investigate the car's last known whereabouts using a commercial &quot;data marketplace&quot; for dashcam footage. Dave's brother, Tom Park, committed suicide while working at the company <strong>Operant</strong>.</li>
-<li><strong>Operant's Function:</strong> Detective Reese is investigating Operant for corporate espionage and its connection to Tom Park's death. Operant specializes in subtly influencing human behavior through environmental adjustments (HVAC, lights, elevator &quot;door nudges&quot;) to make actions look like predictions, a technique called <strong>&quot;nudge&quot;</strong>. John's father also previously worked at Operant and &quot;kind of went crazy&quot;.</li>
+<li><strong>John:</strong> The protagonist is avoiding contact after
+Detective James Reese of the Nassau County Police left him a business
+card.</li>
+<li><strong>Missing Mother:</strong> John’s mother disappeared, leaving
+a suspicious note claiming she went to the Hamptons. John discovered the
+associated email for her car’s tracker had been changed to
+<em>skinner666@gmail.com</em>.</li>
+<li><strong>The Investigation:</strong> John’s friend, Dave, helped
+investigate the car’s last known whereabouts using a commercial “data
+marketplace” for dashcam footage. Dave’s brother, Tom Park, committed
+suicide while working at the company <strong>Operant</strong>.</li>
+<li><strong>Operant’s Function:</strong> Detective Reese is
+investigating Operant for corporate espionage and its connection to Tom
+Park’s death. Operant specializes in subtly influencing human behavior
+through environmental adjustments (HVAC, lights, elevator “door nudges”)
+to make actions look like predictions, a technique called
+<strong>“nudge”</strong>. John’s father also previously worked at
+Operant and “kind of went crazy”.</li>
 </ul>
 <p><a href="/">Volver inicio</a></p>
 </body>
