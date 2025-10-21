@@ -162,7 +162,7 @@ All musicians are narcissists who live off of attention.
 
 "Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians.
 
-I like **Millennial music**: nirvana, disturbed, system of a down, papa roach, all metal bands, limp bizkit.
+I like **Millennial music**: avenged sevenfold, nirvana, system of a down, disturbed.
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
@@ -188,7 +188,7 @@ decentralization, free software, ranting, programming, c, suckless software, _ma
    
 ### Some things I dislike (disliking people doesn't contradict loving them):   
    
-centralization, ads, feminism, cheesy positivity, political correctness, boredom, phony people, being stuck, not improving, cliché phrases, acting normal, copyright, proprietary software. 
+centralization, ads, feminism, cheesy positivity, political correctness, boredom, phony people, being stuck, not improving, acting normal, copyright, proprietary software. 
    
 ---   
    
