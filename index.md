@@ -42,6 +42,7 @@ School blocks real education.
 * C++ was created to only sell expensive books and live off of them.   
 * The power isn't what you have, it's what people believe you have.   
 * Most jobs are fake.   
+* "Skill before certification" - [George Hotz - How to not be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk)
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([Spanish](/rent_seeking.html)).
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
