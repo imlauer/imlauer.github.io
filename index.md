@@ -20,14 +20,9 @@ Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * **The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
-* Technology has made access cheaper and more convenient — streaming music, movies, or storing data online costs far less than buying physical media. However, this convenience comes with a trade-off: users no truly own anything anymore.
-* All content and services are locked behind subscriptions and centralized platforms. If access is revoked or payment stops, everything — music, photos, data, even communication — can disappear instantly. This creates digital dependency and corporate control, where participation in modern life often requires a credit card and compliance with corporate systems. This is not what tech is about, this is against technology.
+* Technology has made access cheaper and more convenient — streaming music, movies, or storing data online costs far less than buying physical media. However, this convenience comes with a trade-off: **users no truly own anything anymore**.
+* **All content and services are locked behind subscriptions and centralized platforms. If access is revoked or payment stops, everything — music, photos, data, even communication — can disappear instantly**. This creates digital dependency and corporate control, where participation in modern life often requires a credit card and compliance with corporate systems. This is not what tech is about, this is against technology.
 * Free will doesn't exist.   
-* Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
-* Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it “business.” 3. End infinite rent.
-* End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
-* Ban corporate landlords: Homes belong to people, not balance sheets. Empty houses in a housing crisis should be taxed into use.
-* [Infinite Rent Unpatched Exploit](https://wrongthink.link/posts/infinite-rent-unpatched-exploit/) ([In Spanish](/infinite-rent-unpatched-exploit.html))
 * Ads should be illegal. Advertising is like fishing, but you're the one who ends up getting caught.
 * Today, the internet is flooded with ads and manipulation, but "tech companies" claim to care about stopping the spread of misinformation. The irony is that their entire business model relies on showing us fake ads.
 * **Bitcoin's value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
@@ -49,6 +44,11 @@ School blocks real education.
 * Most jobs are fake.   
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising.**
+* Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
+* Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it “business.” 3. End infinite rent.
+* End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
+* Ban corporate landlords: Homes belong to people, not balance sheets. Empty houses in a housing crisis should be taxed into use.
+* [Infinite Rent Unpatched Exploit](https://wrongthink.link/posts/infinite-rent-unpatched-exploit/) ([In Spanish](/infinite-rent-unpatched-exploit.html))
 * The goal of computer science is to automate all jobs. The more computing advances, the more people lose work. That's why there is no real money in tech: if you are honest, each passing year programming work gets harder and pays worse.
 * If you are a con artist like Mark Zuckerberg—whose core aim is to make you addicted to your phone to show you ads—or companies like [Spotify](http://stallman.org/spotify.html), Tinder that charges the same to men and women and Tinder doesn't ask the body count (very important question if you're looking for some casual sex) or Ex-Twitter show fake "trends", then you can make money. Companies like [Netflix](http://stallman.org/netflix.html) that turned people who once used torrents into paying subscribers, or Google that censors piracy and sites without Google Adsense while promoting Reddit, or Udemy selling low-quality courses, or all the aggressive marketing that pushes you to create accounts on shady sites or crypto scams. But that is NOT technology; technology is supposed to improve our lives, not make us addicted to advertising or be Ponzi-style scams or zero-sum games.
 * Tech companies intentionally worsen their products to make more money. Programming died ten years ago; they tried to delay artificial intelligence because they want to live off fake jobs a computer can do.
