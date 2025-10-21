@@ -34,11 +34,12 @@ School blocks real education.
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. 
+* Advertising is as worst than child porn because you're abusing the stupid one.
+* Women are more emotional than men, therefore they are more violent.
 * How to get girls: "Girls just wanna have fun". The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Ask yourself: How many couples would not have been formed without the use of alcohol?
 * Marriage never benefits the man, always the woman, because the woman has power over sex while the man has power over the relationship. If the man gets married, he loses the only power he had over the relationship.
 * As a natural leader, you have no need for validation from anyone.
 * I view the entire "education system" as a manipulative tool designed to train "slaves" to constantly seek external approval.   
-* Women are more emotional than men, therefore they are more violent.
 * Social media is a tool for mass espionage, addiction, and selling ads to exploit society.   
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * C++ was created to only sell expensive books and live off of them.   
@@ -46,7 +47,7 @@ School blocks real education.
 * Most jobs are fake.   
 * "Skill before certification" - [George Hotz - How to not be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk)
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem.
-* **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([Spanish](/rent_seeking.html)).
+* **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([In Spanish](/rent_seeking.html)).
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
 * Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it "business".
 * End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
@@ -57,7 +58,9 @@ School blocks real education.
 * Tech companies intentionally worsen their products to make more money. Programming died ten years ago; they tried to delay artificial intelligence because they want to live off fake jobs a computer can do.
 * Elizabeth Holmes was used as a scapegoat—unjustly blamed for a larger failure. The investors who put money into that mess should be thoroughly investigated.
 * In technology there is no real money. Most people didn't care about tech; they came because they heard there was money and then abused others. [Spotify](http://stallman.org/spotify.html) manipulates song popularity; YouTube removed dislikes; Facebook optimizes for ads. Cryptocurrencies were created to undermine states, now banks sell them.
-* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. Google censors piracy while promoting Reddit. The COVID origin debate persists?... Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. The real fight in poor countries is against zero-sum games and scams.
+* There is no money in technology; most tech companies lie to society because they know people will buy stocks without understanding. Examples: Elizabeth Holmes raised hundreds of millions and valued Theranos at $9 billion while deceiving investors. Google censors piracy while promoting Reddit.
+* The COVID origin debate persists?...
+* Bitcoin was created to undermine the state and banks, but now banks sell cryptocurrencies. 
 * What matters to Facebook/Meta is maximizing phone addiction to show as much advertising as possible. They may think it's genius, but it's fraud. Advertising should be illegal or heavily taxed so it's not profitable. If we abolish advertising, many so-called journalists would have to work in construction, and the country would improve.
 * Teachers punish students for using Artificial Intelligence—again the education system fails to encourage critical thinking.
 * You heard there was money and status in tech. You applied. You never cared about technology; you wanted to get rich. You're a parasitic infiltrator. It's time for you to leave. You won't go voluntarily. We must act: give everything away for free so you have no reason to be here. - George Hotz.
@@ -67,7 +70,6 @@ School blocks real education.
 * **For marketing, the truth doesn't matter—only what sells and raises stock prices**. _YouTube removed dislikes and promotes shorts to show ads_, then they "worry" and remove videos for being "false information". 
 * Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://www.youtube.com/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
 * Statistics are a new form of advertising.   
-* For Zoomers a mail client is an "app".   
 * Vibecoding is a scam: You're still doing the coding, you're just using a different language (English, in this case), and English is a poor language for coding due to its imprecision. The moment you need to accomplish something new, you'll have to be as specific as possible, and the only reason it works for many common programming workflows is because they are common, the minute you try to do new things, you need to be as verbose as the underlying language. 
 * In Argentina, internet service providers like Claro, Personal, and Movistar block access to LibreFutbol by DNS, due to few customers are willing to pay for the premium channels, Google removes all the piracy links which is why I use Yandex and torrent search with **qBitTorrent, btstrm** with **Jackett**.
 Here's a rewritten version of your statement:
@@ -77,11 +79,12 @@ Here's a rewritten version of your statement:
 * I read news through RSS with `newsraft`.
 * I love all that lives, even those that cause me pain.
 * Finances: [http://wermenh.com/fay/index.html](http://wermenh.com/fay/index.html)
+* For Zoomers a mail client is an "app".   
 
 ---
 
 *   **Intelligence is genetic**, and one cannot study to become intelligent; access to information is already available.
-* Harvard costs $70,000 per year to study something you can find on Internet, I don't understand why people pay that. Buy your kid a house instead, lol.
+*   Harvard costs $70,000 per year to study something you can find on Internet, I don't understand why people pay that. Buy your kid a house instead, lol.
 *   The "educational system" (schools and universities) does **not measure intelligence**. Instead, they measure an individual's **level of compliance or "slave status"**.
 *   The system measures *how much you question* what you are told to do.
 *   Schools destroy autonomy, which in turn destroys intelligence.
@@ -92,7 +95,7 @@ Here's a rewritten version of your statement:
 
 *   **True technology is decentralized**. Decentralized technology gives power over money and data to the individual.
 *   Examples of true decentralized technology include the original Internet, email (SMTP), torrents, and Bitcoin (in its original form).
-*   **"Centralized technology" is anti-technology** and leads to **slavery**. Centralization gives power over money and data to the corporation.
+*   **"Centralized technology" is anti-technology** and leads to **[slavery](https://geohot.github.io/blog/jekyll/update/2025/10/06/always-been-at-war.html)**. Centralization gives power over money and data to the corporation.
 *   Centralized AI will make humanity slaves; therefore, technology must be decentralized.
 *   **There is no money in true decentralized technology**. Companies hate decentralized technology because they cannot profit from it.
 *   "Tech companies" (BigTech) realized they couldn't make money from decentralized systems, so they began to centralize everything, which is their true objective.
