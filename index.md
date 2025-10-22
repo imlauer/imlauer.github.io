@@ -21,7 +21,8 @@ Here is a photo of [me](https://ibb.co/JRyzhq3G)([Archive](https://archive.is/wi
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 *   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
-* Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://www.youtube.com/embed/-v8pD0d5Bmk). 
+* Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://www.youtube.com/embed/-v8pD0d5Bmk).
+* Society would be better if we abolished academic certificates.
 * The entire educational system is a scam because no matter what job you do, you're always going to encounter a problem and have to study on your own. Nobody can teach you everything in life. The educational system and public universities are a pyramid scheme.
 * **Financing with advertising is equivalent to financing with taxes**. 
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
