@@ -1,6 +1,6 @@
 ---
 title: Andres Imlauer's Personal Page
-date: 2025-04-08T21:45:57-03:00
+date: 2025-22-10
 ---
 I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). Now I'm studying electricity.
    
@@ -253,6 +253,9 @@ During my free time, I like working on various technology and non-technology pro
 * [FSF - Twitter](https://www.fsf.org/twitter)
 * [FSF - Windows](https://www.fsf.org/windows)
 * [Download FSF Wiki](https://static.fsf.org/nosvn/directory/directory.xml.bz2)
+* [Gopher - LRS Wiki](http://www.tastyfish.cz/lrs/gopher.html)
+* [Gopher - Search Engine](gopher://gopher.floodgap.com/7/v2/vs)
+* [Gopher - Circumlunar Space](gopher://circumlunar.space:70/1)
 * [YaCy a decentralized P2P search engine that can run fully offline with own index.](https://yacy.net/)
 * [My increasingly adequate website](https://www.increasinglyadequate.com/index.html)  
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
