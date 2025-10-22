@@ -214,7 +214,7 @@ During my free time, I like working on various technology and non-technology pro
 * **cpu**: Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz   
 * **memory**: 3.70 GiB    
 * **cell phone**: Moto G4.      
-* **keyboard**: [Ajazz (AK33)](https://vas.neocities.org/pics/ak33_vs_old.jpg).      
+* **keyboard**: [Ajazz (AK33)](https://archive.is/wip/OoB3w).
 * **mouse**: Verbatim.      
 * **desktop**: [TTY with tmux only with Qt apps without Xorg or Wayland(EGLFS)](/just_tty.html).      
 * **text editor**: vim.      
