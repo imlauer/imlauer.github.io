@@ -174,13 +174,13 @@ All musicians are narcissists who live off of attention.
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
 * Cancerslug: [1](https://youtube.com/embed/1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/embed/z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G)
-* Nirvana: [Albums](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
-* As I lay dying: [Greatest Hits](https://youtube.com/embed/Hz5OKhhctQE)
-* Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
 * [Avenged Sevenfold](http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/)
+* Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).
 * GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc)
 * **Millennial bands** like [System of a Down](http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/), [Disturbed](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/).   
-* **Zoomer bands** like end Request.
+* **Zoomer bands** like Send Request.
+* [Nirvana](http://www.ashleecadell.com/xyzstorelibrary/Nirvana)
+* [As I lay dying](https://youtube.com/embed/Hz5OKhhctQE)
 
 ---
    
