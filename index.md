@@ -9,7 +9,7 @@ My online nicknames are esotericwarfare, atavistic11.
 Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
 ---
 
-##### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money.
+##### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets.
 
 #### Some facts:
    
