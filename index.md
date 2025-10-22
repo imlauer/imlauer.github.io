@@ -9,7 +9,7 @@ My online nicknames are esotericwarfare, atavistic11.
 Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
 ---
 
-##### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are an ad company not "tech" companies.
+#### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are an ad company not "tech" companies.
 
 #### Some facts:
    
@@ -156,6 +156,7 @@ School blocks real education.
 * [Luke Smith](https://lukesmith.xyz).
 * Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
 * Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss): _"I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it"_ ([Read the tweet on Nitter](https://nitter.net/SStricklandMMA/status/1977847462334431693))([Archive](https://archive.is/DQ0vX)).
+* TastyFish: [www.tastyfish.cz](http://www.tastyfish.cz), [Less Retarded Society Wiki](http://www.tastyfish.cz/lrs/wiki_tldr.html)
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/)([RSS](https://stallman.org/rss/rss.xml)).
 
 ---
