@@ -202,6 +202,8 @@ centralization, ads, feminism, cheesy positivity, political correctness, boredom
    
 ---   
    
+#### Free Time
+
 During my free time, I like working on various technology and non-technology projects, playing doom and 0ad, chatting on IRC servers, and web forums, trying new things, volunteering for different causes, and whatever else I find interesting.   
    
 ---   
