@@ -6,7 +6,7 @@ I was born in Argentina. I studied Computer Science from [Universidad Nacional d
    
 My online nicknames are esotericwarfare, atavistic11.   
    
-Here is a photo of [me](https://miinstagram.github.io/me/mpv-shot0034.jpg).   
+Here is a photo of [me](https://miinstagram.github.io/me/me1.png).
 ---
 
 #### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are an ad company not "tech" companies.
