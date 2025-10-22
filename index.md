@@ -240,7 +240,7 @@ During my free time, I like working on various technology and non-technology pro
      
 #### Some links    
      
-* Use [wiby.me](https://wiby.me)
+* Use [wiby.me](https://wiby.me) or [z00m](http://z00m.ws)
 * [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)  
 * Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
