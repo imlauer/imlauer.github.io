@@ -843,45 +843,6 @@ href="https://imlauera.github.io/i2p/">my I2P spanish tutorial</a>) and
 <a href="https://www.hyphanet.org/index.html">Freenet</a>, <a
 href="https://zeronet.io/">ZeroNet</a>, <a
 href="https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/">Lokinet</a>.</h3>
-<p>How do I use Tor:</p>
-<pre><code>sudo pacman --noconfirm -S tor torsocks w3m # (ArchLinux)
-sudo systemctl start tor
-torsocks curl https://ifconfig.me
-mkdir onion &amp;&amp; cd onion
-# Save the index to your hard drive.
-curl -L https://secretonions.neocities.org/index.html -o secret.html
-curl -L https://davewebsite.neocities.org/index.html -o dave.html
-torsocks w3m secret.html
-sudo systemctl restart tor # To reroute Tor.</code></pre>
-<ul>
-<li><a
-href="http://torwikijwqskahohtn35pyfde2uqmgrxgr2fru4mn4rer5muj445dxyd.onion/">Tor:
-HiddenWiki</a></li>
-<li><a
-href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/">Tor:
-Daniel Tutoriales</a></li>
-<li><a
-href="http://j3bv7g27oramhbxxuv6gl3dcyfmf44qnvju3offdyrap7hurfprq74qd.onion/">Tor:
-Email</a></li>
-<li><a
-href="http://sonarmsng5vzwqezlvtu2iiwwdn3dxkhotftikhowpfjuzg7p3ca5eid.onion/">Tor:
-Email Sonar</a></li>
-<li><a
-href="http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion/">Tor:
-CIA</a></li>
-<li><a
-href="http://jentyxddh2rf47gd3e43kuebyn2xsv6h72gzh46oe4rxyovvm7xe5ead.onion/fdroid.html">Tor:
-Recommended F-DROID apps</a></li>
-<li><a
-href="http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/index.php">Tor:
-WikiPage</a></li>
-<li><a
-href="http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion">Tor:
-Ahmia</a></li>
-<li><a
-href="http://127.0.0.1:8888/USK@NiPBeAA-PpA715zb8Jc~Q-ohFbKPt8Mo-YiH~w1D56A,--ZTBvgu7XMdX0QUJGBHp-Hogoh0AQK1p8WoY6IR80Q,AQACAAE/lawiki/5/">FreeNet:
-A la mierda copyright</a></li>
-</ul>
 <h3 id="things-ive-been-watching-lately">Things I’ve been watching
 lately</h3>
 <ul>
@@ -893,11 +854,11 @@ as complete GNU/Linux system</a></li>
 href="mailto:necro@tfwno.gf">necro@tfwno.gf</a>.</p>
 <p>This site was generate with <a href="/markdown.html">markdown</a> and
 cmark (<em>you can also use pandoc</em>):</p>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-s</span> index.md <span class="at">-o</span> index.html     </span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pandoc</span> <span class="at">-s</span> index.md <span class="at">-o</span> index.html     </span></code></pre></div>
 <p>o</p>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">cmark</span> index.md <span class="kw">|</span> <span class="fu">tee</span> index.html  </span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">cmark</span> index.md <span class="kw">|</span> <span class="fu">tee</span> index.html  </span></code></pre></div>
 <p>This website was inspired by <a
 href="http://www.tastyfish.cz">TastyFish</a>.<br />
 <a
