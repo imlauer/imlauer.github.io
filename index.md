@@ -311,8 +311,6 @@ During my free time, I like working on various technology and non-technology pro
 * [Softpanorama](https://softpanorama.org/index.shtml)
 * [ZeroContradictions](https://zerocontradictions.net/)
 
-### Privacy is not a crime: [Tor](https://www.torproject.org/download/), [I2P](https://geti2p.net/en/)([my I2P spanish tutorial](https://imlauera.github.io/i2p/)) and [Freenet](https://www.hyphanet.org/index.html), [ZeroNet](https://zeronet.io/), [Lokinet](https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/).
-
 ### Things I've been watching lately
 
 * [Installing Guix as complete GNU/Linux system](https://www.youtube.com/embed/oSy-TmoxG_Y)
