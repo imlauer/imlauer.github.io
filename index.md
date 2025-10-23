@@ -1,6 +1,5 @@
 ---
 title: Andres Imlauer's Personal Page
-date: 2025-22-10T21:45:57-03:00
 ---
 
 I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). Now I'm studying electricity.
@@ -336,5 +335,6 @@ This website was inspired by [TastyFish](http://www.tastyfish.cz).
 [Image: TastyFish Response](https://archive.org/download/tastyfish_response/tastyfish.png). _Previously I asked him how to make an "illegal" streaming site lol_.  
   
 ---  
-  
+
+2025.     
 No rights reserved - [Fuck copyright](https://denshi.org/blog/copying-is-cool/).
