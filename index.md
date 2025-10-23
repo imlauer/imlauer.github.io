@@ -1,7 +1,8 @@
 ---
 title: Andres Imlauer's Personal Page
-date: 2025-22-10
+date: 2025-22-10T21:45:57-03:00
 ---
+
 I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). Now I'm studying electricity.
    
 My online nicknames are esotericwarfare, atavistic11.   
