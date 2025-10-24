@@ -318,6 +318,9 @@ During my free time, I like working on various technology and non-technology pro
 * [DIY Raspberry Pi Cyberdeck](https://youtube.com/embed/bsT4CR9Jw-c)
 * [Softpanorama](https://softpanorama.org/index.shtml)
 * [ZeroContradictions](https://zerocontradictions.net/)
+* [Tor: You cannot be governed. You just didn't realize it yet](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion/opsec/).
+* [Tor: Hacking](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion/hacking/)
+* [Tor: Webring](http://nowherejezfoltodf4jiyl6r56jnzintap5vyjlia7fkirfsnfizflqd.onion/webring.html)
 
 ### Things I've been watching lately
 
