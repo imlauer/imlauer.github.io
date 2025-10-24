@@ -8,7 +8,7 @@ My online nicknames are esotericwarfare, atavistic11.
    
 This site works best without JavaScript. Please consider downgrading to a less modern browser. I shit on your privacy.
 
-Here is a photo of [me](https://ibb.co/JRyzhq3G)([Archive](https://archive.is/wip/IuTZU)).
+Here is a photo of [me](https://ibb.co/d4zGhCTT).
 
 ---
 
