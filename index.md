@@ -174,7 +174,9 @@ All musicians are narcissists who live off of attention.
 
 "Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians. 
 
-* Open directory with a lot of music: [http://www.ashleecadell.com/xyzstorelibrary/Mayhem](http://www.ashleecadell.com/xyzstorelibrary/Mayhem)
+* Open directory with a lot of music: [http://www.ashleecadell.com/xyzstorelibrary/](http://www.ashleecadell.com/xyzstorelibrary/)
+
+---
 
 * Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4)
 * Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU)
