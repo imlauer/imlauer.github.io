@@ -10,7 +10,7 @@ Here is a photo of [me](https://ibb.co/JRyzhq3G)([Archive](https://archive.is/wi
 
 ---
 
-#### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are ads companies not "tech" companies.
+#### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are ads companies not "tech" companies. 
 
 ---
 
@@ -126,7 +126,7 @@ School blocks real education.
 
 ### People who I look up to
 
-* George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). [Living in a simulation](https://www.youtube.com/embed/ESXOAJRdcwQ)
+* George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). [How to escape the simulation](https://www.youtube.com/embed/ESXOAJRdcwQ).
 
 > Do you know someone who works in real estate, finance, sales, tip screen design, or advertising? You can nudge them in the right direction! Explain to them how their job is making the world worse. How if everyone behaved like them society would collapse. But make it clear that it isn't too late for them! They can repent and start creating value for other people tomorrow. Consider: construction, manufacturing, engineering, operations, shipping, retail, the service industry. Even sitting in a room doing nothing would be an improvement for everyone else.
 - George Hotz.
