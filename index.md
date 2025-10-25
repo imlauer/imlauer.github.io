@@ -197,8 +197,8 @@ All musicians are narcissists who live off of attention.
 * [necro@tfwno.gf](mailto:necro@tfwno.gf)   
 * [imlauerandres@gmail.com](mailto:imlauerandres@gmail.com)   
 * [My YouTube Channel](https://www.youtube.com/channel/UCIBeANd-ORSKPOg7PPMWCqw)   
-   
----   
+
+---
    
 ### Some things I like (no particular order):   
    
