@@ -148,6 +148,9 @@ _Do you know someone who works in real estate, finance, sales, tip screen design
 
 ### Articles I recommend reading from his blog:   
 
+Every single one of them.
+
+1. [Gambling is bad](https://geohot.github.io/blog/jekyll/update/2025/10/24/gambling-is-bad.html) - "_I’m now a Hong Kong resident. I think people still have no idea how fake the US economy is, and how bad it will get over the next 20 years. I used to think that this was just a phenomenon in tech, but now tech is everything. If nobody is creating the value and everyone is trying to cannibalize, eventually there is nothing left.)_"
 1. [Father](https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html) - The trick is not to use [artificial intelligence to predict the stock market](http://www.tastyfish.cz/lrs/ai.html), but to influence people and manipulate people.
 1. [We have always been at war with Eastasia](https://geohot.github.io/blog/jekyll/update/2025/10/06/always-been-at-war.html) _With the way things are currently looking, despite it becoming as easy as taking candy from a baby, people will not give up their desire for power over other people. You do not win at this game. If technology is centralized, you will be a slave. The boot stomping on a human face. You will not be one of the 6 winners. There won’t even be 6 winners, the winners will continue to fight with you in the middle until there’s 1 winner. And that winner isn’t really a winner. If one person ends up with all the money, the money is worthless._
 1. [Class Warfare](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
