@@ -14,14 +14,6 @@ Here is a photo of [me](https://ibb.co/d4zGhCTT).
 
 #### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are ads companies not "tech" companies. 
 
-Here is the translation:
-
-"These days, winning is like taking a candy from a baby, but it has a trap: you'll end up being a slave if you work for those companies."
-
-Or, in a more idiomatic translation:
-
-"Making a profit these days is easy, but it comes with a catch: if you work for these companies, you'll ultimately become their slave."
-
 ---
 
 #### Some facts:
