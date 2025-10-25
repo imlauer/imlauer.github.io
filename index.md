@@ -14,6 +14,14 @@ Here is a photo of [me](https://ibb.co/d4zGhCTT).
 
 #### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are ads companies not "tech" companies. 
 
+Here is the translation:
+
+"These days, winning is like taking a candy from a baby, but it has a trap: you'll end up being a slave if you work for those companies."
+
+Or, in a more idiomatic translation:
+
+"Making a profit these days is easy, but it comes with a catch: if you work for these companies, you'll ultimately become their slave."
+
 ---
 
 #### Some facts:
@@ -139,10 +147,12 @@ _Do you know someone who works in real estate, finance, sales, tip screen design
 ---
 
 ### Articles I recommend reading from his blog:   
-0. [Father](https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html) - The trick is not to use [artificial intelligence to predict the stock market](http://www.tastyfish.cz/lrs/ai.html), but to influence people and manipulate people.
+
+1. [Father](https://geohot.github.io/blog/jekyll/update/2025/09/07/chapter-three.html) - The trick is not to use [artificial intelligence to predict the stock market](http://www.tastyfish.cz/lrs/ai.html), but to influence people and manipulate people.
+1. [We have always been at war with Eastasia](https://geohot.github.io/blog/jekyll/update/2025/10/06/always-been-at-war.html) _With the way things are currently looking, despite it becoming as easy as taking candy from a baby, people will not give up their desire for power over other people. You do not win at this game. If technology is centralized, you will be a slave. The boot stomping on a human face. You will not be one of the 6 winners. There won’t even be 6 winners, the winners will continue to fight with you in the middle until there’s 1 winner. And that winner isn’t really a winner. If one person ends up with all the money, the money is worthless._
 1. [Class Warfare](https://geohot.github.io/blog/jekyll/update/2021/09/28/class-warfare.html)
 1. [Sell outs](https://geohot.github.io/blog/jekyll/update/2021/04/20/sell-outs.html)
-1. [Pieces of shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html)
+1. [Pieces of shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html) "_Capitalism is so rigged it isn’t fun anymore. I wish you short sighted fucks in the PMC could actually do something about it. But nah, continue to let the hedge funds buy all the houses, and continue to make building new houses hard. (supply and demand bro gotta pump housecoin) Continue to let huge ad companies (stop calling them tech companies) rent seek and nickel and dime you on everything, and hire psychologists to further bypass your conscious thought. Continue to give massive loans out in exchange for a worthless education, and watch people beg for a government sponsored “education” because they don’t know better._"
 1. [consumer class divide](https://geohot.github.io/blog/jekyll/update/2022/02/02/consumer-class-divide.html)
 1. [demoralization is just beginning](https://geohot.github.io/blog/jekyll/update/2025/03/03/demoralization-is-just-beginning.html): **Back the dollar by gold** (not socially constructed crypto), and bring major crackdowns to finance to tie it to real world value. Trading is not a job. Passive income is not a thing. Instead, go produce something real and exchange it for gold.
 1. [money is the map](https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html)
