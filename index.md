@@ -92,6 +92,7 @@ School blocks real education.
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * For Zoomers a mail client is an "app".   
 * VPNs are a scam: They could potentially analyze and log all your traffic and sell it to third parties, governments, three letter agencies, etc. Use Tor instead. VPNs might be useful when you need to use a service that blocks Tor, but the rest of the time it’s advisable to use Tor and not a VPN. If you still want to use want, remember to pay with cash or Monero.
+* I agree with TastyFish on his opinions about [tor](http://www.tastyfish.cz/lrs/tor.html).
 
 ---
 
