@@ -25,7 +25,7 @@ I want money. I have high TC. I get big compensation. I advance in my career. I 
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 *   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
 * The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
-* Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://www.youtube.com/embed/-v8pD0d5Bmk).
+* Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://redirect.invidious.io/embed/-v8pD0d5Bmk).
 * Society would be better if we abolished academic certificates.
 * The entire educational system is a scam because no matter what job you do, you're always going to encounter a problem and have to study on your own. Nobody can teach you everything in life. The educational system and public universities are a pyramid scheme.
 * **Financing with advertising is equivalent to financing with taxes**. 
@@ -41,13 +41,13 @@ I want money. I have high TC. I get big compensation. I advance in my career. I 
 * **[Bitcoin](https://wrongthink.link/posts/bitcoin-is-a-tale-of-tragedy/)'s value is purely human stupidity**: Bitcoin was not created to speculate on its value: buying cheap and selling high. It was created to set us free and eliminate banks and decentralized money.
 * **Voting is manipulation**: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.
 * Modern games were created to sell expensive hardware to dumb people, see [nethack](https://github.com/NetHack/NetHack), [DOOM](http://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](http://www.tastyfish.cz/lrs/anarch.html), Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM, Anarch, Diablo I, 0ad have SDL support.
-* Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://www.youtube.com/embed/6Ptopme84Vw) ).
+* Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://redirect.invidious.io/embed/6Ptopme84Vw) ).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
 * Google's self-driving cars? Fake, controlled by humans. Amazon's AI supermarkets? Also fake, staffed by 100 Indians. [Spotify](http://stallman.org/spotify.html) lies about song popularity, YouTube hides dislikes, and social media exists purely for mass espionage and selling ads to fellow scammers. 
 * Women are more emotional than men, therefore they are more violent.
-* How to get girls: "Girls just wanna have fun". The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Women pay less. Ask yourself: How many couples would not have been formed without the use of alcohol?
+* How to get girls: "Girls just wanna have fun". The nightclub was made for women, women like to dance with their friends and receive male attention. Men go to night clubs only because there are women, not because they like the nightclub. Women pay less. Ask yourself: How many couples would not have been formed without the use of alcohol? I like this guy: [https://redirect.invidious.io/embed/he5fbPzeQKc](https://redirect.invidious.io/embed/he5fbPzeQKc)
 * Marriage never benefits the man, always the woman, because the woman has power over sex while the man has power over the relationship. If the man gets married, he loses the only power he had over the relationship.
 * As a natural leader, you have no need for validation from anyone.
 * I view the entire "education system" as a manipulative tool designed to train "slaves" to constantly seek external approval.   
@@ -55,7 +55,7 @@ School blocks real education.
 * C++ was created to only sell expensive books and live off of them.   
 * The power isn't what you have, it's what people believe you have.   
 * Most jobs are fake, so don't worry AI won't take away your "job".
-* "Skill before certification" - [George Hotz - How to not be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk)
+* "Skill before certification" - [George Hotz - How to not be a noob](https://redirect.invidious.io/embed/-v8pD0d5Bmk)
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem. **If you're fat you need to lose weight**.
 * **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([In Spanish](/rent_seeking.html)).
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
@@ -77,7 +77,7 @@ School blocks real education.
 * In poor countries the struggle is not against nature but against zero-sum games and scams. Real economic growth is only about 3% — any gain above that often means someone else loses.
 * "The simplification changes the meaning" - Richard Stallman.
 * **For marketing, the truth doesn't matter, what only matter is what sells and raises stock prices**. _YouTube removed dislikes and promotes youtube-shorts to show more ads_, then they "worry" and remove videos for "misinformation".
-* Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://www.youtube.com/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
+* Before Netflix, YouTube, Spotify, people used P2P networks like Ares, Emule, Torrent to share music, but everything was corrupted by power, if you don't believe me, watch this [movie](https://redirect.invidious.io/watch?v=ZfOwwCoR0dE&list=PLTChAOKYIS4QYWmMt83YuQcKyjuocSrT5).
 * Statistics are a new form of advertising.   
 * _If a guy squeezes a girl's breast without consent, he doesn't physically hurt her in any way, the girl is completely fine, it's just that society will tell her she was "raped" by this and should now start suffering from PTSD, she's labeled a "victim", assigned a psychiatrist, will be pumped with drugs and told she has an increased chance of committing suicide now. In a good society this would simply not be the case, mild non-consensual sexual behavior such as touching, spying, masturbation etc. might be at worst as much harmful as for example non-consensual small talk or farting in someone's presence without his approval. Again, physically harming someone is WRONG, but do we have to equate such an extreme form of rape with slapping a girl's ass? By doing so we are probably hurting the "victims" more than the "offenders". But again, this helps separate people into two groups: "raped" and "not raped", "victims" and "predators" and so on._ - LRS Wiki.
 * [What if the real fascists are the ones against fascism?](https://archive.is/hk4p0).
@@ -132,7 +132,7 @@ School blocks real education.
 
 ### People who I look up to
 
-* George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://www.youtube.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). [How to escape the simulation](https://www.youtube.com/embed/ESXOAJRdcwQ).
+* George Hotz: [Blog](https://geohot.github.io/blog). In this video he teachs you: [how not to be a noob](https://redirect.invidious.com/embed/-v8pD0d5Bmk). [Spanish text of George Hotz talking about zero sums games](/geohot.html). [How to escape the simulation](https://redirect.invidious.com/embed/ESXOAJRdcwQ).
 
 _Do you know someone who works in real estate, finance, sales, tip screen design, or advertising? You can nudge them in the right direction! Explain to them how their job is making the world worse. How if everyone behaved like them society would collapse. But make it clear that it isn't too late for them! They can repent and start creating value for other people tomorrow. Consider: construction, manufacturing, engineering, operations, shipping, retail, the service industry. Even sitting in a room doing nothing would be an improvement for everyone else._    
 - George Hotz.
@@ -167,10 +167,10 @@ Every single one of them.
    
 ---
 
-* [Vegan Gains](https://www.youtube.com/channel/UCr2eKhGzPhN5RPVk5dd5o3g): I learnt a lot of English watching his stupid videos. This [channel](https://www.youtube.com/channel/UCoRKQ5h9mAfiXhvSrHggtVw) uploads his streams because you have to pay to watch them. [This](https://www.youtube.com/embed/eHJet_hathc) video is funny.     
-* [Tsoding](https://youtube.com/channel/UCrqM0Ym_NbK1fqeQG2VIohg).  
+* [Vegan Gains](https://redirect.invidious.io/channel/UCr2eKhGzPhN5RPVk5dd5o3g): I learnt a lot of English watching his stupid videos. This [channel](https://redirect.invidious.io/channel/UCoRKQ5h9mAfiXhvSrHggtVw) uploads his streams because you have to pay to watch them. [This](https://redirect.invidious.io/embed/eHJet_hathc) video is funny.     
+* [Tsoding](https://redirect.invidious.io/channel/UCrqM0Ym_NbK1fqeQG2VIohg).  
 * [Luke Smith](https://lukesmith.xyz).
-* Reckful: [renting vs buying a house](https://www.youtube.com/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
+* Reckful: [renting vs buying a house](https://redirect.invidious.io/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
 * Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss): _"I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it"_ ([Read the tweet on Nitter](https://nitter.net/SStricklandMMA/status/1977847462334431693))([Archive](https://archive.is/DQ0vX)).
 * TastyFish: [www.tastyfish.cz](http://www.tastyfish.cz), [Less Retarded Society Wiki](http://www.tastyfish.cz/lrs/wiki_tldr.html)
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/)([RSS](https://stallman.org/rss/rss.xml)).
@@ -187,16 +187,16 @@ All musicians are narcissists who live off of attention.
 
 ---
 
-* Alex Story: [Pulling The Plug FULL ALBUM](https://youtube.com/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://youtube.com/embed/ZV_Hga8f5D4).    
-* Spanish Love Songs: [Losers 2](https://youtube.com/embed/SUAq2KPRYJU).    
-* Cancerslug: [1](https://youtube.com/embed/1bP4plDxYBY), [2](https://www.youtube.com/embed/fuIh2IaW_ng), [3](https://youtube.com/embed/z0HwJJ2SRlM), [4](https://www.youtube.com/embed/z0HwJJ2SRlM), [5](https://youtube.com/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G).    
+* Alex Story: [Pulling The Plug FULL ALBUM](https://redirect.invidious.io/embed/Jaf-R6kyXVU), [Alex Story - 3 FULL ALBUM](https://redirect.invidios.io/embed/ZV_Hga8f5D4).    
+* Spanish Love Songs: [Losers 2](https://redirect.invidious.io/embed/SUAq2KPRYJU).    
+* Cancerslug: [1](https://redirect.invidious.io/embed/1bP4plDxYBY), [2](https://redirect.invidious.io/embed/fuIh2IaW_ng), [3](https://redirect.invidious.io/embed/z0HwJJ2SRlM), [4](https://redirect.invidious.io/embed/z0HwJJ2SRlM), [5](https://redirect.invidious.io/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G).    
 * [Avenged Sevenfold](http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/).    
-* Amon Amarth: [1](https://www.youtube.com/embed/f8YOT5f1wVs), [2](https://www.youtube.com/embed/oOK0wyuGbtI).    
-* GG Allin: [Live fast, die young lol](https://www.youtube.com/embed/THvr0WNOYPc).    
+* Amon Amarth: [1](https://redirect.invidious.io/embed/f8YOT5f1wVs), [2](https://redirect.invidious.io/embed/oOK0wyuGbtI).    
+* GG Allin: [Live fast, die young lol](https://redirect.invidious.io/embed/THvr0WNOYPc).    
 * **Millennial bands** like [System of a Down](http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/), [Disturbed](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/).    
 * **Zoomer bands** like Send Request.    
 * [Nirvana](http://www.ashleecadell.com/xyzstorelibrary/Nirvana).    
-* [As I lay dying](https://youtube.com/embed/Hz5OKhhctQE).    
+* [As I lay dying](https://redirect.invidious.io/embed/Hz5OKhhctQE).    
 * Mayhem.    
 
 ---
@@ -205,7 +205,7 @@ All musicians are narcissists who live off of attention.
    
 * [necro@tfwno.gf](mailto:necro@tfwno.gf)   
 * [imlauerandres@gmail.com](mailto:imlauerandres@gmail.com)   
-* [My YouTube Channel](https://www.youtube.com/channel/UCIBeANd-ORSKPOg7PPMWCqw)   
+* [My YouTube Channel](https://redirect.invidious.io/channel/UCIBeANd-ORSKPOg7PPMWCqw)   
 
 ---
    
@@ -263,7 +263,7 @@ During my free time, I like working on various technology and non-technology pro
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [My Blog](https://imlauera.github.io)     
-* [TastyFish Living in Caravan](https://youtube.com/embed/8qvddkIgo4A)
+* [TastyFish Living in Caravan](https://redirect.invidious.io/embed/8qvddkIgo4A)
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
 * [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
 * [DefectiveByDesign](https://www.defectivebydesign.org/)
@@ -278,9 +278,9 @@ During my free time, I like working on various technology and non-technology pro
 * [leta.mullvad.net(use Google anonymously)](https://leta.mullvad.net/search?q=google&engine=google)  
 * [HyperPhisics](http://hyperphysics.phy-astr.gsu.edu/hbase/)  
 * [Wikipedia is badly biased](https://larrysanger.org/2020/05/wikipedia-is-badly-biased/)
-* [I don't use or trust Wikipedia anymore](https://www.youtube.com/embed/c_Q7reJtiLU)
+* [I don't use or trust Wikipedia anymore](https://redirect.invidious.io/embed/c_Q7reJtiLU)
 * [DigDeeper](https://digdeeper.love/)     
-* [Richard Stallman Interview](https://youtube.com/embed/fkkDvKGcNSo)
+* [Richard Stallman Interview](https://redirect.invidious.io/embed/fkkDvKGcNSo)
 * [SecretOnions](https://secretonions.neocities.org/)  
 * [WebsiteReview](https://websitereview.neocities.org/)  
 * [ZLibrary](https://z-library.la)  
@@ -318,13 +318,13 @@ During my free time, I like working on various technology and non-technology pro
 * [Curso Electricidad](https://cursoelectricidad.github.io/)     
 * [Reparacion Electromesticos](https://cursoelectrodomesticos.github.io/)     
 * [Aire Acondicionado](https://cursoaa.github.io/)     
-* [GG Allin funny interview](https://www.youtube.com/embed/_ABAX2IL3SY)  
-* [Tastyfish talking about freedom(suckless software)](https://youtube.com/embed/SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
+* [GG Allin funny interview](https://redirect.invidious.io/embed/_ABAX2IL3SY)  
+* [Tastyfish talking about freedom(suckless software)](https://redirect.invidious.io/embed/SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
 * [Tor neocities](https://neocities.org/browse?tag=tor)
 * [Azidal](https://azidal.neocities.org/)
 * [Tor Email](https://onionmail.org/)
 * [LibRedirect](https://libredirect.codeberg.page/)
-* [DIY Raspberry Pi Cyberdeck](https://youtube.com/embed/bsT4CR9Jw-c)
+* [DIY Raspberry Pi Cyberdeck](https://redirect.invidious.io/embed/bsT4CR9Jw-c)
 * [Softpanorama](https://softpanorama.org/index.shtml)
 * [ZeroContradictions](https://zerocontradictions.net/)
 * [Tor: You cannot be governed. You just didn't realize it yet](http://opbible7nans45sg33cbyeiwqmlp5fu7lklu6jd6f3mivrjeqadco5yd.onion/opsec/).
@@ -333,7 +333,7 @@ During my free time, I like working on various technology and non-technology pro
 
 ### Things I've been watching lately
 
-* [Installing Guix as complete GNU/Linux system](https://www.youtube.com/embed/oSy-TmoxG_Y)
+* [Installing Guix as complete GNU/Linux system](https://redirect.invidious.io/embed/oSy-TmoxG_Y)
 
 ---     
      
