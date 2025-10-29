@@ -193,7 +193,7 @@ All musicians are narcissists who live off of attention.
 * Cancerslug: [1](https://redirect.invidious.io/embed/1bP4plDxYBY), [2](https://redirect.invidious.io/embed/fuIh2IaW_ng), [3](https://redirect.invidious.io/embed/z0HwJJ2SRlM), [4](https://redirect.invidious.io/embed/z0HwJJ2SRlM), [5](https://redirect.invidious.io/playlist?list=PL71D1YtIOImDSW-leiz-JOMwgNfmX0Q3G).    
 * [Avenged Sevenfold](http://www.ashleecadell.com/xyzstorelibrary/Avenged%20Sevenfold/).    
 * Amon Amarth: [1](https://redirect.invidious.io/embed/f8YOT5f1wVs), [2](https://redirect.invidious.io/embed/oOK0wyuGbtI).    
-* GG Allin: [Live fast, die young lol](https://redirect.invidious.io/embed/THvr0WNOYPc).    
+* GG Allin: [Live fast, die young](https://redirect.invidious.io/embed/THvr0WNOYPc). [GG Allin funny interview](https://redirect.invidious.io/embed/_ABAX2IL3SY). [Funny fights](https://redirect.invidious.io/embed/hcMD9hO1vg8).    
 * **Millennial bands** like [System of a Down](http://www.ashleecadell.com/xyzstorelibrary/System%20Of%20A%20Down/), [Disturbed](http://www.ashleecadell.com/xyzstorelibrary/Disturbed/).    
 * **Zoomer bands** like Send Request.    
 * [Nirvana](http://www.ashleecadell.com/xyzstorelibrary/Nirvana).    
@@ -319,7 +319,6 @@ During my free time, I like working on various technology and non-technology pro
 * [Curso Electricidad](https://cursoelectricidad.github.io/)     
 * [Reparacion Electromesticos](https://cursoelectrodomesticos.github.io/)     
 * [Aire Acondicionado](https://cursoaa.github.io/)     
-* [GG Allin funny interview](https://redirect.invidious.io/embed/_ABAX2IL3SY)  
 * [Tastyfish talking about freedom(suckless software)](https://redirect.invidious.io/embed/SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
 * [Tor neocities](https://neocities.org/browse?tag=tor)
 * [Azidal](https://azidal.neocities.org/)
