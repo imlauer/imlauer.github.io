@@ -31,6 +31,7 @@ I want money. I have high TC. I get big compensation. I advance in my career. I 
 * **Financing with advertising is equivalent to financing with taxes**. 
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * Politics is for losers.
+* You're your 5 closest friends.
 * **The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
 * Technology has made access cheaper and more convenient — streaming music, movies, or storing data online costs far less than buying physical media. However, this convenience comes with a trade-off: **users no truly own anything anymore**.
@@ -263,6 +264,7 @@ During my free time, I like working on various technology and non-technology pro
 * Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
+* [This guy is funny (Spanish)](https://redirect.invidious.io/embed/ymT1y9WiyM0)
 * [My Blog](https://imlauera.github.io)     
 * [TastyFish Living in Caravan](https://redirect.invidious.io/embed/8qvddkIgo4A)
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
