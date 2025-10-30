@@ -6,6 +6,7 @@ body {
   color: #04ff04;
   background: #000;
   font-family: monospace;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -22,3 +23,4 @@ a:hover {
   text-decoration: underline;
 }
 
+hr { border-color: green; }
