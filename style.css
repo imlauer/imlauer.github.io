@@ -14,8 +14,8 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: blue;
-  text-decoration: none;
+  color: lightblue;
+  text-decoration: underline;
 }
 
 a:hover {
