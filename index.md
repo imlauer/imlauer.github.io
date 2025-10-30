@@ -188,7 +188,7 @@ All musicians are narcissists who live off of attention.
 
 "Look at me, look at me! I'm playing the guitar, I'm singing, I'm playing my instrument." That's the attitude of musicians. 
 
-* Open directory with a lot of music: [http://www.ashleecadell.com/xyzstorelibrary/](http://www.ashleecadell.com/xyzstorelibrary/)
+* [Open directory with a lot of music](http://www.ashleecadell.com/xyzstorelibrary/)
 
 ---
 
