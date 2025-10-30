@@ -14,6 +14,8 @@ Here is a photo of [me](https://ibb.co/d4zGhCTT).
 
 #### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are ads companies not "tech" companies. 
 
+The biggest problems are overpopulation and zero-sum games.
+
 I want money. I have high TC. I get big compensation. I advance in my career. I have many business opportunity. I am senior employee. I have many reports. I have big package. I am important. I fly on private jet. I party with model. I go to prestigious school. I have piece of paper with school logo. I think people still have no idea how fake the US economy is, and how bad it will get over the next 20 years. I used to think that this was just a phenomenon in tech, but now tech is everything. If nobody is creating the value and everyone is trying to cannibalize, eventually there is nothing left.
 
 ---
@@ -28,6 +30,7 @@ I want money. I have high TC. I get big compensation. I advance in my career. I 
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://redirect.invidious.io/embed/-v8pD0d5Bmk).
 * Society would be better if we abolished academic certificates.
 * The entire educational system is a scam because no matter what job you do, you're always going to encounter a problem and have to study on your own. Nobody can teach you everything in life. The educational system and public universities are a pyramid scheme.
+* I agree with Richard Stalman on witch hunt: [https://stallman.org/articles/witch-hunt.html](https://stallman.org/articles/witch-hunt.html)
 * **Financing with advertising is equivalent to financing with taxes**. 
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * Politics is for losers.
