@@ -137,6 +137,7 @@ sudo chmod 666 /dev/input/event*
     *   **`qutebrowser` (with `eglfs`):**  
         Or configure the `QT_QPA_PLATFORM` environment variable as indicated above.  
         *   **Copy/Paste in `qutebrowser`**: You can use `privatebin` to copy text from `qutebrowser`, then access the URL and save the file.  
+    *   **`angelfish:`** It can be used with `eglfs`, although it did not work with `linuxfb` in one instance.   
     *   **`falkon`:**  
         *   It can be used with `eglfs`, although it did not work with `linuxfb` in one instance.  
         *   I use **Android as my User-Agent**: For pages to load faster:  
