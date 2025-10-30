@@ -253,7 +253,7 @@ During my free time, I like working on various technology and non-technology pro
    
 #### If you're a billionaire and want to give me 4 kg of gold (enough to make me financially independent for the rest of my life) that would be nice.
 
-#### BTC: [bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3](https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3)
+#### BTC: bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3 ([blockchain explorer](https://www.blockchain.com/explorer/addresses/btc/bc1qkwy9z2x669nggu6cex4je29wky8ydc32a5g7l3))
 #### [PayPal](https://www.paypal.com/donate/?hosted_button_id=ZKNQDQU39YZR6)
 #### [KoFi](https://ko-fi.com/i1andres)
 #### [Donate me 5 USD on MercadoPago](https://mpago.la/2SQubGu)
