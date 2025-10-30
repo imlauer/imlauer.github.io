@@ -32,7 +32,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * I agree with Richard Stalman on witch hunt: [https://stallman.org/articles/witch-hunt.html](https://stallman.org/articles/witch-hunt.html)
 * **Financing with advertising is equivalent to financing with taxes**. 
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
-* Politics is for losers.
+* I support the [motherfuckingwebsite](https://rightdao.com/search?q=motherfucking+website) series.
 * You're your 5 closest friends.
 * **The best method to find out if a website is really free: use Tor and disable JavaScript and see if you can still use it.**
 * COVID-19 pandemic was a planned laboratory creation: Deaths from nukes: 226,000 - "Deaths" from COVID: 3,250,648. Complete nonsense.
