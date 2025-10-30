@@ -14,7 +14,7 @@ Here is a photo of [me](https://ibb.co/d4zGhCTT).
 
 #### Rule number 1: don't be a sellout. Money is fake and you can't buy a country's sovereignty. Don't change your way of thinking for money. Like Facebook employees who sell their soul to fry on private jets. Facebook, Google, Amazon, Spotify are ads companies not "tech" companies. 
 
-The biggest problems are overpopulation and zero-sum games.
+The biggest problems are [overpopulation](https://stallman.org/articles/children.html) and [zero-sum games](https://ibb.co/Rkm9JC39).
 
 _I want money. I have high TC. I get big compensation. I advance in my career. I have many business opportunity. I am senior employee. I have many reports. I have big package. I am important. I fly on private jet. I party with model. I go to prestigious school. I have piece of paper with school logo. I think people still have no idea how fake the US economy is, and how bad it will get over the next 20 years. I used to think that this was just a phenomenon in tech, but now tech is everything. If nobody is creating the value and everyone is trying to cannibalize, eventually there is nothing left._ - George Hotz mocking zero sum games.
 
