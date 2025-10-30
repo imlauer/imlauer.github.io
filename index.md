@@ -2,7 +2,7 @@
 title: Andres Imlauer's Personal Page
 ---
 
-I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). Now I'm studying electricity.
+I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). I once found a SQL Injection vuln on the old website. Now I'm studying electricity.
    
 My online nicknames are esotericwarfare, atavistic11.   
    
@@ -20,7 +20,7 @@ I want money. I have high TC. I get big compensation. I advance in my career. I 
 
 ---
 
-#### Some facts:
+## Some facts:
    
 * I used to study computer science but dropped it.   
 * Capitalism is going to die unless we ban [ads](https://wrongthink.link/posts/advertising-cancer-on-society/) and separate of church and state including universities.
@@ -96,7 +96,8 @@ School blocks real education.
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
 * For Zoomers a mail client is an "app".   
 * VPNs are a scam: They could potentially analyze and log all your traffic and sell it to third parties, governments, three letter agencies, etc. Use Tor instead. VPNs might be useful when you need to use a service that blocks Tor, but the rest of the time it’s advisable to use Tor and not a VPN. If you still want to use want, remember to pay with cash or Monero.
-* I agree with TastyFish on his opinions about [tor](http://www.tastyfish.cz/lrs/tor.html).
+* I agree with TastyFish on his opinions about [Tor](https://web.archive.org/web/20251027160903/https://www.tastyfish.cz/lrs/tor.html) and [witch hunt](https://web.archive.org/web/20251027160903/https://www.tastyfish.cz/lrs/pedophilia.html)
+* I love vim.
 
 ---
 
@@ -245,7 +246,7 @@ During my free time, I like working on various technology and non-technology pro
 * **email client**: neomutt with mw (mutt wizard by Luke Smith).   
 * **video editor**: ffmpeg.   
 * **audio editor**: Audacity.   
-* **screen recording**: ffmpeg, Simple Screen Recorder, sometimes I use obs (these idiots signed the letter against Richard Stallman) :(
+* **screen recording**: ffmpeg, Simple Screen Recorder, sometimes I use OBS Studio (these idiots signed the letter against Richard Stallman) :(
 * **programming**: C99, Python, bash.   
 * **personal transport**: a bike.   
    
