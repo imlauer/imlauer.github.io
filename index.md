@@ -2,7 +2,7 @@
 title: Andres Imlauer's Personal Page
 ---
 
-I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). I once found a SQL Injection vuln on the old website. Now I'm studying electricity.
+I was born in Argentina. I studied Computer Science from [Universidad Nacional de Rosario(Spanish)](https://dcc.fceia.unr.edu.ar/es/lcc/materias). I once found a SQL Injection vulnerability on the old website. Now I'm studying electricity.
    
 My online nicknames are esotericwarfare, atavistic11.   
    
