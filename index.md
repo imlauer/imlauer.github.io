@@ -16,7 +16,7 @@ Here is a photo of [me](https://ibb.co/d4zGhCTT).
 
 The biggest problems are overpopulation and zero-sum games.
 
-I want money. I have high TC. I get big compensation. I advance in my career. I have many business opportunity. I am senior employee. I have many reports. I have big package. I am important. I fly on private jet. I party with model. I go to prestigious school. I have piece of paper with school logo. I think people still have no idea how fake the US economy is, and how bad it will get over the next 20 years. I used to think that this was just a phenomenon in tech, but now tech is everything. If nobody is creating the value and everyone is trying to cannibalize, eventually there is nothing left.
+_I want money. I have high TC. I get big compensation. I advance in my career. I have many business opportunity. I am senior employee. I have many reports. I have big package. I am important. I fly on private jet. I party with model. I go to prestigious school. I have piece of paper with school logo. I think people still have no idea how fake the US economy is, and how bad it will get over the next 20 years. I used to think that this was just a phenomenon in tech, but now tech is everything. If nobody is creating the value and everyone is trying to cannibalize, eventually there is nothing left._ - George Hotz mocking zero sum games.
 
 ---
 
