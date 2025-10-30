@@ -26,7 +26,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * Capitalism is going to die unless we ban [ads](https://wrongthink.link/posts/advertising-cancer-on-society/) and separate of church and state including universities and tax trading: [Pieces of Shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html).
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 *   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people.
-* The public university should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
+* Public education should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://redirect.invidious.io/embed/-v8pD0d5Bmk).
 * Society would be better if we abolished academic certificates.
 * I agree with Richard Stalman on witch hunt: [https://stallman.org/articles/witch-hunt.html](https://stallman.org/articles/witch-hunt.html)
