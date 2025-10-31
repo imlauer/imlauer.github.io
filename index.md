@@ -26,6 +26,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * Capitalism is going to die unless we ban [ads](https://wrongthink.link/posts/advertising-cancer-on-society/) and separate of church and state including universities and tax trading: [Pieces of Shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html).
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 *   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people. Marketing and advertising is worse than [pedophilia](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/pedophilia.html).  
+* There's no privacy on the Internet the FBI and NSA knows everything you do online and offline even if you use Tor, [Lokinet](https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/), [I2P](https://geti2p.net/en/), [Freenet](https://www.hyphanet.org/index.html), [ZeroNet](https://zeronet.io/), etc. They want you to believe that so they can spy on you.
 * Public education should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://redirect.invidious.io/embed/-v8pD0d5Bmk).
 * Society would be better if we abolished academic certificates.
@@ -93,10 +94,10 @@ School blocks real education.
 * I love all that lives, even those that cause me pain.
 * Wanna learn about finances?: [http://wermenh.com/fay/index.html](http://wermenh.com/fay/index.html)
 * Due to my laptop's slow performance, I spoof my User-Agent to make it seem like I'm accessing from an Android device, which allows me to load resource-intensive sites like Twitch and YouTube more quickly.
-* For Zoomers a mail client is an "app".   
-* VPNs are a scam: They could potentially analyze and log all your traffic and sell it to third parties, governments, three letter agencies, etc. Use Tor instead. VPNs might be useful when you need to use a service that blocks Tor, but the rest of the time it’s advisable to use Tor and not a VPN. If you still want to use want, remember to pay with cash or Monero.
+* **VPNs are a scam**: They could potentially analyze and log all your traffic and sell it to third parties, governments, three letter agencies, etc. Use Tor instead. VPNs might be useful when you need to use a service that blocks Tor, but the rest of the time it’s advisable to use Tor and not a VPN. If you still want to use want, remember to pay with cash or Monero.
 * I agree with TastyFish on his opinions about [Tor](https://web.archive.org/web/20251027160903/https://www.tastyfish.cz/lrs/tor.html) and [witch hunt](https://web.archive.org/web/20251027160903/https://www.tastyfish.cz/lrs/pedophilia.html)
 * I love vim.
+* For Zoomers a mail client is an "app".   
 
 ---
 
