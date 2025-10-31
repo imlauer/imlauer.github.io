@@ -24,6 +24,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
    
 * I used to study computer science but dropped it.   
 * Capitalism is going to die unless we ban [ads](https://wrongthink.link/posts/advertising-cancer-on-society/) and separate of church and state including universities and tax trading: [Pieces of Shit](https://geohot.github.io/blog/jekyll/update/2021/06/23/pieces-of-shit.html).
+* Gamblinig is bad for the economy: [Coffeezilla](https://redirect.invidious.io/watch?v=9Ii1ROzeSwU), [GeoHot](https://geohot.github.io/blog/jekyll/update/2025/10/24/gambling-is-bad.html).
 * I support [Wireheading city](https://geohot.github.io/blog/jekyll/update/2023/04/11/wireheading-city.html).   
 *   **Advertising should be illegal** because it is a form of abusing because it takes advantage of stupid people. Marketing and advertising is worse than [pedophilia](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/pedophilia.html).  
 * There's no privacy on the Internet the FBI and NSA knows everything you do online and offline even if you use Tor, [Lokinet](https://imlauera.github.io/post/como-conectarse-lokinet-en-gnulinux/), [I2P](https://geti2p.net/en/), [Freenet](https://www.hyphanet.org/index.html), [ZeroNet](https://zeronet.io/), etc. They want you to believe that so they can spy on you.
