@@ -8,7 +8,7 @@ My online nicknames are esotericwarfare, atavistic11.
    
 This site works best without JavaScript. Please consider downgrading to a less modern browser. I shit on your privacy.
 
-Here is a photo of [me](https://ibb.co/d4zGhCTT).
+Here is a photo of **[me](https://ibb.co/d4zGhCTT)**.
 
 ---
 
@@ -30,7 +30,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * Public education should be developing decentralized, free software to evade corrupt governments and decentralized cryptocurrencies—alternatives to make us free. Not forcing us to take all those exams that serve no purpose other than putting a logo on a piece of paper. That’s academic bullshit.
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://redirect.invidious.io/embed/-v8pD0d5Bmk).
 * Society would be better if we abolished academic certificates.
-* I agree with Richard Stalman on [witch hunt](https://stallman.org/articles/witch-hunt.html)
+* I agree with Richard Stalman on [witch hunt](https://stallman.org/articles/witch-hunt.html).
 * **Financing with advertising is equivalent to financing with taxes**. 
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.   
 * I support the [motherfuckingwebsite](https://wiby.me/?q=motherfucking%20website) series.
