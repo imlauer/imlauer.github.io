@@ -46,6 +46,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * **Voting is manipulation**: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.
 * Modern games were created to sell expensive hardware to dumb people, see [nethack](https://github.com/NetHack/NetHack), [DOOM](http://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/anarch.html), Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM, Anarch, Diablo I, 0ad have SDL support.
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://redirect.invidious.io/embed/6Ptopme84Vw) ).
+* If you wanna be smart read the [LRS Wiki](https://web.archive.org/web/20250829232245/http://www.tastyfish.cz/lrs/wiki_tldr.html).
 School blocks real education.   
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )   
 * Everyone oppresses everyone else: human existence itself is pure egoism.    
@@ -178,7 +179,7 @@ Every single one of them.
 * [Luke Smith](https://lukesmith.xyz).
 * Reckful: [renting vs buying a house](https://redirect.invidious.io/embed/DpcMl9XP55M), [Reckful Archive](https://reckful-archive.org/).
 * Sean Strickland: [Nitter(Twitter)](https://nitter.net/sstricklandmma), [RSS](https://xcancel.com/sstricklandmma/rss): _"I have to remind myself that business shapes society and business is marketing to a lower IQ, shorter attention span demographic Days of complexity are over. If we cant swipe through a 15 second video selected by mass data harvesting to give you a happy hit we dont want it"_ ([Read the tweet on Nitter](https://nitter.net/SStricklandMMA/status/1977847462334431693))([Archive](https://archive.is/DQ0vX)).
-* TastyFish: [www.tastyfish.cz](http://www.tastyfish.cz), [Less Retarded Society Wiki](http://www.tastyfish.cz/lrs/wiki_tldr.html)
+* TastyFish: [www.tastyfish.cz](http://www.tastyfish.cz), [Less Retarded Society Wiki](https://web.archive.org/web/20250829232245/http://www.tastyfish.cz/lrs/wiki_tldr.html)
 * Richard Stallman: [RMS](https://stallman.org), [RMS Sexy](https://rms.sexy) and [political news](https://www.stallman.org/archives/)([RSS](https://stallman.org/rss/rss.xml)).
 
 ---
