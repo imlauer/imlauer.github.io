@@ -45,7 +45,7 @@ This will automatically start `tmux` in the tty number 1 (a terminal multiplexer
 #### **2. Web Browsing from TTY**  
   
 *   **Recommended Text Browsers:**  
-    *   **w3m**: This browser supports displaying images directly in the console without an additional tool **you can render JavaScript only sites** using headless chromium save it as shell script and set it as external browser in w3m: `chromium --headless $1 --disable-gpu --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | sed "s|<head>|<head><base href=$1>|g" | w3m -T text/html`. Scale of image %10. I use w3m from rkta with gemini and gopherhole support try to enter this URL to check if your web browser supports gopher: [gopher](gopher://self.tastyfish.cz/1).          
+    *   **w3m**: This browser supports displaying images directly in the console without an additional tool **you can render JavaScript only sites** using headless chromium save it as shell script and set it as external browser in w3m: `chromium --proxy-server="socks://localhost:9050" --headless $1 --disable-gpu --run-all-compositor-stages-before-draw --dump-dom --virtual-time-budget=10000 | sed "s|<head>|<head><base href=$1>|g" | w3m -T text/html`. Scale of image %10. I use w3m from rkta with gemini and gopherhole support try to enter this URL to check if your web browser supports gopher: [gopher](gopher://self.tastyfish.cz/1).          
     *   **[chawan](https://sr.ht/~bptato/chawan/)**.
     *   **Install `fbida`**:  
   
