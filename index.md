@@ -64,7 +64,7 @@ School blocks real education.
 * Most jobs are fake, so don't worry AI won't take away your "job".
 * "Skill before certification" - [George Hotz - How to not be a noob](https://redirect.invidious.io/embed/-v8pD0d5Bmk)
 * Watching porn, smoking cigarettes, or overeating is a way of cheating instead of addressing the underlying problem. **If you're fat you need to lose weight**.
-* **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([In Spanish](/rent_seeking.html)).
+* **[Zero sum games are bad](https://ibb.co/Rkm9JC39)([Archive in case you're on Tor](https://archive.is/vyaZd)): patent trolls, finance, sales, real estate, tip screen design, fake jobs, social media influencers, advertising, [Rent-seeking](https://web.archive.org/web/20220523172822/https://infogalactic.com/info/Rent-seeking)** ([In Spanish](/rent_seeking.html)). [In this video George Hotz starts talking bad about HFT](https://www.youtube.com/embed/Ol485J8biQM).
 * Housing is a moral issue: No one needs three homes while others have none. Overhousing is greed — put your extra properties back on the market.
 * Investment firms are parasites: They don’t build homes; they buy them to drain rent from workers. Flippers and funds inflate prices and call it "business".
 * End infinite rent: After paying the home’s value in rent, ownership should transfer. Rent should build equity, not vanish.
