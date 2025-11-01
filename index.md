@@ -277,12 +277,12 @@ During my free time, I like working on various technology and non-technology pro
 * [My Blog](https://imlauera.github.io)     
 * [TastyFish Living in Caravan](https://redirect.invidious.io/embed/8qvddkIgo4A)
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)  
-* [LRS Wiki by TastyFish](http://www.tastyfish.cz/lrs/main.html)
+* [LRS Wiki by TastyFish](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/main.html)
 * [DefectiveByDesign](https://www.defectivebydesign.org/)
 * [FSF - Twitter](https://www.fsf.org/twitter)
 * [FSF - Windows](https://www.fsf.org/windows)
 * [Download FSF Wiki](https://static.fsf.org/nosvn/directory/directory.xml.bz2)
-* [Gopher - LRS Wiki](http://www.tastyfish.cz/lrs/gopher.html)
+* [Gopher - LRS Wiki](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/gopher.html)
 * [Gopher - Search Engine](gopher://gopher.floodgap.com/7/v2/vs)
 * [Gopher - Circumlunar Space](gopher://circumlunar.space:70/1)
 * [YaCy a decentralized P2P search engine that can run fully offline with own index.](https://yacy.net/)
@@ -330,7 +330,7 @@ During my free time, I like working on various technology and non-technology pro
 * [Curso Electricidad](https://cursoelectricidad.github.io/)     
 * [Reparacion Electromesticos](https://cursoelectrodomesticos.github.io/)     
 * [Aire Acondicionado](https://cursoaa.github.io/)     
-* [Tastyfish talking about freedom(suckless software)](https://redirect.invidious.io/embed/SJmEWLGpqeY). This is where I found the video: [tastyfish works](http://www.tastyfish.cz/works.html).  
+* [Tastyfish talking about freedom(suckless software)](https://redirect.invidious.io/embed/SJmEWLGpqeY). This is where I found the video: [tastyfish works](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/works.html).  
 * [Tor neocities](https://neocities.org/browse?tag=tor)
 * [Azidal](https://azidal.neocities.org/)
 * [Tor Email](https://onionmail.org/)
