@@ -266,9 +266,10 @@ During my free time, I like working on various technology and non-technology pro
 #### Some links    
      
 * Use [wiby.me](https://wiby.me) or [z00m](http://z00m.ws)
-* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)  
-* Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).  
-* good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net)  
+* [TastyFish Startpage](http://www.tastyfish.cz/startpage.html)     
+* Open directory search: [https://lumpysoft.com](https://lumpysoft.com), [https://eyeofjustice.com/od](https://eyeofjustice.com/od), [https://opendirsearch.abifog.com](https://opendirsearch.abifog.com), [https://odcrawler.xyz ](https://odcrawler.xyz).    
+* good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net).    
+* [Coronavirus scare and the blueprint for slavery](https://digdeeper.love/articles/corona.xhtml)  
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)  
 * [This guy is funny (Spanish)](https://redirect.invidious.io/embed/ymT1y9WiyM0)
 * [My Blog](https://imlauera.github.io)     
