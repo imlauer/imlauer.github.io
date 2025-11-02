@@ -34,6 +34,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * Public Universities are taxpayer-funded scams: [how not to be a noob by george hotz](https://redirect.invidious.io/embed/-v8pD0d5Bmk).   
 * Society would be better if we abolished academic certificates.   
 * Games were invented to sell expensive computers to stupid people.   
+* [Good things don't need promotion (it's true even if you disagree). The bigger the promotion, the bigger shit it is](https://web.archive.org/web/20250830142410/https://www.tastyfish.cz/lrs/marketing.html).   
 * I agree with Richard Stalman on [witch hunt](https://stallman.org/articles/witch-hunt.html).   
 * **Financing with advertising is equivalent to financing with taxes**.    
 * Javascript was a mistake: Modern frontends so are bloated due to the amount of spying they do and the extreme amount of advertising they display. The solution to this is to disable JavaScript or use a browser without JavaScript support like w3m, links, netsurf.      
