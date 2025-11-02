@@ -50,7 +50,7 @@ _I want money. I have high TC. I get big compensation. I advance in my career. I
 * **Voting is manipulation**: zero-sum games are the problem and I don't see any politician talking about it. Additionally, most working people don't have the time to stay informed about the news, so they will always end up voting wrong.   
 * Modern games were created to sell expensive hardware to dumb people, see [nethack](https://github.com/NetHack/NetHack), [DOOM](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/doom.html) and [Anarch by tastyfish](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/anarch.html), Diablo I, 0ad those are real games! I can play them without have to run Xorg or Wayland just from the TTY. Nethack is a text base console game. DOOM, Anarch, Diablo I, 0ad have SDL support.   
 * Schools don't measure intelligence, they measure "alignment with their interests" and train you for "slavery". True prodigies, like programmers and chess masters, simply drop out. ( [Tsoding](https://redirect.invidious.io/embed/6Ptopme84Vw) ).   
-* If you wanna be smart read the [LRS Wiki](https://web.archive.org/web/20250829232245/http://www.tastyfish.cz/lrs/wiki_tldr.html).   
+* If you wanna be smart read the [LRS Wiki](https://web.archive.org/web/20250829232245/http://www.tastyfish.cz/lrs/wiki_tldr.html) but don't fall for the communism propaganda.  
 School blocks real education.      
 * Work is better than school ( [The toxic schooling system](https://digdeeper.love/articles/school.xhtml) )      
 * Everyone oppresses everyone else: human existence itself is pure egoism.       
