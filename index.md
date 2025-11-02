@@ -175,7 +175,7 @@ Every single one of them.
 1. [collective marshmallow test](https://geohot.github.io/blog/jekyll/update/2024/11/13/collective-marshmallow-test.html)      
 1. [a way forward](https://geohot.github.io/blog/jekyll/update/2025/04/22/a-way-forward.html)   
 1. [Pathetic Losers](https://geohot.github.io//blog/jekyll/update/2025/10/15/pathetic-losers.html)   
-1. [Three class society](https://geohot.github.io/blog/jekyll/update/2023/10/03/three-class-society.html)   
+1. [Three class society](https://geohot.github.io/blog/jekyll/update/2023/10/03/three-class-society.html) - "_If you want a life provided to you by the government, I’m okay with paying for this. However, if you choose this life, I don’t want to see you, I don’t want you in my city, I don’t want you voting, I pay for you, but nothing more. I don’t want you influencing society any more than a foreigner. This is the only way that a free democratic society can continue to exist_".
       
 ---   
    
