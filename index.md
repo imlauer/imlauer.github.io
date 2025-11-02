@@ -279,6 +279,7 @@ During my free time, I like working on various technology and non-technology pro
 * [My Blog](https://imlauera.github.io)        
 * [TastyFish Living in Caravan](https://redirect.invidious.io/embed/8qvddkIgo4A)   
 * [Thinking without google](http://s-config.com/thinking-without-google-welcome-old-web/)     
+* [Find leaner, less-bloated software](https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md)
 * [LRS Wiki by TastyFish](https://web.archive.org/web/20251027161132/https://www.tastyfish.cz/lrs/main.html)   
 * [DefectiveByDesign](https://www.defectivebydesign.org/)   
 * [FSF - Twitter](https://www.fsf.org/twitter)   
