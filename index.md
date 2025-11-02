@@ -275,6 +275,7 @@ During my free time, I like working on various technology and non-technology pro
 * good source for proxies (you don't need vpn, select socks5 and high anonymous or use tor): [https://proxydb.net](https://proxydb.net).       
 * [Coronavirus scare and the blueprint for slavery](https://digdeeper.love/articles/corona.xhtml)     
 * [Free Software hasn't won](https://dorotac.eu/posts/fosswon/)     
+* [Denshi links](https://denshi.org/links/)
 * [This guy is funny (Spanish)](https://redirect.invidious.io/embed/ymT1y9WiyM0)   
 * [My Blog](https://imlauera.github.io)        
 * [TastyFish Living in Caravan](https://redirect.invidious.io/embed/8qvddkIgo4A)   
