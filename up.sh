@@ -6,7 +6,7 @@ exit;
 fi
 
 for html in *.html; do 
-	cp $html neocites;
+	cp $html neocities;
 done
 #for markdown in *.md; do 
 #	filename_only="${markdown%.*}"
