@@ -96,8 +96,24 @@
 weight of Xorg or Wayland</h1>
 <p class="date">2025-09-13</p>
 </header>
-<p>Currently, I’m only using EGLFS with ttyd, I start my browser with
-the following script:</p>
+<p>Right now I'm using w3m, and lynx. Lynx has a retarded configuration so I have to change it a little bit: </p>
+
+<p>set Advanced mode (user_mode=ADVANCED) to get more screen real-estate</p>
+
+<p>Make navigation easier</p>
+<ul>
+     <li> use vi keys for navigation (vi_keys=on)</li>
+     <li> turn on TEXTFIELDS_NEED_ACTIVATION so use of the vi keys doesn't get you stuck in text-input fields  </li>
+     <li> set keypad_mode=LINKS_AND_FIELDS_ARE_NUMBERED</li>
+     <li> I personally also like NUMBER_LINKS_ON_LEFT:FALSE & NUMBER_FIELDS_ON_LEFT:FALSE to put the link-numbers after the links rather than before</li>
+     </ul>
+
+<p>Make images easier to work with</p>
+     <ul>
+     <li>set MAKE_LINKS_FOR_ALL_IMAGES if it's not already set<li>
+     <li>set verbose_images=on</li>
+     </ul>
+<p>Currently, I’m only using EGLFS with ttyd, I start my browser with the following script:</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> chmod 666 /dev/input/event<span class="pp">*</span></span>
