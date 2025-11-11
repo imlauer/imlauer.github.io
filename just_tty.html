@@ -116,6 +116,15 @@ weight of Xorg or Wayland</h1>
      <li>set verbose_images=on</li>
      </ul>
 <p>Currently, I’m only using EGLFS with ttyd, I start my browser with the following script:</p>
+
+<p>
+EXTERNAL:http:w3m %s:TRUE
+EXTERNAL:http:cha %s:TRUE
+EXTERNAL:http:mpv %s:TRUE
+EXTERNAL:http:netsurf-fb -f sdl -w 1366 -h 768 %s:TRUE
+EXTERNAL:http:falkon %s:TRUE
+EXTERNAL:http:angelfish %s:TRUE
+</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> chmod 666 /dev/input/event<span class="pp">*</span></span>
