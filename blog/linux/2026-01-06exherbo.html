@@ -15,29 +15,29 @@
 
 <p>Follow my KISS Linux Guide: <a href="https://imlauera.github.io/kisslinux/">https://imlauera.github.io/kisslinux/</a></p>
 
-<pre>
-[root@arch gentoo]# unmout -R .
-bash: unmout: command not found
-[root@arch gentoo]# ..
-bash: ..: command not found
-[root@arch gentoo]# umount -R .
-umount: /mnt/gentoo: target is busy.
-[root@arch gentoo]# cd ..
-[root@arch mnt]# umount -R gentoo
-[root@arch mnt]# mount /dev/sda3 /mnt/gentoo/
-[root@arch mnt]# umount gentoo 
-[root@arch mnt]# mount --mkdir /dev/sda3 /mnt/exherbo
-[root@arch mnt]# mount -o rbind /dev /mnt/exherbo/dev/
-[root@arch mnt]# mount -o rbind /sys /mnt/exherbo/sys/
-[root@arch mnt]# mount -t proc none /mnt/exherbo/proc/
-[root@arch mnt]# mount /dev/sda1 /mnt/exherbo/boot/
-[root@arch mnt]# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf
-[root@arch mnt]# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash
-arch / # source /etc/profile
-export PS1="(chroot) $PS1"
-(chroot) arch / # cave resolve -x sys-apps/systemd
-Resolving: 1 steps, 3 metadata (3 arbor) 
-</pre>
+<code>
+[root@arch gentoo]# unmout -R .<br>
+bash: unmout: command not found<br>
+[root@arch gentoo]# ..<br>  
+bash: ..: command not found<br>
+[root@arch gentoo]# umount -R .<br>
+umount: /mnt/gentoo: target is busy.<br>
+[root@arch gentoo]# cd ..<br>
+[root@arch mnt]# umount -R gentoo<br>
+[root@arch mnt]# mount /dev/sda3 /mnt/gentoo/<br>
+[root@arch mnt]# umount gentoo <br>
+[root@arch mnt]# mount --mkdir /dev/sda3 /mnt/exherbo<br>
+[root@arch mnt]# mount -o rbind /dev /mnt/exherbo/dev/<br>
+[root@arch mnt]# mount -o rbind /sys /mnt/exherbo/sys/<br>
+[root@arch mnt]# mount -t proc none /mnt/exherbo/proc/<br>
+[root@arch mnt]# mount /dev/sda1 /mnt/exherbo/boot/<br>
+[root@arch mnt]# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf<br>
+[root@arch mnt]# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash<br>
+arch / # source /etc/profile<br>
+export PS1="(chroot) $PS1"<br>
+(chroot) arch / # cave resolve -x sys-apps/systemd<br>
+Resolving: 1 steps, 3 metadata (3 arbor) <br>
+</code>
 
 <hr>
 
