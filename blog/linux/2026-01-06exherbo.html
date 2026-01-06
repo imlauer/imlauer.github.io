@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<a href="../index.html">⬆️  Up</a><br><hr>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+	  <link rel="stylesheet" href="../../style.css" />
+
+	
+	<title>Exherbo - Install</title>
+</head>
+<body>
+
+<p>Follow my KISS Linux Guide: <a href="https://imlauera.github.io/kisslinux/">https://imlauera.github.io/kisslinux/</a></p>
+
+<pre>
+[root@arch gentoo]# unmout -R .
+bash: unmout: command not found
+[root@arch gentoo]# ..
+bash: ..: command not found
+[root@arch gentoo]# umount -R .
+umount: /mnt/gentoo: target is busy.
+[root@arch gentoo]# cd ..
+[root@arch mnt]# umount -R gentoo
+[root@arch mnt]# mount /dev/sda3 /mnt/gentoo/
+[root@arch mnt]# umount gentoo 
+[root@arch mnt]# mount --mkdir /dev/sda3 /mnt/exherbo
+[root@arch mnt]# mount -o rbind /dev /mnt/exherbo/dev/
+[root@arch mnt]# mount -o rbind /sys /mnt/exherbo/sys/
+[root@arch mnt]# mount -t proc none /mnt/exherbo/proc/
+[root@arch mnt]# mount /dev/sda1 /mnt/exherbo/boot/
+[root@arch mnt]# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf
+[root@arch mnt]# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash
+arch / # source /etc/profile
+export PS1="(chroot) $PS1"
+(chroot) arch / # cave resolve -x sys-apps/systemd
+Resolving: 1 steps, 3 metadata (3 arbor) 
+</pre>
+
+<hr>
+
+</body>
+</html>
