@@ -5,9 +5,10 @@ echo "Falta commit";
 exit;
 fi
 
-for html in *.html; do 
-	cp $html neocities;
-done
+#for html in *.html; do 
+#	cp $html neocities;
+#done
+
 #for markdown in *.md; do 
 #	filename_only="${markdown%.*}"
 #	#(
