@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<a href="../index.html">⬆️  Up</a><br><hr>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+	  <link rel="stylesheet" href="../../style.css" />
+
+	
+	<title>NSA: POPCOUNT</title>
+</head>
+<body>
+
+<p>Source: <a href="https://vaibhavsagar.com/blog/2019/09/08/popcount">https://vaibhavsagar.com/blog/2019/09/08/popcount</a></p>
+
+<hr>
+
+<h1>POPCOUNT and the NSA</h1>
+
+<hr>
+
+
+<p><strong><code>popcount</code></strong> is a CPU instruction whose <strong>only purpose</strong> is
+<strong>to count how many bits are set to <code>1</code> inside a binary word</strong>.</p>
+
+<pre><code>popcount(00100110) == 3   // because there are three “1” bits
+popcount(01100000) == 2   // because there are two “1” bits</code></pre>
+
+<p>Each bit that is set to <code>1</code> is added to the total.
+(<a href="https://vaibhavsagar.com/blog/2019/09/08/popcount/">vaibhavsagar.com</a>)</p>
+
+<p>This <strong>is literally all it does</strong>: it counts 1s.
+There is nothing magical hidden beyond that.
+(<a href="https://tech-in-japan.github.io/articles/467083/">tech-in-japan.github.io</a>)</p>
+
+<hr>
+
+<h2>💻 Why does this instruction exist?</h2>
+
+<h3>🧮 Real-world uses of <code>popcount</code></h3>
+
+<ol>
+    <li>
+        <strong>Cryptography and data analysis</strong><br>
+        Determining how many bits are active in encrypted or encoded data is part of analysis/attack algorithms.
+    </li>
+    <li>
+        <strong>Error detection and correction</strong><br>
+        The Hamming distance is calculated as:
+        <pre><code>popcount(x XOR y)</code></pre>
+    </li>
+    <li>
+        <strong>AI and binary neural networks</strong><br>
+        Used for efficient inner products.
+    </li>
+    <li>
+        <strong>Chess engines</strong><br>
+        64-bit bitboards → pure popcount.
+    </li>
+    <li>
+        <strong>Data structures and compression</strong><br>
+        Hashing, compression, and compact structures.
+    </li>
+</ol>
+
+<hr>
+
+<h2>⚙️ How does it work internally?</h2>
+
+<p>There is no magic: each bit is checked and counted.</p>
+
+<pre><code class="language-c">int popcount(value) {
+    int count = 0;
+    for (i = 0; i < bits_in_word; i++) {
+        if ((value >> i) & 1 == 1) count++;
+    }
+    return count;
+}</code></pre>
+
+<p>In hardware it can run in <em>a single cycle</em>.
+(<a href="https://www.felixcloutier.com/x86/popcnt">felixcloutier.com</a>)</p>
+
+<hr>
+
+<h2>🧾 Real instruction (x86)</h2>
+
+<ul>
+    <li>takes a source value</li>
+    <li>counts bits set to 1</li>
+    <li>returns the number</li>
+</ul>
+
+<pre><code>dest = number of bits “1” in src</code></pre>
+
+<hr>
+
+<h2>🤔 Is it always present?</h2>
+
+<p>No. Older CPUs like the Intel Core 2 did not have it.
+(<a href="https://softwareg.com.au/en-us/blogs/computer-hardware/cpu-does-not-have-popcnt">softwareg.com.au</a>)</p>
+
+<hr>
+
+<h2>🕵️‍♂️ NSA and popcount</h2>
+
+<p>The <strong>NSA</strong> pushed the development of hardware bit counting because
+<strong>counting bits is key to cryptography and espionage</strong>.</p>
+
+<h3>🔐 Cryptography = statistics</h3>
+
+<blockquote>
+👉 Does this stream of bits actually look random?
+</blockquote>
+
+<p>This is where <code>popcount</code> comes in.</p>
+
+<h3>📊 Example</h3>
+
+<pre><code>popcount(data) / total_bits</code></pre>
+
+<p>If it doesn’t give ~50/50 → weak cipher.</p>
+
+<h3>💣 Hamming distance</h3>
+
+<pre><code>popcount(x XOR y)</code></pre>
+
+<p>If only a few bits change → bad algorithm.</p>
+
+<hr>
+
+<h2>🧠 Why hardware?</h2>
+
+<ul>
+    <li>millions of messages</li>
+    <li>real time</li>
+    <li>maximum speed</li>
+</ul>
+
+<p>Result: dedicated instructions → now in your CPU.</p>
+
+<hr>
+
+<h2>📜 Real history</h2>
+
+<p><code>popcount</code> was not created for games.
+It was created to <strong>break ciphers and spy</strong>.</p>
+
+<hr>
+
+<h2>🧠 Final summary</h2>
+
+<ul>
+    <li><code>popcount</code> = counting bits</li>
+    <li>counting bits = statistics</li>
+    <li>statistics = cryptoanalysis</li>
+    <li>cryptoanalysis = NSA</li>
+</ul>
+
+<p>Today you use it for AI or chess, but its origin is espionage.</p>
+
+<hr>
+
+<h1>Spanish</h1>
+
+<h2>🧠 ¿Qué es <em>popcount</em>?</h2>
+
+<p><strong><code>popcount</code></strong> es una instrucción de CPU cuyo <strong>único propósito</strong> es
+<strong>contar cuántos bits están en <code>1</code> dentro de una palabra binaria</strong>.</p>
+
+<pre><code>popcount(00100110) == 3   // porque hay tres bits “1”
+popcount(01100000) == 2   // porque hay dos bits “1”</code></pre>
+
+<p>Cada bit que está en <code>1</code> se suma al total.
+(<a href="https://vaibhavsagar.com/blog/2019/09/08/popcount/">vaibhavsagar.com</a>)</p>
+
+<p>Eso <strong>es literalmente todo lo que hace</strong>: cuenta 1s.
+Nada mágico escondido más allá de eso.
+(<a href="https://tech-in-japan.github.io/articles/467083/">tech-in-japan.github.io</a>)</p>
+
+<hr>
+
+<h2>💻 ¿Por qué existe esta instrucción?</h2>
+
+<h3>🧮 Usos reales de <code>popcount</code></h3>
+
+<ol>
+    <li>
+        <strong>Criptografía y análisis de datos</strong><br>
+        Determinar cuántos bits están activos en datos cifrados o codificados sirve como parte de algoritmos de análisis/ataque.
+    </li>
+    <li>
+        <strong>Errores y corrección de datos</strong><br>
+        La distancia de Hamming se calcula como:
+        <pre><code>popcount(x XOR y)</code></pre>
+    </li>
+    <li>
+        <strong>IA y redes neuronales binarias</strong><br>
+        Usado para productos internos eficientes.
+    </li>
+    <li>
+        <strong>Motores de ajedrez</strong><br>
+        Bitboards de 64 bits → popcount puro.
+    </li>
+    <li>
+        <strong>Estructuras de datos y compresión</strong><br>
+        Hashing, compresión y estructuras compactas.
+    </li>
+</ol>
+
+<hr>
+
+<h2>⚙️ ¿Cómo funciona internamente?</h2>
+
+<p>No hay magia: se revisa cada bit y se cuenta.</p>
+
+<pre><code class="language-c">int popcount(value) {
+    int count = 0;
+    for (i = 0; i < bits_in_word; i++) {
+        if ((value >> i) & 1 == 1) count++;
+    }
+    return count;
+}</code></pre>
+
+<p>En hardware puede ejecutarse en <em>un solo ciclo</em>.
+(<a href="https://www.felixcloutier.com/x86/popcnt">felixcloutier.com</a>)</p>
+
+<hr>
+
+<h2>🧾 Instrucción real (x86)</h2>
+
+<ul>
+    <li>toma un valor fuente</li>
+    <li>cuenta bits en 1</li>
+    <li>devuelve el número</li>
+</ul>
+
+<pre><code>dest = número de bits “1” de src</code></pre>
+
+<hr>
+
+<h2>🤔 ¿Siempre está presente?</h2>
+
+<p>No. CPUs viejos como Intel Core 2 no la tenían.
+(<a href="https://softwareg.com.au/en-us/blogs/computer-hardware/cpu-does-not-have-popcnt">softwareg.com.au</a>)</p>
+
+<hr>
+
+<h2>🕵️‍♂️ NSA y popcount</h2>
+
+<p>La <strong>NSA</strong> empujó el desarrollo de hardware para contar bits porque
+<strong>contar bits es clave en cripto y espionaje</strong>.</p>
+
+<h3>🔐 Criptografía = estadística</h3>
+
+<blockquote>
+👉 ¿Este flujo de bits parece realmente aleatorio?
+</blockquote>
+
+<p>Ahí entra <code>popcount</code>.</p>
+
+<h3>📊 Ejemplo</h3>
+
+<pre><code>popcount(datos) / total_bits</code></pre>
+
+<p>Si no da ~50/50 → cifrado débil.</p>
+
+<h3>💣 Distancia de Hamming</h3>
+
+<pre><code>popcount(x XOR y)</code></pre>
+
+<p>Si pocos bits cambian → algoritmo malo.</p>
+
+<hr>
+
+<h2>🧠 ¿Por qué en hardware?</h2>
+
+<ul>
+    <li>millones de mensajes</li>
+    <li>tiempo real</li>
+    <li>máxima velocidad</li>
+</ul>
+
+<p>Resultado: instrucciones dedicadas → hoy en tu CPU.</p>
+
+<hr>
+
+<h2>📜 Historia real</h2>
+
+<p><code>popcount</code> no nació para juegos.
+Nació para <strong>romper cifrados y espiar</strong>.</p>
+
+<hr>
+
+<h2>🧠 Resumen final</h2>
+
+<ul>
+    <li><code>popcount</code> = contar bits</li>
+    <li>contar bits = estadística</li>
+    <li>estadística = criptoanálisis</li>
+    <li>criptoanálisis = NSA</li>
+</ul>
+
+<p>Hoy lo usás para IA o ajedrez, pero el origen es espionaje.</p>
+
+
+</body>
+</html>
