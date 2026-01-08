@@ -4,8 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-	  <link rel="stylesheet" href="../../style.css" />
-
+	<link rel="stylesheet" href="../../style.css" />
 	
 	<title>Exherbo - Install</title>
 </head>
@@ -13,7 +12,7 @@
 
 <p><a href="https://www.exherbo.org/docs/install-guide.html">https://www.exherbo.org/docs/install-guide.html</a></p>
 
-<p>It uses ptr-get that's part of CRUX not exherbo. <a href="https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/">https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/</a></p>
+<p>This guide uses ptr-get that's part of CRUX not exherbo. <a href="https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/">https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/</a></p>
 
 <p><a href="https://alexherbo2.github.io/wiki/exherbo/install-guide/">https://alexherbo2.github.io/wiki/exherbo/install-guide/</a></p>
 
@@ -23,25 +22,28 @@
 
 <p>It's better to read the whole <a href="https://www.gentoo.org/">Gentoo Handbook</a> .</p>
 
+<pre>
 <code>
-# mount --mkdir /dev/sda3 /mnt/exherbo<br>
-# mount -o rbind /dev /mnt/exherbo/dev/<br>
-# mount -o rbind /sys /mnt/exherbo/sys/<br>
-# mount -t proc none /mnt/exherbo/proc/<br>
-# mount /dev/sda1 /mnt/exherbo/boot/<br>
-# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf<br>
-# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash<br>
-# source /etc/profile<br>
-# export PS1="(chroot) $PS1"<br>
-# cave search is too slow use <br>
+# mount --mkdir /dev/sda3 /mnt/exherbo
+# mount -o rbind /dev /mnt/exherbo/dev/
+# mount -o rbind /sys /mnt/exherbo/sys/
+# mount -t proc none /mnt/exherbo/proc/
+# mount /dev/sda1 /mnt/exherbo/boot/
+# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf
+# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash
+# source /etc/profile
+# export PS1="(chroot) $PS1"
+# cave search is too slow use
 # ls /var/db/paludis/repositories/*/packages/sys-kernel/
-# cave search linux-stable <br>
-# cd /usr/src<br>
-# git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git<br>
-# curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config<br>
-# Or<br>
-# git clone https://gitlab.archlinux.org/archlinux/packaging/packages/linux.git archlinuxKernelconfig<br>
-<br>
+# cave search linux-stable 
+# cd /usr/src
+# git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+# curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config
+# 
+# OR
+# 
+# git clone https://gitlab.archlinux.org/archlinux/packaging/packages/linux.git archlinuxKernelconfig
+
 # If you already have archlinux: zcat /proc/config.gz > /usr/src/linux/.config<br>
 # cp config /usr/src/linux/.config<br>
 # cd linux<br>
@@ -93,17 +95,25 @@ Resolving: 1 steps, 3 metadata (3 arbor) <br><br>
 <br>
 #
 <br>
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"<br>
+# export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"<br>
+# These packages I installed on gentoo<br>
+# sys-kernel/installkernel dracut uki<br> 
+# sys-apps/systemd-utils boot kernel-install<br> 
+# sys-kernel/installkernel<br> 
 # kernel-install add 6.18.3 /boot/vmlinuz-6.18.3<br>
-<br>
+
 <br>
 </code>
+</pre>
+
 <p>Esto ejecutalo desde tu otra distribucion de Linux y vas a tener que agregar un /etc/grub.d/40_custom probablemente porque no va a detectar bien el os-prober.</p>
 
-<p>Probablemente no necesitas ejecutar grub-install en tu otra distro (si estas instalando exherbo solo si)</p>
+<h3>Probablemente no necesitas ejecutar grub-install en tu otra distro (si estas instalando exherbo solo si)</h3>
 
+<pre>
 <code>
-# grub-install --boot-directory=/mnt/boot /dev/sda --recheck <br>
+# grub-install --target=x86_64-efi --efi-directory=/boot --removable  # efi <br>
+# grub-install --boot-directory=/mnt/boot /dev/sda --recheck # legacy bios <br>
 # grub-mkconfig -o /boot/grub/grub.cfg <br>
 <br>
 # cat<<EOF > /etc/hosts<br>
@@ -113,12 +123,17 @@ EOF<br>
 # cave resolve linux-firmware<br>
 # passwd<br>
 # localedef -i en_US -f ISO-8859-1 en_US<br>
+# vim /etc/locale.gen # en_US.UTF-8<br>
+# locale-gen<br>
 # echo LANG="en_US.UTF-8" > /etc/env.d/99locale<br>
 # ln -s /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime<br>
 # You need to create your user now and add it to the groups.<br>
 # useradd -m -G adm,disk,wheel,cdrom,audio,video,usb,users ${username}<br>
+passwd username<br>
 # reboot<br>
 </code>
+</pre>
+
 
 
 <br>
