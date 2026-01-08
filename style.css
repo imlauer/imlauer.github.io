@@ -39,6 +39,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+  color: black!important;
+  background-color: yellow;
 }
 
 hr { border-color: green; }
