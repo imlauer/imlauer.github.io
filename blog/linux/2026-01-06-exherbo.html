@@ -33,26 +33,26 @@
 # env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash<br>
 # source /etc/profile<br>
 # export PS1="(chroot) $PS1"<br>
-# cave search is too slow use eix
-# cave search linux-stable 
-# cd /usr/src
-# git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-# curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config
-# Or
-# git clone https://gitlab.archlinux.org/archlinux/packaging/packages/linux.git archlinuxKernelconfig
-
-# If you already have archlinux: zcat /proc/config.gz > /usr/src/linux/.config
-# cp config /usr/src/linux/.config
-# cd linux
-# make olddefconfig # keeps Arch’s choices. auto-answers new options with defaults. avoids interactive prompts
-# make -j$(nproc)
-# make modules_install
-# make install
-
-# cave resolve -x linux-headers 
-
-# OR
-
+# cave search is too slow use eix<br>
+# cave search linux-stable <br>
+# cd /usr/src<br>
+# git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git<br>
+# curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config<br>
+# Or<br>
+# git clone https://gitlab.archlinux.org/archlinux/packaging/packages/linux.git archlinuxKernelconfig<br>
+<br>
+# If you already have archlinux: zcat /proc/config.gz > /usr/src/linux/.config<br>
+# cp config /usr/src/linux/.config<br>
+# cd linux<br>
+# make olddefconfig # keeps Arch’s choices. auto-answers new options with defaults. avoids interactive prompts<br>
+# make -j$(nproc)<br>
+# make modules_install<br>
+# make install<br>
+<br>
+# cave resolve -x linux-headers <br>
+<br>
+# OR<br>
+<br>
 # lynx kernel.org<br>
 Latest Release - Download<br>
 tar xvf linux-*<br>
