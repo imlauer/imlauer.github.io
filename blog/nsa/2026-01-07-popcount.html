@@ -23,8 +23,8 @@
 <p><strong><code>popcount</code></strong> is a CPU instruction whose <strong>only purpose</strong> is
 <strong>to count how many bits are set to <code>1</code> inside a binary word (8 bits = 1 byte)</strong>.</p>
 
-<pre><code>popcount(00100110) == 3   // because there are three “1” bits
-popcount(01100000) == 2   // because there are two “1” bits</code></pre>
+<code>popcount(00100110) == 3   // because there are three “1” bits
+popcount(01100000) == 2   // because there are two “1” bits</code>
 
 <p>Each bit that is set to <code>1</code> is added to the total.
 (<a href="https://vaibhavsagar.com/blog/2019/09/08/popcount/">vaibhavsagar.com</a>)</p>
@@ -47,7 +47,7 @@ There is nothing magical hidden beyond that.
     <li>
         <strong>Error detection and correction</strong><br>
         The Hamming distance is calculated as:
-        <pre><code>popcount(x XOR y)</code></pre>
+        <code>popcount(x XOR y)</code>
     </li>
     <li>
         <strong>AI and binary neural networks</strong><br>
@@ -67,15 +67,13 @@ There is nothing magical hidden beyond that.
 
 <h2>⚙️ How does it work internally?</h2>
 
-<p>There is no magic: each bit is checked and counted.</p>
-
-<pre><code class="language-c">int popcount(value) {
+<code class="language-c">int popcount(value) {
     int count = 0;
     for (i = 0; i < bits_in_word; i++) {
         if ((value >> i) & 1 == 1) count++;
     }
     return count;
-}</code></pre>
+}</code>
 
 <p>In hardware it can run in <em>a single cycle</em>.
 (<a href="https://www.felixcloutier.com/x86/popcnt">felixcloutier.com</a>)</p>
@@ -90,7 +88,7 @@ There is nothing magical hidden beyond that.
     <li>returns the number</li>
 </ul>
 
-<pre><code>dest = number of bits “1” in src</code></pre>
+<code>dest = number of bits “1” in src</code>
 
 <hr>
 
@@ -116,13 +114,13 @@ There is nothing magical hidden beyond that.
 
 <h3>📊 Example</h3>
 
-<pre><code>popcount(data) / total_bits</code></pre>
+<code>popcount(data) / total_bits</code>
 
 <p>If it doesn’t give ~50/50 → weak cipher.</p>
 
 <h3>💣 Hamming distance</h3>
 
-<pre><code>popcount(x XOR y)</code></pre>
+<code>popcount(x XOR y)</code>
 
 <p>If only a few bits change → bad algorithm.</p>
 
@@ -167,8 +165,8 @@ It was created to <strong>break ciphers and spy</strong>.</p>
 <p><strong><code>popcount</code></strong> es una instrucción de CPU cuyo <strong>único propósito</strong> es
 <strong>contar cuántos bits están en <code>1</code> dentro de una palabra binaria</strong>.</p>
 
-<pre><code>popcount(00100110) == 3   // porque hay tres bits “1”
-popcount(01100000) == 2   // porque hay dos bits “1”</code></pre>
+<code>popcount(00100110) == 3   // porque hay tres bits "1"
+popcount(01100000) == 2   // porque hay dos bits “1”</code>
 
 <p>Cada bit que está en <code>1</code> se suma al total.
 (<a href="https://vaibhavsagar.com/blog/2019/09/08/popcount/">vaibhavsagar.com</a>)</p>
@@ -191,7 +189,7 @@ Nada mágico escondido más allá de eso.
     <li>
         <strong>Errores y corrección de datos</strong><br>
         La distancia de Hamming se calcula como:
-        <pre><code>popcount(x XOR y)</code></pre>
+        <code>popcount(x XOR y)</code>
     </li>
     <li>
         <strong>IA y redes neuronales binarias</strong><br>
@@ -211,15 +209,13 @@ Nada mágico escondido más allá de eso.
 
 <h2>⚙️ ¿Cómo funciona internamente?</h2>
 
-<p>No hay magia: se revisa cada bit y se cuenta.</p>
-
-<pre><code class="language-c">int popcount(value) {
+<code class="language-c">int popcount(value) {
     int count = 0;
     for (i = 0; i < bits_in_word; i++) {
         if ((value >> i) & 1 == 1) count++;
     }
     return count;
-}</code></pre>
+}</code>
 
 <p>En hardware puede ejecutarse en <em>un solo ciclo</em>.
 (<a href="https://www.felixcloutier.com/x86/popcnt">felixcloutier.com</a>)</p>
@@ -234,7 +230,7 @@ Nada mágico escondido más allá de eso.
     <li>devuelve el número</li>
 </ul>
 
-<pre><code>dest = número de bits “1” de src</code></pre>
+<code>dest = número de bits “1” de src</code>
 
 <hr>
 
@@ -260,13 +256,13 @@ Nada mágico escondido más allá de eso.
 
 <h3>📊 Ejemplo</h3>
 
-<pre><code>popcount(datos) / total_bits</code></pre>
+<code>popcount(datos) / total_bits</code>
 
 <p>Si no da ~50/50 → cifrado débil.</p>
 
 <h3>💣 Distancia de Hamming</h3>
 
-<pre><code>popcount(x XOR y)</code></pre>
+<code>popcount(x XOR y)</code>
 
 <p>Si pocos bits cambian → algoritmo malo.</p>
 

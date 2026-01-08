@@ -13,37 +13,128 @@
 
 <p><a href="https://www.exherbo.org/docs/install-guide.html">https://www.exherbo.org/docs/install-guide.html</a></p>
 
-<p><a href="https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/">https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/</a></p>
+<p>It uses ptr-get that's part of CRUX not exherbo. <a href="https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/">https://linuxmind.dev/2025/09/02/how-to-install-the-operating-system-exherbo-linux/</a></p>
 
 <p><a href="https://alexherbo2.github.io/wiki/exherbo/install-guide/">https://alexherbo2.github.io/wiki/exherbo/install-guide/</a></p>
 
 <p><a href="https://gist.github.com/s0dyy/905be36b2c39fb8c14906e15c05c68a3">https://gist.github.com/s0dyy/905be36b2c39fb8c14906e15c05c68a3</a></p>
 
-<p>Follow my KISS Linux Guide: <a href="https://imlauera.github.io/kisslinux/">https://imlauera.github.io/kisslinux/</a></p>
+<p>Follow my KISS Linux Guide: <a href="https://imlauera.github.io/kisslinux/">https://imlauera.github.io/kisslinux/</a> and my archlinux install guide: <a href="https://imlauera.github.io/post/instalacion_arch_basica/">https://imlauera.github.io/post/instalacion_arch_basica/</a>.</p>
+
+<p>It's better to read the whole <a href="https://www.gentoo.org/">Gentoo Handbook</a> .</p>
 
 <code>
-[root@arch gentoo]# unmout -R .<br>
-bash: unmout: command not found<br>
-[root@arch gentoo]# ..<br>  
-bash: ..: command not found<br>
-[root@arch gentoo]# umount -R .<br>
-umount: /mnt/gentoo: target is busy.<br>
-[root@arch gentoo]# cd ..<br>
-[root@arch mnt]# umount -R gentoo<br>
-[root@arch mnt]# mount /dev/sda3 /mnt/gentoo/<br>
-[root@arch mnt]# umount gentoo <br>
-[root@arch mnt]# mount --mkdir /dev/sda3 /mnt/exherbo<br>
-[root@arch mnt]# mount -o rbind /dev /mnt/exherbo/dev/<br>
-[root@arch mnt]# mount -o rbind /sys /mnt/exherbo/sys/<br>
-[root@arch mnt]# mount -t proc none /mnt/exherbo/proc/<br>
-[root@arch mnt]# mount /dev/sda1 /mnt/exherbo/boot/<br>
-[root@arch mnt]# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf<br>
-[root@arch mnt]# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash<br>
-arch / # source /etc/profile<br>
-export PS1="(chroot) $PS1"<br>
-(chroot) arch / # cave resolve -x sys-apps/systemd<br>
-Resolving: 1 steps, 3 metadata (3 arbor) <br>
+# mount --mkdir /dev/sda3 /mnt/exherbo<br>
+# mount -o rbind /dev /mnt/exherbo/dev/<br>
+# mount -o rbind /sys /mnt/exherbo/sys/<br>
+# mount -t proc none /mnt/exherbo/proc/<br>
+# mount /dev/sda1 /mnt/exherbo/boot/<br>
+# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf<br>
+# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash<br>
+# source /etc/profile<br>
+# export PS1="(chroot) $PS1"<br>
+# cave search is too slow use eix
+# cave search linux-stable 
+# cd /usr/src
+# git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
+# curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config
+# Or
+# git clone https://gitlab.archlinux.org/archlinux/packaging/packages/linux.git archlinuxKernelconfig
+
+# If you already have archlinux: zcat /proc/config.gz > /usr/src/linux/.config
+# cp config /usr/src/linux/.config
+# cd linux
+# make olddefconfig # keeps Arch’s choices. auto-answers new options with defaults. avoids interactive prompts
+# make -j$(nproc)
+# make modules_install
+# make install
+
+# cave resolve -x linux-headers 
+
+# OR
+
+# lynx kernel.org<br>
+Latest Release - Download<br>
+tar xvf linux-*<br>
+cd linux-*<br>
+lspci -k<br>
+# make defconfig<br>
+# make help<br>
+# make localyesconfig<br>
+# make menuconfig<br>
+/ (slash)<br>
+CONFIG_PATA_ACPI<br>
+<br>
+# make localyesconfig<br>
+<br>
+O pedile a ClaudeAI que te cree /usr/src/linux-version/.config con todos los warnings que te tira make localyesconfig<br>
+make -j $(nproc)<br>
+make modules_install # Si usas modulos tenes que usar initramsfs.<br>
+make install   # Copiara los archivos a /boot (tenes que tener la particion montada)<br>
+<br>
+# Esto hace el make install:<br>
+# cp arch/x86/boot/bzImage /boot/kernel<br>
+<br>
+<br>
+# vim /etc/paludis/options.conf<br>
+Agrega la opcion: */* systemd<br>
+<br>
+# cave resolve -x sys-apps/systemd<br><br>
+Resolving: 1 steps, 3 metadata (3 arbor) <br><br>
+<br>
+# Reinstala cada paquete<br>
+# cave resolve world -c<br>
+<br>
+# eclectic init list<br>
+# eclectic init set systemd<br>
+# echo "exherbo" | tee /etc/hostname<br>
+# /etc/vconsole.conf<br>
+<br>
+#
+<br>
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"<br>
+# kernel-install add 6.18.3 /boot/vmlinuz-6.18.3<br>
+<br>
+<br>
 </code>
+<p>Esto ejecutalo desde tu otra distribucion de Linux y vas a tener que agregar un /etc/grub.d/40_custom probablemente porque no va a detectar bien el os-prober.</p>
+
+<p>Probablemente no necesitas ejecutar grub-install en tu otra distro (si estas instalando exherbo solo si)</p>
+
+<code>
+# grub-install --boot-directory=/mnt/boot /dev/sda --recheck <br>
+# grub-mkconfig -o /boot/grub/grub.cfg <br>
+<br>
+# cat<<EOF > /etc/hosts<br>
+127.0.0.1    exherbo.domain.foo    exherbo    localhost<br>
+::1          localhost<br>
+EOF<br>
+# cave resolve linux-firmware<br>
+# passwd<br>
+# localedef -i en_US -f ISO-8859-1 en_US<br>
+# echo LANG="en_US.UTF-8" > /etc/env.d/99locale<br>
+# ln -s /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime<br>
+# You need to create your user now and add it to the groups.<br>
+# useradd -m -G adm,disk,wheel,cdrom,audio,video,usb,users ${username}<br>
+# reboot<br>
+</code>
+
+
+<br>
+
+<p><a href="http://0pointer.de/blog/projects/the-new-configuration-files">http://0pointer.de/blog/projects/the-new-configuration-files</a></p>
+
+<p>Post-installation Tasks</p>
+<p><a href="https://www.exherbo.org/docs/install-guide.html">https://www.exherbo.org/docs/install-guide.html</a></p>
+
+<code>
+# cave show stages<br>
+# cave purge<br>
+# cave update-world sys-devel/gdb<br>
+# cave update-world -s stages<br>
+</code>
+
+
 
 <hr>
 
