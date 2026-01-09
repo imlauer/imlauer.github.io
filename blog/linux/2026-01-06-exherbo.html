@@ -197,8 +197,6 @@ grub-install --target=x86_64-efi --efi-directory=/boot --removable
 grub-install --boot-directory=/mnt/boot /dev/sda --recheck 
 
 
-grub-mkconfig -o /boot/grub/grub.cfg
-
 vim /etc/grub.d/40_custom 
 
 #!/bin/sh
@@ -219,6 +217,8 @@ menuentry 'Exherbo Linux' --class exherbo --class gnu-linux --class gnu --class 
         linux (hd0,gpt1)/vmlinuz-6.18.4 root=UUID=57c5ee6d-dee8-43be-bfa4-d7f91eb993e7 rw
         initrd (hd0,gpt1)/initramfs-6.18.4.img
 }
+
+grub-mkconfig -o /boot/grub/grub.cfg
 
 </code>
 </pre>
