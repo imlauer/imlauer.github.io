@@ -182,6 +182,9 @@ echo "exherbo" | tee /etc/hostname
 
 <p>dracut --force --kver 6.18.4 /boot/initramfs-6.18.4.img</p>
 
+<p>lspci -k | grep -A 3 -i network</p>
+<p>dmesg | grep -i firmware</p>
+
 
 <p>Esto ejecutalo desde tu otra distribucion de Linux y vas a tener que agregar un /etc/grub.d/40_custom probablemente porque no va a detectar bien el os-prober.</p>
 
@@ -274,6 +277,7 @@ passwd username
 
 
 reboot
+sudo systemctl set-default multi-user.target # For to boot into tty.
 sudo systemctl enable sshd
 sudo systemctl enable gpm
 </code>
