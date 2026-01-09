@@ -233,7 +233,29 @@ cat<<EOF > /etc/hosts
 127.0.0.1       exherbo.localdomain        exherbo
 EOF
 
-cave resolve linux-firmware
+
+# Ahora para instalar linux-firmware, necesitás habilitar el repositorio ::hardware en Exherbo.
+
+
+sudo mkdir -p /etc/paludis/repositories
+sudo vim /etc/paludis/repositories/hardware.conf
+
+format = e
+location = /var/db/paludis/repositories/hardware
+sync = git+https://git.exherbo.org/hardware.git
+
+
+cave sync
+
+
+
+cave resolve -x linux-firmware
+
+# Luego de instalar el firmware deberas regenerar el initramfs.
+
+dracut --force --kver 6.18.4 /boot/initramfs-6.18.4.img
+
+
 passwd
 
 localedef -i en_US -f ISO-8859-1 en_US
