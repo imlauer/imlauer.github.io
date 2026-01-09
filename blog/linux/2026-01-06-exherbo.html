@@ -66,9 +66,58 @@ make modules_install
 make install
 
 cave resolve -x linux-headers
+<code></pre>
+
+<p> <b>Observacion</b> : Los linux headers NO son el kernel ni sirven para compilar el kernel completo.Linux-headers es la API del kernel. Son archivos de cabecera (.h) que describen la interfaz del kernel hacia el espacio de usuario y hacia módulos externos. Sirven para compilar modulos externos.
+
+<b>Los headers deben coincidir con el kernel que estas usando</b>
+</p>
+
+<pre><code>
+[I] esotericwarfare@arch ~> ls -ltr /mnt/exherbo/var/db/paludis/repositories/*/packages/sys-kernel/linux-headers/
+total 112
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-5.16.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-5.15.exheres-0
+-rw-r--r-- 1 root root  270 Jan  6 13:57 linux-headers-5.10.exheres-0
+drwxr-xr-x 2 root root 4096 Jan  6 13:57 files
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.1.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.10.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.0.exheres-0
+-rw-r--r-- 1 root root  270 Jan  6 13:57 linux-headers-5.4.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-5.19.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-5.18.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-5.17.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.16.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.15.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.14.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.13.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.12.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.11.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.6.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.5.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.4.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.3.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.2.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.18.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.17.exheres-0
+-rw-r--r-- 1 root root 2193 Jan  6 13:57 linux-headers.exlib
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.9.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.8.exheres-0
+-rw-r--r-- 1 root root  274 Jan  6 13:57 linux-headers-6.7.exheres-0
+[I] esotericwarfare@arch ~> 
+</code>
+</pre>
+
+
+<p>Los linux-headers deben coincidir con la version que descargas</p>
+
+<p><a href="https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel">https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Kernel</a></p>
+
+<pre>
+<code>
+ls -ltr /mnt/exherbo/var/db/paludis/repositories/*/packages/sys-kernel/linux-headers/
 
 # OR
-
 lynx kernel.org
 # Latest Release - Download
 tar xvf linux-*
@@ -109,7 +158,7 @@ Resolving: 1 steps, 3 metadata (3 arbor)
 
 # Reinstall every package.
 
-cave resolve world -c
+cave resolve world -cx
 
 eclectic init list
 eclectic init set systemd
@@ -125,10 +174,14 @@ echo "exherbo" | tee /etc/hostname
 # sys-kernel/installkernel dracut uki
 # sys-apps/systemd-utils boot kernel-install
 # sys-kernel/installkernel
-# kernel-install add 6.18.3 /boot/vmlinuz-6.18.3
+</code></pre>
 
-</code>
-</pre>
+<p>kernel-install add 6.18.3 /boot/vmlinuz-6.18.3</p>
+
+<p># If that doesn't generate the initramfs try this command: </p>
+
+<p>dracut --force --kver 6.18.4 /boot/initramfs-6.18.4.img</p>
+
 
 <p>Esto ejecutalo desde tu otra distribucion de Linux y vas a tener que agregar un /etc/grub.d/40_custom probablemente porque no va a detectar bien el os-prober.</p>
 
@@ -141,18 +194,48 @@ grub-install --target=x86_64-efi --efi-directory=/boot --removable
 
 # legacy bios
 
-grub-install --boot-directory=/mnt/boot /dev/sda --recheck # legacy bios
+grub-install --boot-directory=/mnt/boot /dev/sda --recheck 
 
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
+vim /etc/grub.d/40_custom 
+
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+
+menuentry 'Exherbo Linux' --class exherbo --class gnu-linux --class gnu --class os {
+        insmod part_gpt
+        insmod ext2
+        set root='hd0,gpt3'
+        if [ x$feature_platform_search_hint = xy ]; then
+          search --no-floppy --fs-uuid --set=root --hint-bios=hd0,gpt3 --hint-efi=hd0,gpt3 --hint-baremetal=ahci0,gpt3  57c5ee6d-dee8-43be-bfa4-d7f91eb993e7
+        else
+          search --no-floppy --fs-uuid --set=root 57c5ee6d-dee8-43be-bfa4-d7f91eb993e7
+        fi
+        linux (hd0,gpt1)/vmlinuz-6.18.4 root=UUID=57c5ee6d-dee8-43be-bfa4-d7f91eb993e7 rw
+        initrd (hd0,gpt1)/initramfs-6.18.4.img
+}
+
+</code>
+</pre>
+
+
+
+<pre>
+<code>
 cat<<EOF > /etc/hosts
-127.0.0.1    exherbo.domain.foo    exherbo    localhost
-::1          localhost
+127.0.0.1       localhost
+::1 localhost
+127.0.0.1       exherbo.localdomain        exherbo
 EOF
 
 cave resolve linux-firmware
 passwd
+
 localedef -i en_US -f ISO-8859-1 en_US
 vim /etc/locale.gen # en_US.UTF-8
 locale-gen
@@ -166,7 +249,11 @@ ln -s /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
 <code>
 useradd -m -G adm,disk,wheel,cdrom,audio,video,usb,users ${username}
 passwd username
+
+
 reboot
+sudo systemctl enable sshd
+sudo systemctl enable gpm
 </code>
 </pre>
 
