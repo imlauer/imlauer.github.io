@@ -136,7 +136,11 @@ echo "exherbo" | tee /etc/hostname
 
 <pre>
 <code>
-grub-install --target=x86_64-efi --efi-directory=/boot --removable  # efi
+# efi
+grub-install --target=x86_64-efi --efi-directory=/boot --removable
+
+# legacy bios
+
 grub-install --boot-directory=/mnt/boot /dev/sda --recheck # legacy bios
 
 
