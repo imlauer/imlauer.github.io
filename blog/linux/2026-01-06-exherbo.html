@@ -22,87 +22,111 @@
 
 <p>It's better to read the whole <a href="https://www.gentoo.org/">Gentoo Handbook</a> .</p>
 
+<hr>
+
 <pre>
 <code>
-# mount --mkdir /dev/sda3 /mnt/exherbo
-# mount -o rbind /dev /mnt/exherbo/dev/
-# mount -o rbind /sys /mnt/exherbo/sys/
-# mount -t proc none /mnt/exherbo/proc/
-# mount /dev/sda1 /mnt/exherbo/boot/
-# cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf
-# env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash
-# source /etc/profile
-# export PS1="(chroot) $PS1"
-# cave search is too slow use
-# ls /var/db/paludis/repositories/*/packages/sys-kernel/
-# cave search linux-stable 
-# cd /usr/src
-# git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-# curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config
-# 
+mount --mkdir /dev/sda3 /mnt/exherbo
+mount -o rbind /dev /mnt/exherbo/dev/
+mount -o rbind /sys /mnt/exherbo/sys/
+mount -t proc none /mnt/exherbo/proc/
+mount /dev/sda1 /mnt/exherbo/boot/
+cp /etc/resolv.conf /mnt/exherbo/etc/resolv.conf
+env -i TERM=$TERM SHELL=/bin/bash HOME=$HOME $(which chroot) /mnt/exherbo /bin/bash
+source /etc/profile
+export PS1="(chroot) $PS1"
+cave search is too slow use
+ls /var/db/paludis/repositories/*/packages/sys-kernel/
+cave search linux-stable 
+cd /usr/src
+</code></pre>
+
+Using the archlinux config file is a bad idea I was 10 hours compiling the kernel and I had to cancel it. Instead of doing this I ask claude ai to make me a .config file for my pc specs. LOL.
+
+<pre><code>
+curl -O https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/raw/main/config 
+cp config /usr/src/linux/.config
+ 
 # OR
-# 
-# git clone https://gitlab.archlinux.org/archlinux/packaging/packages/linux.git archlinuxKernelconfig
 
-# If you already have archlinux: zcat /proc/config.gz > /usr/src/linux/.config<br>
-# cp config /usr/src/linux/.config<br>
-# cd linux<br>
-# make olddefconfig # keeps Arch’s choices. auto-answers new options with defaults. avoids interactive prompts<br>
-# make -j$(nproc)<br>
-# make modules_install<br>
-# make install<br>
-<br>
-# cave resolve -x linux-headers <br>
-<br>
-# OR<br>
-<br>
-# lynx kernel.org<br>
-Latest Release - Download<br>
-# tar xvf linux-*<br>
-# cd linux-*<br>
-# lspci -k<br>
-# make defconfig<br>
-# make help<br>
-# make localyesconfig<br>
-# make menuconfig<br>
-/ (slash)<br>
-CONFIG_PATA_ACPI<br>
-<br>
-# make localyesconfig<br>
-<br>
-O pedile a ClaudeAI que te cree /usr/src/linux-version/.config con todos los warnings que te tira make localyesconfig<br>
-make -j $(nproc)<br>
-make modules_install # Si usas modulos tenes que usar initramsfs.<br>
-make install   # Copiara los archivos a /boot (tenes que tener la particion montada)<br>
-<br>
-# Esto hace el make install:<br>
-# cp arch/x86/boot/bzImage /boot/kernel<br>
-<br>
-<br>
-# vim /etc/paludis/options.conf<br>
-Agrega la opcion: */* systemd<br>
-<br>
-# cave resolve -x sys-apps/systemd<br><br>
-Resolving: 1 steps, 3 metadata (3 arbor) <br><br>
-<br>
-# Reinstala cada paquete<br>
-# cave resolve world -c<br>
-<br>
-# eclectic init list<br>
-# eclectic init set systemd<br>
-# echo "exherbo" | tee /etc/hostname<br>
-# /etc/vconsole.conf<br>
-<br>
-#
-<br>
-# export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"<br>
-# These packages I installed on gentoo<br>
-# sys-kernel/installkernel dracut uki<br> 
-# sys-apps/systemd-utils boot kernel-install<br> 
-# sys-kernel/installkernel<br> 
-# kernel-install add 6.18.3 /boot/vmlinuz-6.18.3<br>
+# I don't recommend this because I'll take alot of time:
+# if you already have archlinux: zcat /proc/config.gz > /usr/src/linux/.config
 
-<br>
+cd linux
+</code></pre>
+
+<p># keeps Arch’s choices.</p>
+<p># auto-answers new options with defaults.</p>
+<p># avoids interactive prompts</p>
+
+<pre><code>
+make olddefconfig
+make -j$(nproc)
+make modules_install
+make install
+
+cave resolve -x linux-headers
+
+# OR
+
+lynx kernel.org
+# Latest Release - Download
+tar xvf linux-*
+cd linux-*
+lspci -k
+make defconfig
+make help
+make localyesconfig
+make menuconfig
+
+/ (slash)
+
+CONFIG_PATA_ACPI
+
+make localyesconfig
+
+</code></pre>
+
+<p>Or ask ClaudeAI to generate you a /usr/src/linux-version/.config file or a bash script based on your hardware with all the warnings that the command make localyesconfig outputs, lol.</p>
+
+<pre><code>
+make -j $(nproc)
+# Si usas modulos tenes que usar initramsfs.
+make modules_install 
+# Copiara los archivos a /boot (tenes que tener la particion montada)
+make install
+
+# Esto hace el make install:
+cp arch/x86/boot/bzImage /boot/kernel
+
+
+vim /etc/paludis/options.conf
+# Agrega la opcion: */* systemd
+
+cave resolve -x sys-apps/systemd
+Resolving: 1 steps, 3 metadata (3 arbor)
+
+
+# Reinstall every package.
+
+cave resolve world -c
+
+eclectic init list
+eclectic init set systemd
+echo "exherbo" | tee /etc/hostname
+/etc/vconsole.conf
+</code></pre>
+
+
+<p>export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"</p>
+
+<pre><code>
+# These packages I installed on gentoo
+# sys-kernel/installkernel dracut uki
+# sys-apps/systemd-utils boot kernel-install
+# sys-kernel/installkernel
+# kernel-install add 6.18.3 /boot/vmlinuz-6.18.3
+
 </code>
 </pre>
 
@@ -112,47 +136,53 @@ Resolving: 1 steps, 3 metadata (3 arbor) <br><br>
 
 <pre>
 <code>
-# grub-install --target=x86_64-efi --efi-directory=/boot --removable  # efi <br>
-# grub-install --boot-directory=/mnt/boot /dev/sda --recheck # legacy bios <br>
-# grub-mkconfig -o /boot/grub/grub.cfg <br>
-<br>
-# cat<<EOF > /etc/hosts<br>
-127.0.0.1    exherbo.domain.foo    exherbo    localhost<br>
-::1          localhost<br>
-EOF<br>
-# cave resolve linux-firmware<br>
-# passwd<br>
-# localedef -i en_US -f ISO-8859-1 en_US<br>
-# vim /etc/locale.gen # en_US.UTF-8<br>
-# locale-gen<br>
-# echo LANG="en_US.UTF-8" > /etc/env.d/99locale<br>
-# ln -s /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime<br>
-# You need to create your user now and add it to the groups.<br>
-# useradd -m -G adm,disk,wheel,cdrom,audio,video,usb,users ${username}<br>
-passwd username<br>
-# reboot<br>
+grub-install --target=x86_64-efi --efi-directory=/boot --removable  # efi
+grub-install --boot-directory=/mnt/boot /dev/sda --recheck # legacy bios
+
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+cat<<EOF > /etc/hosts
+127.0.0.1    exherbo.domain.foo    exherbo    localhost
+::1          localhost
+EOF
+
+cave resolve linux-firmware
+passwd
+localedef -i en_US -f ISO-8859-1 en_US
+vim /etc/locale.gen # en_US.UTF-8
+locale-gen
+echo LANG="en_US.UTF-8" > /etc/env.d/99locale
+ln -s /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
+</code></pre>
+
+# You need to create your user now and add it to the groups.
+
+<pre>
+<code>
+useradd -m -G adm,disk,wheel,cdrom,audio,video,usb,users ${username}
+passwd username
+reboot
 </code>
 </pre>
 
 
-
-<br>
-
 <p><a href="http://0pointer.de/blog/projects/the-new-configuration-files">http://0pointer.de/blog/projects/the-new-configuration-files</a></p>
 
-<p>Post-installation Tasks</p>
+<h3>Post-installation Tasks</h3>
+
 <p><a href="https://www.exherbo.org/docs/install-guide.html">https://www.exherbo.org/docs/install-guide.html</a></p>
 
+<pre>
 <code>
-# cave show stages<br>
-# cave purge<br>
-# cave update-world sys-devel/gdb<br>
-# cave update-world -s stages<br>
+cave show stages
+cave purge
+cave update-world sys-devel/gdb
+cave update-world -s stages
 </code>
+</pre>
 
 
-
-<hr>
 
 </body>
 </html>
