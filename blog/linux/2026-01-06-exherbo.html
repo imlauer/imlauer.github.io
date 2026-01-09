@@ -146,14 +146,19 @@ make modules_install
 make install
 
 # Esto hace el make install:
+
 cp arch/x86/boot/bzImage /boot/kernel
 
+<h3>Systemd</h3>
 
-vim /etc/paludis/options.conf
+<p><a href="https://www.exherbo.org/docs/systemd.html">https://www.exherbo.org/docs/systemd.html</a></p>
+
+<p>vim /etc/paludis/options.conf</p>
+
 # Agrega la opcion: */* systemd
 
-cave resolve -x sys-apps/systemd
-Resolving: 1 steps, 3 metadata (3 arbor)
+<p>cave resolve -x sys-apps/systemd<br>
+Resolving: 1 steps, 3 metadata (3 arbor)</p>
 
 
 # Reinstall every package.
@@ -250,8 +255,6 @@ sync = git+https://git.exherbo.org/hardware.git
 
 cave sync
 
-
-
 cave resolve -x linux-firmware
 
 # Luego de instalar el firmware deberas regenerar el initramfs.
@@ -277,9 +280,27 @@ passwd username
 
 
 reboot
-sudo systemctl set-default multi-user.target # For to boot into tty.
+
+# For to boot into tty.
+sudo systemctl set-default multi-user.target 
 sudo systemctl enable sshd
 sudo systemctl enable gpm
+
+# Al intentar instalar fastfetch te dira que no esta disponible.
+# Tenes que agregar el repositorio.
+
+cave resolve -x fastfetch
+
+
+sudo nano /etc/paludis/repositories/tombriden.conf
+
+format = e
+location = /var/db/paludis/repositories/tombriden
+sync = git+https://git.exherbo.org/dev/tombriden.git
+
+cave sync
+
+cave resolve -x fastfetch
 </code>
 </pre>
 
