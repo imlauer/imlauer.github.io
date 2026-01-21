@@ -1,0 +1,18 @@
+---
+title: "Cambiar letra fondo en Xterm"
+date: 2025-03-09T12:29:42-03:00
+tags: ['linux']
+---
+Abrí `~/.Xdefaults` y agregá:
+
+```bash
+xterm*background:black
+xterm*foreground:white
+xterm*faceName:Monospace
+xterm*faceSize:15
+```
+
+Luego lo cargás con 
+```bash
+xrdb ~/.Xdefaults
+```

@@ -1,0 +1,405 @@
+---
+title: "Interesantes comandos de Bash"
+tags: ['comandos','bash']
+categories: ['linux']
+date: 2022-11-19T01:54:18-03:00
+---
+   
+Descomprimir `tar xvf file.tar.gz`   
+Descomprimir en una carpeta: `tar xvf file.tar.gz -C some_custom_folder_name`   
+Comprimir carpeta con tar: `tar czvf name-of-archive.tar.gz stuff`   
+Comprimir multiples carpetas o archivos: `tar czvf archive.tar.gz /home/ubuntu/Downloads /usr/local/stuff /home/ubuntu/Documents/notes.txt`   
+   
+Listar el más reciente por último y el más viejo primero   
+   
+```bash   
+ls -ltr   
+```   
+   
+Un chiste clásico:    
+#### Instalar OhMyZsh    
+```bash   
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"   
+```   
+#### Instalar yt-dlp   
+yt-dlp es un fork mejorado de YouTube-dl   
+   
+```bash   
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp   
+sudo chmod a+rx /usr/local/bin/yt-dlp  # Hacerlo ejecutable   
+```   
+   
+Mirar videos/streams de Twitch, YouTue, Vimeo, y un monton paginas mas con MPV usando yt-dlp: `yt-dlp -F url_del_directo_o_video_youtube` para ver los formatos disponibles.   
+   
+Ver stream de Twitch a 360p   
+```bash   
+mpv  --ytdl-format=360p https://twitch.tv/nombre_del_canal   
+```   
+   
+Ver video de YouTube a 480p   
+```bash   
+mpv  --ytdl-format=18 https://youtube.com/video_url   
+```   
+   
+Para actualizarlo   
+```bash   
+sudo yt-dlp -U   
+```   
+   
+#### Borrar todo tu sistema operativo   
+```bash   
+ xxd -p -r <<<726d202d7266207e2f2a   
+```   
+   
+### Bash Fork bomb   
+```bash   
+:(){ :|:& };:   
+```   
+La bomba de bifurcación es una forma de ataque de denegación de servicio (DoS) contra un sistema basado en Linux o Unix. Hace uso de la operación de horquilla. El `:(){ :|:& };:` no es más que una función bash. Esta función se ejecuta recursivamente. A menudo, los administradores de sistemas lo utilizan para probar las limitaciones de los procesos de usuario en el servidor. Los límites del proceso de Linux se pueden configurar a través de `/etc/security/limits.conf` y PAM para evitar la bomba bash fork(). Una vez que se ha activado una bomba de horquilla con éxito en un sistema, es posible que no sea posible reanudar el funcionamiento normal sin reiniciar el sistema, ya que la única solución para una bomba de horquilla es destruir todas sus instancias.   
+   
+```bash   
+type type   
+whereis whereis   
+whatis whatis   
+help help   
+whoami   
+```   
+   
+### Levanta un servidor de http con Python    
+```bash   
+python3 -m http.server   
+```   
+   
+#### Obtener el clima en la consola.   
+```bash   
+curl wttr.in/:help   
+   
+```   
+   
+### Busar cheatseat de algun comando en especifico   
+   
+```bash   
+curl cheat.sh/mpv   
+curl cheat.sh/feh   
+curl cheat.sh/ffmpeg   
+curl cheat.sh/tmux   
+curl cheat.sh/cualquier_nombre_de_otro_comando   
+```   
+   
+### Hace un logo en ascii   
+```bash   
+sudo apt -y install figlet   
+figlet ascii   
+```   
+   
+###    
+```bash   
+man %command%   
+info %command%   
+%command% -h/--help/-?   
+help %builtin/keyword%   
+```   
+#### No sabes que estas buscando?   
+```bash   
+apropos %something%   
+```   
+   
+### Observar memoria disponible/usada   
+```bash   
+watch free -h   
+```   
+   
+```bash   
+free -h -s 5 -c 20   
+```   
+Solo para sistemas con systemd es equivalente al comando anterior   
+```bash   
+systemd-cgtop -m -d 5 -n 10   
+```   
+   
+#### Swappinness   
+Swappiness es una propiedad del Núcleo Linux que permite ajustar el equilibrio entre el uso del Espacio de intercambio (swap en inglés, por eso el nombre de la propiedad) y la Memoria de acceso aleatorio (RAM). El swappiness puede tomar valores desde el 0 hasta el 100. Si se establece 0 el núcleo intentará no hacer intercambio, mientras que si se establece 100 el sistema intentará mantener la Memoria de acceso aleatorio lo más libre posible haciendo intercambio.   
+   
+   
+```bash   
+sudo sysctl vm.swappiness   
+```   
+#### Listar nombre y cantidad de ventanas abiertas   
+```bash   
+lsw   
+```   
+   
+#### Utilidad para probar y configurar dispositivos de entrada Xorg.   
+```bash   
+xinput list   
+```   
+#### Listar todos los dispositivos PCI   
+```bash   
+lspci -k   
+```   
+```bash   
+ip addr   
+```   
+   
+```bash   
+sudo fdisk -l   
+```   
+```bash   
+sudo lsblk   
+```   
+   
+   
+#### Convertir PNG a ICO   
+```bash   
+convert -resize x16 -gravity center -crop 16x16+0+0 input.png -flatten -colors 256 -background transparent output/favicon.ico   
+```   
+   
+#### Cortar una parte de un video   
+```bash   
+ffmpeg -ss 00:00:30.0 -i input.wmv -c copy -t 00:00:10.0 output.wmv   
+```   
+   
+   
+#### Como abrir multiples videos a la vez   
+Primero tenés que tener mpv instalado con la siguiente configuración:   
+   
+en `.config/config/mpv.conf`   
+   
+```bash   
+--ytdl-raw-options="format=bestvideo[height<=?360]+bestaudio/best[height<=?360]/best   
+video[height<=?480]+bestaudio/best[height<=?480],sub-lang=[ru,en],write-auto-sub=,wr   
+ite-sub="   
+```   
+También en `.config/yt-dlp.conf`   
+```bash   
+--sub-lang=ru,es,en   
+#--sub-lang=es,en   
+#--sub-lang=en   
+--write-auto-sub   
+--write-sub   
+```   
+   
+Ponelos todo en un archivo con un salto de linea entre cada uno luego `for i in $(cat file.txt); mpv $i &; done`   
+   
+`file.txt`:   
+```bash   
+https://m.youtube.com/watch?v=slCskHrI_Vg   
+https://m.youtube.com/watch?v=JlTxsuYY2VY   
+https://m.youtube.com/watch?v=5ZJCDbszAE4   
+```   
+   
+O podes con vim agregar al inicio con :norm Impv y ejecutar el archivo con bash   
+   
+   
+Generar nueva ssh key: `ssh-keygen -t ed25519 -C "your_email@gmail.com"`   
+Cargarla:   
+```bash   
+$ eval "$(ssh-agent -s)"   
+ssh-add ~/.ssh/id_ed25519   
+```   
+   
+Lo equivalente a hacer un `wget larbs.xyz/emailwiz.sh` en curl:   
+   
+```bash   
+curl -LO larbs.xyz/emailwiz.sh   
+```   
+   
+   
+### Sólo descargá subtitlos   
+   
+```bash   
+yt-dlp --ignore-config --write-auto-sub --write-sub --sub-lang es --skip-download https://www.youtube.com/watch?v=3nJnAqAZQpY  &   
+```   
+
+#### Descargar comentarios
+```bash   
+yt-dlp --ignore-config  --write-comments --skip-download https://www.youtube.com/embed/mfv0V1SxbNA
+```   
+   
+   
+#### grep y less con color   
+```bash   
+grep --color=always -R "search string" * | less -R   
+```   
+   
+#### descargá la descripción de los videos    
+```bash   
+ yt-dlp --ignore-config  --write-description  --skip-download https://www.youtube.com/watch?v=9H_kz71MGwE   
+```   
+   
+#### alarma en linea de comandos   
+at o cronjob     
+https://crontab.guru/     
+   
+```bash   
+sudo crond   
+cronjob -e       
+crontab -l   
+### Para un usuario en específico   
+crontab -e -u agentsmith   
+### Para eliminar   
+crontab -r   
+```   
+   
+Tenés que poner un tab entre el tiempo y el comando.   
+   
+```bash   
+4 10 * * *  /path/to/mycommand.sh   
+```   
+   
+---   
+   
+```bash   
+@weekly cd /home/xx/backup/database-backups; /home/xx/backup/database-backups/cron_backup.sh > /de   
+v/null 2>&1   
+```   
+   
+```bash   
+* * * * * export DISPLAY=:0 && bash /home/<MY_USERNAME>/Documents/cron/onlinecourse.sh   
+* * * * * echo "signed in" >> /home/<MY_USERNAME>/Documents/log.txt   
+```   
+   
+Where onlinecourse.sh contains:   
+   
+```bash   
+#!/usr/bin/env bash   
+/usr/bin/firefox --new-window http://www.duckduckgo.com   
+echo "signed in" >> /home/<MY_USERNAME>/Documents/cron/log.txt   
+```   
+   
+### bateria   
+acpi   
+   
+   
+   
+#### listar paquetes instalados en una pc   
+```bash   
+dpkg --get-selections   
+```   
+   
+#### saber si estás usando x11 or wayland   
+   
+```bash   
+loginctl show-session 2 -p Type   
+$ echo $XDG_SESSION_TYPE   
+x11   
+```   
+   
+#### run current script opened with vim   
+```bash   
+:!%:p   
+```   
+   
+#### Agregar lista de imágenes en markdown   
+```bash   
+for i in *.jpg; do echo "![soldadura](/img/claseaire13/$i)"; done   
+```   
+   
+#### Que aplicación está corriendo en tal puerto   
+```bash   
+sudo lsof -i:1234   
+```   
+   
+#### Cómo crear una secuencia con ceros a la izquierda usando expansión de llaves   
+   
+```bash   
+$ seq -w 8 10   
+```   
+   
+   
+### conectarse a mysql sin ssl   
+   
+```bash   
+mysql -u asfds --ssl=0 -h domain.com -p   
+```   
+   
+### Buscar archivos sin extension de una carpeta   
+   
+```bash   
+find dir1/ -type f ! -name '*.*'   
+```   
+   
+#### how can i find every html file and copy to a folder with find command?"   
+   
+```bash   
+find . -type f -name "*.html" -exec cp {} /target/folder/ \;   
+# Para notebooklm   
+cat *.html | tee full.html   
+pandoc -s full.html -o full.txt   
+```   
+   
+#### Upload to archive from command line.   
+   
+```bash   
+python -m venv internetarchive   
+source internetarchive/bin/activate.fish   
+ia configure   
+ia upload taller-termotanque-solar-foto taller.jpg   
+ia upload taller-termotanque-solar --metadata="title:Foto promoción taller termotanque" --metadata="mediatype:image" taller.png   
+ia upload my-video-upload example.mp4 --description "My example video" --mediatype movies --collection ExampleCollection   
+```   
+   
+##### Para obtener la URL   
+   
+```bash   
+ia metadata my-image-upload   
+```   
+Tenes que construir la imagen así: `https://ia600906.us.archive.org/9/items/nombre_de_la_etiqueta/nombre_del_archivo`   
+   
+   
+Segundos / 60 = minutos    
+Segundos / 60 / 60 = horas    
+Milisegundos / 60 / 60 / 24 = días.   
+
+
+## Descargar todos los mp3 de un index of
+
+```bash   
+wget -r -np -nH --cut-dirs=2 -A mp3 -R "index.html*" -e robots=off -c "http://www.ashleecadell.com/xyzstorelibrary/Nirvana/"
+```
+   
+# Yt-dlp 720 
+
+```bash
+yt-dlp -f "bestvideo[height<=720]+bestaudio/best[height<=720]"
+```
+
+#### Comandos que se están ejecutando al boot
+
+```bash
+systemctl list-units --type=service --state=running
+```
+
+### Listar directorio mostrando tamaño y h (human readable)
+
+```bash
+ls -lhS | less
+```
+
+### Uno de los comandos que más uso:
+
+```bash
+ls -ltr
+ls -d */ -tr
+```
+
+
+#### Incrementar volumen de un audio
+
+```bash
+ffmpeg -i input.mp4 -af "volume=4.0" output.mp4
+```
+
+#### Longitud archivo de audio.
+
+```bash
+ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 auto.m4a
+```
+
+
+#### Extraer audio de un video
+
+```bash
+ffmpeg -i archivo.mkv -vn -acodec libmp3lame audio.mp3
+```
+

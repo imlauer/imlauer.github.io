@@ -1,0 +1,363 @@
+---
+title: "[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 5) - Cálculo de Balance Térmico. Presión manométrica. Preguntas de exámen. Fotos aire armado/desarmado."
+date: 2024-08-03T13:18:29-03:00
+tags: ['AC']
+---
+#### Audio de la clase
+https://youtu.be/N1QM4t30mqw
+
+#### O miralo en alguna instancia de invidious.
+https://redirect.invidious.io/watch?v=N1QM4t30mqw
+
+
+
+##### El examen práctico consiste en cablear este aire:
+Aire desarmado:   
+![Aire desarmado](/img/5ta_clase_aires/IMG_20240803_111815162_HDR.jpg)
+Aire armado:     
+![Aire armado](/img/5ta_clase_aires/IMG_20240803_111802433_HDR.jpg)
+Aire ventana:      
+![Aire ventana](/img/5ta_clase_aires/IMG_20240803_120104798.jpg)
+Aire:     
+![Aire](/img/5ta_clase_aires/IMG_20240803_120152665.jpg)
+
+## Audio de la clase trascripto:
+Algunos lo dejan muy bien armado, o agregan cosas. Al finalizar el curso se les da el pdf.
+
+#### Balance Térmico
+La clase pasada hablamos del balance térmico. Hablamos de dos posibles formas: una aplicación (buscar balance térmico en google play store) y la otra forma teniendo la experiencia del técnico, lado x lado x constante de 200 y eso nos da la constante de frigorías.  
+
+#### Por qué la constante es de 200?
+La constante de 200 es un cálculo que se realizó antes, (no nos explicó por qué era así XD).
+Siempre habrá una constante que tengamos que multiplicar.
+#### La constante cambia.
+La constante cambia si buscamos en google, en google hay un cálculo de BGH si usamos el cálculo de BGH nos da alrededor del cálculo que realizamos, pero cambia dependiendo el sector. En Misiones no tenemos la misma temperatura que en Neuquen en verano, no es la misma que en Buenos Aires. 
+
+Si yo tengo que pasar de watts a frigorías tengo que multiplicar por 0,86.
+Lo mismo para saber la capacitancia de todo tipo de motores. Mediante el cálculo que vamos a realizar por una constancia.
+
+La clase que viene terminamos con presión y conoceremos la pinza amperométrica, y sería bueno traer herramientas. Ellos tienen herramientas pero si no querés perder el tiempo esperando a los demás, es mejor tener las tuyas.   
+Hoy en día el equipo te dice si le falta o no refrigerante ya no te arranca el equipo. El 80%-90% son problemas de gases, porque alguna pestaña estaba mal hecha, el secreto es saber cuando una pestaña está bien hecha.
+##### Problemas comunes de pestaña
+Muy flaca, mucha rebarba, pestaña rajada.
+
+El problema es que hay muchos que no miran si la pestaña está bien y la ponen.
+
+
+Feriados: 17/10, 28/12 (Están escritos en la 1era publicación)
+
+#### Lo que dimos la clase pasada.
+Cuando vamos a ir a instalar un equipo a una habitación tenemos que aconsejar al cliente si el equipo es apto para la habitación, porque si llega a suceder algo como por ejemplo nunca corta, el desgaste es muchísimo más que equipo que descansa y vuelve a arrancar.
+
+Si voy a la casa de un cliente, voy a hacer un cálculo de la superficie en donde voy a instalar. Si está luchando para ese frío no va a cortar nunca, no vas a tener mucho consumo pero si vas a tener un desgaste mecánico, y puede ser que tu equipo se corte por la parte mecánica más que eléctrica.
+
+El foco tiene adentro una resistencia, el primer foco de la primer serie que se sacó a gran escala sigue prendido, nunca se quemó porque NUNCA se apagó. Si el foco lo apagan y se vuelve a prender, se quemará.    
+#### Que pasa?
+Todas las resistencias sufren un desgaste cuando se apagan y se prenden.
+Lo mismo pasa con el motocompresor, mientras más arrancadas y más paradas tiene mayor probabilidad de fallo.
+
+Cuando nosotros tenemos un motocompresor o cualquier tipo de forzador pensamos en cambiarle el capacitor a ver si arranca, si NO arranca es porque la bobina de arranque se quemó, porque la que sufre es la bobina de arranque.
+
+Se corta la bobina de arranque y no anda a lo mejor hago algo raro con un capacitor(?) y vuelve a funcionar porque se cortó ahí, ahora si se cortó adentro del bobinado estamos cocinados.
+
+Entonces es un ejemplo para tener en cuenta un equipo chico funcionando, como prende y queda funcionado la parte eléctrica nunca va a tener problemas pero la parte mecánica el desgaste que va a tener al no parar es mucho más grande que un equipo que PARA se refrigera y vuelve a funcionar.
+
+
+Cuando instalemos nos daremos cuenta si es chico o grande, si un equipo es de 6000 frigorías para un ambiente que lleva un equipo de 3000 frigorías vamos a tener un **exceso de consumo**. Vamos a pagar el doble de lo que deberíamos pagar cuando teníamos un equipo de 3000, porque al ser un equipo muy grande va a parar y enfriar para y enfriar y tendrá muchísimas arrancadas por lo tanto el consumo eléctrico será más alto. Para que eso no suceda tendré que realizar un cálculo de lado x lado.
+
+
+```
+Calculo de la habitación: 
+lado x lado x constante de 200
+5 x 8 = 40
+Por una constante de 200: 5 x 8 x 200 = 8000 frigorías
+```
+Y ahora tenemos que tener en cuenta la cantidad de personas que hay en ese lugar.
+
+Cada persona genera 70 caloríass.
+Si tenemos 24 personas en una habitación:
+```
+24 x 70 = 1680
+```
+
+Ahora le sumamos a las frigorías la caloría y me dá:
+```
+5 x 8 x 200 + 24 x 70 = 9680 frigorías
+```
+O sea que para ese lugar yo necesito un equipo de 9680 frigorías sin embargo hay un equipo de 4000 frigorías. El equipo funcionará igual tardará más para refrigerar pero el uso que le voy a dar es un equipo inverter, ahí varía mucho.
+
+Hay dos formas de realizar el cálculo: usando la aplicación móvil buscando balance térmico o usando este cálculo.
+Nos pedirá tipo de piso, de techo, tipo de cortinas, tipo de cardinal, las aplicaciones será exacta la cantidad de frigorías, también te pide el tipo de cortinas no vas a ir a buscar el tipo de cortinas de la casa del cliente, si hacés un trabajo a gran escala por ejemplo 300 equipos de aires acondicionados ahí si tenés que saber que tipo de cortinas, que tipo de paredes que tipo de aislación térmica tienen esas paredes y ahí me dará la cantidad de frigorías necesaria para el ambiente.
+
+Yo voy a tener la cañería para ese tipo de aires, por ejemplo si yo digo bueno este ambiente es chiquito pero es todo vidreado y el cálculo es para un equipo de sólo 3 x 4 (3500 frigorías) y esto es vidreado yo no voy a colocar un equipo de 3500 frigorías mínimo tendrá que ser de 4500 frigorías, por la cantidad de vidrio por más que tengamos cortinas.
+
+**La garantía te suspende si instalás un equipo chico para un ambiente muy grande, por eso es importante avisarle al cliente.**
+
+#### Consulta
+Cuando la instalación eléctrica de un domicilio no está con el inverter es importante la descarga a tierra, la sobre carga de tensiones.
+
+
+Hay 3 tipos de inverter. Que el equipo sea inverter "full" significa que tanto como el motocompresor como el forzador son inverters, luego solo el motocompresor es inverter y el forzador es común, y luego "full full" tenés el motocompresor con el forzador inverter y la unidad interior inverter por eso te dan 10 años de garantía.
+
+Si es el full full no te va a prender el equipo porque necesita descargar. Al no tener vuelta a tierra esa inducción será generada en cualquier tipo de sensor y tenemos muchos sensores en el equipo entonces a veces saltará una falla y luego de buscar la  falla seguirá saltando la falla o si apagás y prendés funcionará normal y esto es porque es una falla generada por la inducción que debería descargarse y sigue ahí.
+
+A veces se encuentran imanes en la plaqueta que sirve para filtrar la mala corriente, pero no soporta. 
+
+#### Consulta
+Si una casa tiene una jabalina pero no tiene la resistencia máxima que debería tener. Si le hacés una independiente y le colocás una jabalina está de 10 no hay problemas, no te pueden decir nada la garantía cuando cumpliste con los parámetros medida de caños descarga a tierra, tienen que cambiarte el motor.
+
+#### Resistencia de la jabalina.
+La resistencia de la jabalina cambia con el tiempo: le sacás el toma cable que es el anzuelo que tiene le pegás una cepillada y acá en Misiones podés clavar un hierro bien lustrado y tiene menos de 40 ohm.
+
+Podés clavar un hierro bien lustrado de construcción le hacés una cepillada lo dejás lustrado y te aguanta hasta el otro año.
+
+##### ¿Y qué pasa con la sobre-tensiones?
+Comprate un enchufesito sale 40 lucas y ponele al toma y no te da sobre tensiones.
+
+La baja y la suba de tensión no debería afectar al equipo menos de lo que es con respecto al inverter, porque el inverter absorbe y transformar la energía 220 y para eso tiene sus 4 capacitores para trabajar, como mucho existirá un desgaste de capacitores es muy compleja esta tecnología.
+
+
+Hay mucha tecnología antes que el inverter: 
+Ejemplo:
+1. Split
+2. Aire ventana
+3. Tipo cassette
+4. Piso techo
+5. Inverter
+
+El curso no abarca todos esos tipos. Sólo split e inverter, si vas a la casa de un cliente y te encontrás con algún otro te va a encajar "una sopapeada" XD
+
+Hay muchos equipos de aire que tienen un condensador y varias unidades evaporadoras. 1 sólo motor para 4 unidades evaporadoras, vas a tener que calibrar 1 motor no más para 4 equipos.
+En cambio en el otro vas a tener 4 motores para 4 equipos.
+#### Consulta: Y tiene beneficio?
+Por supuesto sólo tenemos 1 motor prendido.
+
+No podemos dar todo, el principio es el mismo para resolver todo tipo de problemas, ni hablar de lo que es el diagrama eléctrico es fundamental.
+Si conocemos el diagrama eléctrico vamos a saber cual es el componente para cada cosa y ahí revisamos si es con 220 si con 12 voltios si funciona o no.
+
+Yo me he fabricado hasta arrancadores por ejemplo si reviso una heladera quiero saber mido la bora bueno anda bien entonces lo que es medida de bobina, entonces no sé si está jodido la parte eléctrico o mecánico porque un motocompresor se puede joder eléctricamente o mecánicamente. 
+
+Entonces por ahí está bien la bobina, vengo coloco mi probador le doy 220 directo, activo con un pulsador de timbre si arranca mi compresor listo.Entonces no es problema mecánico, es problema de bobina.
+
+Si arranco y zapatea y no arranca, se clavó el moto compresor es problema mecánico y no eléctrico depende de eso vamos a ir adquiriendo y teniendo conocimiento.
+
+La garantía de Samsung lo llamó al profesor.
+El fue el tercero por descarte que llamaron, para solucionar un secarropas inverter es lo mismo que un lavarropa, tiene adentro un motocompresor con un condensador y un evaporador.
+
+Si sabés el principio básico y sabés que hay algo que no anda bien no va a funcionar y vas por descartes, lo primero que hice fue abrir la tapa de atrás y el equipo estaba aceitoso ahí se dió cuenta que perdió refrigerante.
+Tuve que llamar para decirle lo que tenía que hacer cuando es por garantía es así.
+
+La garantía le pagó 85.000 pesos de mano de obra y una reparación de esos equipos cuesta 250.000 pesos mínimo la mano de obra, ahí tenés que decidir si querés o no laburar para una garantía.
+
+Aparte tiene otro refrigerante, cada refrigerante tiene diferentes presiones. 
+La heladera tiene su tipo de refrigerante, los vehículos, la cámara frigorífica tiene sus tipos de refrigerante.
+
+Hace 3 años que estoy dando esta cursada y me confundí la constante dijo 60 y era 70 (calorías por personas).
+
+Hay muchísimos equipos antes de llegar al inverter, cuando aprendamos a recuperar refrigerante, hasta a un equipo de ventana le podemos colocar plaqueta electrónica y dejarle con control remoto.
+
+#### Consulta alumno
+Alumno: Su madre tiene un aire de ventana que no tiene control remoto sólo levanta el térmico y funciona, pero ahora no funciona.
+
+Profesor: Hay que analizar, porque incluso le anulan hasta el térmico que trae el motocompresor al anular el motocompresor termina cagando el motocompresor.    
+Alumno: Arranca pero no tira frío.    
+Profesor: Antes en el 2010 se te quemaba el equipo el técnico te pasaba el presupuesto y era más barato comprar uno nuevo. Hoy en día no es así.
+
+Hoy en día es más barato reparar, compro el motor cambio y vamos a tener un gasto de 250.000-300.000 pesos con mano de obra y motor. 300.000 de mano de obra más 200.000 la reparación. Un equipo nuevo vale 1 palo (1.000.000 pesos)
+
+Si Milei habilita el pase sigue estando barato la compra, hasta 5000 dólares podemos hacer pasar ahora. Todas las marcas son iguales son todos chinos, adidas es alas XD.
+
+
+#### Continuación del dictado anterior
+#### Dictado
+Este cálculo se realiza cuando la habitación tiene una altura normal de 2,60 metros. Si se supera esta altura se toma por metro cúbico lado x lado x altura (la altura se toma por la parte más alta de la habitación) por 60 y al resultado se le agrega la cantidad de personas que hay en la habitación.
+
+### Consulto Alumno
+Alumno: Busqué en google y para cálculos de metros cuadrados es 250 la constante.
+Profesor: Por eso entra lo que es la presión porque dependiendo el lugar y la zona va a determinar el valor.
+Alumno: Pero en metros cúbicos la constante de 250 pasaba a 500.
+Profesor: Bueno nosotros vamos a hacer por 60 XDD, porque en cada lugar y en cada zona maneja temperaturas diferentes. Nuestra temperatura en Misiones no es la misma que en el sur en el verano, nosotros manejamos 45 grados y a veces una sensación de 47-50 grados. Es por eso que la aplicación es un cálculo EXACTO, dependiendo del tipo de aplicación varía el cálculo, por eso depende mucho de la experiencia del técnico agregándole la cantidad de artefactos que genere calor. Cada lugar y cada zona tendrá su valor. Si buscás una aplicación británica por ahí se va a basar en lo que es el calor Europeo, no es lo mismo un calor húmedo que un calor seco. Si yo tengo un evaporador el evaporador tiene una cantidad de líquido refrigerante y ese líquido refrigerante maneja una cierta temperatura de 8 grados, -8 grados y ese -8 grados va a hacer lo que hace la interferencia mediante el calor que absorbe del ambiente y hace el intercambio y larga la constante es un cálculo previo que se hace dependiendo de cada lugar.   
+Ahora en metros cúbicos nosotros vamos a realizar cuando tengamos una altura superior a los 2,60 metros. Y tendrás que ver a cuánta altura superior tenés vos en esa constante que mencionaste. **Por la parte más alta de la habitación se saca.**
+Si nosotros tenemos tinglado, vamos a tomar la parte más alta del tinglado, si tenemos con pendiente la parte más alta, y si tenemos con cumbrera también la parte más alta siempre de la habitación.
+
+# Examen:
+#### 8. En un ambiente de 5 metros por 4 metros por metro de alto donde va a haber 15 personas como máximo, ¿cuántas frigorías necesita para llegar a la temperatura deseada?
+Ellos no sabían como colocar, no es un error. Le dimos a elección para que ellos coloquen la altura que ellos querían y en base a eso corregíamos si hacían bien.
+#### Si hacían por 2 metros o 2,50 metros no les iba a dar. La constante si era por menos de esa altura, entonces la constante debería ser 200 si superás eso tiene que ser por 60. La constante depende de la altura.
+
+#### Ejemplos:
+```
+1 persona = 70 calorias.
+
+Si tenemos 15 personas: 8 metros x 6 x 3(altura) x 60 + 15 x 70 = 9.690 frigorías
+Y acá tenemos un equipo de 4000 frigorías o sea que es la mitad de la cantidad de frigorías que necesitamos, en el verano es brutal esa diferencia.   
+Y eso teniendo en cuenta de que este salón para más personas, en vez de 9000 frigorías voy a poner un equipo de 12.000 frigorías. 
+```
+
+#### Otra pregunta de exámen:
+### Si tenemos un ambiente para refrigerar 8 x 5, ¿de cuánto BTU necesita ser mi equipo?
+No queremos el resultado en frigorías.   
+Ahí tenemos que todo este cálculo en frigorías y luego pasarlo a BTU. Para obtener el BTU tenés que multiplicarlo por 4.
+
+Esa constante depende mucho de la temperatura que maneja cada zona.
+
+El zoom tiene 4 metros de altura, y de fondo tiene 10 metros por el frente.
+
+Tiene 12 x 10 y 4 metros de altura y entran 120 personas.   
+Cálculo:   
+```
+Si tenemos 120 personas: 12 x 10 x 4 x 60 + 120 x 70 = 37.200
+```
+
+### Practiquen en casa.
+Practiquen tomando la medida de la habitación y calculen las frigorías.
+
+**Siempre cuando tengamos un ambiente muy grande por más que tengamos gran cantidad de frigorías tengo que prender los equipos antes que venga la gente.**
+
+Cuando tienen demasiados clientes quieren terminar y la calidad baja de la fabricación, cámaras es un desastre madera de mala calidad llega al año de uso y se pudre todo el piso.
+
+Traten de tener 1 cliente a la mañana y otro a la tarde, así tenemos un buen lapso para reparar sus macanas.
+#### Consulta alumno
+Alumno: ¿Cuánto tiempo tarda en montar un aire?
+Profesor: No es lo mismo ajustar un tornillo con la mano que con una atornilladora. O una atornilladora imantada que una atornilladora simple. 
+
+Por ejemplo en un equipo nuevo de cruce de pared más o menos con un secretario experimentado, cuando subo a las escaleras mi secretario tiene la medida de la ménsula al equipo, entonces yo coloco y me dice es 45, por ejemplo marco la ménsula al nivel. Cuando le paso la ménsula el secretario ya tiene los 4 tarugos con la mecha y la estrelladora todo prendido y agujereo. Cuando termino de agujerear bajé la atornilladora mi secretario me pasó los tornillos o cuando bajé al piso, el secretario puso los 4 tarugos y está ajustando con la atornilladora. Subo para colocar el equipo y el secretario barrió el piso.   
+Es mucho más rápido. Hoy en día un secretario sale 25.000 y 30.000.
+
+El tema es que el secretario y el de refrigeración no tiene hora, porque se puede complicar con cualquier cosa. 
+### Anécdota profesor
+Tuvo una emergencia con las cámaras de frutilla o se echan a perder, tenía media tonelada de frutillas.
+No prendía ninguna heladera, un cajón de frutilla está 22.000 pesos.   
+No puedo pasar de una heladera a la otra porque no funciona ninguna.
+
+Encontró el problema pero cortó el aéreo es doble trabajo porque tuvo que buscar la solución sin tensión y era un lugar en donde tenía 1 sóla térmica y prendía todo el local completo. Es más complicado así porque si tenía seccionado vas levantando la térmica por sector y es más fácil identificar el problema.  
+
+Medí la bajada de la tensión, me marcaba 220 y listo ya depende todo de EMSA, te tiene que colocar el fusil que se cortó allá arriba y listo.    
+Y eso no es nada yo le dejé todo abiertas las bocas, no puedo cerrar todas las bocas porque mañana tengo clase, mañana imposible, para la próxima me pasás los materiales hacemos toda la instalación eléctrica.   
+Son locales chicos 2 y medio x 5 y le pasé 250 al cableado y le agarró igual al transformador, el quiere hacer la cañada aparte porque la instalación es vieja tiene caños de hierro y pasa poco cable por ahí entonces quiere hacer toda la instalación por un lado es más fácil porque es todo exterior. Tengo 2 departamentos para ir a cablear.      
+Alumno: Llamame cobrá la diferencia y hago todo sólo.   
+Profesor: El año pasado gastó 120.000 para cablear, sacá el caño viejo y es más caro que el cobre.   
+Alumno: Y sí si está bien, si tiene hierro podrido se complica.    
+Profesor: Todos los caños que corten no tiren nada a la bolsa, pesa el cobre y lo pueden vender. Cada finde año vendo todos los motores quemados y todos los pedazos de cobre. Ayer me fui a instalar 4 equipos en una casa y se veían cañerías embutidas o sea ya estaban haciendo caños en la pared. Entonces pregunté que hago con eso caños? Cada caño tenía 3 metros de caño, llevate para vos me dijo!
+No puedo reutilizar esos caños para esos caños para otros capos, porque esos caños eran para R22 y si coloco en un 410 puedo contaminar porque está lleno de aceite. Entonces achicharré todo y tengo 4 kilos de cobre.
+
+Vamos a tener una base de electricidad cuando entremos a lo que es conexión/diagrama.
+
+Una placa vale 50.000 pesos. Es recomendable comprar una placa porque en el examen tenemos 15 minutos para armarla y desarmarla. Tenemos 2 horas de clase y vamos a ir pasando de a 4 independientemente, vamos a tener 1 equipo para cada uno, todo desarmado. Herramientas hay para todos, pero la reparación es diferente. Con esto estaremos terminado lo que es cálculo. Ahora comenzamos con presión manométrica.
+
+
+### Manómetro de presión. 
+Manipull o manovacuometro: nos permite medir las diferentes presiones que circulan por un circuito cerrado que había con respecto con la presión atmosférica, que significa eso: que cuando nuestra aguja tiene 0 grados en 0 psi va a ser la presión atmosférica, si ese manómetro se encuentra abierto va a ser el 0.
+¿Por qué digo manómetro? Porque así como está dibujado en el pizarrón es un manómetro, si yo agarro y le agrego el -1 al -30 que es lo que sucede habitualmente a esta clase de manómetro. ¿Por qué sucede esto? Porque la escalas son muy chiquitas y muy determinadas tengo que prestar muchísima atención para poder mirar porque tiene muchos refrigerantes para 1 sólo manómetro. Si yo voy y sólo compro un manómetro para R22 y R410 vamos a trabajar solamente con esos dos tipos de refrigerantes, como son manómetros universales, tenemos escalas diferentes para diversas funciones, son manómetros económicos para la refrigeración. 
+
+Si me compro una regulable y la cuido me va a durar lo mismo que una regulable común, lo mismo pasa con los manómetros.
+
+Del lado izquierdo vamos a tener el manómetro azul, que manejará la baja presión y vamos a tener una totalidad de 500 psi aproximadamente.   
+
+El caño de alta presión es el del color rojo aproximadamente 800 psi estamos ampliando lo que es un manómetro chico e incluso ya va a estar costando acomodarle, que significa esto: el 0 es la presión relativa con la presión atmosférica son la misma presión que maneja si yo succiono y tengo un vacío puedo llegar hasta -30 si yo le inflo le doy presión y voy a subir un vehículo maneja 35 psi, o sea que aproximadamente tengo que estar por acá para que el vehículo esté parado, ahí tenemos presión positiva por encima de la presión atmosférica, yo inflo le doy presión positiva. Yo absorbo succiono y doy presión negativa por debajo de la presión atmosférica que significa? Que la presión del service abajo está trabajando en pulgadas de mercurio y la presión hacia arriba son psi, ¿que diferencias hay? Cuando nosotros necesitemos hacer vacío vamos a usar el vacuometro toda la presión negativa vamos a usar la parte del vacuometro.
+
+
+Gráfico del Manómetro (Azul y Rojo):   
+![Gráfico del Manómetro](/img/5ta_clase_aires/IMG_20240803_120116802.jpg)
+
+##### Un poco de humor
+¿Y ese ojo? Me maté dibujando para que digan que es un ojo.
+
+Cuando voy a comprar un manómetro tiene que ser un MANOVACUOMETRO.
+Ustedes tienen que comprar una plaqueta, podemos armar un tablerito y hacer algo de prueba para armar la placa entonces en la casa practicamos.
+
+Entonces van a comprar foquitos y en vez de que prenda el compresor del equipo prenderá el foquito.
+Si no prende el foquito es que no llega alimentación o algo pasa en el sistema.
+
+Tenemos que armar el aire, tenemos que saber el diagrama eléctrico. Con verlo tenemos que saber armar el aire.
+
+Del service a abajo presiones negativas vamos a usar el vacuometro hacemos vacío para liberar el conducto de nuestro sistema frigorífico vamos a hacer vacío (-30) como es un manómetro para diferentes tipos de refrigerantes uso LA ESCALA SERÁ MUY CHICA. Cuando nosotros veamos que llega la aguja a -30 va a contener el vacío correspondiente, 
+¿cuanto tiempo de vacío? lleva un equipo aproximadamente entre 10 y 15 minutos de vacío dependiendo el tipo de bomba que tengamos.
+Si es una bomba bastante grande es tiempo suficiente, si es una bomba chica vamos a tener que hacerlo en dos veces, primero dejamos 6/7 minutos apagamos la bomba y volver a hacerlo por 6/7 los minutos restantes. 
+
+En ese tiempo imagínense que yo hice 5 minutos de vacío llegó a -30 cierro el manómetro para que se mantenga a -30 porque si yo apago la bomba pierde otra vez y vuelve a la presión del 0 porque absorbe humedad del ambiente, llega a -30 en 5 minutos cierro el manómetro apago la bomba mientras se enfría la bomba reposa un poco controlo que la aguja regrese al 0, porque si regresa al 0 significa que en algún lugar tiene una pérdida, **mi bomba no sólo me va a servir para limpiar el conducto y la dureza que tenga el sistema, sino que también me va a ayudar para detectar si tiene alguna pérdida, ya sea en la uniones (normalmente son ahí)**
+
+Cuando los equipos son nuevos las uniones que yo hago van a hacer 4, las 4 uniones de los caños de alta y de baja y nada más. No tiene porqué perder presión si se hizo una buena pestaña.
+
+Queda en -30 esos 5 minutos continúa el vacío, pero como esto es una escala muy chica, a veces yo espero 5 minutos y regresó un poquito porque estaba absorbiendo en algún lado y no me doy cuenta y libero el refrigerante y luego se le salta la pérdida y en algunos casos falta apretar un poco más. Aprieto y termina el problema.
+
+**Si en el caso que yo hago a -30 y tengo una duda de pérdida puedo colocar una CINTA le pego una cinta a dirección de lo que es la aguja entonces yo conecto los cables y luego miro que que coincida mi aguja con la cinta que pegué** Como son escalas muy chicas tengo que estar los 5 minutos mirando si regresa 1 mm la aguja o no. Muy detalladamente tengo que mirar. 
+
+Antes en el manual de garantía te pedían 24 horas en vacío el equipo para saber si tenía pérdida o no, ahora no no puedo esperar de un día para el otro para saber si tiene pérdida entonces para acelerar si mi aguja permaneció en -30 y no me doy cuenta, te vas a dar cuenta si tienen un **manómetro digital**, porque maneja el tiempo real si sube o si baja, en los analógicos yo tengo que ver si la aguja regresa o no, pero a veces la pérdida es muy diminuta y voy a estar dos horas y recién se va a mover un poco.
+
+Si es un manómetro digital van a caer de espalda?? 
+Lo mismo cuando entremos con la pinza amperométrica, antes con el amperímetro analógico maneja una escala determinada y teníamos que regular el valor de lo que estaba tirando ahora yo tengo una pinza amperométrica digital y ya nos da el valor en pantalla de cuanto es, entonces da más seguridad. Lo mismo pasa con el manómetro yo hasta hoy en día sigo teniendo el manómetro. 
+
+Una vez que se mantuvo en -30 cuando nosotros recuperemos refrigerante vamos a tener que tener en cuenta el ciclo de la refrigeración porque dijimos que era el motocompresor que comprimía el gas refrigerante en un condensador luego pasaba por un evaporador que inyectaba el gas refrigerante y luego regresaba al motocompresor, **tengo que tener en cuenta para que lado circula el refrigerante para poder abrir los robinetes,** yo voy a tener un robinete de un lado y del otro, el robinete que está abajo es el de baja presión (a veces están uno al lado del otro así que no se guíen así) **el robinete de baja siempre será el caño más grueso**, y **el robinete de alta será el robinete más fino**, en el aire domiciliario **el robinete de baja será el único que tendrá una válvula de acceso para medir la presión** porque el de alta no me va a dejar medir la presión, no voy a poder conectar mi manómetro.  
+
+#### El robinete de baja será el único que va a tener una válvula de servicio
+Me permitirá conectar el manómetro azul en el de baja presión.
+
+#### Alta presión más fino y baja presión más grueso y es el único que tiene la válvula de servicio.
+Ahora teniendo en cuenta el ciclo del refrigerante voy a abrir el robinete de alta voy a liberar presión en el sistema una vez que hice vacío aproximadamente entre 60 y 100 psi y ya cuando tenga pérdida voy a poder agarrar un detector de fuga o el más fácil de todos el detergente con una esponja para buscar pérdida con eso vamos a poder buscar pérdida (AHORA QUE TENEMOS PRESIÓN), pero NO CUANDO TENEMOS VACÍO porque cuando tenemos vacío va a succionar.
+
+Por más que el vacío me dió, por ahí no me dí cuenta que la aguja está subiendo milimétricamente, entonces libero un poco de presión tiro detergente y si empieza a burbujear significa que tiene una pequeña pérdida, **si la pérdida es muy chica cada 15-20 segundos va a ver una burbujita**. Hay que observar bien.
+
+Si llega a tener una pérdida son 60 psi no más, tiro todos esos psi vuelvo a apretar bien reviso mi pestaña y vuelvo a hacer mi vacío nuevamente, y no pierdo la totalidad, si yo abro todo el robinete, voy a liberar toda la presión y si tengo una pérdida el refrigente cuando quiera recuperar el refrigerante, al recuperar el refrigerante va a absorber aire del ambiente y contaminará mi gas adentro del sistema. Y ahí tengo que tirar el gas.
+
+**Si tenés que cargar gas tenés que buscar la pérdida, no podés ir y cargar solamente**
+
+Robinete de alta, abrimos un poco cuando la aguja empieza a subir a 60 y 100 psi cierro nuevamente.    
+
+Cuando nosotros necesitamos realizar un mantenimiento y tiene una pérdida y no sabemos en donde es, vamos a tener que comprar un **tubo de nitrógeno** y buscar pérdida porque el nitrógeno levanta muchísima presión sin necesidad de contaminar porque es una presión es seca, no es la presión atmosférica que contiene humedad.
+
+Ahora, liberé un poquito llegó hasta los 60 y cierro el robinete porque sino seguirá subiendo hasta seguir subiendo más la presión de lo mantiene ese equipo apagado. Una vez que yo cerré el ese equipo recién termino de abrir todo el robinete de alta y todo el robinete de baja, y ahí puedo enchufar para probar el equipo, cuando nosotros abramos tengamos 180 psi si es un R22 con los dos robinetes abiertos si queremos controlar la pérdida con esa presión, MIENTRAS MÁS PRESIÓN MÁS POSIBILIDADES QUE TENGA PÉRDIDA, a lo mejor se banca para 60 psi pero no para 180 psi entonces volvemos a probar si total es preferible perder esa cantidad de detergente que gastar 50.000 pesos en refrigerante.
+
+Si pierde a la semana tenemos que bajar el equipo revisar si fue la pestaña, por eso es preferible sacarse esa duda en ese mismo momento.
+
+
+Una vez que quedó se va a 180 psi probamos y ahí quedaría sin pérdida, esta misma cantidad de refrigerante que tenemos en este manómetro vamos a tener en el manómetro de alta, pero como nosotros tenemos hasta 800 psi la escala, fijate que acá tenemos 60 psi tenemos más margen de visualización para poder ver si sube o si baja o si hay pérdida, acá es todo lo contrario porque 60 lo tengo acá recién está mucho más comprimido todo porque tenemos que llegar a los 800 si o si, entonces me va a costar mucho más ver la parte de vacuometro acá vamos a tener pegado lo que es -30 y toda la escala va a estar muy chiquitita ahora si nosotros tenemos solamente para el mismo refrigerante para uno sólo R22 o R410 por ahí tenemos un margen más prolongado y se puede llegar a observar si tiene una pérdida.
+
+Para los que recién empiezan el manómetro sale 50.000 si tengo que comprar los dos manómetro sale 100.000 entonces lo que yo recomiendo es que usen el **rojo para R410 y el azul para R22**. Son diferentes gases y no pueden estar en contacto entre sí porque se contaminan. El R410 es ecológico.
+
+La manguera la vamos a contaminar SÍ , la vamos a contaminar, esta manguera que tenemos en el medio se llama manguera de servicio y **vamos a tener que comprar aparte** una segunda manera amarilla para que cuando yo tenga un equipo como el R22 uso una manguera azul con el manómetro azul y la manguera amarilla para R22, el refrigerante va a venir va a pasar y voy a controlar la presión con ese manómetro y cuando tenga un trabajo con R410 saco la manguera amarilla del R22 coloco una manguera para R410 amarilla y el refrigerante irá para el otro lado y controlo la misma presión para R410 entonces tengo que usar el mismo manómetro para diferentes REFRIGERANTES.
+
+Si yo uso el azul para el R22 y el R410 creame que se les va a contaminar, y nos va a dar un dolor de cabeza.
+Por más que volvamos a hacer un vacío vamos a tener problemas.
+
+**Ahora lo único que no van a tener válvula de servicio son los aires de ventana porque los aires son unidades selladas y vamos a tener que ubicar de nuevo el ciclo de la refrigeración y vamos a tener que buscar el caño de baja que es el único que nos permite tener un acceso a medir. En el evaporador es todo baja presión entonces me voy al aire de ventana y busco del evaporador al retorno del compresor que es de baja presión y ahí coloco hago una perforación y coloco una válvula de servicio**, compro una válvula aparte y coloco la válvula de servicio para poder cargar refrigerante.
+
+El ciclo de la refrigeración es para reparar heladera, freezer, cámaras, porque todo funciona con un motocompresor con diferentes refrigerantes, sabiendo eso vamos a solucionar casi todo.
+
+Tenemos que saber el ciclo de la refrigeración para poder liberar refrigerante, para poder recuperar el refrigerante, para poder diagnosticar un equipo.
+
+#### La clase que viene comenzamos a recuperar y a liberar
+Tenes que entender para que lado va el refrigerante.
+Si este es mi evaporador dijimos que acá tenemos una válvula para habilitar y cerrar el refrigerante y acá tenemos la otra, sale el refrigerante del compresor en forma de gas y entra al evaporador, si cierro a alta presión ya no saldrá más el refrigerante el motocompresor seguirá succionando entonces todo el refrigerante que quedó por el evaporador va a succionar el compresor y lo comenzará a guardar dentro de la unidad condensadora, una vez que recuperó el refrigerante cierro el robinete de baja porque al estar conectado el manómetro al robinete de baja me va a decir cuando llegue al 0 me va a decir que ya no tiene más refrigerante para recuperar y ahí cierro el robinete de baja, una vez que desconecté el manómetro de baja, apago el equipo y ahí el refrigerante quedará almacenado en esa parte, yo desconecto el caño en el robinete y desconecto el otro caño y saco el evaporador para hacer un service y saco el condensador por otro lado y el refrigerante queda adentro de la unidad evaporadora si hago al revés el refrigerante se guarda en la otra parte pero cuando yo desconecto se pierde todo el refrigerante porque no tenemos válvula para retener el refrigerante.
+
+En el otro caso sí, entra por un lado yo cierro y ya no me deja salir más entonces sigue absorbiendo cierro y todo el refrigerante queda guardado con las dos llaves, cerrado y almacenado XDD 
+
+#### REPASÁ EL CICLO DE REFRIGERACIÓN.
+En la otra escala veremos el grado de temperatura de cada refrigerante, lo que significa es que el R22 a 60 psi al otro extremo de mi aguja marcará mi temperatura, y me servirá para realizar el intercambio de temperatura, el R22 a 60psi tiene una temperatura de -8 grados.
+
+-8 a 60 PSI un R22 el evaporador absorbe a 45 grados, y ese grado marca la temperatura de inyección del R22 se inyecta refrigerante después del capilar en el evaporador , o sea que acá está largando en -8 grados y está chupando a 45 grados en -8 grados acá va a salgar 17 o 18 grados de frío. De 45 grados, el calor que se produce el intercambio larga 18 grados, ahora esto empezó a circular porque vuelve a absorber y ya largó en 18 grados y ahora va a largar en 10 grados, ese 10  grados va a volver a entrar y va a estar arrogando un 10 grados luego 8 grados y así sucesivamente intercambia el aire del ambiente.
+
+Esa temperatura no es la que maneja el control, el control trabaja por separado, si tenemos el sensor de plaqueta pegado al evaporador sensa la temperatura del evaporador y no del ambiente. Si ese sensor que está pegado al evaporador nos va a marcar los -8 grados y yo tengo 24 grados, me va a marcar la temperatura del EVAPORADOR y ESE ES UN ERROR MUY COMÚN, arranca un rato y corta y es porque el sensor está pegado al evaporador, sensa la temperatura del evaporador que es -8 grados vos tenés 24 grados y te va a cortar el equipo.  
+
+Todos los evaporadores tenemos los sensores y vamos a ver que ese sensor va con un plástico pero retirado de la chapa si eso está tocando sensa la temperatura del evaporador.
+
+El manómetro será un instrumento que me permitirá medir diferentes tipos de presiones con respecto al ambiente.
+Un equipo nuevo o tiene o no tiene refrigerante si recuperaste el refrigerante como corresponde cuando vos vayas y liberes el refrigerante y NO TIENE, la pérdida está en el condensador porque vos recuperaste. Ahora si vos tenés un equipo nuevo las dos unidades vienen presurizadas el condensador viene con el gas de fábrica y el evaporador viene con presión de fábrica cuando vos saques la tapa del evaporador para conectar los caños, va a liberar presión de nitrógeno, cuando libere esa presión vos vas a ser consiente de que esa presión se mantuvo dentro del equipo o sea que el equipo no está pinchado, es cuestión de prestar atención. **Conecto los caños conecto el equipo, hago vacío, quedo el vacío, libero la presión largó el refrigerante si larga tiene refrigerante entonces el condensador tampoco está pinchado, si a las dos semanas no tiene refrigerante entonces son las 4 uniones que hiciste**.
+
+## Preguntas de examen 
+#### Ciclo de la refrigeración.
+Indicar cual es el correcto y cual es el falso. Y explicar por qué es el correcto.
+#### Balance térmico
+En qué trabaja? Trabaja en PSI.
+También libras sobre pulgadas al cuadrado es el PSI.
+Y el de vacuometro de mercurio.
+
+Si podés comprar el manómetro digital es mejor. Lo que tiene es que el R22 y el R410 varían muchísimo dependiendo de la temperatura del ambiente sea 60 psi sea 65 psi sea 55 sea 45 psi para un R22 va a funcionar no se va a congelar. Ahora si yo tengo un refrigerante más delicado como un R600 eso tiene que ser la medida exacta, no les va a funcionar porque son refrigerantes con un manor poder frigorífico, por eso en el R22 no pasa nada, por eso se usa estos tipos de manómetros analógicos, un poco más o un poco menos no pasa nada.
+
+La clase que viene comenzamos con presión manométrica.
+La clase que viene es en el taller.
+
+#### Examen: Son 60 preguntas, de las 60 preguntas se seleccionan 20 o 13  
+
+### Que hay que comprar primero?
+El kit de pestañadora, corta caños.

@@ -1,0 +1,367 @@
+---
+title: "How to Install Searx Search Engine"
+date: 2025-11-15T17:18:02-03:00
+tags: ['search','engine']
+---
+
+```bash
+git clone https://github.com/searxng/searxng.git
+cd searxng
+make run # (Instalará todas las dependencias dentro de un virtualenv)
+```
+
+Fijate si el puerto esta abierto.
+
+```bash
+ss -tulpn | grep 8888
+```
+
+Ahora podes usarlo con tu navegador de consola favorito: `w3m, links, lynx, links -g (con soporte framebuffer), etc.` o con IceCat (con LibreJS), falkon, angelfish, otter-browser, cualquiera sea el navegador que usas.
+
+# Configurarlo como servicio.
+
+Para hacer que SearXNG se inicie automáticamente al bootear tu sistema Arch Linux, necesitas crear un servicio de systemd. Aquí te muestro cómo hacerlo:
+
+## 1. Crear el archivo de servicio
+
+Crea un archivo de servicio en `/etc/systemd/system/searxng.service`:
+
+```bash
+sudo vim /etc/systemd/system/searxng.service
+```
+
+## 2. Contenido del servicio
+
+Agrega el siguiente contenido (ajusta las rutas según tu configuración):
+
+```ini
+[Unit]
+Description=SearXNG metasearch engine
+After=network.target
+
+[Service]
+Type=simple
+User=tu_usuario
+WorkingDirectory=/ruta/completa/a/searxng
+ExecStart=/usr/bin/make run
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
+```
+
+**Reemplaza:**
+- `tu_usuario` con tu nombre de usuario
+- `/ruta/completa/a/searxng` con la ruta absoluta a tu directorio searxng (usa `pwd` dentro del directorio para obtenerla)
+
+## 3. Habilitar e iniciar el servicio
+
+```bash
+# Recargar systemd para que reconozca el nuevo servicio
+sudo systemctl daemon-reload
+
+# Habilitar el servicio para que inicie al bootear
+sudo systemctl enable searxng.service
+
+# Iniciar el servicio ahora
+sudo systemctl start searxng.service
+```
+
+## 4. Verificar el estado
+
+```bash
+# Ver el estado del servicio
+sudo systemctl status searxng.service
+
+# Ver los logs si hay problemas
+sudo journalctl -u searxng.service -f
+```
+
+## Comandos útiles
+
+```bash
+# Detener el servicio
+sudo systemctl stop searxng.service
+
+# Reiniciar el servicio
+sudo systemctl restart searxng.service
+
+# Deshabilitar inicio automático
+sudo systemctl disable searxng.service
+```
+
+Si tienes problemas con permisos o el servicio no inicia correctamente, avísame y te ayudo a ajustar la configuración.
+
+
+
+
+
+Great choice using SearXNG (the maintained fork) with w3m! Here's how to configure it for fewer images and optimize for console browsing:
+
+## Configuration Changes
+
+Edit your `settings.yml` (usually in `/etc/searxng/settings.yml` or `~/.config/searxng/settings.yml`):
+
+```yaml
+search:
+  default_results_per_page: 20  # Adjust as needed
+  
+ui:
+  results_on_new_tab: false
+  infinite_scroll: false
+  
+engines:
+  # Disable or reduce priority of image engines
+  - name: bing images
+    disabled: true
+  - name: google images
+    disabled: true
+  - name: flickr
+    disabled: true
+```
+
+## w3m-Specific Hacks
+
+**1. Create a custom searx wrapper script:**
+
+```bash
+#!/bin/bash
+# Save as ~/bin/searx
+SEARX_URL="http://localhost:8888"
+QUERY="$*"
+w3m "${SEARX_URL}/search?q=${QUERY// /+}&category_general=1&language=en&time_range=&safesearch=0&theme=simple"
+```
+
+Make it executable: `chmod +x ~/bin/searx`
+
+**2. Use the "simple" theme** - it's perfect for console browsers:
+- Access: `http://localhost:8888/preferences`
+- Set theme to "simple"
+- Disable "Image proxy"
+- Enable "Open result links on new tab" = OFF
+
+**3. w3m configuration** (`~/.w3m/config`):
+
+```
+display_image 0
+auto_image 0
+max_load_image 0
+```
+
+**4. URL patterns for quick searches:**
+
+Add to `~/.w3m/urimethodmap`:
+```
+searx: file:/cgi-bin/searx.cgi?%s
+```
+
+**5. Filter images via URL parameter:**
+
+Access SearXNG with: `http://localhost:8888/search?q=YOUR_QUERY&categories=general`
+
+Avoid `&categories=images` to skip image results.
+
+**6. Custom CSS for minimal display:**
+
+In SearXNG's `settings.yml`:
+```yaml
+ui:
+  static_use_hash: false
+  custom_css: "/custom.css"
+```
+
+Create minimal CSS that hides image previews and thumbnails.
+
+## Pro Tips
+
+- Use **bang syntax**: `!g query` (Google), `!ddg query` (DuckDuckGo), `!w query` (Wikipedia)
+- **Keyboard shortcuts in w3m**: `ESC-M` to open URL in external browser if needed
+- Set SearXNG as w3m's default search: edit `/etc/w3m/config` and set `cgi_bin` path
+- Use `&format=json` or `&format=csv` in URL for parseable output you can pipe to other tools
+
+Want help with any specific configuration or setting up custom engines?
+
+
+```bash
+search:
+  default_results_per_page: 20
+  formats:
+    - html
+    - json
+  
+ui:
+  results_on_new_tab: false
+  infinite_scroll: false
+  theme: simple
+  center_alignment: false
+  
+```
+
+
+## Configurarlo como servicio
+
+You’re *very* close 🙂 — the problem is that your **systemd user service file is incomplete**, and systemd is rejecting it.
+
+Let’s do this **cleanly and correctly** for **SearXNG as a user service** on Arch.
+
+---
+
+## Why your service fails
+
+Your current `searx.service` is missing **required sections** and best practices:
+
+❌ Missing `[Unit]` section
+❌ No `Type=` specified
+❌ `User=` is **not needed** in `--user` services
+❌ `make run` is not ideal for systemd (it’s interactive / foreground tooling)
+
+Systemd responds with:
+
+> *failed to load properly* / *Device or resource busy*
+
+---
+
+## Correct way to set up a SearXNG **user service**
+
+### 1️⃣ Create the service file (properly)
+
+You are already in the right directory:
+
+```bash
+cd ~/.config/systemd/user
+vim searx.service
+```
+
+### 2️⃣ Paste **this exact service file**
+
+```ini
+[Unit]
+Description=SearXNG metasearch engine
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/esotericwarfare/searxng
+ExecStart=/home/esotericwarfare/searxng/.venv/bin/python -m searx.webapp
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target
+```
+
+⚠️ **Important notes**
+
+* This assumes SearXNG is installed in a **Python venv**
+* `make run` is **not recommended** for systemd
+* systemd wants a **single long-running process**
+
+---
+
+## 3️⃣ Ensure your venv exists
+
+From your SearXNG directory:
+
+```bash
+cd ~/searxng
+ls .venv/bin/python
+```
+
+If it does **not** exist:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+---
+
+## 4️⃣ Reload systemd user units
+
+```bash
+systemctl --user daemon-reload
+```
+
+---
+
+## 5️⃣ Enable & start the service
+
+```bash
+systemctl --user enable searx.service
+systemctl --user start searx.service
+```
+
+---
+
+## 6️⃣ Check status & logs
+
+```bash
+systemctl --user status searx.service
+journalctl --user -u searx.service -f
+```
+
+If it fails, the log will now tell us **exactly why**.
+
+---
+
+## Common gotchas (important)
+
+### 🔴 Port already in use
+
+SearXNG defaults to `127.0.0.1:8888`
+
+Check:
+
+```bash
+ss -tulpn | grep 8888
+```
+
+### 🔴 Missing `settings.yml`
+
+Ensure:
+
+```bash
+~/searxng/searx/settings.yml
+```
+
+If missing:
+
+```bash
+cp searx/settings.yml.example searx/settings.yml
+```
+
+---
+
+## OPTIONAL: Run on boot (even without login)
+
+User services stop when you log out unless you enable lingering:
+
+```bash
+loginctl enable-linger esotericwarfare
+```
+
+---
+
+## TL;DR (minimal commands)
+
+```bash
+vim ~/.config/systemd/user/searx.service
+systemctl --user daemon-reload
+systemctl --user enable --now searx
+systemctl --user status searx
+```
+
+---
+
+If you want, tell me:
+
+* **How you installed SearXNG** (git / package / docker)
+* Whether you want **reverse proxy (nginx)** or **Tor-only**
+* Whether this is **local-only** or **public-facing**
+
+I’ll tailor the service exactly to your setup.
+
+
+

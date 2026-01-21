@@ -1,0 +1,29 @@
+---
+title: "Electricidad / Clase 26: Clase práctica. [LO MÁS IMPORTANTE DEL CURSO: LOS ÚLTIMOS 2 ESQUEMAS DE MONTAJE] 6) Dos lámparas con llave combinación. 7) Dos lámparas. Una con llave combinación y otra con llave de 1 punto. Comenzamos ejercicio 8. En el exámen entra el diagrama unifilar de todo esto."
+date: 2025-05-19T22:06:18-03:00
+tags: [electricidad]
+---
+
+###### Audio en Vocaroo
+https://vocaroo.com/1ndiSoYVRjEc
+###### Audio en Archive.org
+https://archive.org/details/record-126
+###### Audio en YouTube
+https://www.youtube.com/embed/R2V3PACiUoU
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSrTjf-8wBSVTVGDK_A3RTY5MIieU197-vIR9HX1ws21IBEOAezoquTtiaLVHZkUouq-H6BxFjqar09hxzciCmtEhhD0QaT0mmvqP-6pAK4zERgMV7UYmnNHZeVN8VhTr-D-mj_MmZe6ff_Co5fHFH8im8rcI33zju6om8RO9RZD01ZXd-NfWngITDQuU/s4160/IMG_20250511_181942963.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ2DqC1kepIAqus-2nNq8fCn5dMqMvqef01FtnM_AxkYCgRfzxmSn-Yzjn_cvpBdiyMXorvr41KvMH2QYr5qSbg-PK6YF291yoJFGfamhPjAjRjEpzMUbUukzOJqClTcz9haIRcQmtZ_GA5xQ4JAfdWLw6BMt3FTkydPsfULcOPAybIveWTfA4lDChtXc/s4160/IMG_20250514_202616901.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil5ew5QVWeyV96tQLOsz_9yDA-mwfO7bNHoyhOXYbuhb-UrjfSBDkNpijhLxkOp0zzuWHXS9v4AA0WhQIzSqPV1fMIgLm67JoHgE-bOXI8LuLW_3sbNVlRvq4zZXmMes9KI8g68tZ5g8Bu9ruU9pDUO6WGmwAmPnifWBZ7yupkjAV0a2vOUugBxksc-Hg/s4160/IMG_20250519_192501319.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoURaeCkLIvvvqMfzPE7zgaeENkiA9u-7KedTOBzKTpgK2hasYh2RNgLLPQoC45TTFjAdrSqC_dk2ncQhSCCUmoJIEv1mShYpdBhn_Pexbg9n1jnwP-oLw2wHyBre2lmQ1fK4m_Aiv_3mLHqlP3opjD9vxN5I-C51X6LMg8_IeK1qGaoE7HF_HlqQCVNE/s4160/IMG_20250519_194858095.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisJNs7rnMM3-H2FrxKEfhrQrfNj6jkWgr1HXPNMPmSgT2X1BXPNVhoLH1yNx7ZLiO1n39Z2sSlhz74n67d4w8bn22WeXToFgWMz_bFY5mud1_8ciPu7xxmBwBuR4hskn8tcHPP1Gcb2c9dUFbUVi3Pi3rvzuiUedIMtxOmQnDdQykVJB6cPW8giMR8FNc/s4160/IMG_20250519_200506332.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdnQOfPBWCpAxt8B7VWsj6dswVNaoI1j40lyIF0v6SDtnlHiLekszTgFRzWddGgQsRS6de1iMOl39HCXpqOgEDoKpHx-dF9iAHM9KatlzZ7b810qX7LSsvQKUtc2FN6YJ6ZKc8D96MX7gh5CKWKKbRd3osOFjAkvd5eV__Q1XWWfR94mzmiv6iNsh1M8o/s4160/IMG_20250519_200511478.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjq9pGVB_R-NfOg1-f6_1x5lM25Rsq9Wt6gB7j2Qg_98V-9YwtjN21wRPfDFKwKVUuFFSTCdGJpJ118Jqy0RbyhnoOXQPmXbvBqrVGCrG689mJGWr_AplJYBqbHoJGpQH-ReYmgST00iGbH_Vov0UWB8MejKObXDdLgGedSvhbvAM1sfr3UHrHGFUBgRLk/s4160/IMG_20250519_202033785.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vI-zGm1VTF9GOnuZZgzE_IQUHjj2NTlX1jKKyk10ls1YRTuEPiZ4hl6dJ9-knOCMFP4-gYcZjvihQzlYzq8gwtBgymjBqG7DJkvkLprrEfZtfa14sHfGbR_XyG3KuuaHtzjPKmWawohKYSvGHnty-jw2D9-X_IgcE4vxtvJiZORVTrOGy6ix62U2ZMM/s4160/IMG_20250519_203334764.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzu5poJnE2u75TZ3K3_eHp2LpK6NLlRVgMUpfDPcR2Ws8Qei2KASo2Cjgkrr8A0bU1TN-fhDk98m3FjSWMGyyxVRbEKzUm2ppi_E8yEpJykYoACD-tDhfB3GLVYPCguAe-gAWsPoWOvyBU_37AX-5mUXIh8dssEI7Yaku12HUjVXZgDW_WQzkmW_nRewY/s4160/IMG_20250519_215122711.jpg)
+### Hice mal. No hace falta una fase para el foco y otra fase para el toma corrientes, podes usar la misma fase de 2,5 mm^2 para ambos hacé un puente.
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9AAITWKroqzUF_x1-0O2oQI1L9aaeB_bPeKFviZuIO66Iy7RcIkZ8d-KyMGOeFbIjgrsitaA80zFzowrzo1y2hyphenhyphen17ALYcs1bHxMvy0cypAzk9fODg3GKvFAzcUVufeW_lhuwtBg3T0WRekZvj5tyuFaa17tNer4XMd2fMTxvO9zsMmC-FI01tSO3OLr0/s4160/IMG_20250519_215139860.jpg)
+
+### Acá esta bien comparto la fase porque solo es un foco pero si fueran 2 tomas tendría 1 fase para cada una.
+El cable de tierra es de 2,5 mm^2 el del neutro y la fase también y el de retorno 1mm^2
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9c5ZVsfrrKF9PvoWPhPi-xVB2IOctsbXMRDrzA82FpiDPYm2Fcsjc4dm3sU5CKd7EPTau_FmOsqsD61d0njpwltBA8VWT_AeDKdCuDTVHINclRpxGrlXGTWFQmfUtj6mmJOeTULpNajPofYacLf_Mix6nPdKHZ5mIPKkmJ8kEoEmXkDepNxhG06MeWqU/s4160/IMG_20250519_231731532.jpg)

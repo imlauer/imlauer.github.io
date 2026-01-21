@@ -1,0 +1,848 @@
+---
+title: "Gentoo basic installation"
+date: 2023-11-29T08:39:16-03:00
+tags: ['gentoo','install']
+categories: ['linux','installation']
+---
+
+### Este comando me tomo 8 horas por aproximadamente en una netbook del gobierno G5.
+```bash
+emerge --quiet yt-dlp mpv irssi net-fs/samba imagemagick tmux
+```
+
+## Audio: no uso pipewire sino me da problemas.
+```bash
+esotericwarfare@conectargentoo ~/Videos $ sudo emerge media-sound/pulseaudio-daemon alsa-plugins jack2
+```
+
+---
+
+Importante: All I'm saying is that if you install software that's big and bloated Gentoo is gonna punish you, unless you have a very powerful PC or use binaries.
+
+---
+
+
+Esto son los paquetes que instalé por el momento, sin Xorg solo wayland. Sí uso fish y qué?
+La verdad es que Gentoo es un meme pero a mi me divierte.
+
+Recién me estoy iniciando lejos de ser un experto. Use systemd con ext4, la mayoría de usuarios de gentoo no usan systemd ni ext4, usan xfs con openrc creo. 
+
+Aca estan los pasos que segui:
+
+De acá me bajé minimal installation CD: https://www.gentoo.org/downloads/ lo puse en un pendrive ejecutando `dd if=...iso of=/dev/sdb status=progress bs=1M` y lo boote pero podés instalar gentoo desde cualquier distro de linux siempre y cuando no sea esa partición en donde quieras instalarlo.
+
+
+```bash
+loadkeys es # Teclado en español de españa (no uso el de argentina)
+fdisk -l
+```
+Hacemos el particionado con `cfdisk /dev/sda` o usando `fdisk /dev/sda`.
+
+Explicación sobre MBR(DOS) y GPT : https://youtube.com/watch?v=Ch9f7i0hj90 Basicamente si tenes un disco duro de mas de 3 teras usa GPT pero si es de menos usa DOS, para UEFI tenes que usar GPT.
+
+**Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4**
+
+**Si no lo quieren hacer con cfdisk lo pueden hacer con fdisk de la siguiente manera:**                          
+
+##### uefi (gpt)
+```bash
+g (gpt disk label)
+n
+1 (partition number [1/128])
+2048 first sector
++300M last sector (boot sector size)
+t
+1 (EFI System)
+n
+2
+default
++4G
+t
+2
+swap
+n
+3
+default (fill up partition)
+default (fill up partition)
+w (write)
+```
+
+#### Formateo, montado de particiones e instalación base (usando UEFI)
+```bash
+mkfs.ext4 /dev/sda3 (root partition)
+mkswap /dev/sda2 (swap partition)
+mkfs.fat -F 32 /dev/sda1 (efi partition)
+mount /dev/sda3 (root_partition) /mnt/gentoo
+mount --mkdir /dev/sda1 (efi partition) /mnt/gentoo/boot
+swapon /dev/sda2 (swap_partition)
+links https://gentoo.org/downloads/mirrors
+```
+
+##### Por ahora uso systemd
+```bash
+South America -> AR ->  [url]https://gentoo.zero.com.ar/gentoo/[/url] -> releases -> amd64 -> autobuils -> current-stage3-amd64-desktop-systemd/ -> stage3-amd64-desktop-systemd-20250406T165023Z.tar.xz -> descargá y guardalo 
+```
+
+##### Descomprimí y borralo.
+```bash
+tar xvf stage*
+rm stage* 
+genfstab /mnt/gentoo > /mnt/gentoo/etc/fstab
+```
+#### Configurá las dns (No uses las de personal ni claro porque bloquean todo si me creen tirale un ping a thepiratebay.org o a librefutbol.su)
+```bash
+cp --dereference /etc/resolv.conf /mnt/gentoo/etc
+cd /mnt/gentoo
+arch-chroot .
+nano /etc/portage/make.conf
+ACCEPT_LICENCE="*"
+MAKEOPTS="-j3" # Sirve para optimizar el tiempo de compilacion sugieren: numeros de núcleos+1
+ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
+hwclock --systohc
+nano /etc/locale.gen y descomentá en_US.UTF-8 UTF-8 (es el idioma del sistema operativo a mi me gusta en ingles)
+locale-gen
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
+echo "KEYMAP=es" > /etc/vconsole.conf
+```
+##### Mirá en el directorio /usr/share/consolefonts/ para ver tus letras disponibles
+```bash
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
+echo "gentoo" > /etc/hostname
+```
+
+#### Agregá o reemplazá
+`nano /etc/hosts`    
+```bash
+127.0.0.1       localhost
+::1 localhost
+127.0.0.1       gentoo.localdomain        gentoo
+```
+#### Cambiamos contraseña root y sincronizamos
+```bash
+passwd 
+emerge-webrsync
+echo "America/Buenos_Aires" > /etc/timezone
+emerge --config sys-libs/timezone-data
+```
+
+#### Esta linea compilara todos estos paquetes
+Mejor si usás el repositorio de binarios con la opción `-g` explicado más abajo.
+
+### Si queres usar xorg con xinitrc y dwm
+```bash
+sudo emerge -va x11-base/xorg-server xinit st dmenu # Actualmente estoy usando kitty en vez de st porque soporta imágenes usando chawan 
+EN LA GUÍA DE INSTALACIÓN DE ARCHLINUX ESTÁ COMO CAMBIAR LA DISTRIBUCION DE TECLADO (sudo vim /etc/X11/xorg.conf.d/10-keyboard.conf)
+echo "x11-wm/dwm savedconfig" | tee  /etc/portage/package.use/dwm
+sudo emerge -va dwm
+sudo vim /etc/portage/savedconfig/x11-wm/dwm-6.5 # Cambia tu configuracion generalme cambio el Mod1Mask a Mod4Mask (tecla Windows)
+sudo emerge -va dwm
+```
+
+Si usás Kitty desactivá el sonido de campana:
+```bash
+vim .config/kitty/kitty.conf
+enable_audio_bell no
+```
+
+#### Para poner la HORA XD en la barra de arriba de dwm:
+```bash
+sudo emerge -va xsetroot
+```
+##### Agregá a tu `.xinitrc`:
+
+```bash
+while true; do xsetroot -name "$(date)"; sleep 1 ; done &
+exec dwm
+```
+
+#### esa configuración es muy básica lee todo esto XDD: https://wiki.gentoo.org/wiki/Dwm
+INSTALÁ KEYNAV ASÍ PODES MANEJAR EL MOUSE CON EL TECLADO (VIM KEYBINDINGS)
+```bash
+mkdir tools
+cd tools
+git clone https://github.com/jordansissel/keynav
+sudo emerge x11-libs/cairo x11-libs/libXinerama x11-misc/xdotool
+make
+sudo make clean install
+```
+
+
+Si querés tener íconos tenés que **COMPILAR UN PARCHE XDDD**.
+
+
+#### Saber que banderas usa un programa
+```bash
+sudo emerge -va app-portage/gentoolkit
+equery uses dwm
+```
+
+### Ahora instalá todos estos paquetes (si usaste dwm borrá sway):
+Para instalar OBS tenes que habilitar las banderas antes sino no funcionará cámara.
+```bash
+emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+
+Agregá --autounmask-write y luego dispatch-conf
+hwclock --systohc
+systemctl enable NetworkManager
+```
+
+En algunos UEFI frameworks con fallas tenes que instalar el grub usando el parámetro --removable para instalar
+el bootloader a la ubicación de respaldo “fallback” porque sino se borra sólo la entrada del efi.
+
+`sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable`
+
+Para que os-prober descubra otra particiones tenés que montarlo y en `/etc/default/grub` escribí `GRUB_DISABLE_OS_PROBER=false`
+```bash
+grub-mkconfig -o /boot/grub/grub.cfg
+echo "KEYMAP=es" > /etc/vconsole.conf
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
+```
+
+Modifica sudoers opcional si queres sudo sin contraseña
+
+```bash
+sudo systemctl enable gpm
+exit
+exit
+reboot
+```
+
+#### Nos logueamos y creamos un usuario luego de bootear gentoo
+```bash
+useradd -m -g users -G video,audio,wheel nombre_usuario
+passwd nombre_usuario # agregarle una contraseña al usuario
+$ nmtui (para conectarse wifi)
+vim /etc/sudoers y agregá tu usuario copiando la linea de root y sustituyendo root por tu nombre de usuario debajo de todo.
+```
+
+Y abrimos el entorno grafico ejecutando sway desde la TTY y con Tecla Windows+Enter abrimos una terminal llamada foot.
+
+Ahora en `/usr/bin/firefox-bin` a la última línea agregá `apulse` (por el audio).
+
+
+Listo.
+
+## En Gentoo cada vez que instalás algo tenés que ir a leer la Wiki que te dirá las FLAGS más usadas.
+#### Cuando configurás un profile Gentoo selecciona por vos un par de USE FLAGS, pero no es suficiente.
+Por ejemplo leyendo OBS gentoo dice que las flags más comunes son: 
+
+> For a standard streaming setup that uses a webcam, PulseAudio, has a NVIDIA graphics card and integrates with major streaming services one might add to `/etc/portage/package.use`:
+```bash
+media-video/obs-studio lua nvenc pulseaudio speex v4l
+```
+
+###### Cuando agregás flags USE tenés que ejecutar
+```bash
+emaint --auto sync
+emerge --ask --verbose --update --deep --newuse @world
+```
+
+###### Instalar ladybird: Primero googleá ladybird gentoo y fijate en que overlay está para agregarlo
+```bash
+sudo eselect repository enable 331
+sudo emerge --sync && sudo eix-update && sudo eix lady
+sudo emerge -va ladybird
+
+sudo touch /etc/portage/package.accept_keywords/zzz_automask # si está masked
+sudo emerge -va ladybird --autounmask-write --autounmask
+sudo dispatch-conf # u 
+sudo emerge -va ladybird 
+```
+
+
+###### Borrar un paquete
+```bash
+sudo emerge --deselect pkg
+emerge --update --newuse --deep @world
+sudo emerge --depclean
+```
+
+###### Configurá la hora
+timedatectl set-ntp true
+
+###### Agregá repositorio de binarios (ya viene agregado por defecto).
+```bash
+vim /etc/portage/binrepos.conf/gentoobinhost.conf
+Agregá sync-uri (probablemente ya la tengas)
+# getuto (si ya la tenías no necesitás esto)
+sudo vim /etc/portage/make.conf
+FEATURES="${FEATURES} binpkg-request-signature"
+### Esto es para que siempre baje los binarios si es que los tiene. O sea no necesitas usar la opcion -G o g
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg"
+
+sudo emerge --getbinpkg -vauDU @world
+```
+Para instalar un binario: `emerge -vag falkon` o si solo queres todos los paquetes binarios `sudo -vaG falkon`
+
+##### Instalá lm-sensors
+```bash
+sudo emerge -vag lm-sensors
+sensors
+```
+
+
+https://imlauera.github.io/post/como_configuro_la_hora_y_la_fecha_desde_internet/
+
+
+Para actualizar todos los paquetes: `emerge --ask --verbose --update --deep --newuse @world`
+Las noticias se leen con `sudo eselect news list` y `sudo eselect news read 1`
+
+
+Si tu WiFi funciona lento: https://forums.gentoo.org/viewtopic-t-1075252-start-0.html
+https://forums.gentoo.org/viewtopic-t-996692.html
+
+https://reyabogado.com/us/what-is-wireless-regulations/
+
+```bash
+iw reg set AR # (codigo de tu pais)
+```
+
+Para ver cuanto tiempo te tardará compilar un paquete: 
+```bash
+sudo emerge -av genlop
+genlop -tq www-client/falkon
+```
+
+O podes conseguir un valor estimado acá:
+https://gentoo.linuxhowtos.org/compiletimeestimator/ 
+
+O preguntale a ChatGPT.
+
+###### Para instalar navegador chawan: 
+```bash
+git clone https://git.sr.ht/~bptato/chawan
+sudo emerge -va nim libssh2
+cd chawan
+make
+sudo make install
+```
+###### Agregar soporte de imágenes a chawan
+```bash
+mkdir ~/.chawan
+vim .chawan/config.toml
+[buffer]
+images = true
+[external]
+copy-cmd = "wl-copy"
+[siteconf.hn]
+cookie = "save"
+```
+
+###### Duckduckgo desde la terminal
+```bash
+mkdir cli_tools
+cd cli_tools
+git clone https://github.com/jarun/ddgr.git
+sudo cp ddgr /usr/bin/
+```
+
+
+
+###### Para ver key-bindings de chawan
+```bash
+mancha cha-config # Para ver diferentse parámetros de configuración
+cha about:chawan
+```
+
+
+**Emerge comandos**:  https://forum.calculate-linux.org/t/comandos-emerge-de-portage-explicados/7932
+
+
+#### Agregar repositorio pentoo (herramientas hacking):     
+```bash
+sudo emerge app-eselect/eselect-repository
+sudo emerge eix
+sudo eix-update
+eix wifite # busca
+sudo eselect repository list 
+sudo eselect repository enable pentoo
+cat /etc/portage/repos.conf/eselect-repo.conf
+sudo emaint sync -a
+eix wifite
+sudo emerge -va wifite
+```
+
+###### Masked packages
+```bash
+sudo touch /etc/portage/package.accept_keywords/zzz_automask
+sudo emerge -vag sys-kernel/linux-firmware --autounmask-write --autounmask
+sudo dispatch-conf # u
+sudo emerge -vag sys-kernel/linux-firmware
+```
+**Otra forma**:
+```bash
+echo ">=net-vpn/nordvpn-3.16.6 ~amd64" > /etc/portage/package.accept_keywords/nordvpn
+sudo emerge -va net-vpn/nordvpn
+```
+
+**Instalar OBS**: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html
+## NO USES PULSEAUDIO SI USAS WAYLAND NO VAS A PODER CAPTURAR LA PANTALLA, SI USAS FIREFOX-BIN TENES QUE INSTALAR APULSE Y EJECUTARLO ASI: APULSE /OPT/FIREFOX/FIREFOX
+###### Tenés que usar pipewire y no instalar pulseaudio todas las aplicaciones que compilaste con pulseaudio las tendras que recompilar con pipewire
+###### Matar servidor pulse audio
+```bash
+pulseaudio -k
+```
+###### Iniciar servidor:
+```bash
+pulseaudio -D
+```
+
+
+**Grabar pantalla con OBS**: https://old.reddit.com/r/swaywm/comments/xldx5c/how_to_record_in_obs_studio_in_sway/    
+
+###### Momento clásico de Gentoo: Cuando instalé OBS no podía usar la cámara así que tuve que leer la Wiki:https://wiki.gentoo.org/wiki/OBS_Studio y habilitar las flags en `/etc/portage/package.use/obs`. Las nuevas banderas están en verde.
+
+```bash
+media-video/obs-studio lua nvenc pulseaudio speex v4l
+```
+
+**Ahora después de agregar las banderas emerge**: 
+```bash
+emerge -va media-video/v4l2loopback obs-studio
+```
+
+**Grabar video**: media-video/v4l2loopback-0.13.1
+
+```bash
+[I] atavistic11@netbook ~> cat /etc/portage/package.use/obs-studio
+media-video/obs-studio pipewire screencast
+[I] atavistic11@netbook ~> sudo emerge --ask --verbose --update --deep --newuse @world
+[I] atavistic11@netbook ~> 
+systemctl --user enable --now pipewire pipewire-pulse wireplumber
+[I] atavistic11@netbook ~> dbus-run-session sway
+systemctl --user restart pipewire pipewire-pulse wireplumber
+```
+
+https://wiki.gentoo.org/wiki/PipeWire#USE_flags
+
+```
+[I] atavistic11@netbook ~> cat /etc/portage/package.use/obs-studio
+media-video/obs-studio pipewire
+[I] atavistic11@netbook ~> cat /etc/portage/package.use/xdg-desktop-portal
+gui-libs/xdg-desktop-portal screencast
+[I] atavistic11@netbook ~> sudo emerge -va xdg-desktop-portal xdg-desktop-portal-wlr obs-studio
+```
+
+
+###### Instalar airgeddon
+Al querer instalarlo tuve un problema de paquete bloqueado: 
+```bash
+net-misc/iputils[arping(+)] ("net-misc/iputils[arping(+)]" is soft blocking net-analyzer/arping-2.25)
+```
+Lo que hice fue agregar una `USE flag` al paquete de iputils y recompilarlo de la siguiente manera.
+```bash
+echo net-misc/iputils arping | tee /etc/portage/package.use/iputils
+sudo emerge -va iptuils # Recompilo con la bendera arping (te aparece en rojo).
+```
+
+
+```bash
+sicro@sicro ~ $ cat /etc/portage/make.conf
+...
+INPUT_DEVICES="libinput mouse keyboard synaptics"
+USE="elogind -systemd swaybar wayland X xorg dbus wifi hwaccel jpeg git ssh threads persist postproc cups text bluetooth icu nss pulseaudio minizip -kde gui curl gnuplot opengl readline vulkan googledrive cairo egl pdf acpi alsa speex v4l lua screencast x264 npm gtk gtk3 -doc udev -networkmanager"
+VIDEO_CARDS="amdgpu radeonsi radeon"
+...
+
+sicro@sicro ~ $ cat /etc/portage/package.use/obs-studio
+media-video/obs-studio pipewire
+
+sicro@sicro ~ $ cat .config/sway/config
+...
+exec gentoo-pipewire-launcher
+exec --no-startup-id /usr/libexec/xdg-desktop-portal -r
+...
+I don't know exactly how I solved it, I called in the Sway config file xdg-desktop-portal-wlr instead of xdg-desktop-portal- and emerge Wireplumber and at the next boot it worked on OBS and Firefox. Discord still doesn't work but after months of trying to solve this I'm just gonna celebrate this and fix it later
+```
+
+
+
+
+###### Actualizar gentoo
+We therefore recommend the following procedure for users:    
+1. Sync your tree:    
+```bash    
+# emerge --sync    
+```    
+    
+2. Perform a full world upgrade, e.g.:    
+```bash    
+# emerge -a -uvDU @world --keep-going=y    
+```    
+    
+3. Perform a world upgrade again.    
+    
+4. Once complete, depclean:    
+```bash    
+# emerge -a --depclean    
+```    
+
+###### Actualizar un paquete en específico:
+```bash
+sudo emerge --update --ask yt-dlp
+```
+
+**Instalá asistente de inteligencia artificial**:    
+```bash
+git clone https://github.com/sigoden/aichat
+cd aichat
+cargo install aichat
+cd ~/.cargo/bin/
+./aichat - elegí deepinfra
+```
+Después lo podés agregar a tu PATH.
+
+
+```bash
+[I] esotericwarfare@jentu ~> cat /etc/portage/package.accept_keywords/obs
+=media-video/obs-studio-31.0.3 ~amd64
+sudo emerge -va obs-studio xdg-desktop-portal-wlr (para grabar pantalla)
+```
+
+###### Instalar gimp
+```bash
+sudo emerge -va gimp
+```
+###### Tiempos de compilación en una netbook con Intel(R) Celeron(R) N2806 (2) @ 2.00 GHz con 4GB de RAM y GPU integrada XD
+### Ya no uso pipewire porque los paquetes binarios vienen todos con pulseaudio.
+# Actualización: Ya no uso pulseaudio porque me consumía un montón de CPU volví a pipewire
+
+```bash
+#### Nuevo
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+
+#### Viejo (pulseaudio)
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pulseaudio tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+
+2025-04-07T02:02:57 >>> app-misc/fastfetch: 3′40″
+2025-04-07T02:06:37 >>> sys-boot/grub: 23′26″
+2025-04-07T02:35:49 >>> sys-kernel/gentoo-kernel-bin: 10′14″
+2025-04-07T03:25:48 >>> net-wireless/wpa_supplicant: 7′11″
+2025-04-07T03:57:13 >>> net-misc/networkmanager: 19′45″
+2025-04-07T06:42:25 >>> sys-boot/grub: 23′47″
+2025-04-07T07:06:13 >>> sys-boot/os-prober: 32s
+2025-04-07T07:33:55 >>> app-admin/sudo: 8′46″
+2025-04-07T07:52:44 >>> app-editors/vim: 7′02″
+2025-04-07T08:30:04 >>> www-client/w3m: 4′57″
+2025-04-07T09:31:03 >>> dev-vcs/git: 39′01″
+2025-04-07T10:10:29 >>> www-apps/hugo: 31′11″
+2025-04-07T11:10:14 >>> app-shells/fish: 36′51″
+2025-04-07T12:07:29 >>> net-misc/yt-dlp: 6′18″
+2025-04-07T12:22:02 >>> net-wireless/aircrack-ng: 14′28″
+2025-04-07T13:33:16 >>> app-misc/tmux: 9′14″
+2025-04-07T13:46:35 >>> media-video/mpv: 23′57″
+2025-04-07T12:52:58 >>> dev-lang/php: 2:28:43
+2025-04-07T14:17:35 >>> net-fs/samba: 2:04:19
+2025-04-07T17:25:28 >>> acct-group/pipewire: 47s
+2025-04-08T00:27:52 >>> media-video/pipewire: 31′01″
+2025-04-08T03:11:44 >>> gui-wm/sway: 7′32″
+2025-04-08T03:44:15 >>> gui-apps/foot: 2′43″
+2025-04-08T04:10:18 >>> media-sound/alsa-utils: 4′37″
+2025-04-08T04:56:09 >>> www-client/firefox-bin: 59s
+2025-04-08T07:01:08 >>> www-client/firefox-bin: 2′37″
+2025-04-08T10:17:36 >>> gui-apps/wmenu: 1′34″
+2025-04-08T15:17:55 >>> www-client/firefox-bin: 1′19″
+2025-04-08T17:18:24 >>> media-sound/apulse: 1′46″
+2025-04-08T22:00:17 >>> media-gfx/imagemagick: 30′11″
+2025-04-09T14:30:05 >>> sys-kernel/linux-firmware: 9′55″
+2025-04-09T14:41:00 >>> net-wireless/wpa_supplicant: 12′09″
+2025-04-09T17:15:01 >>> app-i18n/translate-shell: 45s
+2025-04-10T04:54:49 >>> dev-python/pip: 1′02″
+2025-04-10T07:41:13 >>> gui-apps/wl-clipboard: 4′15″
+2025-04-10T09:51:02 >>> sys-process/btop: 10′50″
+2025-04-10T10:07:54 >>> gui-apps/grim: 53s
+2025-04-10T10:16:20 >>> media-gfx/feh: 1′10″
+2025-04-10T15:10:11 <<< net-misc/yt-dlp: 30s
+2025-04-10T15:12:54 >>> net-misc/yt-dlp: 2′37″
+2025-04-12T17:19:43 >>> www-client/links: 7′59″
+2025-04-13T10:33:57 >>> www-apps/hugo: 18′30″
+2025-04-13T14:57:13 >>> www-client/firefox-bin: 1′09″
+2025-04-13T17:01:45 >>> media-video/obs-studio: 1:01:06
+2025-04-14T01:06:18 >>> media-gfx/gimp: 1:51:45
+```
+
+###### Intro to gentoo de Immolo
+https://youtube.com/playlist?list=PLySnTFv9rBnSyQEw1RHSR3g-ZAowjegBm
+
+Ahora bajate youtube-upload desde GitHub: https://github.com/tokland/youtube-upload y ejecutá el binario ;)
+
+
+---
+
+## Antigua guía.
+
+
+Tiene que ser más grande que 5 gb la partición root
+Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4
+
+Si no lo quieren hacer con cfdisk lo pueden hacer con fdisk de la siguiente manera:
+
+### Particionamiento
+### bios legacy
+```console
+o (gpt disk label)
+n
+p
+1 (partition number [1/128])
+2048 first sector
++1G last sector (boot sector size)
+t
+swap (EFI System)
+n
+p
+2
+default (fill up partition)
+default (fill up partition)
+w (write)
+```
+
+
+#### uefi (gpt)
+```bash
+g (gpt disk label)
+n
+1 (partition number [1/128])
+2048 first sector
++300M last sector (boot sector size)
+t
+1 (EFI System)
+n
+p
+2
+default
++4G
+t
+2
+swap
+n
+p
+3
+default (fill up partition)
+default (fill up partition)
+w (write)
+```
+
+### Instalación
+```console
+mkfs.ext4 /dev/sda3 (root partition)
+mkswap /dev/sda2 (swap partition)
+
+mount /dev/sda3 /mnt/gentoo (no lo montes en /mnt o se romperá todo tu sistema)
+swapon /dev/sda2 (swap_partition)
+cd /mnt/gentoo
+links gentoo.org/downloads/mirrors/
+Public Mirrors -> releases -> amd64 -> autobuils -> stage3-amd64-musl.tar.xz -> download and save
+exit links
+tar xvf stage3-amd64-musl.tar.xz
+mount -t proc none proc
+mount --rbind /dev dev
+mount --rbind /sys sys
+mount --rbind /run run
+cp -L /etc/resolv.conf etc/
+chroot . /bin/bash -l
+nano /etc/portage/make.conf
+MAKEOPTS="-j8"
+
+emerge-webrsync
+emerge gentoo-kernel-bin grub neofetch
+grub-install /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+passwd
+exit
+reboot
+
+```
+Done
+
+
+#### Instalacion de Gentoo de DenshiVideo
+
+https://m.youtube.com/watch?v=J7W9MItUSGw
+
+cfdisk /dev/sda
+
+Ya expliqué  la diferencia entre gpt o dos en el tutorial de archlinux.
+
+Creá 3 particiones 100M, la mitad de tu RAM para el swap, y la otra partición con lo que sobra.
+
+Verificá que se hizo bien con: lsblk
+```bash
+mkfs.fat -F 32 /dev/sda1
+mkswap /dev/sda2
+mkdir /mnt/gentoo
+mount /dev/sda3 /mnt/gentoo
+cd /mnt/gentoo
+```
+
+https://www.gentoo.org/downloads/
+
+Elegí stage3 (openrc o systemd)
+
+```bash
+wget https://distfiles.gentoo.org/releases/amd64/autobuilds/20240811T170405Z/stage3-amd64-openrc-20240811T170405Z.tar.xz
+tar xpvf stage3*.tar.xz --xattrs-include='*.*' --numeric-owner 
+vim /mnt/gentoo/etc/portage/make.conf
+MAKEOPTS="-j5"
+## Busca los mirrors en Downloads(gentoo)
+GENTOO_MIRRORS="https://ftp.linux.org.tr/gentoo/"
+cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
+mount --types proc /proc /mnt/gentoo/proc/
+mount --rbind /sys /mnt/gentoo/sys
+mount --make-rslave /mnt/gentoo/sys
+mount --rbind /dev /mnt/gentoo/dev/
+mount --make-rslave /mnt/gentoo/dev/
+### Cuando usas un medio de instalación que no es Gentoo:
+test -L /dev/shm && rm /dev/shm && mkdir /dev/shm
+mount --types tmpfs --options nosuid,nodev,noexec shm /dev/shm
+chmod 1777 /dev/shm
+ls -l /run/shm
+chroot /mnt/gentoo /bin/bash
+source /etc/profile
+export PS1="(chroot) ${PS1}"
+emerge-webrsync 
+eselect news list
+eselect news read 10 | less
+eselect profile list
+eselect profile set 5
+emerge --info
+### Flags/banderas.
+emerge --info | grep ^USE
+vim /etc/portage/make.conf
+## La unica forma de sacarte alguna bandera es agregando un - en frente de la palabra.
+En este caso dejaremos las flags por defecto
+USE="" en el make.conf
+### Actualizar todos los paquetes
+emerge --ask --verbose --update --deep --newuse @world
+ACCEPT_LICENSE="*"
+echo "America/Buenos_Aires" > /etc/timezone
+emerge --config sys-libs/timezone-data
+vim /etc/locale.gen
+### Agregá y guardá
+es_ES.UTF-8 UTF-8
+### Ejecutá
+locale-gen
+eselect locale list
+eselect locale set 4
+ln -sf ../usr/share/zoneinfo/America/Buenos_Aires
+env-update && source /etc/profile && export PS1="(chroot) ${PS1}"
+### Ahora configuramos el kernel.
+emerge --ask sys-kernel/gentoo-sources
+cd /usr/src/linux-6.10..
+make menuconfig
+### Otra opción es instalar el binario del kernel.
+Podés elegir uno que tenga `systemd` o si te bajaste openrc tenés que usar la 2da opoción que sirve para cualquiera.
+emerge --ask sys-kernel/installkernel-systemd-boot    
+emerge --ask sys-kernel/installkernel-gentoo
+emerge --sys-kernel/gentoo-kernel-bin
+```
+Ahora abrí otra terminal ejecutá:
+```bash
+sudo -s
+cd 
+chmod +x genfstab
+./genfstab /mnt/gentoo
+./genfstab /mnt/gentoo > /mnt/gentoo/etc/fstab
+```
+Luego seguí de la consola en donde tenías el chroot
+```bash
+vim /etc/fstab
+Borrá todo menos /dev/sda1 /dev/sda2 /dev/sda3 y guardá
+vim /etc/conf.d/hostname
+hostname="Jentu"
+vim /etc/hosts
+Agregá tu hostname ahí
+127.0.0.1 Jentu
+passwd
+vim /etc/conf.d/keymaps
+es
+vim /etc/conf.d/hwclock
+emerge dhcpcd sudo screenfetch grub efibootmgr
+### Cualquiera de estas dos formas funcionan, pero algunas computadoras tenés que agregar --removable al final.
+#grub-install /dev/sda
+#sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable
+grub-mkconfig -o /boot/grub/grub.cfg
+vim /etc/sudoers
+Descomentá la linea %wheel ALL=(ALL) ALL
+useradd -m -g users -G video,audio,wheel nombre_usuario
+useradd -m -G users,video,audio,wheel -s /bin/bash nombre_usuario
+passwd nombre_usuario
+cd /
+rm -rf stage3....tar.xz
+exit
+exit
+### Desmontar todo
+sudo umount -a
+
+```
+
+
+
+---
+### Guía de IMMOLO
+Booteá el CD de instalación de gentoo.
+
+cfdisk /dev/sda 
+
+gpt o dos (ya lo expliqué anteriormente en la instalación de archlinux)
+
+Creá una partición de 1G (efi system)  
+2G de swap  
+y el resto para Linux filesystem  
+
+```bash
+mkfs.vfat /dev/sda1 (efi)
+mkswap /dev/sda2 
+mkfs.xfs /dev/sda3
+mount /dev/sda3 /mnt/gentoo
+cd /mnt/gentoo
+mkdir boot
+mount /dev/sda1 boot
+swapon /dev/sda2
+mount
+free -m
+links gentoo.org/downloads/mirrors/
+Seleccioná el mirror más cercano
+releases > amd64 > autobuilds > current-stage3-amd64-desktop-openrc > bajate el *.tar.gz > save
+tar xvf stage3*
+rm stage*
+arch-chroot .
+vim /etc/portage/make.conf
+en COMMON_FLAGS agregá -march=native
+
+Agregá FEATURES="getbinpkg binpkg-request-signature"
+
+ACCEPT_LICENSES="*"
+
+cp /etc/resolv.conf etc/
+arch-chroot .
+emerge --sync
+emerge -va gentoo-kernel-bin
+dispatch-conf
+getuto
+emerge -va grub
+## efi
+grub-install --efi-directory=/boot /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+emerge -va sysklogd cronie chrony xfsprogs 
+rc-update add sysklogd default 
+rc-update add chronyd default 
+passwd
+qlop -t grub
+vim /etc/hostname
+poné el que quieras
+exit
+reboot
+emerge -va fastfetch
+emerge -va mate-base/mate lightdm xorg-drivers --jobs 8
+useradd -m -G audio,wheel,video esotericwarfare
+passwd esotericwarfare
+rc-update add dbus default
+rc-service dbus start
+vim /etc/conf.d/display-manager
+cambia DISPLAYMANAGER a lightdm
+
+rc-update add display-manager default
+rc-service display-manager start
+Tenés que crear el .xinitrc y start XD
+
+```

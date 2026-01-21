@@ -1,0 +1,547 @@
+---
+title: "Electricidad / Clase 23: Clase Práctica. Armamos tablero con 1 lámpara y 1 interruptor. Vacunación, control oftalmológico, hipertensión(Alumnos de la UCAMI).  Están esas 3 opciones: la vacuna, control arterial, y oftalmológico.  Es un control nada más, eso significa que vamos a hacer un diagnóstico. Este no es un diagnóstico pero ya hay un alarma de que hay algo que tiene, entonces tiene que hacerse por 5 días los controles en un caps o con su médico para ver su tratamiento, el control oftalmológico también pasa lo mismo nos pasaba que había gente que no veía nada, le mostrábamos la letra más grande y no veía nada, y no le vamos a decir tenes un problema tal, andá a tu médico te deriva al oftalmólogo y que él vea bien por lo menos ya es una alarma.  Vacuna antigripal, doble adulto esa es antitetánica, ahí después también tiene todo el calendario.  Dengue no, tiene otro procedimiento más complejo.  Pasen de a 3 o 4.  La tierra puede ir suelta (tiene que llegar a las cajas).  La llave de punto va en el bastidor a presión.  Por bastidor: cada marca tiene su llave de punto diferente Tiene 3 ranuras cada ranura es para 1 solo módulo.  Hay marcas que ya tienen esto dividen en 2 entonces en vez de tener 3 módulos llave de punto puedo tener hasta 6 módulos.  Desde el hombro hasta el fin del brazo es 1 metro (pero a veces podes tener el brazo más corto) Como comprobar si funciona la llave de punto (y como verificar que parte del botón es encendido): Profesor: A mi no me gusta el Tic-Tac, si necesito probar tengo acá el tester, pruebo con el tester a ver si me da continuidad o no pero a mi ese Tic-Tac no me interesa porque se rompe el elemento. A partir de ahora el que tiene ganas de probar el interruptor viene acá y prueba no quiero ese Tic-Tac no me sirve.  Ayudante: Ahí no te va a marcar continuidad porque vos para cerrar tu circuito tenes que poner en tu portalámparas un foco (o podes poner un destornillador y tocar la base).  Como comprobar si funciona: Ahí vos probás en tu interruptor si sirve o no, el interruptor tiene 2 borners entonces poné ahí el tester y fijate cierra o abre, más que eso no. Eso Tic-Tac eso no sirve. Ya estamos con gente grande y se rompe. Hay que probar con el tester.  Siempre hay que aislar empalme la cinta en forma diagonal.  El profesor evalúa a medida que vas haciendo la práctica, y pone nota de concepto.  Para probar la continuidad de todo el circuito tenes que poner los focos sino no cierra el circuito (los focos incandescentes deben estar funcionando sino no suena el pitido de continuidad) 1ero era el buscapolo(individualiza los polos para buscar fase) que tocamos en los borners de la termomagnética. Después la lámpara de prueba, después el probador de tensión, y después con el tester probamos que no haya continuidad. Cuando usas el tester tenes que mirar donde está la flecha para medir tensión poner ~ y poner 750. Siempre hay que poner en la mayor escala primero y después vas bajando.  Consejo para usar el tester: siempre poner en la escala máxima y luego ir bajando.  Profesor: Hubo solo 1 error acá: cuándo yo estoy en el tablero, lo 1ero que él hizo fue levantar la térmica, la térmica de circuito levanto por último, porque hago la secuencia levanto la térmica levanto el disyuntor y después levanto la térmica entonces yo sé que acá está mi energía y acá me llega energía entonces si hay un cortocircuito se que va a saltar, sino cuando yo prenda acá y esté en cortocircuito me va a saltar acá ya entonces lo ideal acá es que el último la térmica del circuito.  Orden: 1ero tengo que subir el interruptor general de entrada.  Después voy al disyuntor y ahí levanto el de mi circuito. Al desconectar hacerlo al revés. Al profesor le dolía el brazo de la vacuna su abuela ponía inyecciones le daba golpes para que no sientas cuando te ponía la vacuna.  Al usar el buscapolo: tenes que poner el dedo porque tu dedo es el neutro.  Con el buscapolo vos sabes cuál es tu fase pero el otro no sabes si es neutro o no.  Yo: Para medir la tensión tenes que poner el tester en la V que tiene la viborita (~). En el tester la viborita es alterna.  Sebastián Melgarejo un punto menos.
+Adrián Torres: Antes de desconectar hay que apretar el botón del disyuntor o bajar la térmica.
+Una empresa para hacer la revisión de un tablero y acometida cobró 859 mil pesos.
+Profesor: Solo por mirar, el certificado dice revisión. 
+Fotocopia de agrupación habla sobre los colores de los cables: Todos los colores: rojo, marrón y negro son fase y el azul neutro.
+Profesor: Agarrá tu portalámparas(busca el neutro) ahí probale ahí tu bornera ahí, siempre probale con tu bornera.
+A Seba no le funcionó el tablero: Si el circuito está bien hecho y no funciona puede ser problema del portalámparas o el interruptor (llave de 1 punto).
+Importantísimo: El circuito de Seba no funcionaba por un interruptor fallado entonces el profesor puso la lámpara de prueba yo tengo un elemento que es esto y tiene punta como este tiene una resistencia interna si tiene energía acá prende el foco no va a prender el foco sino que acá va a hacer continuidad y va a tener que prender ahí, cerró el circuito. 
+Primero tiene que pasar los cables porque esto es cañería estás haciendo un simulacro.
+Todas las cajas tienen que tener puesta a tierra.
+Hay destornilladores con puntas imantadas.
+Profesor: Esto te dije que cortes siempre, hasta acá acá tenes que cortar, estos pelos son característicos para cortocircuito, si queres te hago cortocircuito, siempre tenes que cortar ahí para que no tenga cortocircuito. (Los pelitos sueltos de la llave de punto tornillo).
+Sebastián Melgarejo: Mi primito quemó mi tester probando continua a 220. Me alegré que estaba vivo. Fundió el fusible.
+Para comprobar si el circuito tiene continuidad se hace sin energía.
+
+Como comprobar que tu llave de 1 punto no sirve.
+IMPORTANTE: DAME EL PORTALÁMPARA ACÁ. FIJATE QUE YO ESTOY PROBANDO CONTINUIDAD.
+¿POR QUÉ ERA ESTO? 
+Sebastián Melgarejo: Porque falla el interruptor?
+Profesor: No.
+Sebastián Melgarejo: Ah porque cierra el circuito.
+Antonio Cardozo: Está en serie
+Profesor: École, muy bien. Tu problema principal acá es tu llave de punto.
+Muy bien, está en serie, la tensión es la misma pero como está en serie baja la luminosidad. Muy bien anotamos 1 punto más.
+
+
+"
+date: 2025-05-13T05:21:44-03:00
+tags: [electricidad]
+---
+
+###### Audio en Vocaroo:
+https://vocaroo.com/1kU19ki9zqAq    
+###### Audio en Archive.org:
+https://archive.org/details/record-116    
+https://ia801706.us.archive.org/27/items/record-116/Record-116.m4a   
+###### Audio en YouTube:
+https://www.youtube.com/embed/WM68NVAzhX4
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS5G2yZj1nnpafTdYAOA3ECcRbDrAoa7nVMtA6Yv43_7bNRsAI8NQRw0nBFYHnRgqI8tBFQFwAjFELbuDte-Fe7EYAOjVzZIOwtR_u-YfcRi71VMTEhxI0l9aRVg2Bqb9TGzNhyv-WXjQY_Xh8vxZwbHw7KqPbKxI818Vqb7ODa-k4k3xlTh0baloJqQ0/s4160/IMG_20250512_202932386.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcPSId_IOMci3xL-NrrPoIUeUfXyNSUs39cY5_JFscUEKRF1_k7o4np_Sz76fZhWJBIKRBlf3poy8JtGn6XBnmfy4Jlnt9Fcr6Nob9lVIdJU0WxPsoRXKeOn4i-K7JYV03_x1h21430CvV3eKXcywFJCbHpR5FJC3lx3_zAMaBJ3ymVG_5mIygnKR2XSs/s4160/IMG_20250512_202925091.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCtcm5pwmT5ibODyfMn5e1EEClA6LS_vRxWzLVaqM1rcK0H-wOgng9H1XqpUKZYkC1LpXQiTSQdk4H2QcNtCR71T7qp3qsulVO8yhuonH8tfPfEujaVPv1nCiSsbrj7qZ6VvR4K2AWUBnwVRRt-78fpzON6I8PmWFMmJz0boMfi1Tkks0XBbidK1nDmG4/s4160/IMG-20250512-WA0008.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYuA4G0pjuTS7vVoX3akjQiNXp8mJROamfOD9df3_YNc22fPAaU7ZVLRT4mL7Wqdb4Hupy-qKdBbYMo7DuHek12Z2oo0oznI5F744rMqgr9sOtKP6VxEYK1gsEQNZlRe_PgWnPelNgPsEamE_qpzZQaHdU66KfQPQCDZ6Nglvi3JaV5xkKJmdeuyDj2HA/s4160/IMG-20250512-WA0007.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc-iSQ4WYb1DV-H8odHlcAETJrxYk-UygGv91HkTedZnVJ9EhAEJCPZIxLYXEErXblZK5EyH4FvcT25eZp3zFJtGB-8zyJa8YAaVod_ZHpVKfUQXu5-KnJf6vAfQVfXJcOD0LXr4QxSjx_3GkVjwlo9JXp76UESo4LgTHpkSVylqaAjeUM_TRHPjKgVA0/s4160/IMG-20250512-WA0006.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDGe8TQhryY5g-0RJqTCkQunD-NGpsREoKQv4fGy7d5r0LJSPVbox19bVj1fsOUKvk4CVCpnG0CWiGIFq3ORUHbf8kh9kRv30kVzG3eJKv1_UdIqnjchCsIKVWXjPNMyVIMSjJ4-BzLocpoWTckirpVUuL1jUuJHlIvkj2a2G-xF8aU5MUwijdEBOsLRs/s4160/IMG-20250512-WA0005.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS3jbdIswf9PTtOCBETFHfy4d1_87sIPV28Qv-NFHiQHFsC0g2g4VPAMtWQiyfevZoi075oGfjM6LBZ49TmA5JRkYG2NwesLGv3Wr0PiGlLK_i8B5iO1b5i9DvQfuK54Y8lkN1THPLUbz5lrge-KsR67DoXrMvo-ZdJwNmmsU-KaTWRDr2Hhk52mZse0k/s4160/IMG-20250512-WA0004.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyjtvRLb5ekKLLbka1zaJWL02200BFV6I3Z7fl5KWNHB-kx5r__iyPRn7jxU6NEMa9fegWfB6INaKxBPq_uYvZgsYpllVDY-i4b7Aan1vIlEX6pmflBP33dYTwWaqxAKEoEfHWlzWAbVs5xs1ML9XjhmC-PhI8xFK57mjceJGOTtIQPr-wti0x784USt8/s4160/IMG-20250512-WA0003.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4-vXa14L7n4LQKolCWSdvnHqeMDZhfdqwlPsUKDm2-zjuQ9KV_o51Hpj_G_zGDN4FB3wNrrkSJsVhMOzZB7_SAc4q7OsW4XGx_fLyPdcnnfbsb9MlANpalV-CQlrw8mK_nvE2yraqIDoliMkWGqrMURltTCq9sSeqDH-WimXKu5sW3MFDQFtn3z0p-eg/s4160/IMG-20250512-WA0002.jpg)
+
+##### Transcripción
+Leiva: Copiaste lo que dieron el Miércoles?       
+Yo: Sí.       
+Adrián Torres: Para que era (la vacunación)? Antigripal?       
+Sebastián Melgarejo: Antigripal seguro y creo que una dosis del COVID pero si traías tu (libreta).       
+Francisco Espeche(Profesor): Yo me olvidé traer la porquería del COVID.       
+Leiva: La libreta?       
+Profesor: la libreta esa       
+Leiva: yo también me olvidé.       
+Yo: Mandaron una foto de lo que vimos. Eran varios ejercicios y fueron explicando. Ahora tenemos que hacer una lámpara y 1 interruptor.       
+       
+Profesor: Ahí saquen 1 y vayan poniendo su nombre así como tenía acá abajo así yo sé quién hace macana, ahí ya no hay tu tía.       
+       
+Hablo con Leiva sobre los ejercicios de la clase pasada.       
+       
+Leiva: Y este se sacaba octogonal?       
+Yo: Si.       
+Leiva: Este es el interruptor?       
+Yo: No, este es el interruptor.       
+Leiva: Ah y esta es la alimentación general?       
+Yo: Esta es la tierra. Dijo que la tierra puede ir suelta.       
+Son 2 lámparas y 1 interruptor y ahí tenes que conectarlo por eso fue explicando por partes.       
+Este es retorno acá tenes que unir con otra lámpara (le estoy mostrando el dibujo del circuito paralelo de la clase pasada).       
+Leiva a Botolli: Viniste el Miércoles?       
+Botolli: Sí. ¿Estás en el grupo?       
+Leiva: Sí.       
+Botolli: ah buenísimo.       
+Sebastián Melgarejo: Ah desarmaron todo?       
+       
+\* Sebastián Melgarejo comienza a repartir tableros...       
+Botolli: Hicimos un dibujito de cada trabajo (en serie y en paralelo) esto sería una planta le explica el circuito... Y el tierra siempre tiene que llegar a las cajas.       
+       
+Profesor: Hay uno que no hizo o los 2 hermanos hizo       
+       
+Botolli: El 1er con una lámpara con llave de punto, son 2 lámparas y un interruptor con la misma Este tiene 2 lámparas y 2 interruptores en la misma caja y explicó como van conectados. Esto es 2 lámparas y 2 interruptores en la misma caja y falta una que tiene una llave combinada. Eso es todo lo que vimos.       
+Yo voy a buscar mi portalámparas, profe puede ser que mi portalámparas esté conectado.       
+Profesor: Sí, no vino ayudante.       
+Botolli: Viene pero viene más tarde (7 menos cuarto siempre venía)       
+       
+\* Todos buscan sus tableros...       
+       
+\* Llega ayudante (Minuto 13)       
+       
+Le vamos a dar la llave de punto sin ...       
+       
+Para que ellos entiendan como se debe colocar a presión, esto son llave de punto esto va en el bastidor, les voy armando ya y vos llevas dándole ahí a la señora ahí empezá que le vamos a desarmar 1ero la idea es que...       
+Gustavo Barrientos: De 3 puntos        
+Profesor: No en total es de 1 punto no más, después le vamos a pasar otro para que ellos vean como es la presión, uno que trajo las cosas de él así que le vamos a felicitar de entrada. El que jode con el Tic-Tac ese le voy a hacer pasar en frente.       
+Adrián Torres: Ríe.       
+Profesor: Y sí porque después se rompe, la idea es que usen cuando esté funcionando.       
+Sebastián Melgarejo: Profe yo voy a desarmar el bastidor(el tablero yo le hice confundir xD).       
+Profesor: Trae acá si hay que desarmar todo así que...       
+El que no hizo el portalámparas tiene que hacer.       
+       
+Todos tienen llave de 1 punto?        
+Acuérdense yo tengo un bastidor primero acá.       
+Tengo un bastidor y tengo que poner cada marca tiene su llave de punto diferente        
+Tengo un bastidor y esto entra a presión no más.       
+Tiene 3 ranuras cada ranura es para 1 solo módulo.       
+Hay marcas que ya tienen esto dividen en 2 entonces en vez de tener 3 módulos llave de punto puedo tener hasta 6 módulos.       
+       
+Ah vino D'Artagnan y dale 1 a él ya (Matiás Samuel)       
+Profesor: Portalámpars hiciste o no?       
+Matiás Samuel: Había hecho.       
+Profesor: Fijate cuál es tu nombre ahí. Acuérdense cada uno va a poner su nombre en el bastidor(por eso me confundí dijo bastidor y yo pensé que era tablero porque todos pusieron la cinta en el tablero) hasta que se acabe la cinta, y compraré nueva.       
+Pongan en el bastidor el nombre.       
+       
+Profesor: Yo voy a repartir justo los cables.       
+\* Secretario llega.       
+Secreatario: Le queremos recordar hoy está presente la obra social de la UOCRA que estamos haciendo a través de la campaña de la vacunación, me acompaña Guillermo que va a explicar.       
+Guillermo: Yo soy parte del área del equipo de autoc country y salud obra social de los trabajadores de la construcción siempre estamos haciendo campaña tanto como acá como así también en la obra. Uno de los slogans que tenemos: el mayor capital que tiene el obrero es su cuerpo, nadie de ustedes tiene una cuenta en el exterior nadie de ustedes va a heredar una herencia importante y vienen acá solamente por hobby porque le gusta el profesor. Nada de eso, ustedes vienen porque quieren formarse quieren tener otra entrada económica más sustentable que es lo que me pasa a mi y al profesor también. El único capital que tenemos es nuestro cuerpo por eso tenemos que cuidar.       
+Si tenemos un problema de visión ya nuestro capital disminuyó ni que hablar si tenemos una dificultad motriz en un brazo o algo peor todavía, se va limitando esa capacidad por eso tenemos que ocuparnos de esto.       
+       
+Trajimos la vacunación que yo lo veo como un disyuntor porque hay muchos mitos yo me vacuné me puso mal me quedé 3 días con fiebre esto aquello. Si te hizo mal una vacuna es porque tu cuerpo estaba manifestando algo, y eso fue como un disyuntor: SALTÓ por ese motivo porque tenías bajas defensas porque no te estabas alimentando bien, hay algo en tu organismo que está pasando que está afectando y con más razón tenes que vacunarte, yo tengo familiares cercanos que fallecieron por no vacunarse.       
+Dijieron que no se iban a vacunar porque iban a perder 3 días de trabajo porque ya venían con una situación de salud complicada.       
+       
+La vacuna iba a darle un resguardo a su situación de vulnerabilidad pero como él no quiso vacunarse falleció y así el COVID, neumonía una fuerte gripe.       
+Por eso yo les recomiendo que se vacunen porque están todas testeadas científicamente, no crean esos mitos todos tienen una validez científica, por eso yo le recomiendo vacunarse. Acá está la antigripal que es la del calendario 2025 todos los años sale una nueva cepa por ende hay una vacuna para esa nueva cepa.       
+Chicos de la UCAMI. Hipertensión, control oftalmológico, etc. Cada uno sabe si es hipertenso.       
+El asesino silencioso: hipertensión, que se lleva a millones a nivel mundial, muy probable que varios de acá van a morir de hipertensión, un infarto, un ACV de algo que ataca eso, por los malos hábitos que tenemos: alimenticio, falta de actividad física. Toda una serie de factores biológicos y ambientales también por eso es importante controlarse.       
+Nos pidieron de la obra Capataz de obra el control oftalmológico nos decía un capataz yo tengo obreros acá que dicen que ven pero no ven nada yo me doy cuenta cuando ellos sacan una medición o algo tengo que estar arriba de ellos por eso quisiera que hagan el test. Test de visión lejana no es de cerca (XD EL CAPATAZ DE OBRA LE PIDIÓ UN TEST DE CERCA).       
+Le recomiendo que vayan todos por lo menos fíjense la hipertensión, tómense la tensión, cada uno sabe si es hipertenso otros desconocen ya no hay más edad, ha disminuido las edades. Están esas 3 opciones: la vacuna, control arterial, y oftalmológico.       
+       
+Profesor: Una pregunta no más, eso que dijo de la hipertensión ¿qué es una vacuna?       
+Guillermo: No, es un control nada más, eso significa que no vamos a hacer un diagnóstico. Nos pasó a nosotros que habían obreros que tenían disparada y ese era notorio y él decía que no tenía hipertensión ese no es un diagnóstico pero ya hay un alarma de que hay algo que tiene, entonces tiene que **hacerse por 5 días los controles en un caps o con su médico para ver si ya ¿? su tratamiento**, el control oftalmológico también pasa lo mismo nos pasaba que había gente que no veía nada, le mostrábamos la letra más grande y no veía nada, y no le vamos a decir tenes un problema tal, andá a tu médico te deriva al oftalmólogo y que él vea bien por lo menos ya es una alarma.       
+###### Es todo preventivo no es nada de un diagnóstico.       
+Vacuna antigripal, doble adulto esa es antitetánica, ahí después también tiene todo el calendario (el tipo ni sabía todas las vacunas)       
+Guillermo: Dengue no, tiene otro procedimiento más complejo.       
+Pasen de a 3 o 4.       
+       
+Profesor: 1ero tienen que hacer el portalámparas. Uno cada uno van a dejar el chicotito ahí.       
+Acá hay cables para el portalámparas.       
+       
+Yo voy a ir a medirme la presión.       
+Quiero ver a quién le falta algo.       
+Alejandro Ramirez: Pusieron su nombre a los bastidores?       
+Yo: No.       
+Alejandro Ramirez(Ayudante): Un cacho de cinta y anoten su nombre.       
+Javier Cardozo: Chuck Norris (se equivocó se equivoca).       
+Profesor: El último grupo de los hijos de Chuck Norris (los dos allá), la mejor película que hizo fue desaparecido en acción.       
+Leiva: Ah la 3. La de Vietnam.       
+       
+Llave de 1 punto vamos a ver.       
+Nosotros vamos a repartir los cables.       
+Javier Cardozo: Chuck Norris vos eras que me saludaste la otra vuelta allá?       
+1er hijo de Chuck Norris: Este, estaba caminando.       
+Javier Cardozo: No allá era. En sur argentino, vos me saludaste?       
+1er hijo de Chuck Norris: No él era (2do hijo de Chuck Norris).       
+Javier Cardozo: Y pero no me contesta bldo.       
+Profesor: Yo me voy a medir la presión, tengo presión arterial alto estrés.       
+Leiva: Cuánto es normal?       
+Botolli: El mío fue 12,8       
+Leiva: Normal?       
+Ayudante(Alejandro Ramirez): Como para darte una referencia: de acá hasta este hombro tiene más o menos 1 metro, ese no podes errar.       
+Leiva: Dice que y si tenes el brazo más corto, dice que esa teoría que es 1 metro ahí.       
+Ayudante(Alejandro Ramirez): Siempre fue 1 metro, probá.       
+       
+Fijate. Dale el azul ahí, que sea acá un poquito sale de acá ahí, un poquito sale bien acá y vas a hacer la prolongación, acá uno así o así. Ahí nomas, entonces el ya tiene el azul ahí, entonces ya tiene que unir ahí.       
+       
+Javier Cardozo: Chuck Norris(se refiere al ayudante pero se equivoca)       
+       
+Profesor: Tenemos ahí para...       
+       
+Botolli: Si está puesto este, este queda levantado, esta caja queda levantado, yo puedo sacar este?       
+Profesor: No dejale ahí ese ya no sale más porque está fija, está todo fijo dejale por ahí no más por algún lado.       
+Botolli: Y si me pasa en obra?       
+Profesor: En obra generalmente se saca la pestaña depende de que vos tengas si vos tenes un módulo acá o el módulo acá o un módulo acá. Tenes 3 módulos, entonces uno de los módulos capaz que no vas a tener lugar si vos pones llave de 1 punto podes poner acá y acá una llave de 1 punto acá y una llave de 1 punto acá y el toma acá.       
+Ayudante: El mismo neutro para todos.       
+Botolli: Pero se levanta?       
+Profesor: Se levanta exactamente.       
+       
+Ahí tengo los 2 y tengo los 3.       
+Javier Cardozo: Para arriba es no es cierto? Para aquel lado?       
+       
+Profesor: Hoy tengo control porque a veces se me chispotean y sacan de más entonces después no tengo, hoy en día estoy pobre.       
+Botolli: Yo tuve que ir a comprar el cajón nuevo para el ventilador porque justo es donde nosotros... Ruido.       
+Javier: A ver este destornillador mas chiquito.       
+Profesor: Anduvo o no anduvo?       
+Botolli: Si tuve que comprar un cajón nuevo.       
+       
+El profesor Espeche me dió una llave combinada de 3 puntos porque el tornillo de la llave de 1 punto estaba floja.       
+Profesor: Qué tenes ahí?        
+       
+Leiva: Te vacunaste?       
+Gustavo Barrientos: Sí, después me tomó la presión.       
+Sebastián Melgarejo: Profe, paso al...       
+Profesor: Sí pase ya.       
+Gustavo Barrientos: Tiene la antigripal, la de para el tétato y neumonía puede ser.       
+Profesor: Ese puede ser che, ese neumonía. Fijate que hay allá así desarmamos que sea chico no más.       
+       
+Yo: Creo que este indicaba prendido (la marquita en la tecla).       
+Profesor: Voy a aprovechar, pueden hacer no más, después le voy a pasar el gráfico real.       
+Tomá, llevale a los 2 o sino que vengan a buscar (cables).       
+       
+Adrián Torres: Qué hay que hacer?       
+Le explicamos que había que hacer llave de 1 punto y 1 interruptor.       
+       
+El retorno de este se empalma acá (foco) y la fase va directo al interruptor y otro que va acá que se empalma acá.       
+       
+Javier Cardozo: Por qué va con el mismo color: retorno y fase?       
+Botolli le ponía tierra.       
+       
+Profesor: Ahora ya tengo la presión, no sé si es normal o anormal.       
+Adrián Torres: Antes tenía 180.       
+Profesor: Yo tengo 120.       
+Adrián Torres: De 100 a 120       
+Botolli: Tiene que medirse después va a llegar a 14 más o menos después del trabajo práctico.       
+Profesor: No no ustedes, cualquier cosa le doy la cinta pasacables. Yo no tengo tanta tierra no traje el royo de tierra.       
+       
+Ayudante: Después vamos a hacer todo con puesta a tierra, ahora concéntrence en el ejercicio.       
+Profesor: Mañana voy a ver       
+       
+Quiero que todo sea igual hagan como si fuera que estén en obra, todo es lo mismo.       
+Javier Cardozo: Viste? El color va a joder con eso.       
+Yo: No pero él el retorno lo hizo en rojo, así que supongo que está bien.       
+       
+\* Seguimos trabajando en el tablero...       
+       
+Profesor: Si mañana no vengo es porque la vacuna me atacó.       
+       
+\* Seguimos trabajando en el tablero...       
+       
+Terminamos el tablero: Hora 01:01       
+       
+##### Después tenemos que desconectar eso, agregamos una lámpara y tenemos que cambiar el retorno tenemos que hacer que este prenda las 2 lámparas.       
+#### Explicando el próximo ejercicio: 1 interruptor con 2 lámparas.       
+Cardozo: Y se le da la unión acá no más?       
+Yo: Sí.       
+Javier Cardozo: Sí, ahí no más desconecto y lo unimos al retorno del otro.       
+Yo: Estamos acá desconectamos este y conectamos al retorno a este, le unimos un cable.       
+Javier Cardozo: No, de acá tenemos que unir un cable que vaya para allá. Ah no este es fase.       
+Yo: No, de este retorno porque con este tenemos que prender las 2, entonces el retorno tiene que pasar por las 2, entonces tenemos que desconectar este o unirlo de acá.       
+       
+###### Hora 01:02       
+Ayudante: Esa cinta tiene que quedar ajustada. Cortá tu sobrante (al hacer el empalme)       
+Si le podes dejar lo mas al ras posible mejor.       
+       
+#### Como saber si funciona la llave de punto       
+Profesor: A mi no me gusta el Tic-Tac, si necesito probar tengo acá el tester, pruebo con el tester a ver si me da continuidad o no pero a mi ese Tic-Tac no me interesa porque se rompe el elemento. A partir de ahora el que tiene ganas de probar el interruptor viene acá y prueba no quiero ese Tic-Tac no me sirve.       
+       
+Miden continuidad si no mide continuidad ahí es porque no funciona.       
+Ayudante: Ahí no te va a marcar continuidad porque vos para cerrar tu circuito tenes que poner en tu portalámparas un foco (o podes poner un destornillador y tocar la base).       
+Antonio Cardozo: Un foco.       
+Ayudante: Probá en tu interruptor.       
+Profesor: Ahí vos probás en tu interruptor si sirve o no, el interruptor tiene 2 borners entonces poné ahí el tester y fijate cierra o abre, más que eso no. Eso Tic-Tac eso no sirve.       
+       
+Javier Cardozo: Voy a pagar la cuota.       
+Profesor: Y vaya mi hijo que querés que yo te acompañe? Vacunate ahí, aprovechá y que te miren en todos lados: el ojo, la ... Todo lo que pueda.       
+Ayudante: El que termina va aislando su empalme al que le falta cinta que pida.       
+       
+Sebastián Melgarejo puso la lámpara en la caja de paso en realidad iba en la caja octogonal.       
+       
+Yo: Este botón indica encendido?    
+    
+##### Como probar si el interruptor funciona    
+Profesor: Sí, hay algunos que tienen un LED ahí que vos pones y te va a indicar una lucesita, vos prendes vos apagas a mi lo que me interesa es que ustedes no tengan problema de usar el tester, esa es una de las cosas que tienen que saber para probar el interruptor.    
+    
+Ahora vas a probar y vas a explicar todo lo que yo te dije.    
+    
+Le explico al profesor mi circuito (Hora 01:06)    
+Hay que cortar el sobrante debajo del interruptor.    
+    
+Profesor: Como anda doña?    
+Ayudante: Ella trajo su herramienta, su cable, todo trajo, todo ya hizo.    
+Profesor: Siempre viene la alimentación de arriba, vos estás mirando en cualquier lado.     
+Botolli: No, yo solo corrí.    
+Profesor: No, está bien tiene sentido.    
+Botolli: Está con ganas de pelear.    
+Profesor: Yo trato de corregir, no se preocupe mi forma de ser, es ser fuerte.    
+    
+    
+##### Comenzamos a probar los tableros (Hora 01:07)    
+Bueno vamos a hacer fácil vamos a buscar un lado para que ustedes prueben.    
+    
+Antonio Cardozo: Hablando con Botolli (parece que están hablando de la vacuna) Inentendible (Hora 01:07:40)    
+Botolli: El cargó en la Mac de la...     
+Antonio Cardozo dice algo que no lo entiendo.    
+Apenas andaba, tampoco es que wow.    
+    
+    
+Espera que vamos a buscar en donde puede ser.    
+Sebastián Melgarejo: Nosotros nos movemos de acá, nos ponemos ahí y acá tienen un enchufe.    
+Profesor: Bueno, perfecto plus cuan perfecto. Ganaste la lotería. Ganó la lotería no fue a buscar el premio.    
+    
+Acá tengo algo voy a traer mañana, me olvidé de afanar estaba haciendo otra cosa.    
+(    
+Antonio Locascio hablando con Botolli.    
+Tomacorriente se conecta también abajo el tomacorriente.    
+Gustavo Barrientos: Hay que hacer todo el protocolo ese? Buscapolo...    
+    
+Acuérdense que ahora el tema es fácil, yo ya voy mirando ya voy teniendo concepto, no les voy a ir diciendo al principio.    
+    
+##### Hora 01:10 - Verificamos con el tester que prende en el lado del botón.    
+Javier Cardozo: Calidad. Bien ahí, por lo menos no vamos a desaprobar. Querés que te ayude?    
+Sonidito de Tiii.    
+Javier Cardozo: ¡Que calidad!    
+Yo: Hay que poner el foco    
+    
+##### Siguen preparando todo para probar Hora 01:12    
+Javier Cardozo: Che la cinta?    
+Yo: 1ero era el buscapolo que tocamos en los borners de la termomagnética. Después la lámpara de prueba, después el probador de tensión, y después con el tester probamos que no haya continuidad.    
+    
+Profesor: Quién va a pasar primero? El último que tuvo miedo fui yo.    
+Javier Cardozo: Encima el profe no te quiere ayudar.    
+Adrian Torres: Sé valiente, bien ahí.    
+Sebastián: Yo voy a hacer primero.    
+Leiva: Tirá una moneda.    
+    
+Hora 01:15 probé continuidad con el foco puesto y no sonaba porque el foco incandescente estaba roto (debería sonar con el foco funcionando).    
+    
+Profesor: Quién es el voluntario que viene aquí? Yo soy un tipo que no sé nada de nada. Yo no hablo, solo miro, tienen que hacer como si fueran capos máximos.    
+    
+Interruptor principal, disyuntor y acá el último es el que tenes que activar para poder darle energía ahí, el último o sea todo conectado como si fuera un sistema, le voy a poner en secuencia para que vos entiendas, esta secuencia y este foco para que vos tengas, pero que ande, acá tenes esto para poder ajustar tus cables.    
+    
+Siempre se mantienen fase y neutro esa ficha ya tiene fase y neutro y tierra así que...    
+Vos contame yo no sé nada.    
+    
+Leiva: 1ero el buscapolo para saber cuál es la fase. Ahí sabemos que llega corriente. Ahora para saber si tenemos fase y neutro lámpara y prueba.    
+    
+Profesor: Acá la diferencia que tiene que **siempre fase y neutro te da la característica del donde tiene que ir la fase y el neutro te da el disyuntor**: como este disyuntor es indistinto a aquél ya me indica que el neutro está de este lado entonces yo le pongo de este lado todo el sistema. ¿? Por eso que está conectado de esa forma.    
+Leiva: Ahora sabemos que tenemos fase y neutro. Ahora probador de tensión para ver cuánta tensión aproximada tenemos: 230 voltios. Y con el tester.    
+Profesor: Tenes que mirar que la tensión esté en alterna.    
+##### Siempre poner en escala más alta y luego más bajo.    
+    
+Profesor: Ya ya ya no sé para que presto. (Hora 01:20) así como usan Tic-Tac yo no toqué nada (se rompió el interruptor).    
+Leiva: Para que te traje.    
+Profesor: Para que te traje.    
+Yo: Río.    
+    
+Para que vamos a ver cuántos son.    
+    
+Le da otro interruptor... Cuidalo como si fuera.    
+Para que sirve ese? Para medir la tensión...    
+    
+El foco sirve para saber si tenes fase y neutro.    
+    
+Esto tiene una forma de conectar ese es común y siempre ahora estoy marcando tensión y vimos continuidad o sea que el rojo.    
+    
+Bueno, ahora es todo tuyo espero que tengas suerte.    
+Alejandro: Que sobreviva la punta (mide con el tester).    
+Profesor: Decime la unidad (voltios). Ahora hay que probar si no tenes continuidad con el tablero(con el tester con foco puesto).    
+    
+Ahí medí fijate.    
+Profesor: Para que te dije!    
+    
+##### Rubén Leiva está midiendo continuidad del tablero que hizo (si le da continuidad con el interruptor apagado está mal).    
+Profesor: Bueno.    
+    
+Para que no se gaste la pila apagá el tester.    
+###### Si vos tenes una medición y queres que se mantenga la medición apretá HOLD    
+Profesor: Estás aprendiendo?    
+Leiva: Sí.    
+Profesor: Ahora uní ahí por supuesto sabes que no tenes energía porque si tenes energía...    
+Sebastián Melgarejo: Estás seguro que está apagado.    
+    
+#### Profesor: Como andan cuéntenme? No anda esa porquería?     
+Yo: No, es que yo le cambié al otro lado, no sé como es llave combinada primero le puse de este lado le probé y no sé si el foco estaba fallado.    
+Profesor: No importa mientras vos mantengas estos 2 lados no hay problema, falta tu línea no más.    
+    
+Profesor: Como andan?    
+Javier Cardozo: Tudu ben.    
+Profesor: Encontré un brazilero acá.    
+    
+Profesor: El que está de balde dijo el brazilero, de a poco le vamos a ir dando para que no se sientan aburridos porque la señora ya trajo todo.    
+Adrián Torres: Se ríe.    
+    
+Ayudante(Alejandro Ramirez): El que rompe paga.    
+¡Leiva prende el circuito y funciona!    
+##### \* Aplauden    
+Profesor: Hubo solo 1 error acá: cuándo yo estoy en el tablero, lo 1ero que él hizo fue levantar la térmica, la térmica de circuito levanto por último, porque hago la secuencia levanto la térmica levanto el disyuntor y después levanto la térmica entonces yo sé que acá está mi energía y acá me llega energía entonces si hay un cortocircuito se que va a saltar, sino cuando yo prenda acá y esté en cortocircuito me va a saltar acá ya entonces lo ideal acá es que el último la térmica del circuito.    
+    
+##### A la pucha me está doliendo la vacuna.    
+Bueno así es el tema.    
+Yo les comenté a las chicas ahí: yo tenía una abuela que ponía inyección y ella tenía tanta calidad en la nalga encima agarraba la aguja ahí, bien en el borde y te hacía esto (daba golpecitos) y seguía y vos no sabías que ya te puso la aguja ahí después ya te ponía el coso y de tantos golpes ya no sentías más.    
+    
+Perfecto! Has hecho.    
+    
+Después ya vas siguiendo con los otros ejercicios.    
+Ahora te voy a dar 1 portalámparas para que armes (a Rubén Leiva), sino revisá este.    
+    
+Al usar el buscapolo: Tenes que poner el dedo porque tu dedo es el neutro.    
+    
+Yo: Para medir la tensión tenes que poner el tester en la V que tiene la viborita (~). En el tester la viborita es alterna.    
+    
+    
+Bueno salgan de ahí yo lo voy a escuchar al señor con voz bien fuerte, el va a hacer su casa que todavía no sé si arregló.    
+Adrián Torres: Necesito un foco.    
+Profesor: Necesito un foco... Andá a pedirle al señor allá.    
+Botolli: Vos te robaste el foco.    
+Leiva: Ah si me dijo que podes llevar (chiste).    
+Profesor: No, podes llevar el tablero    
+Adrián Torres: Acá ya hice la prueba profe, 1er paso veo donde entra la fase y el neutro, la fase a mi derecha, luego pruebo     
+Profesor: Ese elemento se llama buscapolo.    
+Adrián Torres: Claro. Busca el polo. Ahora, con este me fijaba que era continuidad?    
+Profesor: No.    
+##### Sebastián Melgarejo: Un punto menos.    
+Botolli: Si tenes circuito.    
+Adrián Torres: Claro. Si tengo circuito.    
+Profesor: No tampoco.    
+Botolli: Si tengo neutro y fase.    
+Profesor: Con el buscapolo vos sabes cuál es tu fase y el otro no sabes si es neutro o no.    
+    
+Adrián Torres: Ahora mido la tensión y tengo 230 voltios aproximadamente. Seguimos con el tester entonces si tengo 220 tengo que poner 750 voltios.    
+Tengo la V que es continua y tengo la V que es alterna y ahí tengo también 221 voltios.    
+    
+Y ahora tengo que probar acá la continuidad para que me haga el pitido.    
+    
+###### Agarré el cuaderno de asistencias (que en realidad era solo el que había hecho el práctico).    
+Profesor: Pará Imlauer ya te queres ir ya.    
+Botolli: Solo para el que hizo el práctico es.    
+Yo: Aah. Yo pensé que era el de la asistencia.    
+Profesor: Yo ya voy poniendo `++`, `+-`, `+++-`.    
+Leonardo: Pasa que él ya sabe que va a aprobar.    
+    
+Este sacale no hay que trabajar todo encimado.    
+    
+##### Orden: 1ero tengo que subir el interruptor general de entrada.  Después voy al disyuntor y ahí levanto el de mi circuito    
+Y ahí está prendido y ahí está apagado. Acá prendo a la derecha, siempre este me marca cuando pasa rápido.    
+Adrián Torres: Tengo un 10 profe?    
+Profesor: Y antes de desconectar que hacés?    
+Adrián Torres: Ah antes de desconectar tengo que bajar esto, o apretá el botón del disyuntor.    
+Profesor: Perfecto, te vamos a hacer plus juan perfecto más que perfecto.    
+Ayudante(Alejandro Ramirez): Profesor Ricardo Selva aprobado.    
+Profesor: Y él tiene que anotar, yo los nombre no los anoto ni selva ni... Vení Torres te vamos a dar una gracia.    
+Torres: Vió que sirve mi teoría.    
+Profesor: Aprendiste, la gente está esperando ahí que vos termines, ahora voy a mirar las conexiones ahí.    
+    
+Viene el otro, acá no tienen que tener verguenza.    
+    
+Sebastián Melgarejo: Pongo el foco?     
+Profesor: Si señor usted está como si está en su casa    
+Sebastián Melgarejo: 1ero buscapolo para identificar la fase. Lámpara de prueba para ver si tengo neutro y 220, probador de tensión para saber el voltaje aproximado: 230 voltios.    
+Profesor: Los hermanos como andan allá? Expertos?    
+Sebastián Melgarejo: El multímetro 750 en alterna(~): 227 voltios.    
+Profesor: A la pucha, fíjense como subió 212, 214, 227.    
+Sebastián Melgarejo: Bueno ahora tengo que probar continuidad en mi circuito, pongo el tester en continuidad pruebo.    
+Profesor: Bien en la punta. Hagan a conciencia no pongan todo el rollo en un solo coso.     
+Antonio Cardozo: A conciencia profe?    
+Profesor: A conciencia. \* Empieza a cantar: fue a conciencia pura que perdí (Enrique Bunbury Confesion Lyrics) ...    
+Adrian Torres: Jaja...    
+Sebastián Melgarejo: Apagado no pasa nada(mediendo continuidad) ahora prendo ahí hay continuidad. Apago y ahora a los borners primero los de abajo.    
+Profesor: Después ya de memoria van a saber, y después van a decir otra vez lo mismo, entonces después automáticamente espero que cuando vayan a revisar una instalación vean fíjense le voy a contar un secreto de estado.    
+##### Una empresa para ir a ver un tablero. Revisión del tablero y acometida hasta 859 mil pesos.    
+Sebastián Melgarejo: De mirar?    
+Profesor: Solo por mirar, el certificado dice revisión. El marrón hay una parte el que recibió la fotocopia decía la parte de los colores.    
+    
+##### Colores    
+Todos los colores: rojo, marrón y negro son fase y el azul neutro.    
+Sebastián Melgarejo: O sea que la tierra desnudo o verde-amarillo.    
+Profesor: Lo que quiero decirles es cualquier color que aparezca ahí: marrón, negro o coso es fase.    
+Sebastián Melgarejo: Le apago antes de probar? Subo la térmica general primero, subo el disyuntor (diferencial) y subo el del circuito que sale acá.    
+Adrian Torres: Fijate si están bien ajustadas las puntas, o tu portalámparas fijate.    
+Botolli: Oh que.    
+##### Profesor: Agarrá tu portalámparas ahí probale ahí tu bornera ahí, siempre probale con tu bornera.    
+Profesor: Esto es interensate porque puede ser que tenga problema si tengo todo hecho bien el circuito puede ser que tengo problemas en el portalámparas o el tictac que ustedes joden.    
+Sebastián Melgarejo: Voy a revisar el portalámparas.    
+Profesor: Primero revisá de acá poné en continuidad y fijate si anda.    
+Sebastián Melgarejo: Pruebo ajustando más el borner?    
+Profesor: Dame tu buscapolo, le voy a enseñar una forma, dame energía.    
+Sebastián Melgarejo: Levanto acá?    
+Profesor: Sí. Ahí está llegando.     
+#### bueno yo tengo un elemento que es esto y tiene punta como este tiene una resistencia interna si tiene energía acá prende el foco no va a prender el foco sino que acá va a hacer continuidad y va a tener que prender ahí, cerró el circuito.     
+O sea     
+Profesor: Ahora desconectalo al revés.    
+Profesor a Leiva: Que dijimos que este es el portalámparas? El portalámparas está acá, vos no podes unir ahí, 1ero se pasa los cables después unis los portalámparas, una vez que vos agarras pasas todos los cables uní después recién, no podes hacer esto porque vos me estás haciendo afuera esto no sirve, entiende? Primero tiene que pasar los cables porque esto es cañería estás haciendo un simulacro.    
+Leiva: Hora 01:45    
+    
+#### Chiste a Adrian Torres     
+Todas las cajas tienen que tener puesta a tierra.    
+Adrián Torres: Profe hago este?    
+Profesor: El 2do? Sí, buscá un portalámparas. No los que está acá, el que está acá    
+Adrián Torres: Y donde haý?    
+Profesor: En ElectroMisiones    
+Adrián Torres: Ah profe.    
+    
+\* Yo pasé a probar el tablero.    
+Botolli: Le probaste continuidad?    
+Yo: Ah no.    
+Profesor: Como andamos?    
+Yo: Pruebo la continuidad.    
+Profesor: Fijate que siempre hay partes que están peladas y partes que no, bien en la borde porque ese tester es para ¿?. Exactamente.    
+    
+Leiva: El portalámparas tiene 2 cables nomas    
+Profesor: Sí, este portalámparas pero después podes tener un equipo y ese equipo tiene una bornera y aparece una puesta a tierra.    
+Antonio Cardozo: El otro punto es con llave combinada?    
+Profesor: Combinada pero ese no vamos a hacer todavía...    
+    
+Yo: Como se conecta acá? (No sabía como levantar la amordaza y el destornillador estaba imantado)    
+Profesor: Vos metes ahí tenes que meter. (Hora 01:50).    
+    
+Hay destornilladores con puntas imantadas.    
+    
+Donde comprar imanes? Parlantes viejos hay o en Radio Andres.    
+    
+Profesor: Esto te dije que cortes siempre, hasta acá acá tenes que cortar, estos pelos son característicos para cortocircuito, si queres te hago cortocircuito, siempre tenes que cortar ahí para que no tenga cortocircuito.    
+    
+    
+Botolli habla de imanes bujías y no sé que. Y otro hace con 2 imanes hace como una resistencia...    
+    
+Javier Cardozo: Con este se busca la fase profe (buscapolo)?    
+Profesor: Exactamente. Con eso yo individualizo los polos.    
+Javier Cardozo: Y con el foco este se busca la continuidad?    
+Profesor: **No.** Quién te dijo eso de continuidad? Con el foco lo que hago es saber si tengo neutro.    
+Adrián Torres: Ahí está viste?    
+Profesor: Le copiaste a él.    
+Adrián Torres: No, yo también estaba con esa duda.    
+    
+###### Sebastián Melgarejo: Mi primito quemó mi tester probando continua a 220. Me alegré que estaba vivo. Fundió el fusible. Saltó el fusible.    
+    
+Pasa Botolli a probar su tablero.    
+    
+Javier Cardozo se retira (Hora 02:01:50)    
+Pone el tablero debajo de la mesa.    
+    
+Pasa Margarita y Daniela.    
+Ayudante(Alejandro Ramirez): silencio o le voy a sacar puntos. Y como se cierra el circuito de un portalámparas? (Con el foco)    
+Profesor: Pobre no va a venir más la chica, no va a venir más tenes que ayudar es el 1er práctico.    
+    
+Hacen todo lo mismo otra vez: buscapolo, lámpara de prueba, probador de tensión y tester para comprobar la continuidad del circuito(se hace sin energía) y la tensión más exacta.    
+    
+IMPORTANTE: DAME EL PORTALÁMPARA ACÁ. FIJATE QUE YO ESTOY PROBANDO CONTINUIDAD.    
+¿POR QUÉ ERA ESTO?     
+Sebastián Melgarejo: Porque falla el interruptor?    
+Profesor: No.    
+Sebastián Melgarejo: Ah porque cierra el circuito.    
+Antonio Cardozo: Está en serie    
+Profesor: École, muy bien. Tu problema principal acá es tu llave de punto.    
+Muy bien, está en serie, la tensión es la misma pero como está en serie baja la luminosidad. Muy bien anotamos 1 punto más.    
+    
+El mismo verso que hizo el vos tenes que hacer.    
+Buscapolo probamos arriba...    
+    
+Me fui.    
+       
+---       
+       
+FIN.    

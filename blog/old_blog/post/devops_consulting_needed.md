@@ -1,0 +1,55 @@
+---
+title: "DevOps Consulting Needed"
+date: 2024-09-25T20:05:39-03:00
+tags: ['devops']
+---
+Título: Configuración del proxy inverso de Nginx para Strapi en la subruta (/blog/strapi): se necesita ayuda
+
+Descripción:
+Estoy buscando un desarrollador experimentado de Nginx y Strapi para ayudarme a resolver un problema con mi implementación de Strapi. Tengo Strapi ejecutándose en la subruta /blog/strapi de mi sitio web y necesito que sea completamente funcional, incluido el acceso al panel de administración, las rutas API y las cargas, todo bajo esta subruta.
+Nginx se utiliza como proxy inverso para enrutar solicitudes a Strapi, que se ejecuta en el puerto 1350. El desafío es garantizar que Strapi funcione correctamente en /blog/strapi sin problemas de enrutamiento ni errores 404. Específicamente:
+/blog/strapi/admin debería cargar la interfaz de administración.
+/blog/strapi/api debería servir a los puntos finales de la API.
+/blog/strapi/uploads debería manejar la carga de archivos.
+Problemas actuales:
+Las rutas de administración intentan cargar desde /admin en lugar de /blog/strapi/admin.
+Las llamadas y cargas de API no se enrutan correctamente.
+Algunas rutas devuelven 404 o están mal enrutadas debido a una configuración incorrecta del proxy inverso de Nginx.
+Lo que necesito:
+Corrija la configuración del proxy inverso de Nginx que enrute correctamente todas las solicitudes a Strapi (que se ejecuta en el puerto 1350) en la subruta /blog/strapi.
+Asegúrese de que todas las funcionalidades de Strapi (interfaz de administración, API, cargas, etc.) sean accesibles y funcionen desde /blog/strapi/.
+Resuelva cualquier error de enrutamiento, redirección o 404.
+El medio ambiente:
+Nginx como proxy inverso.
+Strapi ejecutándose en el puerto 1350.
+Sitio web: gmdirecthire.co.uk
+La ruta secundaria para Strapi es /blog/strapi.
+Si tiene experiencia con configuraciones de proxy inverso de Nginx e implementaciones de Strapi, me encantaría saber de usted. Por favor déjeme saber su disponibilidad y el costo estimado para esta tarea.
+¡Gracias!
+
+
+Title: Nginx Reverse Proxy Configuration for Strapi Under Subpath (/blog/strapi) - Help Needed
+Description:
+I'm looking for an experienced Nginx and Strapi developer to help resolve an issue with my Strapi deployment. I have Strapi running under the subpath /blog/strapi on my website, and I need it to be fully functional, including access to the admin panel, API routes, and uploads, all under this subpath.
+Nginx is being used as a reverse proxy to route requests to Strapi, which is running on port 1350. The challenge is ensuring Strapi functions correctly under /blog/strapi without routing issues or 404 errors. Specifically:
+/blog/strapi/admin should load the admin interface.
+/blog/strapi/api should serve the API endpoints.
+/blog/strapi/uploads should handle file uploads.
+Current Issues:
+Admin routes attempt to load from /admin instead of /blog/strapi/admin.
+API calls and uploads are not being routed correctly.
+Some routes return 404 or are misrouted due to incorrect Nginx reverse proxy configuration.
+What I need:
+Correct Nginx reverse proxy configuration that properly routes all requests to Strapi (running on port 1350) under the subpath /blog/strapi.
+Ensure all Strapi functionalities (admin interface, API, uploads, etc.) are accessible and working from /blog/strapi/.
+Resolve any routing, redirection, or 404 errors.
+The environment:
+Nginx as the reverse proxy.
+Strapi running on port 1350.
+Website: gmdirecthire.co.uk
+The subpath for Strapi is /blog/strapi.
+If you have experience with Nginx reverse proxy configurations and Strapi deployments, I’d love to hear from you. Please let me know your availability and estimated cost for this task.
+Thanks!
+
+
+

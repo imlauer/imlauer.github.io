@@ -1,0 +1,597 @@
+---
+title: "Electricidad / Clase 65: Explicaron que hicimos clase anterior (porque no prendía lámpara), el ayudante hizo un chiste cuando un alumno levantó la térmica (aplaudió las manos). Borneras de conexion y peines. Analizamos problema casa alumno. Tableros. Tubos fluorescentes, LED. Empresa contrató electricista para cambiar tubos fluorescentes por tubos LED: cambiaron el balastto y el arrancador por LED. Definición repartidor, peine de conexión."
+date: 2025-09-10T03:03:06-03:00
+tags: [electricidad]
+---
+
+#### Audio Vocaroo:
+
+https://vocaroo.com/1cHdosl9ArMk
+
+#### Audio en Archive:
+
+https://archive.org/details/record-255
+
+#### Audio en YouTube:
+
+https://www.youtube.com/watch?v=4cmBj083QUw
+
+##### Por WhatsApp nos autosubscribieron a este taller:
+
+![](https://ia600906.us.archive.org/9/items/taller-termotanque-solar-foto/IMG-20250908-WA0000.jpg)
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXo0eH4QdyfLy36DL8zEleQoUSNhu8QYD-YnqxFYkbJid8qpHQrYNp-5xziZVGgWO3B2Q-mqEtExmJASU3myh9yZDjAG3dMeOHSpMsXJiq5KsChzoKfzDtwA-jkgz3iMzS7YOEYlrEXDwM_08e5qN2d5RBMTQtwOQnuoR28x_8-gbbgNeSlz4MfTZY8Zg/s4160/IMG_20250909_191724625.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjSJAoAY22VYdnjYM92jM2_SmUrsV7VfmkIMP8Q2mtk7QPYTjzxhYXpLN1mnHmtsHcsRPEqDL1wkioewovMzqug9u9DnNkV6MVLKkSP7Wq7MGu6z8GGUM83EztKywJVeJIrlno5IcakARxFAkyLedys1xLYwnhzQ4qHJtHVjP5SGFLtood2-E0dpYTlZs/s4160/IMG_20250909_193734868.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBYcoIM0GwbzHUQw9bHkkEwjY55ntiHkAUiDwroaPA3UTaQMGdbaZS6hM7irI7-ylYJrUbxVRRKnt1PeQbQd3leVynTFzTzPO18WrD9lE7Xubk3mGbKtM7YmPLs-YtNTmtdgAy7c-4mouEcUkoJqZNmI7r1nuNsKr8F48Xy8K3uTw2R7IQyTF7F2rpGZI/s4160/IMG_20250909_193800301.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEij3e8pSKhgfYRiOVJ3a5uOdUm0AHg6e2xVyQ4SKZSWtimxIb7FU536rrSXh7E1XscRdX1eVTVNwiuhCPPh6ONniiSdcwbD9LOJAbDBEJaZfantlaD90eNSN7ayYN2wl18-MbP4PoL8_yx9UboEkm132iDpJnl6R0u1Hsbk_yiOnmmPNwv8I72m6iLmRTo/s4160/IMG_20250909_193802131.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHFwLHYLvaB9pUX5eNUSIGZ0pui7pxyJLvJ9Tr3cxSkUoG0xOkHo7bVAByK8tgPWXDHdEmITp1yC23X5v-XpFd3o1IIgZQPIv4uwT1iAPafk-xrqETPs_CMTwnw5Mln4zPcRQn2d3pFdwZKG-9SV-7VR64gEJhdQ-gpZRrB5U2QdBAFrbtoJIH_LCFn-A/s4160/IMG_20250909_195214250_BURST000_COVER_TOP.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVNuLZ_HNo66_XBREVwbl56Fn1T6xtOQAvncn67WruDc2-566iV3RHKYkGjrK6FyCDdczaQEMpsevaUTumCqRv8ojLQbopfHhooKST5DgB6fo5FrNGYtx9UEuJRrOWvZvIWFiEB60KWl4jclqAai18vG2psn8aDfGfKWuBfWfcHodzYmHW4027hB1mIrU/s4160/IMG_20250909_195216805.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz3TpmWgxR0awyqUd110jHJ_N3a-P_vTA3tAzs-uiWADkKQCT3y9BZrQrmA8H3PbsPhX4Mp26i2CgGgsT-TYNB1tv6ZzzkcGR3GJ-4_aLiQ8MH_8h_QzLRIRW10N1zRAxiRHOOBJSmNpQ8Fm5EcdCwCxt7snEHOW-ZhJETp_-xsb1kZYGB10mQKXLb170/s4160/IMG_20250909_195218334.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHPBnXt-tsfYVqOPzoI2gIK_WlhMoaNo_pv5iQQthsbSW0Dm_H9qcKFGPnyUmWeoSnF3-wIdiHjvBTbf78Ggoe-IF6gU1YQhDWNXxbFZRAAQ8E2g2Xjt99POlDhtdu15jFvLhJucVYpO5QeCZ3f5eRNyS7XMUukktjuVImQpdX0VCIAktgMpSaGE_wYsA/s4160/IMG_20250909_195239139.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiMW6WBJvF_IaGmWFDKESCJSYzDi95AfTjaM2yEIJNQxZFK7qqcVTpUw4W-AxlrqEH8RVKgTCVlOEajCn6B9xQ29LlM_DXuvLVCxyMPIg4rB_X5pdErRBeYvVMRKd03f2sS3nxHL_x99eG6OHk12Lf7PeKzYdWnxE4Vub_224KbL9vLAzGkxDzyu5b2w8/s4160/IMG_20250909_195329591.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI2bYj_v8itBp-MLMKawiRngBsHYtYG12HX6rTVNgjjJGO6wQ6p820YAF7a5sPbEhTcnsLqwNjqhSw5UMsn5q1CsJJEp0Pi5yP4H-Lqq0J7Ye77gGAVi8GmIYWZ2W4hc-1A-8OPagj_4kax8536CYIHdzqAqkg6UwmKVtZfyIJsbdvkOYeyqmuPFhBQtw/s4160/IMG_20250909_195500999.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiItcCDng_EtIEEQNnBCPGs81NvO6Qirl5DUHeXKBqk-fQP-pAQFlxnQ-L72lyB_2mx9XVD-53b6xN7YvIogVXwEo7nRx5-8CgHWpLufY_m1zZqitHMnrexdRB8vYyErAOjWIVy9oV21Vq9mfOb0_dk_5MxBYK7vGTYRCAPA1aykWEVPy4LLgVpq6c4kJM/s4160/IMG_20250909_195509402.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS-E7LuGF3bbNW9Jil0mOj5EZDVsVOgi2HGLU7WRSbCfs-Ng0isvSGSniKcJsMpfORJINxWYtc7Yb60oD3VYCN9SdKFgJvGKW3OCCAJC03kms7BBCRJNzxuABhDAO954UveypQCOfsikbip2PIaA732L6DFxvIQYyMbxTZqkI9wni5gHRGCold4IX1f9s/s4160/IMG_20250910_063954540.jpg)
+
+#### Transcripción a partir del minuto 8:30
+
+##### Explica como solucionaron el problema clase anterior
+Profesor: aquel portalámparas no andaba bien todavía no sabemos por qué pero me parece que era porque estaba flojo, un pequeño desajuste en el tornillo, le tuvo que ajustar un poquito.
+
+Lo importante como detecta si llega tensión allá justo una parte, se probó la continuidad por si era la llave de punto, entonces sin energía y con energía la idea principalmente es saber si el problema radica ahí y yo no tensión 220 allá, o sea que tengo que ir revisando por etapas.
+
+Bueno, tuvimos que sacar el artefacto y comprobamos también que **uno de las lámparas no andaban** tiramos a la mierda entonces a veces son cosas usadas que vamos almacenando y en ese sentido a veces hay problemas, pero lo importante es que se resuelva no es difícil hay que prestar atención no más seguir el recorrido y como ven ahora le van a prender las luces como están para que vean que todo está en su sitio.
+
+Algún voluntario que prenda ahí?
+
+###### El profesor muestra un detector de movimiento de 360 grados es parecido a un dtector de humo.
+¿Estamos todo ahí está el sistema ahí? Está la llave de 1 punto, 2 punto, 3 punto y después vemos el tema, probablemente la semana que viene le damos el tema porque voy a **desarmar una fotocélula después vamos a colocar ahí** y hoy tuve el placer de que me hayan cumplido mi sueño y tenemos un detector pero ya de 360 grados, esto va en el techo no como aquello que tengo una forma de conectar determinada que tiene un sistema de conexión parecido al sistema de detectores de humo algún día cuando **tenga un detector de humo tiene una base y después tiene un sistema de conexionado y después uno coloca y se gira nada más esto va fijo**, esto se fija depende de qué característica tenga la instalación y cuántos metros cuadrados tiene el sistema de protección detectores de humo y este tiene las regulación que está al costado: Tiene el mismo sistema que aquel lo único que a nosotros nos interesa es el tiempo de activación que tiene el detector actúa como interruptor nada más después haremos la instalación para ver como hacerlo y algún día ahí arriba, ustedes van a ver dentro de 10 años todo perforado acá en el aula.
+
+Bueno, como le decía es interesante que se inscriban, **viene gente de fundación de buenos aires, hay una parte que realmente, no sé si ellos van a armar los equipos, supongo que ellos mientras tanto entonces comprobaremos depende de qué marca es también no tenemos idea anótense porque dicen que hay cupos limitados**, el que quiera participar creo que es el 17 no sé. Ayer me mandaron.
+
+Vamos a mirar ahí.
+
+Aunque no crean la 1era vez que veo, no sé si la 1era vez: en una estación de servicio a la **salida acceso sur la YPF**, ahí tienen un sistema encima yo quería hablar con los playeros para que me expliquen para qué sirve? Si sirve para sistema de emergencia, para las luces exteriores o para el cartel pero nadie me supo responder, pero es interesante ver que en distintos lugares se está tratando de utilizar una nueva tecnología para algo sirve.
+
+Vamos a ir viendo algunas cosas.
+
+Este vendo después, el que aprueba el curso vamos a sortear.
+
+Primero me gustaría saber que la alumna que se expresó por WhatsApp si encontraron o no la solución, qué problema tenían? La idea es que todo sepamos resolver cualquier tema, si ustedes tuvieron problema también tenemos que ver la idea de como solucionarlo, esa es la idea principal.
+
+\* Profesor mira cuenta cuántos alumnos faltaron: hay uno parecido a vos pero faltó. Falta un tipo que no me acuerdo el nombre.
+
+Ayudante: No hubo respuesta, se solucionó o no el problema?
+Alumna: No.
+Profesor: Bueno, traten de contar así más o menos le vamos a dejar
+Alumna: Igual no cambié el módulo eso me faltó tengo que comprar y sigue sin luz pero el portafoco era solo fase lo que tenía o sea en el neutro era fase también y no puedo subir como para ver como está la instalación.
+Profesor: Pregunta: vos te encontraste con 2 cables con 2.
+Alumna: El retorno era fase, y después tenía la fase y el neutro.
+Profesor: Y arriba te digo, el neutro tenes los 2 lados los cablecitos que van al portalámparas tenían.
+Alumna: No el portalámparas o sea la chapita toca y todos tenían fase, y un tomacorriente, bueno esa instalación hizo mi cuñado que también tenía 2 era fase nada más. 2 fases tenían.
+Alumno: Tenía tensión los 2.
+Profesor: Y anteriormente como estaba eso?
+Alumna: Y se había prendido fuego arriba y vino un electricista y le hizo eso que yo mandé la foto le solucionó así y ahora el tema era que no prendía las luces de afuera del baño y de esa pieza.
+Profesor: Probablemente le cortó el neutro, ay. Bueno, como solucionamos eso?
+Alumna: Dijo un alarme mi sobrino. Dijo que si quieren ir a hacer práctica no tiene problema.
+Profesor: Vamos a ver el tema es que el electricista tocó, al tocar el electricista. 
+Alumna: Igual es una telaraña de cables.
+Profesor: Eso es seguro. Es seguro porque eso pasa cuando varias personas tocan la instalación.
+
+#### Alumna instalación fotos.
+
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0021.jpg)
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0022.jpg)
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0023.jpg)
+![](https://ia600907.us.archive.org/17/items/margarita_1/IMG-20250905-WA0030.jpg)
+
+
+Bueno, antes que nada acá mi colega hizo... Contále.
+Ayudante: Un práctico. 
+
+##### Importante saber hacer lista de materiales y leer planos
+
+Profesor: La idea es que lo que hicimos ahí es algo sencillo la idea es principalmente que ustedes hagan el cálculo de materiales y a su vez vean como es la instalación, y si tienen algún problema volver a resaltar ese problema porque acá hoy las empresas contratan a montadores electricista que sepan hacer la lista de materiales, eso lo necesitan si o si, que sepan leer los planos y cualquier bosquejo que se haga entiendan como calcular o hacer la lista de materiales, entonces se que cuesta porque la gente no está con la idea principalmente de revisar constantemente éstos cálculos pero las empresas piden. Ya no contratan más ingenieros sino que directamente contratan electricistas para que haga el cálculo.
+
+Entonces acá es hacer el práctico de a poco, yo voy a mirar y que todos tengamos una idea de como resolverlo está en escala, esto no es para que hagan acá, sino que vayan haciendo y vamos resolviendo los temas todos juntos, la idea es que se entregue después y que practiquen, vamos a tener una idea exacta de qué es lo que estamos hablando.
+
+---
+
+#### Explica lo que hicieron clase pasada.
+
+Alumna: Qué pasaba acá que no andaba la luz y ayer arreglaron?
+Profesor: Tenemos 2 posibilidades: en principio lo que se trató de hacer. El va a responder lo que se hizo, no importa si se expresa mal la idea principalmente es que todo lo que se hizo ayer el con sus propias palabras y su léxico le hagan entender lo que se hizo, la idea es qué se verificó y resolvieron el tema, tuvimos que bajar el portalámparas por las dudas y también tenía un problema que el foco estaba en condiciones desastrosas o sea apenas prendía tiré a la mierda.
+Contále lo que se hizo, qué es lo que se comprobó, y como se comprobó y qué se utilizó o sea que trabajamos todo con tema de continuidad y eso es lo que comprobamos hasta que se sacó la lámpara para tratar de ver si era o no el portalámparas.
+
+Alumno: 1ero desarmamos el bastidor verificamos los 3 puntos. El problema era el del medio, el que le enumeramos 2 nosotros, probamos continuidad con el **multímetro entre retorno en el mismo bastidor retorno con fase, había continuidad o sea que no había problemas allá en el punto**. De ahí vinimos acá, y desarmamos el plafón cortamos los cables los 2 el de neutro y el de retorno y sacamos el plafón y ahí pusimos una lámpara común, un portalámparas común, añadimos sin encintarlo solo para prueba con un foco. Probamos el foco que tenía y no andaba entonces probamos otro foco y andaba o sea que el foco ya estaba fallado de ahí dejamos el portalámparas ahí puesto y agarramos el plafón pusimos un foco, el profe con guantes agarró los 2 cables del plafón y enchufó en el tomacorriente y anduvo entonces ahí comprobamos que el plafón andaba bien.
+Profesor: Antes de colocar él revisó la instalación. ¿Cómo revisar la instalación? Deja pelado las puntas entonces con la punta el verificó que realmente llegaba 220 ahí.
+
+Antes de colocar el portalámparas de prueba agarramos el tester pusimos en 220 y usamos la pinza amperométrica que se puede enganchar en el caño para tener las manos libres y llegaba a 228 voltios, o sea que llegaba la tensión y ahí hicimos lo que dije luego.
+Alumna: Eso fue con guantes?
+Alumno: No, porque bajamos todo y ahí cuando tenía como las puntas tocando los 2 cables ya avisé y ahí prendieron y ahí llegó a 200 por eso decía que tenía las manos libres con la pinza amperométrica enganchando en el caño, con el tester común más complicado.
+
+Alumno2: Entonces cuál era el problema? 
+Alumno: O el foco... Ah! después de todo que armamos todo comprobamos que todo estuviera perfecto probé de nuevo falló de nuevo. Ahí desarmé el bastidor y estaba mal puesto el del medio en realidad los 3 estaban mal puestos, yo puse todo de nuevo. Los filamentos estaban todo desparramados y yo creo que hacía falso contacto. Así que le...
+
+\* Corta la luz probablemente por un tipo que estaba reparando un motocompresor de un aire en otra aula (hay cursos de refrigeración).
+
+Alumno2: Ahí tá!
+Profesor: Ahora está haciendo falso contacto, no tocamos nada.
+Alumno: Ese no fui yo.
+Profesor: Ese no tocamos nada, probablemente haya saltado el protector de tensión.
+Alumno: Sí, estoy escuchando una amoladora o algo.
+Alumno3: Había un tipo que estaba con una hidro.
+Alumno2: Contános la historia.
+Alumno: Alejandro hizo un chiste, cuando yo levanté la termomagnética Alejandro hizo un aplauso así re fuerte y hasta el Profe se creyó de hubo cortocircuito. 
+Profesor: Probablemente acá nuestro vecino está haciendo experimiento.
+Alumno: Ahí rehice todo el cableado del bastidor de los 3 módulos y a partir de ahí anduvo perfecto. Así que cualquier cosa pudo haber sido.
+
+\* Corta la luz otra vez.
+
+Profesor: El equipo ese que está usando decile que suspenda, suerte que no tenemos nada acá. 
+Alumno3: Vos solo hiciste todo eso?
+Alumno2: No no, con Zarza y los 2 muchachos que no me acuerdo, con Braian, Zarza, y el otro muchacho no sé el nombre.
+Alumno5: Bueno y resumen?
+Alumno2: Cuánto cobraste la mano de obra?
+Profesor: Ah todavía falta eso, presupuesto de eso bueno vamos a hacer, probablemente estén probando un aire. Entonces no hay corto sino que salta el disyuntor entonces que se fijen ahí.
+Alumna2: Vos viniste?
+Alumna: No, ayer le operaron a mi mamá.
+Ayudante: Ahí parece que se resolvió el problema.
+Profesor: Y qué era?
+Ayudante: Un compresor quemado.
+Profesor: Suele ocurrir eso así que por eso pero en principio salta el disyuntor otra vez porque salta la termomagnética sino el disyuntor está saltando por una descarga.
+
+---
+
+##### Ayudante habla del trabajo que realizó para nosotros
+
+La otra vez empezamos con algo.
+
+Bueno en síntesis le daré la palabra al señor: lo que él pensó para ustedes que sea expuesto...
+
+Ayudante: Este en definitiva es un cálculo simple de una planta que yo hice para volver a afinar y practicar el tema del cálculo, ya sea tanto la cañería como los conductores entonces este es para que ustedes practiquen en sus casas y si tienen alguna duda nos consulten a nosotros y la idea es tratar de resolverlo en lo posible 1 semana.
+
+Alumno: Va por arriba del cielorraso?
+Profesor: Sí. 
+Ayudante: Todo por arriba del cielorraso por eso abajo le especifiqué la altura del cielorraso.
+Alumno: Pasa por encima de las paredes entonces?
+Ayudante: Abajo de la fotocopia te dice una altura.
+Alumno3: Ah esto es tipo tarea digamos?
+Ayudante: Es una práctica porque yo también me incluyo en este rubro la búsqueda laboral es complicada si uno no sabe hacer cálculo de materiales, eso es lo que más persiste y lo que más se demanda porque hoy en día muchos proyectos no se realizan porque los materiales son costosos pero a fin de cuentas todavía nosotros podemos tener cierta inserción en el mundo laboral sabiendo hacer estos cálculos entonces la idea es como se vió y yo personalmente he visto como estamos flojo con esto y siempre surge alguna duda de medidas: **¿a qué altura están las bocas, las lámparas, los tableros?** hice este ejercicio para practicar. La idea es tratar de resolverlo en 1 semana y media.
+
+###### Profesor: Para que no se olviden lo que hicimos. El tema ahí fíjense acuérdense ahí están las bocas puestas, las bocas de iluminación y los tomacorriente, tenemos el tablero seccional conectado de 1 lado entonces partimos de la base de qué los lugares están fijos y ya sabemos donde está el tablero. Vamos arriba 1ero a la boca de iluminación vamos a la otra y vamos a la otra, estoy mirando ahí no más, pero tengo la posbilidad acuérdense que yo puedo meter o colocar dentro del caño 2 circuitos solo iluminación y tomacorriente estamos haciendo, ni pusimos tomaespecial ni ducha eléctrica, solo lo básico.
+
+###### La idea es que salgan del tablero acuérdense directamente que 1 solo trazo o curva lo que sea es una cañería eso es importante porque ustedes van a trazar esquemáticamente y van todo sistema de iluminación después hace una bajada tienen los tomacorrientes caja octogonal bajo listo. Del otro lado bajo y listo y hago lo mismo que se hizo ahí en el sistema que voy con 2 circuitos voy por arriba y hago la distribución al tomacorriente lo que hicimos acá, entonces ustedes sabrán donde están los tomacorrientes puedo llevar el circuito de tomacorriente directamente hasta el fondo hasta donde realmente necesito y a partir de ahí llego a mi tablero, ese circuito de tomacorriente y de iluminación voy por arriba y bajo directamente a las llaves.
+Ayudante: Y para no complicarle también en vez de tirar tanto caño para arriba por eso no puse aberturas entonces en algunas de las piezas se ve que tiene varios tomacorrientes entonces pueden bajar a una boca 5x10 y ahí por la pared. 
+Alumno3: y para ingresar a la habitación directamente del tablero seccional o desde una cajita
+Profesor: Va por boca.
+Ayudante: Vos tenes boca, todos los círculos con una X son bocas de iluminación.
+Alumno3: De ahí puedo ir a una habitación digamos?
+Ayudante: Y sí, la idea es que vos vayas a las bocas primero y después bajes.
+Profesor: Reducido esto sería la mitad ahí y ahí entro a la habitación, va en boca y va bajando porque vos tenes 2 circuitos. Va por la misma cañería 2 circuitos y después bajan aparte la idea es también es razonar de usar la menor cantidad de caño posible que no sean muchos caños arriba del techo.
+
+Profesor: Bueno. Voy revisando cosas en mi casa.
+
+##### Mañana probablemente tengamos la posibilidad de traer algunos artefactos. (No trajo)
+
+\* Ayudante amaga de que se va a robar un tablero Genrod.
+Ayudante: Son lindos los Genrod ese es el problema.
+
+Profesor: Fluorescentes que tengo ahí: 3. Vamos a traer y creo que encontré una cosita acá vamos a ir armando 1ero, primero tenemos que saber como es el circuito de un fluorescentes para que tengamos donde cortamos fíjense que una empresa contrató 3 electricista para resolverlo: 130 artefactos fluorescentes y llevaron a Allen.
+
+¿En qué consistía el trabajo? Bajar todos los artefactos fluorescentes y hacer toda la instalación probarlo con los tubos LED y volverlo a colocar pero todos con LED o sea la misma carcasa que tenía esta lo único que se hizo fue: **sacar el balasto, sacar el arrancador, y utilizar el zócalo y los tubos que sean tipo LED**.
+
+Hoy tenemos la ventaja de que esos tubos LED.
+
+Pasame un tubo LED (no fluorescente).
+
+Vamos a suponer que hoy en día tenemos la posibilidad que hay una sola la ventaja que tenemos ahora, dejá ahí no más.
+
+La ventaja que tenemos ahora que ese tubo fluorescente que tiene un sistema de fluorescencia eso veremos mañana.
+
+\* Profesor se queja que alumnos hablan.
+
+Entonces ¿qué pasa? Hay distintos tipos de tubos LED por suerte hoy en día tenemos un tubo LED que tiene las 2 entradas en el mismo lado antes había un tubo LED que tenía una entrada por acá y otra por acá (izquierda y derecha) y hay gente que hizo macana porque no leyó qué característica tenía.
+Agarró y conectó y quemó 5,6 o 7 tubos y después leyó la etiqueta.
+
+Ayudante: Santiago eso no es para ahora atendé a la explicación.
+Profesor: Entonces hoy en día por suerte tenemos 1 sola alimentación acá tengo los 220 acá les va a indicar el otro tubo tenía la característica que uno entraba por acá y otro entraba por allá entonces al colocar los 220 acá quemaba el tubo.
+Alumna: Colocaba los 220 en los dos lados?
+Profesor: No. Colocaba fase a la izquierda y neutro a la derecha y con eso se quemaba, pero era una de las condiciones que tenía una empresa que hacía la distribución de los tubos LEDs hoy en día por suerte solo tengo 1 entrada, solo de esta característica de lo que está marcado acá él le va a indicar donde tiene que colocar los 220, no es difícil pero antes de empezar con eso tenemos que ver que característica tiene el fluorescente el artefacto y como era **el sistema de conexionado de estos tubos** para poder luego reemplazar.
+
+Pero les digo 130 hicieron 2 o 3 días tuvieron que sacar todo, sacar los balasto tenemos una cantidad de balastos tirado por ahí y la empresa cobra por eso o sea que ustedes cobran por el trabajo y ellos también cobran porque reemplazar lo que era tubo fluorescente por tubo LED.
+
+¿Por qué están reemplazando esto?
+Porque generalmente no está viniendo esto, ya no se hacen.
+
+Profesor: ¿Qué diferencia tengo entre estos? Vamos a suponer que normalmente los tubos últimos que salieron fluorescente eran de 36 watts, el tubo LED 18 watt en consumo, entonces va mejorando esa prestación tengo menos consumo menos potencia entonces puedo variar mi instalación otro tipo.
+
+Profesor: Entonces que pasaba una época los arquitectos tienen una condición de prestación quiere poner garganta, vieron que la garganta son iluminación directa se ve solo reflejado el techo y queda ahí arriba tipo una garganta va escondido el artefacto y nosotros una época de acuerdo a las condiciones que nos pedía el arquitecto usábamos tubo fluorescente pero el tubo fluorescente no se tenía que ver, entonces había que hacer la garganta de tal forma de que nosotros pongamos los zócalos fijados en la tabla aunque sea porque los comunes te dan una distancia de casi 5 cm entonces teníamos que hacer lo más fino posible para que no se vea el tubo, porque queda horrible una iluminación directa que mirando de este lado vea el tubo.
+
+###### Tiene que estar acá entonces refleja no más la luz arriba y hace iluminación indirecta se usaba mucho hoy en día casi estamos con el sistema LED hacen la cinta y todo el sistema.
+Ayudante: Es más fácil esconder la cinta que esconder eso.
+Profesor: Pero se usó una época y todavía sigue en algunos lugares la garganta puesta o sea que mientras que funcione están cambiando eso.
+Alumno: Aparte el fluorescente es un peligro cuando se caía explotaba.
+Profesor: Claro.
+Ayudante: Y esto lo que tienen son los gases que no tenes que respirar.
+Alumno2: Fluor es?
+Ayudante: Sí, por eso se llama fluorescente.
+Alumno: Y es todo de plástico?
+Profesor: Algunos son de plástico y otros de vidrio, no quiero probar este porque es nuevito.
+Alumno: El fluorescente viene de fluor?
+Ayudante: No, eso le da el nombre.
+Alumno2: Viene de fósforo, los electrones van y se chocan contra la pared.
+Profesor: El fluorescente lo que hace directamente, la fluorescencia es permitir la iluminación en todos sus cañerías hacen que los electrones pasen de un lugar a otro entonces sino directamente se iba a ver como un haz de luz no iba a ver iluminación entonces se aplica fluorescente de acuerdo a los gases que tengo dentro y me da iluminación, eso vamos a ver mañana (no hicimos nada de eso).
+
+Ayudante: Ah y otra cosa, a diferencia de esto, esto tiene lado porque sino les queda la tira de luz hacia atrás y la iluminación se reduce esto tiene lado para conectar.
+Profesor: Mostrale que tiene una cinta ahí.
+##### Ayudante: Acá atrás se puede llegar a ver, la cinta que eso es la tira LED que está acá adentro esa es la idea que justamente quede hacia el soporte o hacia la pared porque si lo pones al revés le reducís la iluminación un 35% aproximadamente.
+Profesor: Como son tubos redondos generalmente se usa si ustedes ven cualquier artefacto tienen una película un phillips de esos de aluminio, que es para que en caso de que la iluminación tire para arriba eso vuelva para abajo.
+
+###### Yo voy a escuchar a la gente porque empezamos a ver el tema de los tableros algunas condiciones: ¿cómo ubicarlo? Luego haré resumen, la idea es encontrar.
+
+Todo lo que ustedes ven ahí es lo mismo que esto: 10 me dieron así que me quedé con 1 solo para tener de prueba.
+
+En síntesis fíjense todos los interruptores con los que trabajamos nosotros: termomagnética o disyuntor tiene un lugar en donde se fija, ¿dónde se fija? En un riel din, si yo no tengo este riel din porque en algunos lados tengo la posibilidad de utilizar un tablero con característica ya tipo gabinete en la cual tengo que instalar el riel din. Esto acuérdense que en algunos casos viene hasta 1 metro o 0,50 pero es de 1 metro generalmente lo que se vende. Y uno va seccionando de acuerdo a las característica que tenga el tablero.
+
+Bueno, todos los PVC que vienen ahora es lo mismo que riel din acá pero de fábrica, la característica del encastre es el mismo o sea que tengo una forma de resolverlo y una vez que esté fijo trabo acá, a veces hay algunos que tienen 2 trabas que es más interesantes porque a veces puede fallar una y le sostiene la otra.
+
+La idea principal es que el interruptor esté fijo, por eso mi alumno no vino más (el alumno al que le habíamos dado el riel din que tenía el interruptor acostado ahí y no apareció más o sea que ya le vamos a descartar por decisión unánime), entonces tengo esto fijo y tengo la posibilidad de maniobrarlo sin agarrarlo él que hacía acuérdense él agarraba ahí y tenía que abrir y cerrar el circuito, si esto estaba pelado o algo por el estilo posiblemente iba a ligar una descarga, **pero me pide que esté fijo esto**.
+
+Fíjense Genrod es una marca buena todavía.
+
+He visto algunos que tenía roto acá la pestaña este porque tiene una forma de colocar: **fijo arriba bajo la traba y luego coloco hay gente que...**
+Alumna: Si se rompe ese tenes que cambiar todo?
+Ayudante: Sí, si se rompe esto acá tenes que cambiar todo el tablero.
+Profesor: Queda sin traba.
+Ayudante: Por eso yo compro los que vienen con el riel din para atornillar.
+Alumna: Y sí.
+Profesor: Ese es bimetálico y tiene fijo también, es soldado ya viene armado todo para eso, bueno en síntesis. Trabo arriba, por supuesto bajo la traba trabo arriba primero después bajo y ahí trabo. Entonces ya queda fijo.
+
+**Hay gente que le agarra con traba y todo hay otros que tienen tipo un resorte**.
+##### Error de la gente: Ayudante: Que no queda la traba abajo y ahí hacen desde abajo enganchando desde arriba. Lo ideal es apoyar el interruptor en el encastre superior y con un destornillador se ayudan y abren el seguro para acomodarlo una vez que quedó en su lugar lo larga y ahí queda.
+Profesor: Bueno, ya vimos que en la parte de las normas decía que intentemos siempre alimentar los interruptores por arriba y la salida por abajo porque esto actúa por sistema de gravedad entonces uno ya automáticamente sabe que si yo desconecto, sentido de la gravedad ya no tengo que tener energía.
+
+¿Qué vimos la otra vez? Él mostraba el sistema de como, estaba en la parte del reglamento posiblemente voy a tener que hacer un resumen porque de tanto que leyeron el único que sabía era... Pero ¿qué posibilidad tenía yo de mejorar la instalación eléctrica? 1ero vimos que el tablero no es una caja de paso, no puedo usarlo como caja de paso y ningún conductor tiene que estar unido ahí dentro eso vimos ya. La distancia con respecto al nivel del piso como ubicamos los tableros acuérdense que hay una parte de la norma la gente que recibió el papelito donde están las alturas, eso está reglamentado.
+
+Qué otra cosa importante? Cuántos bucles, cuántas uniones tengo que realizar? O hasta cuántas puedo realizar? 3 bucles de conexión.
+
+3 bucles de conexión pero siempre teniendo en cuenta si yo tengo 3 bucles: 1,2,3 debo tener en cuenta que el 1ero es el que recibe todas las cargas, hay una ley que se llama de Kirchoff: que la corriente que entra acá es igual a la corriente de salida. Entonces recibe todo el producto de mayor carga.
+
+¿Qué otra cosa importante?
+##### Definición bucle: Alumna: Profe es que conecto de una térmica a la otra térmica y de una térmica a otra térmica? Como que un puente hago?
+Ayudante: Sí, como guirnalda.
+Profesor: Sí.
+
+A eso es lo que voy yo quería traerle algunas cositas yo voy trayendo de mi casa.
+
+##### Hablando de peine de conexión
+Acuérdense que acá tengo 1 para circuitos: 1,2 trifásico tengo para un sistema trifásico igual que este, vamos a suponer que yo tenga hoy no se usa tanto pero si nosotros tenemos que instalar una instalación o llevar a otro tablero seccional necesitamos 4 creo que tengo otros 4 acá.
+
+Esto es de 4. Tengo 4 para un sistema tetrapolar, ¿qué significa eso? Que yo puedo colocar un interruptor acá puedo colocar, otro interruptor acá, y otro interruptor acá. ¿Estamos? Tetrapolar son 4: 3 fases y 1 neutro entonces esto actúa con las mismas características y son las uniones que yo hago, esto es un peine para que ustedes entiendan.
+
+Hoy en día si ustedes piden esto generalmente es una marca que tenía regulado la distancia la cantidad la cantidad y todo hoy si ustedes piden a veces te dan por metro, a veces ocupaba un tercio de esto a veces no y te queda. Siempre sirve pero el tema es el costo. 
+Alumno: Le cortamos con sierra?
+
+##### Ayudante recomienda usar un repartidor en lugar de un peine de conexión
+
+Ayudante: Sí, se corta con sierra, el problema es que el peine de conexión son muy caros por eso muchos lugares no los usas, yo en mis instalaciones por ejemplo no les sugiero el peine porque es más económico colocar un tablero más grande y colocar esto que es un repartidor.
+
+La diferencia con el repartidor es que vos en el peine vos cortas hasta las térmicas que vas a usar, en el repartidor vos lo cortas entero y vos después dispones de los distintos borners de conexión como vos quieras. 
+
+Profesor: Si una empresa me da, yo recibo un tablero sin esta protección acá, acuérdense que yo tengo fase y neutro. Y acá tengo las 3 fases y el neutro **si empresa me da sin la protección esta (un plastiquito que tapa el repartidor) ese tablero por más lindo que esté está mal**, porque es inseguro y tengo expuesto todas las borneras con tensión.
+
+Y esto acuérdense que está esto acá, es lo mismo que está acá. Este tablero está bien realizado prolijamente pero así como está le falta la tapita de plástico que va al repartidor.
+Ayudante: Que es justamente es lo que impide que vos vayas y toques acá.
+Profesor: Entonces qué pasa ese tablero por seguridad y riesgo eléctrico no está probado entonces tiene que conseguir la tapa y generalmente suelto esto es muy difícil conseguir para que calce justo ahí, vas a tener que comprar uno nuevo y colocar.
+
+Ahora estoy esperando que la empresa me coloque sino no apruebo el trabajo que inspeccioné la semana pasada, a veces cuando hacemos exposiciones a la gente le gusta tocar, entonces una de esas sacaron el plástico del repartidor, por suerte no había energía.
+Pero si este distribuidor está colocado en un tablero y no está colocado la tapa.
+###### Si está energizado y no tiene su protección no está aprobado.
+Algunos utilizaron un sistema de cable canal trataron de tapar este y bueno ocurre eso.
+Alumno: En el repartidor siempre el neutro por delante?
+Profesor: Sí. Esto tiene un encastre también para riel din, estamos? Por eso que va encastrado directamente a presión.
+Alumna: Profe estos van conectados al borne de la térmica directo?
+Profesor: Sí.
+Ayudante: Eso en vez de vos hacer esto con el repartidor vos salís directamente de tu protección entrás a una de las térmicas y ahí colocas el peine entonces agarras todo el resto sin hacer las guirnaldas porque eso aguanta hasta 100 amperes.
+
+El peine de conexión aguanta hasta 100 amper.
+Y el repartidor aguanta 125 amper.
+
+Cada barrita aguanta 125.
+
+##### Alumno: El repartidor va después del disyuntor?
+Ayudante: Y sí, el repartidor es el que reparte la energía a todo tu circuito.
+
+
+
+
+
+
+
+
+
+Dónde está el monofásico?
+
+Cómo va colocado esto? Cada una fíjense esto es como un pianito una escalera yo saqué ahora pero tiene una característica que me está indicando o a la gente que está revisando donde está el neutro y en este caso el sistema de neutro sería siempre el primero.
+
+Alumno: El que está más cerca nuestro entonces.
+Profesor: El que está más arriba. Acá directamente se va metiendo los 2 conductores, después van a ver después que me interesa que vean:
+##### Siempre el de mayor diámetro generalmente se pone conductor principal 
+
+Entonces después se distribuye de acuerdo a las características
+Alumno: El que va del disyuntor al que usted está diciendo.
+Ayudante: Del disyuntor ya sea en el tetrapolar o en el bipolar siempre al del medio que es el de mayor diámetro ahí va el principal, después el resto de los borners son los que distribuyen a los circuitos.
+
+Profesor: Hay de más respuestas o sea de más características más grandes, este es de 7 polos, fíjense que está la conexión y después está 3 salidas para un lado y 3 salidas para el otro, ahí les iré mostrando para que vayan viendo. Entonces el neutro siempre arriba y acá tengo las 3 fases y voy colocando de acuerdo a mi instalación acuérdense que ustedes van a ver un plano o un esquema o un diagrama unifilar, en el cual me va a indicar como yo necesito ubicar los interruptores y después hago las conexinoes. 
+
+Qué me había dicho la norma?
+
+Que tengo que tener una sola salida más si tengo el interruptor diferencial. Si lleno acá de 4/5 conductores no sirve entonces voy al distribuidor y del distribuidor voy acá interruptor termomagnético voy contando lo que pasaba, en principio teníamos varios equipos de estos y se hacía y ¿qué me hacía mi gente? Yo primero intento que ellos lean o revisen y después que traten de utilizar esto. Algunos me desarmaban acá desarmaban la escalera de las barras pero era una forma tan fácil, no sé si traje algún cable con una TIF.
+
+En síntesis había uno que tenía TIF, o sino no traje porque vi cantidad de cosas que tenía ahí tirada.
+
+Esto lo que ustedes vieron es un TIF esto no se desarma para que ustedes entiendan de entrada porque después armaron y armaron todo mal pero no importa, si esto fuera una fase en este caso roja yo entro por abajo y ahí directamente después cierro directamente.
+
+###### No hay problema en ese sentido voy armando y voy introduciendo por eso es que está de esta forma escalonada entonces hago primero arriba abajo lo que sea de acuerdo a las necesidad que yo tenga y voy armando mi instalación, no es difícil: es paciencia y una vez que entiendan el mecanismo porque después la otra parte va al interruptor, la otra parte que está el interruptor puede estar más bajo lo que sea va al interruptor y voy armando fase con fase si tengo un sistema de distribución y quiero que toda la fase esté equilibrada entonces voy armando por cada interruptor por cada fase y qué característica tiene
+Pero lo que quiero decirles es que no uso el bucle directamente uso el distribuidor pero tengo que tener en cuenta ya directamente cuando hago la lista de materiales necesito saber **qué tipo de tablero voy a colocar saber cuántos módulos tengo** y reservar para qué ustedes vean esto casi es 2 módulos, ya preveo un tablero para determinada cantidad de módulos donde aparece esos enunciados? 
+Fíjense acá no va a aparecer sino directamente cuando ustedes compran cualquier tablero, **¿qué dice acá? 8 bocas. Acuérdense que son directamente 8 bocas sería 8 módulos**.
+
+Ayudante: Son 4 de éstos. Cada módulo es la mitad de un bipolar, eso tengan en cuenta.
+Profesor: Bueno.
+Alumna: Y sí demasiado chiquito es ahí no podes poner borneras. 
+Profesor: No, directamente era para...
+Alumno: El tierra se puede hacer con el distribuidor?
+Ayudante: Requiere una bornera aparte, hay una bornera que se llama bornera de tierra que viene aparte.
+Alumno: El que está allá abajo??
+
+El alumno se refiere a la bornera inferior de este tablero:
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAdqyMeeA11mL8rpR5PDlyYfL-QU_Qb-oL5MkvxDeMFizR2cuBAAYqgrQ62Wqknk7XEASX2qfrT4LwjFGD5ZFhnaBNZ7OC7LbHcBDh4UIHhPsR6RmMMcqFwV7Wzgy15O0kiofEu6rtxVmRfQW_HHf6Ff_Z-grHoBMyHW-t12ORlvvLa27PW5J2VQP1x_I/s4160/IMG_20250609_181751613.jpg)
+
+Ayudante: Si viene así, así como esto.
+Profesor: Es lo mismo que esto pero es una barra sola que está acá y en algunos casos tiene base. 
+Alumno: Donde se conectaría el cable?
+##### Ayudante: Existen 2 formas de hacerlo: hay una que a mi no me gusta que he visto que se hace se coloca el cable acá, solo hay muchos que ni siquiera ponen la TIF y ahí colocan el peine, ese va arriba pero en una de las térmicas vos tenes que entrar con el cable, hay muchos que ponen el cable solo o ponen una TIF. La idea es que para que esa conexión quede firme y segura ahí y que no se afloje con el tiempo se coloca esto: esto es un conector para el peine entonces se coloca acá el cable esto se ajusta y esto entra en la 1era térmica con el peine y ahí se ajusta los dos: este y el peine y ahí se distribuye toda la energía.
+Alumno: O sea que el peine le acompaña nada más.
+#### Profesor: El peine reemplaza el bucle.
+##### Ayudante: En vez de hacer las guirnaldas con el cable colocas el peine.
+
+Profesor: Entonces directamente el cable vendrá acá que viene del distribuidor directamente y ahí hace la conexión. Necesitas 1 para cada cosa. Si tengo una alimentación trifásica si tengo una monofásica 2 directamente y después hago todo el resto.
+
+A veces el tema pasa por lo siguiente. Todo sale plata, a veces el dueño no quiere comprar entonces uno le propone pero en obras importantes conviene trabajar con este sistema.
+
+¿Qué otra cosa importante vamos a ver?
+
+##### \* Ayudante coloca el peine en las térmicas.
+###### Ayudante: Así queda y ahí se ajusta acá arriba entran los conductores principales y al apretar con el peine, el peine distribuye al resto de los circuitos.
+
+Muchos no usan esto porque está mucho más caro esto que comprar un tablero más grande y colocar un distribuidor, todo es plata.
+##### El peine de conexión se hizo para reemplazar al distribuidor.
+Alumno: Claro porque es más práctico más rápido.
+Ayudante: No sé, si más rápido el tema es que ocupa menos espacio dentro del tablero.
+Profesor: Ahí ya vos tenías vamos a suponer que tiene doce a ahí ya tenes como 4.
+##### Ayudante: Ahí vos tenes 6 módulos ocupa un repartidor grande que vos te ahorras usando esto. 
+Profesor: Entonces directamente de acá tachas esto acá y va directamente.
+Ayudante: Baja directamente de ahí, y ahí se distribuye.
+Profesor: Depende de como utilices
+Alumno: Se van a usar mucho de todas formas, no importa si usas el peine o el otro porque vas a necesitar un tablero grande.
+Ayudante: Y sí, lo que sí esto viene también vienen hasta 1 metro entonces vos podes energizar una buena cantidad de circuitos la idea es justamente que esto **ocupa mucho menos espacio dentro de un tablero que el distribuidor pero cualquiera de las dos es válido, el peine es más caro**.
+
+##### Alumno habla problema de su casa.
+Alumno: El sábado yo quise arreglar mi casa. Usted me había dado uno de esos rieles no sé si se acuerda yo puse ahora en la cocina pero no sé que hice mal que después con el buscapolo metía los tomacorrientes y los dos prendía. Los 2 prendía rojo, tenía fase en ambos lados, no tenía neutro. Pero escúcheme antes lo que hice capaz que esté mal. 
+Profesor: El mismo caso que las chicas.
+Alumno: No, este es algo peor capaz. Entraba en la esquina, el neutro es fase, normal tenía una térmica bipolar que era solo para fase iba un cable de 4mm^2 para la ducha fase y neutro para la ducha. Luego hice la cocina acá y una habitación acá, entonces yo de la fase principal que iba a la ducha ahí no más pelé el cable y saqué la fase y ahí le puse la llave para la cocina y para la pieza pero con el mismo neutro no más al que iba a la ducha, yo cortaba la llave me cortaba la cocina y la habitación pero no la ducha. 
+Profesor: Pero trabajaste con bipolar.
+Alumno: Con bipolar sí, yo cortaba y ahí no tenía...
+Profesor: Trabajaste con unipolar?
+Alumno: Con unipolar sí, yo cortaba y ahí no tenía...
+Profesor: Y el neutro también es unipolar?
+Alumno: Y el neutro iba directo a mi pieza la cocina y a la ducha.
+Profesor: Cuando vos sacaste el interruptor ese, vos pusiste unipolar después o no?
+Alumno: Cuándo?
+Profesor: Cuando vos cortaste allá.
+Alumno: Sí, pelé el cable que iba a la ducha y saqué para la fase un solo cable que era fase para bipolar y el mismo neutro que iba que agregamos que iba a mi instalación ese. 
+Profesor: Lo ideal hubiese sido que sea bipolar ahí.
+Alumno: Después quise bien las cosas puse la térmica 32 amper el disyuntor y una térmica de 20 amper para la cocina, bueno hice todo así, la fase puse al bipolar y el neutro, pero la fase el otro seguía de largo a mi ducha. Entendes? Entonces hice toda la instalación y cuando alcé todas las 3 llaves probé y no prendía la luz y pongo el buscapolo prendía todo (las 2 fases) ¿la puta qué paso acá? No sé saqué todo de vuelta y dejé como estaba nada más.
+Alumno2: En todos tus tomacorriente pasaba eso?
+Alumno: No. Ahora voy a explicar (cuando vuelva el profe).
+Ayudante: Este sería tu principal de acá viene tu principal, de acá viene tu principal que va directo a tu ducha, vos tenes una térmica en el medio acá, más en el medio a la fase unipolar. Vos tenes una termomagnética acá para tu ducha acá?
+Alumno: No.
+Ayudante: Como que no?
+Profesor: El saca de la fase y hace todo.
+Alumno: Cerca de la ducha había uno de 20 no más que me pusieron cerca de la ducha.
+Alumno2: Pero vos sacaste?
+Alumno: Sí, saqué porque sacamos la ducha eléctrica pusimos el termotanque que calienta agua. De la fase sacale un cablecito para acá ahí puse la térmica unipolar de 25 amper. Abajo ponele cocina y al costado habitación del mismo neutro yo le traje al otro cable para acompañar en donde está la llave de 25 amper. Después yo cortaba la llave y no tenía luz en la cocina ni en la pieza pero tenía en la ducha porque iba directo. 
+Profesor: Va la linea allá mirá, vos tomaste de la ducha tomaste la alimentación acá.
+Alumno: Ahora la ducha eléctrica ya no tengo más. Bueno ponele que ahora cambias todo y pones los 3 artefactos allá: térmica, disyuntor y una térmica de 20 amper. Allá al lado de la F y la N. 
+Alumno3: Y eso de donde venía del medidor?
+Alumno: Del medidor sí por afuera de la casa.
+
+\* Llega preceptora hora 01:09
+
+Ayudante: General, disyuntor y 1 sóla térmica?
+Alumno: Sí. Entonces yo esta fase que venía porque esta va directo siempre esta puse en el principal que es fase y el neutro acá, acá sería el disyuntor tatata y de acá sale acá y acá: cocina y la pieza y levanté todas las llaves y prendía las 2... No sé que estaba mal.
+Ayudante: Pero vos saliste de un borner a la pieza y el otro borner a la cocina?
+Alumno: No, de la misma conexión yo calculé porque esto iba directo a la ducha y el neutro y la fase o sea no sé que puede estar mal.
+##### Profesor: Te vamos a dar el probador de tensión tenés que probar que es lo que está llegando ahí a tu tomacorriente.
+Alumno: No prendía el foco.
+Profesor: Ah vos tenías un portalámparas?
+Alumno: Sí.
+Profesor: Entonces vos tenes que ir recorriendo el circuito. Vos lo que tenes que hacer es fácil: vos tenes que alimentar acá alimentar el otro de este va a tu pero ¿tu disyuntor acá adonde pusiste?, va al disyuntor primero?
+Alumno: Arriba.
+Profesor: Hace todo este recorrido entonces y ahí sale, y ahí va arriba de vuelta acá. De acá sale, todo eso que está ahí es fase entonces te voy a dar un probador me interesa ver el tema de la tensión que es lo que está faltando ahí porque puede ser que vos tengas un retorno ahí en tu tomacorriente pero quiero saber cuánto tenes de tensión ahí.
+Alumna: Pero ahí como siguen los circuitos?
+Ayudante: Y acá salen fase y neutro a la cocina y fase y neutro a la pieza así es como tiene ser.
+Alumno2: No, pero fase y neutro desde el medidor va directo a la ducha eléctrica. Es como que protegió no más las habitaciones las duchas.
+Ayudante: Pero este cable después el troncal que fue hasta la ducha vos retiraste todo ese trecho de cable?
+Alumno: No, está con un enchufe.
+Alumno2: El empalmó el usó de línea seccional.
+Ayudante: Sí ya sé, pero yo te digo en el extremo acá vos pusiste un enchufe?
+Alumno: Sí, que toma la lista la preceptora.
+
+\* Preceptora toma lista (01:11)
+
+Alumna: Y ahí no cierra el circuito?
+Ayudante: Lo que puede pasar es que acá en donde vos pusiste un enchufe se pudo haber desligado y justamente en este punto final es donde está retornando todos tus circuitos, eso es lo que puede llegar a pasar.
+Profesor: No, hoy si está cortado la ducha no me interesa.
+Alumno: Claro, ese no funciona.
+Profesor: Es aparte porque vos ya pusiste el enchufe ese con la resistencia, de la ducha a un termotanque. Si vos venís acá, para mi el error si vos alimentaste bien acá o sea esto vendría acá directamente y tomo la alimentación acá, esto viene acá.
+Alumno: Claro.
+Profesor: Entonces, si vos tenes una lámpara o tenes algún equipo: te daremos el probador de tensión que indicará 220 lo que sea vos tenes que ir revisando en el tablero (toda las térmicas) probablemente uno de los equipos acá te está seccionando el neutro, uno de los equipos que está acá.
+##### Alumno: Y puede ser que si el disyuntor no anda, no pase neutro?
+Profesor: Puede ser que uno de los polos te está indicando neutro.
+Ayudante: Esto suelen venir fallados algunos o ya con el tiempo  en el desgaste de tanto que se dispararon una de las fallas que te pasa vos levantas puede pasar la fase o fase neutro y el otro no pasa.
+Alumno: Y el disyuntor por mas que no esté conectado y vos le apretas el boton de test tiene que saltar?
+Profesor: Sí.
+Alumno2: Entonces no está cumpliendo su función.
+Profesor: Acá está tu problema vos tenes que seguir el circuito acá lleva un probador de tensión.
+Alumno: Y por qué tenía 2 fases?
+Ayudante: No es que tenes 2 fases, está entrando solo la fase y por todo el circuito está dando la vuelta.
+Ayudante: El problema tiene que estar acá si esto que no existe (la ducha) acá está tu problema. Todos los equipos que vos pusiste son nuevos o algunos están reutilizados?
+Alumno: No el disyuntor es del depósito.
+Profesor: Te vamos a dar un probador de tensión y te voy a dar así como está y tomas vos la continuidad.
+Alumno: Pero yo desconecté todo si no andaba tuve que poner como estaba de vuelta si iba a quedar sin luz.
+Ayudante: Entonces agarrá el disyuntor solamente en continuidad y probale arriba y abajo un polo arriba y un polo abajo, levantalo y fijate si pasa la corriente porque de última si no dispara puede seguir pasando la corriente pero si ya no pasa te está inyectando solamente la fase a tu circuito y el neutro no está pasando, por eso es que a vos te está retornando.
+Alumna: Puede mostrar ahí como marcaría en nuestro disyuntor del tablero de prueba. Como mediría?
+
+\* El profesor conecta el tablero PC del aula.
+
+Profesor: Te está faltando el neutro pero está ahí el problema. El probador de tensión de lámpara y vamos a probarlo.
+Alumno3: Queres llevar mi lámpara?
+Alumno4: Pero ese tablero no tiene la bornera aprobada.
+Profesor: Y bueno meté el dedo no más, entonces ahí vas a saber. Ese es el probador de tensión (lo usa para probarlo en las térmicas)
+Ayudante: Si tu neutro se corta no vas a tener 220.
+Profesor: Si no está conectado tenes que medir continuidad con el tester.
+
+\* Miden continuidad con el tester del interruptor.
+
+Profesor: De última trae acá y vamos a ver qué pasa.
+Alumno: Yo pensé que era porque mi fase iba al baño y por eso no funcionaba.
+Ayudante: Si vos seguiste toda la normativa los problemas suelen ser estos. No vas a ser el 1ero ni el último al que le falla un disyuntor.
+
+Profesor: Cuéntenme algo sobre tablero. Parece que se olvidaron todo, había una parte, tampoco no miraron el video. Acuérdense que el video de Genrod decía los tableros la característica.
+Alumna: Y si miramos acá profe.
+Ayudante: Nosotros miramos un catálogo, luego hay un video en el grupo que seguramente nadie miró.
+
+# Tableros conceptos
+
+###### Profesor: Sí, de la parte que dice tablero y da las característica de acuerdo a las normas, que no tiene que estar en lugar húmedo tiene que estar en un lugar que tenga luz propia, tiene que tener 1 metro para poder trabajar tranquilo, que no tiene que haber un escalón, altura 1,70 metros no tiene que estar dentro de un mueble, no se puede usar como caja de paso, no puede haber empalmes, no tiene que estar cerca de instalaciones de agua o gas. Se alimenta por arriba. Una cosa importante para la gente que hace tableros: la alimentación principal tiene que estar exclusivamente en un sector y la salida por otro sector, eso explicamos que en caso como son salidas los circuitos, esos circuitos pueden tener un problema de cortocircuito se funde el cable, y me funde la alimentación entonces se trata de que en un lado yo tenga la alimentación y por otro lado tenga la salida, sobre todo en tableros grandes. Qué conductor va arriba la sección del conductor, siempre el conductor de arriba tiene que ser mayor que el conductor de salida.
+
+
+Acuérdense que esa hoja que indica donde colocar los tableros de acuerdo a la altura que tiene eso viene por reglamento.
+Ayudante: Y se calcula por la altura del tablero.
+Profesor: Entonces eso está reglamentado a qué distancia tiene que ir pero dado un intervalo entre 0 y pico a tanto a 1,50 a tanto.
+Alumna: Tiene que haber 1 tablero seccional por cada piso.
+Profesor: Exacto. Quién da más datos? 
+Alumno: No se puede usar como caja de paso, no puede haber empalmes.
+Alumno2: No puede estar cerca de instalaciones de agua o gas.
+Profesor: Sí.
+Alumna: Se alimenta por arriba.
+Profesor: Las térmicas si perfecto.
+Alumna: Que hay excepciones cuando hay un cable subterráneo puedo cambiar la ubicación de las térmicas si tengo un cable subterráneo y es difícil de empalmar puedo empezar de abajo para arriba, una cosa así.
+Profesor: Sí, una cosa importante para la gente que hace tableros: la alimentación principal tiene que estar exclusivamente en un sector y la salida por otro sector, eso explicamos que en caso como son salidas los circuitos, esos circuitos pueden tener un problema de cortocircuito se funde el cable, y me funde la alimentación entonces se trata de que en un lado yo tenga la alimentación y por otro lado tenga la salida, sobre todo en tableros grandes
+Alumno3: Cuando son de PVC hay que ponerle algo para que no se deforme.
+Ayudante: Ya sea de PVC o de metal vos tenes que justamente poner una cruceta para evitar que cuando vos coloques el tablero embutido en la pared la mezcla cuando se expanda no te deforme el tablero.
+
+Algo más?
+
+Alumna: Qué siempre va una térmica al lado.
+
+---
+
+Hora 01:21:19
+
+Preceptora: Disculpe profe habla del tema del taller del termotanque.
+
+No sé si se dará clase.
+
+Vamos a intervenir ahí, va seguridad e higiene viene fundación y hay un termotanque solar ese está ahí todo en vuelto.
+
+Alumna: Coincide con nuestro horario de clase?
+Preceptora: Claro, pero se contempla.
+Alumno: Vienen acá sería?
+Ayudante: Sí.
+Profesor: Sí, vienen de Buenos Aires y interesante.
+Alumno2: Hay que ir allá?
+Preceptora: El que me confirma yo ya les voy marcando acá, el que quiere hacer. Yo digo el nombre y ustedes me dicen si o no.
+
+\* Nombra a cada alumno si quiere o no hacerlo.
+
+Profesor: Hay un curso de seguridad e higiene y después está el del termotanque que está ahí desarmado solar.
+Alumna: Sería miércoles, jueves y viernes.
+Alumno: No. Lunes, martes y miércoles: lunes 15, martes 16 y miércoles 17.
+Profesor: El va a preparar todo después.
+Alumno: Ramirez estoy en duda, le confirmo después.
+
+Profesor: A mi lo que más me interesa es el tema este del termotanque solar, está muy de moda el tema, a mi me interesa el circuito y todos los componentes está todo desarmado así que alguien lo armará, yo por las dudas dejo que si viene la gente de allá que ellos sean los responsables si falta un tornillo y todo que armen tranquilamente.
+Ayudante: Es mejor que el que no tiene absoluto conocimiento mejor si no toca, más si viene otro a tocar después.
+Alumna: Iprodra no está colocando eso?
+Profesor: En algunos lugares, probablemente ese equipo una vez que den la pauta de como se coloca como se instala, será colocado en el satélite que está en Itaembé Guazú entonces ahí vamos a ir viendo como funciona pero acuérdense que hay temporada eso tiene tipo una batería pero hay temporadas que no hay mucho sol.
+Ayudante: Eso debe tener algún sistema de alimentación secundaria que viene de la red y ahí eso es lo interesante de mirar.
+Alumno:Eso debe tener algún sistema de alimentación secundaria que viene de la red y ahí eso es lo interesante de mirar.
+Alumno: Eso están carísimos ahora? 
+Profesor: Sí, en principio ahora que hay mucha demanda bajo los precios (??? cuando hay más demanda suben los precios).
+
+###### Lo interesante es ver como se instala tiene un soporte que va ubicado a tal nivel de luz que es lo que me interesa a mi y después como hace todo el sistema en algunos casos se acopla también al termotanque eléctrico, probablemente algún día tengo lugares para traer una pantalla solar más o menos 500 amper. El tema es que puse en otra escuela y esa escuela ya llegó la energía convencional.
+Ayudante: Yo conseguí uno en Patio Solar allá de costobi ¿?
+Alumna: Es interesante si combinas el termotanque solar con el termotanque eléctrico trabaja menos el eléctrico porque no está arracando cada vez porque el agua ya viene caliente.
+Ayudante: Hay que ver bien como funciona.
+##### Profesor: Me interesa ver el tema de los circuitos de agua como va.
+Ayudante: Yo quiero saber como se alimenta el circuito de agua y ver bien como es el sistema de una alimentación secundaria porque eso teóricamente funciona con sol pero cuando está nublado no vas a tener mucha carga entonces quiero ver como retiene y si tiene un sistema de alimentación secundario que viene de la red.
+Profesor: Todo sistema en ese caso tendría que tener una batería en algún lado (en realidad tiene 220 creo).
+Ayudante: Debería pero.
+Profesor: Eso es lo que quiero ver porque ahí está todo envuelto así que...
+Ayudante: Hasta hoy no se encontró una forma de que una casa se sustente solo con paneles solares por eso el panel solar es un respaldo. Probablemente almacenan en una batería que igual no dura mucho y vos tengas como energía de emergencia.
+Alumno: Los paneles sociales no generan el 100% de la energía que reciben creo que solo un 14%.
+Ayudante: Depende de como esté hecho el circuito de tu panel. Entre más grande más lúmenes absorve y después eso se convierte en la energía por el sistema de la placa electrónica. 
+
+Alumna: Yo le quiero preguntar usted trabaja con los **chicos en la secundaria hicieron ese experimiento de con imanes bujías y un portalámparas generar electricidad**?
+Profesor: Eso se hizo en la escuela industrial.
+Alumna: funcionó?
+Profesor: Y algo hice después no sé porque cuando ellos hicieron los talleres ahí ya no.
+
+Alumna: A mi me gustaría probar eso tengo iman tengo bujía.
+Profesor: El tema es así para que vos entiendas son fenómenos fisicos que se producen solos. Entonces cualquier método te sirve hasta método químico como generar continuidad se hace.
+
+
+Alumna: Si pones con sal, agua sal.
+Profesor: Sí, los electrones van por un lado y otro. Te puedo conseguir información para eso pero que vos hagas no puedo hacer acá porque acá vos estás trabajando no con los fenómenos sino con la electricidad que ya está funcionando. Acá lo ideal es que vos te centres en lo que hicimos en el trabajo.
+
+Alumna: Es un experimento para mi nada más.
+###### Profesor: Yo cuando entré al ministerio era el encargado de desarrollar todos los fenómenos físicos pero recibíamos elementos de Buenos Aires y un libro así en el cual tenía que explicar primero el docente como se hace para que ellos... Después se cortó eso. Como todos los cursos a fin de año cambian de política de administración pero era interesante hicimos escuelas con laboratorio entegamos cantidad de herramientas hoy en día herramientas importantes: taladros, amoladora desaparecieron... Entonces eso te da bronca en el sentido que hay gente que todo lo que llega a la escuela hace uso propio. Más los directivos una época mandaron a la escuela cámaras para que se filmen en clase los procedimientos y todo y tengan algo... Llevaron, entonces te da bronca que es para los alumnos ellos se apropian hasta las computadoras. O sea no hay control y todos los docentes creen que es en vez de hacerlo para los alumnos se apropian.
+
+Alumna: Otra pregunta le puedo hacer para un trabajo tengo un patio quiero colocar las guirnaldas esas que ya vienen armadas con los foquitos el negro que viene con todos los foquitos me interesa colocar la alimentación una fotocélula, tengo que hacer una fotocélula con un interruptor o le hago el de 2 interruptores, va en un patio. 
+Profesor: Y depende de como vos quieras trabajar si te falla la fotocélula yo haría como hicimos la vez pasada utilizar la llave combinada meto la fotocélula pero vamos a hacer fácil trabaja primero con un interruptor entonces vos iluminás le das energía ala fotocélula y recién ahí ilumina, la automatización te la da la fotocélula, no hagas esto porque es exclusivamente para exteriores pero capaz que vos necesites internamente trabajarlo, supongamos que tu fotocélula falla, (puede fallar porque entró agua) y depende de donde lo ubicas para eso era el otro sistema.
+
+Alumna: Pero eso va antes que la fotocélula?
+Profesor: Vamos a hacer eso, vamos a hacer ese ejercicio pero lo que te quiero decir, si queres constantemente porque hay veces que: supongamos que vos tenes un patio y tenes esas guirnaldas que va acá y recorre todo el patio ilumina todo el patio y la idea vos decis para que voy a prender si gasta energía de valde si no estoy afuera o no viene visita  no viene nada, entonces para que prendo esto en algún lado tengo que tener un elemento que me corte la línea ahí, entonces puedo utilizar el interruptor de encendido para la fotocélula 
+Profesor: Vamos a hacer eso, vamos a hacer ese ejercicio pero lo que te quiero decir, si queres constantemente porque hay veces que: supongamos que vos tenes un patio y tenes esas guirnaldas que va acá y recorre todo el patio ilumina todo el patio y la idea vos decis para que voy a prender si gasta energía de valde si no estoy afuera o no viene visita  no viene nada, entonces para que prendo esto en algún lado tengo que tener un elemento que me corte la línea ahí, entonces puedo utilizar el interruptor de encendido para la fotocélula **ahí no me conviene usar la llave combinada porque una era automática para trabajar sola y la otra encendido normal**. 
+
+Alumna: Lo que pasa es que esto está en un espacio en donde hay varias viviendas entonces no se puede especular con que este trabaja llega a tal hora, este trabaja llega a tal hora, tiene que estar prendida, baja la luz del sol tiene que prenderse. 
+Alumno: Cuántos metros más o menos?
+Alumna: La guirnalda tiene 10 metros.
+Profesor: Y bueno y si no anda directamente le pones el otro sistema que hicimos la otra vez para que vos pruebes el otro sistema, en caso de que no funciona lo podes encender directamente. **Después vemos eso porque ahora le dí el detector de movimiento para hacer un trabajo con el detector de movimiento o sea hacer todo el circuito** que vean y ahí uno puso más chiquito todavía pero lo hacen por lámparas entonces uno va aal pasillo va prendiendo las luces temporizado después se apaga.
+
+
+Alumno2: Compra todo y hacemos acá.
+Alumna: Como dice el alumno puedo comprar fotocélula un enchufe que tenga tapita porque va a estar en el exterior y que compro doble comando ?
+Profesor: Una llave combinada esas cosas. Eso vamos a hacer.
+
+###### Alumno3: Los conectores que usan cable estanco se pueden usar con cables mortaleros o solo con protección ¿? (Ruido).
+Profesor: Conectores estanco? Vos tenes que presentar el cable con dientes así para preensamblado después tenes otro que son simples, y otro que... Todo lo que vos puedas **el cable tipo taller solo se usa para prolongación**, depende de como vos coloques hoy en día por la economía el tema de las bandejas como colocar. Entonces ponemos el intento siempre y cuando ¿? ¿? Ruido ruido.
+
+Alumno: Cualquier duda al grupo sobre el trabajo práctico que creo el ayudante.
+###### Ayudante: Sí, y yo responderé particularmente a cada uno porque esta vez hice lo mismo con el anterior no le tracé la cañería para que ustedes también razonen la mejor distribución posible.
+La térmica vale 20 mil pesos.
+###### Qué hacer en el trabajo práctico: Ahí en el trabajo tienen que trazar la cañería calcular la cañería y las térmicas, así vemos si retuvieron que térmicas se usa pero fui muy bueno porque no les puse ducha, no les puse termotanque no les puse circuitos especiales, solamente toma e iluminación.
+
+Profesor: Siempre depende del arquitecto y a veces no quiere entonces todo ese problema...
+
+Lo único que falta es que pierda la tapa.
+Alumno: Mañana voy a traer mis térmicas entonces.
+Profesor: Yo voy a ver si hoy me siento con ganas hoy le haré un resumen de todas las partes que me interesa que ustedes sepan de tableros, me faltó ver el tema de **qué conductor va arriba la sección del conductor, siempre el conductor de arriba tiene que ser mayor que el conductor de salida**.
+Todavía no solucionamos el tema de las chicas le daremos algo para que practiquen y vean como solucionar el tema de la casa de ellos, tiene el mismo sistema que vos, ahí demostró que tenía neutro y la fase con energía, entonces tenemos que ver por qué. 
+
+---
+
+FIN

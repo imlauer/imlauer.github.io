@@ -1,0 +1,30 @@
+---
+title: "Electricidad / Clase 61: Terminamos la canalizacion (reemplazamos caño del toma con varias curvas) y realizamos el cableado del aula."
+date: 2025-09-02T02:02:46-03:00
+tags: [electricidad]
+---
+
+#### Audio en Vocaroo:
+
+https://vocaroo.com/11fkACoCxLik
+
+#### Audio en Archive:
+
+https://archive.org/details/record-240
+
+#### Audio en YouTube:
+
+https://www.youtube.com/watch?v=cCzjT9zqabM
+
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6CmTozb6VfbFaBu_2fz6ZwNuDQ2jnTaWdjnAv-U8CyzlSBAsAHwISH_So0RTGNKz_j1OxmzD5kSrSIN0gTfyYgcBVPR0gQfL-TqLqgW1jdas3Mite7pLV5BGZACWz_xM22OFMOMjRvKJqHj0tIzHDPpcAvXjqWf34Hh1-P3-5zpzVUbWRRYORRN0cChE/s4160/IMG-20250901-WA0000.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU0a-lej0rM1qPTkDySNuVd3ofIVvVGWXa7ZDnbWanqThyphenhyphenMv-aVBkZlS1JCaCvjyebzcmKykBOevN6HIjsa3ZqXHFpuH0_-ZxBMtw6xERdzZvkdO71uAYbx_IpKggvaK4pWrMDE1qtJhscO8fKV2D7aV70_GcQmMIGE_FCIdSAdKqMFvyg9iTEWpEwaIc/s4160/IMG-20250901-WA0001.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCoK9IqUAhaoUfyfxBCX7TtAHqFerHERPtHxDz7MrktBy7AJnCOVp0OZ0ZFsl3B3BMPA6hDfZxlSzwzVJd1zswteeDlrPZrMgp14q7SZjDELG0s7nXiMm5ZkvWgLAg1-joDb2znRfhFTCvK3SBFF0E9bYzzjoKfkoAXHv6Pdiv0gPYRfWaXel7fidyx9Y/s4160/IMG-20250901-WA0002.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2-yTV7ZPoL4O18lQie6TmBfdalRbxcsntUnADi8iHZG6FdZYD8uhfTp7RK-5hFtLblt5SLyYewOCAILoyf8216bZAVQrvI-5kqqqpHidSRRQkXIykmu1aqtvD7Ye1c3hyGSrt6IM_nB8fZzWiQk5uQGZtqdJiWXkIvhwXB35vjFUQNzpuwfgaU9zORf0/s4160/IMG_20250901_193132596.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8ehcImi1O__XslXRvgpuJJavFq2wECqFwiADxIR5Pxb_8NvJtAakkKBTNl7HPErVDhf8RBjRnZGNtzBZEQO0AqKDq4mJ7SZQSGVRnmv_Hqhhy4D476GmRrv8RjrRokY4hLhPLhhlVqW8JPYwxwjcw73nkTmDoV3WSCI67GWy3WU-7QGePew4_M94HE38/s4160/IMG_20250901_193218141.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw5gqQmsSwlJUh-9dwSo_ncf32vk6eqOKWwRg9FrVVreem5a1i82Ns7wPn-izpFmclgFAC0zmW4eRBrKvyc52Sx8s54Pez-_d2BKtdo0yQ2ZiC4gMNSYBvr6LudZdqikMpsBe2Z8DDrfNAyn9KDWNTqmR6X6eC_f9KwnmfUCidnT1FfRIQfeWfP597ow4/s4160/IMG_20250901_193348823.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihTGWIDQlp29bLnPecVaGywDVCBLlKc2rN8vfhzJRg40liASZIQd0KHvzrEjxUWG0hersWhlu7zZiMYFH34Bai4NURNVHQMCRNru5G3CPNnnDXeFV9bswNjfbX7KY_HlG-WvwNEeE5O0L7BipzZXkaPz8QuLYLDwIrDUYmWmO6J_9N6PRiuspw4HAIDCg/s4160/IMG_20250901_193915632.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCxAOvlPMR9FOpVKnscMIWw3InVtZkw5U8I-vKPPB4qCeM75ztgchceZ1izy7H6e9rkXVqn3h7jhqmiHASLBLx4dswLJEa_Ga-xlWraUiBBvrtSCuy9BVBi1GHVYITrmE0J_FPv57vBZcdpH4kf7tgyNyRgn18SLHdAu0T3cjMxGAdek64ak2DP06dAv8/s4160/IMG_20250901_194622933.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiKOUK95lPmWnjZrrpWe8e-v43oVTQIWfsJoLKT9V0_R5e52Vvc8xzSbGJxfX5ymDMMtA0ksxa_xDKEZinUq7OuNyfgSG_mjIJ6f3ewko35uWYzursyDBAZgjxkxAdeZM_pfmG-otx_jwxa_KoGnk2PkYJ4LKxemKXxVF2mBWd8hrD2TI-KzT7z8Puo_w/s4160/IMG_20250901_200752697_BURST000_COVER_TOP.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjTTq7b8JK2VM1GMB5ilab_0lenQZpG6zkX1FEdgK0_KzGey4-mjKExPmVlMj1-jaHYA4FnUmMyo4Ric66pc_tayCilztCY2HoOUj7lNWBfCpVoMuzSsUjgOAB4nEPJtBzZG3Bfbv-K8NPYAvebw6dD6UkUY5wMyVtyMcYQ61oT9iGMED8-gpNmx9jG7Q/s4160/IMG_20250901_200815219.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSkSOvm-6B0OmLsTrO__toYtr65BMTFTL2PrCXPg3iKfw2RLM6l7MXt5KanZdVL2LVRMjuja_XtN1eeuvuz32IWmGhdW_bSaHTQfSbQByjOvidqJ91_9mCOlIQ9_-WCQd1MR7k6u3aSjdBvstbOIZEGp9Ev0nNKUYhd8Q1fdOrEgcXYyDMH2Uv5ghhhqU/s4160/IMG_20250901_202552282.jpg)

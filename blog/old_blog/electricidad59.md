@@ -1,0 +1,28 @@
+---
+title: "Electricidad / Clase 59: Otro repaso de teoria de tableros. Simbolos ID y ITM"
+date: 2025-08-26T01:42:28-03:00
+tags: [electricidad]
+---
+
+#### Audio en Vocaroo:
+
+https://vocaroo.com/1lJzg52PKkri
+
+#### Audio en Archive:
+
+https://archive.org/details/record-232
+
+#### Audio en YouTube: 
+
+https://www.youtube.com/watch?v=EOYGy4YI40E
+
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2nhX7NeD3-DcA3qaLElh_boYh6cseqm8Ja_QkfMyusHSf9F7w1_dgvQSsu_4h74MWnG5mumJN9jlvaHTg3eKQF8bMCQVBdSauka-VFZFbt39Ztjp_wsZyLNzsKxYSmuG4JXkhMqewMg0T0T03LJVJkQt-Q46KWSRTOBUuxSPVkTdtHrlzSfBRsIxexT4/s4160/IMG_20250825_182725609.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLKeJZCWt6SlIWVQPCY9Mnp8ayTt_kcGbtVpAEYAxq_80ZxA_LulDa0AoPaTQheXyWkSeU_CT2TiBPfqgI98ZgqyUO75ZVKmaxIdl6wPYfaAtDzT1bgD_-JoCBplNsRcv80KOqcQqqzsWueD_nyY9R281ebeLKpHruzBypyBR43QKGF_EIr9z8Y4VVaT0/s4160/IMG_20250825_191555435_HDR.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_cRg5OE8pXxyVF6KjoGV0ojVb9AoCcylJhYMfNIf-beo0FLMZYIEe-ZoqG0X93_0n0tyGa0WpcPPAAkEbUv_s0vW95CdUQgPTCCNM2bAupHeSu4g6ZWwTlGNW9b72C8bEOaojRasaLIBG-wjcr4WWBRidJi1FvthFEvGcDPUtzLStws2CuokjnssIGgU/s4160/IMG_20250825_201835352.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZwn99oyghuOkShjzDPww0OAXUzgUBM9IJgddCagc9jtp7yOGdHKmEOXGHi93w5V6SJnN1FyukY_xnRRMMcNHn4WO2dlXkSvKh8xjJ91ZGStyURJcnpLokZepe8MqQS37QezHfNK-IoUVL3qn4ZV4pCJ7NCKLO7jvCPsr3hq2uHMfKEyebhKy-0pDIii4/s4160/IMG_20250825_201849785.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZtEduc_ttu29ZbEunkXUkelNjHFM9M2uMc1p0gKgquBqoLSDF5weIZrLV4o0tySmfaGCA67eFq6ee8CmNSebAQMgwwpO6zj-Fz2Ga8N0bPYXZ1Ez3m4j8m-T4JSpygMh6y3f1uUG_ipDHWZ4bRXIxYS045f3xaJVAxM1cb6B2n4Owhsx3Y5KSB1dUX2c/s4160/IMG_20250825_201858656.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivDCYZaO4qmyMAcGHHfrM4W-4aB2Bh_B3fC_O52xOixvzPhmphfyAR4DiXpL2LvPya4TBXmrwmpawhWcrxFEmNNuLiWsW_OYIDMV_bhrpzT8uKGO2U9TmIYxRAZquEE6wkFtyL4tFrO5UeJbb-finnI_0BZjRz1TwWDCBm1K2jiTSYkY1qSE9NdPoknik/s4160/IMG_20250825_201900512.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgpjCHt0HMGQ_7SezMPxfi1bVfAzGa27PQYC08SwgKqS9k4rz6pS_6T3F5KVPrbJw-F8Uo0koFczDFSbE3Oi3-BgOw8l24LuhzSsePhyphenhyphen9jomv_HjNWu_qlc4zDSw1E7LTp9GlI192CzHH-zQtZK7lqcRx7g_11iAyky6ZmLJH7R05ZABiIbKuzaiBqETg/s4160/IMG_20250825_201916246.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMoGkGDhnppKN8RixQmUIkuLKyFV_Jjom1_flPU5s-NP3I3AOCYHYy5Em4x6u1-9XE-Zv_8U76HLZEMUU7eWsSf2SdoEVvGPKFDPThcV2dg8wsPuuPtLKSGKcoLz5lQmhWHdeoZyVNAHYpIdmd11Ss2JjsJbjgOLISMarc_CDGl-vhyCInKR6Cvkm2M5Y/s4160/tablero.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5pmO8CjowcrVLq-WXDeLrbBWBQpsENk6i5aAT4QLsqEm8sfnyHAUnZrc90dgNMgjTB4q2pDM5AMprCm9VD2FY8cX34WAvlBfaGhIwtfg58g7unPFkcNYa2fk9N1aQIf9n_6hZCsMUa91qO3gEQNfDX5KrbchXd8kGknH5vI05SGydUrwmOKCJzSK0mmk/s4160/11b00746-5aa5-437b-b5c2-ec9838673b69.png)

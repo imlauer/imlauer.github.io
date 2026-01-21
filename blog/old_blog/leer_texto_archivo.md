@@ -1,0 +1,117 @@
+---
+title: "Cargar texto de un archivo en un buffer en C"
+date: 2025-02-15T22:04:37-03:00
+tags: ['c']
+---
+
+La mayoría de las veces cuando lees que usan la función feof está mal. En mi experiencia se vió que es muy fácil de llamarla al tiempo incorrecto y procesar algo dos veces creyendo que EOF no fue alcanzado.
+
+
+
+int c;
+while (( c = getchar()) != EOF){
+}
+
+int c;
+while (( c = getc(fp)) != EOF){
+}
+
+
+Intentá evitar usar char para el tipo c. getchar retorna el siguiente caracter casteado a un unsigned char y luego a un int. Esto significa que en la mayoría de las plataformas 'sanas' el valor de EOF y valores válidos char en 'c' no sobreescriben así que nunca accidentalmente detectarás EOF como un caracter 'normal'.
+
+
+ESTAS RESPUESTAS USAN FEOF QUE PARA MI NO SON NECESARIAS.
+
+
+How you detect EOF depends on what you're using to read the stream:
+
+function                  result on EOF or error
+--------                  ----------------------
+fgets()                   NULL
+fscanf()                  number of succesful conversions
+                            less than expected
+fgetc()                   EOF
+fread()                   number of elements read
+                            less than expected
+
+Check the result of the input call for the appropriate condition above, then call
+feof() to determine if the result was due to hitting EOF or some other error.
+
+Using fgets():
+
+ char buffer[BUFFER_SIZE];
+ while (fgets(buffer, sizeof buffer, stream) != NULL)
+ {
+   // process buffer
+ }
+ if (feof(stream))
+ {
+   // hit end of file
+ }
+ else
+ {
+   // some other error interrupted the read
+ }
+
+Using fscanf():
+
+char buffer[BUFFER_SIZE];
+while (fscanf(stream, "%s", buffer) == 1) // expect 1 successful conversion
+{
+  // process buffer
+}
+if (feof(stream))
+{
+  // hit end of file
+}
+else
+{
+  // some other error interrupted the read
+}
+
+Using fgetc():
+
+int c;
+while ((c = fgetc(stream)) != EOF)
+{
+  // process c
+}
+if (feof(stream))
+{
+  // hit end of file
+}
+else
+{
+  // some other error interrupted the read
+}
+
+Using fread():
+
+char buffer[BUFFER_SIZE];
+while (fread(buffer, sizeof buffer, 1, stream) == 1) // expecting 1
+                                                     // element of size
+                                                     // BUFFER_SIZE
+{
+   // process buffer
+}
+if (feof(stream))
+{
+  // hit end of file
+}
+else
+{
+  // some other error interrupted read
+}
+
+Note that the form is the same for all of them: check the result of the read
+operation; if it failed, then check for EOF. You'll see a lot of examples like:
+
+while(!feof(stream))
+{
+  fscanf(stream, "%s", buffer);
+  ...
+}
+
+This form doesn't work the way people think it does, because feof() won't return
+true until after you've attempted to read past the end of the file. As a result, the
+loop executes one time too many, which may or may not cause you some grief.

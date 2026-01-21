@@ -1,0 +1,533 @@
+---
+title: "Electricidad / Clase 40: [FOTOCOPIA] Teoría de Fotocelula (La clase siguiente hicimos práctica). Fotocontrol. Fotocélula siempre mirando al norte. Vidrio 3+3. RCP. Accidentes eléctricos. Fotocélula con 2,3 y 4 cables. Hay un alumno que alquila todo desde departamentos, escaleras, andamio, trompito, herramienta de todo tipo, refrigración, proyectores hasta cascada de chocolate, antes se dedicaba a arreglar celulares. Espeche mira todos los partidos con proyector con Magis. Explican como usar un proyector con parlante bluetooth. Espeche ayudó a su amigo que vivía en Buenos Aires y su hija rompió el tomacorriente conectando un secador de pelo y estirando del tomacorriente. Para el correcto funcionamiento del fotocontrol es recomendable colocar siempre el mismo por encima de la altura de la lámpara de modo tal de no ser alcanzado el sensor por la luz que emite la misma, caso contrario se producirá una realimentación en el circuito generando que el dispositivo funcione de una forma intermitente. El ayudante dice que no se puede probar una fotocélula con continuidad que hay que usar 220 (creo que ese equivoca). Profesor criticó al alumno porque trabajó encima de una escalera de espaldas. Espeche comenta como trabajar con distintos tipos de escaleras. Lo ideal es abrazar a la escalera nunca trabajar de espaldas. Poner un taco para que no se deslice escalera. Los albañiles se suben 4 o 5 andamios sin nada."
+date: 2025-06-25T06:39:43-03:00
+tags: [electricidad]
+---
+
+#### Audio en Vocaroo:
+
+https://vocaroo.com/18HLAUVPLg8z
+
+#### Audio en Archive:
+
+https://archive.org/details/record-163 
+
+#### Audio en YouTube: 
+
+https://www.youtube.com/embed/rlEo1O3fvr4
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4aEO8MLad6EgXPe7UVLGMWsBsdaNPmFFc-7xy1Diqi8sxGhy9qIA4ALEjK5oa1FVUhyiaQRAfplMbXsH2GMn5PzEH4ExUTBbHiNFzxxsIU8UmZ_VI-iRQYQKoBglODd7U1BOTIvrngmp1Qp0GVuuijrb3ygQtLM8QnJ-PiaQLIw1l7_4NfDIsT-wO68c/s4160/IMG_20250623_192219656.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivhfdQgaBAH1XKFXvJH04pluBbqVgGxFZ_cJlDPW7tgPtB3SQZo2nugV5H1445YqvyGxCYgjlq1L1FmH7zTu78dRw25TUtQ5gCSUTBBrc3wOsBthk_NLMoUBU222TFiDg1_uZ7CCBIboSFpiheNvAUudD5oUSgxkn-uFhe1ZEh-Pet71YUWSRiXpKJMXk/s4160/IMG_20250623_192224339.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihK4fU4IGObu98bHpgPp6gVmbbjYP9a3m4Fx88oSyLNCLmbt8rU-5phD8pmn36bZAJFp1hFVnzlBMXYMJJn4NU2zWs-t8J90DEI4kXrDuKJZLmeboULO-6AwI1vtYrZOHSiHzX5GwYg-gb8i-YbaBrMnT3CuMs8UkdX61C-Do6zV5iDNFhQJV0Ofrp2sg/s4160/IMG_20250623_192736256.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeSdWpCYqioLp5LpZQaTOqWYEcMkw5sumhupGOJ8EENvee8o50avXVQbo7impDwAm7BM8xW2bUeoB0Ac1wO6Q9MxcurCih1zsK4ce82upkZHD8zJQxxbTq0LgIlisy8XUWjlHp1v3cnLK9BdZqBNZ2vTwWRs14ALOT0GFp31ilpYrUdMy8QsBJHn8J1kU/s4160/IMG_20250623_194537675.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcCY9GXPA8Uy0VS1j01mDRGMapdyV8ojmEmPbX6eM-o6mZeIAVqSDYpxQaRIeETWg4FvosU_zhNeTKhqQX0hznqMS7Nvu9rlx2_bWHq4GRNdNUGiZXaS0fpI1TgK3bhMquQYBnWlQwaSrM6k6oQ35WzYZtiptn0ji1WA7QmVpNQ8_GDQ2vW5MR4tu-6c4/s4160/IMG_20250623_194541686.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHFV-vm6bZ2jdL533twF3bz_wUnDIgrpbS_nSLoybs6umzPgXPJ5rRz22gAhS5Q9t81OGDdXNqjCcYEflcxKC-jBtgAkgdEFciWFNYDlSPSy8-rl1EITVqkgZzGi6Mpo85N4O2iNXTzFSqqgDur41_EbEQ5ypBarIZFCVK5NpxtVma192Bbpi-0xQgHCA/s4160/IMG_20250623_194610151.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM796nItaHEWGV4i3xBCmBdRw8wOglvoPYxOBIdJGkhoJzNRc-ZUpAVjW-uBa2UeKk-8dRWFGMGUt86mXfmoBMaRgg86hlYDK05pr3LiOqwJNlKHzNmFDg2Ot25WwmqviG5O8QWE1EMpQKEb0TUgJyGeqzLEH5WKbYZlozQ-k2cpoEbCFkdhDs0X4t07s/s4160/IMG_20250623_194614754.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7ISFfAetLRrc9d23imsS066k0KY0UbmobsZW077KHV_4Q6EIxo4A6iLQcNONl2ott-bPdBulkTxRrd8JIBMxFXgiJdwEoP2PT3Bi4S71Dihyphenhyphenvibs1W2kXnA-_iA6XuqGH868ry5O0MyBjftBe_eVtI8qiZvGA231hCfa-McIOqGaLmWY16BEcp319P0o/s4160/IMG_20250623_195753207.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguLDvFb7lWqNksqMdqTFsqWlt5si4c9km7dVE-FzF4yi-cA8-aZ1ZbblTR6QW28FTBfxBwHwIXoL5UQ58spbK1Bn_4QIyrXztChczjocQPRuM7E7f9TcsbMKiUstn8KekLq6Akkhu8-g_qqtGS3DgjZb05ABgfwlIktP4Tq88vqqOVFV0g_UFtMGcSHbM/s4160/IMG_20250623_195811072.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlfe5_AJ9cinjDlErlu3xHvqh2r7fAj8Aj9uOefX0PtsiVI3ECrQjYZ316tIjSjecSnLOhAEhzMRM_WF9zLYbfp8snF9EzMx7h_i4RKkg8RAkeYSA3r060wNOZUse2S2bCx5RyuLcjXtvmIjLCXKcWt-bwCSDLBas67rBFAU5GMHf1CuHABwT8EjDrPas/s4160/IMG_20250623_202504128.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWq5x2YZK1xCw8PiiATahoCSZV-DXz7E2A5W3MDfnycW3IkVOV-NApNW0EQkeyB5bQHKr0ZFJopoDwMYul1USrAQ1yAfHdqOM5eSPV6bcxEPdUmjH8cHFi2xfgWGJ-YSXgVHQj10wajgHP6T05XON_OH8UiWwLZu9HFyREc12LYvAcinRzZjIz5fvB-Gw/s4160/IMG_20250623_202523392.jpg)
+
+---
+
+A partir del minuto 35.
+
+Profesor: No miré todavía el examen hoy o mañana empiezo a revisar. El miércoles tengo que dar algo para que ustedes tengan, ya está confirmado vienen los chicos a las 7 de la tarde (RCP).
+
+Nosotros tenemos que venir normal a las 6:30 ellos vienen a las 7 pm.
+
+Alumno: Nueva formación el viernes? Un curso?
+Alumno2: Una charla de RCP.
+Profesor: No. Yo lo que voy a dar es algo de riesgo eléctrico de qué pasa cuando la corriente pasa por su cuerpo y qué provoca, vamos a suponer que reciben la descarga esa persona lo 1ero que hace acuérdense que nosotros tenemos un elemento que es frágil y actúa directamente, es un motor el corazón entonces recibe una descarga y eso puede provocar de que se pare el motor entonces lo que hay que tratar que ellos luego explicarán que hacemos en el caso de qué el tipo se electrocute recibe una descarga y sufre un paro cardíaco y ahí empieza toda la charla.
+
+Nosotros lo que tenemos que hacer es 1ero ver qué le pasa al ser humano desprenderle donde está recibiendo la energía, buscar las consecuencias ¿qué hago 1ero? Apago lo que sea o agarro una madera. Si yo trato con la mano mía intentar que él salga de esa zona afectada me electrocuto yo también entonces todas esas cosas hay que ver, y una vez que sepamos que es lo que hace la energía eléctrica o la corriente que pasa por el cuerpo a partir de ahí recién entra el RCP.
+
+Nosotros tenemos que tener en cuenta 1ero que riesgo eléctrico y luego ver que aparte del riesgo eléctrico una persona puede estar trabajando normalmente hay distintas formas de seguridad y una de las cosas que también piden es que sepan con una persona como está trabajando en altura, más de 2 metros significa que debe pensar como instalar un andamio una escalera lo que sea, entonces esa persona también se puede caer y golpear la cabeza, o sino como maniobra en lugares donde estamos trabajando en algunos casos cerca de una red de media tensión de la red urbana. Y manipula un elemento, por ejemplo una escalera lo que sea.
+
+Alumno: El caso que paso en Lopez y Planes en Lavalle, estaba con el cartel no?
+Profesor: Sí, pero según dice no tocó, yo mido ahí que hay 2 metros y 3...
+Alumno: Claro, no tocó.
+Profesor: Pero recibió la descarga y el tipo estaba sujeto y recibió la descarga y no se descargaba, se descargaba por su cuerpo y no bajaba no bajaba hasta que se empezó a quemar. Lo ideal es en algunos casos la gente que trabaja generalmente cerca de líneas de alta tensión o de media tiene que poner todo el elemento al rededor de donde está sujeto todo su elemento al rededor descarga a tierra, ahora piden que se ponga descarga a tierra en caso de cualquier problema que tenga empieza a descargar antes que pase por tu cuerpo.
+
+Y ellos son la gente que hacen reanimación.
+
+Eso siempre me acuerdo porque la persona que se atraganta con algo como tiene que reaccionar y personas chicas bebés que se atraganta esas cosas vamos a preguntar y después como hacen el sistema de reanimación.
+
+Lo que hace el RCP es provocar que esa persona o en caso de que se le pare el corazón a través de un sistema manual que hacemos nosotros hagamos presión de tal forma que hagan los mismos movimientos que si hubiera hecho el corazón de bombear, eso hace el RCP con la característica la forma.
+
+Y después hay un número que dan ahí 900 y algo entonces, ellos van a explicar todo.
+
+Siempre dicen que hay que dejar un lugar amplio para poder accionarlo sino ellos te piden 1ero que mires todo el contorno donde está, piden ayuda, todas esas cosas. Vos no podes estar haciendo RCP y llamando por teléfono tampoco, porque estás haciendo los masajes y no podes llamar porque alguien del otro lado te va a decir que le está pasando a la persona, qué síntomas, cuánto tiempo tardará la ambulancia en llegar. Y entonces ya le vas a adelantando todo. De eso es lo que realmente necesitamos saber y que no hay que tener miedo, uno trata de salvar la vida.
+
+A mi lo que siempre me llama la atención son los accidentes. Uno mira más la gente que anda en moto, que es un vehículo que tiene muchos aspectos débiles en caso de que lo atropelle un auto. Supongamos que se corte o esté sangrando un lugar, una pierna lo que sea, dice que hay que poner la persona de tal forma que **el corazón esté por debajo de la herida**.
+
+Alumno: Es como cuando uno se corta. Levantar la mano.
+Profesor: Claro. Que el corazón esté por abajo, si pones para abajo te desangras. Todas esas cosas hay que saber porque puede salvar la vida.
+
+Nos exigieron después que todas las puertas que tengan vidrio tengan vidrio 3+3 porque esa época una de las nietas de Alfonsín había abierto se golpeó la puerta cayó los vidrios y se cortó y casi muere desangrada a partir de ahí ya se exigió un tema de mayor seguridad, a veces era complicado porque se empezaron a cambiar todas las aperturas que tenían poniendo el vidrio que era 3+3 y ustedes ven que tiene la forma de la bisagra esa para sujetar en algunos se modificó después se amplió el tema de la puerta para que calce bien el vidrio y tenga esto que apreta.
+
+Alumno: Ah el marco?
+Profesor: Si porque vos pones este es el marco entonces hay que hacer 3+3 acá ya no entra entonces hay que sacar hacer esto más chico o la puerta más grande y todas esas cosas, el tema de seguridad y a nosotros nos hicieron hacer en todas las escuelas el vidrio 3+3.
+
+#### ¿Qué hace el vidrio 3+3?
+Tiene la particularidad de que un golpe seco no se quiebra todo el vidrio sino que se raja primero, hasta el sonido es más agudo que cualquier otro vidrio normal. Y qué otra particularidad? Probaban los inspectores con un **encendedor veían como si hubiera otra maya, otro fondo**. 
+
+A nosotros nos exigen eso ahora pero eso depende del arquitecto y de los planos de obra.
+
+Nosotros hay una parte que es muy importante en el tema de.
+
+Esto es el último trabajo práctico que vamos a hacer, hoy no vamos a hacer sino que vamos a hacer mañana porque no traje ningún dispositivo pero nosotros vamos a ver fotocélula o le llaman ellos fotocontrol.
+
+La fotocélula o fotocontrol es solo un interruptor en otras palabras, qué hace este interruptor? Actúa de tal forma ellos le llaman acá no dice pero con el sistema crepuscular para que ustedes vean, **anda con el sistema de movimiento de la tierra** todo el tema de translación lo que sea pero tiene la particularidad de que esas 24 horas que ustedes ven que ahí pasa de un estado oscuro a un estado libre. Tenga la posibilidad de accionar un interruptor, ese interruptor para qué sirve ese directamente para tener un sistema de automático sización automatización entonces nos obliga a nosotros a tener una iddea como trabaja la fotocélula para entender esto tienen que saber que hay diferentes de equipos de fotocélula: 2 cables, 3 cables y 4 cables.
+
+Hay fotocelula con 2 cables. 
+
+Alumna: El 2 cables es lo que se usa en las casas.
+Profesor: Las 3 se usan en las casas, lo que pasa es que hay distintos sistemas de conexionado, depende de donde compren y como compren.
+
+Hay distintos tipos de conexionado para que ustedes entiendan vamos a hacer algo fácil y accesible al ojo humano le voy a dar las 3 característica y después vamos a ver el diagrama de conexión entonces dijimos que fotocélula con 2 cables. 3 cables y 4 cables.
+
+Esto es importante porque acuérdense que le pueden dar un elemento cualquiera vamos a suponer compran la fotocélula y ustedes le piden al tipo y el tipo le dice no yo necesito que ustedes conecten una fotocélula y van y compran. Entonces no saben qué traen, traen una envoltura y esa envoltura tiene una caja que esa caja le dará un diagrama definido entonces como hay en el mercado 3 tipos el día de mañana puede ser que haya más tipos de conexionado nosotros vamos a dedicarnos a ver como conectar estos 3.
+
+Entonces, en principio comenzaremos con el 1ero de los casos.
+
+Hoy voy a usar el rojo para ir practicando cuando corrijo (Chiste). Fíjense como va perdiendo el color.
+
+Una época había una birome que al otro día desaparecía lo que escribiste.
+
+Esto es fotocontrol después vamos a sacar una copia esto es un catálogo de SICA, sacaremos fotocopia para que lean y vean que característica tiene. Vamos a buscar otra primero y le vamos a dar. 
+
+Ahí ya veo. Este si que es al agua porque en seguida se va yendo, se borra todo.
+
+Bueno. Como verán tiene 2 cables. No sé donde dejé los marcadores negros. Cuando viajo dejo en una bolsa y luego me olvido.
+
+Vamos a suponer que nosotros tenemos pongan la parte roja esa va a ser siempre acuérdense que esto por ahora directamente para que ustedes vean esté es la simbología lámpara entonces directamente vamos a empezar a practicar teniendo en cuenta que siempre ustedes necesitan de un interruptor para darle energía a la fotoocélula.
+
+La fotocélula generalmente...
+
+Profesor pierde tiempo buscando marcador negro y empieza a dibujar.
+
+Siempre acuérdense, siempre tengo el interruptor, un interruptor le sirve porque como es un elemento que está afuera de un lugar en donde yo estoy accionado necesito siempre un interruptor para darle energía a la fotocéula. 
+
+La fotocélula siempre cualquiera que tenga 2, 3 o 4 cables siempre necesita energía 220. 220 si o si porque ellos tienen internamente un elemento que hace que está activado o no, porque sino van a recibir la luz exterior en el caso que tenga que cerrar o abrir el circuito pero si no está conectado no pasa nada. Van a ver internamente como es la sincronización interna que es más tendiendo a la parte no mecánica, mecánica con electrónica. No es solo eléctrica sino más electrónica entonces provoca la apertura o cierre del circuito.
+
+Siempre aparece fase y neutro. Fase y neutro acuérdense vamos a hacer una línea que va hasta la fase neutro, y este R será tierra.
+
+Cualquiera de estos lo podemos encontrar en la caja de paso. O en cualquier lugar porque la caja de paso o caja de derivación distribución, si yo tengo una alimentación de arriba o lo que sea siempre aparecerá estos 3 cables para poder hacer el conexionado y proteger el elemento.
+
+Entonces supongamos que esto sea entonces una caja de paso, una caja de paso en todo su recorrido yo tomaré solo la conexión de los 3 conductores, aparece directamente la fase. **Dijimos que la fase directamente va al interruptor o sea que de algún lado yo voy a tener un interruptor**. Fíjense como es interesante porque mi interruptor lo tengo a mano a 1,10 metros lo que sea acá. No tengo el interruptor ahí arriba nada por el estilo un elemento que yo pueda manejarlo directamente. 
+
+De ahí fíjense voy a la fase 2 cables nada más. Dijimos que necesita neutro si o si para poder accionar la fotocélula.
+
+Acuérdense de los cables nada más. Entonces tengo... Vamos a ponerlo de otro color ahí. Entonces tengo 2 cables, esto es como si yo tuviera un interruptor arriba. Esto tengo un interruptor pero tengo un interruptor acá a la mano, entonces le estoy dando la fase para que pueda encender mi fotocélula, este para que active cierre el circuito va directamente... No hay lámpara.
+
+O sea el otro cuando tengo 2 cables: uno de entrada y otro de salida directamente va a la lámpara pongo retorno, si viene la fase. Y la otra parte va directamente como siempre a la lámpara. Ya vamos a ver el neutro. Fácil fácil lo que ustedes reciben es esta parte. Compran este internamente es como si tuvieran un interruptor adentro la fotocélula con 2 cables.
+
+Este es el 1er caso (ver imagen)
+
+Vamos al 2do caso (el más utilizado).
+
+(No andan los marcadores).
+
+Me olvido los marcardores, agarra un maletín y en una obra ya no hay un plano. Con un cartón rayo de como quiero que sea la instalación y ahí voy perdiendo dejo acá y dejo ahí y me voy olvidando.
+
+##### Después le vamos a dar eso que es un catálogo SICA para fotocélula de 3 cables.
+
+Luego veremos fotocélula de 3 cables. Vamos a tratar de que los colores.
+
+El negro es negro, el rojo es rojo y que el azul sea el blanco.
+
+Bueno. 3 cables fotocélula.
+
+##### También dijimos que internamente recibe 220, ¡recibe 220 voltios!
+
+El azul es blanco. 
+Negro, blanco y rojo. 
+
+##### Preceptora toma asistencia (Hora 01:07)
+
+Alumno: Usted dijo hace de retorno, no le llamamos retorno entonces?
+Profesor: Si yo tengo un interruptor puede ser como retorno lo que pasa es que está tirando en este caso, no retorna directa?  
+Profesor: Claro. Entonces te deja fase y neutro ahí, neutro va directo allá y acá hace el recorrido y actúa el interruptor nada más. 
+Alumno2: Los 2 son neutro?
+Profesor: Vos tenes de 2 cables, de 3 cables y cual? La del 1er ejercicio?
+Alumno2: Sí.
+Profesor: El azul no más es el neutro, que va acá.
+Alumno2: Y el otro profe el de arriba?
+Profesor: Va a la fase aquel actúa como interruptor y cuando se activa ZAC llega allá. 2 cables nada más. Cuando el da el sol, desconecta, cuando hay oscuridad ese interruptor se conecta y activa la lámpara, este es más simple el tema es que a veces no se consigue.
+
+Importante, antes que yo siga en este quilombo aparece en cualquier parte en algunos casos esto por ejemplo es una explicación de esquema eléctrico y aparece los colores, cada tipo de fotocélula va un esquema eléctrico. Hay veces que hay gente que saca de otro lado y por las dudas saquen con los cables porque es más fácil, pero yo le voy a dar los 3 tipos importantes.
+
+Y hay una parte muy importante que cada fotocélula aparece que es este. ¿Qué era la P? La potencia. Acuérdense que esa potencia de 1500 no es la que realmente... Puede sumar la cantidad de lámpara que te gasta 1500 watts pero nunca hay que trabajar con la potencia máxima siempre se multiplica por un coeficiente que es 0,8 más o menos.
+
+Si es 1500 ustedes multiplican con 0,8 y dará 8x5=40, dará 1200 por ahí. Exacto.
+
+Entonces esa potencia que aparece acá es la potencia total pero la real que se debe utilizar para que ese equipo no trabaje con su potencia máxima porque se puede quemar es directamente 1200 wattts o sea si yo tengo en cualquiera de los elementos un valor que dice hasta potencia de 1500 watts entonces lo real es 1500x0,8=1200 o sea hasta los transformadores de la calle los que están comandando una manzana 2 o 3. Alumbrado todo lo que sea todos trabajan con su potencia máxima siempre con potencia multiplicado por coeficiente que es lo que realmente **se utiliza porque sino funcionará al máximo y cualquier problema se va a quemar, esa es la realidad exacta por desfasaje o lo que sea**.
+
+##### Tenemos 1, vamos al 2do (que es la más usada). Fotocontrol o fotocélula con 3 estados.
+
+Entonces aparecerá un negro, el que sabe de memoria, fíjense que dice el negro? Línea/fase. Es fase. Es línea.
+
+El neutro es blanco.
+
+Ahí va la línea al 1ero, al negro. 
+
+Alumno: Y siempre viene de esos colores, así como está ahí?
+Profesor: Es la marca. En este caso es la marca SICA. Depende de la marca, si vos te vas a la china.
+
+Ayudante: Casi todo vienen de los mismos colores, los lumenares. 
+Profesor: Sí, hay varios pero podes pasar al Paraguay y comprar uno que tenga otra variedad pero los 3 cables son iguales, en la cajita siempre dice. 
+Ayudante: O sea el cartoncito en el que viene la fotocélula atrás siempre dice el esquema de conexionado y para qué es cada cable, o sea que no hay chance de errar.
+
+Ayudante: De todos los lugares en donde puede escribir, escribe en el lugar más chiquito (al profesor).
+Profesor: ¡Blanco! Ahí ya tengo los 220. Entonces cuando hay oscuridad se cierra y esto va directamente vamos a ponerlo así que es más fácil (hace el dibujo), el rojo va a la lámpara y como la lámpara siempre tiene que llevar neutro conexionado siempre aparece acuérdense que tienen interruptores ahí, ahí yo activo desactivo porque después vendrá otro tipo de interruptor de escalera o doble para que ustedes vean otra forma de conexionado pero esto es el principio, lo único acuérdense que tenemos es esto. Acá yo puedo accionar de forma cantidad de iluminarias que yo quiera siempre y cuando no pase estos valores. 
+Alumna: O sea que el rojo funcionaría como de retorno?
+Profesor: École. Exactamente.
+
+Alumno: Y ahí la potencia tendría que tener por ejemplo si fuera incandecente 60 watts hasta 15. 15x60 se hace así lineal?
+Profesor: Sí, sí. Exactamente.
+Alumno: Y el de bajo consumo me aguanta más.
+Profesor: Sí, perfecto.
+Alumno3: Pero si es de 10 watts, lo multiplicamos por 0,8 también? Los LEDs son de 10, por lo general.
+Profesor: Sí, pero ahí tenes para tirar. 100 lámparas y te sobra.
+
+Alumno3: 15 de 10 pero menos para no llegar exacto a 1500 watts, sería 12.
+
+Bueno pero le voy a confesar, otra cosa. Me está limitando la potencia pero puedo emplear otro elemento en la cual activa otra forma que yo puedo poner una cantidad mayor de iluminaria esto es lo que se hace con el alumbrado público.
+
+Ayudante: Alguna vez vieron algún uno de los buzones grandes, los tableros que están por los transformadores eso tiene 1 fotocontrol, pero ese fotocontrol activa la luminaria de 4 manzanas a la redonda de cada transformador. 1 solo.
+
+O sea que cada 4 manzanas hay 1 transformador?
+
+Profesor: Y tiene un contactor eso veremos después que es un contactor. En ese caso el contactor tiene la posibilidad de tener 3 fases y manejar a su vez 3 fases fíjense 3 circuitos independiente y con la cantidad de fotocélula que yo necesite para el alumbrado público.
+
+##### Alumno: O sea que la fotocélula activa el contactor.
+Profesor: ¡Exactamente!
+Ayudante y Profesor: El fotocontrol acciona la bobina del contactor entonces toda la carga recibe el contactor, esto lo único que hace es manejar el sistema de automatización o a su vez la bobina del contactor. Nada más que eso, pero eso hace.
+
+#### Ahora vemos la otra fotocélula de 4 cables.
+
+Perfecto, plus juan perfecto.
+
+Ayudante: Ese si creo que va la explicación de como estaba más o menos en el 1ero.
+
+A B y ahora va el C.
+Alumno: Solo para lámpara aplica esto? No puedo poner otra cosa?
+Profesor: Qué vos queres prender?
+Alumno: Un motor o lo que sea, una bomba, un muñequito para hacer propaganda en un negocio.
+Alumno2: En la noche.
+Ayudante: Ríe. Ahí ya se necesitan otras cosas. 
+Alumno: Tiene una advertencia menor a eso y una fase y neutro?
+Ayudante: No, no es tan fácil. Ya se necesitan otros elementos que ya es un mundo mucho más amplio. 
+Alumno: Es más electrónico?
+Profesor: No, si vos queres prender un motor determinada hora del día y apagar también se puede hacer. Vamos a suponer que vos quieras tener como tienen los brasileros un muñequito que está con un compresor ahí. Ese el de los lavaderos. Lo que pasa es que esto te va a trabajar de noche y ahí ya tenes que hacer otra cosa.
+Alumno: Claro de día descansan (chiste). Día de franco.
+Profesor: Está desinflado (chiste).
+Alumno: Ríe. Pero la pregunta es esa, no solo para lámparas.
+
+Profesor: Sí, vos podes tener otros usos pero el tema es que vos tenes que tener en cuenta que la fotocélula actúa con el sistema día-noche. De noche activa y de día desactiva. Entonces esa es la idea, pero después podes meter lo que vos quieras o sino un fantasma.
+
+Alumno: Claro porque lo típico es que pongamos lámparas.
+Ayudante: Se pueden poner varias cosas.
+
+Bueno sigo, casa fantasma.
+
+
+Ahora tengo uno que tiene otro cable.
+
+Vamos a buscar la forma, 4 cables pero no me dice que colores pero supongamos que son 4 cables.
+
+El de 4 cables, buscaremos interruptor así que... Salimos siempre del interruptor, ¿por qué del interruptor? Para dar fase, en este caso le damos fase, y esto de donde viene? De arriba. Seguimos uniendo acá las fases el neutro ahora, fase neutro y también va el neutro va a la fotocélula, este sería el de 4, este es el de 3 y este es el de 2.
+
+Tan fácil como echarle agua, entonces en algún lado tengo que tener la lámpara.
+
+Sigue quejándose de los marcadores. Tira el marcador a la basura (Ginobili dice es un chiste).
+
+Bueno sigo, entonces acá va directamente a la lámpara como siempre otra vez tenemos el interruptor interno adentro que ustedes no van a ver porque sino le vamos a sacar guita al tipo que está allá. Este si que es R. Están los 4 cables los colores le debo porque en ningún lado me dicen los colores.
+
+Alumno: O sea la fotocélula traerá 4 cables? 
+Profesor: Exactamente. 2 son fase y 2 son neutro. 
+Ayudante: Por 2 cables entran la fase y el neutro y por 2 cables salen la fase y el neutro.
+Profesor: Esto es un casquillo, esto es un zócalo. Entonces esto va con un soporte y esto va el fotocontrol arriba el capuchón, lo traeré mañana, esa es la ventaja que tiene esta que esta tiene una forma en que encastra y vos girá y se activa sino no vas a poder sacar, **el tema es que a veces se quema la parte de arriba y deja el zócalo ahí y como esto a veces está al exterior entra agua acá y produce un...**.
+Alumno: Un cortocircuito?
+
+##### Profesor: Exactamente, pero generalmente hay cortocircuito cuando uno se moja acá pone y ahí gira y ahí recién hace cortocircuito. También te puede agarrar una flor de patadita.
+
+Ayudante: Ahí estuve buscando, en la mayoría de los casos se repiten los colores. Por ejemplo marrón y celeste en la entrada marrón y celeste en la salida **pero en el fotocontrol atrás está indicado cuales son los de entrada y los de salida.**
+
+Profesor: Este es de 4? Y ya le hice ya. Pero cualquiera  de los 3 casos ustedes pueden recibir, para qué sirve? Ahí ya le dice encendido y apagado de cualquier elemento generalmente lámpara que uno puede automatizar de acuerdo al sistema crepúsculo. Dónde estaría orientado? 
+
+Acuérdense esta es la salida del sol, **generalmente se coloca al norte**.
+
+##### La idea es que siempre mirando al norte.
+
+Esto que está acá aparecerá luego en el celular, yo tengo por ahí guardado tirando lo voy a poner acá para que ustedes saquen si quieren fotocopia depende de como andamos de hoja.
+
+11 hojas contigo pero vos sabes todo le dice al Ayudante.
+
+Doble face son 10 hojas en total. Entonces por lo menos ya lo tienen ahí, porque el drama es no miran el celular.
+
+Eso haremos mañana cada uno tendrá un bastidor (tablero) veré cuántas fotocélulas consigo hará 1ero el grupo de 5/6 después harán lo otro el resto, van a hacer y van a probar. NO hay otra vuelta que darle. Quedé sin hojas tendré que conseguir hojas.
+
+Lo estaba por mandar por celular pero me dí cuenta que tampoco miran el celular.
+
+Alumno: Profe y con la combinada por ejemplo?
+Alumno2: Y el detector de movimiento es parecido?
+Profesor: Sí, es parecido la misma característica.
+Alumno2: Pero no es el mismo instrumento no?
+Profesor: No, tiene 3 cables. 3 cables necesita si o si recibe 220. Luego veremos. Después lo vamos a ver.
+Alumno2: Vamos a dar también?
+Profesor: Sí, sí. 
+
+Bueno, a ver.
+
+Luego aparecerá en vez de este interruptor aparecerá una llave combinada. Y la única diferencia es que esa llave combinada esto es un interruptor que tiene esta característica, este es el interruptor y la llave combinada tiene esta característica 3.
+
+Entonces ahí si o si uno toma la alimentación al medio. La fase siempre será el medio, esta será la fase. Siempre al medio y este es tu interruptor para un lado o para el otro vos no sabes. Está trabajando, qué diferencia tengo en este caso fíjense vamos a poner así: de este lado será vamos a hacer al revés. Es lo mismo!
+
+De un lado será manual y del otro lado automático. Manual y automático.
+
+El automático es esta característica ahí que trabaja con la fotocélula directamente acá entonces activo eso supongamos que yo tengo el interruptor en la entrada de mi hall y quiero encender la galería lo que sea afuera, afuera tengo la fotocélula sola porque si meto la fotocélula acá adentro será difícil que encienda y apague necesitas el sistema crepuscular entonces pongo y activo en forma manual. Actúa la fotocélula enciende y apaga cualquier lámpara que esté conectado a la fotocélula listo.
+
+Si la fotocélula en caso de que entró agua o recibió una sobrecarga lo que sea se quemó toco el otro y pongo el manual cuando apreto el manual directamente prende la fotocélula.
+
+Alumno: Y la combinada tiene lado no?
+Profesor: La combinada tiene 3 cosos como un interruptor.
+Alumno: O sea no importa si le ponemos de otro lado.
+###### Profesor: Como un interruptor trabaja de un lado o por otro. Pero el otro voy a hacer después el dibujo. Pero este para que ustedes le estoy adelantando para que ustedes entiendan como va la combinada en ese caso. Después le hago el circuito para el otro lado. Lo que me interesa es que ustedes plasmen esto con los bastidores que vamos a hacer. La mayoría ya tiene bastidor la mayoría ya tiene portalámpara, la mayoría debe tener un interruptor de llave de 1 punto entonces algo de cable tienen yo le doy la fotocélula y le digo haceme la ... Así no más sencillo.
+
+Alumno: Y la fotocélula que va a traer podemos taparle y que prenda la lámpara.
+Profesor: ¡Mas vale! Puede de 10 pueden haber 2 que no funcionan pero el resto anda. Obvio que sí.
+Alumno: No porque, si no funcionaba...
+Profesor: Esa fotocélula tiene la particularidad que una cierta cantidad de lúmenes vos pones la mayoría 50 o 60 lúmenes ya activa la fotocélula eso se puede hacer, no hay problemas anduvo. Y si todo anda bien y no rompen va a andar más. La mayoría de la fotocélula como traen 2 o 3 cables algunos yo ya pongo una bornera para que no me corten los cables, porque ahí cortan cortan cortan y después ya me queda así ya. Entonces la mayoría tienen bornera y si tiene bornera le vamos a poner entonces directamente hacen ese sistema.
+
+Barrientos: Compré un proyector, me tiene que llegar el viernes.
+Profesor: Qué proyector? 
+Barrientos: Compré un proyector, así que por ahí podemos experimentarle.
+Profesor: Sí, yo también compré un redondito 100 dólares.
+Barrientos: Yo pagué 160 usd con pantalla todo con tripode.
+Profesor: Increíble, me interesa la pantalla.
+Barrientos: Sí porque yo fui a Paraguay, aparte de las máquinas yo alquilo cascada de chocolate para cumpleaños y esas cosas.
+Alumna: es un buscavida
+Ayudante: Lo que debe ser la fiesta en tu casa.
+Barrientos: Claro al otro día fui al bar de un amigo y el pasó un partido de eliminatoria y me dijo: "no, le alquilé a un vago el proyector" y ahí empecé a averiguar como para anexarla a la cascada de chocolate para un cumpleaños también un proyector.
+##### Profesor: Sí, yo compré uno ahí y tiene Magis yo veo todos los partidos acá. 
+Barrientos: Yo compré uno como cinto pero lo que pasa es que no me interesaba porque fui a Paraguay y solo la pantalla me pedían 150 dólares (usd) con el tripode y este por 160 mil pesos el proyector con pantalla (160 usd en 2025).
+Profesor: Che y como es la superficie de la pantalla esa? Más o menos de este tamaño?
+Barrientos: No, es 100 o 120 pulgadas algo así, 2 metros y pico por 1,50 metros.
+Profesor: A la puta es grande.
+Barrientos: Sí, sí. Y encima con el tripode queda a una altura de 2,50 metros máxima y mínima de 1,50 metros. Entonces después por ahí ...
+Profesor: Lo podes llevar a cualquier lado.
+Barrientos: Por ahí puedo mejorar el proyector ahora vienen con **android, bluetooth** este no, este tiene solo USB audio/video.
+Profesor: El que yo compré tiene todo lo único que le falta es el parlante con el bluetooth.
+Barrientos: Este tiene un altavoz pero es muy chico. Tiene salida de audio o sea que se le puede conectar.
+Profesor: Sí, mis hijos usan el proyector con bluetooth y con el JBL y me deja loco.
+Barrientos: Claro, pero el proyector tiene que tener buetooth es un poco más caro, el que yo compré de pedo proyecta.
+Alumna: Y se puede adaptar?
+##### Barrientos: Tiene la fichita de audio/video, lo conectas por cable digamos y después yo tengo el chrome cast o sea que le podes meter eso y lo conectás con el teléfono.
+Alumna: Tiene usb digamos?
+Barrientos: Tiene USB audio/video y HDMI
+Profesor: Yo voy a ver si traigo algo para mañana o el lunes o el martes algunos videos para ver.
+Barrientos: 165 dólares usd en 6 cuotas.
+Ayudante: Una ganga.
+Alumna: Adonde?
+Barrientos: Sí. En Garnif (Hora 01:30:47).
+Profesor: Ah, por acá? ¿No en Paraguay? Ese es el que vende cosas a través de Internet?
+Barrientos: Sí, sí. Por bitcoin también que es un sitio que comercializa casi todo Gandi y otras marcas y por ahí tiene, pero lindo yo compré muchas por ahí.
+Profesor: Me interesa la pantalla porque a veces joden.
+Barrientos: Y bueno, solo la pantalla creo que está algo de 120, 130 usd.
+Profesor: A mi me interesa esta medida (marca al pizarrón).
+Barrientos: Sí, no, es mucho más grande.
+Profesor: Es grandísimo entonces podes meter 50 vagos ahí mínimo.
+Barrientos: Sí, inclusive hay algunas que uno por ejemplo usted tiene un lugar fijo viene con control remoto te baja la pantalla.
+Profesor: Ese ya es otro nivel, a mi me gustaba antes.
+Ayudante: Y esa es la velocidad con la que va a desaparecer también.
+Profesor: No, no ¿como va a desaparecer? ¿Cómo vas a pensar eso? 
+
+Bueno, estamos más o menos no hay mucha diferencia creo que están todos los bastidores acá.
+
+Alumna: Sobran bastidores.
+
+
+Bueno.
+
+Ya recibieron el otro? Bueno.
+Alumnos: Sí.
+
+Ahí vamos a leer los colores están así, así que después le voy a pasar los colores para que tengan la fotito ahí.
+Profesor: Empezá mi estimado.
+Alumno: El esquema eléctrico para la conexión de la fotocélula, la fotocélula también conocida como fotocontrol es como una llave de encendido y apagado de la luz que se encuentra comúnmente en nuestras casas, la misma nos ayuda a automatizar algunas tareas diarias este dispositivo tiene una entrada y una salida como cualquier llave común de corte pero además hay un cable para alimentar el circuito sensor de luz.
+Profesor: Entendieron hasta ahí? Así lo leemos de nuevo. Ya saben que la fotocélula es conocida también como fotocontrol es como una llave de encendido, llave de encendido o un interruptor para que ustedes entiendan.
+
+
+Tenía un amigo que se fue a visitar a sus hijos que están estudiando y otra que está recibida de doctora en Buenos Aires y me llama el Sábado, necesito que me asesores me dice. Yo pensé que estaba acá y pensé bueno voy a tener que ir hasta la casa, y me dice no no estoy en Buenos Aires, me jodió justo en la parte del interruptor y el tomacorriente del baño aparentemente **estaban usando un secador de pelo estiraron mal y se rompió el bastidor el módulo del tomacorriente, ¿qué hago me pregunta?** Tenés que cambiar le digo si rompiste tenes que cambiar el módulo, pero si cambias el módulo tiene que ser el mismo módulo que el de la caja, si es SICA tiene que ser SICA si es Geluz tiene que ser Geluz sino no entra.
+
+Bueno, no tengo ninguna herramienta. Entonces agarrá el cuchillo y sacá la tapa primero la tapita blanca. Tiene el bastidor y la tapa blanca que sería esta. Sacá la tapa y aflojá los 2 tornillos le iba sacando fotos y me iba mostrando y después me dice. Los cables, mantené los cables que están adentro tenes que comprar ¿domingo adonde vas a comprar? Domingo en Buenos Aires, tenés que tener demasiada suerte que conseguiste ahí la gente que venda el bastidor el juego completo.
+
+Bueno, hoy me llamó a la mañana que ya consiguió, y bueno conectá los cables igual, pero 1ero andá a apagar el interruptor que maneja ahí y no tengo luz me dijo, para qué tenes celular le digo, poné la luz del celular y empezá a trabajar, pero por las dudas comprate un destornillador y si queres romper y trabajar bien y no tenes problema y no querés comprar destornillador y el buscapolo, comprá un buscapolo y lo ajustá con el buscapolo, no aprietes tanto no más. Y bueno ahora me mandó la foto que ya solucionó ¿a qué voy yo? Eso es una pavada pero hay gente que no sabe tampoco se atreve a trabajar con tensión ni nada por el estilo, es mi amigo entonces qué le voy a decir, llamalo a fulano de tal abajo, allá en Buenos Aires llamás a un electricista mínimamente te cobra 4 mil.
+
+Alumna: 4 mil... Nadie te cobra eso.
+Profesor: Solo para llegar. Después tenes que cambiar comprá las cosas todo eso, así que no quiero decir que sale si alguien a ver tiene poco conocimiento de electricidad puede arreglar su propio problema, a veces uno dice bueno yo estudio para algo y a veces gente estudia para arreglar las cosas de su casa. Hay chicas de otro lado que van a venir, no sé si este mes o el mes que viene sino que vengan el año que viene pero solo aprenden para poder solucionar las cosas del hogar. Hasta plomería, electricidad. Es interesante las carreras de oficio generalmente ayudan. 
+
+#### Acá nosotros no hacemos pero tiene demanda es la parte de limpieza de la cocina se tapa queda con grasa no anda bien el quemador, los picos. Y después le limpian bien mínimamente están cobrando entre 30 y 50 mil pesos de limpieza nada más, sin cambiar ninguna cosa. 1 horita.
+Pero algunos si tienen que comprar otras cosas y no sé cuando puede salir pero lo que quiero decir es que hay cosas sencillas que son difíciles no es cuestión de cambiar toda la cocina pero por lo menos limpieza después hay cocina eléctrica los térmicos, las termocuplas son más jodidas para conseguir encima que calce justo ahí pero mi vieja siempre tiene que ir cada 2 o 3 meses hacer limpieza en la cocina no sé que hace se duerme y se derraman cosas que se yo.
+
+
+Bueno, seguimos.
+
+##### Yo: El funcionamiento, el circuito electrónico que detecta el nivel de luz puede ser una fotoresistencia que al aumentar la luz disminuye la resistencia, la misma va conectada a un circuito integrado de 3 pines el cual funciona de una manera similar. La fotoresistencia es analógica lo que significa que según el nivel de luz proporcionará mayor o menor resistencia al paso de la corriente.
+
+¿Vieron más o menos como es el funcionamiento?
+
+Esto ya introduce una parte electrónica o sea esa parte lo que tiene internamente es importante que sepan no más que hay un elemento o varios elementos pero me interesa a mi que ustedes sepan como actúa esto o como trabaja en síntesis es un interruptor nada más que eso. A través después hay distintos fenómenos cuando entra la luz que pasa hay un espejo todo un quilombo que hace internamente para que se produzca la apertura y cierra del circuito, hoy no me interesa eso, solo las conexiones.
+
+A ver.
+
+Seguimos atrás. 
+
+Alumna: Entonces el integrado sería quién a un nivel fijo de corriente abre el paso de la misma entre sus 2 pines. De este modo el integrado es otra llave de corte que depende del nivel de corriente que envía la fotoresistencia para dejar pasar o no la corriente entre sus 2 pines de entrada y salida.
+
+Profesor: Perfecto. Esto ya pertenece a la parte interna, a mi esa parte interna le hice leer para que entiendan que había algo adentro que hace que se active y desactive el interruptor. Abre y cierra el circuito.
+
+Leiva: Conexión. Para conectar la fotocélula debemos identificar la entrada, la salida y un 3er cable que debería ir conectado a neutro los colores de los cables para identificar estos son iguales en la mayoría de los dispositivos.
+
+Profesor: Esto es importante. Estos son iguales en la mayoría de los dispositivos que son de 3 cables. Puede haber distinta potencia, distinta marca o lo que sea pero son fotocélula o fotocontrol de 3 cables.
+
+##### Alumna2: En cable el negro corresponde a la entrada de corriente. O sea en este cable deberíamos conectar la fase.
+
+Profesor: Ahora la otra chica (señora).
+
+##### Alumna3: El cable blanco es para completar la alimentación del circuito sensor de luz en la fotocélula junto con el cable negro, así que aquí deberíamos conectar el neutro.
+
+Cardozo: El cable rojo es la salida de corriente que alimentará a la lámpara o a cualquier otro elemento eléctrico como por ejemplo un motor de cortinas automática o una electroválvula que abre el agua de riego o un jardín cuando sale el sol.
+
+Profesor: Eso es lo que decía el señor (cuando hablaban de muñecos inflables).
+¿Te das cuenta? De noche empieza a funcionar y cuando sale el sol se apaga.
+Leiva: O sea que en los estadios grandes tienen la fotocélula que empieza
+
+Ayudante: Por lo general esos tienen un tablero de comando pero lo hacen manual en los estadios.
+
+Profesor: Lo último.
+
+**Observación propia: Es importante que le de la luz cuando sale el sol. Hay lugares que no podes poner siempre mirando al norte.**
+
+Barrientos: Para el correcto funcionamiento del fotocontrol es recomendable colocar siempre el mismo por encima de la altura de la lámpara de modo tal de no ser alcanzado el sensor por la luz que emite la misma, caso contrario se producirá una realimentación en el circuito generando que el dispositivo funcione de una forma intermitente.
+
+Profesor: Ese es muy importante.
+Ayudante: A mi vecino le pasó la semana pasada.
+Barrientos: No pagaba nunca (chiste).
+Profesor: No. Prende y apaga. 
+Ayudante: Cuando prende el foco el foco alumbra el fotocontrol, y el fotocontrol corta de vuelta. Entonces ahí la lámpara se apaga y empieza la cadena de nuevo hasta que la fotocélula se funda o el foco.
+Profesor: Una vez mandé a hacer una entrada. En un galpón necesitaban esas lámparas de alumbrado público para entrada de camiones y no tuvo la mejor idea mi electricista, **poner la fotocélula abajo de la lámpara** uno ya supone que el tipo sabía entonces voy estaba a 50 metros llegó la hora de que prendan todas las luces, veremos que pasa. Fuimos afuera y afuera prendía y apagaba, puta madre pensé que mierda habrá hecho entonces tuve que ir a mirar arriba porque encima no es que está acá a 3 metros, está 6 metros arriba. Entonces uno no ve de noche. Y bueno ya me quedé con la bronca, lo 1ero que dije es que iba a venir otro día porque no tenía ni escalera 6 metros arriba no veo y encima en la oscuridad y prendía y apagaba.
+
+Alumno: Encima cuando prendía querías ver y te encandilaba.
+Profesor: Sí, sí te dejaba loco. Dije bueno, le dije al señor aguanteme que voy a mirar mañana.
+Alumno2: Tuvo que bajar el...?
+Profesor: Se tuvo que poner, no iba a bajar todas las lámparas de alumbrado sino directamente por encima. Y hay algunas hora de alumbrado público, **estas nuevas tienen sistema LED tienen arriba la fotocélula** al dope pero no importa.
+Ayudante: Ah sí. Hay muchos alumbrado que tienen el fotocontrol arriba.
+##### Profesor: Lo mismo que meter un interruptor arriba. Generalmente yo no pondría.
+He visto algunos lugares tipo parque que esa lámpara de LED exterior tipo farola esas cosas. Cada una tenía y la idea fíjense que este tiene determinada cantidad de potencia no sé para que pones 1 encarece el sistema, directamente **poné 1 que maneje a través de un contactor y todo el sistema de parque y te olvidás**.
+
+##### Ayudante: A muchas de esas que venían con el alumbrado público que venían con eso, por lo general las que son de calle se le pone puente y que funcione con el buzón.
+
+Profesor: Estamos más o menos? Cuando salgan por ahí miren de vez en cuando ahí van a ver.
+Ayudante: Miren un transformador siempre un tablero de alumbrado público uno de los grandes tiene un fotocontrol al lado y ese comanda desde ese transformador 4 manzanas para cada lado.
+Profesor: Y se fijan siempre por A o por B o por C está sin tapa o abierto. Es interesante porque se usa, vamos a hacer mañana eso, voy a traer todo lo que pueda de casa.
+
+#### Habla de como probar continuidad de una fotocélula
+
+Barrientos: Y eso con el tester con continuidad debería probar si encuentro uno por ejemplo, creo que tengo uno en la caja de herramientas para probar si funciona le pongo las puntas.
+_Ayudante: Continuidad solamente dándole 220 y tapando el cabezal._ **(Es cierto esto? Preguntar.)**
+Barrientos: Claro tapando el cabezal pero si le pongo en cada punta no funciona sin corriente no?
+Ayudante: Y no no va a tener porque ese activa con 220 pero cuando es de noche.
+Profesor: Vos le das 220 voltios acá, acá tendrá 220 pero este no te va a dar salida porque este desactiva y este activa.
+Ayudante: Supongamos que está el cabezal acá arriba puesto, y esta es tu fase y acá tu retorno si vos pones un cable en cada punta con el cabezal acá arriba de día o sin 220 no van a ¿? (Hora 01:49:32)
+Barrientos: Y si le pongo y le tapo?
+Ayudante: Tiene que estar energizado y nunca se recomienda medir continuidad con un circuito energizado porque jode al tester o a la pinza amperométrica.
+#### Preguntar padre. Barrientos: Pensé que era como una especie de relay.
+Ayudante: Por lo general se escucha un Tic cada vez que cierra, cada vez que pega.
+Alumno: O con la pinza amperométrica podemos ver si tiene corriente.
+Ayudante: Para algunas cosas como esas funciona el que yo traía que le decimos lápiz que le decimos buscapolo inductivo. Entonces vos le das 220 con la correcta aislación y si vos le tapas pasará la corriente y con ese vos le arrimás y si chilla está pasando la corriente.
+Profesor: Si vos tenes una lámpara tiene que encender, no hay otra vuelta porque vos le vas a dar 220 acá pero el que abre y cierra el circuito es este acá, te da la conexión o sea que yo pruebo con lámpara.
+
+Pero esto haremos mañana así que voy a ir a buscar ahora en el depósito que es lo que tengo lo que está lindo nada más y ahí tengo los nuevos. Y voy a ver si consigo bornera entonces cada uno no tiene necesidad de cortar el cable del la fotocélula y el que tiene uno y compra que traiga y vamos a aprender, el día de mañana 
+
+Si tienen una fotocélula alguno o quiere comprar uno que compre yo solo enseño como es la conexión acá, prenden acá y llevan a su casa.
+
+##### \* Alumno habla con el profesor de que estuvo trabajando arriba de una escalera pero dice que se acostó en la escalera(estaba de espaldas a la escalera) en vez de estar de frente. 
+
+Profesor le aconseja al alumno de como trabajar con la escalera.
+Alumno: Claro me equivoqué, porque no dimos todavía el 30 de Julio (charla de trabajo en altura).
+
+Ayudante: No, ese vos tenes que trabajar siempre apoyado en la escalera como mucho pero **la idea es que tu cuerpo no esté apoyado en la escalera o  sea que vos no estés de espalda a la escalera, vos no tenes que estar de espalda a la escalera, siempre trabajás mirando hacia el este de la escalera cosa que si te pasa algo vos te apoyas o de última para atrás (o bajas)**.
+
+Profesor: Para qué mostras la foto! (Chiste).
+
+Alumno dice al profesor que mostró la foto para mostrar lo que no hay que hacer.
+
+Profesor ya les comentó ya.
+
+Profesor: Escalera doble: escalera tipo A, tijera entonces él en donde estaba apoyado acá pero de espaldas, entienden? Y ahí tienen que apoyar ahí porque sino es más fácil que vos te caigas para adelante. El trabajó de acá mirando hacia el otro lado. No sé si me entienden la escalera está inclinada cualquier cosa caerá para este lado no va a tener ningún apoyo lo ideal es abrazar a la escalera. 
+Ayudante: Y si trabajas con electricidad te conviene trabajar sin tensión y la escalera debe ser de madera.
+
+Profesor: Antes se hacían los escalones de tal manera, hoy los escalones son muy chicos lo ideal es que esos escalones estén así, así uno apoya la mayor parte del pie ahí ta bien ustedes me dicen pero lo que pasa es que hay ahora botines que tienen cierta característica que permiten apoyar la base del talón, que se engancha ahí para que ustedes no tengan, entonces pueden trabajar tranquilamente ahí.
+
+Antes era mucho más fácil, se encontraban escaleras de ese tipo ya no es fácil. Entonces vos apoyabas la mayor parte de la superficie de tu pie que sería casi al rededor del 50% 60% de tu pie apoyabas sobre los peldaños y no te cansaba mucho. Cuando tenía esa forma porque constantemente sabes lo que es trabajar todo el rato ahí? Terminas roto.
+
+Ayudante: Me parece que ya te sacaron tu 10 le dice al alumno.
+Alumno: Está bien.
+
+Cada uno tiene que tener los elementos o herramientas que le resulte más fácil para más tiempo, a veces el tema de la escalera a veces he usado escalera de pintores que tenía así los escalones y era muy difícil estar mucho tiempo entonces como yo soy inquieto subo y bajo hasta que... Pero sino todo el día ahí y esto peor todavía ( te duele el cuello ) por eso hay una parte que dice el tema de agrupación de conductores y el tema de la fijación de las cajas de paso, es que las caja de paso es conveniente que estén sobre la pared y hay otra gente que se olvidó de hacer en la pared y hace en el techo entonces el tipo tiene que hacer todas las conexiones de esta forma ( mirando para arriba ) y es incómodo después te duele el cuello.
+
+Después te vas a tu casa, tu mujer te dice ¿que te pasa? No estoy mirando ahí, estoy siguiendo ahí estuve todo el día laburando y me duele el cogote porque es una mala posición.
+
+Pero es interesante hay una parte siempre de seguridad y es la forma de trabajar que cada uno hay muchas teorías el tema es que es interesante aplicar esas teorías a medida que uno va realizando trabajo y depende de qué herramientas uno está teniendo el tema de la escalera es fundamental, he visto tipos que tenían una escalera tijera muy chica desarmaron y llegaba hasta allá arriba entonces la ataron entonces agarran sacan 1 y le atan la otra acá, y después el otro está teniendo ahí sujetando al tipo para llegar hasta. Después no sé como va a hacer, a veces si vos tenes una simple hay que ver donde estribar la otra parte porque sino no podes trabajar, y para colmo tenes que ver como es tu piso hay algunas escaleras que tienen la posibilidad de **tener un taco para que no se deslice sino hay que poner algo para que no se corra**.
+
+Todo un procedimiento, cada vez que uno trabaja ver con qué elementos yo cuento para realizar el trabajo, el chamamé (el tipo que hace  cualquier cosa) hay gente que agarra 2 pedazos de madera de andamio y le va amurando o clavando esas escaleras en algunos casos pesa más de 50 kilos y el clavo que puso es chiquitito así que también tenes que ver...
+
+Barrientos: Yo tengo una que tiene 3 cuerpos de 3 metros, se abre en tijara 3 metros y sale 2,50 más o menos. 
+Ayudante: Una extensible una tijera extensible?
+Barrientos: Sí. Eso si no tiene punto de apoyo, si tiene punto de apoyo un cuerpo se pone arriba del otro y llega a 7 más o menos.
+Alumna: Buah.
+Barrientos: Así que alguno necesita...
+Profesor: Lo alquilas... Já.
+Barrientos: ... Le podemos alquilar.
+Profesor: Si es segura no hay problema.
+Barrientos: Claro.
+Alumno: Alquilamos la escalera con la cascada de chocolate (chiste)
+Barrientos: Si me alquilan más de 3 días le doy el volcán de chocolate. El mes pasado me salvó 1 semana la cascada de chocolate. Yo había comprado hace unos años, había visto y me gustó viste entonces iba a hacer el servicio porque me gustaba pero no podía pasar el presupuesto porque todo aumentaba de un día al otro, por ejemplo la fruta estaban más cara, el chocolate más caro entonces nunca podía arrancar hasta que dije bueno alquilo solo la máquina y que la persona se encargue de todo. **Y alquilé más de 100 veces.**
+Profesor: Y ellos te limpian todo y te llevan?
+Barrientos: Sí sí sí, salvo algunos, me pasó con 2 personas que hacen eventos uno el Savier que está por ruta me devolvió llena de chocolate y después otro vago que hace eventos a la noche generalmente no aclaraba pero ahora si le digo, se entrega limpia y le explico todo como limpiar.
+Profesor: Está bueno.
+Ayudante: La escalera si vos alquilas hacelo con cinto de seguridad. **Tiene que venir completo, la escalera con el cinto**.
+Barrientos: No, yo alquilo. No no no, vos sabes que una vez me pidieron es más tengo que conseguir el arnes de seguridad con la **línea de vida**.
+Profesor: Línea de vida.
+Ayudante: Está eso (línea de vida) o un cinto que se ata por la escalera y vos te pones por la cintura.
+Barrientos: Claro, yo alquilo andamio también y a veces me piden porque el albañil canchero no. Ese te sube 4 o 5 andamio sin nada. Pero por ahí hay gente que quiere hacer un trabajito en la casa y tiene miedo.
+Profesor: 3 metros 4.
+Barrientos: Pero yo llevo 1 tablón, te llevo 1 tablón sin cargo los otros tablones te cobro. Y hay gente que quiere hasta 3. Y el albañil no, tablón de madera sin tope nada, así no más.
+Ayudante: Hay gente para todo. (Hora 02:00:07) Ese macho alfa, albañil alfa.
+
+Profesor: Todo. Este agarró hoja (ruido).
+Alumna: Hizo un mp3 comprimido.
+Profesor: Sí.
+
+Bueno estamos mañana entonces? El que quiera una fotocélula por ahí, ahí como el señor vamos a probar total.
+
+Barrientos: Este es el que compré (proyector) ahora figura por precio 324 usd pero estaba en oferta en 165 usd.
+Profesor: Sí sí, lo que tengo es el otro. El proyector redondo (tiene android el del profesor). Voy a traer ahora.
+Barrientos: O sea pero el fin de semana me llegó.
+Profesor: No, pero anda bien boludo. Vos sabes que tengo un sobrino que es fanático del equipo.
+Barrientos: Claro, le conecta a la consola de juegos todo.
+Profesor: Sí, y mira ahí a veces películas tiene ahí en el campo y tranquilamente a la pucha este tipo se junta con los vagos y empieza a ver películas, come un asadito y todo ve el partido de futbol.
+Barrientos: Claro, espectacular.
+Profesor: Después ya empezás a alquilar ya.
+Barrientos: Más vale, todo alquilo.
+Profesor: Está bien, la pantalla me interesa voy a ver si puedo conseguir ese.
+Barrientos: Tiene 2 modelos, uno viene con tripode y después otro tiene con 2...
+
+Me fui.
+
+---
+
+Fin.

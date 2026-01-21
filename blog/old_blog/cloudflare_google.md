@@ -1,0 +1,30 @@
+---
+title: "Cloudflare vs Google"
+date: 2025-10-29T06:46:49-03:00
+tags: ['google']
+---
+
+https://stallman.org/archives/2025-jul-oct.html#25_October_2025_(Cloudflare_verses_Google)
+
+Cloudflare is leading a campaign for websites to tell Google they do not permit usingtheir pages to train a bullshit generator. This is to pressure Google Search (and other search engines) to stop displaying bullshit summaries instead of search results [2] about those sites.
+
+I agree that bullshit summaries (as they are now) are a bad thing, partly because they are made by programs which are not intelligent, so they are often confused and misrepresent what the site really says.
+
+In other words, I don't think that training an LLM with the page is doing wrong to anyone. What does wrong to the people who have the web site is showing the public theLLM output instead of search matches in the site.
+
+I have little sympathy for the desire to "monetize" a site, because (1) that word is a sleazy disguised way to talk about charging a fee for access, and (2) paying on theweb identifies the user [3] and requires running nonfree software [4], and I reject both on principle.
+
+I might occasionally be willing to pay for access to a web page if I could do so anonymously without running nonfree software. This could be implemented using GNU Taler [5]. However, this would only be just if it does not include signing agreement to a freedom-trampling set of terms and conditions.
+
+---
+
+Mi opinión: Las empresas de "tecnología" van en contra de la tecnología para ganar más plata ahora Google tiene que empeorar su producto para satisfacer a esas páginas.
+
+A estas empresas de "noticias" "tecnología" les da bronca que la gente use ChatGPT y el resumen de Google (AI overview) para todo y no ingresen a la página para que veas una publicidad de mierda y de paso que veas otra "noticia", pero supuestamente se cubren diciendo que están desinformando a la gente cuando a ellos nunca les importó "desinformar" a la gente si todo su negocio es la publicidad. La publicidad debería ser ilegal.
+
+Ellos son víctimas de su propio juego: Una vez más, la plata cada vez está más concentrada en el mundo. 
+
+Lo mismo pasó cuando Google quitó el "VER IMAGEN", Google empeora su "tecnología" para que veas una publicidad, porque en la tecnología no hay plata.
+
+_Si una persona tiene toda la plata del mundo, la plata no vale nada_ - George Hotz.
+

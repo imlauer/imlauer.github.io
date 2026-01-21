@@ -1,0 +1,325 @@
+---
+title: "Electricidad / Clase 50: Repasamos simbología. Continuamos con dibujo en escala para cálculo de materiales."
+date: 2025-08-04T21:54:30-03:00
+tags: [electricidad]
+---
+
+#### Audio en Vocaroo:
+
+https://vocaroo.com/16EjsGG7ysfn
+
+#### Audio en Archive:
+
+https://archive.org/details/record-200
+
+#### Audio en YouTube:
+
+https://www.youtube.com/watch?v=bdpokpOHJ4s
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidk2thIHOrdGZI-HqbaH1OSG23Mqr_-ozZ3yA3wXW0ukRU1KoYaCojYAg3Ohw2KsoaMfZcQyXlSbpMO2RQSzCpdCenFZC-7IQ1dXixVJFxC4elCWVevmXOraA9dRtRxJoGCBXEgqZub5oVB2X-AgUwGr9VVtDDVMrx_lxySvh3Z9Iv7GqEQHTY3hyphenhyphenfRgI/s4160/IMG_20250804_191630358.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKLBGnqOupN_yonpqt0tOVc4gvDNnvNh0VEtsZDvqRD5se-0fhk3ACtudZsYxEzN1CFomkIJ64HxWmWQhq1MXB3nIEYupEqMt_PhH51H13Eg9eCcB10jBipU7QEaH4dTZ4Zeo_J_JLaLvLZnoR8cS7Y7IM3y8vxWEvWhJpiOSPxOH3a4thGxDb44vESOw/s4160/IMG_20250804_191634352.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh82TK-tZX6GPtRotKZ4ZlG60sMygvzNI4A2YqYwZHf0vKJZxf5PPmDIMll4qjX4vrg2UjsyiA0qiblfgcLeM0vvrmBU2x6Fz5w6Fgdp6xEUwApLyJ1LdiB-4y3yHrERh4CM4FGyOHalLqNr2xsW7lCCIzH9ZJ4RP9ChGCpxVWoczPiaX1FCFe8nT_BMnw/s4160/IMG_20250804_202525611.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwtDduZhN_pFbKoNPbpOpHf7j0fxHcOZEX_9asddZIppv0ZDnGpGJWL8fhKRnInJ5JDxwnXu4UN4azdWbkZ38MX0agGuNkMHLp8iMMCJi2GJ-KPgH38W7ezrePk_0V1gL0O2TlQSPvmclB3gn055F9rU3Lq6Np2oT-xSHbqPCnnIoIN3rGYny47ClgZLI/s4160/IMG_20250804_202536799.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW8_wk6MFG-C-n1eCFPUCHysoRnPE0kn2qCmGMKNz5-d3JdX0NuV3O-u8S763FxZ4ufkk5sjc9mk6zQhF8cvVoEeDLNEQbI-UF77fmXqH9J6DErXElYUe52aTCrKJYNzDP7R9WE0eAgesmmtryEyaDP6VL6EbG-xm0BvyBz1xP_guD39WqzuzzG-6Mf0M/s4160/IMG_20250804_202538283.jpg)
+
+##### Transcripción
+
+Profesor llega en el minuto 5.
+
+##### Ustedes deben tener la posibilidad de entender el tema de las escalas, y como yo voy colocando las bocas los tomas y después veremos como marcamos los caños y como calculamos cada cosa.
+
+Por eso me interesa que ustedes no se apuren en entender, después les daré cosas impresas..
+Acá la idea es trabajar todo junto para que sepamos como es la secuencia y después el día de mañana saber como hacemos la lista de materiales.
+
+###### Como hacemos lista de materiales.
+1. Saber la escala, que escala estoy aplicando acuérdense 1:50 y 1:100 es lo que más utilizamos en la parte eléctrica.
+2. Luego pasos que hacemos para poder diagramar esto se hace en un plano pero después cuando a ustedes les toque un trabajo particular y tengan que esquematizar sepan como hacerlo si no tengo regla tengo una hoja cuadriculada, como hago el esquema sin tener ni un metro necesito pero deben saber. A veces no necesito un metro pero necesito saber cuánto es mi paso, generalmente en algunos casos es 1 metro aproximadamente pero sirve para poder por lo menos tener idea exacta de cuánto estamos no vamos a hacer pasos tan grandes tampoco,
+###### es importante tener una forma de medida para poder esquematizar, sino vamos a esquematizar y no tenemos los valores aproximados. La otra es tener un metro.
+
+---
+
+Estas son las 1eras aulas que tuvimos por eso era chiquita y larga, nos daba una idea particular esto saqué revisando la computadora tenía un práctico ahí.
+
+###### Ya hicimos el esquema a través de la escala 1:100 1:50 empezamos a colocar las bocas, faltan los tomas de aire acondicionado, acá había una llave y acá había otro toma por acá y una caja de paso.
+
+A la gente nueva si hice bien las cosas, hice bien las fotocopias ahora les voy a dar los símbolos más usados que hacemos para lectura de planos eléctricos y generalmente arquitectónico, debe estar por ahí.
+
+###### Lo importante es conocer los símbolos.
+Después regalaré algunos planos que tengo tirado.
+
+###### La particularidad es siempre que estemos haciendo la instalación saber de donde sacar la alimentación necesitamos alimentación 220, lo podemos encontrar en un tablero, este tablero si no está acá directamente está en un lugar cercano o en algún lado en donde tomo la alimentación, acuérdense que esto es tablero seccional con puesta a tierra (en el dibujo)
+
+###### O sea que de algún lado yo estoy encontrando seccional acuérdense que siempre atrás del medidor está el tablero general. Dentro de la vivienda está el tablero seccional y en el tablero seccional es donde está generalmente todas las térmicas o termomagnéticas que protege al conductor de todos los circuitos, o sea que en algún lado yo tengo que tener la alimentación de eso principal.
+
+
+###### A partir de ahí cualquier lugar en donde yo tenga vivienda lo que sea, en algún lugar algún sector habrá una caja de paso, ¿por qué habrá un caja de paso? porque necesito tener derivaciones a distintos lugares entonces en algún lado tengo una caja de paso, a partir de ahí se empieza a trazar líneas, esta línea indica generalmente cañería entonces esto supongamos que puedo bajar por acá directamente esto como es un toma de aire acondicionado. Toma de usos generales son los que tengo alimentación para cualquier artefacto o aparato que tenga potencia menor de 2000 watts.
+
+###### Tomas especiales tendremos la posibilidad, la mínima cañería que utilizamos nosotros son 3/4 en los gráficos aparecerá 19/16 RL o RS(cañería metálica), luego otra: TR (caño rígido). 
+
+##### O sea que depende de como uno lea el plano se dará cuenta de qué tipo de cañería es generalmente en algunos planos figura en un costado que tipo de caños estamos utilizando, principalmente los materiales.
+
+##### 19/16 = 19 diámetro externo, 16 diámetro interno. A nosotros nos interesa el diámetro interno porque hay una parte del reglamento que dice que internamente depende de la cantidad de circuitos hay un 35% de esos caños que debe ser ocupado por los conductores, lo otro es espacio libre. El espacio libre es porque cuando la corriente pasa por el conductor genera calor, ese calor debe ser disipado y se disipa en la cañería si el calor es demasiado con el correr del tiempo esa cantidad de circuitos los conductores se empiecen a perder la aislación, puede provocar un cortocircuito si se junta con otro conductor y comienzan a resecarse y se empieza a quedar duro.
+Todos los conductores tienen elasticidad porque tiene hilos de conductores internos que hacen que esto sea maleable, si la corriente pasa por dentro del conductor con los hilos de cobre directamente esto empieza a sufrir calor por mucho consumo mientras esté prendido la corriente que pasa acá es muy elevada, después se enfría y se vuelve otra vez, es como si estuviéramos en una herrería no sé si ustedes alguna vez calentaron un hierro después pusieron en frío de vuelta con el agua, eso se templa 
+
+###### En cualquier plano que ustedes vean va a indicar en su parte superior puede aparecer 19/16 o directamente solo 16, esto está dado en milímetros pero comercialmente nosotros pedimos un caño de 3/4.  En un plano técnico para hacer aprobado tiene que aparecer 19/16 que está en milímetros.
+
+Abajo aparece un número para conformar o para hacer un circuito directamente yo necesito mínimamente 2 conductores, sistema monofásico (fase y neutro) y tiene un elemento receptor, entonces aparecerá un número primero multiplicado por la sección del conductor, la sección del conductor depende de qué característica tenga pero normalmente el reglamento que nos posibilita a nosotros a tener una idea exacta o aproximada porque podemos recalcular eso me está indicando que iluminación generalmente siempre se debe utilizar secciones de 1,5 mm^2, esa es la sección del conductor.
+
+###### Este es 1,5mm^2 sección del conductor es para iluminación. Hay algunos que dicen para qué tanta sección de conductor si últimamente estamos utilizando LED que tiene bajo consumo, no sabemos puede ser que utilicen otro artefacto con otra característica.
+Tomacorriente 2,5mm^2 de sección.
+
+##### Siempre se hace una comparación entre agua, una cañería de agua y la parte eléctrica esto es como si fuera un conductor, entonces ¿qué hace la cañería de agua? Cuando más sección tenga la cañería de agua menos resistencia al paso del agua tenes, lo mismo ocurre con la sección del conductor, a mayor sección de conductor es mejor el transporte de energía de la corriente, no sufrirá un deterioro.
+
+###### Tomacorriente especiales siempre se usa 4mm^2, no me vengan con que si usted pone para aire acondicionado siempre el mismo verso, no que es demasiado, acuérdense luego veremos una tabla en la cuál se halla la sección del caño a través de la sección del conductor de las cantidades del circuito y la parte del reglamento de las normas dice sección mínima de cañería (de ahí para arriba) lo mismo aplica a la sección de conductores.
+Siempre la norma te habla de mínima porque te habla de seguridad, después si vos queres poner más grande por más que el cálculo te de un valor de sección menor lo ideal es porque lo que dice el reglamento.
+
+Habrá una cañería que es 7/8 vamos a trabajar con pulgadas porque después es más fácil para verlo, después podemos cambiarlo, ustedes recibirán algo parecido.
+
+##### En todos los planos en todos los planos tienen que saber que este símbolo es una caja 10x5, una caja de 10x5 me indica que yo puedo colocar en estos casos 2 puntos y 1 toma, he visto en algunos planos que ponen una caja 10x5 un toma y 3 módulos, lo ideal ahí estás hablando de 3 módulos de toma, o sea que estoy teniendo 4. 
+Profesor al ayudante: traeme un cajita y un bastidor.
+###### Profesor: Los módulos normales ustedes dicen sí pero puede haber más llaves y si porque ese módulo que era realmente uno puede ser divido en 2 entonces puedo tener también otros módulos con otras características pero generalmente en una cajita entran 3 módulos, en este caso entrará exclusivamente fíjense 2 módulos de llave de 1 punto y 1 tomacorriente. Entonces tengo la idea de qué cosa va ahí.
+
+Fíjense ahora los tomas. Apenas veamos los símbolos.
+Esto es un módulo, esto es un bastidor y esto es un módulo, entonces en este bastidor tranquilamente con esta característica entrará 3 módulos más de eso, pero eso no significa que haya otra marca que tenga más módulos.
+
+Cuando yo miro un plano entiendo, tengo conozco la simbología acá de entrada tengo que saber donde está la cajita 5x10. 
+Toma, toma, toma, caja 5x10 y después tengo que ver el tema de las alturas, mañana cuando empecemos con la otra gente si quieren venir más temprano les daré la simbología y una clase para ver las alturas, para que tengan idea de qué es lo que estamos haciendo.
+
+###### La altura en un toma normal con respecto a nivel de piso es 0,40 metros
+###### Es interesante porque fíjense que acá se le dió una altura de 3 metros (cielo raso) porque después tenemos que sacar la diferencia entre 3 metros para saber la longitud de caño.
+
+Hablando de quién hizo los dibujos de escala. 
+La escala es para ver la superficie 
+###### Acá habíamos dicho 4x6 es una superficie de una planta y ahí estamos colocando las bocas, acá era fácil: mitad del dibujo trazo las 2 diagonales y tengo los 2 puntos ahí, si quiero meter 3 bocas, acá tengo 6 metros entonces hago 2 y 2, puedo hacer 3 rectángulo de 2x4, 2 y 3 y puedo colocar hasta en el medio, una acá y otra acá puedo tener hasta 3 bocas.  Lo que le estoy enseñando lo que hacen los proyectistas, depende de la cara del cliente les dirá necesito 3 bocas acá, 2 bocas, necesito que tenga 4 bocas, eso depende de qué característica tenga, sino viene un profesional que es eel arquitecto y les dice necesito iluminar esto con cierta cantidad de lúmenes pared este tipo de artefacto entonces se va proyectando de acuerdo a las característica que tenga esa obra en particular pero es fácil de hacer las dimensiones.
+
+###### Vamos a empezar por el toma especial,  el toma especial que es el aire acondicionado este que estaba acá arriba era un toma de pared, para un aire acondicionado embutido (plano en el pizarrón) que estaba colocado a 1,75 el toma, supongamos que ese es un split. Vamos a redondear a 3 metros ahí si yo tengo split habíamos dicho que esto está a menos 0,30 del cielo raso. 
+##### Si yo tengo un cielo raso suspendido lo ideal es que nosotros como instaladores hagamos menos esfuerzo porque trato de hacer todas las cañerías por arriba y bajo.
+
+###### El profesor ha tenido un alumno haciendo una obra que no tuvo la mejor idea que picar toda la pared y bajar la cañería, hizo todo el recorrido si yo tengo cielo raso suspendido tengo que tratar de mandar todas las cañerías que puedo por arriba y después bajo lo mismo ocurre cuando hacemos construcción en seco, con los perfiles hacé las bocas ahí si podes o tenes cerca pones otra boca sino directamente mandá todo para arriba, y después empezá a unir.
+
+Qué características las posibilidades que tenemos?
+###### Tenemos una boca octogonal, la boca octogonal tiene 8 salidas porque dice octogonal eso que ustedes ven que son las cajas que están las bocas normales tienen 8 salidas o sea que podemos hacer varias derivaciones por arriba hoy justo me acordé porque hay una parte de la norma que dice como agrupamos los conductores como hacemos los circuitos, todo viene en parte de la reglamentación entonce ya empecé a imprimir algunas cosas.
+
+###### El reglamento es grande y tiene muchas hojas y para leer todo el reglamento hay cosas que no van a entender otras que no son de utilidad para el desarrollo de la práctica, lo ideal es que lean lo poco que les voy a dar.
+
+###### Pusimos todas las cañerías entonces tenemos 7/8 y el conductor que va ahí es `2x4+T` en circuito de aire acondicionado, eso circuitos especiales van aparte en cañería aparte. Generalmente el mínimo conductor que utilizamos es de 4mm^2 en algunos casos cuando la ducha eléctrica está a una distancia bastante lejos de un tablero general y depende de qué potencia tenga la ducha eléctrica, generalmente una potencia normal 5500 y puede llegar a 6000 y pico watts depende de qué lugar esté mi tablero y de donde traiga mi alimentación ese conductor mínimo es de 4mm^2 pero de acuerdo a mi distancia hay una fórmula que después iremos viendo que es por caída de tensión puede probocar que ese 4mm^2 depende de qué longitud tenga puede variar y llegar 6mm^2.
+
+###### Esa caída de tensión aceptable depende la distancia que tenga el artefacto, es de máximo 3% de caída de tensión admisible o sea si yo tengo 220 voltios allá 3% sería llegar acá con 180 y pico pero eso me puede variar con respecto al conductor, luego sacaremos los cálculos.
+
+Hoy estamos dando escala, en la escala estamos diagramando las bocas, esas bocas considerando lo que yo necesito para cualquier plano que yo tengo esto es lectura.
+
+###### si yo agarro un plano 1ero tengo que saber el tipo de escala si no tengo la escala me dan un dibujo cualquiera entonces lo que tengo que ver 
+###### Como se hace si no sé la escala de un plano que me dieron? Mido en escala 1:100 acá me dice 3 metros con el escalímetro y tengo que ver el dibujo en el plano qué medida tiene, qué decía la escala que era una proporción del numerador y el denominador. Escala proporción: numerador indicaba el bosquejo que estaba el plano, y denominador la medida real.
+
+1 cm en el dibujo en escala 1:100 me indicará 1 metro en la vida real.
+
+\* Mide el dibujo con el escalímetro.
+
+17,2cm supongamos que tenemos 17 cm medido en escala 1:100 entonces yo tengo acá 3 metros entonces tengo que dividir 17 cm son 5,66 metros, eso es una proporción de la escala vamos a suponer que yo tengo que multiplicar todas las medidas por 6 para que me de el valor real.
+
+Al profesor no le gusta la remera porque tiene demasiada propaganda (atrás dice grande "CFP Nº 17", según él el logo frontal ya era suficiente.
+
+Cualquier medida primero vamos a resolver esto para que vean después como se hace cualquier medida principal yo les daré cualquier dibujo también hay diferentes escalas pero la idea es que ustedes sepan como se hace un plano eléctrico.
+
+Tengo la escala, tengo hecho el plano paso de acuerdo a la simbología y hago toda la cañería acá me está faltando una cañería, después les daré algo parecido pero me interesa como se hace un proyecto y como se va diagramando.
+
+##### En las cajas de paso , las cajas de derivación llegan todas las alimentaciones principales, porque hay una parte de la norma que dice que entre 12 y 15 metros tengo que colocar una caja de paso. Yo tengo una cañería de alimentación cada 12 metros o 15 metros una cañería de paso, generalmente nosotros colocamos entre 8 y 9 metros porque la cinta métrica la que no se enrolla es de 10 metros, después pasa a 15 y a 20.
+Si ustedes ven que cada vez que compren una cinta más larga hay probabilidades de que cuando ustedes pasen el cable se forme una galleta (se enreda) se usa la de 10 metros por eso se trata de hacer que la caja de paso esté a una distancia menor de 10 metros.
+
+Si o si acá me van a llegar mínimamente 
+
+Ahora ya no se utiliza los circuitos mixtos, pero generalmente todas las normas me están pidiendo que todos los circuitos sean independientes, un circuito para iluminación, un circuito para tomacorriente, un circuito para tomacorrientes especiales, porque cada circuito tendrá una sección diferente y esa sección diferente tendrá un interruptor termomagnético que protegerá ese conductor.
+
+###### Circuito mixto: pongo en el mismo circuito tomacorriente e iluminación. En la norma me está diciendo que yo coloque iluminación 1,5mm^2 y 2,5mm^2 en algún lado aparecerá 2,5mm^2 y 1,5mm^2 ese circuito nace en el tablero seccional.
+
+En el tablero seccional nace el circuito mixto, pero el interruptor termomagnético que protege ese conductor tiene que ser el de menor sección, el interruptor que está en el tablero tiene que ser el interruptor para proteger el conductor de menor sección.
+
+Si yo tengo un circuito mixto, si tengo un circuito de menor sección fíjense y pongo un interruptor termomagnético (ITM) de como es bipolar: 2x10 amper eso protege el conductor 1,5mm^2, si yo pongo un circuito mixto iluminación y tomacorriente acá le estoy limitando a la sección es decir puse al pedo el 2,5mm^2.
+
+Alumno pregunta qué es un circuito mixto.
+
+
+Alumno: Pregunta si deriva del toma de iluminación o de iluminación a toma?
+Profesor: No, el circuito mixto vos salís con 2,5 mm^2 y si justo en el camino tenes iluminación agarrá esa iluminación y bajá a tu llave de punto después tenes que seguir porque tenes que llegar acá a 2,5mm^2, si o si 2,5mm^2 acá.
+
+##### Cuando yo protejo ese circuito mixto tengo que proteger con un interruptor de 2x10 protejo el menor conductor. Entonces las normas me dicen para que pusiste circuito eléctrico si me estás limitando la potencia.
+
+Alumno: Nosotros solemos poner eso en los baños, pasa por la iluminación y baja al toma.
+Profesor: Las normas me piden que todos los circuitos sean independientes, o sea que tome circuito iluminación por un lado y tomacorrientes por otro.
+###### pero las normas me dicen que en esta misma caja no puede haber 2 circuitos, puede pasar un circuito por acá por esta puede ser caja de paso para abajo y va a un tomacorriente pero no puede haber una conexión de 2 circuitos diferentes.  Entonces en el baño es el único lugar en donde se pone el tomacorriente acá con la llave de punto y esa característica o el interruptor que está protegiendo es de 10 amper, se supone que vos no vas a meter ningún equipo ahí. Anécdota: Eso ocurrió en una vivienda en invierno hacía frío y pusieron un caloventor y se puso a bañar al poco tiempo salta el interruptor, y quedó a oscuras la casa.
+
+Las casas antiguas tenían de gran superficie los baños, ahora son todas reducidas.
+
+Evidentemente al principio no pasó nada porque ella colocaba acá se bañaba, la ducha eléctrica también funcionaba y con el tiempo se comenzó a resecar ella sentía olor a goma quemada, se estaba quemando la aislación. ¿Qué hizo la tipa? Consultó y le dijeron si no salta el interruptor no hay problema, el problema es que un electricista en vez de poner la térmica de 10 amper le puso una térmica de 20 amper, se bañaba tranquilamente y después se quemó el conductor, ahí recién se dió cuenta que estaba mal calculado el elemento que protegía el conductor.
+
+##### Iluminación por un lado, tomacorriente por otro lado y la única excepción de la regla es del enchufe que está en el tomacorriente que nosotros si o si llegamos con 220 voltios ahí del mismo circuito mixto y hacemos la derivaciones para las luces.
+
+###### Tenemos cajas generalmente las más simples: 10x10x5 pero vienen otras que son más anchas vienen 10x10x7 y luego 10x10x10, eso me implica que yo necesito ver que esta caja de paso que era caja de paso distribución y derivación yo ahí hago los empalmes, entonces tengo que tener una caja para que pueda trabajar tranquilo, hay gente que revisa una instalación y ve esa caja de paso y saca y empieza a salir los cables, y ni entienden por qué pero con el tiempo y dedicación le van peinando y arreglando los circuitos, entonces esa caja de paso también recibe todo el calor, por efecto Joule del aire acondicionado, ducha eléctrica lo que pase por ahí, entonces hay fórmulas que hacen los proyectistas que depende de la cantidad de derivaciones y depende también de qué conductor pasa por la caja, esa caja tiene una determinada sección. Normalmente en una vivienda 10x10 o 15x10 es lo que más se usa varía entre 5 y 7. A partir de esta caja ya vienen las cajas con tapas, las otras de 10x10x10 todavía no.
+
+Una época había problemas con las cajas de plástico de Genrod porque uno ponía la tapa ciega que tenía que atornillar y no coincidía acá, después se empezó a mejorar cuando vino la gente de Genrod a hacer la capacitaciones entonces se les planteó eso y se les mostró, efectivamente esas tapas ciegas que antes venían de chapa color blanco generalmente, uno colocaba ahí y no coincidía entonces dijeron que la próxima iban a ponerse en campaña de hacer, la conexión a través de la fábrica que cualquier tapa ciega coincida con eso.
+
+7:50
+De esta caja supongamos que es 10x10 por ahora y ya parte un caño de 7/8 y un circuito `2x4+Tierra` de acá directamente hasta ahí
+#### acuérdense una línea me indica una cañería pero también cualquier cualquier arco cualquier otra forma me indica una cañería.
+En el dibujo uno trata de hacer una quebradita para que sirve eso para directamente poder tener una mejor lectura, les digo esto porque si yo tengo un escalímetro, o una regla hasta el metro la medida siempre se toma de boca en boca, yo tengo de acá a acá la medida acá es esto.
+
+##### Una vez me preguntaron: y si tengo una curva no se toma? Si se toma directamente así (en línea recta). Se toma en forma recta.
+##### Cuando aparece una pared esa boca que estaba ahí alimentaba esto va derecho hasta ahí en toda pared existirá una bajada, en esa bajada no puedo tener cañería distintas sino un elemento auxiliar que sería la curva, el tipo que hace el proyecto aparte ya va a ir viendo que esto que está recto acá, perfecto llega hasta la pared pero luego tendrá que bajar a través de una curva como cielo raso está a 3 metros fíjense: 3 metros con respecto a nivel de piso menos 0,40 que tenía que estar la cajita: 2,60 metros entonces 2,60 es este conductor, esta cañería. Luego haremos, quiero que sepan como se hace la lista de materiales y qué debo tener en cuenta, siempre en donde encuentro una pared tengo que bajar, si tengo la caja ahí, en esa pared existirá una curva y tengo que tomar la diferencia de la altura del cielo raso menos la cajita que soporta los tomas y ese valor es la cañería que está acá. En síntesis el valor de esto más la bajada. Fíjense que es sencillo, qué habíamos hecho acá: acá tengo 4, esto hasta acá la mitad es 2 metros, ya tenemos 1 distancia 2 metros. Eso es para el cálculo.
+
+\* Soledad toma lista.
+
+##### Cualquier planta si yo tengo las dimensiones yo también puedo hacer sin una precisión con un escalímetro, sino directamente utilizando como base las medidas, siempre acuérdense que las medidas internas es lo que yo necesito, no las externas.
+
+Lo que vamos a hacer ahora les pondré que cañería estamos utilizando todo 3/4 acá, 
+##### Todo 3/4, cañería especial 7/8.
+
+Ya tenemos el tipo de cañería pero nos faltan los conductores.
+
+Para los nuevos: circuito cerrado y ver como se arman los esquemas eléctricos básicos de una vivienda.
+
+A veces se contrata a una empresa van a revisar una instalación y ponen relevamiento o verificación de la instalación eléctrica. Una empresa contrata a un electricista y dice verificame la instalación eléctrica como está y después aparece un valor bastante salado, eso hacen las empresas constructoras y aducen que el relevamiento y la inspección ocular, es decir miro si andan o no los focos.
+Para hacer una buena inspección tengo que ir al tablero revisar ver como están los conductores 
+###### algunas empresas hacen esto: revisan de forma ocular, tienen todos los interruptores listo funciona piensan, pero en realidad tienen que revisar los conductores que están dentro. Lo mismo ocurre por cada boca, o sea si vos vas a cobrar un valor que es salado, o un porcentaje del valor real (total) tengo que revisar todos los cables si están sobrecargados si hubo un cortocircuito, ese es un relevamiento bien hecho, a ver si todos los circuitos son bipolares, uniopolares, si los interruptores son los adecuados.
+##### las empresas constructoras que son bastantes amigos directamente cobran un precio por ese relevamiento solo por visión ocular y la plata es buena, entonces el profesor los rechaza y les dice que pongan como arreglo recableado de algún lugar, pero no pongan relevamiento e inspección ocular un 10% del valor real de la obra, ¡estás loco!
+Alumno: Para eso no se usa megómetro, telurómetro.
+###### Profesor: Sí, pero armá un informe bien hecho. Revisé tantos circuitos y me dió esto la puesta a tierra... Porque después vas a la escuela y dicen que la empresa constructora con la gente de electricidad: cambió artefactos y te pone ahí reparación de la instalación eléctrica, nada que ver porque lo único que hiciste fue cambio de artefacto, no es reparación de la instalación eléctrica.
+
+Vicio oculto: una cañería que se supone que hay 2 conductores arriba pero no saben si hay caño o no hay caños para revisar tienen que sacar el plafón este y ver, todo ese vicio oculto a veces si no pasa nada, no hay problema de cortocircuito sobrecarga, pasa los años no hay problema, pero el día que haya un problema ese vicio oculto hay que revisar.
+
+###### Hoy en día la mayoría se hace con cieloraso de PVC, ese cieloraso PVC para poder entrar arriba como instalador no tenes posibilidades, acá por ejemplo tenemos el cielo raso y hay una entrada de hombre 60x60 y hay posibilidad de revisar todas la cañerías pero en el cieloraso hay que romper, hay que usar varias placas y depende de que lugar vaya sacando y ahí empezá a revisar o sea que hay un vicio oculto que no se ve.
+
+Si quiero hacer una revisión de una instalación eléctrica yo tengo que cobrar porque dicen hay que cobrar por lo que uno sabe, si pero solucioname el tema de los circuitos, decime qué problema tengo, si tengo puesta a tierra o no.
+
+###### Si inspecciono una obra lo 1ero que hago es revisar los tomas si tienen puesta a tierra y en un toma doble reviso si los módulos no están puenteados, tiene que tomarse directamente del conductor.
+
+###### Por qué no se puede puentear los módulos en un toma doble? La sección de conductor de 2,5mm^2 tiene una capacidad máxima de 18 amper si yo uno conductores de 2,5mm^2 se suman entonces cada módulo es de 10 amper el conductor es de 2,5mm^2 entonces sobrecargo este conductor, lo ideal es que todo artefacto o enchufe me soporte el conductor. Por eso las normas dicen unime al conductor.
+
+Se ve gente que usa planchas y otros elementos y aparece una quemadura en el enchufe, una sobrecarga. 
+
+##### Lo importante es que la puesta a tierra tenga continuidad y a veces esto que está acá cuando ponen los módulos se tocan entonces hay que entrar de costado y girar, pero tiene que estar la puesta a tierra conectada, si está cortada ya no sirve.
+
+##### Habrá 2 escalas: 1:50 y 1:100 para que ustedes vean, cualquiera de las escalas que uno tome para calcular la lista de materiales, si tomamos con 1 metro o con una regla normal si tomamos escala 1:50 después lo que se hace es divido 2 la medida divido 2. Fíjense que este 1:50 y este es 1:100.
+
+Acá no hay problemas porque tenemos solo hay 1 medida ahí `2x4+tierra` por ahí llega los aires. Acá me interesa es importante que tengan en cuenta si viene una línea del tablero seccional lo correcto sería que venga con 2 conductores de la misma característica o sea si yo tengo tomacorriente y tengo iluminación generalmente cuando uno hace los proyectos pero tampoco está mal yo pongo directamente acá va a haber: C1,C2. C1 iluminación C2 tomacorriente.
+
+Entonces si yo vengo desde lejos desde un tablero seccional ya vengo una cañería con 2 circuitos y generalmente para no confundir traigo y ya pongo, acuérdense que la fase puede ser: rojo, marrón o negro. Y el azul es el neutro. Son colores convencionales en el reglamento y al revisar una instalación tengo que ver.
+
+Me dicen (excusa): "no pero el propietario me compró un rollo del mismo color" puede ocurrir pero tengo que diferenciar en cada boca que yo revise tiene que haber, ese rojo que está ahí que tiene una silueta o tiene pegado una tela, tenga la posibilidad de qué 
+
+Si yo tengo 2 colores iguales en algún lado cuando yo abro una boca tiene que aparecer un rótulo que diga que ese cable que está ahí ese es la fase y el otro es el neutro. El verde-amarillo tiene que aparecer si o si, no puedo meter otro cable color negro lo que sea, lo otro si, pero si pongo el mismo color para fase y neutro tiene que decir en esa boca que ese que está rotulado es la fase acá va aparecer rotulado que está la fase.
+
+Toda caja que yo abra tiene que aparecer rotulado tipo una curita, que ese conductor es la fase.
+
+Si yo tengo que hacer eso para mí es más fácil poner 4 conductores de 2,5mm^2 más tierra.
+##### Cuando aparece una T grande en el dibujo significa que `T1 + T2` puesta a tierra porque el conductor de protección debe salir directamente de la bornera de puesta a tierra del tablero principal por cada circuito. Acá tienen la puesta a tierra pero tiene que tener un conductor de puesta a tierra por cada circuito.
+
+Y en algunos planos como sabemos que es milímetro cuadrado la sección no se escribe. En algunos planos se pone 4x2,5mm^2+T (no se pone más así porque queda muy grande en el plano y ya se sabe que es mm^2).
+Hay planos que aparece 2,5mm^2 pero en realidad figura solo 2,5 sin la unidad.
+
+Alumno: Ese cable desnudo de 2,5mm^2 se sigue usando o no?
+Profesor: No. Tiene un porque pero después vamos a entrar en la parte de la puesta a tierra, generalmente usamos solo desnudo en la bajada de pararrayos, o directamente cuando tengo un tablero tengo que hacer y colocar la puesta a tierra ahí, a la jabalina (a veces se usa no siempre).
+
+##### Nosotros antes utilizábamos cañería de hierro, y con el conductor desnudo pasaba que no tiene nada que ver con la cañería sino que directamente se formaba tipo un espiral, vos pasabas los conductores normales y este conductor se hacía tipo un espiral y cuando vos querías pasar otro conductor o aumentar la capacidad del conductor había que sacar todo. Y 2do la gente siempre dice : "si hay una pérdida se transmite por toda la cañería" es cierto pero yo tengo la puesta a tierra y tengo el diferencial ahí, reacciona más rápido pero siempre hay un verso para vender el PVC.
+
+Ahora quieren poner PVC fíjense como va cambiando los tipos de materiales porque si ustedes ven todos los medidores que hicimos hasta los medidores habitacionales y de vivienda eran todos con cañería de chapa, todo de material metálico,
+##### ahora hay un convenio con la gente de Genrod y otras empresas que hacen la parte de PVC y ya tratan de  ya están trayendo de PVC el gabinete, es todo un arreglo comercial.
+
+Qué diferencia hay entre uno y otro? Excusa que ponen para venderte el PVC pero es un mito: "No porque este como está a la interperie puede tener una pérdida por el agua", todas esas boludeces que dicen, la realidad es que si estás bien protegido no hay problema. Pero hay a partir de hace 1 mes salió la nueva disposición de que todo esto se va a dejar de usar (gabinete metálico) y van a usar todo PVC comprado a la multinacional y ya EMSA va a aplicar eso. 
+
+Voy mirando como va cambiando el sistema. En los edificios los gabinetes son más rígidos para hacer todos los gabinetes importante hay que ver como se comporta el PVC, hay que ver como se instala.
+
+Fíjense, viene acá pasa por todo el sistema acá y llega hasta acá.
+Ya que estamos ahí vamos a llegar hasta la boca 4,5 y ahí empezamos a disminuir acá aparecerá el circuito C1 y acá aparecerá `2x1,5+T`, porque tengo esta boca y esta boca hacemos solo iluminación.
+
+Vayan viendo porque tienen que tener idea de como calcular los materiales.
+
+De acá tengo la boca, voy hasta la pared y tengo que bajar si o si porque tengo el interruptor encendido y apagado y tengo 2 acá vamos a poner 1 y acá ponemos 2. ¿Por qué aparece el 1 primero en el interruptor de encendido? Porque el 1er interruptor que va arriba yo entro y me tiene que encender el primer foco más cercano. También puedo hacerlo con 1 sola tecla encender los 2.
+
+Luego daré las medidas de las alturas, a qué distancia de nivel de piso enciende los interruptores y todo, así que luego vamos a emparejar en un par de meses ya están iguales. La idea acá es tratar de nivelar.
+
+##### Primero los símbolos, luego aparecerán las medidas, luego las alturas, con la gente nueva nos falta una clase para que vean los circuitos para que instalen y hagan las pruebas ahí les resultará más fácil leer un plano.
+
+##### Acá fíjense llego hasta acá 2,5 paso yo tengo 1 retorno que va al 2 y un retorno que va al 1, y necesito si o si en la caja o en los interruptores siempre llega la fase.
+##### Ustedes me dicen "no pero yo fui a una casa y no tenía el neutro acá" y es porque instalaron mal, pero normalmente en esa llave si o si tiene que estar la fase, necesito la fase y luego necesito 2 cables más porque 1 va al retorno de 1, y el otro va al retorno del otro, entonces acá va a aparecer `3x1,5+T` llega a la cajita una fase y después sale uno para la lámpara y otro para lámpara. 
+
+#### ¿En la boca de arriba que hay que no aparece acá? El neutro, el neutro siempre está en la boca, el azul siempre aparecerá acá, solo aparece acá como dijo él en el baño cuando tengo que hacer un circuito mixto y ahí va a un tomacorriente, pero en las bocas siempre tiene que aparecer el neutro, porque tengo un circuito monofásico y el neutro me cierra el circuito, si no tengo el neutro no encenderá.
+
+Acá entonces tengo el circuito 1, terminado este con este y llega acá que sale de la caja de paso, acá tengo el circuito 2 acá entonces va a haber `2 conductores de 2,5mm^2+T` llega acá abajo y para no volver por arriba entonces directamente uno este con aquel y va a haber `2 conductores de 2,5mm^2+Tierra` 3/4 la cañería ya voy armando este 0,40 metros acá la altura, ya voy armando la instalación.
+
+Así se va armando cualquier plano eléctrico, fíjense esto que está un gerogrífico, escala de 1:100 pero ahí ya están todas las bocas y en algunos casos ya colocamos el artefacto para que la gente que está mirando sepa que artefacto va ahí, después veremos el tema del fluorescente y ahora todo el sistema de tubo LED son los que mayor iluminación da en un cuarto lectura como se dice acá.
+
+Si tengo que picar la pared me conviene ir todo para arriba.
+
+Profesor habla de una anécdota de alquilar una grúa. (01:34:30)
+
+##### Me olvidé porque hay otros que tienen otro esquema, hay otros que tienen más avanzado de la clase anterior bajaban acá no más (el dibujo a escala diferencia del dibujo que hizo en el profesor), es lo mismo que este solo que acá se le agrega `2x2,5mm^2+tierra` y baja acá, esto no se hace acá y se va por arriba, lo único.
+
+##### Si es caja plástica en cualquier boca la instalación debe aparecer debe aparecer el conductor de puesta a tierra
+
+Vamos a suponer que me toca ir a una instalación, acá dentro no necesito puesta a tierra pero acá tiene que aparecer cualquier boca de iluminación tiene que aparecer puesta a tierra (el color verde-amarillo) en toda boca tiene que tener el conductor de protección, el conductor verde-amarillo. En la caja del punto hay que atornillarlo acá al costado, en cualquier lado tiene que aparecer por más que no se use, ustedes me dicen si acá arriba pero el circuito tiene fase y neutro nada más, sí pero ahora vienen los artefactos exclusivamente metálicos o este también tiene sistema metálico aparece una bornera y aparece la puesta a tierra o sea que tengo que llegar ahí, no hace nada es un conducto de protección pero cualquier descarga cualquier problema que tenga este tiene que descargar primero.
+
+##### Que hace el conductor de puesta a tierra? Mejora el funcionamiento del disyuntor.
+Cuando ustedes vean hay una diferencia entre interruptor principal y disyuntor, el interruptor principal protege contra sobrecarga y cortocircuito el conductor, y el otro protege la vida humana.
+
+###### Una instalación es segura y confiable cuando fue hecho por un personal idóneo y una de las partes de las normas te pide que proteja el conductor y proteja la vida humana...
+
+###### IMPORTANTE: Lo único que no le conté la otra vez capaz que algo les quede: este protege contra sobrecarga y cortocircuito este interruptor puede tener una corriente de cortocircuito que venga de la calle y actúa puede tener un cortocircuito por abajo (aguas abajo) y actúa, y el diferencial solo protege aguas abajo, si tenes pérdida arriba por ejemplo cañerías de la entrada de la casa, el disyuntor no va a saltar.
+
+### Eso es importante porque la gente de EMSA dice: "ah vos tenes un interruptor termomagnético y tu fusible aéreo está (dañado)... Vamos a unir el cable, total vos tenes un interruptor" y es cierto porque si viene un cortocircuito por ahí te protege pero lo que ellos no dicen es que cualquier sobrecarga grande o cortocircuito me puede dañar el medidor. Eso no dicen.
+
+##### Ahora EMSA en vez de poner fusible aéreo (el blanco) están poniendo en el morceto un fusible para proteger.
+
+El fusible cerámico es cuando vos tenes el en una época ahora viene preensamblado tenes el conductor y tenes el cerámico ese, ellos te delimitan la potencia que vas a tener en tu casa, entonces más o menos normalmente es 40 amper ese es lo que ellos nos permiten en una vivienda normal.
+
+Alumno: En los edificios? En mi edificio tengo bien en frente de mi departamento está la bajada del pilar y tiene 4 fusibles creo, y de la línea de la calle entra el conductor ahí, y ahí se mete adentro del pilar va por tierra y entra al tablero del edificio. Y esos son fusibles? 
+
+##### Los APR si vos tenes un poste de bajada ya sea de hormigón lo que sea, arriba del poste está la línea acá, arriba del poste hay 3 APR, esos APR tienen un fusible NH por cada fase y después tiene uno en algunos casos tiene otra base pero esa base tiene una sería ahí va el neutro, tiene un sistema de puente un telefusible¿? (Hora 01:41:50) no se puede poner fusible NH en el neutro, entonces viene ahí la línea baja y ahí entra a tu gabinete medidor, en tu gabinete depende de qué cantidad de departamentos tenes habrá un seccionador de entrada en algunos casos los más viejos, ahora se está poniendo interruptores combo pero salen muy caros vos tenes un interruptor principal de corte acá y viene toda la bajada acá y viene acá y de ahí va a una barra en algunos casos o sino directamente va alimentado a cada medidor, se saca por fase y se hace un equilibrio de fase si vos tenes 8/9 departamentos se va llegando a cada departamento una fase, una fase, una fase y luego se distribuye para que todo el consumo que está arriba, se distribuya.
+
+Eso vamos a ver también, pero son viviendas múltiples. Se hace lo mismo con la vivienda simple, pero en vivienda múltiples.
+
+Ustedes van a recibir un plano y van a tener que realizar una lista de materiales.
+Lo ideal acá es que sepamos de acuerdo a la escala qué medida tengo de acá a acá, ¿de acá como se saca? Fíjense voy por arriba, esto está a 0,30 metros vamos a hacer solo esto, para que vean, vamos a hacer solo cañería entonces si yo hago la cañería que es 7/8 tengo que sumar longitudes entonces primero yo sé que esta caja está a 0,30 del cielo raso o sea lo 1ero que hago sube por arriba la cañería va por todo lado y después baja acá entonces lo 1ero que tengo que hacer es: 0,30 metros de esta cajita para arriba, luego para arriba sigo por el cielo raso llego hasta acá, y esta medida será más o menos tengo si yo tengo este y esto sería esto sería 1 y medio, acá tengo 4,5 de acá hasta acá y de ahí ponele que tengo 5 y pico. De acá a acá vamos a ponerle 5,50 para que entiendan estamos haciendo 7/8, son longitudes que estamos marcando, 5,50 caja de paso, voy por arriba llego hasta acá y llego hasta acá, pero hasta ahí en la punta no más, ahora si tengo esto que está vamos suponer que tengo 2,10 o 2,20 el toma, tengo 3 metros menos 2,10 es 0,90 metros más 0,90 esto me dará un valor acá tengo 1,20 más 1,50 tengo 6,70 metros y como se hace después, luego haremos ejercicios. Ahora vamos a dividir por 3 porque cada caño tiene 3 metros, tengo 2 caños y algo, por las dudas compramos 3. Esto son longitudes esto es cañería.
+
+El plano me sirve para tomar las longitudes luego divido por 3 metros me dará la cantidad de caños, porque no puedo ir a ElectroMisiones y decirle necesito 6,70 metros de caño de 7/8 que equivaldría a TR (caño rígido) 22, los tipos me sacan a patada. No necesito 3 caños rígido, o sino te dan enseguida el corrugado, tomá llevá un rollo de 100.
+
+##### Hoy todas las empresas están tratando de conseguir electricistas que hagan los cálculo, lista de materiales porque un profesional le sale más caro, entonces lo contratan a cualquiera de ustedes y hacen la lista de materiales. Le van a dar un plano sino fotocopia de partes distintas lo ideal es que le den un plano entonces con ese plano pueden sacar el cálculo de lista de materiales.
+
+Mañana vamos a ver como se va haciendo por partes.
+
+0,30 salida del tablero eso es con respecto al cielo raso? Y allá del otro lado 2,10 es con respecto al piso, ahí yo sé donde está ubicada la boca, con respecto siempre a nivel del piso las medidas de las cajas, todo lo que ustedes tengan caja de paso es con respecto al nivel del piso terminado. 3 metros determinado, menos la distancia me da esa diferencia esa diferencia le voy sumando, ahí puedo hacer cualquiera. 
+
+Adonde está mi plano eléctrico grandote? Te da un plano así por ejemplo vos podes tomar un pedacito y después le vas sumando todos los de 7/8, todos los 3/4 hasta que complete todo el recorrido de la instalación pero para eso tengo que saber la simbología.
+
+Yo tenía un alumno colombiano que me pidió trabajo entonces le dije mirá hay posibilidad de esto en Santiago Liners cerca de El Dorado estaban haciendo una obra nivel inicial (2 aulas, sector administración y baño) hay un plano una escuela. Lo 1ero que hizo la empresa le dió el plano para que calcule la lista de materiales, vamos a suponer hoy sería un martes tenía que estar para el jueves, compraban el viernes y a más tardar el lunes ya estaría trabajando, todo rápido... Llegó el viernes y el tipo desapareció con el plano, no calculó nada. En síntesis yo creo que le dió temor calcular la lista de materiales 1ero, después las malas lenguas dicen que no quería irse por las dudas quedaba mucho tiempo en el interior y quedaba sola (su mujer). Ese es otro problema pero para mi el 1ero es más creíble, el tipo no sabía hacer la lista de materiales.
+
+Hoy la empresa constructora quiere que el montador electricista realice la lista de materiales, les explicaré como es, y después tener un rango de decir bueno si esto me salieron un 10% más o 2 o 3 más de cañería si hay un error de corte o lo que sea.
+
+
+###### Lo que sí es interesante que también pide que eso es parte de la norma entre caja y caja siempre tiene que haber un caño y ese caño tiene que tener si o si conectores, no se puede tirar directamente dentro de este una cañería acá y que pase tiene que haber un conector que permita la sujeción de ese caño, con la parte de cañería de hierro teníamos la particularidad de tener un tornillo de ajuste, todas esas cosas.
+
+Alumna: Las líneas seccionales se pueden agrupar en 1 solo caño?
+Profesor: Las líneas seccionales depende de qué característica tenga, si vos tenes solo seccionales más de 2 o 3 no podes. Y a veces vos podes poner un caño bastante grande y como son seccionales no más lo que te dice si o si es que si vos pones líneas seccionales y alimentás de un tablero principal a uno seccional podes llegar a tener la particularidad de que sea trifásica todas las 3 fases y un neutro térmica detrás del medidor. 
+
+Alumno: De la caja de paso de 10x10 hacía la caja octogonal (la luz 1) ahí pasa `4 de 2,5mm^2` ¿por qué no `2 de 1,5mm^2`?
+Profesor: Podes hacerlo también por eso le dije a él, depende del lugar en donde venga, yo trato de llegar a 4 para la mejor distribución nada más.
+Alumno: Entonces llegan 4 de 2,5mm^2 y ahí empalmo de 1,5mm^2 para la iluminación.
+Profesor: Claro.
+Alumno: Y sigue independiente pero se va achicando más.
+Profesor: Claro, puedo hacerlo acá también, yo para que se vea bien no más, por acá tenés otro este es mixto.
+Alumno: En mi casa es todo mixto, un desastre.
+Profesor: Hoy en día son todos separados.
+Alumno: en mi casa es por habitación 2 habitaciones 1 llave, al fondo otra llave.
+Profesor: Ahí es por sectores, hoy se trata de hacer al revés, es más beneficioso pero es más costoso.
+
+Siempre pregunto esto: he visto algunos que van a comprar conductor y dicen "me dan conductor de 1,5 2,5 tantos metros" son milímetros cuadrados de sección ¿como se toma la sección del conductor? 
+Alumno: Por afuera.
+Profesor: Eso se corta, es como si yo estuviera cortado acá, y hay una fórmula geométrica es la superficie círculo, esa superficie círculo es la que me da 1,5 PI por diámetro cuadrado me da la sección del conductor para averiguar, corto esto y aplico superficie de una circunferencia es solo la parte de afuera, círculo es todo. Eso es la sección del conductor es como si estuviera cortado así, porque hay gente que habla y después dice 1,5 2,5 generalmente hay que saber las unidades para poder responder y saber de donde sale eso, es una fórmula: pi por diámetro al cuadrado o pi por radio al cuadrado, eso es superficie círculo.
+
+Como verán aparece muchos planos, son esquemas de tablero unifilar que representan todos los tableros que están ahí de acuerdo a cada circuito que tengan en el plano, siempre aparecerá un plano en planta, y el otro el tablero principal, generalmente en algunos ya te indica las dimensiones del tablero.
+Todo esto es interesante para poder leer el plano y cualquier esquema que puedan hacer en una obra.
+
+Martes y miércoles los nuevos vendrán a las 6.
+
+---
+
+Fin

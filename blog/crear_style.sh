@@ -20,7 +20,8 @@ sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
 find . -type d ! -path '*/.*' ! -path '.' | while read dir; do
   (
     cd "$dir" || exit
-    tree -r -I '*.md' -H '' -o index.html
+    #tree -r -I '*.md' -H '' -o index.html
+    tree -r  -H '' -o index.html
 
     # link a style.css (un nivel arriba)
     sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' index.html

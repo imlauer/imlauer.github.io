@@ -1,0 +1,210 @@
+---
+title: "[AUDIO][APUNTE] Taller reparacion electrodomesticos (Clase 2) - Ventiladores: líquido para hidráulico Armado de una serie. Monofásica, Trifásica, Bobinado. Por regla general: no poner en marcha nada. Reparamos: Jarra electrica. "
+date: 2024-07-13T07:36:36-03:00
+tags: ['electrodomesticos']
+---
+
+## Audio de la clase:
+https://www.youtube.com/watch?v=3nJnAqAZQpY
+
+https://vocaroo.com/1jjk6YDCw6js
+
+O miralo desde una instancia de invidious https://redirect.invidious.io/watch?v=3nJnAqAZQpY
+
+
+![/img/2da_clase.jpg](/img/2da_clase.jpg)
+
+![/img/2da_clase1.jpg](/img/2da_clase1.jpg)
+
+El ventilador calienta porque el motor está frenado y está trabajando exigido entonces necesita más potencia para hacer ese trabajo, y si hablo de potencia varia el amperage. Y puede ser porque el rotor no está perfectamente centrado en el estator, y en el estator debe haber una película de luz en donde el campo magnético de la bobina debe influir en el hierro del rotor para que gire en forma conveniente y no está bien centrado, por lo general suelen traer 4 paramos algunos de los esparragos se aflojó o no calzó bien, hay motores en donde por medio de sondas se puede centrar perfectamente el rotor en el estator hasta que se apreten todos los esparragos (tornillos )(minuto 19:30)
+
+Hay que controlar el sistema de centrado.
+
+Por regla general: no poner en marcha nada.
+
+
+Monofasica trabaja con trifasica
+En las máquinas que yo voy a tener (...) el frigorifico voy a tener un motor trifásico. En un slit grande que tenga voy a tener motor trifásico, entonces tengo que ir midiendo cada una de las fases para que más o menos quede lo más equilibrado posible.
+En las vivienda voy a tener monofasico, porque es 1 de esos 3 más el neutro. Dentro de un local vamos a tener trifásica, cuando vamos a una vivienda, vamos a tomar una de las fases puede ser cualquiera de los 3 y lo vamos a llevar a la fuente, más un cambio distinto, que formará parte del neutro. Porque si no tengo el neutro no voy a poder crear un ciclo de trabajo. Los electrones llegarán hasta 1 punto y se van a quedar quietos. Hay una teoría que dice que el trabajo de la corriente de un componente eléctrico es el paso de los electrones y otra teoría dice que es el movimiento de los electrones. 
+
+Entonces vamos a tener una carga voy a tener una fuente, voy a tener 2 líneas.
+Que pueden ser positivo y negativo , en el caso que sea una corriente continua, puede ser una corriente continua pura o una punsante. 
+En este caso vamos a estar hablando de una corriente alterna, entonces como debo identificar a cada uno de esos cables. 
+
+##### ¿Cómo debo identificar a cada uno de esos dos cables?
+Fase y neutro.
+
+#### ¿Por qué no es positivo ni negativo?
+Porque tengo los dos en cada ciclo.
+Si este fuese la fase, esa alternancia va a estar en la fase y por qué está ahí?
+Porque si nosotros agarramos un busca polo y medimos los dos cables, cuando medimos de un lado enciende cuando medimos del otro no. Entonces esto quiere decir que nosotros vamos a tener acá la energía con alternancia. En esta carga vamos a tener una carga resistiva: puede ser la bobina de un motor, puede ser la ducha, estufa, ventilador, vamos a tener una carga negativa.
+**No es lo mismo una estufa que un ventilador** 
+Vamos a tener una carga negativa de esa manera. Ocurre que este movimiento de electrones va a pasar por toda la carga resistiva y va a salir hacia el neutro, pero lo va a hacer con un movimiento inverso. 
+De un lado tengo positivo y del otro va a salir negativo.  
+De un lado tengo negativo y del otro va a salir positivo.
+Va a ser inverso al movimiento de la entrada.
+
+Cuando se cierra el circuito y la carga comenzó a realizar un trabajo electrico, por el neutro va a venir el mismo ciclo 50 ciclo por segundo (50hertz) pero con el ciclo invertido.
+
+Existe un instrumento que se llama pinza amperométrica nos va a decir en el momento que está trabajando la carga eléctrica con cuantos amper está trabajando.
+Vamos a suponer que arreglamos un motor, un horno eléctrico un microondas.
+
+Esta carga tendría que consumir 5 amperes. Si yo saco la pinza amperometrica y coloco en el cable y me mide 7 amper está mal porque hay un exceso de consumo. 
+Vamos a suponer que nos marca 5,2 amperes también está bien.
+Nosotros tenemos que tener en cuenta bajo que regimen está la carga, si es un motor si estaba bajo regimen de trabajo o si estaba en vacío. Vamos a suponer que estamos arreglando una heladera y reparamos un motor y antes de cargarle el gas medimos el consumo a ver si está cerca o no es posible que me mida 4,2 amper esta bien porque una vez que le meta gas y empiece a comprimir va a llegar a los 5.
+Eso es una cosa que tenemos q tener en cuenta, un ventilador no mide 5 amper.
+
+La tension siempre es 220 voltios. Lo que modifica es el amper.
+Los vatios depende del amper.
+Si el ventilador está consumiendo a 4 amper. 
+
+Campo magnetico es generado por una bobina.
+
+Si ese ventilador despues que le cambie los bujes me marca 6 amper está mal. Porque en ese caso va a marcar un mayor amperaje porque hay una mayor fuerza que esta haciendo ese motor.
+
+1 amper = 220 vatios.
+El mejor lucricante para el ventilador: freno hidraulico.
+Hasta ahora el que más éxito me dió es el líquido para hidraulico.
+
+Consume más amper porque necesita más potencia para poder hacer ese trabajo.
+Puede ser porque el rotor no está perfectamente centrado en el estator, y en el estator debe haber una pelicula de luz en donde el campo magnetico de la bobina debe influir en el hierro del rotor para que gire en forma conveniente y no está bien centrado. Por lo general suelen traer 4 esparrajos, alguno de los esparrajos se aflojó y no calzó bien algo pasó.
+Hay motores en donde por medio de sombra se puede centrar el rotor en el estator hasta que se aprienten todos los esparrajos. En el ventilador no se puede no hay lugar.
+Por suerte trae una buena cuna en donde la tapa calzan en el estator, que por lo generalmente siempre quedan bien.
+
+Si es un ventilador y consume 4 amper en vez de 5 yo me pongo contento porque es un motor que sólo gira para que me dé viento..
+(Eso nunca va a pasar) 
+
+Pero si yo tengo una heladera y le cargué 800 gramos de refrigerante y el consumo me sigue siendo 4 en vez de 5 amper.  Ahí está mal? Por qué? Arrancó y está trabajando.
+Está mal porque el motor no está compriendo. Y puede ser por dos causas:
+
+1. Porque el pistón ya no comprime adentro del cilindro, tiene fuga.
+Si existe fuga no llega a abrirse el flapper en el tiempo que debe de abrirse. Se abre muy por encima cuando ya el recorrido queda muy cortito entonces no llego a la presión necesaria, ese motor está trabajando liviano.
+2. También puede ser cuando el flapper de alta, el motor fue cargandose de aceite y el flapper de alta calienta demasiado por la compresión.
+Si el aceite no es de buena calidad y crea ollin y ese ollin no permite que una vez que el pistón a la altura maxima y comience descenderse cierre. Entonces queda con el ollin semisucio entonces hay fuga de presión.
+
+
+### Hay que obtener la máxima cantidad de información posible.
+
+No es conveniente poner en marcha así como llega el electrodomestico.
+Puede ser que un componente que se soltó y cambió de lugar al moverse.
+
+Una corriente continua no tiene un campo magnetico es solo una corriente electrica.
+La corriente continua crea un minicampo magnético al cerrar la llave o cuando se apaga. En cambio la corriente tiene un campo magnetico de 50 ciclos abre y cerra. El norte y el sur.
+
+O sea que la electricidad nace gracias al campo magnético de la bobina.
+
+Por qué la batería genera electricidad?
+A través de una reacción química.
+No tiene nada que ver un generador electrico con un acumulador.
+
+Uno genera a traves de componentes químicios y la otra a travess de campos magnéticos.
+Un campo magnetico genera electricidad, y la corriente alterna genera un campo magnetico y ese campo magnetico es el que se usa en los electrodomesticos gracias a ese campo magnetico.
+
+Si hablamos de campo magnetico hablamos de polaridad.
+Buscapolo: se debería llamar busca fase porque busca electricidad
+Y la brújula debería llamarse buscapolo.
+
+Donde yo puedo medir el amperaje de forma directa:
+Cuando yo acá en serie ponga un amperímetro.
+
+Entre 1 ducha y 1 timbre hay mucha diferencia. Lo que se necesita es el cierre del circuito, el circuito se llama trabajo eléctrico.
+
+Que diferencia hay entre un cortocircuito y uno que NO hay cortocircuito?
+El trabajo. Por que hay trabajo? Porque hay una carga y dentro de la carga hay una resistencia y eso hace que baje el voltaje, para que se realice ese trabajo.
+Cuando yo hago un cortocircuito, va a saltar el fusible o el diyuntor.
+
+Cuando va directo y no hay ninguna resistencia no hace caer voltaje y va a saltar el fusible o el diyuntor.
+
+Yo agarro un tester y tiene continuidad la bobina y 
+
+Que tengo que arreglar que se quemó?
+### El esmalte del alambre.
+Los cables no son individuales, todos juntos forman 1.
+Los primeros conductores no eran multifilamento, eran de 1 filamento.
+Al hacerlo multifilamento es más maniobrable y más cómodo para trabajar.
+El conductor que se usa para una bobina es lo mismo que este cable.
+O sea que un conductor aislado.
+
+Con la bobina voy creando fuerza magnetica.
+Se hace bobina para subir el voltaje, porque sin la bobina no sirve para nada, no mueve nada.
+
+El campo magnetico generado en el estator genera un campo magnetico en el retor igual entonces se repelen los dos campos magneticos, el que está en el estator y el que está en el rotor. 
+Se repelen porque son de igual sentido.
+El campo magnetico que se genera en el estator genera un campo magnetico en el rotor. Entonces es como dos imanes de dos polos que se rechazan el de adentro que puede girar empieza a moverse.
+
+La bobina genera el campo magnético.
+
+La bobina se crea para captar la mayor cantidad de fuerza y duplicarla.
+Si yo no lo tengo aislado se hace una sola masa, y es como si tenga un solo cable solo que más grueso.
+Es como si le dijiera que el conductor está en serie pero a medida que yo junto lo voy haciendo en paralelo.
+
+Por qué no se usa un cable que ya está aislado?
+Tiene 2 dificultades:
+1. Es muy grueso, ocupa mucho lugar.
+Y en una ranura que es tan chiquita que debe tener 10 mm no va a entrar todas las cantidades de vueltas que se necesitan. Entonces un campo finito si se puede hacer muchos ciclos.
+2. Para poder soportar esto dentro de la bobina debe soportar temperaturay este cable no lo va a soportar.
+El alambre que se usa para el bobinado, trae un esmalte especial. 
+
+El alambre que no es, es un alambre más calaca, se llama alambre magneto viene de magnetismo, sirve para bobinar.
+
+Ahora depende del motor que vayamos a bobinar, esos bobinados soportan una cierta cantidad de temperatura, y ahí está por que se quemó.
+Porque recalentó tanto el bobinado, que el aislante se borró.
+Pierde campo magnetico la corriente sube mucho, porque tiene menos campo magnético y sube el consumo para contraarrestar la falta de campo magnetico y eso termina quemando más aún el bobinado.
+
+Al hacerse una masa ya no tengo la misma caía de tensión por la resistencia de tanta cantidad de vueltas de alambre y entonces se me achica la resistencia y provoca casi un cortocircuito. 
+#### Entonces que se quemó?
+**La laca se quemó**
+
+Hay que cortar el bobinado contar cuantas puntitas cortamos, anotar medir el calibre del alambre, pesar 100 gramos hay que comprar 120 gramos.
+
+Se compra por lana 
+Genera temperatura, el que se corta es el alambre, el nucleo, el buje, el eje y el que genera es el campo magnético.
+
+Tenemos que contar la cantidad de vueltas de la bobina, con la misma cantidad de vueltas con el mismo calibre de alambre.
+### Se puede variar el calibre de alambre?
+NO, nunca cambiarlo.
+
+Si pongo más grueso, varia la resistencia del alambre. Voy a lograr que tenga más velocidad porque tengo menos caída de tensión.
+
+Voy a tener la misma cantidad de metros pero el diametro va a ser mas electrones, y la parte mala es que va a calentar más.
+
+Si le pongo alambre más fino del que tenía NO SE QUEMA NUNCA. Pero no tendrá la velocidad.
+Porque yo achiqué el diametro entonces cree más resistencia entonces va a calentar mucho menos de lo que yo calentaba con el original por eso no se va a quemar, pero mi velocidad será más lenta.
+A mayor resistencia menor voltaje, si aumento la cantidad de vueltas del conductor voy a producir mayor resistencia. Y si tengo mayor resistencia se me va a caer el voltaje.
+Pero si acorto la cantidad de menos voy a acortar la resistencia entonces voy a tener un voltaje más alto, entonces tendrá más velocidad pero el alambre no va a soportar ese voltaje.
+
+Lo que determina todo es el nucleo, porque el nucleo te va a dar la potencia y despues que pase a ese nucleo sacas la medida del calibre del alambre 
+
+
+
+#### Alguno compro un micrometro
+
+### 01:16:19
+En vez de usar una lámpara podemos usar un reflector con una ampolla.
+
+Que significa que algo esté en serie?
+
+Con el buscapolo puedo identificar cual es el neutro y cual es el vivo(fase).
+El vivo(fase) prende.
+
+
+Si querés hacer la serie en una zapatilla la tenés que desarmar.
+
+### Tanto en plancha como en jarra si no anda la resistencia no conviene arreglar
+Cuando dicen que no calienta nada, lo primero que veo la resistencia.
+
+Los focos que no existen más se llaman focos de filamento.
+
+El transformador transforma el voltaje.
+
+El diodo genera corriente continua (rectifica)
+Entonces ahí dejo de tener correcte alterna y apartir de los diodos voy a tener corriente continua (corriente continua punsante por eso tenés que poner el capacitor).
+Con el capacitor yo lo voy haciendo menos tildante esa corriente.
+Esos diodos tenemos que medir en escala de diodos
+
+Vamos a medir continuidad (medir resistencia).
+Me quede en 2:05:25
+La resistencia va a obedecer las conexiones del termostato.
+
+
+En la base de la jarra eléctrica hay dos laminas de bronce, 

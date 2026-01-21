@@ -1,0 +1,584 @@
+---
+title: "Electricidad / Clase 12: [FOTOCOPIA] Uniones caño caja. Cupla. Curvado caños. Sistema U. Colocación. Planos de pilar EMSA. Leemos fotocopia normas IRAM. Caños 5/8 solo en línea recta. Que hacer cuando no tenes cupla. Hay que llevarse bien con la gente de la obra sino te tapan todo con cemento. Diámetro mínimo de los caños. Ahora piden caño PVC ya no más garbanizado, todo de PVC hasta el gabinete. Como dar alimentacion a un quincho. La sujeción le da el tornillo que está acá abajo. Como calcular la cantidad de cuplas: por cada caño 2 cuplas. Calcular cantidiad caños: divido por 3 (3 metros tiene cada caño). El ayudante habla en portuguez. Pinza cortacaños solo sirve para caños ligeros. Obligatoria la puesta a tierra. En Oberá el gabinete ocupan 2 caños salida es inteligente. 50 mm son más o menos casi 2 pulgadas. Factor de simultaneidad. P=VxIxcos(fi) esto es corriente alterna esto más o menos tiende a 1. Dentro de un caño en un sistema monofásico se puede colocar hasta 3 circuitos. Pinzas de anclaje. La acometida deberá tener una flecha de 30 cm. "
+date: 2025-04-15T07:27:54-03:00
+tags: [electricidad]
+---
+###### Audio en Vocaroo:
+https://vocaroo.com/1dx7HunJiApZ
+###### Audio en Archive:
+https://archive.org/details/record-82
+###### Audio en YouTube:
+https://www.youtube.com/embed/VDcXUfq6rvs
+
+https://www.energiademisiones.com.ar/planos-del-pilar/
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpAjSN0mu_UmD369sYu-q82f89D-v_P5WqaXnaxfnucFnGZpnRplJBmgBEbGa3o-IPBih-6TEj-eu8x6qmQZQR3cEUmDsIvs_vumJhywK3h7nGfmYnsVNtlXP7mh5ZrSKB0Ebhai16gIn4B0wpKoOc6QTcXhKz61Q2ulU7VBihT3smlaB_o_sWMOFC2mo/s4160/IMG_20250414_203006264.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKMBpB6_W705WQlOtlY8CakcgR5u86hqtxYLoDSmcZZ_NR1HND4KvxoxeLo8S1FZADsGDE7KoLKj7qfUajaksp02NcpyJjphq8CYDcaRxXQttfaxd1P2zNe_mF_LmSsjmkRUVqIL-CojOwqZBvKSnVHt691KcEpoHNz3FLScIKx568tQOVzlBa2mS5Nz4/s4160/IMG_20250414_185021883_HDR.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLdqIN5FZuMQjJk6-U6hZFqqbaXomHECG8cJ7jM9k8cLOZHshh96fKDWfV9wO_kXStTFWBUHWA62AmSaa4dC5JjcW7mCczDYEIjXx1VvgIJEA9322MSNfLktnoDwHESp5MsiXWarE62utxDSVFne-FS3DEApozFUnv96P3Pej0TrPkNLLsjJnpebVBMOs/s4160/IMG_20250414_195948867.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-aEzxvR2S5G4lrCALU2kcPsRQR7aVLS6M2WP1ohv-jXXrdTKjkPFIPUDj0aYWAthMZI5i0tBUpd8l8opuz9Oy6f7bDdA7o_bfkcXsZD9zW2Pn9M7SV5FCoYpO7Q0Z9jAWmeTZcCAR_buV0u1Zqls9n1ktLDGHuQJS2tl2NBKDR9CW517nnaA-0RchoIg/s4160/IMG_20250414_203001133.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJkKmosUfplYhfAnQreGL93ZyKk1JvIXknljwdgpWJ2c8I4HCHhUMQMuiNRP3ZqFvcopJS_BnJobRhX_yHHqy1IHYzhCdJrZ4zf3ksS1IFsnzLoH6XzHGeIvWG9f3ogrAJXcblwSUgn1mL6OLJ8TiULdWOmYewqVyppOEtHaxUS_bupcFGNqlzEKlaiY/s4160/IMG_20250414_202709058.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRJkKmosUfplYhfAnQreGL93ZyKk1JvIXknljwdgpWJ2c8I4HCHhUMQMuiNRP3ZqFvcopJS_BnJobRhX_yHHqy1IHYzhCdJrZ4zf3ksS1IFsnzLoH6XzHGeIvWG9f3ogrAJXcblwSUgn1mL6OLJ8TiULdWOmYewqVyppOEtHaxUS_bupcFGNqlzEKlaiY/s4160/IMG_20250414_202709058.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2wPbBRZqjP9cxQ8EJzuAzEX3QszA9ysbTRBkHfrTboErcuwavxJGbnuX6xn0IZszga0bYFPDryrHONX0sU9V2PWUNmqc3srdwFNsMXh3gJXqFQHrKmHFfg-szgbmkBLWyHvLxhLepsz_mvdQR5yIjts-pYU4SKTdA2ZRuovWFy79YHBk-EBViVLCybtg/s4160/IMG_20250414_202719036.jpg)
+
+Palabras claves: siempre, siempre les (Control+F) XD    
+    
+##### Transcripción audio (Minuto 9:40)    
+Bueno no hay posibildades del proyector que barbaridad voy a tener que comprar algún día uno. Este guardamos mañana o pasado vamos a hacer, vamos a ver que es lo que vamos a hacer. Entonces por lo menos algo vamos a hacer con esto.    
+    
+Bueno, che voy a tener que comprar un proyector no más o traer un televisor afanado de algún lado, no puede ser dijo el brasilero.    
+    
+Ayudante: Encontró el arco de sierra?    
+Profesor: El mío sí.    
+Ayudante: Yo traje uno por las dudas.    
+Profesor: Ahora vamos a ver. No, hablando de corte. Ahora yo voy a hablar porque cada vez estoy viendo más cosas. No, la idea principal era ver el tema de lo último que le dí en el tema de pilar medidor monofásico ese que está exigiendo EMSA por el tema de... Yo voy a explicar 2 o 3 cosas ahí.     
+    
+1. El tema de la puesta a tierra siempre **tiene que ir la puesta a tierra** eso que aparece ahí en el dibujo no es cierto.     
+2. Y la otra antes que me olvide, a ver si tengo por acá porque capaz que compre pero...    
+Ayudante: *Incomprensible*.    
+Proffesor: Sí, este siguieron así que la idea es mostrarle algunas cosas interesantes pero ya que está ahí vean no más. Hay una cosa que yo quería mostrarles pero parece que ese debe estar en GENROD(Marca). Ellos tienen una pinza que con 2 o 3 movimientos corta el caño. **Pinza corta caños se llama. Es solo para cañería liviana**. Fíjense uno de mis ayudantes ya hizo mierda la pinza. Pero por qué porque vieron que hay una **cantidad de caños que ese está utilizando y cada vez hay más duro y con más resistencia entonces ahí conviene si o si usar la sierra, si vos usas ese(pinza cortacaños) es muy probable que tenga la misma forma de romperse y el vago volvió a apretar, demasiado duro, 1 caño una vez puede ser pero 2 o 3 veces no sirve, le apretó al máximo, hizo mierda.**     
+    
+Sebastían: El caño tiene una medida de torque y la pinza también o o sea...    
+Profesor(Espeche): No ese tiene para varios caños.    
+Sebastían: Podemos ir a ver en el manualcito una cosa así, hasta cuánto aguanta.    
+Profesor(Espeche): No ese.... Ustedes entran en ElectroMisiones a ver si está por acá, por eso quería mostrarle algunas cosas, si puedo traer otras ya tiré el mío pero si puedo traer otras le voy a traer esa. **Pero quiero decirles exclusivamente para caños livanos hoy ellos están haciendo caños con más espesor y más duro y ya te ponen exclusivamente caños livianos**. Si vos prestas yo digo no puede ser que se rompa.    
+Ayudante: Aparte se especifíca cuando vos compras viene con un manualcito chiquito, hasta cuánto podes cortar que tan grueso y que tan grande, pero como nadie lee el manual porque estamos en Argentina.    
+Profesor(Espeche): Sí, cuando se rompe te das cuenta que NO algo pasó.    
+Alumno(Buteado en clases posteriores): Cuando se rompe leen el manual.    
+Profesor(Espeche): Sí.    
+Alumno(Buteado en clases posteriores): Por lo general se hace al revés.    
+Profesor(Espeche): Cuando rompe sonaste. Sacame por lo menos el...    
+AlumnoX: Profe consulta,    
+Profesor(Espeche): Sí.    
+AlumnoX: ¿En dónde colocaremos la puesta a tierra en nuestras lámparas?    
+Profesor(Espeche): **Vos tenés que poner igual en las cajas (la puesta a tierra)**. Vieron que es cajas de plástico de PVC yo todavía no ví me mostraron una empaquetada, yo tengo que ver ahí donde está por lo menos un tornillo tiene que haber una señal.    
+AlumnoX: Ruido... Alcanzado?    
+Profesor(Espeche): Por lo menos una señal, supuestamente la caja la caja bueno este es trifásico pero la caja esta es igual solo que es PVC directamente siempre tiene que aparecer conductores, **en cualquier lado que vos pongas o le atornillas al costado aunque sea, es importante que esté la puesta a tierra.**.    
+    
+Qué es otra cosa importante que me dijieron? Yo siempre miro cosas. Quería mostrarles el tema de como va **unido dentro también del pilar desde el gabinete monofásico y el tablero general también es de plástico así que tienen que instalar los dos y después la alimentación** que va a la casa, eso quería hacerles acordar porque a veces va pasando el tiempo y bueno.    
+    
+Vamos a ver si encuentro materiales para tratar de armar algo y ustedes practiquen ahí por lo menos con los caños PVC que es lo que más está saliendo últimamente así que...    
+    
+Antes que me olvide ese es otra cosa... Ahí aparece un caño     
+Ayudante: Habla de marcadorse (separó los marcadores).    
+Profesor: No, vos sos el capo máximo.     
+\* Ayudante se sirve un tereré.    
+Profesor: Estás tomando agua fría todavía? Jeje    
+    
+Este es el medidor si ustedes ven cualquiera que sea PVC o lo que sea aparecerá un lugar donde va el caño...    
+Ayudante: Garbanizado por donde entra el conductor.    
+Profesor: Bueno, **ya no quiero más hablar de caño garbanizado porque ahora las nuevas normas te pide caño de PVC**.    
+Ayudante: El caño.    
+Profesor: El caño, exactamente. Ese caño le quiero contar porque empecé a investigar dijo el...    
+Ahora los caños vienen aproximadamente pónganle después le da la medida ahí 3 metros. Ese caño es de 3 metros si es garbanizado o PVC tiene que ser **mínimamente 3 metros que de acá hasta acá tiene que llegar más o menos a 4,10 (4 y 10) más o menos es la altura que a veces hay que mirar lo que dice ahí el ahí vos tenés 4 y pico**.    
+Alumno: Entre 4 y 4 y medio.    
+Profesor: Sí de acá hasta ahí, cuánto tiene? Ya no veo más.    
+Sebastían: 3,98.    
+Profesor: Bueno es 4, es 4 para que ustedes entiendan, **pero este caño antes era garbanizado y pasó a ser PVC**.    
+    
+¿Que diferencias hay entre caño PVC y garbanizado? **Porque a mi me preocupaba que ese caño no tuviera la rigidez necesaria para poder aguantar cualquier tensión**, vieron que ustedes bajan hay un poste acá esto venía el cable colgado lo que sea.    
+Descubrí sin querer que el caño **ese PVC acá tiene una estructura metálica que probablemente sea garbanizado y después tiene otro PVC. O sea tiene un aro de garbanizado lo que sea, no sé que material es pero se ve en la foto más o menos una parte metálica que sería la del medio y las otras 2 PVC**.     
+    
+Entienden porque a mi me parecía raro que un caño garbanizado fuera el soporte de la alimentación de la acometida y bueno sin querer empecé a mirar saber información empecé a ver GENROD por eso traje la computadora pero parece que no tengo suerte (no nos dan el proyector). Eso es importante que tengan en cuenta.    
+    
+###### El diámetro más o menos es 1 pulgada y media o algo por el estilo, o a veces ellos le ponen en vez de 1 pulgada y media, le ponen directamente como es de PVC 50 milímetros el caño de alimentación    
+Eso viene ustedes piden gabinete de caño lo que sea, esto de PVC también ahora y atrás esto como ven ustedes... Este está roto si. Este es el frente caño y acá tengo **1 caño fíjense este es porque tengo ahí a mano que se comunica con el tablero general que está ahí abajo(atrás)** Vamos a hacerle acá arriba. Esto viene de allá este es el tablero general: todo de PVC.    
+    
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKMBpB6_W705WQlOtlY8CakcgR5u86hqtxYLoDSmcZZ_NR1HND4KvxoxeLo8S1FZADsGDE7KoLKj7qfUajaksp02NcpyJjphq8CYDcaRxXQttfaxd1P2zNe_mF_LmSsjmkRUVqIL-CojOwqZBvKSnVHt691KcEpoHNz3FLScIKx568tQOVzlBa2mS5Nz4/s4160/IMG_20250414_185021883_HDR.jpg)    
+    
+TODO DE PVC, o sea que ya... Si a mi vamos a suponer que **yo necesito colocar este tablero de PVC si es una instalación monofásica en vez de pedir la caja más chica pido por lo menos para 4 módulos porque sino le van a dar una cosita chiquitita así, la idea es tener mayor superficie para poder trabajar aunque sea si acá salgo directamente y voy en forma subterránea tengo que tener espacio porque sino no va a entrar bien el conductor subterráneo**.    
+Alumno: Parece que ahora son 2 caños, 2 de 1 pulgada. 2 caños de material sintético rígido según IRAM interconexión de cajas.    
+Profesor: Eeh... El que estamos viendo es este acá.    
+    
+Sigo. Ese cuando yo tenga la **posibilidad porque nosotros empezamos desde el medidor ahí tengo el medidor viene la alimentación los 4 borners y ahí pasa atrás. Si este mismo caño tiene entrada y salida porque acá entra el conductor acá y después sale y puede salir aéreo entonces ahí necesito otro caño, pero no es hasta acá sino directamente hasta este, o sea el caño que está ahí anteriormente vamos a suponer que este en el medio acá viene de arriba va al medidor va al tablero general que está acá, y del tablero general viene sube otra vez y sale por el mismo caño para no ocupar 2 caños, entonces sale directamente y ese va a la alimentación de la casa al tablero seccional.**    
+Ayudante(Alejandro Ramirez): La idea es que no vuelva por la misma caja y que suba por un caño independiente que se conecta...    
+Profesor(Espeche): La misma caja. Ellos te ponen por las dudas ya el revoque entonces va por arriba porque si o si va por arriba o sino directamente la otra es que venga subterráneo ahí ponés 1 sola vez, pero ese es para eso. **Esos dos caños que te dan es para que vos tengas la posibilidad de otra vez subir para arriba**.    
+    
+\* Llega alumno: Buenas.    
+Profesor: Buenas noches.    
+    
+Entonces para que tengan en cuenta: **la altura es igual que lo que tenía anteriormente con gabinete metálico el sistema es el mismo entra un caño directamente este caso garbanizado va a la alimentación al medidor y de acá va al tablero general, ese tablero general o tablero seccional y ahi entra y va directamente el conductor directamente al tablero seccional ahí, por eso tiene 2 caños**. O sea ese entra ahí pero por las dudas es 1, pero si yo hago en forma subterránea directamente pongo 1 y voy directamente conductor subterráneo al tablero seccional que está dentro de la vivienda.    
+    
+Lo siento mucho pero cada vez que pido el proyecto está ocupado, tenemos solo 1, el otro ya robaron, así que algún día voy a tener la suerte y compro uno.    
+Torres: Ahí entre paréntesis dice interconexión de cajas?    
+Profesor: Interconexión de cajas, sí. Estás conectando esta caja que está acá con la otra caja que va hasta acá. La medida la dan ellos 40x40 no sé que...    
+Ayudante: El pilar.    
+Profesor: Fijate la distancia que dice ahí, 45, ese es de frente y otro de costado pero más o menos es un cuadrado eso. No, les digo porque **la empresa que estaba haciendo el trabajo de medidor habló con la gente de EMSA y le dijo que ponga PVC** o sino ¿?(Minuto 24:59) otro quilombo.    
+Ayudante: Y estudiar no le gusta nada?    
+Profesor: Y no porque si...    
+Ayudante: Diga la verdad. No le gusta nada.    
+Profesor: No, pero si empiezan a exigir desde ahora, la idea es que esto cuando vos... Todas cosas nuevas requiere un periodo de adaptación. La gente tiene que aprender a usar y primero hay gente que todavía tiene este tipo de gabinete compró ya y que va a hacer? Entonces ellos tienen que preveer que esto demora un tiempo no vamos a hacer todo nuevo ya, pero ellos no te quieren bajar la luz si no aplican ese nuevo que está ahí el PVC.     
+Miré catálogo de GENROD y tiene lindas cosas o sea que es cuestión de adaptarse no hay otra pero teniendo materiales buenos y teniendo materiales e información no hay problema. Eso que dice ahí, lee un cachito que no leo bien.    
+Sebastían: **La acometida deberá tener una flecha de 30 cm.**    
+Profesor: Claro, como máximo o sea lo que ellos quieren decir es que si yo tengo un conductor ese conductor esto sería recto pero si es una flecha es esto. **Entonces como máximo 30 cm**.    
+Le está diciendo porque hay gente que acá va un **anclaje y allá arriba tiene que ir otro anclaje o un morceto depende que característica tenga pero si es un poste directamente tiene un PK20 lo que sea para poder anclar eso entonces que hace? Ese soporte pone más tenso el conductor sino le va a quedar todo colgado eso es lo que no quiero**.    
+    
+###### Para pasar de milímetros a centímetros sacale un 0.    
+Torres: Profe una última cosita. **Dice la caja para medidor, dice dimensiones 180 mm por ancho y por alto 260 mm serían 26 cm?** O sea a ese?     
+Profesor: No a este no. El de tablero seccional    
+Torres: Caja para medidor monofásico dice.    
+Profesor: Decime cuánto era.    
+Torres: Dice ancho 180 mm por alto 260 mm.    
+Profesor: **Bueno, 260 es esto. Los 60 de acá es lo mismo que la caja de atrás para afuera y el otro ya viene especificado que hay que comprar para gabinete para medidor monofásico y te dan esa medida y si le decís GENROD te va a dar eso porque ellos ponen de acuerdo con la matriz que es la tienen**    
+Torres: Claro no porque ...    
+Profesor: No no, este es trifásico. Es más grande y todo así que ese también es trifásico, lo que pude afanar no más son trifásico así que monofásico todavía...    
+    
+**Estos son pinzas de anclaje depende de que tipo de conductor va se pone el conductor y esto hace presión y a medida que uno tensa se ajusta más esto va con un soporte acá y si tiene poste va otro soporte acá sino se usa el morceto entonces uno regula el ajuste por eso le pide ya que ese 30 cm que produce la flecha es lo máximo recomendable**.    
+    
+Eso cuando estamos **trabajando exclusivamente con potencia hasta 5 kW o 5,5 kilowatts** eso que ustedes ven ahí que dice ahí, ahí que te dice ahí arriba (de la fotocopia) ?    
+Sebastían: 5 kilowatts.    
+Profesor: Bueno, después va aumentando, así que ya empieza después a aparecer un sistema trifásico también con la misma característica o sea que... Como me falta la computadora.    
+    
+No, cualquier cosa ustedes entran en **EMSA y creo que la 2da parte en donde dice reclamos, ahí en la parte de abajo dice especifíca pilares monofásico característica tanto**. A ver si tengo acá algo para que ustedes vayan viendo, entonces ustedes cualquier cosa se olvidan pueden entrar tranquilamente a ese lugar no es no porque uno sea técnico lo que sea pero es para todos. A ver si puedo pasarle.    
+https://www.energiademisiones.com.ar/planos-del-pilar/ (Este será)    
+Alumno(Leonardo): Pero igual acá en la nota dice al costado que se entre períodicamente porque ellos...    
+Profesor(Espeche): Ellos van cambiando, cuando empiecen a no encontrar materiales, ahí van a ver lo que es bueno dijo, pero bueno a ver si yo tengo acá para que ustedes más o menos tengan idea. Ahí está le voy a pasar ya. Esto está en entran en EMSA y encuentran, pero igual yo le paso ya así si no tienen paciencia ya encuentran **todo lo que está que dice plano de pilar está la simbología de EMSA ahí encuentran**    
+Alumna(Botolli): En el menú en servicios.    
+Profesor(Espeche): En servicios, exactamente. Pero igual ya le dí justo el lugar y tienen todos los tipos de plano pilar para poder... Tiene que aparecer ahí.     
+Sebastían: El anteúltimo.    
+Profesor: Entonces entran y... Estamos entonces? Es importante que tengan eso. Andá mostrarle ahí a los chicos, allá el señor allá, **es lo mismo que sacamos copia ahí**.    
+    
+Bueno.     
+Alumna: \* Leyendo página. Ahí tiene monofásico trifásico ...    
+Profesor: Por lo menos ya vieron entonces bueno una cosa menos, **cualquier cosa entren ahí EMSA y después se actualizan constantemente y después hay para edificios también ahí**, todos los que ellos están ahí lo mismo que todos los gabinetes de PVC están previstos ahí pero tengo lo otro así que, pero lo bueno... **Si tienen algún problema no sé si la gente de EMSA nos puede asesorar pero la gente de GENROD que ellos venden esos materiales no hay problema hasta las instalaciones** entonces es importante tener la idea exacta de la información.    
+    
+Seguimos. Después les voy a pasar esto.    
+    
+Hay una parte que habla exclusivamente de cañería y eso habla de las normas o sea que **las normas asociación de técnicos argentinos te dice la característica número el lugar donde entras y te da todas las pautas de como quiere que sea la iluminación y habla exclusivamente de cañerías yo voy a empezar a leer algunas cositas para que ustedes tengan en cuenta**, después les paso esto también.    
+    
+La idea es que vayan leyendo y si tienen alguna pregunta, pregunten.    
+    
+Ya sé que hay algunos auxiliares que se van a ir y la idea es que el auxiliar salga con una buena base si no puede seguir por X motivo entonces tengan la certeza de que lo que se está dando es lo que realmente se está haciendo en el mercado laboral, así que estoy actulizado nada más que eso.    
+    
+Y ahora que encontré caños voy a ver que curvas lo que sea voy a hacer un esquema chiquito depende de que lugar nos ubiquemos vamos a hacer una instalación pero aplicando todos los conceptos que aprendimos por lo menos escucharon fijaron las bocas primero después empezamos a poner los conectores que es lo que pide el sistema tendríamos que tener hasta 1 metro para que ustedes corten la medida que sea y vean como colocar los caños dejamos fijas las bocas, **una vez que hagan eso vamos a tratar de trabajar con curva. Yo tengo ganas de comprar un doblador para que tengan idea de como se trabaja con un resorte para doblar caños en donde se mete el de 3/4 que se usa más**.    
+Y todo los accesorios que componen una instalación solamente cañería estamos? Que me interesa que ustedes aprendan bien, después introducimos la parte de cableado siempre y cuando ustedes sepan como se forma un circuito, los esquemas principalmente que debemos tener en cuenta cuando veamos la instalación el cableado, esa es la idea.    
+    
+###### Alumna(Botolli): Profe hasta cuántos circuitos se puede sacar en un monofásico?    
+Profesor(Esquema): **No, hasta cuanto circuitos puedo colocar dentro de un caño en un sistema monofásico son 3 circuitos**. Ahí está bien la pregunta. La otra que me dijiste hasta cuántos circuitos puedo sacar no entiendo. O sea que quiero saber que pregunta es lo que me...    
+Alumna(Botolli): Sí tengo una conexión monofásica. Cuántos circuitos puede tener una vivienda?    
+Sebastían: Hasta 5000 kiloWatts. (5 kiloWatts se equivocó)    
+Profesor(Esquema): Eso... Te explico. Vamos a empezar por partes ya entendí lo que que quisiste decir. Cuántos circuitos mínimo podemos hacer en nuestra instalación monofásica?     
+Alumna(Botolli): Máximo.    
+Profesor(Esquema): No eso no depende.    
+Alumna(Botolli): No hay límite?    
+Profesor(Esquema): Hay límite porque este limita la potencia que vos pedís, esa es la potencia pero vamos a **hablar en corriente por qué en corriente, antiguamente los medidores monofásicos tenían una capacidad hasta 40 amper corriente de consumo. Esa corriente P=VxIxcos(fi) esto es corriente alterna esto más o menos tiende a 1 así que yo tengo tensión 220 y tengo esa corriente que una época me limitaba el medidor multiplo por esto ¿cuánto me da? Fijate 8800 esto es la potencia activa en watts que te podía calcular o soportar este medidor que anteriormente era electromecánico**. Hoy en día está limitando ya el pilar medidor ese que está ahí hasta 5 kiloWatts o sea esta potencia se va a hacer ahora hasta 5 kilowatts.     
+Alumno(Leonardo): **Aguanta menos?**    
+Sebastián: Eso me da 22 amper    
+Profesor(Esquema): **No es que aguanta menos. Lo que quiero decir es que esto es lo que soportaba el equipo, ellos nunca quieren que llegue al máximo pero están tratando dividir las potencias que necesita**    
+    
+Prendeme la luz por las dudas viene uno.    
+    
+Entonces **te está limitando la potencia por sectores que tipo es si es monofásica ahí te dice TS1/TS2 depende de que característica tenga el consumo de potencia**. Bueno vamos a la señora, lo importante es que usted tenga que consumo va a tener de consumo de potencia en su vivienda.    
+    
+###### Como saco el consumo de potencia? Que eso vamos a ver más adelante. Saco de acuerdo a la cantidad de equipos que ustedes tienen, y se trabaja vamos a suponer que todos esos equipos estén prendidos todos en forma simultánea: aires acondicionados, ventiladores, luces.    
+###### Todos los equipos prendidos    
+###### 400 watts por tomacorriente y 100 watts antes le dábamos por boca de iluminación (ahora son LEDs) todo ese consumo multiplicado por un valor que se decía un factor de simultaneidad que todo estaba prendido a la misma vez de acuerdo a la cantidad de personas que vivían.    
+###### Preguntá sobre este factor de simultaneidad 0,6 y 0,7 (es 0,6 o 0,7) o 0-6 un rango?    
+Lo que tenga tenga una potencia que le va a dar un valor todos los equipos prendidos pero eso **NO es real porque el tema es que aunque tenga la cantidad de tomas que ustedes tienen ahí no está ocupando todo, sino estás ocupando 1/3 quizás 4 o 5 de 20 lo que tenga**, entonces no es total. Entonces todo ese consumo que se hace para una potencia total para que ustedes entiendan normalmente en un proyecto se da por ejemplo vamos a darle un valor en algunos casos le damos **400 le dábamos antes watts por tomacorrientes y ahí vamos sumando y a las bocas de iluminación ahora son LEDs pero antes le dábamos 100 watts entonces todo el consumo eso multiplicado por un valor que se decía un factor de simularidad que todo estaba prendido a la misma vez y nos daba vamos a suponer de acuerdo a la cantidad de personas que estaban en la vivienda entre 0,6 y 0,7 y se multiplica esa potencia por ese valor y me daba la potencia real que necesitaba para ese.**    
+    
+¿Con eso que hago? Calculo la alimentación, la entrada ese conductor de entrada. Calculo con la potencia que yo necesito para mi vivienda me da el valor de la sección de conductores de entrada vamos a suponer hoy en día una casa normal puede estar en 6.    
+Ayudante: \* Estornuda.    
+Profesor: Ea, me asustaste. No, la otra vez fui al depósito ahí sentí un ruido este debe haber sido una rata. Sí, sí porque en la noche. Empecé a buscar y no encontré.    
+Ayudante: Acaba de buscar una forma educada de decirme rata.    
+Profesor: Bueno, de **6 a 10 mm cuadrado la sección del conductor que hoy más o menso se ocupa en una vivienda 3 habitaciones mínima**. Estamos hasta ahí?     
+Alumno(Buteado): Con los aires y todo el show.    
+Profesor: Ya, entonces que me pide la señora que me dice **cuántos circuitos máximo puedo haber dentro de una vivienda? Y todos los que ustedes quieran dijo porque yo tengo mi alimentación principal acá yo puedo habíamos dicho que por cada circuito de eliminación yo tengo posibilidad de conmutar 15 bocas**, por cada circuito de toma puedo contar 15 bocas como máximo y después tengo 1 por cada equipo importante de ducha eléctrica o cualquier circuito especial, estos son circuitos de servicios generales de iluminación pero esos 15 de acuerdo a la disponibilidad que yo tenga en mi ambiente y yo quiera dividir porque necesito que las dos pieza estén juntas o el living con el comedor estén juntos o **lo que sea entonces esos 15 yo puedo variarle y poner 8, 7 o puedo hacer otro circuito de 5 5 y 5 no tengo cantidad máxima de circuitos yo tengo... Pongo la cantidad de circuitos de acuerdo a la disponibilidad que yo quiera y la seguridad que yo quiera que tenga. Tengo 2 piezas 3 ambientes, eso 3 ambientes hago iluminación divido yo la cantidad de circuitos que yo quiera lo importante es de todo eso es la potencia el consumo que yo necesito entonces no hay problema.**    
+###### Lo único que tenés que ver es el consumo, no hay límite de circuitos     
+Alumno(Buteado): Y la digamos sección de los cables?    
+Profesor: Si la sección por eso, **la sección de entrada es la que me da la cantidad de potencia que yo necesito de consumo final, después la cantidad de circuitos que yo ponga acá depende de mi forma de trabajar, de mi forma de proyectar**. Yo ya proyecto como yo quiero pero tengo la seguridad que la norma me está diciendo que hasta 15 bocas por circuito puedo poner si quiero. Esto lo que ustedes ven acá son los circuitos mínimos dentro de una vivienda.    
+Alumno(Buteado): Eso sería el tablero seccional no?    
+Profesor: Seccional.    
+Alumno(Buteado): Ese que está dentro del domicilio.    
+###### Como ahorrar una térmica(minuto 45)    
+Profesor: École, acuérdense que si yo tengo la línea municipal y **tengo el medidor de este lado puedo poner el tablero general quizás junto con el tablero seccional porque no pide que no sea mayor entre 2 y 5 metros. Mayor a 2 metros y ahí o acá o ahí puedo poner y puedo tener tablero seccional acá no más entonces me ahorro una térmica**.    
+Alumno(Buteado): O sea va a la térmica después va al disyuntor diferencial pero...    
+Profesor: Claro.    
+Ayudante: Si vos pones atrás del pilar.    
+Alumno(Buteado): Si pongo atras digamos    
+Profesor: Y sí porque ya pones todo este equipo atrás y esta térmica va a ser la que corte generalmente todo tu...    
+Alumno(Buteado): Y es una térmica menos.    
+Profesor: O sea se puede hacer eso siempre y cuando tu línea municipal esté acá, sobre el límite del muro¿? (Minuto 46:40). Entiende señora? El tema es que lo importante que usted entienda es que siempre lo que usted **calcula o se calcula a través de un proyecto es la potencia de entrada con la potencia de entrada se calcula la corriente con la corriente yo sé que conductor va a entrar**. Es así.     
+    
+Alumno(Leonardo): Hay alguna desventaja? A mi me parece que si pongo ese tablero muy cerca de la línea de vereda los graciosos pueden venir y meter mano.     
+Profesor: **No, porque este está dentro, dentro de tu casa**    
+Alumno(Leonardo): Claro pero...    
+Ayudante: No dice en el caso de que quiera ponerlo atrás del pilar y armar ya todo afuera.    
+Vendedor: Pero como mínimo 2 metros dijo?    
+Ayudante: Y sí máximo 2 metros.    
+Profesor: Pero lo real **es que atrás de tu medidor siempre habrá un tablero general pero lo que anulamos es como está en la línea principal tu pared tu tablero está dentro de tu casa.**    
+Alumno(Leonardo): A eso me refiero tengo que asegurarme que no llegue...    
+Profesor y ayudante: No pero eso está dentro de tu casa.    
+Profesor: Haga cuenta que está la puerta de su casa esa ahí entonces usted abre y ahí está el tablero suyo, no va a ver personas que puedan entrar. Si va le mete un chumbo, ya entró ahí y sí si ya entró a su vivienda. Entró a su vivienda y que le vas a hacer. Yo siempre me acuerdo que un tipo una vez, siempre me acuerdo porque tenía hijos chicos ahí. Siempre cuento lo mismo pero **tenía el portón abierto del garage y entró el tipo a vender milanesas ¿por qué entraste le dije? Le digo. Sí porque estaba abierto, no vos no podes entrar. Golpeá la mano entraste como 5 metros ahí.** Si querés hablar vamos a hablar afuera pero adentro de mi casa no podés entrar. Pero esas cosas a veces cuando la persona es de buena fé, a veces te calmás pero... Asusta. Vos salís así tenes un tipo ahí, lo 1ero que pensé ¿que hace acá?    
+    
+Rubén Leiva: Si la casa está a 10 metros de la línea municipal ¿qué llave va en el tablero general aquel? Atrás del medidor.    
+Ayudante: **Una curva B de 40. Una térmica**. Después si va aéreo o subterráneo pero ese tablero va dentro de tu casa.     
+Rubén Leiva: Si no eso ya entiendo, esa parte entiendo.    
+Profesor: Acá poné 1.    
+Rubén Leiva: 1 de 40?     
+Ayudante: Sí, una sola. De eso alimento al tablero seccional?    
+Profesor: École. Está aprendiendo.    
+Sebastían: Con cable de 6 a 10.    
+Profesor(Chiste): Siempre y cuando no tenga caño corrugado.    
+Rubén Leiva: No se olvida más profe.    
+Profesor: No, me acuerdo. Siempre me voy a acordar cosas.    
+Sebastían Melgarejo: **El preensamblado que va en la acometida principal me quedó claro que es re resistente por más, resiste mucho más que el 6 mm común.**    
+Profesor: École.    
+Sebastían Melgarejo: Ahora se puede poner uno de esos preensamblado del principal o es mucho gasto.    
+Profesor: Acá?    
+Sebastían Melgarejo: **Desde el principal al seccional?    
+Profesor: Sí sí eso es válido. Es obligatorio**, porque el preensamblado.    
+Sebastían Melgarejo: O sea este debería ser un preensamblado.    
+Ayudante: Si, este es demostrativo no vamos a armar uno con preensamblado para enchufar este.    
+Sebastían Melgarejo: Perfecto, ahí me quedó claro.    
+Profesor: Aéreo resistente por eso se pone eso, ya se acabó el tema del conductor unipolar por eso se pone **preensamblado o sea acá si va para allá para adentro también es preensamblado no hay tu tía.    
+Ayudante: Hasta que entra a tu tablero seccional adentro de tu casa.**    
+Alumno: **Digamos en la línea seccional del tablero principal al tablero seccional va un preensamblado?    
+Ayudante: École.**    
+Profesor: Sí, pero acá no.    
+Alumno: Del tablero principal al tablero seccional la línea ...    
+Ayudante: De la térmica de tu pilar si va aéreo hasta tu casa al tablero seccional es preensamblado.    
+Profesor: Por eso es que a veces es complicado el tema, ustedes ponen un conductor acá de entrada y después tienen que conectar otro conductor de salida, **o sea que ahí va a haber 2 conductores preensamblados de 2x6 por ejemplo. Que entra en la acometida y después otro que sale para el tablero seccional teniendo este gráfico si va en forma aérea**. Si va en forma subterránea ya va en forma subterránea para abajo, tengo otra disponibilidad. Fíjense hay lugares diferentes formas porque la cooperativa ahí de Oberá que abarca gran parte de la zona centro tiene la posibilidad de... Ese después le voy a pasar. Después voy a actualizarme también con el tema de allá pero le voy a pasar el gráfico si algún día se van a Oberá y quieren laburar allá.    
+Ayudante: Yo suelo ir cada tanto.    
+Profesor: Bueno, **tiene un caño principal de entrada que tiene la característica la altura de esto. Y después tiene otro caño más pequeño de salida que va a la casa o sea tiene 2 caños ellos allá en la cooperativa y creo que es bastante inteligente porque así no utilizo el mismo caño para entrada y salida**. Que eso hubiera sido interesante que la gente esta de EMSA aplicara también acá porque ya que hacen algo nuevo. Busquen la forma de mejorarlo.    
+Alumno(Buteado): Encima vendes un caño más.    
+Ayudante: Eso está de más    
+Profesor: Y sí, pero la idea principalmente es que todo lo que uno haga sea para mejorar, algún día me voy a juntar con la parte técnica y le digo.     
+Alumno(Buteado): Dígale que puede vender un caño más, ahí le van a hacer caso.    
+Profesor: **Ellos ya tienen...**    
+Ayudante: Ellos digamos que eso no les calienta mucho.    
+Profesor: Claro ellos ya hablaron un negocio grande con la gente allá y eso ya por mes le van a tirar algo para movimiento interno. Suele ser.    
+Ayudante(Buteado): Ya está ya.    
+Alumna(Leti Botolli): Gastos reservados.    
+Profesor: Gastos reservados, exactamente. Pero es así no hay otra forma.    
+Alumno(Torres): Con esos 4 conductores se ocupa el 35% de la canalización o ¿no tiene nada que ver eso?    
+Profesor: No acá el pilar, no es que no tiene nada que ver sino que ya tu caño, vieron que dice 50 mm son casi exterior son casi más o menos. No, **50 mm son más o menos casi 2 pulgadas**, es un caño así más o menos.     
+Ayudante: Aparte convengamos que también ese al estar afuera ese caño respira constantemente entonces es muy difícil, pero suele pasar que se sobrecaliente tanto el conductor porque se sobrecarga.    
+    
+Quién quiere leer esto? Empezá acá yo te hago STOP cuando hay que explicar algo para que más o menos entiendan.    
+    
+Yo: A partir de colocación de caños y cañas?    
+Profesor: Claro, acá empieza acá. Todo lo que vamos a ver ahora, después voy a manar fotocopia es parte de la reglamentación y que no está bien actualizado pero es lo que nos están pidiendo por reglamento dijo, el reglamento es bastante amplio y son bastantes hojas para leer y la mayoría de la gente no lee entonces yo trato de hacer algo sintético.    
+###### Yo: Diámetro mínimo de los caños: El diámetro interno mínimo de los caños se determinará en función de la cantidad sección y diámetro incluida la aislación de los conductores.    
+Profesor: Estamos hasta ahí? Yo después les voy a pasar el tema de lo que vimos la otra vez, la tabla en la cual aparece la cantidad de conductores, la sección **de conductor de acuerdo a que circuito tengamos y con eso determinamos el diámetro mínimo de caño ese, eso sale por reglamento**. **La tabla esa que vimos la otra vez, esa tabla me está indicando que caño de acuerdo a la cantidad de conductores pero es el caño mínimo de ahí para arriba**.    
+    
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5Jw8KZqWXudc27kjzUUdNAVqpG1AhpH1ENMoXKiz4RaBb_ZPcyh8lPJNFKNXW6ulHoEUPHfGPnKoL-8i6h01XKD3CFaOrqpV2m1THdhbXx4JqFcEGXT8HsnZdn4vKAoKrRRaHT1BTX2ERuVdygnWiYyGRQS-x6qlK7BLJoQFLv7vj_tiFM2TKl_6n7-U/s4160/IMG_20250317_190757223_flipped.jpg)    
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCnB0ZTNIBrFm5aR83YvuEnewl18HPDk1SWlrCPdVpkgnoog-sH7X6WO9al0_QrctyDXwSFpSNCFZ_Z3oluQVrD3lfFrwL10D_RjLiA0V62tCbJqAqJl3iW7PDNDmvhoOGMrcQqKWcXLFVc-MfKYwWbPqHlVKWZbbf2g-aSDgm3v9A5o6lPHQyk3rQW20/s4160/IMG_20250317_190803421_flipped.jpg)    
+    
+    
+Entonces que nos da la posibilidad a nosotros? Los proyectistas, algunos que proyectan constantemente ya automáticamente cuando empecemos a hablar o yo por ejemplo: **iluminación y tomacorriente de usos generales el mismo caño que utilizo es el que proyecta o 3/4, esto es en forma comercial porque yo voy y pido 3/4 pero en el plano cuando aparece acuérdense bien que eso es lo que pide las normas que estén en milímetros y la gente que es amiga también nuestra de la municipalidad también te pide con la característica en milímetros, la gente que hace proyectos y a veces le rebota porque ellos también quieren hacer los planos pero va a aparecer en ese caso 19/16 o RL que es liviano.**    
+    
+##### Pero eso aparece en el caño, entonces el caño mínimo que utilizo para el proyecto yo para tomas iluminación para usos generales 3/4 y para servicios especiales 7/8 (aires acondicionados, horno eléctrico).    
+Alumno(Buteado pero inteligente): Entonces ¿el plano nos pide milímetros y en el comercio pedimos en pulgadas?    
+Profesor: En pulgadas. Eso cuando yo les de el dibujo ese que está ahí, que hay que sacar fotocopia no sé si saqué fotocopia para ustedes pero igual voy a sacar. Estos son los principales dentro de una vivienda lo que yo proyecto y después aparece los troncales generales 1 pulgada lo que sea pero en cualquier lugar en donde tenga la posibilidad de ver son: **7/8 o 3/4** eso que saqué de ahí son 3/4.     
+    
+Maru: 3/4 serían 19 sobre...     
+Profesor: 16. 19 sobre 16 (19 / 16) Ese es el diámetro externo y este el diámetro interno, esto sería semipesado.    
+Sebastían Melgajero: Y el otro es 22/19 el de 7/8?    
+Profesor: **22/19 es de 7/8** para que ustedes más o menos tengan la idea. Esa tabla. Vamos a suponer que ustedes quieren y le dicen **tenemos que hacer una ampliación de unas bocas de iluminación y bueno lo mínimo ya saben que tomando la longitud donde está esta boca y si está la otra boca ya tienen la distancia en longitud dividen por 3 y saben cuántos metros necesitan ese caño**. No es difícil porque todos los caños de PVC hierro lo que sea viene de 3 metros.    
+    
+##### Como saber las cantidades de caño    
+**El cable canal ustedes ven esos cuadraditos que tienen tapa arriba eso vienen de 2 metros entonces si yo tengo o un cliente necesita esa información lo único que hago es tomar la medida de acá a allá y divido si tengo que poner este divido 3. Si tengo que poner el cable canal divido por 2.** Y sé la cantidad de caños, tomando la longitud. Siempre la longitud tienen que tener en cuenta que es en **metro patrón**, o sea que estamos trabajando con el metro común nuestro.    
+    
+###### Yo: Para los casos no previstos en la tabla el área total ocupada por los conductores comprendida la aislación no deberá exceder el 35% de la sección interna del caño. El diámetro mínimo de los caños que alojen líneas seccionales y principales deberá ser de 15,3 milímetros.    
+Profesor: Pará ahí está, ese el diámetro dice? **15,3**.    
+Yo: Sí, 15,3 milímetros. El diámetro interno mínimo de los caños.    
+###### Caño 5/8 solo se debe utilizar en línea recta NUNCA cuando bajo ni con curva.    
+Profesor: **Bueno, eso corresponde a un caño de 5/8** es más chico que 15,3 mm ese es el diámetro interno pero solo se debe utilizar en línea recta NUNCA cuando bajo, ¿estamos? Sí alguna vez trabajaron en una empresa y le sobró caños de **5/8 es solo para trabajar en línea recta no con curva para bajar**.    
+Alumno(Leonardo): Por qué no vertical?    
+Profesor: Probá. Baja mucho cuando uno hace la curva esta le baja más o menos un 30% la sección entonces cuesta.    
+Alumno(Leonardo): No, no. Eso está claro, ya lo había explicado pero **en forma vertical por qué no?**    
+Profesor: Y claro porque como vas a hacer la bajada si vos tenes una curva ahí, si tenes una boca ahí otra boca ahí no hay problema a menos que tengas vertical una boca acá y hacé de ahí hasta acá, eso podés hacer.    
+Alumno(Leonardo): Okay.    
+Profesor: Pero tengan en cuenta que es demasiado fino y es complicado hasta para pasar en algunos casos la cinta pasacables, entonces ahí ya se dan cuenta que siempre va a haber un lugar que se deforma y va a costar pasar la cinta, y si es curva...    
+###### No se puede poner una curva de mayor diámetro a un caño de 5/8     
+Alumno(Leonardo): Por más que yo ponga una curva de mayor diámetro interno?    
+Profesor: **Ahí te pego, porque no podes hacer eso**.    
+Ayudante: Se ríe.    
+Alumno(Leonardo): Pregunto pregunto, soy totalmente ignorante.    
+Profesor: No no está bien, te estoy cargando no más. No, a ver. Fijate si hay un 5/8 lo que te quiero decir es que si vos pones una curva arriba como tipo capuchón eso    
+Alumno(Leonardo): Se va a trabar.    
+Profesor: Claro, va a entrar ahí quiero que te muestre él para que vos veas que es muy difícil cambiar de sería un elemento auxiliar que no sea las mismas dimensiones que de los caños.    
+Sebastían Melgajero: Va a salir el pasacables por ahí, por el costado, va a bailar?     
+Profesor: A veces como esta es más grande que esta, tenes que buscar la forma de que tu **pasacables pase de allá para acá pero como esto es más chico puede golpear justo sobre la pared y va a tocar ahí, entonces a veces conviene meter de acá para allá pero al poner de allá para allá vas a tener que fijar la curva de tal forma que pase bien y no golpee porque si no se...**    
+Alumno(Buteado): El peludo.    
+###### Profesor: Todo es un problema cuando uno hace un trabajo la idea principalmente es hacer la canalización lo mejor posible para que cuando pongamos los cables sea más rápido y no perdamos tiempo, acuérdense que había un porcentaje que era el 60% cañería y si yo hago mal la cañería los 40% me va a costar el doble. A veces me va a costar hasta romper la mampostería para pasar el...     
+Alumno(Buteado): El laburo que tenías que hacer para 2 horas...    
+Profesor: Encima si trabajás solo peor todavía porque va pasando las horas y no lográs terminar y decís la pucha si esto era tan fácil hice la cañería bien y no puedo pasar ahora y a veces ocurre que vos no estás trabajando sobre **una obra sino directamente alguien con una cuablita que les dije siempre les pone cemento y...    
+Alumno(Buteado): Noo    
+Profesor: Peor todavía. Ese es otra forma de que siempre hay que llevarse bien con toda la gente que esté en la obra porque sin querer se tapa las cañerías**. Pero bueno ese es parte del proceso que a veces las interrelación con la gente a veces cuesta un poco. **Fíjense en obra yo siempre le digo a mi hijo hacen un guiso la gente que trabaja en la obra y te invitan y tenes que comer por más que el guiso esté más o menos es así**. Así es la única forma que la gente te considere parte del grupo y puedan levantar la obra sin problemas, porque sino...    
+Alumno(Buteado): *Llevá un termolar de vino*    
+Profesor: No no, ya empezamos. Antes íbamos a las obras y hacíamos la parte de hormigón y cada vez que se hacía la losa de hormigón se ponía la cañerías y todo se terminaba y bueno si salía todo bien y sin problema había tiempo y hora, nos hacían pagar un asadito, perfecto hasta ahí, iba todo bien hasta ahí, pero cuando está el asado ya quieren tomar algo. Entonces yo dije no hablamos de tomar, acá respetamos la gente que está acá la dueña de la casa lo que sea. Se hace el asado, agua gaseosa directamente si quieren seguir tomando... Pero ya fuera de obra. Así he discutido con gente, pero así a veces ocurre pero eso es tratar de hablarlo, después le cuento otra historia.    
+    
+\* Llega preceptora a tomar lista. Toma lista.    
+    
+Dos días más y semana santa.    
+    
+Ayudante: No quiso esconder más este caño?    
+Profesor: Mostrale ese. Es 3/4.    
+    
+Ahora vamos a abrir la ventana, con la amoladora me quedé sordo, esa tienen que inventar una para que no haga tanto ruido. Bueno eso es **lo que estoy diciendo ustedes ven la diferencia que hay entre 3/4 y 5/8 entonces si a esto le pones una curva disminuye más la sección entonces la idea es que de antemano ustedes ya tengan una noción voy a poner 3/4 por más que haga una diferencia de un peso**, pero la complicación después, pero si alguna vez tienen la posibilidad o sea que algún propietario le quedó caños de **5/8 y para acá derecho puedo utilizar entre boca y boca**. Suele ocurrir así que no se preocupen.    
+###### Ayudante: Solo para iluminación (caños de 5/8 y en línea recta).    
+    
+Bueno seguimos.    
+    
+###### Los caños de 12,5 no se utilizan más, son muy finos, es para saber lo que dice el reglamento solamente, peor si es cañería de PVC.    
+###### Yo: El diámetro interno mínimo de los caños que alojen líneas de circuito deberá ser de 12,5 milímetros.    
+Profesor: **Ah esa es de media, peor todavía más fino, sepan no más lo que dice el reglamento** pero eso no utilizamos más así, peor si es cañería de PVC. Seguimos.    
+    
+###### Yo: **Colocación de caños y cajas.**    
+Profesor: Listo. Este es importante que vayan entiendo parte de la reglamentación nos dice a nosotros como debemos colocar las cajas caños y todo. Sí, escucho.    
+###### Yo: **Unión entre caños. Los caños se unirán entre sí mediante accesorios adecuados que no disminuyan su sección interna y que aseguren la protección mecánica de los conductores.**    
+Profesor: Acá tenemos PVC, esto es cupla o una unión se llama este, para cada caño tiene su sección mínima o sea si yo tengo 7/8 este no me sirve para nada, si tengo una pulgada pero esto es cosa de uniones, esto estamos en PVC ahora en algunos casos vamos a suponer que tenemos hierro metálico.    
+Ayudante: Ese es medio guaso.    
+Profesor: Bueno, este es grande porque es de 1 pulgada. Es lo que tenemos pero yo después si consigo, que es lo que le quiero decir, a veces es importante saber que va dentro de un proyecto los tipos de caños y que material necesito para poder hacer la lista de materiales, acuérdense que ustedes van a hacer la **lista de materiales entonces tienen que saber después les voy a mostrar una foto todos los resagos de caños que había tirado por ahí y ocurre y sigue ocurriendo porque la gente no tiene unión**. La otra vez fui y le dije ¿Que pasó? No tenemos uniones, y esa cantidad de caños tirado ahí? Pedacitos de caños que pude sacar. No teníamos unión, no sirve.     
+Ayudante: El metálico?    
+Profesor: Este es el metálico, la misma 3/4 3/4 y la unión metálica.    
+Alumno(Buteado): Eso se puede hacer profe? Ponerle la unión si tenemos un pedacito de...    
+Ayudante y profesor: Claro, esa es la idea porque acordate que esto viene de 3 metros y si vos vas dejando pedacitos es pérdida monetaria porque la idea es que con la unión uno puede hacer o prolongar lo que uno quiera.     
+    
+##### ¿Qué hacer cuando no tenes cupla? Suele ocurrir muy de seguido que la gente se olvida o hacen mal el cálculo de los materiales.    
+Que ocurre a veces? Y esto me ocurrió en varias obras importantes de más o del interior no a mi sino directamente a la empresa que trabajaba en la parte eléctrica llevaron una cantidad de cuplas no suficientes ¿que signifca eso? No les alcanzó para todos. Entonces me dice: ¿qué podemos hacer? Traeme una cupla más grande un pedazo de caño de 7/8 o algo, entonces como yo no tengo esa **cupla, tengo que buscar un elemento para poder adosar y que quede esto fijo, lo que se hace es utilizar un caño de mayor diámetro y se hace tipo un caño camisa y se corta, vamos a suponer una longitud un poco más grande que esto y se corta y se coloca arriba, esto va a acá y esto va a ahí** para que ustedes entiendan, está cortado un pedacito igual que este.    
+Sebastián Melgarejo: Nunca se suelda entonces?    
+Profesor: No, no se suelda, no vas a poder soldar. Entonces vamos a suponer que ese pedazo de caño que está ahí no tiene esta levadura que esta levadura es para que los caños no se pasen no se toquen entre sí y este no siga su moviento...    
+Ayudante: No se deslice sobre el caño.    
+Profesor: El que se va a deslizar sobre el caño, va a ser este pedacito. Estamos? Yo corto acá igual, **y se hace ese pedacito hacé de cuenta que sea el caño ese que estaba ahí y después se trinca con alambre se pone acá se apreta bien se pasa por acá se pasa bien para que esto no salga. Se hace tipo un trinquete hago acá 1ero de un lado, paso acá hago del otro lado y después hago tipo un trinquete eso no se tiene que mover**.    
+Eso explico porque suele ocurrir muy de seguido que la gente se olvidó de llevar esto o hacer bien el análisis de cómputo de materiales, la cupla o unión se llama.    
+    
+**Es para que ustedes vean que a veces es importante la union para poder unir los caños y no desecharlo entonces como esto es plata**, tenemos que tratar de... Creo que vi el precio, creo que PVC 3 metros alrededor de 6500 o 7 y pico. Fíjense si ustedes necesitan poner 20 caños son 100 y pico 240 y si de ese desperdician 3 o 4, están tirando como 30 mil pesos, entienden como es la idea?    
+    
+Seguimos entonces, ya tienen un elemento auxiliar que es la unión entonces.    
+    
+###### Yo: **Cuando se empleen caños metálicos deberá garantizarse la continuidad eléctrica de la cañería se ejecutarán mediante accesorios que no disminuyan su sección interna de modo de no originar dificultades en el pasaje de los conductores y con ellos su deterioro o corte de la maya de aislación, el elemento que cumple con la condicción ideal de unión es la cupla roscada. No admitiéndose el uso de trozos de caños de mayor sección pues no se garantiza evitar el marcado de la aislación de los conductores en el pasaje de los mismos.**    
+Profesor: Fíjense este es un caño que tiene los caños metálicos tienen en su extremo esta cupla que es roscada. Y si ustedes ven es roscada y en la otra parte viene roscada el otro extremo pero sin cupla. Entonces ellos... Dicen que también uno puede utilizar para quedar o marcar su continuidad eléctrica los caños tienen que ser todos de hierro y tienen que mantenerse si yo tengo en este caso poner una curva tiene que ser curva metálica ahí. Estamos? La idea es hacer eso, ahí está mi ayudante. Que grande, está todo estudiado ya, no sé a fin de mes voy a tener que darle la mitad por lo menos.    
+Ayudante: Esta es de 3/4 y esta adentro tiene la rosca.    
+Profesor: Sí, tiene la rosca y esto va enroscado ahí o sino directamente se pone ahí directamente la cupla y queda enrroscado acá, esto es interesante para que ustedes vean, nosotros antes utilizábamos cañerías de hierro y tenía la particularidad de que cuando hacíamos la bajada en la parte de losa de hormigón directamente tomábamos un negro de caño con rosca y marcábamos acá.    
+Barrientos(Vendedor): Está barato el caño de hierro en Electro por lo menos.    
+Profesor: Y dí precio.    
+Barrientos(Vendedor): 4195 el de 20 milímetros 3/4 por 3 metros.    
+Profesor: Pero ese no es. Cuando dice 20 mm no es... 3/4 sí.    
+Barrientos(Vendedor): 3/4 liviano. 2000 el liviano de PVC y 7000 el pesado PVC.    
+Profesor: **Acuérdense en una vivienda lo ideal es el liviano o semipesado si hace exterior traten de meter semipesado** pero ese es el valor exactamente.    
+Barrientos(Vendedor): Después si comprás por cantidad baja.    
+Profesor: Sí, un porcentaje. Pero lo que te quiero decir, cualquiera de los 2 en rollo de 20, los que vienen ahí te bajan el precio no es mucho pero por lo menos es un valor bastante aceptable.    
+Ayudante: Considerable.    
+Profesor: **Vamos a suponer que tenemos una losa que va a ser una losa livianada arriba, tengo que hacer la bajada justamente en la parte... Fíjense que esto está roscado entonces necesito conseguir un pedazo aunque sea de medio metro de un caño roscado acá, una vez que está roscado yo le pongo cinta aisladora para que este caño cuando haga la bajada no se vaya para abajo, pero ya tengo seguro esto.** Fíjense que acá no me interesa porque acá va hormigón, acá es muy difícil que caiga para abajo aunque uno ponga directamente en algunos casos siempre se pone cinta aisladora para que quede más sujeto nada más, pero acá va roscado. **Lo que quiero decirle es que yo no puedo roscar acá y roscar acá a veces todo junto** pero es importante acá está roscado y ya tengo la bajada que están los caños ahí, cuando trabajo con caños metálicos. **Cuando trabajo con PVC hago lo mismo tengo la bajada pero acá o le pego tiene que quedar así**.    
+###### Alumno: Con sellarosca se pega?    
+Profesor: También.    
+Ayudante: No, eso por lo general se usa algo que ya viene con los **caños que es adhesivo PVC**.    
+Profesor: Pero ya es bastante fíjense que no es que sale tan fácil pero siempre es conveniente en estos casos cuando hay bajada y **tengo un elemento extra y poner cinta aisladora para que quede más fijo**, pero se hace la bajada entonces yo ya tengo bajada tengo arriba tengo la bajada, después vamos a ver como tomo la bajada en una losa continua para que tengan idea por qué son los **elementos auxiliares, esto tengo una curva como elemento auxiliar acá 4 elementos la unión o sea que ya voy teniendo elementos, y después faltaría el otro que es la parte de conectores**. Pero seguimos ahí...    
+    
+Alumno(Leonardo): Hay una manera de calcular la cantidad de conectores que voy a necesitar?    
+Profesor: Sí, ahora después vamos a ver un dibujito.    
+Yo(Leo fotocopia): **Unión entre caños y cajas. Las uniones de caños y cajas deberán efectuarse mediante conectores o tuerca y boquilla**.    
+Profesor: Hasta ahí no más, ahora va a traer mi ayudante experto. Mostrale para que ellos vean y ahí aprovechamos ya ahí le explico al señor ahí. Yo siempre tengo esto porque tengo en la memoria, **cualquier planta que yo haga porque nosotros el dibujo que hacemos es en planta** sería solo la superficie como si hubiera sacado el techo de arriba, y depende la cantidad que uno tenga en boca. Uno puede ser siempre me acuerdo, vamos a poner 1,2,3 aunque sea. Y esto abre y cierra para este lado, entonces lo ideal sería vamos a poner las cajas primero y vamos, vamos a traer la alimentación de acá y de acá. Primero vamos a ver esto. Lo que te está diciendo ahí entre **boca y boca yo necesito un elemento de unión de los caños con las cajas a través de un sistema que es el conector te pide que si o si haga conectores** entonces si yo tengo ahí le voy a **comentar como ya voy calculando eso**.    
+Fíjense esta es una caja octogonal. Tengo 3 cajas octogonales y acá en la unión entre 2 acá acá acá y acá son los conectores. Si es 3/4 son 3/4.    
+Barrientos(Vendedor): Esa la caja octogonal siempre es la misma medida?    
+Profesor: Tengo una chica y una más grande, generalmente si tengo iluminación sola tengo caja octogonal.    
+Barrientos(Vendedor): Ah el agujero no más se hace más grande?    
+Profesor: No, la caja se hace más grande.    
+Barrientos(Vendedor): Claro, por ahí uno es de 3/4 el otro de 1 pulgada.    
+Profesor: Sí sí sí, pero estos generalmente cuando tengo iluminación y tomacorrientes cuando vos **veas todos los intersticios los agujeros no pasan de 3/4 y 7/8** o sea que si querés meter un caño de 1 pulgada vas a tener que perforar un poco más grande acá y ya se complica pero este por ejemplo tengo la posibilidad tiene para poner acá ustedes ven acá tiene el **1ero de 3/4, el 2do 7/8 y en algunos llega hasta 1 pulgada pero 7/8 como máximo**. En caño de hierro no. Ya tiene 3/4 como máximo 1 puede ser que tenga 7/8 los que le quiero decir que fíjense como es el automatismo del sistema que yo ya proyecto con cañería de 3/4 la fábrica ya me da con cañería de 3/4 los agujeros de 3/4 como máximo 7/8 y ya tengo la posibilidad o sea que todo lo que uno proyecta es porque realmente tenemos en el mercado comercialmente esa característica por eso ya **3/4 7/8 lo que más se usa normalmente en una vivienda y la alimentación en algunos casos de 1 pulgada**.    
+    
+Entienden?    
+    
+###### Si yo quiero traer la alimentación del tablero principal hasta acá, si o si me conviene traer de 1 pulgada porque el conductor es mayor, tengo una distancia bastante exagerada y ya la superficie que tengo adentro mientras mantenga 35% este, y el caño que utilizo va a ser de 1 pulgada.    
+Vamos a suponer que traiga 2x6 de allá hasta acá más tierra y tengo la posibilidad de esa sección de caño para esos conductores.    
+    
+###### Bueno, la parte que dice ahí la norma que entre caja y caño debo tener un elemento que es el conector pide por reglamento y yo cuando tengo el dibujo ya voy poniendo esto me sirve a mi después vamos a ver que esto puede estar en escala, ¿qué significa en escala de dibujo? Es una escala para que entre todo lo que uno realmente necesite hacer en obra en una hoja más chica y eso después se multiplica por 100 o por 50 depende de que escala tenga, pero después vamos a ver eso. Lo que me interesa que ustedes entiendan que vean que si yo hago un bosquejo ya voy sabiendo que tipo, que es esta caja octogonal, esta caja cuadrada, acá sé los conectores, aplico el reglamento y me está dando todas las posibilidades para que yo me destaque haciendo el cómputo de materiales.    
+    
+Entienden? Esto es importante, vamos a verlo más tarde cuando proyectemos a otro nivel, pero esto me interesa porque ustedes van a calcular la...    
+Alumno(Buteado pero inteligente): Cuando hacemos el cálculo de materiales también le agregamos ese 2% los restantes no sé que.    
+Profesor: No, cuando hacemos el cálculo, uno se hace un cálculo... Las cantidades siempre podes poner un porcentaje 20% sería o 5 o un 10% depende que cantidad de elementos vos tengas porque vos tenes que prever vamos a suponer en cañería que en vez de ir recto fuiste inclinado y tengo otra distancia (más larga) entonces ya vas llevando una longitud que no es la vos previste entonces ya en el cálculo ya preves por las dudas. Vos tenes la altura más alta del cielo raso entonces tenes que calcular y dar un porcentaje más a esta cañería pero en las cajas octogonales son 3 son 3. No vamos a llevar una caja más.    
+Alumno(Buteado pero inteligente): Se puede romper.    
+Ayudante: La de PVC y la de hierro se van a romper?    
+Alumno(Buteado pero inteligente): Se esconder.    
+###### El ayudante intentan copiarle tanto al profesor que hasta habla en portugués (triste).    
+Ayudante: Sí, en la mochila de los operarios, ahí se esconde. Y ahí **voce va a tener problema**.    
+Profesor: Lo que quiero decirles es que... Entienden que acá, acá **las cantidades son las que definen el proyecto o sea que ya no tengo otra posibilidad las caja acá tengo 1 o sea que caja 10x10 rectangular tengo 1, cuadrada en este caso**, pero hay rectangular también así que o sea el proyecto o un esquema básico me da la posibilidad de tener la cantidad de materiales que yo necesito para obra, porque yo voy a hacer la lista de materiales.    
+Alumno(Leonardo): Y el que proyecta caños es empalme que se llama?    
+Profesor: **Esto es cupla o unión**.    
+Alumno(Leonardo): Y me interesa saber si hay alguna manera de calcular para aprovechar los caños.    
+###### Escala. 1 cm = 1 metro.     
+Profesor: Cupla o unión se llama. Entonces que es lo que se hace normalmente, yo le voy a contar algo rápido de acuerdo a si está en escala vamos a suponer que la escala más usada es 1 en 100, ¿qué significa esto? **1 en 100 significa que 1 metro equivale a 100 cm entonces tengo que tener 1 metro vamos a suponer que yo tengo 1 metro esto está en grande pero en el plano va a figurar. Tengo 1 metro entonces significa que 1 cm va a ser 1 metro, entonces si tomo la distancia acá esto está agrandado pero vamos a suponer que yo tomo 10 cm 8 cm sería 8 metros, pero es en escala. Entonces si yo tengo el valor de la escala eso vamos a ver después se no preocupen que eso es parte del dibujo técnico que tienen que tener idea para leer el plano, en qué escala están.**    
+##### Pero teniendo todas las longitudes yo puedo sacar un valor cualquiera, vamos a suponer que yo tengo más algunas derivaciones lo que sea, tengo 18 metros calculado por bajada subida lo que sea. Vamos a hacer 19 divido por 3, me da mínimamente 6 caños. 6x3=18 como pasó 19 por las dudas yo pongo 7 caños.     
+##### Como calcular la cantidad de cuplas.    
+Estamos hasta ahí? Calculé la cantidad de caños. Tengo 7 caños de 3/4 para eso, ahora me pide ¿cuántas uniones son? Entonces lo que se hace normalmente uno trata de hacerlo de acuerdo a la experiencia, **si yo tengo 7 caños entonces mínimamente pongo por cada caño 2 cuplas, yo calculo así.** Y a veces me sobra porque puedo tener una bajada ya uso una cupla, en un lado puedo enroscar y en el otro tengo la cupla. Puedo tener un pedaso de caño y tengo la otra unión entonces mínimamente **yo calculo 2 cuplas en este caso como son 3/4 por 7 me va a dar 14 cuplas**.    
+Alumno(Torres): Y estaban 200 pesos no que vos pusiste en el grupo?    
+Profesor: No sé cuánto es... Entienden como es el tema? Y ustedes van sacando después pero siempre tienen que tener la idea, o el esquema para poder calcular los materiales porque sino ninguém.    
+    
+Seguimos ahí.    
+    
+###### Yo: **Las turcas se dispondrá en la parte exterior de la caja y la boquilla en su parte interna**, las características constructivas de estos elementos estarán en concordancia con las preinscriptas por las normas IRAM 2224 y 2005.    
+Profesor: Ahí está, cualquiera que utilice mostrale ahí.    
+Ayudante: Caja metálica.    
+Profesor: Esa no sé si es muy grande, **lo que le dice ahí tiene 2 extremos: una boquilla que es roscada y la otra tipo un capochón una va internamente y la otra parte es la que se rosca. Esto cuando es métalica**. Entonces acá está la otra parte:     
+Ayudante: La parte roscada y el capuchón.    
+Profesor: **Esto cuando estamos hablando de conectores metálicos**. Siempre les digo que si esto es una boca de...     
+    
+##### La sujeción le da el tornillo que está acá abajo que si tengo la boca de iluminación y tengo la cupla acá. Acá tengo el tornillo que este me fija para que no se mueva el y si esto está dado vuelta para arriba va a ser difícil que yo pueda fijar.    
+Estamos? Sigue tú.    
+    
+Yo: Colocación de cajas de paso. Para facilitar la colocación y el reemplazo de conductores deberá emplearse un número suficiente de cajas de paso, **no se admitirán más de 3 curvas entre 2 cajas**.    
+Profesor: Vamos al tema de las cajas de paso. Ahí no dice dice pero más o menos la idea principalmente es que esta **caja de paso esté a una distancia de 0,30 del cieloraso estamos?, ya dijimos que es porque si yo tengo que trabajar necesito tener suficiente visión para poder hacer los empalmes todo** porque si tengo muy arriba toca la...    
+Ayudante: Pega la bocha(cabeza) contra el techo.    
+Profesor: École, aquellas son cajas de paso o de derivación     
+Ayudante: Las cuadradas.    
+Profesor: **Generalmente son las cuadradas y por ambiente en algunos casos siempre más o menos tenemos 1** siempre y cuando porque hay arquitectos que no les gusta mucha caja de paso entonces dicen bueno usame la caja octogonal que esta sirva como caja de paso.    
+Sebastián Melgarejo: En mi casa están todas cajas octogonales. Un desastre.    
+Profesor: Suele ocurrir, que algunos dicen ya que estamos utilizamos la caja más chica octogonal y usamos también como caja de paso pero lo ideal es esto, o esto más grande, entonces tengo mayor superficie para hacer los empalmes y más ordenadamente pero caja de paso es.    
+**Alumno(Buteado): Entonces dónde va la caja de paso, cuándo se usa? O sea va arriba pero en qué?    
+Profesor: Cuando yo quiero hacer una derivación entonces acá por ejemplo en este caso viene de un tablero cualquiera entonces no viene directamente a la boca viene a la caja octogonal acuérdense que está a 0,30 del nivel del ... Y sobre la pared, entonces puedo hacer cualquier derivación.** Para abajo para el costado puedo seguir la alimentación para allá lo que sea o puedo tener una derivación para otro lado, esta es una **caja de paso o de derivación, caja de paso porque puede pasar de un circuito vamos a suponer que yo tenga un circuito**.    
+Alumno(Torres): Circuito como aquel que baja el interruptor y después...    
+Profesor: Sí, puedo pasar de largo un circuito... Puedo tener un circuito especial entonces pasa directamente porque también sirve **caja de paso también sirve para una distancia determinada para que yo no tenga que hacer longitudes grandes**. Si yo tengo una alimentación de allá por ejemplo del tablero principal de entrada y me convendría poner mínimamente 1,2,3 cajas de paso hasta llegar acá.    
+Alumno(Torres): Ah por el camino sería?    
+Profesor: Claro, entonces vos vas pasando porque la máxima que yo sepa, la máxima longitud de una cinta pasacables que uno más o menos puede **trabajar en comodidad es de 20 metros, pero también se enrolla todo, así que lo ideal es una de 10 o 15. La de 10 es más práctica.** Entonces uno tiene la posibilidad, después le voy a traer una **forma de como enrollar una cinta pasacables en una manguera de 1 pulgada, un pedazo de manguera no todo.    
+Ayudante: O un corrugado, en eso podés usar corrugado naranja.**    
+Profesor: Pero para guardar la cinta pasacables, yo creo que tengo uno por ahí a ver si consigo otro. Para eso es esta caja también se respeta y se mantiene lo que sigue ahí: conectores. **Si o si conectores por más que tenga cañería de corrugado también tengo que poner conectores** ese que pasa el corrugado por acá NINGEIUM no está aprobado eso.    
+Ayudante: La casa de tu suegra tiene uno así.    
+Ruben Leiva: No duermo tranquilo desde que vine a clase. Una pregunta si uno tiene un quincho o una casa para alquilar en la parte de atrás al terreno, de donde alimento ahí de la parte seccional o de esa caja de derivación?    
+Profesor: No, si vos tenés un quincho solo.    
+Ruben Leiva: La parte de la casa.    
+##### Profesor: **De algún lado necesitás la alimentación si la alimentación es única sacás del tablero, acá tenes que poner una térmica que diga exclusivamente alimentación al quincho y a ahí por arriba, por abajo, por al costado donde sea va a haber caja de paso de acuerdo a tu longitud y va a llegar a un tablero aunque sea chiquito pero va a llegar a un tablero** de ahí comanda todos los sectores esos.    
+Ruben Leiva: De ahí divido de vuelta lo que son tomacorrientes, iluminación y todo?    
+Profesor y ayudante: Sí.     
+###### Circuito mixto.    
+Profesor: Ahora si tenés 3 tomas y 4 luces. Hacé un mixto para no gastar mucha guita. O sea tenes 4 iluminaciones y 3 tomas, entonces poné un circuito mixto.     
+###### Un circuito mixto es cuando yo tengo en el mismo circuito tengo tomacorriente e iluminación, ahí como tenes poquitas bocas podes ponerlo, pero va una térmica para esos circuitos acorde al conductor más chico.  Vos pones para proteger el conductor más chico y el conductor más chico va a ser el de 1,5 mm^2 de iluminación.    
+###### Alumno(Buteado pero inteligente): Y de ahí de ese tablero del quincho también va un disyuntor diferencial?    
+Profesor: **Claro!** Si sí, eso se respeta siempre porque vos podes tener un problema en el quincho y si no pusiste esto, va a saltar el disyuntor adentro, **va a quedar sin luz tu casa adentro**.    
+Ruben Leiva: Y de cuánto tiene que ser la llave que va al quincho?    
+Profesor: **Depende de que conductor vos pongas, si vos pones uno de 4 mm^2 tu conductor que va allá podes poner de 20 acá**    
+Barrientos(Vendedor): Y si va a una casa interna no más?    
+Profesor: Y ahí ya te conviene porque si tenes una casa interna adentro una vivienda dentro de un terreno va a tener otro consumo entonces si o si vas a tener que llevar un conductor hasta allá y una térmica a ese tablero independiente porque seguro que aquella casa hoy en día no hay ninguna casa que no tenga aire entonces si o si ya tengo consumo y si tengo la ducha eléctrica también entonces tengo que tratar de hacer en forma independiente y **si puedo ya no saco de mi tablero de mi casa anterior sino saco de acá del tablero este del medidor pongo otra llave exclusivamente para aquella parte del fondo**.    
+Ayudante: Saca de la línea.    
+Sebastián Melgajero: Y dejan poner otro medidor al lado como para que sea totalmente independiente en la misma casa.    
+Profesor: Se puede hacer no hay problema hasta 3 conductores independientes siempre y cuando vos tenes que pagar la conexión de esta de aquella y aquella o sea tenes 3 conductores o 3 medidores diferentes y 3 conductores diferentes hasta allá, se puede.    
+Barrientos(Vendedor): EMSA sí, SAMSA es el que no te deja, es solo 1 medidor por terreno.    
+Profesor: Ajá, se hace así pero bueno es así. Pero por eso si vos podes hasta 6 departamentos, más de 3 ya podes poner un gabinete para 3 o 4 medidores ¿? (Hora 01:41) o 6 lo que sea, entonces ahí va directamente acá actúa como cada departamento la casa que vos tenes en el celular así que... Lo que a veces es problemático es cuando se tiene una casa primero se hace todo el medidor y después con el tiempo se amplía y se pone otra casas atrás a veces el trayecto de acá hasta allá cuesta. En el sentido de que hay que ver bien como es la alimentación si hago en forma subterránea o en forma aérea, ver que a veces son ¿? distintos entonces tengo que ver de donde paso mi alimentación para no acomplejar a la casa anterior a veces hay que pensar un poquito pero todo se puede hacer. **Como siempre le digo en una obra yo no voy a ir y tratar de hacer ya todo sino que tengo que ir pensando como puedo hacer para llegar allá sin perjudicar la casa anterior o hago por el otro lado o por el muro perimetral, todo eso se tiene que ir pensando no puedo pasar en este caso llevar un preensamblado acá y justo paso por la casa del otro y pasa por el techo**.    
+    
+###### He visto ahora está protegido el conductor preensamblado pero hay veces que pasa por arriba del techo del otro y meten allá no más a veces queda colgado ahí arriba del techo.    
+Lo ideal es que esté un tendido sea independiente y no perjudique a ninguna instalación, yo he visto en la escuela también que se hizo una ampliación acá y pasaron la alimentación arriba del sector que ya estaba hecho.    
+###### Barrientos(Vendedor): Nosotros teníamos un local en alquiler y el tipo estaba debiendo entonces cortamos la luz y como tenía buena relación con el vecino de al lado le pasó un cable, y bueno llamamos a EMSA no sé si le habrá multado pero seguro.    
+Ayudante: Si eso tiene una multa, una multa que no creo que nadie quiera pagar, así que no les aconsejo eso.    
+Profesor: El vecino es muy difícil, a veces ocurre la necesidad urgente de que cortan la luz o tiene problema en la línea y vos necesitás como conservar por lo menos los alimentos que tenes en la heladera y el tipo de buena fé te pasa una prolongación y lo primero que se hace es enchufar uno de los tomacorrientes.    
+Sebastían Melgajero: Macho a  macho.    
+Profesor: Y sí, y tiene energía por lo menos un sector entonces es factible pero no es para toda la vida. Así como esto, a él ya le cortaron la luz y ya el otro ya...    
+**Ruben Leiva: Algunos tienen el generador cortan la luz bajan la térmica y prende el generador y enchufan a un tomacorriente y alimentan toda la casa siempre y cuando la llave esté abajo funciona**.    
+Profesor: **Puede ser, pero 1 línea no más. Depende de donde vos hagas.**    
+Ruben Leiva: No no yo ví pero no en mi casa    
+Profesor: No por eso, no podes hacer.    
+Ayudante: No en la casa de tu suegra.    
+Alumno(Torres): Y los paneles solares funcionan?    
+###### Panales solares se guarda en baterías alcanza para una computadora no para una heladera ni para un aire acondicionado, tenes que tener varios paneles    
+Profesor: Los paneles solares jeje, eso vamos a nombrar perimetral pero todo funciona el tema es que para que ustedes entiendan nosotros tenemos corriente alterna producto vamos a **suponer acá la energía que genera el cruce del agua hace mover las paletas va al generador y genera, esa energía se tiene que consumir**, el panel tiene otra propiedad que nos permite cargar una batería o sea que quiere decir que los paneles solares vos podes tener la posibilidad de guardar esa energía en una batería pero empecemos otra cosa, un determinado tiempo del día, hoy en día nosotros no tenemos heladera de bajo consumo, y el aire acondicionado los únicos LED que pueden quedar prendido es eso, puede utilizarse para computadora en determinada cantidad de horas, no es todo el día. En consumo para que sea igual a tu casa tenes que tener varios paneles para poder sobrentar la potencia como si estás en tu casa. O sea es para determinadas cosas, si vos pones un panel en tu casa. Ahora si vos tenes un lugar que tenga 2 o 3 hectáreas por 20 hectáreas ahí tenes por eso pide una parte del porcentaje de energía que necesita ese sector o una fábrica lo que sea pero determinadas cosas nada más.     
+    
+Por qué? Yo puedo tener un panel y usar mi elemento 220 porque tiene un sistema electrónico que te permite que las cantidades de energía que entra acá se pueda convertir en 220 tipo un inversor y utilizar en determinada hasta que se descargue toda tu batería, pero determinada hora del día no más.     
+Barrientos(Vendedor): Para iluminación nada más?    
+Profesor: Para iluminación sí nosotros sí...    
+Barrientos(Vendedor): **Electro vendía un KIT que venía ya con los foquitos tipo kermesse**.    
+Profesor: Sí y hay lugares en donde vos ya tenes artefactos de alumbrado público que tienen la batería ahí y de acuerdo a como llega la fuente del sol ahí almacena y después se enciende porque tiene una fotocélula para encender determinada hora del día, y después tiene los sistemas de iluminación de patio así con cañería con luces de ese tipo.    
+Barrientos(Vendedor): Y las últimas casas de Itaembé Guazú también tiene un termotanque me parece.    
+Profesor: Ese es termotanque solar ese funciona de otra forma pero también tiene el mismo sistema, o sea a través de energía solar calienta el agua.    
+Ayudante: La energía es absorbida por los tubos de hierros esos que vos ves, y eso adentro tiene algo así como un espiral o una serpentina.    
+Profesor: Pero para que ustedes entiendan lo más factible para probar es eso. **Los termotanques solares antes**, pero también tengo la posibilidad en caso de que tenga 3 o 4 días nublado.    
+Ayudante: Ahí te vas a bañar con agua fría.    
+Profesor: Pones directamente la energía 220 y dale calor a resistencia. Una resistencia no más.    
+Alumno(Buteado): O sea que en verano cuando hay más calor no te sirve para nada el termotanque.    
+Ayudante: Y si vos sos medio loco y te bañas con agua caliente hasta en verano, te sirve.    
+Alumno2: Tomá mate.    
+Profesor: No pero no es solo bañar, si no que yo lavo la grasa los platos todas esas cosas con agua caliente. Si me dicen bueno tenemos que aprovechar la energía solar y tratar de ahorrar en la energía convencional necesitamos muchos paneles para sufrir la demanda o sea que es muy difícil, **póngale la provincia tiene el 100% de consumo de energía y los paneles solares que tiene ahora no llega ni a 1% de todo el sistema**. Brasil está más actualizado la gente pone su pantalla solar arriba y todo el excedente ya sea para lo que tengan ellos le llevan **a la red y ese excedente en el medidor tiene un sistema que vos le entregas energía a la red y te descuenta**. Entonces el valor que vos pagabas acá de todo el consumo teniendo ese panel no va a pagar todo sino un porcentaje menos.    
+Leti Botolli: El tema es que la inversión de los equipos es muy grandes.    
+###### 10 o 15 años para poder tener el ahorro de la energía solar con paneles    
+Profesor: La inversión de los equipos hoy en día es muy caro entonces si uno piensa que teniendo un sistema de pantalla solar va a reemplazar hoy en día y vas a tener que esperar mínimamente entre **10 y 15 años recuperar y vas a poder tener el ahorro. Y yo en 10 años capaz que ya ni esté acá ya. Esté allá arriba o allá abajo.** Es lo mismo que cuando vino la época del tema del gas en el 94 vino la idea principalmente todos los técnicos todos los ingenieros que querían aprovechar la capacitación del gas natural, hicimos todo el estudio perfecto, proyectamos todos los edificios con ese sistema y... **Fíjense del 94 hasta ahora**     
+Leonardo: Nada.    
+Profesor: No pasó y no va, no va, no va, todavía no está. O sea para que me sirvió hacer todo el curso. Todo depende como avanza porque si la red avanzaba acá y ese gas natural se vendía al Paraguay seguía a Brazil y se vendía a Brazil y llevaba a los lugares más poblados de Brazil, teníamos la posibilidad de tener un rédito en nuestro sistema que pasa nuestro consumo acá en gas es ínfimo entonces traer una red allá, no cierra económicamente no cierra.    
+Leonardo: Ah por eso no lo traen?    
+Ayudante: Aparte convengamos que como avanza la tecnología: cocina todo eléctrica.    
+Profesor: No traen por eso. Y políticamente somos chiquititos, y la cantidad de gente que somos nosotros somos ínfimos para las grandes, no sirve de nada nuestro voto.    
+Alumno(Buteado): No mueve ni la aguja ya.    
+Profesor: No por eso traer la energía acá, pero se probó por eso Itaembé Guazú tratan de meter esos tanques por los menos, algunos edificios acá también traen los tanques esos y hacen como si fuera de red pero bueno no es lo mismo.    
+    
+La gente dice: Vamos a poner pantalla solar, perfecto pongan pero no le va a redituar en poco tiempo aparte EMSA no tiene el convensor de energía(para entregar energía a la red) que pueda mandar la línea y que le salga más barato así qué....    
+Ayudante: O sea acá le sirve más que nada como un respaldo.    
+Alumno(Buteado): Por si se corta la luz a la noche.    
+###### Sistema monohilo    
+Profesor: **Fíjense nosotros hicimos 24 escuelas rurales porque esas escuelas rurales no tenían energía y estaban de la red 10 o 15 kilómetros depende de que característica tengan de la línea principal. Después se fue implementando aumentar la red pero a través de un sistema monohilo**. Un hilo solo un hilo tipo de guardia iba hasta el fondo recorría 10 o 15 kilómetros y donde había un lugar en este caso la escuela o una vivienda se ponía un transformador llevaba la línea el monohilo que llevaba solo la fase ponía un transformador este transformador estaba acá llegaba el monohilo acá un transformador de 10 o 15 cableado depende de que característica tenga y tenía la puesta a tierra acá el secundario salía fase y neutro y tenía esa vivienda fase y neutro hoy en día se hicieron varios lugares. Todavía sigue con ese sistema monohilo pero esa escuela que eran 24 que tenían la pantalla en solar quedaron en desuso en algunas le dije que usaran como energía alternativa de emergencia en caso de que se corte la luz y usaron.    
+Y otras más usaron porque la gente que se tenía que encargar de mantenimiento era EMSA y con empleados de ElectroMisiones porque ellos instalaron la parte con una empresa que era de La Rioja entonces no hubo mantenimiento tampoco enseñaron al usuario a utilizar eso, los directivos ocuparon freezer y heladera como si estuvieran sistema normal y las baterías quedaron en desuso después con el tiempo alguien fue y tocó y dijo: "ay que bueno este conversor" llevaron los equipos electrónicos y después fíjense los aborígenes una vez voy y tenía un pedazo de pantalla solar en su vivienda de madera y tenía y brillaba y yo decía que miércoles es eso, y era un pedazo de la pantalla solar.    
+Alumno(Buteado): Quedó re cheto el rancho.    
+Profesor: Sí, a lo que voy a es que se intentó hacer cosas pero todo depende del uso y como se prepara el individuo porque si vos tenes algo nuevo tenes que enseñar a usarlo.    
+Bueno seguí esa parte.    
+    
+###### Como es posible hablar tantas boludeces. Recién ahora vuelvo a leer.    
+Yo: En tramos rectos y horizontales sin derivación debe colocarse una caja cada 12 metros y en tramos verticales una cada 15 metros. La caja de paso y de derivación deberá instalarse de tal modo de que sean siempre accesibles y que no sean tapados por amoblamiento previsto como fijo muebles de cocina etc.    
+Profesor: Si yo pongo una caja de paso igual que el tablero hay gente que por X motivos dice no acá tengo lugar entonces pongo una biblioteca ahí  y tapa mi principal, o una caja de paso tapa ahí, el tipo va a venir y dice vamos a hacer una amplicación y me dice: "adónde? Y vamos a hacer una ampliación para allá", **es interesante tener idea de donde está la caja de paso porque en esa caja de paso yo puedo hacer tranquilamente una amplicación para allá**, tomo una alimentación, la alimentación que llega ahí tomo allá arriba y sigo, **si no tengo esa posibilidad de encontrar esa caja de paso tengo que ver que es lo más fácil y lo más fácil es traer una alimentación de alla porque esa caja de paso no la encuentro me tapo la biblioteca**.    
+Torres: Uno cada 15 metros decía?    
+Profesor: Como máximo.    
+Ayudante: En preferencia menos.    
+Profesor: 1 cada 15 metros cuando uso alimentación del tablero que está allá viene para acá.    
+Yo: En tramos rectos y horizontales sin derivación debe colocarse una caja cada 12 metros y en tramos verticales una cada 15 metros.    
+Profesor: Eso es cuando estamos haciendo edificios y el otro 12 para... **Pero eso son distancias máximas yo puedo disminuir**, ya les dije.    
+    
+Seguimos un cachito.    
+    
+Yo: **Consideraciones para caños en forma de U. Cuando no sea posible evitar la colocación de caños en forma de U por ejemplo los cruces bajo los pisos u otras formas que facilite la acumulación de agua se colocarán únicamente cables aislados con vaina de protección llamadas comúnmente de doble aislación que correspondan a las normas IRAM 2220, 2262 y 2268.**    
+Profesor: Que es lo que dice ahí? Vamos a suponer que ustedes hicieron la cajita del tomacorrientes ahí y yo necesito alimentar la pared la cajita de ahí y no puedo hacer por arriba porque **ya tengo terminado la parte de arriba el cieloraso y tengo que hacer por abajo entonces la norma me dice que esa cajita que es una caja de 5x10 yo voy para abajo este sistema y después tengo que resolver arriba porque tengo a 40 cm otra cajita esa forma es una forma en U esa cajita que está ahí abajo de 40 voy para abajo sigo acá** por abajo del piso y subo otra vez porque esta mampostería todavía no hice el piso y yo puedo picar la pared y bajarlo ahí y subir pero que me dice que debo tener en cuenta que el **aire se condensa entonces como está acá abajo se deposita gotitas ahí y queda húmedo**.    
+Sebastián: Doble aislación.    
+###### Preguntar Profesor: Entonces me pide que si hago este sistema en U también lo puedo hacer arriba debo tener una viga o lo que sea, también puedo hacerlo pero en este caso si hago este sistema en U esto va a quedar así, ahí en otro lado estaría acá, **si hago este sistema en U significa que ahí se condensa entonces** el conductor que debo utilizar ahí debe ser subterráneo eso que dice norma IRAM tal entonces puedo utilizar de acá hasta allá.    
+Barrientos(Vendedor): Eso también a 40 cm abajo?    
+Profesor: No, no es necesario o sea puede pasar por acá no más a 40 está de esa boca que está acá, yo bajo bajo acá para abajo sigo puedo picar lo mínimo de mampostería yo voy a hacer una en U haciendo en U, hago esa cajita bajo ahí pico entra el caño que dijimos que ahí hacemos una ranura no más para poner el caño después vuelve acá arriba y sube, esa forma que es así es en U y que dice que se condensa entonces esto es conductor subterráneo pero este es grueso pero tiene que pasar **2,5 mm^2 para acá, 2x2,5mm^2 subterráneo acá**. Estamos? Son excepciones no es que va a ser siempre.    
+Torres: De la caja hasta allá?    
+Profesor: No, te voy a pegar.    
+\* Profesor hace un gesto que le va a pegar.    
+Torres: No no, ah si está bien profe.    
+Profesor: Te estoy diciendo que de la cajita que está ahí yo le tengo que pasar ese. No, te estoy cargando.    
+Torres: Jajajaj    
+Profesor: Con este mirá    
+Torres: Jajaja en la cabeza.    
+Profesor: Este vos(un caño) llevas a la cancha fíjate nadie se te acerca ahí     
+Leonardo: Amansa bobos    
+Profesor: Fijate pero viene ahí sigue ahí en U pero ahí te va diciendo que se condensa el aire y se forma pequeñas gotitas, antes nosotros hacíamos todo de hierro y a veces faltaba alguna alimentación que se olvidaron y vos hacías este sistema todo en hierro y se formaba, se condensaba y se formaba gotitas acá pero como esto era de hierro vos tenías miedo ya porque vos pasabas la cinta y salía agua acá y lo 1ero **que hacía era culparle al tipo que hizo el fino porque dijo no este me tiró agua acá dentro bueno pero después uno aprende que se condensaba el aire y se formaba esas gotitas sacabas toda la cinta aisladora toda mojada entonces este sistema ya no me permite meterlo acá dentro porque es si o sí las gotitas acá va a provocar que esto tarde o temprano se pega un lumbre¿? (Hora 02:02) y ya no es el mismo entonces te pedía si o si que uses cañería de PVC y conductor subterráneo**. Sistema en U. Es importante porque en algunos lugares primero hice con este sistema después con ese: las tensiones bajas por ejemplo el tema de telefonía que hacíamos por el piso no hay problema pero en otro sistema cuando llevamos energía 220 ya es un poco más complicado entonces es interesante que a veces ocurre esto y sepamos como hacer las cosas nada más que eso.    
+    
+Seguimos ahí y terminamos de leer esa partecita.    
+    
+###### Yo: Curvado de los caños. Las curvas realizadas en los caños no deberán efectuarse con ángulos menores de 90 además deberán tener como mínimo los radios de curvatura indicados en la siguiente tabla.    
+    
+Profesor: Bueno. Lo que dice es que si yo tengo un caño y tengo que hacerle un doblez voy a ver si consigo el resorte para poder hacer esto que el caño tiene que ser 90 o mayor a 90 grados. Y que depende de la sección de los caños que sale de tabla te dice que radio mínimo vos podes hacer porque depende de que caño tengan si tengo este que es más grande y eso lo da la curva si yo no quiero darlo directamente consigo una curva que ya está fabricada y directamente uso la curva, ya no necesito, por eso el tema de resortes para hacer la curvatura no es necesario porque con este sistema de curva ya sé si yo bajo por acá fíjense **vamos a suponer que tengo un toma acá y bajo acá esta es una cajita de 5x10 entonces como esto es visto de arriba nada más yo tengo que tener en cuenta que si esto bajo acá tengo una curva porque esto va llega hasta arriba y ahí baja para abajo no sé si se están ubicando más o menos pero viene ahí de la boca pasa por arriba baja y llega a 0,40 que es el tomacorrientes y ahí tengo la curva, sale de la boca viene y baja y tengo la curva ahí ese elemento cuando hago el cálculo ya pongo una curva de PVC en este caso porque es la bajada si o si entonces no necesito trabajar con el resorte, el resorte es en algunos casos para que uno entienda que se puede reemplazar esta curva en el caso de que yo me olvide comprar puedo hacer esto o tengo alguna deformación que puedo hacerlo en ese, también me sirve el resorte**, pero normalmente todos los tipos de cañerías ya tienen su accesorio: cupla, conectores, todo tienen para la determinada sección de cañería que yo tenga, si tengo 1 pulgada 2 pulgadas, lo que ustedes quieran tengo accesorio vendo. Así me hace la gente de GENROD tengo accesorio tengo, no se haga problemas, le falta conector le vendemos. Ellos te ofrecen todo no hay problema, lo importante es que sepamos como instaladores saber donde lo usamos de la mejor manera y las normas nos da una idea de como hacer nuestra instalación.    
+    
+Última parte y ya nos vamos.    
+    
+Yo: **Colocación de los conductores.**    
+Profesor: No ese dejá no más, porque antes de colocar los conductores yo tengo que enseñarles circuito entonces una vez que tengan los circuitos recién ahí vamos a seguir esa parte lo que vimos todavía es cañería después empezaremos con circuito y después veremos los conductores que va dentro de una cañería para ver, hasta ahí va bien.    
+    
+Por más que yo de explicaciones y pase esto en grupo le idea es explicarle que eso que se da tiene un fin para que ustedes entiendan por que se hace de tal forma y está reglamentado eso no es que uno inventa todo lo que está ahí por eso dice hay una parte que siempre voy a volver a repetir una instalación dice que es **segura y confiable cuando ha sido hecho por un especialista o un idonio que ha aplicado el reglamento de la Asociación de Electrotécnico Argentino que es ese**, ahí te está diciendo como tenes que hacer las cosas. No hay otra y es para todos no es que es para vos no más, entonces uno aprendiendo el reglamento y parte del reglamento y después aprendiendo algo después se anima a ser solo, pero tiene que ir a conciencia.    
+    
+Estamos? Aprendiendo un poquito, después me olvidé una cosa que hizo la señora y después le voy a traer me acordé cuando miro de vez en cuando algunas cositas ahí el tema del ventilador.    
+Ayudante: Mañana si pueden traigan su portalámpara de prueba.    
+Profesor: El ventilador ese    
+Leti Bottolli: Sí.    
+Profesor: Sí, que vos hiciste.    
+Leti Bottolli: Sí. Compré un extensor al final que es un hierro que hace así así y así.    
+Profesor: Está bien, ese es soporte, bueno pero a mi me interesa después que hay un esquema del circuito.    
+Leti Bottolli: Ah le quería mostrar yo saqué una foto porque me quedó el miedo ese que capaz hice de 380 todo y mi ventilador ahora no tiene potencia anda en 1 sola potencia no sé si está roto el potenciómetro o qué pasó.    
+Profesor: Hay que ver que puso en la fase, si puso la fase abajo.    
+Leti Bottolli: Encima todo rojo.    
+Barrientos(Vendedor): El capacitor.    
+Profesor: Una cosa es si ud. pone el variador tiene que ir la fase abajo porque ese varía de acuerdo a la resistencia que tiene ud. va girando ahí, lo 1ero que hay que ver es si en tu variador pusiste la fase.    
+Ayudante: **Y no pusiste el neutro.**    
+Leti Bottolli: No sé, anda bárbaro pero no no...    
+Ayudante(Error): Pero no le podes bajar? Entonces parece que vos pusiste el neutro en el variador y la fase directo al ventilador. **(Según mi papá ingeniero electrónico no tiene nada que ver)**    
+Barrientos(Vendedor): El ventilador de mi mamá hace años, ahora le probé hace poco porque anda en 1 sola velocidad la 5 y es un error del aparato porque después viste cuando viene la fase y neutro **yo le invertí** y lo mismo.    
+Tiene el potenciómetro que no anda.    
+Leti Bottolli: Capaz que el potenciómetro no anda.    
+Ayudante: Si tenes un buscapolo abrí tu variador y medile, fijate si esa fase es lo que te está llegando a tu entrada de tu variador, en 0.    
+Profesor: \* Hablando de otro tema    
+Sebastián: Chau chau    
+Maru: Hasta mañana.    
+Profesor: Acá va a una térmica sacás de acá a acá    
+Maru: Hasta el Miércoles tenemos clases?     
+Profesor: Sí, yo me equivoqué    
+Maru: Ah no, yo ni vi eso.    
+    
+El miércoles era 16 y mandó un mensaje diciendo que el miércoles 17 no había clases    
+    
+---
+
+FIN

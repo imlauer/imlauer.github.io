@@ -1,0 +1,298 @@
+---
+title: "[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 18) - Clase Práctica: Pestañamos caños. Recuperamos y liberamos refrigerante. Medimos amperage. Algunas preguntas de examen. Foto tablero."
+date: 2024-11-16T14:17:48-03:00
+tags: ['AC']
+---
+### Audio de la clase en Vocaroo:
+[https://vocaroo.com/1lQPmlqTM0FS](https://vocaroo.com/1lQPmlqTM0FS)
+### Audio de la clase en YouTube:
+https://www.youtube.com/watch?v=OPw9TiCTo-M
+### Audio de la clase en Invidious:
+https://redirect.invidious.io/watch?v=OPw9TiCTo-M
+
+
+### FOTOS: [https://imlauer.blogspot.com/2024/11/clase-18-aires-acondicionados.html](https://imlauer.blogspot.com/2024/11/clase-18-aires-acondicionados.html)
+
+
+### Transcripción
+El equipo está limpio o hay que hacer un service, no bueno vamos a pegarle una enjuagada, como te aviso? Mandame un mensaje al privado.
+
+Parilla no hay, justo al mediodía? Algo se puede hacer.
+
+Dos cuadras hacia el parque paraguayo, de california son dos cuadras, es en villa sarita.
+
+No hay problema, no hay problema, no hay problema.
+
+Tuvimos un desafío, un equipo que no estaba funcionando que era para cambio de motor y ahora ya no lo es.
+
+Alguien tiene alguna duda con respecto a la recuperación de refrigerante? ... De 10.
+
+Ese equipo lo buscaron no arrancaba el motor, cambiaron los capacitores, el técnico vino hizo un mantenimiento no arrancó más dijo que el motor se había fundido y resulta ser que miden los chicos el capacitor agotado cambian el capacitor no arranca, desarmaron todo y **estaba mal conectado el capacitor**.
+
+### Entraba la línea de un lado al capacitor y el neutro de otro lado, pinchó el capacitor.
+Cambiaron el capacitor conectaron los mismos cables y no andaba, comenzaron a testear todo y ahí se dieron cuenta que estaba conectado la línea y neutro estaban mal conectados.
+
+Conectaron bien invirtieron todo eso y ahora el equipo funciona bien.
+
+El mismo técnico que le hizo el service casi perjudicó el equipo, pero jamás hizo vacío.
+
+Bueno, ya no vino más nadie al parecer.
+
+Hoy estoy contento porque me voy a las 12.
+
+Alumno: Al recuperar refrigerante hay que esperar 30 segundos?
+Profesor: NO, 30 es mucho.
+
+Quién trajo manómetro? Para usarlo ahora
+
+Alumno: Vimos que en 6,5 segundo ya llegaba a 0.
+
+Profesor: Qué llegaste corriendo vos?
+Alumno2: No tuve problemas que para en la transferencia acá en el hospital te bajas en la primer cuadra.
+
+Vamos a esperar a ver si viene alguien más y empezamos.
+
+Profesor: Pestañadora quién trajo?
+Alumno: Sí acá traje bueno de 10.
+Profesor: Bueno de 10. Atajá el equipo que va a querer caer. Hay una pestaña que está media cortita acá, así que vamos a revisar eso. Vieron que no cambia, a muerte apretado los caños no hay necesidad de apretar.
+
+Ayer le hicieron una limpieza en aquel aplastaron todo por eso está el ¿? ese (Minuto 06:47)
+
+Calidad.
+
+Bueno al hacer pestaña conectar y hacer vacío con la bomba, y a liberar refrigerante.
+
+Pinza alguien trajo? Pinza de fuerza.
+
+Viste que ellos compraron manómetro nuevo todo? Mirá el manómetro que me trajo uno¿? (Minuto 08:40)
+
+Minuto 09 - Minuto 09:20[Intelligible (Incomprensible) ]
+
+Malo! Vino uno recién: che profe ahí vi mi examen dice que es lo que hice mal si creo que está todo bien, viste tu examen?
+- Sí y 5 profe la re baja
+#### Hiciste bien la conexión de capacitores?
+- Sí.
+#### Capaz que ahí le erraste eso es eliminatorio, agradecé que te puse un 5.
+- Y el otro que...
+No ese ni apareció ya, un 4 le puse de buenito. De 50 aprobaron unos 15. Vos no más sos muy tolerante le dije a Siri.
+- Sabés cuanta plata invertimos acá profe? Y bueno...
+
+Alumno: De última conseguí un certificado trucho matriculate y listo
+
+Bueno esto es bien claro para que quede bien en claro como recuperar refrigerante si tienen equipo para ir trayendo, traigan porque a mi me sorprenden todos los problemas nuevos que encontramos.
+
+#### Uno de los chicos que salia llorando, se compró todas las herramientas: 1 millon y medio gastó todo de marca, justo el primer equipo que bajó no tomó los recaudos necesarios y está con cañería obstruida que es lo que peor que le puede hacer.
+
+### La obstrucción se puede generar por una mala contaminación por no haber hecho un vacío como corresponde.
+
+Otro tema: Ah rompiste, allá cayó la arandela de repuesto.
+
+#### No y le tocó un equipo tuvimos que pagar a otro técnico para que solucione el problema, un aire de allá arriba.
+Vos tenías que haber puesto la pinza, yo siempre le dije a ustedes. La pinza te dirá la condición del equipo.
+
+Quedó esa pestaña o no?
+
+Entonces el compañero tiene un equipo para hacerle el service la clase que viene.
+
+
+Alumno: Hay que soldar el motocompresor, que más se necesita para el motor?  
+Profesor: En teoría tiene venir todo los tacos todo y el refrigerante, una varillita de plata, vos el oxigas llevo el que tengo acá el map, de cuántas frigorías es? de 6000, y la bomba y el manómetro.
+
+Es más incluso si no está muy alto se puede cambiar en el lugar no más.
+
+Ya está puesta la mensula y ya está abajo el equipo.
+
+Ya fue otro técnico ahí? Jajaja.
+
+#### Yo necesito una contactora si es un aire de 6000.
+##### Ahora cuando veamos te voy a mostrar cual es, le ayuda al motocompresor, como es un componente que consume mucho para que no trabaje la placa trabaja la contactora.
+
+La de trabajo, la de pegar y habilitar de eso se encarga la contactora, sino todo el trabajo lo hace la placa y no aguanta.
+
+#### Alumno: Apago el aire y no para el motocompresor
+#### Profe: quedó pegado el relay
+#### Alumno: Pegale unos golpecitos a ver si se soluciona, y así se solucionó.
+
+Nada es gratis en esta vida, a los parientes con más razón hay que cobrarle porque son los que más te van a romper la bolas si llega a fallar.
+
+Está bien que esto se rompa así? NO, es muchísimo eso. Cortale de nuevo.
+
+##### Ahí está la práctica de la pestaña ahora, no vas a perder todo el refrigerante, ustedes están acostumbrados a practicar con el otro caño dejenle el espesor de la moneda de un 1 peso, esa es fácil, ahora vayan viendo ahí calculen ustedes hasta que llega hasta el asiento.
+
+Qué tipo de música tocan ustedes? Para la iglesia.
+
+En el 73 tenía unos hay muchos chilenos, había un vago que tocaba demasiado bien el acordeon, tocate una ranchera algo y el tipo decía que no, yo solo toco para el señor no pero ponete debajo del árbol no te va a ver.
+
+Ellos salen de un pueblo chico 9 calles de largo por 6, y salen con su y decamparta??? se quedan en una esquinita... No salen con acordeon guitarra y van por las calles.  Pero no querían saber nada de tocar algo fuera de la iglesia.
+
+Quedó esa pestaña?
+## La tuerca NO te dice la medida de los caños.
+Ahí vos tenés un caño de 1/4 y 3/8 ahí las tuercas te hacen de 16 algo así.
+Ahí te dice el diámetro algo así, ahí te dice el diámetro de lo que es la tuerca no tiene nada que ver con el caño.
+
+Ligó Tyson eeh? Ese es como la noche de maradona que la hicieron para remontar no más.
+
+Pasa la tuerca ahí por donde vos hiciste la pestaña? Entra bien? La tuerca entra ahí? Sí? No, bueno, quedó blanda de nuevo, tiene que entrar justito, una pavada es.
+
+#### CASI APROBASTE
+Está hablando de como conectar el motocompresor con el capacitor y la placa.
+H, qué es H? Arranque al motocompresor. El común es neutro.
+
+Calcular frigorías una habitación de 4 metros por 5 metros por 4 metros de alto, y es por 60.
+
+Cuando superaba los 2 metros 60, era lado por lado por 60.
+
+Cuando no superaba los 2 metros 60, era lado por lado por 200.
+
+### El metro a la aguja, quedó todo apretadito ahí? Acuerdense cuando van a apretar los caños tiene que estar si o si la tapa o sino van a redondear esto o quedará ovalado y no va a funcionar más el orrin.
+
+Conectamos la manguera de servicio en la bomba de vacío y la manguera de baja a la válvula del robinete de servicio, asegurense de que tenga siempre el óvulo, si yo agarro y aprieto y veo que el óvulo está muy lejos voy a tener que agarrar una pincita o algo así y retirarlo para que trabaje, sino sino no va a presionar y vamos a hacer vacío al aire al pedo.
+
+Ahora prendemos la bomba y ahí se va a -30. Ahí estamos haciendo vacío de la unidad evaporadora completa, dejamos unos 5-10 minutos aproximadamente.
+
+Es mucho la humedad que tiene. 
+
+Parece que tiene una pérdida este manómetro, mucha humedad está saliendo eso ya es humedad del ambiente.
+
+En ciudad del este está 150 lucas, no sé que cosa.
+
+### Preguntas eliminatorias
+Conexión de un motocompresor. 
+
+200 mililitros, capacidad del aceite. Cada uno viene por su capacidad de aceite, al ser más chica la bomba tendrá menos aceite, si pero para sacar la cantidad del caudal que saca por minuto?
+
+Algunas bombas vienen descriptas de cuanto es, en este caso no tenés que saber por la capacidad de potencia de la bomba.
+
+El polaco saca todas las herramientas de acá, hace 4 años que está acá no compró nada.
+
+A ver si cambia ahora (con otro manómetro), sino tiene una pérdida, ya ajustaron los caños no? Quién ajustó? **Estaba mal ajustado**.
+
+Avisa en la semana si llega así, así les avisamos.
+
+Calidad.
+
+### Manómetro.
+Siempre tiene que estar debajo del 0, tiene que estar -30 ese está corrido ya no es un manómetro bueno. Allá midieron una alta presión en el manómetro de baja y ahí sonaron. Todo tiene su inconveniente.
+
+Ahora hay que desarmarlo y calibrarlo.
+
+Sigue saliendo humedad? Apretale más el de 1/4, faltó fuerza ahí.
+
+### El R-22 es el que ustedes pueden agregar directamente, el R-410 hay que tirar si ya tiene su carga, NO SE PUEDE RECARGAR.
+
+... No queda sin ruido la bomba, vamos a ver si está mal hecha la pestaña o no desayunaron hoy.
+
+Me parece que hoy no desayunaron... La bomba se calló.
+
+Ahora sí.
+
+Vieron como detecta pérdida la bomba? Es comprarse una herramienta y conocer sus herramientas. Ya cambió el ruido.
+
+Tengo un equipo usado de 6000 a 350 mil pesos split.
+
+Así tengas que cambiarle el motor el día de mañana es barato.
+
+Pero anda bien, le hicieron bien todo el service me dijo que hay que tumbar la pared de la sala y va a juntar con el que era del garage y va a poner un equipo de 9500 y va a vender ese equipo.
+Llevó a vender el equipo por eso 
+
+El paga 800, 900 paga el equipo en paraguay. Te dejan pasar hasta 3000 dólares.
+
+Y un compinche va a Paraguay compra equipo usado por 100 mil pesos y acá lo vende a 200 mil, gana 100 lucas por equipo. Compra frío y calor usado, prueba allá desinstala y trae para acá, y ahí no paga nada.
+
+Me dió ganas de hacer pero es muy copión, está bueno ese currito pero hay que cruzar y vender.
+
+La matricula la podes renovar sin hacer el exámen.
+
+Cuanto tiempo hay que dejar la bomba de vacío? Cuanto tiempo llevamos de vacío? Vamos a cerrar un poco y vamos a controlar que no suba la aguja si sube a 20 perdió el vacío, dejamos unos 3 minutos ahí.
+
+La garantía de los que te piden vacío de vacuometro algunos equipos te piden 1 hora de vacío, acordate que vos tenés mezcla de refrigerante que es altamente o sea el poder frigorífico es mayor cualquier partícula de humedad lo va a congelar y eso va a obstruir, ahora en heladera estás obligado a hacer 15-20 minutos de vacío, porque el 134 es mayor a todos los refrigerantes, 1 partícula de humedad se va congelar y tapa el capilar.
+
+Si vos tenés digital te va a llegar a -25.
+
+Esperamos un poco ahí y ahí habilitamos el refrigerante. 
+
+### Que hay que abrir primero para liberar refrigerante? Hay que liberar un poco para empezar a cargar.
+1. El de alta: un poco nada más y con esa presión probamos si tiene algún tipo de pérdida y ahí recién abrimos todo el robinete, una vez que abro todo y llego al tope vuelvo media vuelta.   
+
+2. Enchufamos el equipo
+3. Prendele ahí en el botoncito que tiene, tocale el sensor con la mano.
+4. Pinza amperométrica para medir el amperage si tiene algún inconveniente, a este equipo le diagnosticaron motor fundido, queda por ustedes saber si es cierto o no.
+5. Tocale con la mano el sensor de temperatura.
+
+Fijense el amperage como se dispara cuando arranca y después se normaliza, la presión se descompenza se va a cero y después empieza a subir, por eso el equipo se toma su tiempo de 5 a 10 minutos para empezar a funcionar.
+
+Y la presión se descompenzó? Ahí esperá un rato.
+
+Subió a 2,3 y después bajó.
+
+Para 2000 frigorías tiene que tener 3 amper.
+
+Tiene que ir subiendo a medida que sube la presión...
+
+A cuántos llegó? 50? O sea que está entrando refrigerante.
+
+Fijense el amperage y la presión acá.
+
+### Vieron que sube el amperage? Eso es porque yo apagué el forzador eso simula que el equipo está sucio.
+Cambió el ruido del motor, todo eso influye en la mugre, cuando está sucio el amperage es el doble y estás arruinando el equipo.
+
+Ahí llegó a 4 amper.
+
+Necesita una escala un poco más chica 200 es muy alto para tomar el valor (pinza amperométrica), ahí si estamos haciendo lo correcto.
+
+#### A eso es lo que voy con respecto a los orrin hay que hacerle en tiempo y forma no hay que esperar a que el equipo no de más para hacerlo, siempre es recomendable hacerlo cuando haga frío.
+Cuando ya quieren, ya le subo el precio.
+
+Hora 01:10
+
+### Bueno ahora recuperamos el refrigerante, como lo hacemos? (ni necesitas el manometro)
+1. Cerramos el de alta. 
+2. Fijense acá en el manómetro cuando cierran se va a vacío, ahí ya queda recuperado, una vez que mida 0 ya está recuperado.
+3. Una vez que cierra se descompensa o sea que el refrigerante está apoyando.
+4. Ahí cambió el ruido ya está cerrado, ya recuperó todo.
+5. Una vez que el cierra todo el motor, si apaguen el equipo. (Hora 01:12)
+
+#### Si quieren volver a liberar el refrigerante:
+1. Abrí alta.
+2. Una vez que hicieron vacío abren alta y luego baja.
+3. No prendan el equipo si el refrigerante no está habilitado(robinete abiertos) tiene que romper el vacío, sino está todo la presión dentro del compresor.
+Ahora abrí baja y ahí ¿?¿? (Hora 1:12:46) ver el equipo que se descompensa.
+
+### Volviendo a repasar un poquito de recuperación
+Después vamos e instalamos el equipo, si tiene un aire portátil para agarrar una experiencia mejor.
+
+### Saltee un poco. (Hora 01:15) No hay práctica: hay que conectar capacitores y la placa universal.
+Saben medir motocompresores, saben colocar capacitores, después empezamos con el diagrama de placa.
+
+Una vez tenía muchisimo calor, me da un cliente un aire de ventana revisa estoy apurado, vino como....
+
+Ahí se descompensa, un año y medio le tuve cuando me pidió el aire yo era capaz de comprarle.
+
+## Quién recupera ahora? Cerramos alta primero después baja, después van a ver que siempre en un segundo ya se termina recuperando.
+
+Vieron que ya cambió el sonido del motor, porque no está forzando.
+
+### Fijense yo voy a sacar esto quedó vacío por eso quedó en 0, tendría que está en -30, ahí ya pierde el vacío ahora si quiero colocar el manómetro tengo que de nuevo hacer el vacío todo como corresponde, en el caso de que a ustedes se les corra la aguja tienen que sacar el gancho la funda, y esto se saca a veces viene a presión y a veces a rosca y con un cañito van calibrando, cualquier tipo de manómetro, NO HAY QUE TOCAR LA AGUJA, FIJENSE SI VA PARA ARRIBA O PARA ABAJO.
+
+Tenés que tapar todo y ya estamos, ahora si cuando colocamos en la bomba tiene que llegar a -30.
+
+Enchufale la bomba un ratito.
+
+## Otra cosa: Como darme cuenta si yo ajusto todos los robinetes y no se ha hecho el vacío, si yo agarro meto el robinete prendo la bomba ahí cerró el vacío pero escuchen esto, empieza a perder, tienen que con el dedo tocar el robinete si tiene pérdida los orrin, porque a veces es la ahí la pérdida, la bomba te dirá si pierde o no.
+
+### El orrin está cagado porque chupa.
+
+Esto es re común en todos los aires.
+
+A veces tiene que dejarle un tiempo más para darse cuenta que está succionando, y a veces es poquitito.
+
+Otra de las cosas este por ejemplo es un robinete común tiene un cuerpo más que mide la válvula de tensión acá dentro si yo hago un cambio de robinete tengo que conseguir estos robinetes que ya trae la bocha, en el caso de que no consigan van a tener que compran un robinete y agregarle un capilar.
+
+### Alguna duda con respecto a esto
+Quedó uno por recuperar, me di cuenta que estaban con la luchando con la pestaña a full, desde que vimos la clase de pestaña nunca más lo hicieron.
+
+### Si tenés que cambiar el soldado va soldado.
+
+El capilar es el que expande el refrigerante a no traer el capilar trae adentro de una válvula de presión es una pelotita que deja pasar fino.
+
+## Hay un tipo que puso presurizar el equipo con oxígeno para buscar pérdida, automáticamente lo DESAPROBÉ.

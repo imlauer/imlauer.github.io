@@ -1,0 +1,296 @@
+---
+title: "[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 21) - Preguntas de examen. Conexión de placa aire acondicionado: Por pulsos y por relay."
+date: 2024-12-07T19:29:30-03:00
+tags: ['AC']
+---
+### Audio en Vocaroo
+https://vocaroo.com/1ke1UfNCgBqz
+
+### Audio en YouTube
+https://www.youtube.com/watch?v=5HIIDWHK4nU
+
+### Audio en Invidious
+https://redirect.invidious.io/watch?v=5HIIDWHK4nU
+
+### Fotos: https://imlauer.blogspot.com/2024/12/clase-21-aires-acondicionados-placa-con.html
+
+![Placa con capacitor identificar L,A,T](/img/aires/clase21_aires.jpg) 
+
+![Conexiones](/img/aires/clase21_aires2.jpg) 
+
+El octoacoplador no asocia la electricidad aisla, porque del otro lado está manejado por el micro, del otro lado tenés 220.
+
+
+### Transcripción (Empiezo minuto 15)
+La clase que viene daremos inverter.
+
+Vamos a empezar con plaqueta: para pulsos y para relay.
+
+La placa a pulsos viene con un sistema de variación de voltaje para disminuir o aumentar su velocidad, si agarrás el control remoto y ponés baja media alta de esa forma mediante la intensidad del voltaje disminuye o aumenta la velocidad por eso se llama placa a pulsos.
+
+La placa a relay maneja sus velocidad dependiendo cada bobina, todas las bobinas son 220 pero cuando es la velocidad baja va a alimentar una bobina y cuando es la media otra bobina y reduce el voltaje una sola bobina, hay ser poco voltaje gira más despacio al ser más voltaje gira más rápido.
+
+No podemos ir y comprar la placa más barata, si o si tenemos que desarmar el equipo y saber el diagrama eléctrico para saber que placa tengo que comprar.
+
+Mediante el diagrama eléctrico voy a saber que placa lleva si es a pulsos o a relay.
+
+Otra de las formas que puedo identificar es por la cantidad de cable, si yo miro un forzador tiene linea, arranque, trabajo todos sabemos que la línea si aumento o disminuyo va a variar su velocidad.
+
+En cambio el otro forzador tendrá 6 cables: baja, media y alta.
+
+Las dos entradas del capacitor y el neutro.
+
+La baja y media son línea y la entrada al capacitor es neutro. Tendrá muchos más cables que un forzador común.
+
+Finalizando lo que es el capacitores dual e individual.
+
+Fila 1: Dibujar un capacitor individual.
+Fila 2: Dibujar un capacitor dual.
+
+### No se puede aprobar si no saben conectar el capacitor, si yo mido mal el motocompresor lo voy a QUEMAR.
+
+Definición de capacitor dual: La capacidad que tenía el capacitor de poseer dos capacitores en uno, uno para el forzador y uno para el motocompresor y un borner en común.
+
+
+El neutro va a la C del capacitor (la línea).
+Línea siempre va directa al motocompresor.
+
+F = fan  
+H = hermetic  
+C = común  
+
+# Examen: Identificar cual de los diagramas son correctos del sistema frigorífico. Método de compresión en uno circulaba al revés y en el otro circulaba bien.
+
+En la fila 1 era 1 correcto, y en la fila 2 eran los dos correctos.
+## Como técnico había que poner que ambos son correctos
+
+En un frío calor se invierten los circuitos, cual de los sistemas es el correcto.
+
+Como puede poner por ejemplo: si el diagrama no tiene válvula inversora, vos sos el técnico y tenés que saber cual es el correcto.
+
+Si está el dibujito de la válvula inversora ambos sistemas son correctos.
+
+---
+### Como conectar capacitor
+Arranque va sólo al capacitor, trabajo va uno con el neutro al neutro.
+
+## Nos vamos a encontrar con dos tipos de placas: a pulsos y a relay (minuto 33)
+Ambas placas son parecidas poseen los mismos componentes, tienen un relay superior que maneja 30 amper. 
+
+### El motocompresor usa 4,5 amper cuando el motocompresor se va a 9, 11, 16 corta el relay.
+
+Adentro del relay vamos a tener 2 borners, el relay pega y despega.
+
+### Uno será COM (entrada) el otro será ON.
+
+### COM es entrada, al lado de nuestro relay tendremos la bornera de neutro, ahora ya estoy teniendo alimentación a la placa.
+
+Para reparar la placa tenemos que dividirlo en dos partes, una parte que es salida 220 pasa por un transformador y sale 12 voltios, para que funcione el sensor de ambiente, el sensor de pozo, el display que puede ser por led o digital.
+
+
+### Swing es el motorcito del flapper que abre y cierra y vamos a encontrar el parlantecito y por este lado vamos a encontrar en algunos casos 2 relays o 1 sólo.
+
+Y uno va a decir **PP** que es el radiador de velocidad y en algunas placas traerá depediendo del modelo FAN OUT o fan exterior.
+
+En esta parte encontrarán alojado un fusible. 
+
+Yo dividí la placa porque esto es alterna y el otro continua.
+
+Dijimos que para saber que tipo de placa lleva vamos a tener que tipo de forzador llea, si es un forzador con 3 cables.
+
+# Como identificar el tipo de placa que lleva a través del forzador.
+
+## Cómo identificar línea, arranque y trabajo? Línea está sólo siempre. El capacitor para acá es el trabajo y para allá es el arranque. El que tiene el neutro es el trabajo.
+
+La línea va al variador de velocidad (PG).
+
+El variador de velocidad aumenta o disminuye el voltaje: 80, 100, 190, eso representa las velocidades baja, media y alta.
+
+Si nosotros venimos acá fijense traemos la placa, COM es entrada al 220. Celeste: vamos a la bornera del lado del neutro y ahora ya tengo alimentación 220 a mi placa, para que funcione toda la parte de 12 voltios que tenemos del otro lado necesitamos un transformador entrada 220 y salida 12 voltios.
+
+Entrada 220 salida 12 voltios. Sensor de pozo con el blanco, sensor ambiente color rojo. Display.
+
+Esta placa es una placa un poco más moderna, más caro y tiene otro tipo de visor y me permite a mi conectar la ficha en el caso de que no traiga para conectar la ficha voy a tener que conectar el capacitor según lo que me diga el diagrama eléctrico acá.
+
+Voy a ver cual es línea arranque y trabajo y voy a tener que conectar directo al PG.
+
+Fíjense el diagrama del forzador es el mismo forzador que aquel las dos placas son a pulsos diferentes modelos. Esa placa lleva 72 horas ayer me quemaron la placa nueva hay que poner arriba de la madera.
+
+La conexión es lo mismo es más yo quiero comprar una placa más cara porque el cliente tiene para pagar podemos comprar un display que tiene botones y viene para prolongar el cable. Meto esto (es un display con botones) por el toma corriente traemos por el caño destapamos la cajita le hacemos un pequeño agujerito lo amuramos. Puedo prender el equipo modo frío subo bajo la temperatura presiono ambos y cambia a modo calor desde el display.
+
+Todo son placas a pulsos pero son de diferentes modelos.
+
+Ahora fijense esta otra placa, aquella tiene capacitor incorporado en placa, lo único que tengo que poner es línea arranque y trabajo. Acá era mucho más fácil apretar la chapita y sacar el cable que invertir los colores, porque le dió arranque y trabajo.
+
+
+### Minuto 47
+Como me doy cuenta? Tengo que mirar atrás de la placa ver la salida del capacitor, veo que este sale del capacitor solo y viene acá solito y se va al borner.
+El blanco es el arranque.
+
+Se dan cuenta? porque viene con ficha, el trabajo que va al otro lado viene por acá y se junta con la bornera del neutro. 
+
+Si no me coinciden los cables apreto la ficha saco el cablecito doy vuelta y entonces no tengo que hacer blanco con rojo. Porque era mejor que si le dejabas rojo con rojo y blanco con blanco.
+
+El octoacoplador no asocia la electricidad aisla, porque del otro lado está manejado
+por el micro, del otro lado tenés 220.
+
+El triac de la placa le controla la velocidad del fan.
+
+
+### En el diagrama te dice cuál es L,A,T. Enchufamos sabemos que el negro es línea y ya está el capacitor incorporado, la otra plaqueta no trae capacitor entonces tenemos que comprar aparte. **Cortamos la ficha original que trae el equipo y nos queda L,A,T colocamos la terminal que nos trae la placa y ponemos arranque por un lados, trabajo por el otro, y buscamos el PG que es el que regula la velocidad (línea).**
+
+## Línea = PG.
+
+### Enchufamos el PG y eso será el que va aumentando o disminuyendo la velocidad, en la parte de la placa más chico vamos a encontrar un **GND, S, VCC (velocidad, señal, y sentido de giro del forzador)**, eso irá conectado a fichita que tenemos del forzador y tiene dos posiciones si yo conecto y me sale una falla en el visor giro y conecto del otro lado, significa que conecté al revés.
+
+Ese sensor es el encargado de medir la velocidad del forzador, si pongo velocidad alta y el forzador me está girando despacio el sensor lo capta y manda una señal a la placa que algo funciona mal.
+
+Qué puede ser? Me va a saltar por ejemplo error A4. 
+Voy al manual y miro A4: velocidad de la turbina lenta: revisar capacitor o mantenimiento de turbina.
+
+### Ese sensor se llama sensor hall, es el tacómetro del forzador, y ahí es cuando vienen los inconveniente de placa en algunos casos a mi se me quema el forzador y tengo que tener en cuenta muchas cosas.
+
+### Qué era esto el sentido de giro, watts, yo tengo que tener en cuenta eso porque si este forzador era de 1,5 watts y generaba 700 RPM y consumía 1,5 watts y conseguí un forzador, porque aparte de eso tengo que tener en cuenta que el largo del eje acuerdense el sentido de giro el largo del eje y el radio del eje.
+
+Porque si no coincide... Esta turbina que tengo acá es para sentido horario, este forzador que tenemos acá es antihorario, la fecha está al revés.
+
+### Si yo coloco este forzador acá es antihorario y esta turbina es horario, la turbina se va a acoplar de acuerdo a lo que el forzador le tire, la turbina debería girar al reves para atrapar el viento y extraer el calor.
+
+Otra cosa, si el eje es cortito, necesito un forzador con un eje mucho más largo. O de diámetro más grueso. Muchísimo tiene que ver.
+
+## Sensor hall salen con los 3 cablecitos y va adentro el rotor del forzador para placa a pulsos va de esta forma adentro tiene un imán cada vez que pasa por el captor cuentas las vueltas y las revoluciones, si está sucio o pesado girará despacio en una velocidad alta, sensa manda a la placa y la placa corta por protección.
+
+Yo vengo cambié el capacitor sigue saltando la falla, fijarse si el forzador no está sucio.
+
+Ahora si yo miro y veo que es de 16 ampers, de 13 watts, si consigo uno de 10 watts va a girar más despacio, por más que le ponga a la velocidad alta, mi placa esperará 13 watts y yo conseguí uno de 10. Otra vez saltará el error.
+
+La placa no te va a reconocer, puede ser de mayor watts pero no de menos watts.
+
+Si es mayor por lo general no pasa nada pero tenés que ver si la placa te reconoce, siempre puse uno un poco más grande pero no pasa nada.
+
+### Los técnicos cuando sale ese sensor y no consiguen el forzador porque las bobinas se van recalentando el forzador por más que le cambiemos los capacitores siguen girando despacio, los técnicos le hacen un puente, le puentean la señal con el VCC, corta el cable le empalman o la placa tiene un jumper que le enchufan ahí para indicar a la placa que todo está funcionando correctamente, anulan un sistema de seguridad que me indica a mi el estado del equipo.
+
+Yo le dije que saltó F8 que es lo que está sensando que el forzador está girando despacio puede ser capacitor o la turbina sucia pesada y ahora me salta F8, F11. A la mierda son dos errores pero F8 se sumó a F11, otro error más.
+
+## Abrió el sistema, ya no está más pegado el relay para que pase alimentación y de inicio al motocompresor porque ... Ese sensor se llama sensor de pozo.
+
+## Adónde va el sensor de pozo? Va al final del recorrido apretado tiene que estar a presión siempre. 
+
+# Quién me sabe deducir por qué va al final del recorrido el sensor del pozo?
+Porque llega líquido del refrigerante y esto se llama unidad evaporadora tiene que **evaporar y el líquido se tiene que transformar en gas**. 
+#### Entra liquido refrigerante absorbe calor del ambientambiente y se empieza a evaporar ese líquido refrigerante y al final del recorrido tiene que salir en forma de gas, para retornar al motocompresor.
+###### La turbina está girando despacio entonces acá está empezando a llegar líquido refrigerante ese sensor manda la señal a la placa y la placa corta al relay y ahí se suma F11, el manual me dice que tengo que revisar el líquido refrigerante, porque ahí me va a salir que está regresando líquido refrigerante que revise los filtros o si le falta un mantenimiento en los capacitores al forzador.
+
+Y ahí viene otra vez yo le seguí intentando funcionar así porque a la noche jodía.
+
+N11,F8,F11,L11, me está dejando loco el aire. Se fue el F11 y ahora salió el L11. 
+
+### Esto es otra otra vez falta de refrigerante esto sensó el sensor hall **bloqueo de hielo**. De nuevo dió la orden al procesador de que corte la señal y salte la falla.
+
+### Esto es como cuando el auto empezó a ratear: por lo general uno nunca toca la bujía del auto, hay que cambiar la bujía pero cuando las cambiaste sigue haciendo lo mismo, entonces hay que cambiar los cables del auto, los cables de la bujía, y si sigue saltando el error hay que cambiar el distribuidor que alimenta todos los cables de la bujía... El error puede ser 1 pero pueden ser varios, hay que ir atacando.
+
+
+Esto termina siendo un mantenimiento si o sí forzadamente, revisando el capacitor, la presión del refrigerante, los filtros en qué estado están no es sólo agarrar y sacar.
+
+
+El motocompresor tiene su sistema de protección por térmico o por amperage. Hay un protector térmico arriba del motocompresor.
+De lo que hablamos es un sistema de protección que trae la placa pero los técnicos a veces anulan todo para que funcione por eso los aires de ventana duran mucho.
+
+Ahora uno de los errores tenemos el sensor de ambiente, el sensor de ambiente va separado 1 centímetro del evaporador, si le pongo lejos nunca me va a tomar bien. Si le pongo cerca me va a sensar el frío del disipador y está a temperatura 2, 5, 6 grados. 
+Y en mi control tengo 17 grados. O sea que si toca el sensor de temperatura el evaporador nunca va a arrancar el equipo por eso tiene que estar separado que sense el ambiente el aire que circula por medio del sensor.
+
+Si toca sensará la temperatura, mirá si no arranca el equipo porque está tocando el disipador.
+
+# Hay que comprar una placa a pulsos.
+Si la clase que viene es la de inverter después seguimos con esto.
+
+No hay como errar los enchufes. No va a calzar la ficha, aún así en el examen se equivocan. 
+
+# Otro error que comenten mucho ponen el neutro al otro lado del relay, porque sabemos que si el sensor de temperatura está sensando y acá hace calor va a estar el relay activado para mandar el final o sea que una explosión va a hacer.
+
+---
+Explicación:
+Porque el relay conecta la línea, tiene 5  patitas. Usamos el NA, de un lado ponemos en el pin 1 la línea, y en el otro al común del compresor, y si yo en el relé le pongo 
+
+Un pin va los 220 (eso ya está en la placa), el otro va al común del motor. Es como eque están aislados es como un foco.
+
+Pero que pasa si del otro lado que sale de la placa le ponés un neutro? 
+
+La salida del rele tiene que ir al compresor pero si le mandás al común del compresor agarrás un cable que es neutro hará un cortocircuito.
+
+---
+
+# Mediante el forzador voy a saber si es a pulso o a relay.
+
+### PR alimentará lo que es válvula inversora, y fan exterior lo que es el forzador exterior, neutro y línea COM salida alimentación al motocompresor. 
+
+Lo que pasa es que yo tengo una placa para frío calor y tengo que agregar un solenoide o sea una línea y un neutro, línea 3 y ahí estará funcinoando el sistema válvula inversora frío y calor, en este caso voy a tener que sacar el forzador porque ya no puede estar así, si da frío solo si pero si es frio calor no porque funcionan independiente cada uno.
+
+Hay veces que el cliente apago y sigue el motocompresor prendido, quedó pegado el relay voy compro un relay nuevo y está solucionado.
+
+Pasó lo mismo apago el equipo y sigue funcionando el forzador de adentro cambio el relay.
+
+Enchufo el equipo pero afuera se prende solo el forzador, probá el voltaje de la bornera, agarro el tester voltaje alterno tengo línea y neutro en la parte del compresor, neutro con cual era forzador? Con el 4to 220, este aca tengo 220 y está en frio o sea que acá tmb debería tener 220 pero tengo 0 o sea que acá no me está llegando línea.
+
+Retrocedo y voy acá, acá no me está llegando línea ahora toco con mi tester neutro y salida no me está entrando línea, o sea que mi relay está acá el problema.
+
+Toco acá y acá ahí tengo 220, será que el relay está pegando? Voy a los sensores, desconecto los sensores y mido si están desvalorizados no funcionará la placa porque son resistencias pequeñas, que con el tiempo se van deteriorando.
+
+En el costado de los cables vamos a ver la capacidad de cada resistencia, 8 9 cap, voy a tener que ir en caso de que tengamos un tester una pinza amperométrica continuidad reistencia y nos tiene que dar 9,8 o 10k.
+
+En el caso que tengamos un tester común vamos a tener que ir en vez de continuidad ohmeaje resistencia, vamos a tener que ir en la parte de k para medir resistencias más chicas. Acuerdense que hay de 10 de un valor más alto de lo que vamos a medir.
+
+Si un sensor me dice que mide 8, voy y mido el sensor de ambiente y está a 8 y el de temperatura está a 2, significa que apenas sensa y va a cortar.
+
+## No va a llegar a 24, en el 27 va a cortar porque está desvalorizado el sensor.
+#### Voy y compro el sensor está 2500 pesos, pongo el nuevo sensor pero otra vez saldrá la falla, **si cambiás uno tenés que cambiar el otro**.
+
+Si compro los dos de 8, enchufo y anda.
+
+## Fijense les mentí como político, estas dos placas son a relay pero son diferentes, son dos modelos diferentes.
+
+Es una falla de entrada porque no está sensando el pozo, si se olvidan de desconectar el pozo le va a saltar la falla.
+
+Vieron yo quiero prender pero corta, porque no tiene sensor, no cierra el circuito.
+
+Ahí pegó pero está sensando que algo está mal.
+
+### La luz verde indica que está mandando señal al motocompresor, entonces yo voy a agarrar mi tester, en autorango salida al motocompresor y tengo que ir a la bornera de neutro.
+
+# Ahora midieron la tensión.
+Tenemos baja tensíon 206 voltios (Hora 01:20)
+
+Fan OUT: forzador exterior, nos vamos con el neutro y acá tiene que ser 220.
+
+Está mandando señal afuera, al lado tenemos VR, cuando activemos el frío calor no tendría que mandar señal, no manda.
+
+### Tocando el relé y el neutro, velocidad del ventilador.
+Baja nada.  
+Media ... Está en velocidad media...   
+Alta nada.  
+
+Ahora agarrá el control y cambiá la velocidad, cuando el active y cambie a alta.
+
+El primer relay pertenece a baja.
+
+Este es salida a motocompresor 220.
+
+La luz verde apaga, prendé ahora, no prende la luz verde no tengo 220, cuando prenda la luz verde va a activar al motocompresor y ahi voy a tener 220 acá.
+
+Entonces ahí estoy chequeando si es o no problema de placa o no que está llegando afuera.
+
+
+Saben cuantos equipos me tocó a mi que yo fui revisé puse la pinza acá y tengo 220 de salida mido el borner antes de salir 220, vengo al equipo 140 tengo baja tensión...
+
+Empiezo a sacar la cinta que pasa empalman los cables le ponen cintas y lo ponen todo juntos con los caños los caños generan humedad cuando sacas la cinta está todo verde por eso se pone cable.
+
+Baja tensión termina por fundir tu motocompresor, siempre pongan su pinza.
+
+Otra cosa yo quiero que vos conectes esa placa y presten atención... Tenía una palabra que decía COMP yo pensé que era COM pero en realidad ahí iba el motocompresor, no la línea.
+
+### Desde la hora 01:26 hasta el final conectamos la placa.
+Como ustedes están acostumbrados a ver COM, van a pensar que COM es entrada pero en esa placa COMP es compresor.
+
+Me anda toda la placa tiene señal me da señal, entonces el problema tiene que estar afuera, me voy a afuera mido compresor, capacitor, etc.
+
+## Practicar capacitores es eliminatorio en el exámen

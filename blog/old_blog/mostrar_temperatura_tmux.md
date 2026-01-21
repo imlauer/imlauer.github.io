@@ -1,0 +1,38 @@
+---
+title: "Mostrar temperatura tmux, batería, fecha y hora en TMUX"
+date: 2024-11-19T16:07:44-03:00
+tags: ['tmux']
+---
+
+```bash
+set -g status-right 'T:#(echo "$(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)|B:#(cat /sys/class/power_supply/BAT1/capacity)%|#(date "+%Y-%m-%d|%H:%M")'
+```
+
+# Claude
+
+```bash
+# Configuración de barra de estado para tmux (compacta para TTY)
+
+# Configuración general
+set -g status-interval 2
+set -g status-position bottom
+set -g status-justify left
+
+# Colores básicos para TTY
+set -g status-style 'bg=black fg=white'
+set -g status-left-length 20
+set -g status-right-length 60
+
+# Barra izquierda: sesión compacta
+set -g status-left '#[bg=blue,fg=black,bold]#{session_name}#[bg=black,fg=blue]> '
+
+# Barra derecha: compacta con lo esencial
+set -g status-right '#[fg=yellow]T:#(echo "scale=0; $(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)C #[fg=green]B:#(cat /sys/class/power_supply/BAT1/capacity)% #[fg=cyan]L:#(cat /proc/loadavg|awk "{print \$1}") #[fg=white]%H:%M'
+
+# Ventanas: mínimo
+set -g window-status-format '#[fg=brightblack]#I:#W '
+set -g window-status-current-format '#[fg=cyan,bold]#I:#W '
+
+# Refrescar cada 2 segundos
+set -g status-interval 2
+```

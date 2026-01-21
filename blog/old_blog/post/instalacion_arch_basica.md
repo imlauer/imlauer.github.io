@@ -1,0 +1,1629 @@
+---
+title: "Instalación de ArchLinux completa y cheatsheet de pacman"
+date: 2023-11-22T02:05:50-03:00
+tags: ["archlinux","full","installation"]
+---
+   
+```bash   
+loadkeys es   
+timedatectl set-ntp true   
+```   
+   
+#### Configurar wifi después de bootear a arch   
+```bash   
+iwctl   
+device list   
+station wlan0 scan   
+station wlan0 get-networks   
+station wlan0 connect asdf   
+station wlan0 show   
+exit   
+```   
+#### Probar la conexión   
+ping dgg.gg   
+   
+   
+##### Listá tus particiones   
+`fdisk -l`   
+   
+###### Para empezar a particionar ejecutamos   
+`cfdisk /dev/sda` o usando `fdisk /dev/sda` explicado más abajo   
+   
+De ahí seleccioná gpt en la lista.   
+   
+Explicación de por qué gpt:      
+>To boot MBR under UEFI, you need CSM. Intel pushed for its removal years ago, so it's unlikely to find it in anything modern.   
+Es recomendable para UEFI con hdd mayores a 2teras, dos también funciona con UEFI pero para bootear un disco duro con MBR(dos) desde UEFI se usa CSM que es algo viejo deprecado por intel). En MBR(DOS) no podés tener una partición de 3 teras. GPT es el futuro.  UEFI Firware necesita GPT.    
+   
+   
+Explicación sobre MBR(DOS) y GPT : [https://youtube.com/watch?v=Ch9f7i0hj90](https://youtube.com/watch?v=Ch9f7i0hj90)   
+   
+   
+[https://hardzone.es/reportajes/que-es/csm-bios-uefi-placa-base-hdd-ssd/](https://hardzone.es/reportajes/que-es/csm-bios-uefi-placa-base-hdd-ssd/)   
+   
+   
+**Crea una particion de efi de por lo menos 300 megas, otra de swap de 4gb, y el espacio que sobra para ext4**   
+   
+   
+**Si no lo quieren hacer con cfdisk lo pueden hacer con fdisk de la siguiente manera:**   
+#### uefi (gpt)   
+```bash   
+g (gpt disk label)   
+n   
+1 (partition number [1/128])   
+2048 first sector   
++300M last sector (boot sector size)   
+t   
+1 (EFI System)   
+n   
+2   
+default   
++4G   
+t   
+2   
+swap   
+n   
+3   
+default (fill up partition)   
+default (fill up partition)   
+w (write)   
+```   
+   
+   
+#### Formateo, montado de particiones e instalación base (usando UEFI)   
+```bash   
+mkfs.ext4 /dev/sda3 (root partition)   
+mkswap /dev/sda2 (swap partition)   
+mkfs.fat -F 32 /dev/sda1 (efi partition)   
+mount /dev/sda3 (root_partition) /mnt   
+mount --mkdir /dev/sda1 (efi partition) /mnt/boot   
+swapon /dev/sda2 (swap_partition)   
+pacman -Sy archlinux-keyring   
+pacstrap -K /mnt base base-devel linux linux-firmware vim man-pages man-db   
+genfstab -U /mnt >> /mnt/etc/fstab   
+arch-chroot /mnt    
+ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime   
+hwclock --systohc   
+vim /etc/locale.gen y descomentá en_US.UTF-8 UTF-8 (es el idioma del sistema operativo a mi me gusta en ingles)   
+locale-gen   
+echo "LANG=en_US.UTF-8" > /etc/locale.conf   
+echo "KEYMAP=es" > /etc/vconsole.conf   
+### Mirá en el directorio /usr/share/kbd/consolefonts/ para ver tus letras disponibles   
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf   
+echo "arch" > /etc/hostname   
+```   
+
+---
+
+#### Para que funcione el signo mayor y menor:
+
+```bash
+$ sudo loadkeys es
+$ sudo dumpkeys | tee mi_mapa.kmap
+$ vim mi_mapa.kmap
+
+Agregá después del keycode 119
+
+keycode 120 = period greater
+    altgr keycode 51 = less
+
+keycode 121 = comma less
+    altgr keycode 52 = greater
+
+$ mv mi_mapa.kmap /usr/share/kbd/keymaps/i386/qwerty/
+$ sudo loadkeys mi_mapa
+```
+
+---
+   
+O podes usar sudo iso02-12x22.psfu.gz o LatArCyrHeb-08.psfu.gz   
+   
+   
+```bash   
+vim /etc/hosts   
+127.0.0.1       localhost   
+::1 localhost   
+127.0.0.1       arch.localdomain	arch   
+```   
+   
+En este archivo también podes agregar al final el siguiente archivo para bloquear sitios de apuestas, pornografía, etc: https://github.com/StevenBlack/hosts   
+   
+###### Cambia las DNS porque las de Claro, Personal, Movistar bloquean páginas, yo uso las de Quad9 ( https://digdeeper.love está bloqueado por Quad9 ) así que ahora uso las DNS de Google.   
+   
+DNS de Quad9 https://en.wikipedia.org/wiki/Quad9   
+   
+sudo vim `/etc/resolv.conf`      
+   
+Cambiar las dns con networkmanager explico a lo ultimo. Asi no se cambia porque te la vuelve a pisar.   
+   
+   
+```bash   
+nameserver 9.9.9.11   
+nameserver 149.112.112.11   
+```   
+   
+---   
+   
+```bash   
+sudo chattr +i /etc/resolv.conf # Para que networkmanager no sobreescriba.   
+passwd # cambiar la clave del root   
+pacman -S grub networkmanager alsa-utils    
+```   
+   
+##### Fonts   
+
+Para el programa thumbnailg 
+
+```bash   
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra terminus-font   
+```   
+Y en el `.config/foot/foot.ini` agregá:   
+```bash   
+font=Terminus:size=12   
+```   
+   
+---   
+   
+Acá está con pipewire pero volví a pulseaudio.   
+   
+#### PulseAudio es horrible con auriculares bluetooth pero si queres:   
+   
+```bash   
+sudo pacman --needed --noconfirm -S pulseaudio-bluetooth pulseaudio pulseaudio-alsa   
+```    
+   
+#### Mejor usa pipewire   
+```bash   
+sudo pacman -Rns pulseaudio pulseaudio-bluetooth pulseaudio-alsa jack2   
+   
+sudo pacman -S pipewire pipewire-pulse pipewire-alsa pipewire-jack    
+[esotericwarfare@arch ~]$ sudo pacman -S pipewire pipewire-pulse pipewire-alsa pipewire-jack    
+warning: pipewire-1:1.4.9-2 is up to date -- reinstalling   
+resolving dependencies...   
+looking for conflicting packages...   
+:: pipewire-jack-1:1.4.9-2 and jack2-1.9.22-1 are in conflict (jack). Remove jack2? [y/N] y<S-Del>   
+```   
+   
+   
+   
+```bash   
+pacman -S openssh ttyd whois fzf bash-completion pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox falkon irssi w3m links imlib2 rsync fbida samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils bc xorg-xwayland feh chromium newsboat telegram-desktop   
+```   
+
+su esotericwarfare
+   
+git config --global user.email "you@example.com"   
+git config --global user.name "Your Name"   
+   
+   
+#### Neomutt   
+
+```bash   
+sudo pacman --needed -S neomutt curl isync msmtp pass ca-certificates gettext goimapnotify lynx notmuch cronie mpop   
+yay -S abook urlview pam-gnupg gallery-dl jackett-bin factorio i2p-bin    
+```   
+   
+###### Todos los paquetes de yay se instalan en `/opt`   
+
+```bash   
+yay -Ql package para saber que binarios instaló   
+pacman -Ql nombre_del_paquete   
+```   
+   
+También instalá chawan (explicado en la guía de Gentoo).   
+   
+##### Letras para chawan.   
+
+```bash   
+sudo pacman -S ttf-nerd-fonts-symbols ttf-font-awesome ttf-jetbrains-mono-nerd   
+```   
+   
+#### VirtualBox   
+```bash   
+[I] esotericwarfare@arch ~> sudo pacman -S virtualbox   
+resolving dependencies...   
+:: There are 3 providers available for VIRTUALBOX-HOST-MODULES:   
+:: Repository extra   
+   1) virtualbox-host-dkms  2) virtualbox-host-modules-arch  3) virtualbox-host-modules-lts   
+   
+Enter a number (default=1): 2   
+sudo pacman -S virtualbox-host-modules-arch   
+```   
+   
+###### Para ver todos los paquetes instalados    
+https://github.com/rezadoz/pacdump/   
+   
+En el archivo (Control+Alt+R para leer texto desde Firefox).   
+   
+#### Esto no lo hago más.   
+   
+```bash   
+sudo vim /etc/speech-dispatcher/speechd.conf   
+```   
+   
+**Descomentá:**   
+```bash   
+AddModule "festival"                 "sd_festival"  "festival.conf"   
+LanguageDefaultModule "es"  "festival"   
+```   
+   
+#### Virtualización   
+```bash   
+sudo pacman -S virt-manager qemu libvirt bridge-utils dnsmasq virt-viewer vde2 openbsd-netcat   
+sudo pacman --needed -S ebtables iptables   
+sudo pacman -S libguestfs   
+sudo systemctl start libvirtd   
+sudo usermod -aG libvirt tu_user   
+```   
+Y tenés que cambiar la cantidad de procesadores a 1 sino te tira **kernel panic**.   
+   
+Para instalar smtube tendrás que usar el AUR. **Aclaración sobre el AUR:** podés usar YAY o otros pero lo ideal es que instales los paquetes del AUR **manualmente**: https://averagelinuxuser.com/install-aur-manually-helpers/   
+   
+#### Instalar yay   
+```bash   
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si   
+yay -S tor-browser-bin aichat freetube-bin   
+freetube --ozone-platform=wayland   
+```   
+Al ejecutar aichat seleccioná `deep-infra` que no requiere una API key.   
+   
+   
+Si instalás wayland tenés que ejecutar discord y chrome así y **feh** para que funcioné tenés que instalar xorg-server-xwayland o mejor usá **imv**.   
+```bash   
+sudo pacman -S xdg-desktop-portal xdg-desktop-portal-wlr  xorg-server-xwayland   
+Tenés que modificar el /etc/sway/config (buscá en mis publicaciones sway)   
+discord --enable-features=UseOzonePlatform --ozone-platform=wayland   
+```   
+
+---
+
+   
+```bash
+systemctl enable NetworkManager   
+systemctl enable smb   
+systemctl enable gpm   
+```
+   
+pacman -S wpa_supplicant wireless_tools netctl  # no necesario, con networkmanager te basta. Opcional    
+```   
+```bash   
+pacman -S dosfstools mtools # particiones fat   
+   
+#### uefi(gpt)   
+Acá me equivoqué no necesitas efibootmgr si vas a usar GRUB porque efibootmgr es para Efi Stub.   
+pacman -S efibootmgr    
+grub-install --target=x86_64-efi --bootloader-id=grub_uefi --efi-directory=/boot --recheck   
+```   
+## OJO!!   
+En algunos UEFI frameworks con fallas tenes que instalar el grub usando el parámetro `--removable` para instalar el bootloader a la ubicación de respaldo "fallback" porque sino se borra sólo la entrada del efi.   
+   
+[https://bbs.archlinux.org/viewtopic.php?id=250928](https://bbs.archlinux.org/viewtopic.php?id=250928)   
+   
+```bash   
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable   
+```   
+   
+Si no hacés esto, de todas formas vas a poder bootear a tu arch usando la EFI shell de la siguiente manera   
+Tenés que ubicar el efi y ejecutarlo   
+```bash   
+blk0:   
+cd EFI   
+cd grub   
+grubx64.efi   
+```   
+   
+##### legacy dos/mbr   
+   
+```bash   
+grub-install /dev/sda --recheck   
+```   
+   
+###### Luego de instalar el grub se lo configura con el siguiente comando:   
+   
+## Para que os-prober reconozca las demás distros tenés que montar las otras particiones luego de inicar arch y en `/etc/default/grub` agregá la siguiente línea:   
+   
+`GRUB_DISABLE_OS_PROBER=false`   
+   
+   
+```   
+sudo mount --mkdir /dev/sdaX /mnt/linux   
+```   
+   
+Ejecutá: `sudo os-prober` para verificar que detecte la partición de las demás distribuciones de linux que tengas.   
+   
+Luego   
+   
+```bash   
+grub-mkconfig -o /boot/grub/grub.cfg   
+exit   
+```   
+   
+##### Ahora salimos del chroot y reiniciamos   
+```bash   
+exit   
+reboot   
+```   
+   
+#### Crear un usuario e instalar xfce   
+   
+```console   
+# nmtui (para conectarse wifi)   
+# useradd -m -g users -G video,audio,wheel nombre_usuario   
+# passwd nombre_usuario ## agregar password   
+
+Copiá el .bashrc de la publicación https://imlauera.github.io/fish y ponelo en abajo hay un .bashrc pero está incompleto. y copiá la configuración de vim de 
+
+Algunas de estas publicaciones creo que la mejor es mi_configuracion_vim.
+
+fix_dvtm_colors.md, post/mi_configuracion_vim.md, y agregá el corrector ortográfico post/corrector_vim_ortografico.md, post/2021-01-02-como-uso-vim-un-resumen-de-sus-funciones-principales.md, tinywl_foot_tmux_w3m_falkon.md,
+
+
+
+su esotericwarfare
+vim .bashrc
+sudo smbpasswd -a esotericwarfare
+
+
+# vim /etc/sudoers y agregá tu usuario copiando la linea de root y sustituyendo root por tu nombre de usuario   
+# pacman -S pipewire pipewire-pulse # servidor de audio   
+# pacman -S pavucontrol (opcional para controlar y setear otras placas de audio)   
+### Agregá esto a .xinitrc si es que no usas un login manager (aunque para mi no fue necesario)   
+
+# Esto no hace falta si no lo usas funciona igual el audio.
+
+# pipewire &   
+# pipewire-pulse &   
+# pipewire-media-session &   
+#### Esto yo no lo volvería a instalar, solo xorg y xorg-xinit porque uso dwm, o ahora estoy usando sólo la TTY.   
+
+# Yo dejé de usar xorg ahora solo uso tty y eglfs.
+
+# pacman -Syu xorg xfce4 xfce4-goodies    
+# pacman -S fish    
+### La configuración de fish está en .fish/config/config.fish, uso fish por el autosuggestions.   
+# chsh para cambiar la shell del usuario actual   
+```   
+   
+Ingresá desde tu usuario y creá un archivo .xinitrc adentro poné   
+```bash   
+exec xfce4-session   
+```   
+   
+# Configuracion que uso en /etc/mpv/mpv.conf y /etc/yt-dlp.conf   
+   
+###### /etc/mpv/mpv.conf   
+   
+```bash   
+--profile=fast   
+--sub-auto=all   
+--ytdl-raw-options="format=bestvideo[height<=?360]+bestaudio/best[height<=?360]/bestvideo[height<=?480]+bestaudio/best[height<=?480],write-auto-sub=,sub-lang=[es,en,ru],write-sub="   
+--volume-max=600   
+#--save-position-on-quit   
+#--untimed   
+#--profile=low-latency   
+--mute=yes   
+```   
+   
+Abro mpv sin video se puede abrir el video usando `_` (guión bajo).   
+   
+##### yt-dlp.conf   
+```bash   
+[esotericwarfare@arch mpv]$ cat /etc/yt-dlp.conf   
+--format=18   
+--write-auto-sub   
+--write-sub   
+--sub-lang=en,ru   
+[esotericwarfare@arch mpv]$   
+```   
+   
+   
+### agregar keymap keyboard y touchpad synaptics   
+   
+```console   
+# /etc/X11/xorg.conf.d/00-keyboard.conf   
+Section "InputClass"   
+        Identifier "system-keyboard"   
+        MatchIsKeyboard "on"   
+        Option "XkbLayout" "es"   
+        Option "XkbModel" "pc104"   
+EndSection   
+```   
+   
+   
+```console   
+# /etc/X11/xorg.conf.d/70-synaptics.conf   
+Section "InputClass"   
+    Identifier "touchpad"   
+    Driver "synaptics"   
+    MatchIsTouchpad "on"   
+        Option "TapButton1" "1"   
+        Option "TapButton2" "3"   
+        Option "TapButton3" "2"   
+        Option "VertEdgeScroll" "on"   
+        Option "VertTwoFingerScroll" "on"   
+        Option "HorizEdgeScroll" "on"   
+        Option "HorizTwoFingerScroll" "on"   
+        Option "CircularScrolling" "on"   
+        Option "CircScrollTrigger" "2"   
+        Option "EmulateTwoFingerMinZ" "40"   
+        Option "EmulateTwoFingerMinW" "8"   
+        Option "CoastingSpeed" "0"   
+        Option "FingerLow" "30"   
+        Option "FingerHigh" "50"   
+        Option "MaxTapTime" "125"   
+EndSection   
+```   
+   
+#### .bashrc:   
+```bash   
+#   
+# ~/.bashrc   
+#   
+   
+# If not running interactively, don't do anything   
+[[ $- != *i* ]] && return   
+   
+alias ls='ls --color=auto'   
+alias grep='grep --color=auto'   
+PS1='[\u@\h \W]\$ '   
+   
+# Only run in interactive shells   
+[[ $- != *i* ]] && return   
+   
+# -----------------------------   
+# TTY / TMUX logic   
+# -----------------------------   
+   
+if [[ -z "$TMUX" && "$XDG_VTNR" == "1" ]]; then   
+  tmux attach || exec tmux new-session   
+fi   
+   
+if [[ -z "$TMUX" && "$XDG_VTNR" == "5" ]]; then   
+  sudo pacman --noconfirm -Syu   
+fi   
+   
+if [[ -z "$TMUX" && "$XDG_VTNR" == "2" ]]; then   
+  irssi   
+fi   
+   
+if [[ -z "$TMUX" && "$XDG_VTNR" == "6" ]]; then   
+  mbsync -a   
+  neomutt   
+fi   
+   
+# -----------------------------   
+# Environment variables   
+# -----------------------------   
+   
+export WWW_BROWSER=w3m   
+export BROWSER=w3m   
+   
+export QT_QPA_PLATFORM=eglfs   
+export QTWEBENGINE_CHROMIUM_FLAGS="--ignore-gpu-blacklist"   
+export QT_QPA_EGLFS_INTEGRATION=eglfs_kms   
+export QT_QPA_EGLFS_FULLSCREEN=1   
+   
+export XKB_DEFAULT_LAYOUT=es   
+export XKB_DEFAULT_VARIANT=nodeadkeys   
+   
+# -----------------------------   
+# Aliases   
+# -----------------------------   
+   
+alias doom="cd doom && bash play_doom.sh"   
+alias wiby="w3m http://wiby.org"   
+alias geohot="netsurf-fb -f sdl -w 1366 -h 768 https://geohot.github.io/blog"   
+alias ce="netsurf-fb -f sdl -w 1366 -h 768 http://cursoelectricidad.github.io"   
+alias el="netsurf-fb -f sdl -w 1366 -h 768 http://cursoelectrodomesticos.github.io"   
+alias mc="w3m https://sotwe.com/marianocrosetti"   
+alias in="netsurf-fb -f sdl -w 1366 -h 768 https://imlauernews.github.io"   
+alias im="netsurf-fb -f sdl -w 1366 -h 768 https://imlauer.github.io"   
+alias imlauer="netsurf-fb -f sdl -w 1366 -h 768 http://imlauera.github.io"   
+alias hp="netsurf-fb -f sdl -w 1366 -h 768 http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html"   
+alias news="lynx news.ycombinator.com"   
+   
+alias ls='ls --color=auto'   
+alias grep='grep --color=auto'   
+alias ..='cd ..'   
+   
+alias drudgereport="w3m drudgereport.com"   
+alias dgg="w3m dgg.gg"   
+alias mojeek="w3m https://www.mojeek.com/search?q=hola"   
+alias google="w3m https://leta.mullvad.net/search?q=google&engine=google"   
+alias images2="w3m https://www.ecosia.org/images?q=ecosia"   
+alias ecosia="w3m https://www.ecosia.org/search?q=ecosia"   
+alias blog="w3m imlauer.blogspot.com"   
+alias tdgg="w3m dgg.gg"   
+alias imlauera="cha -V imlauera.github.io"   
+alias analisismatematico2="netsurf-fb -f sdl -w 1366 -h 768 analisismatematico2.github.io"   
+alias wimlauera="w3m imlauera.github.io"   
+alias invidious="w3m https://inv.nadeko.net/feed/subscriptions"   
+alias cinvidious="cha -V https://inv.nadeko.net/feed/subscriptions"   
+   
+alias upwork="falkon upwork.com"   
+alias linkedin="falkon linkedin.com"   
+alias freelancer="falkon freelancer.com"   
+alias duolingo="falkon https://duolingo.com/learn"   
+alias notebooklm="falkon https://notebooklm.google.com"   
+alias telegram="falkon web.telegram.org"   
+   
+alias home="w3m $HOME/samba/offline_tastyfish/startpage.html"   
+alias images="w3m https://pinterest.lurkmore.com/"   
+alias lyrics="w3m https://genius.lurkmore.com/"   
+alias rightdao="w3m https://rightdao.com"   
+alias ttt="torsocks w3m ~/projects/imlauer.github.io/index.html"   
+alias focus="sudo systemctl stop NetworkManager"   
+   
+alias f1="bash $HOME/scripts/f1exposure.sh"   
+   
+# -----------------------------   
+# PATH   
+# -----------------------------   
+   
+export PATH="$HOME/.local/bin:$PATH"   
+   
+set -o vi   
+   
+```   
+   
+---   
+   
+   
+### Para limpiar la terminal cuando tenés seteado el set -o vi   
+Esto va en el archivo .inputrc   
+```bash   
+set editing-mode vi   
+$if mode=vi   
+   
+set keymap vi-command   
+# these are for vi-command mode   
+Control-l: clear-screen   
+   
+set keymap vi-insert   
+# these are for vi-insert mode   
+Control-l: clear-screen    
+$endif   
+```   
+   
+---   
+   
+   
+Luego guardá y ejecutá startx, done.   
+   
+   
+Esta instalación que encontré es ligeramente diferente: [https://www.geeksforgeeks.org/arch-linux-installation-and-configuration-on-uefi-machines/](https://www.geeksforgeeks.org/arch-linux-installation-and-configuration-on-uefi-machines/)   
+   
+   
+   
+   
+   
+   
+### Instalar dwm, st, dvtm, dwmstatus   
+   
+Instalar las dependencias de dwm sin bloat    
+   
+```bash   
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk xorg-twm
+```   
+https://wiki.archlinux.org/title/dwm   
+[https://dl.suckless.org/](https://dl.suckless.org/)   
+   
+Mi dwm configuración: [https://github.com/imlauera/dwm](https://github.com/imlauera/dwm)   
+   
+   
+.xinitrc   
+```console   
+dwmstatus &   
+xfce4-screensaver &   
+st -e irssi &   
+st -e vim ~/TODO &   
+chromium &   
+mbsync -a &   
+st -e neomutt &   
+redshift -O3500; xset r rate 300 50; exec startdwm   
+   
+   
+### startdwm   
+while true; do   
+    # Log stderror to a file   
+    dwm 2> ~/.dwm.log   
+    # No error logging   
+    #dwm >/dev/null 2>&1   
+done   
+```   
+   
+   
+#### ATENCION: TUVE PROBLEMAS CON EL STARTDWM   
+Tuve problemas usando startdwm directamente escribí exec dwm porque crasheaba el mpv cuando apretaba J y pipewire no lo necesité escribir en .xinitrc directamente lo instalé y funcionaba sin necesidad de escribirlo.   
+
+# pacman -Qm: Estos paquetes tenes que instalar para terminar la instalación   
+```bash   
+[esotericwarfare@arch ~]$ pacman -Qm   
+cstrike-appimage 1.6-1   
+dmenu-git 5.3.r0.7be720c-1   
+dmenu-git-debug 5.3.r0.7be720c-1   
+jackett-bin 0.22.233-1   
+keynav-debug 0.20180821.0-2   
+keynav-git 0.+r271.20220824-1   
+keynav-git-debug 0.+r271.20220824-1   
+ovh-ttyrec-git v1.1.7.1.r0.g36e8dde-1   
+ovh-ttyrec-git-debug v1.1.7.1.r0.g36e8dde-1   
+simplescreenrecorder 0.4.4-3   
+simplescreenrecorder-debug 0.4.4-3   
+surf 2.1-6   
+surf-debug 2.1-6   
+tabbed 0.8-1   
+tabbed-debug 0.8-1   
+[esotericwarfare@arch ~]$   
+```   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+```console   
+sudo pacman -S git   
+git clone https://git.suckless.org/dwm   
+git clone https://git.suckless.org/st   
+git clone https://git.suckless.org/dwmstatus   
+curl -L https://www.brain-dump.org/projects/dvtm/dvtm-0.15.tar.gz -o dvtm.tar.gz   
+
+## Si solo queres usar twm no instales libxinerama libxft eso es para dwm
+
+sudo pacman -S xorg-server xorg-xinit libx11 libxinerama libxft webkit2gtk xterm
+cd st   
+sudo make clean install   
+cd dwm   
+vim config.h   
+   
+   
+static const char *termcmd[]  = { "st","-e","dvtm", NULL };   
+   
+static const char *up_vol[]   = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "+10%",   NULL };   
+static const char *down_vol[] = { "pactl", "set-sink-volume", "@DEFAULT_SINK@", "-10%",   NULL };   
+static const char *mute_vol[] = { "pactl", "set-sink-mute",   "@DEFAULT_SINK@", "toggle", NULL };   
+   
+static const char *brighter[] = { "brightnessctl", "set", "10%+", NULL };   
+static const char *dimmer[]   = { "brightnessctl", "set", "10%-", NULL };   
+   
+   
+mkdir $HOME/pics   
+scrot $HOME/pics/%m-%d-%Y-%H%M%S.png   
+scrot $HOME/pics/%m-%d-%Y-%H%M%S.png --select --line mode=edge   
+   
+   
+       { 0,         XK_Print, spawn, SHCMD("/path/to/scripts/screenshot.sh") },   
+       { ShiftMask, XK_Print, spawn, SHCMD("/path/to/scripts/screenshotsel.sh") },   
+   
+sudo make clean install   
+   
+`cp /etc/X11/xinit/xinitrc ~/.xinitrc`   
+.xinitrc:   
+```console   
+dwmstatus &   
+feh --bg-center "/home/esotericwarfare/wall.png" &   
+st -e irssi &   
+chromium &   
+exec startdwm   
+```   
+   
+   
+   
+##### startdwn:   
+```bash   
+[esotericwarfare@arch ~]$ cat /usr/bin/startdwm   
+while true; do   
+    # Log stderror to a file   
+    dwm 2> ~/.dwm.log   
+    # No error logging   
+    #dwm >/dev/null 2>&1   
+done   
+```   
+```   
+   
+#### Configurar driver intel ( no hace falta el que viene por defecto funciona bien pero para sacarte el screen tearing tenés que usar picom)   
+[https://youtube.com/watch?v=zEhAJMQYSws](https://youtube.com/watch?v=zEhAJMQYSws)   
+   
+   
+### Screen tearing   
+Tuve un problma de screen tearing que podría estar relacionada con psr (lee la archlinux wiki) lo terminé solucionando con picom, aunque no es la solución ideal   
+   
+Instalá picom y agregalo al xinitrc así:   
+```bash   
+picom -cfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88 --daemon   
+```   
+en `/etc/xdg/picom.conf`, cambiá los siguientes parámetros   
+```   
+backend = "glx"   
+vsync = true   
+```   
+   
+##### Pegar logs    
+```console   
+curl -F file=@- https://0x0.st   
+```   
+   
+   
+   
+### Minimalista picom.conf para arreglar screen tearing   
+```bash   
+#corner-radius = 14.0;   
+#################################   
+#             Shadows           #   
+#################################   
+   
+   
+# Enabled client-side shadows on windows. Note desktop windows    
+# (windows with '_NET_WM_WINDOW_TYPE_DESKTOP') never get shadow,    
+# unless explicitly requested using the wintypes option.   
+#   
+# shadow = false   
+shadow = false;   
+   
+# The blur radius for shadows, in pixels. (defaults to 12)   
+# shadow-radius = 12   
+shadow-radius = 12;   
+   
+# The opacity of shadows. (0.0 - 1.0, defaults to 0.75)   
+# shadow-opacity = .75   
+   
+# The left offset for shadows, in pixels. (defaults to -15)   
+# shadow-offset-x = -15   
+shadow-offset-x = -6;   
+   
+# The top offset for shadows, in pixels. (defaults to -15)   
+# shadow-offset-y = -15   
+shadow-offset-y = -6;   
+   
+# Avoid drawing shadows on dock/panel windows. This option is deprecated,   
+# you should use the *wintypes* option in your config file instead.   
+#   
+# no-dock-shadow = false   
+   
+# Don't draw shadows on drag-and-drop windows. This option is deprecated,    
+# you should use the *wintypes* option in your config file instead.   
+#   
+# no-dnd-shadow = false   
+   
+# Red color value of shadow (0.0 - 1.0, defaults to 0).   
+# shadow-red = 0   
+   
+# Green color value of shadow (0.0 - 1.0, defaults to 0).   
+# shadow-green = 0   
+   
+# Blue color value of shadow (0.0 - 1.0, defaults to 0).   
+# shadow-blue = 0   
+   
+# Do not paint shadows on shaped windows. Note shaped windows    
+# here means windows setting its shape through X Shape extension.    
+# Those using ARGB background is beyond our control.    
+# Deprecated, use    
+#   shadow-exclude = 'bounding_shaped'   
+# or    
+#   shadow-exclude = 'bounding_shaped && !rounded_corners'   
+# instead.   
+#   
+# shadow-ignore-shaped = ''   
+   
+# Specify a list of conditions of windows that should have no shadow.   
+#   
+# examples:   
+#   shadow-exclude = "n:e:Notification";   
+#   
+# shadow-exclude = []   
+shadow-exclude = [   
+  "name = 'Notification'",   
+  "class_g = 'Conky'",   
+  "class_g ?= 'Notify-osd'",   
+  "class_g = 'Cairo-clock'",   
+  "_GTK_FRAME_EXTENTS@:c"   
+];   
+   
+# Specify a X geometry that describes the region in which shadow should not   
+# be painted in, such as a dock window region. Use    
+#    shadow-exclude-reg = "x10+0+0"   
+# for example, if the 10 pixels on the bottom of the screen should not have shadows painted on.   
+#   
+# shadow-exclude-reg = ""    
+   
+# Crop shadow of a window fully on a particular Xinerama screen to the screen.   
+# xinerama-shadow-crop = false   
+   
+   
+#################################   
+#           Fading              #   
+#################################   
+   
+   
+# Fade windows in/out when opening/closing and when opacity changes,   
+#  unless no-fading-openclose is used.   
+# fading = false   
+fading = false   
+   
+# Opacity change between steps while fading in. (0.01 - 1.0, defaults to 0.028)   
+# fade-in-step = 0.028   
+fade-in-step = 0.03;   
+   
+# Opacity change between steps while fading out. (0.01 - 1.0, defaults to 0.03)   
+# fade-out-step = 0.03   
+fade-out-step = 0.03;   
+   
+# The time between steps in fade step, in milliseconds. (> 0, defaults to 10)   
+# fade-delta = 10   
+   
+# Specify a list of conditions of windows that should not be faded.   
+# fade-exclude = []   
+   
+# Do not fade on window open/close.   
+# no-fading-openclose = false   
+   
+# Do not fade destroyed ARGB windows with WM frame. Workaround of bugs in Openbox, Fluxbox, etc.   
+# no-fading-destroyed-argb = false   
+   
+   
+#################################   
+#   Transparency / Opacity      #   
+#################################   
+   
+   
+# Opacity of inactive windows. (0.1 - 1.0, defaults to 1.0)   
+# inactive-opacity = 1   
+inactive-opacity = 1.0;   
+   
+# Opacity of window titlebars and borders. (0.1 - 1.0, disabled by default)   
+# frame-opacity = 1.0   
+frame-opacity = 0.95;   
+   
+# Default opacity for dropdown menus and popup menus. (0.0 - 1.0, defaults to 1.0)   
+# menu-opacity = 1.0   
+   
+# Let inactive opacity set by -i override the '_NET_WM_OPACITY' values of windows.   
+# inactive-opacity-override = true   
+inactive-opacity-override = true;   
+   
+# Default opacity for active windows. (0.0 - 1.0, defaults to 1.0)   
+active-opacity = 1.0   
+   
+# Dim inactive windows. (0.0 - 1.0, defaults to 0.0)   
+# inactive-dim = 0.0   
+   
+# Specify a list of conditions of windows that should always be considered focused.   
+# focus-exclude = []   
+#focus-exclude = [ "class_g = 'Termite'" ];   
+   
+# Use fixed inactive dim value, instead of adjusting according to window opacity.   
+# inactive-dim-fixed = 1.0   
+   
+# Specify a list of opacity rules, in the format `PERCENT:PATTERN`,    
+# like `50:name *= "Firefox"`. picom-trans is recommended over this.    
+# Note we don't make any guarantee about possible conflicts with other    
+# programs that set '_NET_WM_WINDOW_OPACITY' on frame or client windows.   
+# example:   
+#    opacity-rule = [ "80:class_g = 'URxvt'" ];   
+   
+   
+#################################   
+#     Background-Blurring       #   
+#################################   
+   
+   
+# Parameters for background blurring, see the *BLUR* section for more information.   
+# blur-method =    
+# blur-size = 12   
+#   
+# blur-deviation = false   
+   
+# Blur background of semi-transparent / ARGB windows.    
+# Bad in performance, with driver-dependent behavior.    
+# The name of the switch may change without prior notifications.   
+#   
+# blur-background = false   
+   
+# Blur background of windows when the window frame is not opaque.    
+# Implies:   
+#    blur-background    
+# Bad in performance, with driver-dependent behavior. The name may change.   
+#   
+# blur-background-frame = false   
+   
+   
+# Use fixed blur strength rather than adjusting according to window opacity.   
+# blur-background-fixed = false   
+   
+   
+# Specify the blur convolution kernel, with the following format:   
+# example:   
+#   blur-kern = "5,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1";   
+#   
+# blur-kern = ''   
+blur-kern = "3x3box";   
+   
+   
+# Exclude conditions for background blur.   
+# blur-background-exclude = []   
+blur-background-exclude = [   
+  "window_type = 'dock'",   
+  "window_type = 'desktop'",   
+  "_GTK_FRAME_EXTENTS@:c"   
+];   
+   
+#################################   
+#       General Settings        #   
+#################################   
+   
+# Daemonize process. Fork to background after initialization. Causes issues with certain (badly-written) drivers.   
+# daemon = false   
+   
+# Specify the backend to use: `xrender`, `glx`, or `xr_glx_hybrid`.   
+# `xrender` is the default one.   
+#   
+# backend = 'glx'   
+backend = "xrender";   
+   
+# Enable/disable VSync.   
+# vsync = false   
+vsync = true   
+   
+# Enable remote control via D-Bus. See the *D-BUS API* section below for more details.   
+# dbus = false   
+   
+# Try to detect WM windows (a non-override-redirect window with no    
+# child that has 'WM_STATE') and mark them as active.   
+#   
+# mark-wmwin-focused = false   
+mark-wmwin-focused = true;   
+   
+# Mark override-redirect windows that doesn't have a child window with 'WM_STATE' focused.   
+# mark-ovredir-focused = false   
+mark-ovredir-focused = true;   
+   
+# Try to detect windows with rounded corners and don't consider them    
+# shaped windows. The accuracy is not very high, unfortunately.   
+#   
+# detect-rounded-corners = false   
+detect-rounded-corners = true;   
+   
+# Detect '_NET_WM_OPACITY' on client windows, useful for window managers   
+# not passing '_NET_WM_OPACITY' of client windows to frame windows.   
+#   
+# detect-client-opacity = false   
+detect-client-opacity = true;   
+   
+# Specify refresh rate of the screen. If not specified or 0, picom will    
+# try detecting this with X RandR extension.   
+#   
+# refresh-rate = 60   
+refresh-rate = 60   
+   
+# Limit picom to repaint at most once every 1 / 'refresh_rate' second to    
+# boost performance. This should not be used with    
+#   vsync drm/opengl/opengl-oml   
+# as they essentially does sw-opti's job already,    
+# unless you wish to specify a lower refresh rate than the actual value.   
+#   
+# sw-opti =    
+   
+# Use EWMH '_NET_ACTIVE_WINDOW' to determine currently focused window,    
+# rather than listening to 'FocusIn'/'FocusOut' event. Might have more accuracy,    
+# provided that the WM supports it.   
+#   
+# use-ewmh-active-win = false   
+   
+# Unredirect all windows if a full-screen opaque window is detected,    
+# to maximize performance for full-screen windows. Known to cause flickering    
+# when redirecting/unredirecting windows.   
+#   
+# unredir-if-possible = false   
+   
+# Delay before unredirecting the window, in milliseconds. Defaults to 0.   
+# unredir-if-possible-delay = 0   
+   
+# Conditions of windows that shouldn't be considered full-screen for unredirecting screen.   
+# unredir-if-possible-exclude = []   
+   
+# Use 'WM_TRANSIENT_FOR' to group windows, and consider windows    
+# in the same group focused at the same time.   
+#   
+detect-transient = false   
+#detect-transient = true   
+   
+# Use 'WM_CLIENT_LEADER' to group windows, and consider windows in the same    
+# group focused at the same time. 'WM_TRANSIENT_FOR' has higher priority if    
+# detect-transient is enabled, too.   
+#   
+# detect-client-leader = false   
+detect-client-leader = true   
+   
+# Resize damaged region by a specific number of pixels.    
+# A positive value enlarges it while a negative one shrinks it.    
+# If the value is positive, those additional pixels will not be actually painted    
+# to screen, only used in blur calculation, and such. (Due to technical limitations,    
+# with use-damage, those pixels will still be incorrectly painted to screen.)    
+# Primarily used to fix the line corruption issues of blur,    
+# in which case you should use the blur radius value here    
+# (e.g. with a 3x3 kernel, you should use `--resize-damage 1`,    
+# with a 5x5 one you use `--resize-damage 2`, and so on).    
+# May or may not work with *--glx-no-stencil*. Shrinking doesn't function correctly.   
+#   
+# resize-damage = 1   
+   
+# Specify a list of conditions of windows that should be painted with inverted color.    
+# Resource-hogging, and is not well tested.   
+#   
+# invert-color-include = []   
+   
+# GLX backend: Avoid using stencil buffer, useful if you don't have a stencil buffer.    
+# Might cause incorrect opacity when rendering transparent content (but never    
+# practically happened) and may not work with blur-background.    
+# My tests show a 15% performance boost. Recommended.   
+#   
+# glx-no-stencil = false   
+   
+# GLX backend: Avoid rebinding pixmap on window damage.    
+# Probably could improve performance on rapid window content changes,    
+# but is known to break things on some drivers (LLVMpipe, xf86-video-intel, etc.).   
+# Recommended if it works.   
+#   
+# glx-no-rebind-pixmap = false   
+   
+# Disable the use of damage information.    
+# This cause the whole screen to be redrawn everytime, instead of the part of the screen   
+# has actually changed. Potentially degrades the performance, but might fix some artifacts.   
+# The opposing option is use-damage   
+#   
+# no-use-damage = false   
+use-damage = true   
+   
+# Use X Sync fence to sync clients' draw calls, to make sure all draw    
+# calls are finished before picom starts drawing. Needed on nvidia-drivers    
+# with GLX backend for some users.   
+#   
+# xrender-sync-fence = false   
+   
+# GLX backend: Use specified GLSL fragment shader for rendering window contents.    
+# See `compton-default-fshader-win.glsl` and `compton-fake-transparency-fshader-win.glsl`    
+# in the source tree for examples.   
+#   
+# glx-fshader-win = ''   
+   
+# Force all windows to be painted with blending. Useful if you    
+# have a glx-fshader-win that could turn opaque pixels transparent.   
+#   
+# force-win-blend = false   
+   
+# Do not use EWMH to detect fullscreen windows.    
+# Reverts to checking if a window is fullscreen based only on its size and coordinates.   
+#   
+# no-ewmh-fullscreen = false   
+   
+# Dimming bright windows so their brightness doesn't exceed this set value.    
+# Brightness of a window is estimated by averaging all pixels in the window,    
+# so this could comes with a performance hit.    
+# Setting this to 1.0 disables this behaviour. Requires --use-damage to be disabled. (default: 1.0)   
+#   
+# max-brightness = 1.0   
+   
+# Make transparent windows clip other windows like non-transparent windows do,   
+# instead of blending on top of them.   
+#   
+# transparent-clipping = false   
+   
+# Set the log level. Possible values are:   
+#  "trace", "debug", "info", "warn", "error"   
+# in increasing level of importance. Case doesn't matter.    
+# If using the "TRACE" log level, it's better to log into a file    
+# using *--log-file*, since it can generate a huge stream of logs.   
+#   
+# log-level = "debug"   
+log-level = "warn";   
+   
+# Set the log file.   
+# If *--log-file* is never specified, logs will be written to stderr.    
+# Otherwise, logs will to written to the given file, though some of the early    
+# logs might still be written to the stderr.    
+# When setting this option from the config file, it is recommended to use an absolute path.   
+#   
+# log-file = '/path/to/your/log/file'   
+   
+# Show all X errors (for debugging)   
+# show-all-xerrors = false   
+   
+# Write process ID to a file.   
+# write-pid-path = '/path/to/your/log/file'   
+   
+# Window type settings   
+#    
+# 'WINDOW_TYPE' is one of the 15 window types defined in EWMH standard:    
+#     "unknown", "desktop", "dock", "toolbar", "menu", "utility",    
+#     "splash", "dialog", "normal", "dropdown_menu", "popup_menu",    
+#     "tooltip", "notification", "combo", and "dnd".   
+#    
+# Following per window-type options are available: ::   
+#    
+#   fade, shadow:::   
+#     Controls window-type-specific shadow and fade settings.   
+#    
+#   opacity:::   
+#     Controls default opacity of the window type.   
+#    
+#   focus:::   
+#     Controls whether the window of this type is to be always considered focused.    
+#     (By default, all window types except "normal" and "dialog" has this on.)   
+#    
+#   full-shadow:::   
+#     Controls whether shadow is drawn under the parts of the window that you    
+#     normally won't be able to see. Useful when the window has parts of it    
+#     transparent, and you want shadows in those areas.   
+#    
+#   redir-ignore:::   
+#     Controls whether this type of windows should cause screen to become    
+#     redirected again after been unredirected. If you have unredir-if-possible   
+#     set, and doesn't want certain window to cause unnecessary screen redirection,    
+#     you can set this to `true`.   
+#   
+wintypes:   
+{   
+  tooltip = { fade = true; shadow = true; opacity = 0.75; focus = true; full-shadow = false; };   
+  dock = { shadow = false; }   
+  dnd = { shadow = false; }   
+  popup_menu = { opacity = 0.8; }   
+  dropdown_menu = { opacity = 0.8; }   
+};   
+```   
+   
+   
+   
+Para desbloquear un usuario que intentó varias veces acceder:   
+```console   
+# faillock --user nombre_usuario --reset   
+```   
+   
+   
+   
+#### Instalar docker   
+```bash   
+sudo pacman -S docker docker-compose   
+sudo systemctl start docker.service   
+sudo usermod -aG docker $USER   
+```   
+   
+**Si instalás OBS y usás wayland con sway:**   
+   
+##### Para tener audio con PipeWire y OBS hay que instalar: `yay -S obs-pipewire-audio-capture`   
+```bash   
+export QT_QPA_PLATFORM=wayland   
+sudo pacman -S qt6-wayland   
+```   
+   
+**Agregar al `/etc/sway/config`:**   
+   
+```bash   
+# Set XDG_CURRENT_DESKTOP for proper Wayland support   
+exec --no-startup-id dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway   
+   
+   
+# Start xdg-desktop-portal services (ensure wlr starts first)   
+exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr &   
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r   
+```   
+https://www.youtube.com/watch?v=Rq0ZjsAMeIY   
+   
+   
+   
+#### Para programación arduino lectura y escritura de /dev/ttyUSB0   
+`sudo usermod -aG uucp $USER`   
+   
+## Cada vez que agregas un grupo al usuario tenes que cerrar la sesión y volver a entrar.   
+   
+Instalamos `locate` para buscar archivos más rápidos    
+   
+___   
+### Pacman   
+##### To search for a package:   
+`pacman -Ss <package>...`   
+   
+##### To update the local package base and upgrade all out-of-date packages:   
+`pacman -Suy`   
+   
+##### To install a package:   
+`pacman -S <package>...`   
+   
+##### To uninstall a package:   
+`pacman -R <package>...`   
+   
+##### To uninstall a package and its depedencies, removing all new orphans:   
+`pacman -Rcs <package>...`   
+   
+##### To get information about package:   
+`pacman -Si <package>...`   
+   
+##### To install a package from builded package file (.tar.xz):   
+`pacman -U <file>`   
+   
+##### To list the commands provided by an installed package:   
+`pacman -Ql <package>... | sed -n -e 's/.*\/bin\///p' | tail -n +2`   
+   
+##### To list explicitly installed packages:   
+`pacman -Qe`   
+   
+##### To list the top-most recent explicitly installed packages (not in the base groups):   
+`expac --timefmt='%Y-%m-%d %T' '%l\t%n' $(comm -23 <(pacman -Qeq|sort) <(pacman -Qqg base base-devel|sort)) | sort -r | head -20`   
+   
+##### To list orphan packages (installed as dependencies and not required anymore):   
+`pacman -Qdt`   
+   
+##### To list installed packages sorted by size   
+`pacman -Qi | awk '/^Name/ {name=$3} /^Installed Size/ {print name, $4 substr($5,1,1)}' | column -t | sort -rhk2 | cat -n | tac`   
+   
+You can't directly install packages from the Arch User Database (AUR) with   
+pacman. You need an AUR helper program such as `yay` or `paru` to do that.   
+But considering that all of those are themselves in the AUR, here is how to   
+do that manualy.   
+___   
+Installing a package from AUR is a relatively simple process:   
+- Make sure that you have the `base-devel` and `git` packages installed   
+- Retrieve the repository corresponding to the package from the AUR website   
+- Run `makepkg` in the cloned repository   
+- Use `pacman` to install the created package   
+___   
+##### Ensure that have `base-devel` and `git`:   
+`pacman -S --needed base-devel git`   
+##### Retrieve the repository:   
+`git clone https://aur.archlinux.org/<package>.git`      
+`cd <package>`   
+##### Build the package:   
+`makepkg -s`   
+##### Install:   
+`sudo pacman -U <package (.pkg.tar.zst)>`   
+   
+### tldr:pacman    
+Arch Linux package manager utility.   
+Some subcommands such as `pacman sync` have their own usage documentation.   
+For equivalent commands in other package managers, see <[https://wiki.archlinux.org/title/Pacman/Rosetta](https://wiki.archlinux.org/title/Pacman/Rosetta)>.   
+More information: <[https://man.archlinux.org/man/pacman.8](https://man.archlinux.org/man/pacman.8)>.   
+   
+##### Sincronizar y actualizar todos los paquetes.   
+`sudo pacman -Syu`   
+   
+##### Instalar un nuevo paqueteInstalar un nuevo paquete.   
+`sudo pacman -S package_name`   
+   
+##### Eliminar un paquete y sus dependencias.   
+`sudo pacman -Rs package_name`   
+   
+##### Buscar en la base de datos de paquetes con alguna palabra clave o expresión regular.   
+`pacman -Ss "search_pattern"`   
+   
+##### Listar paquetes instalados y sus versiones.   
+`pacman -Q`   
+   
+##### Listar sólo los paquetes explícitamente instalados y sus versiones:   
+`pacman -Qe`   
+   
+##### Listar paquetes huérfanos (fueron instalados como dependencias pero actualmente no son requeridos por ningún paquete)   
+`pacman -Qtdq`   
+   
+##### Limpiar todo el cache de pacman:   
+`sudo pacman -Scc`   
+   
+### Eliminar paquetes hérfanos   
+`sudo pacman -Qdtq | sudo pacman -Rns -`   
+   
+---   
+   
+### Ver todos los paquetes instalados   
+ pacman -Qe   
+   
+   
+# No necesitas usar fim para ver imagenes en la tty es mejor fbi (fbida)   
+`fbi --autozoom --edit *.jpg`   
+   
+   
+Estos son todos mis paquetes (mezclando AUR y repositorio oficial): `acpi aichat alsa-utils base base-devel bc bridge-utils btop chawan-git dnsmasq dosfstools espeak-ng evince fastfetch festival fim firefox fish floorp-bin foot freetube-bin gimp git grim grub hugo imagemagick inetutils iptables-nft irssi jq kdenlive lib32-mesa libguestfs libreoffice-fresh libvirt linux linux-firmware man-db man-pages mpv mtools neomutt networkmanager noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra obs-studio os-prober pipewire pipewire-pulse plocate python-pip qbittorrent qemu-full qt5-wayland qt6-wayland rclone samba smtube speech-dispatcher sway telegram-desktop texlive-fontsextra texlive-fontsrecommended texlive-langspanish texlive-latex texlive-latexextra texlive-plaingeneric thunderbird tmux tor tor-browser-bin torsocks translate-shell tree unrar unzip v4l-utils vim virt-manager w3m wget wine wl-clipboard wmenu xdg-desktop-portal xdg-desktop-portal-wlr yay yay-debug yt-dlp `   
+   
+https://github.com/familyfriendlymikey/mpv-cut   
+   
+   
+##### Cifrar disco duro   
+```bash   
+cryptsetup luksFormat /dev/sda1 (root)   
+cryptsetup open /dev/sda1 cryptroot   
+lsblk   
+mkfs.ext4 /dev/mapper/cryptroot   
+mount /dev/mapper/cryptroot /mnt   
+mkdir /mnt/boot   
+mount /dev/sda1 /mnt/boot   
+pacstrap... todo lo mismo    
+vim /etc/mkinitcpio.conf   
+Agregá en HOOKS: HOOKS=(encrypt lvm2)   
+mkinitcpio -P   
+```   
+###### Para instalar el grub tenes que saber el UUID del disco duro   
+```bash   
+blkid -o value -s UUID /dev/sda1 >> /etc/default/grub   
+blkid -o value -s UUID /dev/mapper/cryptroot >> /etc/default/grub   
+vim /etc/default/grub   
+```   
+Pegá el primer UUID al final de la línea que dice dice `CMDLINE_LINUX_DEFAULT` y    
+###### Ambos deben estar en una línea y separadas por un espacio.   
+```bash   
+cryptdevice=UUID=dejá el primer UUID:cryptroot (dev mapper particion) root=UUID=dejá el 2do UUID y nada más    
+grub-mkconfig -o /boot/grub/grub.cfg (antes ejecutar grub-install)   
+systemctl enable NetworkManager ...   
+reboot..   
+sudo vim /lib/systemd/system/getty\@.service   
+```   
+En la línea `ExecStart=-/sbin/agetty` eliminá `-o '-p -- \\u'` reemplazalo por `-a esotericwarfare`:   
+```bash   
+sudo reboot   
+```   
+   
+---   
+   
+Actualmente uso `4get.ca` como mi buscador    
+   
+```bash   
+abook acpi aichat airgeddon alsa-utils amfora base base-devel bash-completion bc beef-xss bettercap bisq2 bridge-utils btop bully chawan-git chromium cronie crunch dhcp dillo discord dnsmasq dosfstools espeak-ng ettercap evince falkon fastfetch feh festival fim firefox fish floorp-bin foot fzf gallery-dl gimp git goimapnotify grim grub hashcat hcxdumptool hcxtools hostapd hostapd-wpe hugo i2p-bin imagemagick inetutils iptables-nft irssi isync jackett-bin jdk jdk22-openjdk john jq kdenlive kristall lib32-mesa libguestfs libreoffice-fresh libvirt lighttpd linux linux-firmware lynx man-db man-pages mdk4 mpop mpv msmtp mtools neomutt networkmanager newsboat notmuch noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra obs-studio os-prober pam-gnupg pass pcmanfm pipewire pipewire-pulse pixiewps plocate proxychains-ng python-pip qbittorrent qemu-full qt5-wayland qt5-webengine qt6-wayland rclone reaver samba smtube speech-dispatcher sway tcpdump telegram-desktop texlive-fontsextra texlive-fontsrecommended texlive-langspanish texlive-latex texlive-latexextra texlive-plaingeneric thunderbird tmux tor tor-browser-bin torsocks translate-shell tree ttf-font-awesome ttf-jetbrains-mono-nerd ttf-material-icons-git ttf-nerd-fonts-symbols unrar unzip urlview v4l-utils vim virt-manager virtualbox w3m webkit2gtk wget wifite wine wireshark-cli wl-clipboard wmenu xdg-desktop-portal xdg-desktop-portal-wlr xorg-xhost xorg-xwayland yay yay-debug yt-dlp   
+```   
+   
+   
+### Stream.sh   
+```bash   
+sudo pacman -S ttyd   
+```   
+   
+   
+---   
+   
+```bash   
+#!/bin/bash   
+sudo chmod 666 /dev/input/event*   
+amixer set 'Internal Mic Boost' 50%-   
+   
+ttyd --port 2020 --writable fish &    
+   
+falkon "https://www.youtube.com/live_dashboard" "http://localhost:2020"   
+   
+### Solo tty   
+ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -c:v libx264 -preset ultrafast -tune zerolatency -pix_f   
+mt yuv420p -c:a aac -b:a 128k -f flv -async 1 -ar 48000 -latency 100 -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h1se-5xvg-b88c   
+2> /dev/null   
+   
+   
+#### Camara con tty   
+#ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f fbdev -framerate 60 -i /dev/fb0 -f v4l2 -framerate 60 -video_size 320x240 -i /dev/vide   
+o0 -filter_complex "[2:v]scale=320:240[cam];[1:v][cam]overlay=main_w-overlay_w-10:main_h-overlay_h-10[outv]" -map "[outv]" -map 0:a -c:v libx   
+264 -preset ultrafast -tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h   
+1se-5xvg-b88c 2> /dev/null   
+   
+### Solo camara   
+#ffmpeg -f alsa -i pipewire -thread_queue_size 1024 -f v4l2 -framerate 60 -video_size 1280x720 -i /dev/video0 -c:v libx264 -preset ultrafast   
+-tune zerolatency -pix_fmt yuv420p -c:a aac -b:a 128k -f flv -bufsize 1000k rtmp://a.rtmp.youtube.com/live2/354p-cjwx-h1se-5xvg-b88c 2> /dev/   
+null   
+   
+   
+#mpv "https://www.youtube.com/channel/UCtnEUzfISySqwOkWH4nRoww/live"   
+```   
+   
+   
+   
+#### Error mirrors arch   
+      
+```bash   
+error: failed retrieving file '0ad-a27.1-2-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Could not resolve host: america.mirror.pkgbuild.com warning: fatal error from america.mirror.pkgbuild.com, skipping for the remainder of this transaction error: failed retrieving file 'wxwidgets-gtk3-3.2.8.1-2-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 133 ms: Could not connect to server error: failed retrieving file 'wxwidgets-common-3.2.8.1-2-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 129 ms: Could not connect to server error: failed retrieving file 'gloox-1.0.28-1-x86_64.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 129 ms: Could not connect to server error: failed retrieving file '0ad-data-a27.1-1-any.pkg.tar.zst' from america.mirror.pkgbuild.com : Failed to connect to america.mirror.pkgbuild.com port 443 after 200 ms   
+```   
+   
+#### Solucion:    
+   
+```bash   
+sudo reflector --country Chile,Brazil,Argentina --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist   
+sudo pacman -Syyu   
+   
+```   
+   
+---   
+   
+   
+```bash   
+[N] esotericwarfare@arch /e/u/rules.d> sudo vim 99-input-event-permissions.rules   
+   
+[I] esotericwarfare@arch /e/u/rules.d> cat 99-input-event-permissions.rules   
+KERNEL=="event[0-9]*", MODE="0666"   
+[I] esotericwarfare@arch /e/u/rules.d>   
+   
+```   
+   
+   
+   
+Para ver que binarios instaló un paquete: `pacman -Ql haskell-brainfuck`   
+   
+   
+### AI CHAT BOTS   
+   
+```bash   
+sudo npm install -g @github/copilot   
+sudo npm install -g @google/gemini-cli@latest   
+```   
+   
+Bluetooth:   
+```bash   
+sudo pacman -S bluez bluez-utils   
+```   
+   
+   
+```bash   
+[esotericwarfare@arch post]$ pacman -Qeq   
+abook   
+acpi   
+aichat   
+aircrack-ng   
+alsa-plugins   
+alsa-utils   
+angelfish   
+base   
+base-devel   
+bc   
+bluez   
+bluez-obex   
+bluez-tools   
+bluez-utils   
+ca-certificates   
+chromium   
+cronie   
+curl   
+dmenu   
+emacs   
+espeak-ng   
+faac   
+faad2   
+falkon   
+fastfetch   
+fbida   
+fim   
+fish   
+fuse3   
+fzf   
+gallery-dl   
+gettext   
+git   
+goimapnotify   
+grub   
+htop   
+hugo   
+imagemagick   
+imlib2   
+irssi   
+isync   
+jq   
+kolourpaint   
+links   
+linux   
+linux-firmware   
+lynx   
+man-db   
+man-pages   
+mpop   
+mpv   
+msmtp   
+neomutt   
+networkmanager   
+newsboat   
+newsraft   
+notmuch   
+noto-fonts   
+noto-fonts-cjk   
+noto-fonts-emoji   
+noto-fonts-extra   
+obs-pipewire-audio-capture   
+obs-studio   
+openssh   
+os-prober   
+pam-gnupg   
+pass   
+pipewire-alsa   
+pipewire-jack   
+pipewire-pulse   
+pkgfile   
+plocate   
+qbittorrent   
+rclone   
+rsync   
+samba   
+sudo   
+terminus-font   
+texlive-fontsextra   
+texlive-fontsrecommended   
+texlive-langspanish   
+texlive-latex   
+texlive-latexextra   
+texlive-plaingeneric   
+tmux   
+tor   
+translate-shell   
+tree   
+ttyd   
+unrar   
+unzip   
+urlview   
+vim   
+w3m   
+wget   
+whois   
+xorg-server   
+xorg-xinit   
+xterm   
+yay   
+yay-debug   
+yt-dlp   
+[esotericwarfare@arch post]$    
+```   
+   
+   
+#### Cambiar DNS con networkmanager   
+   
+The issue you're experiencing is that NetworkManager is overwriting `/etc/resolv.conf`. Here's how to properly set DNS with NetworkManager:   
+   
+## Quick Solution   
+   
+Edit your connection with `nmcli`:   
+   
+```bash   
+# List your connections   
+nmcli connection show   
+   
+# Set DNS for your connection (replace "Your-Connection-Name")   
+sudo nmcli connection modify "Your-Connection-Name" ipv4.dns "8.8.8.8 8.8.4.4"   
+   
+# Ignore auto DNS from DHCP   
+sudo nmcli connection modify "Your-Connection-Name" ipv4.ignore-auto-dns yes   
+   
+# Restart the connection   
+sudo nmcli connection down "Your-Connection-Name"   
+sudo nmcli connection up "Your-Connection-Name"   
+```   
+   
+## Alternative: Using nmtui   
+   
+If you prefer a text UI:   
+   
+```bash   
+sudo nmtui   
+```   
+   
+Navigate to "Edit a connection" → select your connection → scroll to IPv4 configuration → set DNS servers manually.   
+   
+## Why /etc/resolv.conf gets overwritten   
+   
+NetworkManager manages `/etc/resolv.conf` automatically. On Arch, it's often a symlink to `/run/systemd/resolve/stub-resolv.conf` or similar. NetworkManager regenerates it based on your connection settings.   
+   
+## Global DNS Configuration   
+   
+If you want to set DNS globally for all NetworkManager connections, edit `/etc/NetworkManager/NetworkManager.conf`:   
+   
+```ini   
+[main]   
+dns=default   
+   
+[global-dns]   
+searches=   
+options=   
+   
+[global-dns-domain-*]   
+servers=8.8.8.8,8.8.4.4   
+```   
+   
+Then restart NetworkManager:   
+   
+```bash   
+sudo systemctl restart NetworkManager   
+```   
+   
+The `nmcli` method is generally the cleanest approach since it stores the settings in the connection profile itself.   
+
+
+
+![](https://ia600709.us.archive.org/17/items/2025-12-27-netbsd_archlinux_pasto-images/IMG_20251227_094755525.jpg)
