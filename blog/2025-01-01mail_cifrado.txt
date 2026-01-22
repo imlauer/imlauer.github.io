@@ -1,0 +1,21 @@
+
+Mail cifrado?
+
+Intenté mandarte un mensaje usando tu SSH pubkey, pero me putea porque es muy largo el mensaje. Tengo que dividirlo en varios archivos.
+
+Guardé tu pubkey en el archivo id_rsa.pub luego ejecuté:
+
+ssh-keygen -f id_rsa.pub -e -m pem > ~/id_rsa.pub.pem
+
+Este comando me putea porque no puede ser más de 200 bytes XD:
+
+cat mensaje_secreto.txt | openssl rsautl -encrypt -pubin -inkey ~/id_rsa.pub.pem > ~/encrypted.txt
+
+
+Tuve que dividir el archivo en 9 archivos de 200 bytes con el comando:
+
+split -b 200 -d  secret.txt ceresa
+
+Luego
+
+for i in *roberto*; do cat $i | openssl rsautl -encrypt -pubin -inkey ~/id_rsa.pub.pem > ~/mensajecifrado$i.txt ; done

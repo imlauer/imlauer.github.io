@@ -5,13 +5,6 @@ if [[ -z "$1" ]]; then
   exit
 fi
 
-mv ZZZALL_FILES.zip /tmp
-zip -r ZZZALL_FILES.zip . &&
-source $HOME/internetarchive/bin/activate &&
-ia upload "MI_BLOG$(date +%s-$$)" ZZZALL_FILES.zip &&
-
-
-
 # =========================
 # ROOT: solo carpetas
 # =========================
@@ -44,4 +37,14 @@ sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' inde
 #    sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
 #  )
 #done
+
+
+mv ZZZALL_FILES.zip /tmp
+zip -r ZZZALL_FILES.zip . &&
+source $HOME/internetarchive/bin/activate &&
+ia upload "MI_BLOG$(date +%s-$$)" ZZZALL_FILES.zip &&
+cp * $HOME/projects/imlauer.w10.site/
+cd $HOME/projects/ && bash subir_w10.sh
+
+
 

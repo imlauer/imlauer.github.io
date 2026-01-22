@@ -1,0 +1,29 @@
+
+✦ En el sistema electoral argentino, el voto en blanco no se suma a ningún candidato
+  ni partido. Sin embargo, sí tiene un efecto en el resultado final, sobre todo en
+  las elecciones presidenciales.
+
+  Para que un candidato gane en primera vuelta, necesita obtener más del 45% de los
+   votos afirmativos (los votos a candidatos), o al menos el 40% y una diferencia
+  de 10 puntos con el segundo.
+
+  Los votos en blanco no se cuentan como votos afirmativos. Al haber más votos en
+  blanco, el número total de votos afirmativos disminuye. Esto provoca que el
+  porcentaje requerido para ganar sea menor en términos de cantidad de votos.
+
+  En resumen, aunque tu voto no va directamente a un candidato, indirectamente
+  favorece al candidato que va primero en las encuestas, ya que le hace más fácil
+  alcanzar el porcentaje necesario para ganar en primera vuelta.
+
+  ---
+
+  El voto nulo no tiene ningún efecto en el resultado de la elección.
+
+  A diferencia del voto en blanco (que se cuenta como un "voto válido" y afecta los
+   porcentajes), el voto nulo se considera un "voto inválido". Simplemente se
+  descarta y no se suma a ningún total.
+
+  En resumen, anular el voto es una forma de expresión, pero en la práctica tiene
+  el mismo efecto que no votar: no beneficia ni perjudica a ningún candidato. Es
+  estadísticamente irrelevante para el resultado final.
+

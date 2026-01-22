@@ -1,0 +1,81 @@
+Como la verdad de "verdad", "negocios", el negocio de la salida de la experiencia.
+
+¿Cómo vamos a responsabilizar a estas personas? Pusieron a Elizabeth Holmes en la cárcel como chivo expiatorio, cuando realmente todos los que invirtieron en esa mierda deberían haber sido investigados profundamente. ¿Algún LP retiró su dinero de los inversores de Theranos, o continuaron siendo inversores terribles con los fondos de pensiones de otras personas?
+
+
+This was the email the Ghost of Silicon Valley (Soham) used to land dozens of engineering jobs & work them simultaneously to earn 7 figures.
+
+I was curious about this story so I had to dig further.
+
+Let me preface... I don't condone this behavior..
+
+..but ethics aside, this email slaps.
+
+Here's why:
+
+- quick tldr that gets to the point, pulling you in to read more
+- startups want cracked engineers, this delivers an 'obsessive focus' tone
+- establishes credible authority through notable past startups
+- details the outcomes of his work, not buzzword skills
+- conveys a generalist vs. a specialist range of experience
+- no pushy ask, just communicates desire to join the team
+
+Thoughts on this story? I think it’s wild.
+
+
+--------------------------------------------------
+
+
+
+
+
+
+
+### Crítica Social, Política y Económica
+
+*   El autor expresa una fuerte **crítica a las estructuras sociales y políticas actuales**.
+*   La **clase gerencial profesional** (PMC) es vista como improductiva y dedicada a juegos de suma cero, constituyendo posiblemente la mayoría de los trabajos en EE. UU. (73% de los trabajos clasificados como de "Grupo 1", que no contribuyen a la creación de dinero).
+*   Se propone **sacar a la PMC del poder**, ofreciéndoles una salida (pensiones) pero prohibiéndoles acercarse a los "niveles de poder".
+*   El **consumismo** y la publicidad son objetivos de crítica; se sugiere abolir la "clase consumidora" y hacer que la publicidad sea ilegal, ya que es vista como un juego de suma cero.
+*   Se percibe un **deterioro de la sociedad estadounidense**, ejemplificado por la falta de orgullo en el servicio (como en una Apple Store) y el desgarro del tejido social.
+*   La **política y el poder** a menudo se basan en narrativas falsas y la satisfacción de necesidades emocionales, en lugar de la verdad o el progreso. El autor menciona el "Manifiesto de Unabomber" como un texto que permanece sin respuesta.
+*   El concepto de **dinero** es que es un **mapa, no el territorio**; un sistema económico solo es bueno si despliega capital de manera efectiva para crear valor y crecimiento (agrandar el pastel), en lugar de centrarse en la distribución o la moralidad.
+*   El **wokismo** se define como una creencia en la **igualdad de resultados** (*equality of outcome*), lo que lleva a la supresión de la verdad y a tácticas de "Inquisición".
+*   La **solución a la crisis social** se busca en la **descentralización** y la provisión de tecnología para reemplazar las funciones útiles del Estado con máquinas controladas localmente, haciendo que el Estado se debilite y muera por disrupción.
+*   Se propone el proyecto **"Wireheading City"** como una solución al problema de las personas sin hogar y el futuro desempleo por IA, ofreciendo un lugar voluntario donde se proporcionan las necesidades básicas (comida, refugio, entretenimiento) y drogas gratuitas a quienes deseen "optar por no participar" en la sociedad.
+
+### Tecnología, IA y Hardware
+
+*   **Critica a las Empresas de Chips de IA:** Hay muchas empresas de chips de IA sobrecapitalizadas sin un producto viable o encaje en el mercado, similar a lo que ocurre con los coches autónomos.
+*   **Errores Arquitectónicos Comunes:** El error principal de compañías como Groq y las primeras arquitecturas criticadas (como Cell SPE e Itanium) es confiar demasiado en que el *software* y los compiladores gestionen la complejidad (estrategia *push it to software*).
+*   **Corrección de Perspectiva:** Posteriormente, el autor rectificó su opinión al reconocer que para el *deep learning*, **VLIW** y los compiladores complejos son apropiados porque las operaciones son repetitivas y predecibles, siendo la localidad de datos la clave para la eficiencia energética.
+*   **Proyectos Propios (tiny corp/tinygrad):**
+    *   *The tiny corp* fue iniciada con el objetivo de **"comoditizar el petaflop"**.
+    *   **tinygrad** es un *framework* de *deep learning* de código abierto que busca la simplicidad, con el objetivo de funcionar más rápido que la competencia (PyTorch, JAX) y con un código base mucho más pequeño (menos de 25k líneas).
+    *   *The tiny corp* está trabajando para construir una pila de software soberana para los chips de **AMD**, con el objetivo de poner a AMD en la lista de MLPerf y competir con NVIDIA.
+*   **El Problema de Control de la IA:** Se insiste en que no es un problema matemático, sino un **problema político** que requiere que la humanidad demuestre ser digna del poder.
+*   **Definición de AGI:** AGI se define como **"una máquina capaz de tomar (casi) cualquier trabajo humano"**; debe ser capaz de aprender.
+*   **AI Coding:** Se considera que los modelos de IA para la programación son como **compiladores**; el lenguaje natural (inglés) es una mala opción de entrada debido a su falta de precisión y naturaleza no determinista en comparación con los lenguajes formales.
+*   **Cómputo Humano:** El cerebro humano se estima en unos 20 PFLOPS. Se predice que una computadora de escritorio podrá igualar la capacidad humana en unos 15 años, y un teléfono móvil en 25 años.
+
+### Conducción Autónoma y comma.ai
+
+*   **comma.ai** ha existido por 10 años, es rentable y está creciendo, a diferencia de la mayoría de su competencia.
+*   Se considera que la conducción autónoma está "resuelta" a falta de corrección de errores y escalabilidad.
+*   El enfoque de *comma.ai* se basa en el aprendizaje de extremo a extremo (*end-to-end*), eliminando las referencias explícitas a elementos como carriles o coches del código, prefiriendo el aprendizaje a partir de datos del mundo real.
+*   El autor se está tomando un tiempo fuera de *comma.ai*, sintiendo que el proyecto está "todo planeado" y solo queda ver si funciona.
+
+### Filosofía de la Tecnología y Visión del Mundo
+
+*   **Tecnología sin Industria:** El objetivo es construir tecnología descentralizada y sistemas autocontenidos (como *comma.ai* frente a Waymo), de modo que si la sociedad se derrumba, los restos (*godshatter*) sigan siendo útiles. Esto se opone a los sistemas frágiles que se centralizan y ceden poder.
+*   **La Visceralidad Perdida:** El mundo moderno carece de experiencias reales y viscerales; la supervivencia se ha convertido en una "marcha tecnocrática" de decisiones aburridas. El autor lucha por hacer que la tecnología sea accesible en un sentido profundo, dando control a los individuos.
+*   **La Singularidad:** No habrá un "hard takeoff" (explosión de IA) inmediato; el progreso será exponencial, como ya lo es. La complejidad del universo es cualitativamente diferente a la de los juegos de mesa (como Go).
+*   **Destino y Libertad:** La humanidad no tiene un destino común; el futuro será una elección, con opciones que incluyen la lucha honesta contra la naturaleza o el *wireheading* (autocomplacencia).
+*   **Nuke/acc:** Se propone una aceleración a través del riesgo nuclear (*nuke/acc*), ya que el uso de armas nucleares parece inevitable y forzaría a los sistemas a descentralizarse y ser más robustos.
+
+### Elementos Narrativos (Historia de John)
+
+*   **John, el Protagonista:** Un joven de 19 años que evita a la policía después de que el Detective James Reese le dejara una tarjeta de presentación.
+*   **La Madre Desaparecida:** La madre de John desaparece, y aunque deja una nota diciendo que se fue a los Hamptons con un chico, John lo duda. La cuenta del coche de su madre (Mercedes) fue cambiada a un correo electrónico desconocido: *skinner666@gmail.com*.
+*   **Dave y Operant:** Dave, el amigo de John, ayuda a rastrear el coche mediante cámaras de salpicadero de un "data marketplace". El padre de John trabajó en la misteriosa compañía Operant.
+*   **Tom Park y el Nudge:** El Detective Reese investiga a Operant debido al suicidio de Tom Park (el hermano de Dave). Operant se dedica a la **manipulación sutil** (*nudge*) mediante la modulación de señales ambientales (luces, vibraciones, HVAC) para influir en las decisiones de las personas, haciendo que parezcan ser autoimpulsadas o predecibles.

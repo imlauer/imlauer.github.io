@@ -1,0 +1,9 @@
+Creá una organización y creá un repositorio con turepo.github.io y en la configuración andá a GitHub pages y configuralo como página luego cloná el repositorio copiá todos los archivos a ese directorio ejecutá:
+
+tree -H '' -o index.html
+tree -H '' -d -o index.html
+
+y pushea el index.html: git add . && git commit -m primero && git push
+
+El script está acá: https://analisismatematico2.github.io/crear.sh
+

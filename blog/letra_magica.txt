@@ -1,0 +1,5 @@
+sudo setfont gr737c-8x6.psfu.gz
+sudo setfont koi8r.8x8.psfu.gz
+sudo setfont lat0-08.psfu.gz
+
+

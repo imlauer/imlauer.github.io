@@ -1,0 +1,12 @@
++--------------------------------------------+
+|COMO IMPRIMIR DOBLE FAZ EN IMPRESORA HP 1410|
++--------------------------------------------+
+
+0. Fijate si las hojas son pares o impares. Si son impares tenes que configurar la impresora para que imprima de la 1era página a la última, no de la última a la 1era.
+1. Imprimí todas las hojas.
+2. Como sale la hoja de la impresora, invertila dale vuelta 180 grados.
+3. Ahora te va a tirar error porque no te alcanzó el tiempo de poner la hoja. No pasa nada, apretá el botón de APAGAR 1 VEZ (cuando te aparece el error no antes) para que reinicie la impresión desde la última página.
+4. Hace lo mismo con cada hoja.
+5. Imprimí siempre en borrador rápido sino algunas impresoras se traban.
+
+Listo.

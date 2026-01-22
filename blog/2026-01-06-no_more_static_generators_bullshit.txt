@@ -1,0 +1,39 @@
+⬆️ Up
+
+------------------------------------------------------------------------
+
+No more HUGO, we say goodbye to that shit. Thank God. Luke Smith
+recommended it to me. It was good at the beginning because it helped me
+store several things, but nowadays with the amount of LLMs it no longer
+makes sense to use a static site generator. HUGO, Jekyll is bloat. HTML
+is more than enough. Now my only dependency is the tree command.
+
+This is the bash script that I currently use.
+
+Now I’m having fun with Gentoo and installing this crap:
+https://www.exherbo.org/docs/install-guide.html
+
+It’s all consumerism. Don’t waste time with GNU/Linux distributions,
+it’s consumerism in reverse. The original GNU/Linux message was: “Don’t
+buy a new computer, use the old computer and install Linux on it,” but
+then it turned into consumerism by arguing about editors and
+distributions — it’s the same as using Windows.
+
+------------------------------------------------------------------------
+
+No mas HUGO nos despedimos de esa mierda. Gracias a Dios. Luke Smith me
+lo recomendo. Fue bueno al comienzo porque me ayudo a guardar varias
+cosas, pero hoy en dia con la cantidad de LLMs ya no tiene sentido usar
+un generador de sitios estatico. HUGO, Jekyll es bloat. HTML es mas que
+suficiente. Ahora mi unica dependencia es el comando tree.
+
+Este es el script de bash que uso actualmente.
+
+Ahora estoy divirtiendome con Gentoo e instalando esta cagada:
+https://www.exherbo.org/docs/install-guide.html
+
+Es todo consumismo. No pierdan tiempo con las distribuciones de
+GNU/Linux, es consumismo a la inversa. El mensaje original de GNU/Linux
+era: "No te compres una computadora nueva, usa la computadora vieja e
+instalale Linux", pero luego se volvio consumismo al discutir sobre
+editores y distribuciones es lo mismo que usar Windows.

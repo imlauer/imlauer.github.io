@@ -1,0 +1,4 @@
+Para crear entradas desde mi celular de este blog hice lo siguiente.
+1. Bajé userland
+2. Instalé alpine linux
+3. Instalé: `apk add vim openssh git tree`

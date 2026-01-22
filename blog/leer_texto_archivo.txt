@@ -1,8 +1,11 @@
----
-title: "Cargar texto de un archivo en un buffer en C"
-date: 2025-02-15T22:04:37-03:00
-tags: ['c']
----
+
+
+
+
+
+
+
+
 
 La mayoría de las veces cuando lees que usan la función feof está mal. En mi experiencia se vió que es muy fácil de llamarla al tiempo incorrecto y procesar algo dos veces creyendo que EOF no fue alcanzado.
 

@@ -1,0 +1,123 @@
++---------------------------------------------------------------------------------+
+|Estoy teniendo una práctica de desconectar Internet para ver que tan esclavo soy.|
++---------------------------------------------------------------------------------+
+
+* ¿Parabola tiene systemd? No. Usa OpenRC.
+
+* ¿Como hago para usar ls para mostrar el tamaño de los archivos y mostrarlo en megabytes?
+```bash
+ls -lSh | less
+```
+
+¿Cómo grabo audio con arecord? ¿Que es 8-bit sampling?
+
+arecord -f cd -t wav foobar.wav
+
+
+       -f --format=FORMAT
+              Sample format
+              Recognized  sample  formats  are:  S8  U8  S16_LE S16_BE U16_LE U16_BE
+              S24_LE S24_BE U24_LE  U24_BE  S32_LE  S32_BE  U32_LE  U32_BE  FLOAT_LE
+              FLOAT_BE  FLOAT64_LE  FLOAT64_BE IEC958_SUBFRAME_LE IEC958_SUBFRAME_BE
+              MU_LAW A_LAW  IMA_ADPCM  MPEG  GSM  SPECIAL  S24_3LE  S24_3BE  U24_3LE
+              U24_3BE S20_3LE S20_3BE U20_3LE U20_3BE S18_3LE S18_3BE U18_3LE
+              Some of these may not be available on selected hardware
+              The available format shortcuts are:
+              -f cd (16 bit little endian, 44100, stereo) [-f S16_LE -c2 -r44100]
+              -f cdr (16 bit big endian, 44100, stereo) [-f S16_BE -c2 -r44100]
+              -f dat (16 bit little endian, 48000, stereo) [-f S16_LE -c2 -r48000]
+              If no format is given U8 is used.
+
+
+
+#### Grabar audio con ffmpeg.
+
+ffmpeg -f alsa -i pipewire audio.m4a
+
+Quiero tener Wikipedia en mi HDD y local LLM (Ya lo conseguí con Kiwix y llm tools list
+python -m venv llm-tools-kiwix
+pip install llm
+llm install llm-tools-kiwix
+ollama pull llama3.2 (2 GB)
+* `kiwix_search`
+* `kiwix_search_and_collect`
+* `kiwix_read`
+llm install llm-ollama
+llm models set-default ollama/llama3.2
+llm -m llama3.2
+Make sure you have **at least one ZIM file** en tu carpeta 
+llm --tool kiwix_search "Gentoo installation"
+ cd zim-llm/zim_library/
+
+
+Descargá una wikipedia pero para informáticos.
+
+Esto tarda demasiado para leer un texto y lo lee mal, investigar como mejorarlo.
+
+links -dump -width 512 $1 | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | piper-tts --model /usr/share/piper-voices/en/en_US/ryan/high/en_US-ryan-high.onnx --output .
+
+Leyendo el manifesto de Ashley Jones.
+
+¿Como genero imágenes stable duffussion (LLM) en ArchLinux?
+
+Necesito un traductor offline.
+
+Alternativas a Google drive para subir imágenes de ESP32
+
+How do I disable speakup (no me anda el capslock)
+	
+modprobe -r speakup_soft (con esto conseguí que funcione el capslock)
+
+[I] esotericwarfare@arch ~ [1]> sudo modprobe -r speakup_soft
+[I] esotericwarfare@arch ~> sudo modprobe -r speakup
+
+How do I remove a mod? rmmod no funcionó
+
+El talco, pasta de dientes no es bueno? Investigar. Usar harina de almidon en vez de talco?
+
+
+
+CapsLock + F1 - Bloquea el teclado - Espacio lo desbloquea.
+CapsLock + 8 - Pega texto.
+CapsLock + 9 - Copia letra.
+
+Podemos tener un internet offline a traves de Bluetooth?
+
+Paramore - How do we get here.
+
+Compilando Android en una netbook del gobierno.
+
+Gentoo alternatives porque emerge es demasiado pesado y está escrito en Python.
+
+Kaotrina para matar insectos.
+
++-----+
+|Kiwix|
++-----+
+https://download.kiwix.org/zim/zimit/ncert-audiobooks_en_all_2025-11.zim
+https://download.kiwix.org/zim/libretexts/libretexts.org_en_math_2025-01.zim
+https://download.kiwix.org/zim/other/finiki_en_all_maxi_2024-06.zim
+https://download.kiwix.org/zim/stack_exchange/money.stackexchange.com_en_all_2025-08.zim
+https://download.kiwix.org/zim/other/ecured_es_all_2019-05.zim
+
+Piper-tts speed
+
+No tapar hamburguesa.
+
+Queso parmesano a la hamburguesa.
+Jabón tomate, cebolla caramelizada.
+
+
+
+Como funciona esa línea de C: 0/2 que significa eso? 
+
+[I] esotericwarfare@arch ~ [1]> mbsync -a
+/home/esotericwarfare/.mbsyncrc: notice: SSLType is deprecated. Use TLSType instead.
+Cannot connect to imap.gmail.com (108.177.123.108:993): Connection timed out
+C: 0/2  B: 5/10  F: +8/8 *1/1 #0/0 -13/13  N: +2/2 *0/0 #0/0 -0/0
+
+
+### ChatGPT headless
+
+
+https://videos.icum.to/w/i6beCFidHV76iiXW9J2dHk

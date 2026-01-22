@@ -1,0 +1,3 @@
+de vim alpine en android 7
+
+este archivo lo cree desde vim usando userland alpine git y openssh
