@@ -5,6 +5,13 @@ if [[ -z "$1" ]]; then
   exit
 fi
 
+mv ZZZALL_FILES.zip /tmp
+zip -r ZZZALL_FILES.zip . &&
+source $HOME/internetarchive/bin/activate &&
+ia upload "MI_BLOG$(date +%s-$$)" ZZZALL_FILES.zip &&
+
+
+
 # =========================
 # ROOT: solo carpetas
 # =========================
@@ -14,20 +21,27 @@ tree -H '' -d -o index.html
 sed -i 's|</head>|<link rel="stylesheet" href="../style.css">\n</head>|' index.html
 sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
 
+tree -r  -H '' -o index.html
+
+sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' index.html
+
 # =========================
 # SUBCARPETAS
 # =========================
-find . -type d ! -path '*/.*' ! -path '.' | while read dir; do
-  (
-    cd "$dir" || exit
-    #tree -r -I '*.md' -H '' -o index.html
-    tree -r  -H '' -o index.html
-
-    # link a style.css (un nivel arriba)
-    sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' index.html
-
-    # boton subir
-    sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
-  )
-done
+## boton subir
+#sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
+#
+#find . -type d ! -path '*/.*' ! -path '.' | while read dir; do
+#  (
+#    cd "$dir" || exit
+#    #tree -r -I '*.md' -H '' -o index.html
+#    tree -r  -H '' -o index.html
+#
+#    # link a style.css (un nivel arriba)
+#    sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' index.html
+#
+#    # boton subir
+#    sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
+#  )
+#done
 
