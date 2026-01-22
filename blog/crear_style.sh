@@ -47,7 +47,7 @@ zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "$NAME" ZZZALL_FILES.zip &&
 # cp * $HOME/projects/imlauer.w10.site/
-cp * $HOME/projects/imlauer.github.io/blog &
+cp * $HOME/projects/imlauer.github.io/blog/ &
 cd $HOME/projects/imlauer.github.io && bash up.sh $1 &
 # subir_w10 = lftp ...
 cd $HOME/projects/ && bash subir_w10.sh
