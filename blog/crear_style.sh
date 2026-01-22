@@ -46,8 +46,8 @@ mv ZZZALL_FILES.zip /tmp
 zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "$NAME" ZZZALL_FILES.zip &&
-cd $HOME/projects/imlauer.github.io && bash up.sh $1
 cp * $HOME/projects/imlauer.w10.site/
+cd $HOME/projects/imlauer.github.io && bash up.sh $1
 cd $HOME/projects/ && bash subir_w10.sh
 
 

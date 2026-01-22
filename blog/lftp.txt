@@ -5,5 +5,8 @@ date: 2026-01-21T11:46:15-03:00
 
 ```bash
 sudo pacman -S lftp
-lftp -u username,pass w10.host -e "mirror --reverse --verbose /home/esotericwarfare/projects/web.github.io/ .; quit"
+lftp -u imlauer,XXXXXX w10.host -e "set ftp:passive-mode on; set
+ net:timeout 20; set net:max-retries 2; set net:reconnect-interval
+-base 5; set ftp:ssl-allow no; mirror --reverse --verbose /home
+/esotericwarfare/projects/imlauer.w10.site/ .  --parallel=10 ; quit"
 ```
