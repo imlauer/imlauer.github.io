@@ -1,5 +1,5 @@
 #!/bin/sh
-# Este script genera el index.html y lo sube a w10.site 
+# Este script es para imlauer.github.io genera el index.html y lo sube a w10.site 
 
 if [[ -z "$1" ]]; then
   echo "Uso: $0 commit_msg"
@@ -46,6 +46,7 @@ mv ZZZALL_FILES.zip /tmp
 zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "$NAME" ZZZALL_FILES.zip &&
+# Comentá estas 2 líneas si perdiste el acceso a imlauer.github.github.io
 cp * $HOME/projects/imlauer.w10.site/
 cd $HOME/projects/imlauer.github.io && bash up.sh $1
 cd $HOME/projects/ && bash subir_w10.sh
