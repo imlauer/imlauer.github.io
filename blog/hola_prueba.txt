@@ -1,0 +1,2 @@
+Hola esto es una prueba, luego haré un tutorial de como instalar 
+Linux From Scratch!
