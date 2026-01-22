@@ -4,6 +4,7 @@ date: 2024-11-03T08:02:25-03:00
 tags: ['zip']
 ---
 ```bash
+sudo pacman --noconfirm -S zip
 zip -r archive.zip directory/
 zip -s 50m new.zip big.iso
 ```

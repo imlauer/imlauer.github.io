@@ -104,7 +104,7 @@ La palabra clave es WIFI, seguida de dos puntos ":" y los siguientes parámetros
 * S: El nombre **completo** de la red WiFi (SSID)
 * P: La contraseña de la red WiFi. Observe que hay dos puntos entre la "P" y la contraseña
 y dos punto y comas ";;" después de la contraseña.
-
+{% highlight bash %}
 ```bash
 qrencode -s 6 -l H -o "wifi.png" "WIFI:T:<Tipo de Seguridad>;S:<SSID>;P:<Clave>;;"
 ```

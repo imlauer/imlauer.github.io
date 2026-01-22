@@ -1,13 +1,9 @@
 ---
-title: asdad
----
-
 title: "[AUDIO][APUNTE] Taller de instalación y reparación de aires acondicionados (Clase 21) - Preguntas de examen. Conexión de placa aire acondicionado: Por pulsos y por relay."
 date: 2024-12-07T19:29:30-03:00
 tags: ['AC']
-
+---
 ### Audio en Vocaroo
-
 https://vocaroo.com/1ke1UfNCgBqz
 
 ### Audio en YouTube
