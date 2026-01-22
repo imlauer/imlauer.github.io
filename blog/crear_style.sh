@@ -40,10 +40,12 @@ sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' inde
 #done
 
 
+NAME="MI_BLOG$(date +%s-$$)"
+echo "https://archive.org/details/$NAME" | tee -a BACKUPS.txt
 mv ZZZALL_FILES.zip /tmp
 zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
-ia upload "MI_BLOG$(date +%s-$$)" ZZZALL_FILES.zip &&
+ia upload "$NAME" ZZZALL_FILES.zip &&
 cd $HOME/projects/imlauer.github.io && bash up.sh $1
 cp * $HOME/projects/imlauer.w10.site/
 cd $HOME/projects/ && bash subir_w10.sh
