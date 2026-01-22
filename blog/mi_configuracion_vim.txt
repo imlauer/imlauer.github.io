@@ -9,6 +9,53 @@ Descargá VIM plug:
 
 curl -O https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+#### Aclaracion: Uso vim con tmux desde la TTY.
+
+### Esto me dijo ChatGPT yo uso unokai porque se ve bien cuando escribís mal una palabra.
+
+```bash
+export TERM=tmux-256color
+echo $TERM
+```
+
+Dentro de .tmux.conf
+
+```bash
+# Colores correctos
+set -g default-terminal "tmux-256color"
+
+# Fuerza soporte de colores modernos
+set -as terminal-overrides ",*:RGB"
+
+# Evita problemas con aplicaciones de texto
+set -g assume-paste-time 1
+
+```
+
+
+#### .vimrc:
+
+```
+" Activar colores
+syntax on
+set background=dark
+
+" 256 colores
+set t_Co=256
+
+" True color (no rompe en TTY modernas)
+set termguicolors
+```
+ 
+
+:echo &term debe decir: tmux-256color
+
+:echo &t_Co debe decir 256
+
+:hi Normal Si ves valores RGB → está perfecto.
+
+
+
 
 
 ###### Corrector ortográfico
@@ -33,7 +80,7 @@ set hlsearch    " highlight all search results set ignorecase  " do case insensi
 set incsearch   " show incremental search results as you type
 set noswapfile  " disable swap file
 set ignorecase
-color pablo
+color unokai
 
 
 set ai
@@ -42,7 +89,7 @@ set ic
 
 ---
 
-Acá está mi configuracion de w3m(en wayland tenes que usar sixel): https://imlauera.github.io/mi_configuracion_w3m/ (`w3m -sixel google.com`)
+Acá está mi configuración de w3m (en Wayland tenés que usar SIXEL): https://imlauera.github.io/mi_configuracion_w3m/ (`w3m -sixel google.com`)
 Y acá está mi configuración de `config/fish/config.fish`: https://imlauera.github.io/tinywl_foot_tmux_w3m_falkon/
 
 

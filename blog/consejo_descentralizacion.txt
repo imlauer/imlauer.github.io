@@ -1,0 +1,27 @@
+#### Subilo a todos los lugares que puedas.
+
+En mi caso uso Archive.org con el comando internetarchive,
+a w10.site con subir_w10.sh = `lftp`,
+y a GitHub con up.sh = `git add . && git commit -m $1 && git push`
+
+```bash
+NAME="MI_BLOG$(date +%s-$$)"
+echo "https://archive.org/details/$NAME" | tee -a BACKUPS.txt
+mv ZZZALL_FILES.zip /tmp
+zip -r ZZZALL_FILES.zip . &&
+source $HOME/internetarchive/bin/activate &&
+ia upload "$NAME" ZZZALL_FILES.zip &&
+# cp * $HOME/projects/imlauer.w10.site/
+cp * $HOME/projects/imlauer.github.io/blog &&
+cd $HOME/projects/imlauer.github.io && bash up.sh $1 &&
+# subir_w10 = lftp ...
+cd $HOME/projects/ && bash subir_w10.sh
+```
+
+#### A w10.site con subir_w10.sh
+
+```bash
+lftp -u username,password w10.host -e "set ftp:passive-mode on; set net:timeout 20; set net:max-retries 2; set net:reconnect-interval-base 5; set ftp:ssl-allow no; mirror --reverse --verbose /home/esotericwarfare/projects/imlauer.w10.site/ .  --parallel=10 ; quit"
+```
+
+GitHub:
