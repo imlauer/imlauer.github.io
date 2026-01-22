@@ -1,4 +1,5 @@
 #!/bin/sh
+# Este script genera el index.html y lo sube a w10.site 
 
 if [[ -z "$1" ]]; then
   echo "Uso: $0 commit_msg"
@@ -43,8 +44,8 @@ mv ZZZALL_FILES.zip /tmp
 zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "MI_BLOG$(date +%s-$$)" ZZZALL_FILES.zip &&
+cd $HOME/projects/imlauer.github.io && bash up.sh $1
 cp * $HOME/projects/imlauer.w10.site/
 cd $HOME/projects/ && bash subir_w10.sh
-
 
 
