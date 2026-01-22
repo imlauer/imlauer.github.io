@@ -2,7 +2,10 @@
 
 En mi caso uso Archive.org con el comando internetarchive,
 a w10.site con subir_w10.sh = `lftp`,
-y a GitHub con up.sh = `git add . && git commit -m $1 && git push`
+a GitHub con up.sh = `git add . && git commit -m $1 && git push`
+y si lo podes self-hostear también.
+
+http://imlauer.w10.site/crear_style.sh
 
 ```bash
 NAME="MI_BLOG$(date +%s-$$)"
