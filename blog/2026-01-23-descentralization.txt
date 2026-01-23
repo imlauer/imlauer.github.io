@@ -1,0 +1,7 @@
+
+I am currently trying to become independent of
+GitHub and HUGO.
+
+From HUGO it is easy but from GitHub it is a little more
+complicated, I will continue uploading my blog to GitHub but
+my main blog is now at imlauer.w10.site
