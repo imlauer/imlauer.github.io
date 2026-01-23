@@ -9,11 +9,11 @@ fi
 # =========================
 # ROOT: solo carpetas
 # =========================
-tree -H '' -d -o index.html
+#tree -H '' -d -o index.html
 
 # agrega style.css al index root
-sed -i 's|</head>|<link rel="stylesheet" href="../style.css">\n</head>|' index.html
-sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
+#sed -i 's|</head>|<link rel="stylesheet" href="../style.css">\n</head>|' index.html
+#sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
 
 tree -r  -H '' -o index.html
 
