@@ -1,7 +1,8 @@
 ---
 title: "How to Install Searx Search Engine"
 date: 2025-11-15T17:18:02-03:00
-tags: ['search','engine']
+udo vim 
+iags: ['search','engine']
 ---
 
 ```bash
