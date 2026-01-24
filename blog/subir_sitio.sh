@@ -48,7 +48,7 @@ cat * > ZZZALLFILES_IN_1.txt &&
 mv /tmp/ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "$NAME" ZZZALL_FILES.zip &&
-_
+
 # cp * $HOME/projects/imlauer.w10.site/
 
 cp * $HOME/projects/imlauer.github.io/blog/ &&
