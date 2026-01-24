@@ -43,8 +43,8 @@ NAME="MI_BLOG$(date +%s-$$)"
 echo "https://archive.org/details/$NAME - commit: $1" | tee -a BACKUPS.txt
 mv ZZZALL_FILES.zip /tmp
 mv ZZZALLFILES_IN_1.txt /tmp
-cat * > ZZZALLFILES_IN_1.txt &&
 zip -r ZZZALL_FILES.zip . &&
+cat * > ZZZALLFILES_IN_1.txt &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "$NAME" ZZZALL_FILES.zip &&
 # cp * $HOME/projects/imlauer.w10.site/
