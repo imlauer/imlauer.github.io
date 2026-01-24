@@ -1,0 +1,2206 @@
+'George Hotz ｜ Just Chatting ｜ effective accelerationism ｜ e⧸acc ｜ Techno-pessimism ｜ Deceleration [d0EPuVlCtJk].en.srt'
+
+
+## Resumen de las ideas más controvertidas y su visión del futuro.
+
+### 1. Criminalidad, hackeo y simpatía moral
+
+Una de las ideas más provocadoras es que **no todo hackeo le genera el mismo rechazo moral**.
+Aunque dice explícitamente que la criminalidad es mala, distingue entre:
+
+* ransomware a hospitales o extorsión → criminalidad pura, imperdonable
+* hackeos “simbólicos” o caóticos (Rockstar, filtraciones) → ilegales, pero culturalmente comprensibles o incluso graciosos
+
+Esto apunta a una **tensión futura**: la ley no alcanza para capturar la intuición moral de una sociedad hiperconectada, donde algunos delitos se perciben como “protesta”, “arte” o “rebeldía técnica”.
+
+Futuro implícito:
+la frontera entre crimen, activismo y performance técnica se vuelve borrosa, y la reacción del Estado (hospitalización indefinida, castigos extremos) parece desproporcionada.
+
+---
+
+### 2. “Code is law” es mentira… hasta que conviene
+
+Critica duramente la hipocresía del mundo cripto:
+
+* todos dicen “el código es la ley”
+* hasta que pierden plata
+* ahí piden regulación, policía y Estado
+
+Idea central:
+**el idealismo cripto es condicional**, no real.
+
+Futuro implícito:
+el discurso libertario va a seguir existiendo, pero en la práctica **la regulación vuelve siempre**, porque nadie acepta perder sin reclamar.
+
+---
+
+### 3. Propuesta radical: legalizar el hackeo
+
+Esta es una de las ideas más fuertes y menos intuitivas.
+
+Argumento:
+
+* hoy el hackeo es ilegal → solo lo hacen criminales o mercados negros
+* si fuera legal → grandes empresas competirían por encontrar exploits
+* el costo de un exploit pasaría de 100k a 100M
+* el software sería realmente seguro
+
+Filosofía detrás:
+
+* la seguridad real solo aparece cuando **el ataque es permitido**
+* prohibir el hackeo crea inseguridad estructural
+
+Futuro implícito:
+una sociedad donde atacar sistemas sea una actividad regulada y abierta, no clandestina.
+Una especie de “capitalismo ofensivo” aplicado a la seguridad digital.
+
+---
+
+### 4. Dos mundos: PVP y PVE (consentimiento explícito)
+
+Propone dividir el mundo (especialmente cripto) en dos zonas claras:
+
+* PVP:
+
+  * “code is law”
+  * no hay rescates
+  * si te roban, perdiste
+  * entrás sabiendo el riesgo
+
+* PVE:
+
+  * leyes normales
+  * protecciones
+  * robo = delito
+
+Idea filosófica clave:
+**el consentimiento es lo único que legitima la ausencia de ley**.
+
+Futuro implícito:
+sociedades híbridas, con espacios explícitamente “salvajes” y otros protegidos.
+No un solo sistema moral, sino múltiples zonas con reglas claras.
+
+---
+
+### 5. Idealismo vs resultado: el fin justifica los medios (a veces)
+
+Una de las ideas más incómodas:
+
+* mentir es malo
+* manipular gente es malo
+* pero si entregás el producto… la historia te absuelve
+
+Ejemplo implícito:
+
+* Elon / Sam prometen cosas que no cumplen
+* pero entregan algo funcional
+* eso “limpia” muchos pecados
+
+Él rechaza esto, pero reconoce su poder.
+
+Futuro implícito:
+liderazgos cada vez más **utilitaristas**, donde la verdad importa menos que el impacto tangible.
+
+---
+
+### 6. Energía “thymótica”: el recurso invisible del futuro
+
+Introduce (sin nombrarlo formalmente) el concepto de:
+
+* energía emocional
+* sentido
+* motivación colectiva
+
+Dice que figuras como Elon y Sam son expertas en **generar esa energía**, incluso mintiendo.
+
+Filosofía:
+
+* el verdadero poder moderno no es el dinero
+* es la capacidad de movilizar gente
+
+Futuro implícito:
+quien controle la narrativa y el entusiasmo controla la tecnología y el capital humano.
+
+---
+
+### 7. El fracaso del idealismo puro
+
+Reconoce algo incómodo:
+
+* el idealismo sin resultados es inútil
+* pero el pragmatismo sin ética es peligroso
+
+Él queda atrapado en el medio:
+
+* no quiere mentir
+* no quiere manipular
+* pero eso lo limita
+
+Futuro implícito:
+los más éticos no lideran sistemas gigantes;
+los sistemas gigantes los lideran quienes aceptan ensuciarse.
+
+---
+
+### 8. Aceleracionismo con límite
+
+Aunque simpatiza con el aceleracionismo:
+
+* no lo ve viable a largo plazo
+* cree que termina destruyendo valores, sentido y propósito
+
+Futuro implícito:
+más tecnología ≠ mejor civilización
+sin una ideología post-tecnológica, el progreso deja vacío.
+
+---
+
+## Visión general del futuro (sintetizada)
+
+* Más tecnología, menos claridad moral
+* Más poder para quienes movilizan emociones
+* Idealismos que colapsan cuando hay pérdidas reales
+* Zonas sin ley coexistiendo con Estados fuertes
+* Seguridad real solo cuando el ataque es permitido
+* Un mundo funcional, pero cínico
+
+Filosofía final implícita:
+
+> el futuro no va a ser justo, va a ser eficaz
+> y la pregunta no es “qué es correcto”,
+> sino “qué sobrevive”
+
+Si querés, en el próximo mensaje puedo:
+
+* contrastar esta visión con otras filosofías (liberalismo, anarquismo, tecnopesimismo)
+* decirte **qué cosas probablemente se cumplan y cuáles no**
+* o explicarte por qué este discurso resulta tan atractivo para gente técnica y desencantada
+
+## Resumen de las ideas más controvertidas y su visión del futuro.
+
+### 1. Criminalidad, hackeo y simpatía moral
+
+Una de las ideas más provocadoras es que **no todo hackeo le genera el mismo rechazo moral**.
+Aunque dice explícitamente que la criminalidad es mala, distingue entre:
+
+* ransomware a hospitales o extorsión → criminalidad pura, imperdonable
+* hackeos “simbólicos” o caóticos (Rockstar, filtraciones) → ilegales, pero culturalmente comprensibles o incluso graciosos
+
+Esto apunta a una **tensión futura**: la ley no alcanza para capturar la intuición moral de una sociedad hiperconectada, donde algunos delitos se perciben como “protesta”, “arte” o “rebeldía técnica”.
+
+Futuro implícito:
+la frontera entre crimen, activismo y performance técnica se vuelve borrosa, y la reacción del Estado (hospitalización indefinida, castigos extremos) parece desproporcionada.
+
+---
+
+### 2. “Code is law” es mentira… hasta que conviene
+
+Critica duramente la hipocresía del mundo cripto:
+
+* todos dicen “el código es la ley”
+* hasta que pierden plata
+* ahí piden regulación, policía y Estado
+
+Idea central:
+**el idealismo cripto es condicional**, no real.
+
+Futuro implícito:
+el discurso libertario va a seguir existiendo, pero en la práctica **la regulación vuelve siempre**, porque nadie acepta perder sin reclamar.
+
+---
+
+### 3. Propuesta radical: legalizar el hackeo
+
+Esta es una de las ideas más fuertes y menos intuitivas.
+
+Argumento:
+
+* hoy el hackeo es ilegal → solo lo hacen criminales o mercados negros
+* si fuera legal → grandes empresas competirían por encontrar exploits
+* el costo de un exploit pasaría de 100k a 100M
+* el software sería realmente seguro
+
+Filosofía detrás:
+
+* la seguridad real solo aparece cuando **el ataque es permitido**
+* prohibir el hackeo crea inseguridad estructural
+
+Futuro implícito:
+una sociedad donde atacar sistemas sea una actividad regulada y abierta, no clandestina.
+Una especie de “capitalismo ofensivo” aplicado a la seguridad digital.
+
+---
+
+### 4. Dos mundos: PVP y PVE (consentimiento explícito)
+
+Propone dividir el mundo (especialmente cripto) en dos zonas claras:
+
+* PVP:
+
+  * “code is law”
+  * no hay rescates
+  * si te roban, perdiste
+  * entrás sabiendo el riesgo
+
+* PVE:
+
+  * leyes normales
+  * protecciones
+  * robo = delito
+
+Idea filosófica clave:
+**el consentimiento es lo único que legitima la ausencia de ley**.
+
+Futuro implícito:
+sociedades híbridas, con espacios explícitamente “salvajes” y otros protegidos.
+No un solo sistema moral, sino múltiples zonas con reglas claras.
+
+---
+
+### 5. Idealismo vs resultado: el fin justifica los medios (a veces)
+
+Una de las ideas más incómodas:
+
+* mentir es malo
+* manipular gente es malo
+* pero si entregás el producto… la historia te absuelve
+
+Ejemplo implícito:
+
+* Elon / Sam prometen cosas que no cumplen
+* pero entregan algo funcional
+* eso “limpia” muchos pecados
+
+Él rechaza esto, pero reconoce su poder.
+
+Futuro implícito:
+liderazgos cada vez más **utilitaristas**, donde la verdad importa menos que el impacto tangible.
+
+---
+
+### 6. Energía “thymótica”: el recurso invisible del futuro
+
+Introduce (sin nombrarlo formalmente) el concepto de:
+
+* energía emocional
+* sentido
+* motivación colectiva
+
+Dice que figuras como Elon y Sam son expertas en **generar esa energía**, incluso mintiendo.
+
+Filosofía:
+
+* el verdadero poder moderno no es el dinero
+* es la capacidad de movilizar gente
+
+Futuro implícito:
+quien controle la narrativa y el entusiasmo controla la tecnología y el capital humano.
+
+---
+
+### 7. El fracaso del idealismo puro
+
+Reconoce algo incómodo:
+
+* el idealismo sin resultados es inútil
+* pero el pragmatismo sin ética es peligroso
+
+Él queda atrapado en el medio:
+
+* no quiere mentir
+* no quiere manipular
+* pero eso lo limita
+
+Futuro implícito:
+los más éticos no lideran sistemas gigantes;
+los sistemas gigantes los lideran quienes aceptan ensuciarse.
+
+---
+
+### 8. Aceleracionismo con límite
+
+Aunque simpatiza con el aceleracionismo:
+
+* no lo ve viable a largo plazo
+* cree que termina destruyendo valores, sentido y propósito
+
+Futuro implícito:
+más tecnología ≠ mejor civilización
+sin una ideología post-tecnológica, el progreso deja vacío.
+
+---
+
+## Visión general del futuro (sintetizada)
+
+* Más tecnología, menos claridad moral
+* Más poder para quienes movilizan emociones
+* Idealismos que colapsan cuando hay pérdidas reales
+* Zonas sin ley coexistiendo con Estados fuertes
+* Seguridad real solo cuando el ataque es permitido
+* Un mundo funcional, pero cínico
+
+Filosofía final implícita:
+
+> el futuro no va a ser justo, va a ser eficaz
+> y la pregunta no es “qué es correcto”,
+> sino “qué sobrevive”
+
+Si querés, en el próximo mensaje puedo:
+
+* contrastar esta visión con otras filosofías (liberalismo, anarquismo, tecnopesimismo)
+* decirte **qué cosas probablemente se cumplan y cuáles no**
+* o explicarte por qué este discurso resulta tan atractivo para gente técnica y desencantada
+
+
+
+
+
+
+
+
+
+No voy a censurar ni suavizar nada. A continuación tenés **la traducción fiel al español**, manteniendo el tono, las repeticiones y el estilo oral del tipo. Es largo, pero así hablaba.
+
+---
+
+[Música]
+
+oh, el micrófono estaba muteado parece
+mi firma se movió ahora, eh
+
+sí, buenos días a todos, buenas tardes, buenas noches y buenas noches otra vez
+¿cómo era lo del Show de Truman?
+
+así que vamos a hacer simplemente “charlar” esta noche, nada de código
+si querías código, mirá alguno de los videos viejos
+
+eh… sí, yo solo… ya sabés, es fin de año, siempre es un buen momento para reflexionar sobre cómo va tu vida
+he estado activo en Twitter estos últimos dos días
+sabés, no siempre vas a tener actividad en Twitter
+volví a mirar partes de mi tercera charla con Lex hoy
+miré contenido todo el día hoy
+salí a caminar largo rato
+
+tu vida es triste
+ASF
+lo siento, hermano
+
+eh… los voy a dejar con algo
+les voy a dar algo
+
+recuerdo que hace como seis años estaba en la casa de un amigo en Colorado
+y me dije a mí mismo:
+mirá, todo lo que está mal en tu vida es culpa tuya, ¿no?
+y ni siquiera importa si eso es verdad o no
+mi punto es que creer eso es el primer paso para arreglarlo
+
+todo lo que está mal en tu vida es culpa tuya, ¿no?
+la razón por la que vivimos en el nuevo Imperio Romano
+la razón por la que estamos disfrutando este declive ahora mismo
+es culpa mía
+¿no?
+es culpa mía
+
+eh… sí, estaba haciendo referencia a “Introduction to CLRS: Complexity and Applications”, buen libro
+así que creo que vamos a empezar
+vamos a leer un poco, revisar algunas cosas que leí últimamente
+
+eh… Curtis tiene un Substack
+y me gusta
+un “Manifiesto Tecno-pesimista”
+
+eh… deberías mandarle un mensaje
+oh, dejé la heladera abierta, bancá
+
+estamos tomando café de noche, estamos leyendo
+iba a volar a casa hoy, pero no lo hice
+me quedé y leí
+también escuché un montón de charlas de Peter Thiel
+Peter Thiel ha estado diciendo cosas bastante buenas últimamente
+
+eh… “mle bug” está medio estancado, no realmente
+o sea, ¿qué pensás que es mejor?
+agarraron a Trump
+o sea, no hay una respuesta correcta
+
+evitemos pensar en el corto plazo y empecemos a pensar más a largo plazo
+quizás más allá de las elecciones de 2024
+
+aunque, ¿sabés quién la viene rompiendo últimamente?
+Tucker Carlson
+
+o sea, mirá, todavía tiene sus problemas, pero…
+podés ver la diferencia entre las historias que Fox News lo obligaba a cubrir
+y las historias que ahora puede publicar en X
+
+por ejemplo, una defensa completa de Julian Assange
+el complejo industrial del periodismo no va a permitir competencia al complejo industrial del periodismo
+Julian Assange fue… si hubiera alguna integridad y algún premio real en el periodismo
+sería el mejor periodista del siglo XXI
+
+eh… sí, o sea, Tucker…
+hay una sensación, lamentablemente, de sensacionalismo que no siempre me gusta
+pero bueno, supongo que es lo que hace falta para vender noticias, no sé
+no aprecio el sensacionalismo
+pero en general creo que sus posturas son más rápidas
+
+¿cuál es la perspectiva actual de los estadounidenses?
+bueno, puedo hablar por mí y por mis amigos
+y, o sea, mirá, lo que le están haciendo es una locura
+pero no sé si eso representa al estadounidense promedio
+no estoy seguro de lo que piensa el estadounidense promedio
+tendrías que mirar encuestas
+
+esto es un poco político, pero no nos vamos a poner súper políticos acá
+siempre tratamos de evitar hablar de la controversia del día
+
+bueno, quizás empecemos con lo de Peter Thiel
+la charla de Peter Thiel fue muy interesante
+
+veamos si podemos conseguir la transcripción
+creo que era esta
+no sé, estuve escuchando varias
+
+me encanta mi teléfono plegable, chicos
+está en la otra habitación, pero tengo un Samsung Galaxy Z Fold 5
+me encanta absolutamente
+si vas a comprar un teléfono plegable, comprá ese
+no compres el OnePlus Open
+es literalmente el doble de rápido
+y tienen archivos QDL de restauración
+todavía estoy peleándome con OnePlus
+es triste en lo que se convirtió esa empresa
+
+sí, el Galaxy Z Fold 5 me encanta
+y ojalá confiara en Android como sistema operativo principal
+quizás algún día
+
+eh… bueno, Tucker… Tucker es medio periodista
+sí, estos son los tipos que realmente son periodistas
+no solo secretarios de prensa extendidos
+
+veamos si conseguimos la transcripción
+quizás alguien la encuentre
+
+[Música]
+
+dale, la vi en algún lado
+creo que leí la transcripción y después la escuché hoy
+
+tengo un botón de transcripción del show
+pero no quiero la transcripción de mierda de YouTube
+
+bueno, me conformo con la transcripción de mierda de YouTube
+¿podemos al menos hacer zoom?
+no, no podemos
+
+sabés qué, creo que si buscamos una de estas frases…
+no
+
+ah, “el mito de…”
+dale, vamos
+
+ok, no me preparé lo suficiente para este video
+bueno, mejor
+
+cuando yo era estudiante universitario…
+estoy bastante seguro de que había una transcripción
+
+¿dónde la leí?
+
+si alguien la encuentra le doy puntos del canal
+no sé si puedo regalar puntos, pero bueno
+
+ah, creo que fue en Pirate Wires
+miren Pirate Wires si no lo conocen
+es tipo Mike Solana y esa gente
+
+¿dónde está?
+ellos la tienen
+la leí ahí
+
+dale…
+
+ok, ok, la encontraste
+
+ah, está detrás de un paywall
+en realidad soy suscriptor pago
+solo que no estoy logueado
+
+ok, eso debe ser
+soy suscriptor pago, pero no estoy logueado en nada
+
+bueno, tendremos que arreglarnos
+
+ok, YouTube, vista de transcripción decente
+porque vamos a hablar de esto un rato
+
+hay una forma de abrir esto en una ventana nueva
+
+ok, alguien lo copió en Pastebin
+y eso es completamente ilegible
+
+ok… nuevo Criterion
+ah, él lo publicó en New Criterion
+me encanta New Criterion
+
+ok, tal vez ahí fue donde lo vi
+sí
+
+bien, sí, este es
+acá fue donde lo leí
+
+New Criterion
+tengo varias lecturas largas: Palladium, New Criterion y Astral Codex Ten
+es importante mantenerse al día
+
+he estado trabajando mucho en Tinygrad últimamente
+
+así que…
+¿alguna vez leíste “The Diversity Myth”?
+es el libro original de Peter Thiel
+es interesante
+
+el año es muy notable
+1995
+
+de nuevo, cuando hablamos de “wokeness” en este canal
+no lo tomen como odio a personas trans o minorías
+tómenlo como odio a las universidades
+y a cómo el sistema universitario nos falló de una manera fundamental
+
+este no es un punto político
+el único punto político que hago en este stream
+es que la aceleración es buena
+
+la aceleración es lo único que sacó a la humanidad de la pobreza
+tenés que hacer crecer la torta de la economía
+
+vi gente respondiendo a uno de mis tweets ayer diciendo
+“lo importante es cómo se distribuye la riqueza”
+no, no es importante cómo se distribuye
+cuanto más te enfocás en la distribución
+menos te enfocás en que haya más riqueza
+
+el coeficiente de Gini es mucho menos importante que el PBI
+
+no existen países ultra avanzados con PBI altísimo
+donde la vida sea terrible para todos
+no funciona así
+
+ok
+
+Thiel habla de la “wokeness” de una forma muy inteligente
+no diciendo “la wokeness es mala”
+sino preguntando por qué se expandió
+por qué esta ideología logró expandirse
+
+cómo Claudine Gay llegó a ser presidenta de Harvard
+cómo pasamos de Larry Summers a Claudine Gay
+qué pasó realmente
+
+me encantó esta anécdota
+
+unos años después de que salió “The Diversity Myth”
+un profesor de física de Stanford, Bob Laughlin
+ganó el Nobel
+y empezó a sufrir el delirio supremo de que
+ahora que tenía un Nobel en física
+también tenía libertad académica
+
+hay muchos temas controversiales en ciencia
+pero encontró uno aún más tabú
+dijo que la mayoría de los científicos no hacía ningún trabajo
+
+Thiel sigue diciendo que es muy fácil criticar
+los departamentos de humanidades
+los estudios de género
+o incluso cosas menos politizadas como danza interpretativa
+o historia mesopotámica
+
+como diría el Unabomber, actividades “sustitutivas”
+
+pero eso es pegarles en el punto débil
+
+Thiel llega a decir que eso es lo que el burócrata de centroizquierda quiere
+
+¿y si en vez de eso decís que las universidades no avanzaron nada en física?
+
+y parece cierto
+
+tuvimos progreso enorme en física fundamental hasta los 70
+algo pasó en los 70 y el progreso se frenó
+
+miren el uso de energía en EE.UU.
+de 1950 a 1970 se duplicó
+y después quedó plano
+
+uso de energía per cápita
+
+algo pasó en los últimos 50 años
+que impidió el crecimiento del uso de energía
+que impidió el progreso científico
+
+¿qué ciencia fundamental se descubrió en los últimos 50 años?
+casi nada
+
+en biología y salud también se ve el estancamiento
+
+Laughlin inició una investigación sobre el departamento de biología
+la conclusión generosa fue que no era fraudulento
+solo extremadamente incrementalista y de pensamiento grupal
+
+esa línea de pensamiento era completamente tabú
+sus estudiantes dejaron de recibir doctorados
+él perdió 10 años de carrera
+
+me gusta esta también:
+¿qué está peor gestionado, el DMV o la NSA?
+
+todos sabemos que el DMV es un desastre
+pero creemos que la NSA tiene una competencia secreta
+
+el secreto, con la única excepción notable de Apple
+es inversamente proporcional a lo bueno que sos
+
+si una startup es secreta
+casi siempre es porque es mala
+
+si tuviéramos una versión secreta buena de OpenPilot
+ya la habríamos lanzado
+
+habla también de un problema microeconómico
+bienes como la vivienda
+
+si reducís la oferta 1%
+el precio promedio sube 2%
+
+restringir artificialmente la oferta
+aumenta la capitalización total del mercado
+
+esto pasa con petróleo, cigarrillos y vivienda
+
+es un problema real para la economía de libre mercado
+no está claro cómo resolverlo
+
+esto es el filo de la discusión
+
+después habla de combustibles fósiles
+me gustó que fuera post-alarmista
+
+tenemos que hablar de estos problemas de manera sensata
+dejar las guerras culturales
+todo eso es una distracción de la economía básica
+
+ya no estamos creciendo
+cómo recuperamos el crecimiento
+
+el uso de energía es clave
+la curva de Henry Adams
+lo que se nos prometió
+
+crecimiento exponencial
+cortado en los 70
+
+Thiel habla también del cristianismo
+si es posible ser “demasiado cristiano”
+
+describe el wokismo como un cristianismo sin perdón
+con pecado original pero sin redención
+
+describe a Bronze Age Pervert como neopagano
+sin pecado original, las víctimas se lo merecen
+
+es interesante ver el espectro
+
+habla de la ideología de la corrección política
+viene de Moscú
+ser políticamente correcto era ser un buen camarada
+
+mi objetivo no es dar respuestas
+sino hacer preguntas
+
+describe los 2010 como un “Día de la Marmota”
+odié los 2010
+creo que ahora estamos al borde de algo nuevo
+
+los 2010 fueron falsos
+por tasas de interés al 0%
+
+las tasas se mantuvieron bajas porque la deuda era enorme
+si tenés deuda, querés tasas bajas
+si no tenés deuda, querés tasas altas
+
+yo quiero que suban
+las tasas deberían ser mucho más altas
+
+si suben las tasas
+bajan los precios de las casas
+bajan los precios de todos los bienes
+
+empujamos los problemas al futuro
+y ahora son insostenibles
+
+voy a tocar política actual un segundo
+es interesante ver que incluso los medios mainstream
+ya no repiten sin crítica la basura de diversidad
+
+sí, hacés enojar a los judíos
+preguntale a Kanye dónde está su contrato de zapatillas
+
+hay posturas de todos los lados
+4chan dice “que se mueran todos”
+yo soy indiferente a la mayoría
+
+lo que me afecta es el progreso
+
+seguir política que no te afecta es estúpido
+conocí una mujer en Japón
+leyendo noticias de EE.UU.
+enojada
+y yo le dije: estás en Tokio, esto no importa
+
+lo que sí importa es el progreso
+
+nuestra sociedad es extremadamente compleja
+requiere gente muy capacitada para mantenerla
+
+plantas eléctricas, agua, control aéreo
+
+si nos alejamos del mérito
+las cosas buenas empiezan a fallar
+
+si colapsa la red eléctrica
+todo lo demás colapsa
+
+por eso el capital humano importa
+
+---
+
+Si querés, después puedo:
+
+* resumir las ideas principales sin perder filo
+* analizar qué dice vs qué implica
+* marcar contradicciones
+* o contextualizar a este tipo (quién es, de dónde sale, por qué habla así)
+
+
+Acá tenés **la traducción fiel y sin censura**, manteniendo el tono oral, repeticiones y giros del original. No suavizo nada.
+
+---
+
+es realmente muy importante
+que el capital humano
+se mantenga al nivel suficiente como para poder mantener estos sistemas
+hasta que eventualmente se los entreguemos a las máquinas, si es que hacemos eso
+pero si Harvard ya no usa el SAT para las admisiones
+¿de dónde van a salir estas personas?
+¿dónde está el canal, el pipeline, para conseguir gente talentosa?
+
+por cierto, y voy a decir esto, y lo voy a enfatizar
+yo creo que el racismo es extremadamente estúpido
+creo que usar la raza de alguien, no importa cómo la uses,
+para determinar prácticamente cualquier cosa
+es simplemente una estupidez
+porque no vas a conseguir a la mejor persona para el trabajo
+
+vas a meter una variable de confusión
+y de nuevo, yo creo que todos los humanos somos más o menos iguales
+no todos los individuos son iguales, ¿no?
+pero bueno, tal vez haya algunas diferencias entre grupos raciales
+¿y qué?
+concentrémonos en el individuo
+
+ok, entonces el liberalismo clásico va a fallar, bla bla bla bla bla bla bla
+ok
+
+¿podemos acelerarnos para salir de esto?
+estamos acá
+el capital humano en declive
+tenemos dos opciones
+o arreglamos el capital humano
+o lo superamos con muchísimo capital técnico
+
+hay más variación dentro de las razas que entre razas
+obviamente
+podés leer todo esto, viste
+de nuevo, se convierte en una especie de teorías conspirativas
+cuando hacés algo tabú
+o cuando prohibís algo
+cuando intentás censurar algo
+
+la gente generalmente asume que la verdad es mucho peor de lo que realmente es
+cuando si simplemente les dijeras la verdad
+sería tipo: “ah, ok”
+
+y no hace falta hablar de que es una verdad incómoda
+pero es una verdad
+y la mirás y decís: bueno, pará
+todavía podemos construir una sociedad muy funcional
+
+¿por qué es tan difícil decir la verdad?
+bueno, lo de Thiel entra un poco en esto
+
+acá vamos
+
+¿por qué es tan difícil decir la verdad?
+bueno, asumamos que la gente está motivada puramente por la economía
+y él plantea algo interesante
+de nuevo, asumamos que todo es eso
+
+y habla del mercado inmobiliario como algo central
+asumamos que básicamente todo está motivado a hacer subir los precios inmobiliarios
+dejemos de pensar la “wokeness” como causa
+y empecemos a pensar qué causó la wokeness
+
+y él hace un experimento mental gracioso
+para sacar a la luz esta teoría loca
+
+si estuvieras sentado acá en Manhattan en 2007
+o en San Francisco
+y me dijeras que el alquiler promedio se iba a duplicar en los próximos 16 años
+yo te diría que eso es completamente imposible
+la gente simplemente se mudaría
+encontraría otro lugar
+
+pero pongamos que me respondés:
+“bueno, digamos que igual el alquiler se duplica”
+entonces preguntás: ¿cómo sería eso posible?
+
+sería inexplicable
+sin recurrir a algún tipo de superestructura ideológica
+que inflija una especie de síndrome de Estocolmo
+
+si sos una persona gay
+te podrían decir que si alguna vez te mudás de Manhattan a Hoboken
+te van a cagar a palos inmediatamente unos matones con bates
+
+si sos una mujer viviendo en un departamento infestado de ratas en San Francisco
+donde el alquiler no para de subir
+mientras fantaseás con una linda casa suburbana en Reno, Nevada
+podrías escuchar que si alguna vez te animás a mudarte a Reno
+te van a encadenar a una cama
+y te van a obligar a llevar un embarazo a término
+
+la única explicación lógica
+es que una intensificación ideológica enloquecida
+nos distrajo de lo que realmente está pasando
+
+voy a decir esto también
+yo me pregunto muy seguido
+cuánto estoy afectado por mis propios sesgos
+
+¿me gusta esta explicación porque odio San Francisco?
+¿o porque es una explicación buena y verdadera?
+no lo sé
+es muy difícil saberlo
+
+por eso me gusta volver a cosas que son datos
+por ejemplo, ahora tenemos una expectativa de vida en declive en Estados Unidos
+
+y esta
+esta es verdaderamente el pecado imperdonable de los últimos 50 años
+que el uso de energía per cápita en Estados Unidos se haya estancado
+
+querés ver el uso de energía per cápita en China
+boom
+lo que sea que pasó
+
+yo estuve en China más o menos en ese momento
+qué época increíble
+qué momento increíble para estar ahí
+
+oh, oh, se pone más triste
+sí, se pone más triste
+
+si mirás Europa
+sí
+los países europeos están aún peor
+
+hoy estamos bajistas con la civilización
+ok
+
+esto es una buena transición a la siguiente lectura
+
+pero sí, escuchen a Thiel de verdad
+es muy bueno
+
+ok
+hicimos nuestro ataque a la wokeness
+al mainstreamismo
+
+dale
+¿alguien realmente cree que Harvard es buena?
+nadie cree eso ya
+
+hablan del colapso de las universidades
+ni siquiera tiene que terminar con tanques en el campus de Harvard
+termina simplemente con la pérdida de estatus
+
+en Harvard y en la Ivy League
+podés mirar la caída en la matrícula
+podés mirar la caída en la cantidad de gente que va a la universidad
+
+aunque bueno, al final son números de empleo
+
+¿el gráfico de energía no estará simplemente siguiendo el traslado de la producción básica a China?
+no sé qué tiene que ver eso con producción
+
+podés decir: bueno, capaz
+no sé cómo lo miden
+no sé si incluyen la energía usada para producir bienes que después se importan a Estados Unidos
+
+decís que sus instalaciones de investigación son casi las mejores en cada campo
+ok
+decime entonces dónde avanzamos en los últimos 50 años
+
+hubo progreso limitado en biología
+pero nada comparado con lo que podría haber sido
+
+esto me vuela la cabeza cuando lo pienso
+todo el mundo sabe que fuimos a la Luna en 1969
+todo el mundo lo sabe
+
+dicen: bueno, capaz fue algo completamente insostenible
+
+el 747 salió en 1969
+este avión hoy tiene más de 50 años
+y sos afortunado si te toca subirte a uno
+la mayoría de las veces volás en un 737 de mierda
+
+ni siquiera hacemos aviones así de buenos ahora
+este es un avión de 53 o 54 años
+qué triste
+
+vamos 54 años antes de 1969
+los hermanos Wright
+
+en 54 años pasamos de eso a eso
+
+y después en otros 54 años…
+ok, tenemos el 787
+me gustan los 787, están bien
+
+pero no sería algo irreconocible para alguien de 1969
+no es tan distinto
+el motor es un poco más grande
+claramente recortaron costos, sacaron algunos motores
+hicieron el avión un poco más chico
+alas más “lindas”, genial
+
+pero el salto de eso a eso
+es salvaje
+
+los A380 están bien
+¿cuántos años tienen?
+16 años
+
+se parecen bastante
+son aviones muy lindos
+
+pero lo nuevo es aburrido
+no inspira
+y probablemente esté relacionado con este declive general
+
+escuché a Thiel hablar con David Graeber, el de “bullshit jobs”
+y pienso en mí mismo
+
+¿dónde termino yo?
+tengo un poco mejor funcionamiento ejecutivo que mucha gente parecida a mí
+puedo fundar empresas, levantar capital
+
+pero también soy bastante raro
+
+yo leía sobre matemáticos
+y esa era la vida que quería
+ir de lugar en lugar trabajando en problemas
+
+nunca quise participar en negocios
+pero hoy tenemos que hacerlo
+porque ese otro sistema está completamente destruido
+
+al menos los negocios están ligados a lo que la gente compra
+hay cierta democracia ahí
+la gente más o menos sabe qué es bueno
+
+ok
+ya hicimos nuestra crítica a la wokeness
+y a la teoría aceleracionista clásica
+
+ah, Argentina tiene un tipo nuevo
+veremos cómo le va
+
+me gusta el tipo de El Salvador
+el de El Salvador tuiteó…
+
+es interesante lo que está pasando en Sudamérica
+yo siempre pensaba en la región como un bastión del comunismo más estúpido
+Venezuela
+Argentina
+
+la moneda argentina
+me acuerdo que bajó otra vez
+por cierto, cualquier shitcoin promedio rindió mejor que el peso argentino
+
+pensamos en comprar Bird
+¿se acuerdan de Bird, los monopatines?
+
+la capitalización de mercado de Bird ahora es 1,3 millones de dólares
+pensé en meter 700k y comprar una participación de control
+
+no lo hizo tan mal como la moneda argentina
+
+¿Brasil está tan mal?
+no, Brasil está normal
+bajó un poco
+pero lo de Argentina es tierra de hiperinflación
+
+China canceló el swap de moneda con Argentina
+porque el nuevo presidente dijo que odia el comunismo
+
+bueno, pará
+tenés que separar el comunismo argentino del comunismo chino
+el comunismo chino construye trenes de alta velocidad
+
+yo me acuerdo de andar en colectivos en Argentina
+sobre cosas que apenas se podían llamar caminos
+
+también se puede decir que el declive en STEM
+pasó porque ya se resolvieron todos los problemas fáciles
+escuché ese argumento
+
+pero ¿eso explica el uso de energía?
+no
+
+Thiel tenía una postura interesante sobre la energía nuclear
+por qué se frenó
+no fue Chernóbil ni Three Mile Island
+fue que India consiguió la bomba
+a partir de reactores civiles que les dimos
+
+ok
+
+hicimos el odio a la wokeness
+ahora odiemos al aceleracionismo
+
+hay que odiar a todos por igual
+
+¿no es eso lo que son las noticias?
+dos personas de lados opuestos hablando
+
+“Manifiesto tecnopesimista”
+¿sos tecno-optimista?
+es una condición seria
+tan común como la prediabetes
+
+no te rías
+podés tratar la prediabetes
+y el tecno-optimismo también
+
+jarabe de maíz del tecno-optimismo
+
+como estadounidenses
+y ahora somos todos estadounidenses
+la ubicación es un detalle
+
+somos tecno-optimistas
+la idea americana es la del orden hecho por el hombre
+crear una ciudad sobre la colina en un continente salvaje
+
+podés leer el Manifiesto del Tecno-optimismo de Marc Andreessen
+yo lo leí
+y no me resuena
+
+me recuerda al Manifiesto Futurista
+
+pasamos la noche entera bajo lámparas de mezquita
+pisoteando alfombras orientales
+escribiendo frenéticamente
+
+es 1909
+
+contrastalo con el uso de energía per cápita en Italia
+
+sí
+
+¿qué pasó?
+
+esta filosofía no se actualizó para la época actual
+
+yo no me considero de derecha
+pero tampoco de izquierda
+
+si esta gente gobernara
+yo sería más feliz que con los que gobiernan ahora
+
+pero hay problemas fundamentales
+y Curtis señala varios
+
+¿cómo funcionó el optimismo tecnológico para EE.UU.?
+al principio bien
+hoy… opiniones variadas
+
+¿querés dudar del tecno-optimismo?
+hacé el protocolo Johannesburgo
+
+volá a Johannesburgo
+caminá una semana
+asegurate de que tu hotel tenga generador
+
+mirá el futuro
+
+cuando vuelvas
+pensá cómo la IA va a arreglar Sudáfrica
+o la VR
+o el cripto
+
+Johannesburgo es evidencia física de un mundo que funcionaba
+y ahora va camino a Mad Max
+
+nunca estuve en Sudáfrica
+pero lo que dice coincide con lo que vi en videos
+
+esto es hopium
+
+me encanta esta cita:
+“Estados Unidos no está lleno
+podemos meter otros 46 billones de humanos
+si los molemos y los guardamos en silos”
+
+amo la imagen
+
+hay una falsedad absoluta en muchos aceleracionistas
+los wokies les van a ganar
+y se lo merecen
+
+---
+
+Si querés, en el próximo mensaje puedo:
+
+* hacer un **mapa de ideas** de todo este bloque
+* separar **datos vs ideología**
+* o explicarte **por qué este discurso engancha tanto a gente técnica**
+
+Acá va **la traducción directa y continua**, manteniendo el tono oral, repeticiones y divagues. No edito el contenido, solo lo paso a español.
+
+---
+
+una cosa interesante que notás cuando pasás por un lugar así
+es que la gente está afuera, ¿no?
+y no necesariamente están afuera porque no tengan otro lugar adonde ir
+están afuera porque es como: “che, estamos afuera, somos una sociedad”
+mientras que cuando vas a algunos de esos lugares que experimentaron decadencia
+no hay nadie afuera en la calle
+¿no?
+
+eh, sí
+
+Andre no es un pensador sutil
+no es un optimista puro
+él también ve dos curvas
+su curva descendente es la curva del espíritu humano, del thymos
+cuya pérdida nos da el “último hombre” de Nietzsche
+y los “hombres sin pecho” de C. S. Lewis
+
+podés decir muchas cosas sobre la gente del barrio
+pero tienen thymos
+tienen una sociedad y una cultura
+una cultura que
+no describirías como la del último hombre
+o la del hombre sin pecho
+
+eso es lo que yo describo como
+el burócrata promedio de diversidad
+el burócrata universitario
+
+el último hombre es el ser humano
+específicamente la élite humana
+al final de una civilización
+
+el rol del thymos es mantener el orden
+el orgullo en mantener el orden
+es un elemento crucial de una élite funcional
+
+cuando la élite pierde ese orgullo
+o incluso desarrolla lo opuesto
+un orgullo luciferino por destruir el orden
+los problemas están a la vuelta de la esquina
+
+yo, la verdad, amo
+ustedes saben que soy cristiano
+amo todo este retorno al cristianismo que se está viendo últimamente
+
+hay cosas que siento que
+las sociedades del pasado entendían muchísimo mejor
+sociedades que realmente salían afuera
+y no interactuaban con el mundo a través de un celular
+creado y curado por
+un pequeño grupo de empresas
+
+de nuevo, esto nos trae de vuelta a…
+¿esto es el barrio o estos tipos son gangsters?
+nadie sabe, no sé
+la gente probablemente sabe
+yo nunca había escuchado de Five O’Faren antes
+
+pero no, este video es fuego
+mírenlo
+
+de hecho, si las tendencias actuales continúan
+la extinción humana voluntaria
+parece que va a convertirse en un tema político real
+durante la vida de nuestros hijos
+
+(se ríe)
+
+Curtis toca acá una de mis vacas sagradas
+una de las cosas en las que creo
+una de las cosas que repito
+y que estuve repensando
+
+salí a caminar hoy
+dos personas me reconocieron
+un tipo me agradeció
+me agradeció por lo que estoy haciendo
+
+ese tipo en realidad lo conocí a través de un amigo
+así que no fue raro
+
+por cierto, si alguno de los que está mirando esto
+es un extraño random
+no se me acerquen, loco
+no se me acerquen
+
+si sos copado y sabés ser copado, está bien
+pero gente socialmente incómoda se me acerca
+y es como… me siento incómodo
+
+el tipo de hoy era copado
+fue una interacción muy positiva
+
+y esto siempre me hace pensar
+¿puede el aceleracionismo ser un movimiento de masas?
+
+Curtis habla de la crisis del thymos
+la crisis de ese sentimiento de
+“¿para qué estamos haciendo todo esto?”
+
+creo que todos lo sentimos
+yo también lo siento algunos días
+¿por qué seguimos con esto?
+¿para quién lo estamos sosteniendo?
+
+en cambio, cuando estás ocupado pensando
+si esta noche tenemos que tirotear la casa de alguien
+no estás tan preocupado por boludeces existenciales
+
+“¿hacemos el drive-by esta noche, muchachos?”
+no estás pensando en el sentido de la vida
+
+William James pensaba que la década de 1910
+era decadente y degenerada
+capaz tenía razón
+capaz se venía la Segunda Guerra Mundial
+
+y esta es mi idea:
+si en vez de conscripción militar
+hubiera una conscripción de toda la población joven
+durante cierto número de años
+para formar parte de un ejército enlistado contra la naturaleza
+
+la injusticia tendería a equilibrarse
+y surgirían muchos otros bienes para la comunidad
+
+las ideas militares de dureza y disciplina
+se incorporarían en la fibra en crecimiento del pueblo
+
+nadie seguiría ciego
+como lo están ahora las clases lujosas
+a la relación real del ser humano con el planeta
+y a las bases permanentemente duras y amargas de su vida superior
+
+minas de carbón
+minas de hierro
+trenes de carga
+flotas pesqueras en diciembre
+lavar platos
+lavar ropa
+lavar ventanas
+construcción de rutas
+túneles
+fundiciones
+calderas
+estructuras de rascacielos
+
+a todo eso serían enviados nuestros jóvenes dorados
+según su elección
+para que se les quite la inmadurez
+y vuelvan a la sociedad
+con simpatías más sanas
+e ideas más sobrias
+
+habrían pagado su impuesto de sangre
+hecho su parte en la guerra humana inmemorial contra la naturaleza
+
+caminarían la tierra con más orgullo
+las mujeres los valorarían más
+serían mejores padres
+y mejores maestros para la siguiente generación
+
+yo creo totalmente en esto
+me parece increíble
+
+aparentemente Mao tenía una idea parecida
+el “envío de jóvenes al campo”
+
+esto es basado a pleno
+
+uno de los problemas que tengo
+cuando pienso en este canal de YouTube
+en la “marca George Hotz”
+es que todo el mundo tiene una marca
+lo reconozca o no
+
+tengo mucha gente
+que tomaría dirección
+muchos de ustedes me preguntan
+“¿qué debería hacer con mi vida, George?”
+
+y el problema es que
+no sé cómo hacer que la gente sea realmente útil para mi movimiento
+no sé cómo hacer que la mayoría de ustedes
+que están mirando este video ahora mismo
+sean útiles para mi movimiento
+
+y este es un problema del que habla Curtis
+
+empujar los límites del poder humano sobre la naturaleza
+es verdaderamente emocionante
+pero esta experiencia, por su propia naturaleza
+está limitada a unos pocos
+
+y esta es la mayor alegría de mi vida
+la conquista de la naturaleza
+la superación
+
+podés verlo con cosas como el iPhone
+pero eso es nivel jardín de infantes
+
+cuando mirás problemas como
+los autos autónomos
+o qué son realmente el deep learning
+la inteligencia de máquina
+
+y construís máquinas que pueden hacer eso
+eso sí es empujar los límites del poder humano sobre la naturaleza
+
+Andreessen habla de restaurar el thymos
+de dos maneras
+una directa: participando en I+D
+y otra indirecta: apoyar la tecnología como causa
+como el calentamiento global
+o Palestina
+
+pero como causa democrática
+como movimiento de masas
+el aceleracionismo tecnológico es un producto horrible
+
+el problema es que es una buena causa
+una causa prosocial y ordenada
+no tiene víctimas ni chivos expiatorios
+no daña inherentemente a nadie
+
+en resumen, es como la defensa contra asteroides
+no como el cambio climático
+
+nunca vas a ver manifestantes
+pegándose a la ruta
+para que el gobierno gaste más en defensa contra asteroides
+
+porque defender el planeta de asteroides
+no es un pretexto para causar daño
+
+y amo esta postura
+
+Black Lives Matter, ok, genial
+¿qué van a hacer?
+¿tirarse en medio de la autopista?
+ok, lo entiendo
+yo también quiero tirarme en la autopista
+vamos
+
+(jaja)
+
+jugué un poco con esta idea
+llegué a comprar tierra
+tengo tierra
+
+promocioné mucho esto hace dos años
+pero prácticamente abandoné la idea
+
+es muy difícil hacer cualquier cosa en tierra
+en naturaleza real
+y no estoy dispuesto a dedicarle mi tiempo
+
+unas horas por semana no hacen que esto funcione
+
+hoy estoy mejor dedicando todo mi tiempo a Tinygrad
+
+me encantaría que alguien haga esto
+el envío de jóvenes
+pero tienen que ser enviados
+tienen que ser las élites
+no puede ser optativo
+
+muchos de ustedes tienen energía
+y me preguntan qué hacer
+la verdad es que estoy haciendo lo mejor que puedo
+pero esta experiencia está limitada a unos pocos
+
+a menos que se invente un elixir mágico
+que nos convierta a todos en Einstein
+y aun así no funcionaría
+
+tengo 123 acres
+hermosos
+a 30 minutos de San Diego
+
+pero lo que me di cuenta es que necesito trabajo robótico
+no voy a poder hacer esto hasta que tengamos robots
+que hagan el trabajo
+
+algún día voy a poner cuerpos a trabajar en mi tierra
+“van a trabajar y les va a gustar”
+
+(riéndose)
+
+el bosque da miedo de noche
+no me dan miedo los lobos
+ni tanto los osos
+me dan miedo los humanos
+y las serpientes
+
+podría seguir
+pero mi punto es este:
+
+me gusta esta idea
+me gusta mucho
+el envío de jóvenes
+
+la inefectividad del aceleracionismo tecnológico
+como cura para el hombre moderno sin pecho
+no es el mayor problema
+
+el problema es peor
+la tecnología no es la cura
+es la causa
+
+Andreessen está tratando de curar el cáncer
+con tabaco
+
+mirá la lista de trabajos sucios de James
+lavar platos
+lavar ropa
+lavar ventanas
+
+la mitad ya desapareció en las fauces de la máquina
+y pronto la IA va a atacar el trabajo manual
+
+justamente la herramienta
+que más sirve para convertir chicos perezosos
+en hombres maduros y efectivos
+
+---
+
+Si querés, en el próximo mensaje puedo:
+– resumir este bloque
+– separar citas propias vs citas ajenas
+– o explicarte **qué es thymos** y por qué lo usa tanto este tipo de discurso
+
+Acá va **la traducción directa, sin censura y sin suavizar**, manteniendo el tono hablado, repeticiones y divagues del original.
+
+---
+
+útil para convertir chicos vagos y voluntariosos
+en adultos maduros y efectivos
+
+William James jamás podría haber soñado
+un mundo en el que la mayoría de los humanos
+son inútiles
+
+este es uno de los mejores videos sobre este tema
+y es una locura lo viejo que es
+me acuerdo cuando salió, hace nueve años
+si no vieron este video, lo voy a linkear en el chat
+vayan a verlo
+es excelente
+
+robots plomeros… sí
+o sea, sí, es verdad que primero vamos a eliminar
+los trabajos de oficina
+pero eventualmente también vamos a eliminar
+los trabajos manuales
+
+basado, dios
+CGP Grey, verdad, verdad, verdad
+
+CGP Grey también tiene un video excelente
+sobre cómo funcionan
+las dictaduras, las democracias y las oligarquías
+así que mírenlo
+
+(música)
+
+para cualquiera entrenado en economía utilitarista
+la idea de que cualquier aumento de productividad
+pueda ser perjudicial
+es profundamente contraintuitiva
+
+de hecho, hay un precedente
+del impacto negativo de avances tecnológicos en la sociedad:
+el impacto negativo del descubrimiento de recursos
+
+la “maldición de los recursos” es bien conocida
+
+en realidad no estoy de acuerdo con Curtis acá
+creo que esto es muy distinto
+porque la maldición de los recursos existe
+porque otras naciones compran ese recurso
+
+la maldición de los recursos no puede afectar
+a todo el mundo
+no es como si todo el planeta pudiera descubrir
+árboles de dinero
+y todos nos volviéramos vagos
+
+en cambio, el avance tecnológico
+sí tiene la capacidad de hacer eso
+a escala global
+
+un recurso tradicional, salvo que sea total,
+no puede hacerlo
+
+esa es la diferencia con algo como el petróleo
+el petróleo sirve para muchas cosas
+pero no es como una AGI
+no es total
+
+igual, lo que termina pasando
+se parece mucho
+se pasa de medios económicos de subsistencia
+producir cosas que otros necesitan
+a medios políticos
+tomar cosas que otros ya tienen
+
+sí, sí
+la UBI no es una solución
+
+no sé bien qué decir sobre esto
+pero tengo un artículo que va a salir pronto
+donde hablo de mis ideas sobre la solución
+está relacionado con “Wireheading City”
+en mi blog
+
+es increíblemente irónico
+que Andre presente la aceleración tecnológica
+como la cura para los males del siglo XXI
+
+apatía, hastío, no importar nada
+no preocuparse por la propia posición
+o condición en el mundo
+
+sí, definitivamente veo a ese enemigo
+
+suena francés
+descomposición de los valores morales
+estándares y guías
+
+sí, suena bien
+pero eso es justamente
+el resultado de la aceleración tecnológica
+
+oh, nunca leí esto
+
+“la humanidad es una población
+de socialités decadentes y sin espíritu
+viviendo bajo tierra
+dentro del vientre de una única máquina gigante
+la máquina se rompe
+y la gente simplemente muere”
+
+basado
+muy basado
+
+quiero leer eso
+¿es largo?
+ok, lo leo fuera de stream
+
+(música)
+
+uno puede imaginar fácilmente
+a Trotsky en Burning Man
+
+él hablaba de cómo
+los soviéticos eran aceleracionistas
+
+así que si pensaban que este stream
+iba a ser una mamada
+al aceleracionismo
+no lo es
+
+me gusta la idea del aceleracionismo ahora
+pero no creo que sea
+una ideología viable a largo plazo
+
+y no creo que tengamos
+una buena ideología a largo plazo
+
+esto es medio triste para mí
+porque yo personalmente
+obtengo mucha alegría
+de empujar los límites del poder humano
+sobre la naturaleza
+
+pero esta experiencia
+por su propia naturaleza
+está limitada a unos pocos
+
+y no puedo compartirla
+con todos ustedes
+
+y en este stream
+yo quiero compartir cosas con ustedes
+pero no creo que pueda compartir esto
+
+ni siquiera sé
+y probablemente sea mi incapacidad como manager
+pero la mayoría de la gente
+aunque tuviera toda la voluntad posible
+y la dedicara a mí
+no sé qué podría hacer con eso
+
+y no soy un tipo
+al que le guste eso
+no me gusta
+
+si me ves en la calle y no me conocés
+no me hables, loco
+a menos que seas copado
+y lo hagas de una forma chill
+
+pero la mayoría no lo es
+
+“oh George, soy tu fan, dios mío”
+¿qué carajo querés que te diga?
+
+al menos tené la decencia
+de no interrumpirme
+cuando estoy comiendo
+o alimentando a mi hija
+
+este stream deja
+más preguntas que respuestas
+
+pero Curtis
+está diciendo las cosas
+con una claridad brutal
+
+entre Curtis,
+y Peter Thiel
+describiendo increíblemente bien
+el presente
+
+no es un culto
+porque yo no soy un líder de culto
+
+pensé en ser líder de culto
+pero hay muy poco que pueda hacer
+
+no soy bueno desplegando capital monetario
+y soy todavía peor
+desplegando capital humano
+
+hay gente que es buena en eso
+
+y esto es algo
+en lo que pienso mucho
+qué es lo que me separa de Elon
+qué tiene él que yo no
+
+no creo que sean más inteligentes que yo
+pero tienen la capacidad
+de desplegar capital
+
+y tristemente creo
+que es porque están dispuestos a mentir
+
+una de las razones por las que no me cerraba Sam Altman
+es que dice que sí a todo el mundo
+aunque no lo piense
+
+Elon me hizo algo parecido
+
+si yo propongo un contrato
+lo cumplo
+
+por eso no digo mucho
+porque soy cuidadoso con lo que digo
+
+ellos no parecen molestarse
+por ilusionar gente
+
+y creo que esa
+es la mayor diferencia
+
+yo lo llamo
+un manual asqueroso
+
+Elon prometía nivel cinco de conducción autónoma
+todos los años
+y no era verdad
+
+Sam Altman prometiendo ingresos
+“ya llegan”
+
+esto me hizo repensar mi opinión
+de Sam Altman
+después del intento de golpe en OpenAI
+
+me di cuenta de que no es un altruista efectivo
+y que tampoco le gustan
+las mismas personas que no me gustan a mí
+
+enemigo de mi enemigo
+
+mi opinión de él subió
+
+yo no soy anti-alineamiento de IA
+creo que es algo real
+
+no está claro si alineamiento
+y capacidad
+son cosas distintas
+
+si una persona falla
+casi siempre es un problema de capacidad
+no de alineamiento
+
+si por alineamiento te referís a cosas como
+robustez adversarial
+evaluaciones
+interpretabilidad
+supervisión escalable
+eso es excelente
+
+especialmente si se hace en público
+
+mi opinión de OpenAI subió
+
+volviendo a la pregunta
+por qué no soy Elon o Sam
+
+no creo que sean más inteligentes
+pero sí saben desplegar capital
+
+y creo que es porque
+se permiten mentir
+
+las mentiras eventualmente te alcanzan
+
+Cruise mintió
+y las mentiras los alcanzaron
+
+escuché una historia
+de un tipo que tuvo cinco reuniones con Elon
+pensando que lo iba a financiar
+y Elon terminó haciéndolo a un lado
+y construyó Starlink
+
+¿cómo juzgamos eso?
+
+yo lo juzgo así:
+puedo comprar Starlink
+
+y eso casi te absuelve
+de todos los pecados
+
+si entregás el producto
+
+la ética utilitarista es asquerosa
+el problema es que estás dispuesto
+a matar a tres personas
+para salvar a diez
+
+y después
+solo te queda matar
+
+el camino del utilitarismo
+al asesinato
+es muy corto
+
+lo que sí hacen muy bien Elon y Sam
+es generar energía thymótica
+
+eso es una habilidad universalmente buena
+
+como empresa
+Comma tiene 25 personas
+funciona
+gana plata
+
+pero no es OpenAI
+
+tal vez necesito a alguien más
+
+odio la palabra “socio”
+o trabajan para mí
+o yo trabajo para ellos
+
+muchos de estos tipos
+son mentirosos sin capacidad real
+
+Elizabeth Holmes
+destruyó startups reales
+con un mercado falso
+
+eso es imperdonable
+
+si robás energía thymótica
+y no construís nada
+eso sí es imperdonable
+
+pero si construís
+y se puede comprar
+eso te limpia
+
+tal vez es una fe irracional
+en uno mismo
+
+120 dólares por mes
+y puedo comprar Starlink
+está en Best Buy
+
+eso es impresionante
+
+no creo que el Hyperloop
+haya matado el tren
+pero ¿dónde está mi puto tren?
+
+yo estuve en el túnel de Elon
+existe
+no es una estafa
+
+no hay tren
+pero hay túnel
+
+hoy no trabajé
+fumé
+salí a caminar
+escuché a Peter Thiel
+y ahora se los cuento a ustedes
+
+sí, esto es ironía:
+patrocinios falsos
+VPNs
+Squarespace
+BetterHelp
+
+todo ironía
+
+todo ironía
+
+---
+
+Si querés, en el próximo mensaje puedo:
+
+* resumir **las ideas centrales de todo este bloque**
+* separar **opinión propia vs citas**
+* o analizar **por qué este discurso resulta tan persuasivo para gente técnica**
+
+Acá va la **traducción fiel**, manteniendo el tono caótico, oral y las contradicciones del original (sin corregir ideas ni “mejorarlo”).
+
+---
+
+[Música]
+eh
+uh ese pibe, boludo, literalmente estaba con un Amazon Fire Stick en un hotel
+ni siquiera sé si esa historia es verdad
+
+pero mirá, mirá, voy a decir algo:
+normalmente la gente que hace cosas destructivas
+tipo los que hackean y después publican
+info privada, como el hacker de TJ Maxx y eso
+eso es simplemente ilegal
+
+pero ya cuando estás hackeando Rockstar
+y robando su GTA…
+o sea, sí, la criminalidad es mala, obvio
+pero dale, boludo, esto es graciosísimo
+no encierren al pibe
+
+detención hospitalaria indefinida
+¿qué tan cierto es todo esto?
+Dios…
+es triste pensarlo
+los llenaron de fármacos primitivos, ¿no?
+como en *A Clockwork Orange*,
+me llenaron de drogas primitivas
+
+¿intentó pedir rescate?
+sí, sí, no sé
+no podemos apoyar la criminalidad
+no podemos apoyar la criminalidad, obvio
+la criminalidad es mala
+pero tenemos que poder separar
+el arte del artista
+
+usó Amazon
+y Tony Stark construyó esto en una cueva
+con chatarra
+
+no, no, el rescate no
+lo del ransomware a hospitales y eso
+esos tipos son criminales sin vueltas
+
+pero si creés fundamentalmente
+que la información debería ser libre
+tenés que ser idealista, hermano
+tenés que hacerlo como idealista
+no podés hacerlo y ser un criminal
+porque eso mancha todo
+
+pero si simplemente hackeás gente
+y decís “la información debería ser libre”
+no sé, no sé
+esa es una causa terrorista
+muy fácil de simpatizar para mí
+
+no se preocupen, escuché hace poco
+que la NSA y la CIA están peor organizadas
+que el registro automotor
+así que eso es… reconfortante
+si es verdad
+no sé si es verdad
+pero es reconfortante
+
+Mick está muerto
+vagamente recuerdo que lo conocí una vez
+buen tipo
+
+[Música]
+
+¿apoyo el ethos de “code is law” y
+el crypto?
+
+es difícil
+puedo ver ambos lados del argumento
+¿tenemos una civilización o no?
+tenés que estar en contra de robar
+tenés que estar en contra del robo
+pero no sé
+
+esto es lo que yo apoyaría
+en la cuestión de “code is law”:
+una forma de hacer todos los sistemas
+mucho más seguros
+es hacer el hackeo legal
+
+imaginate un mundo donde hackear sea legal
+sería interesante
+di una charla una vez
+al final de mi “carrera” en seguridad
+y esto era lo que decía:
+
+“si de verdad les importara la seguridad
+tendríamos que hacer lobby
+para que hackear sea legal”
+
+porque en cuanto hackear sea legal
+el costo de encontrar un exploit de navegador
+no va a ser 100 mil dólares
+va a ser 100 millones
+
+porque con el hackeo legal
+tendríamos corporaciones enormes
+intentando romper navegadores
+y ahí sí tendríamos código seguro
+
+ok, voy a decir esto sobre “code is law”
+ya está, ya está, lo tengo
+me encanta esta analogía
+
+tenemos dos zonas
+la zona PVE y la zona PVP
+tenemos dos zonas en crypto
+
+una zona donde se aplican las leyes normales
+y otra zona donde el código es la ley
+
+dale, eso es re basado
+necesitamos eso
+
+si entrás a la zona PVP
+sos un participante consentido
+del juego de “code is law”
+
+me encanta
+tipo: entraste a PancakeSwap
+y alguien se robó todos los pancakes
+del MasterChef
+hermano, lo siento
+estás en la zona PVP
+
+y después tenés la zona PVE
+tipo USDC
+robar USDC
+voltear Mt. Gox y robar Bitcoin
+eso ya es ilegal
+más allá de “code is law”
+
+pero pensá en el hackeo original del DAO
+en Ethereum
+¿eso habría sido zona PVP?
+entonces el hacker podría haber dicho
+“los pwnié, noobs”
+
+ese es el mundo en el que queremos vivir
+un mundo con claridad
+claridad sobre esas reglas
+
+igual, capaz no conviene
+andar alardeando de cómo pwniás noobs
+porque alguien podría pegarte un tiro
+
+PVP y PVE
+code is law…
+salvo cuando pierdo plata
+
+eso es crypto hoy
+muchos idealistas diciendo
+“code is law, no hay gobierno”
+hasta que alguien les roba los pancakes
+y ahí quieren que el gobierno
+se los devuelva
+
+las empresas crypto hablan en Twitter
+de que el código es la ley
+hasta que las hackean
+
+necesitamos consentimiento
+todo es consentimiento
+me encanta el consentimiento
+
+es increíble lo rápido que cambian
+cuando les toca a ellos
+
+no sé si PancakeSwap fue hackeado
+no quiero difamar a PancakeSwap
+solo me parece un nombre gracioso
+
+me encanta Binance Smart Chain
+no gané plata ahí
+quería ganar 2 millones de dólares
+pero no gané nada
+
+¿Caroline está libre?
+¿qué anda haciendo?
+
+ok chicos, los estafé a todos
+los estafé a todos
+Cheape, hermano
+lo preminé
+y escondí el preminado en el código
+
+pueden ir al Discord de Devith
+¿DeFi sigue vivo?
+estoy esperando el tiny grad
+
+este es el Discord de haters de Cheape
+me encanta ver a los thots
+
+para referencia:
+perdí 5 mil dólares en Cheape
+entonces cuando los haters dicen
+“George estaba metido en este crypto turbio”
+esto es por lo que nadie serio
+quiere involucrarse
+todos estafadores
+
+el tipo de Debie era un hater grande
+pero hizo su propia chain
+hicimos el bridge de Cheape
+
+todo es pasarla bien
+y mucha gente en crypto se olvidó de eso
+cuando se hizo rica
+
+por eso crypto es triste
+te hackean
+y de golpe se te olvidan todos tus ideales
+de que el código es la ley
+
+¿sigue vivo el EAC?
+yo no soy EAC
+esto no es un movimiento de Twitter
+no está en mi bio
+
+podemos hablar del aceleracionismo efectivo
+como idea
+es como la zona libre de la cienciología
+la auditoría está buena
+me encanta sacar el e-meter
+para calmar a la gente
+pero no voy a pagarle
+a la Iglesia de la Cienciología
+
+lean Dianética
+pero no compren el medidor
+
+tiny grad coin
+
+ok, buen stream
+ese fue el stream de hoy
+creo que cubrimos muchos temas
+
+perdón, no tengo respuestas
+pero hablamos de aceleracionismo
+y de tecnopesimismo
+
+eso es lo que son las noticias hoy
+así que fue charla libre
+
+Feliz Navidad a todos
+Felices Fiestas
+Feliz Janucá si celebran
+¿alguien celebra Kwanzaa?
+si celebrás Kwanzaa
+que tengas el mejor Kwanzaa
+
+amamos a todos
+si celebrás Festivus
+creo que eso es una cosa
+
+si celebrás el Monstruo del Espagueti Volador
+que te jodan
+odio a los ateos
+es la única religión que no tolero
+son re dogmáticos
+difundiendo sus creencias ateas de mierda
+leen a Dawkins y se vuelven soberbios
+
+“leé la Biblia, George”
+odio cuando dice cosas cristianas
+estoy jodiendo
+
+es como el narcisismo
+de las pequeñas diferencias
+
+no, estamos difundiendo amor festivo
+felices fiestas a todas las religiones
+pero en serio:
+Feliz Navidad
+porque los mansos heredarán la Tierra
+Jesucristo
+
+ok, chau a todos
+
