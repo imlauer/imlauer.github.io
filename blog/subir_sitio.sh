@@ -47,7 +47,9 @@ zip -r ZZZALL_FILES.zip . &&
 cat * > ZZZALLFILES_IN_1.txt &&
 source $HOME/internetarchive/bin/activate &&
 ia upload "$NAME" ZZZALL_FILES.zip &&
+_
 # cp * $HOME/projects/imlauer.w10.site/
+
 cp * $HOME/projects/imlauer.github.io/blog/ &&
 cd $HOME/projects/imlauer.github.io &&
 git add . && git commit -m "$1" && git push &&
