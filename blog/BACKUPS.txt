@@ -48,3 +48,5 @@ https://archive.org/details/MI_BLOG1769237552-45761
 https://archive.org/details/MI_BLOG1769273467-59372
 https://archive.org/details/MI_BLOG1769274973-60876 - commit: reconstruccion w10
 https://archive.org/details/MI_BLOG1769275523-61236 - commit: FULLTEXT
+https://archive.org/details/MI_BLOG1769275814-61534 - commit: FULLTEXT
+https://archive.org/details/MI_BLOG1769275872-61590 - commit: FULLTEXT

@@ -34,8 +34,7 @@ sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' inde
 #    # link a style.css (un nivel arriba)
 #    sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' index.html
 #
-#    # boton subir
-#    sed -i '1i <a href="../index.html">⬆️  Up</a><br><hr>' index.html
+
 #  )
 #done
 
@@ -43,6 +42,7 @@ sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' inde
 NAME="MI_BLOG$(date +%s-$$)"
 echo "https://archive.org/details/$NAME - commit: $1" | tee -a BACKUPS.txt
 mv ZZZALL_FILES.zip /tmp
+mv ZZZALLFILES_IN_1.txt /tmp
 cat * > ZZZALLFILES_IN_1.txt &&
 zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
