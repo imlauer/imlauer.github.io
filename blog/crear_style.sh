@@ -41,7 +41,7 @@ sed -i 's|</head>|<link rel="stylesheet" href="../../style.css">\n</head>|' inde
 
 
 NAME="MI_BLOG$(date +%s-$$)"
-echo "https://archive.org/details/$NAME" | tee -a BACKUPS.txt
+echo "https://archive.org/details/$NAME - commit: $1" | tee -a BACKUPS.txt
 mv ZZZALL_FILES.zip /tmp
 zip -r ZZZALL_FILES.zip . &&
 source $HOME/internetarchive/bin/activate &&
