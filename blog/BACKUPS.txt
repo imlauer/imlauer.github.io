@@ -66,3 +66,6 @@ https://archive.org/details/MI_BLOG1769373082-17701 - commit: colapso
 https://archive.org/details/MI_BLOG1769373586-18124 - commit: Pieces of shit
 https://archive.org/details/MI_BLOG1769451571-73751 - commit: colap
 https://archive.org/details/MI_BLOG1769455837-77036 - commit: colap
+https://archive.org/details/MI_BLOG1769461214-79069 - commit: 1
+https://archive.org/details/MI_BLOG1769462166-79251 - commit: zettaflop
+https://archive.org/details/MI_BLOG1769490131-90358 - commit: geo

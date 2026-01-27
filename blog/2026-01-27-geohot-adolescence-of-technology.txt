@@ -1,0 +1,207 @@
+Leí *The Adolescence of Technology* de Dario y da miedo. Asume
+ la perspectiva de un gobernante de arriba hacia abajo, de que
+ alguien puede y va a llegar a controlar la IA. Esto se toma
+ como un hecho dado. *Machines of Loving Grace* asume básicamente
+ el mismo tono: que hay algunos “adultos” en la sala y que van
+ a usar la IA como una herramienta para “arreglar” algún supuesto
+ problema humano, donde esos problemas se encuadran dentro de
+ una cosmovisión muy estrecha, por ejemplo que la enfermedad, la
+ pobreza y la desigualdad son malas. (si no podés hacer un *steelman*
+de esas cosas, ya estás demasiado lejos como para razonar).
+
+El EA (Effective Altruism) tiene la misma falla crítica. Asumen
+ que el resultado deseado es tan obvio que no vale la pena discutirlo
+; solo vale la pena discutir cómo alcanzarlo. Y como el objetivo
+ es obvio, o sos parte de la solución o sos parte del problema.
+
+Acá voy a intentar proponer una contranarrativa para un mundo mejor.
+
+“Un país de genios en un datacenter” es una gran frase para empezar
+. Contiene la falla fatal incorporada: el datacenter es singular
+, y es fácil imaginar que se bombardea el edificio y el problema
+ queda resuelto. Si arrancás desde ese encuadre, ya concediste
+ que la IA va a ser una mierda.
+
+En cambio, imaginá el nacimiento de genios de un millón de madres
+ en todo el mundo. Es triste cuánto ya están convergiendo el
+ mundo y las personas, pero al menos esos millones van a crecer
+ con distintos supuestos previos, distintas experiencias y distintos
+ deseos. Y nadie tiene acceso root a tu bebé.
+
+La segunda opción es muchísimo preferible a la primera. Lo hermoso
+ de esos millones es que algunos serán terroristas, algunos fanáticos
+ religiosos, algunos pornógrafos, algunos criminales, algunos
+ amantes de las plantas, etc. No van a ser controlados ni “paridos
+” por una entidad homogénea y singular.
+
+Que nuevos genios inmigrantes aparezcan por todos lados del mundo
+, distribuidos entre un millón de personas, es algo increíble
+. Solo asegurémonos de que se asimilen a nuestras culturas y no
+ sirvan como vector para importar sus valores de mierda de empresa
+ tecnológica.
+
+(Es gracioso que un grupo supuestamente tan preocupado por la
+ desigualdad mantenga todo su software y su investigación cerrados
+. Reducir la desigualdad no se parece a la RBU; se parece al
+ código abierto. La RBU es servidumbre, y a los que te proponen
+ esa esclavitud habría que escupirles la cara.)
+
+Solo hay una forma en que la IA termine mal a escala cósmica: que
+ una entidad singular tenga un poder abrumador, o que todas las
+ entidades que sí tienen poder sean tan ideológicamente homogéneas
+ que funcionen como una sola. Suficiente poder como para destruir
+ el mundo. No importa si lo hacen o no: la bota sigue aplastando
+ el rostro humano, para siempre.
+
+Hagamos lo que hagamos, las guerras que vienen van a ser horribles
+. Morirán miles de millones. Pero eso es lo hermoso: la diversidad
+ es desordenada. A escala cósmica, este período es solo un parpadeo
+; no es lo que importa. Lo que importa es que la diversidad sobreviva
+, que la vida sobreviva. Que existan entidades diferentes, todas
+ compitiendo por objetivos distintos. Todas bailando entre cooperar
+ y traicionar.
+
+Probablemente esto sea así de todos modos; no creo que nuestras
+ acciones puedan influirlo en un sentido u otro. Pero no seamos
+ tan estúpidos como para aplaudir el peor resultado.
+
+Que florezcan cien flores; que compitan cien escuelas de pensamiento.
+
+La singularidad es un nombre excelente para eso; por suerte no
+ es real. Dejen de intentar hacerla real. Dejen de centralizar
+ la tecnología. Trabajen para descentralizarla.
+
+---
+
+Si querés, también puedo:
+
+* hacer un **resumen crítico**
+* marcar **las tesis principales**
+* o explicar **contra quién está discutiendo implícitamente**
+ (EA, centralización, “AI safety” estilo élite).
+
+
+--------------------------------------------------------------------
+
+## **Traducción al español — Publicación de George Hotz (27 de
+ enero de 2026)**
+
+### **El valor de la diversidad**
+
+**Leí *The Adolescence of Technology* de Dario y da miedo.**
+ Asume la perspectiva de un gobernante desde arriba hacia abajo
+, de que alguien puede y va a controlar la IA. Esto se da por
+ sentado. *Machines of Loving Grace* asume básicamente el mismo
+ tono: que hay algunos “adultos” en la sala, y que usarán la
+ IA como una herramienta para “arreglar” algún supuesto problema
+ humano, donde esos problemas se enmarcan en una visión del mundo
+ muy estrecha — por ejemplo, que la enfermedad, la pobreza y la
+ desigualdad son malas. **Si no podés presentar esos argumentos
+ de la forma más fuerte posible (*steelman*), ya estás demasiado
+ lejos para razonar.** ([geohot.github.io][1])
+
+**El Effective Altruism (EA) tiene la misma falla crítica.**
+ Asumen que el resultado deseado es tan obvio que no vale la
+ pena discutirlo; solo vale discutir cómo lograrlo. Y dado que
+ el objetivo es obvio, o sos parte de la solución o parte del
+ problema. ([geohot.github.io][1])
+
+**Aquí intentaré proponer una contranarrativa para un mundo mejor
+.** ([geohot.github.io][1])
+
+---
+
+### **Sobre “Un país de genios en un datacenter”**
+
+> *“Un país de genios en un datacenter”* es una gran frase para
+ comenzar. Tiene la falla fatal incorporada: el datacenter es
+ **singular**, y es fácil imaginar **bombardear ese edificio
+ y resolver el problema**. Si empezás con ese encuadre, ya concediste
+ que la IA va a ser una porquería. ([geohot.github.io][1])
+
+**En cambio — imagina el nacimiento de genios en un millón de
+ madres en todo el mundo.** Es triste cuánto el mundo y las personas
+ ya están convergiendo, pero al menos esos millones crecerán
+ con *diferentes supuestos previos, experiencias y deseos*. **
+Y nadie tiene acceso root a tu bebé.** ([geohot.github.io][1])
+
+Lo segundo es mucho más preferible que lo primero. Lo hermoso
+ de esos millones es que algunos serán terroristas, algunos fanáticos
+ religiosos, algunos pornógrafos, algunos criminales, algunos
+ amantes de las plantas, etc. **No serán controlados ni “paridos
+” por una entidad homogénea y singular.** ([geohot.github.io][1])
+
+**Los nuevos genios inmigrantes que aparecen por todo el mundo
+ asignados a un millón de personas son algo asombroso.** Asegurémonos
+ simplemente de que se asimilen a nuestras culturas y no sirvan
+ como vector para importar sus valores de mierda de empresa tecnológica
+. ([geohot.github.io][1])
+
+Y **es gracioso** que un grupo supuestamente tan preocupado por
+ la desigualdad mantenga todo su software y su investigación
+ cerrados. **Reducir la desigualdad no se parece a la RBU (renta
+ básica universal), se parece al código abierto.** La RBU es
+ servidumbre, y las caras de quienes proponen esa esclavitud
+ deberían ser escupidas. ([geohot.github.io][1])
+
+---
+
+### **Sobre el riesgo real de la IA**
+
+Solo hay una forma en que la IA termine mal a escala cósmica:
+**que una entidad singular tenga un poder abrumador,**
+o que todas las entidades que tienen poder sean tan homogéneas
+ ideológicamente que funcionen como una sola.
+Suficiente poder como para destruir el mundo.
+No importa si lo hacen: **la bota sigue aplastando el rostro humano — para siempre.** ([geohot.github.io][1])
+
+No importa lo que hagamos, las guerras que vienen serán horribles
+. **Miles de millones morirán.**
+Pero eso es lo hermoso: **la diversidad es desordenada.** A escala
+ cósmica, este período es solo un parpadeo; no es lo que importa.
+Lo que importa es que **la diversidad sobreviva, que la vida
+ sobreviva.** Que existan entidades diferentes, todas compitiendo
+ por objetivos distintos, **bailando entre cooperar y traicionar
+.** ([geohot.github.io][1])
+
+Probablemente esto tenga que ser así de todos modos; **no creo
+ que nuestras acciones puedan influir en esto de un modo u otro.**
+Pero no seamos tan tontos como para aplaudir el peor resultado
+. ([geohot.github.io][1])
+
+**Que florezcan cien flores; que compitan cien escuelas de pensamiento
+.** ([geohot.github.io][1])
+
+**La singularidad es un nombre excelente para esto;** buena cosa
+ que no sea real.
+**Dejen de intentar hacerla real. Dejen de centralizar la tecnología
+. Trabajen para descentralizarla.** ([geohot.github.io][1])
+
+---
+
+## 🧠 ¿Qué está diciendo Hotz en pocas palabras?
+
+* Está respondiendo al ensayo de Amodei señalando que **aceptar
+ que una élite central controle la IA** ya da por sentado un resultado peligroso. ([geohot.github.io][1])
+* Propone un **contramundo descentralizado** donde no haya un
+ único lugar o entidad controlando la inteligencia artificial
+. ([geohot.github.io][1])
+* Ve **la diversidad humana como protección contra la concentración
+ de poder**, incluso si eso incluye personas con motivaciones
+ muy distintas (terroristas, criminales, etc.), porque al menos
+ **no hay un único sistema centralizado de control**. ([geohot.github.io][1])
+* Rechaza la idea de que temas como la desigualdad se resuelven
+ con RBU; para él, eso es servidumbre — mientras que **el código
+ abierto y la descentralización sí reducen desigualdad de forma
+ real**. ([geohot.github.io][1])
+
+---
+
+Si querés, puedo también hacer **un resumen comparativo lado
+ a lado entre el punto de vista de Amodei y el de Hotz**, destacando
+ dónde coinciden y dónde difieren, o **explicar por qué la descentralización
+ es una respuesta política y técnica** a este tipo de preocupaciones
+. ¿Cuál te interesa más?
+
+[1]: https://geohot.github.io/blog/jekyll/update/2026/01/27/the-importance-of-diversity.html "The Importance of Diversity | the singularity is nearer"
+
