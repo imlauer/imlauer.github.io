@@ -76,3 +76,5 @@ https://archive.org/details/MI_BLOG1769555375-9236 - commit: 1
 https://archive.org/details/MI_BLOG1769555749-9807 - commit: offline
 https://archive.org/details/MI_BLOG1769556006-10010 - commit: offline
 https://archive.org/details/MI_BLOG1769556044-10046 - commit: offline
+https://archive.org/details/MI_BLOG1769556829-10488 - commit: 1
+https://archive.org/details/MI_BLOG1769556987-10541 - commit: 1
