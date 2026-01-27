@@ -73,3 +73,6 @@ https://archive.org/details/MI_BLOG1769494572-91299 - commit: geo
 https://archive.org/details/MI_BLOG1769554747-8705 - commit: 1
 https://archive.org/details/MI_BLOG1769555301-9049 - commit: 1
 https://archive.org/details/MI_BLOG1769555375-9236 - commit: 1
+https://archive.org/details/MI_BLOG1769555749-9807 - commit: offline
+https://archive.org/details/MI_BLOG1769556006-10010 - commit: offline
+https://archive.org/details/MI_BLOG1769556044-10046 - commit: offline
