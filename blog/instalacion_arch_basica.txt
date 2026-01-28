@@ -4,6 +4,9 @@ date: 2023-11-22T02:05:50-03:00
 tags: ["archlinux","full","installation"]
 ---
    
+Consejo: Documentá absolutamente todo es extremadamente útil no solo
+para usar ArchLinux sino para cualquier tipo de trabajo.
+
 
 ANTES DE REINSTALAR ARCHLINUX TE SUGIERO COPIAR LAS SSH-KEYS PARA
 NO TENER QUE CONFIGURAR UNA SSH KEY NUEVA SI USAS GITHUB.

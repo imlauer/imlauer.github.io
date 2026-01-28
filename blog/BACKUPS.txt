@@ -80,3 +80,4 @@ https://archive.org/details/MI_BLOG1769556829-10488 - commit: 1
 https://archive.org/details/MI_BLOG1769556987-10541 - commit: 1
 https://archive.org/details/MI_BLOG1769641390-23957 - commit: tmux
 https://archive.org/details/MI_BLOG1769641816-29757 - commit: arch
+https://archive.org/details/MI_BLOG1769642166-34148 - commit: arch
