@@ -4,6 +4,20 @@ date: 2023-11-22T02:05:50-03:00
 tags: ["archlinux","full","installation"]
 ---
    
+
+ANTES DE REINSTALAR ARCHLINUX TE SUGIERO COPIAR LAS SSH-KEYS PARA
+NO TENER QUE CONFIGURAR UNA SSH KEY NUEVA SI USAS GITHUB.
+
+Y COPIA LAS COOKIES DE TU NAVEGADOR (EN MI CASO USO FALKON BASADO
+EN CHROMIUM) ESTA EXPLICADO en https://imlauera.github.io/lynx_cookies
+como obtener las cookies de falkon.
+
+Copiá la configuración de neomutt, la credencial para youtube-upload
+(`.clients_secrets.json`).
+
+Y copia la configuracion de neomutt si tenes contraseñas de aplicaciones
+y cualquier configuracion adicional que quieras.
+
 ```bash   
 loadkeys es   
 timedatectl set-ntp true   
