@@ -1,8 +1,17 @@
 ---
-title: "Mostrar temperatura tmux, batería, fecha y hora en TMUX"
+title: "Mostrar temperatura tmux, batería, fecha y hora en TMUX, vi mode."
 date: 2024-11-19T16:07:44-03:00
 tags: ['tmux']
 ---
+
+Para seleccionar texto dentro de Tmux usa las vim-keys: 
+
+```bash
+control+b+[
+V selecciona, copia con Enter y pega con Control+]
+```
+
+Siempre usa `tmux a` para unirte a la sesion existente de Tmux.
 
 ```bash
 set -g status-right 'T:#(echo "$(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)|B:#(cat /sys/class/power_supply/BAT1/capacity)%|#(date "+%Y-%m-%d|%H:%M")'
@@ -11,6 +20,10 @@ set -g status-right 'T:#(echo "$(cat /sys/class/thermal/thermal_zone4/temp)/1000
 # Claude
 
 ```bash
+
+set -g mode-keys vi
+
+
 # Configuración de barra de estado para tmux (compacta para TTY)
 
 # Configuración general
