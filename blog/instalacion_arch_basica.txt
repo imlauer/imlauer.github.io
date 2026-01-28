@@ -8,6 +8,8 @@ Consejo: Documentá absolutamente todo es extremadamente útil no solo
 para usar ArchLinux sino para cualquier tipo de trabajo.
 
 
+Copiá `/etc/yt-dlp` y `/etc/mpv/mpv.conf`
+
 ANTES DE REINSTALAR ARCHLINUX TE SUGIERO COPIAR LAS SSH-KEYS PARA
 NO TENER QUE CONFIGURAR UNA SSH KEY NUEVA SI USAS GITHUB.
 
