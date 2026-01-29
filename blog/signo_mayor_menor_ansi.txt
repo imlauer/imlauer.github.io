@@ -54,7 +54,7 @@ At the bottom, you can add a **variant** like this:
 
 ```xkb
 partial alphanumeric_keys
-xkb_symbols "ansi75" {
+xkb_symbols "nodeadkeys" {
     include "es(basic)"  // base Spanish layout
 
     // Redefine comma (key <AB08>) and period (key <AB09>)

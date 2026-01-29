@@ -1,0 +1,26 @@
+---
+title: "How to top watching influencers"
+date: 2026-01-29T03:27:36-03:00
+---
+Guardá esto en un archivo llamado `stop_influencers.sh`
+
+```bash
+yt-dlp --ignore-config --write-subs --write-auto-sub --sub-lang en --sub-format "srt" --skip-download $1 &&
+id="${1#*=}"
+
+
+echo "id: $id";
+
+sed -E '/^[0-9]+$|^$/d; /^[0-9]{2}:/d' *$id*.srt > "sub_$id.txt" &&
+
+aichat "Me lo podes explicar en español? $(cat sub_$id.txt)" > /tmp/aichat.md &&
+
+cmark /tmp/aichat.md | w3m -T text/html
+```
+
+Ahora desde el newsboat
+
+Agrega las URLS (si queres algunas las que yo miro estan en 
+imlauer.github.io control+f just_tty ) y ejecuta newsboat
+selecciona el video que te gusta dale O y luego agrega 
+`stop_influencers.sh` como navegador externo.
