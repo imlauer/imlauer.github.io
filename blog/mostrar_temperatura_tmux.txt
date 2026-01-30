@@ -14,7 +14,7 @@ V selecciona, copia con Enter y pega con Control+]
 Siempre usa `tmux a` para unirte a la sesion existente de Tmux.
 
 ```bash
-set -g status-right 'T:#(echo "$(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)|B:#(cat /sys/class/power_supply/BAT1/capacity)%|#(date "+%Y-%m-%d|%H:%M")'
+set -g status-right 'T:#(echo "$(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)|B:#(cat /sys/class/power_supply/BAT1/capacity)%|#(date "+%Y-%m-%d|%H:%M"), vi mode.'
 ```
 
 # Claude
@@ -25,6 +25,9 @@ set -g mode-keys vi
 
 
 # Configuración de barra de estado para tmux (compacta para TTY)
+
+
+
 
 # Configuración general
 set -g status-interval 2
@@ -40,7 +43,7 @@ set -g status-right-length 60
 set -g status-left '#[bg=blue,fg=black,bold]#{session_name}#[bg=black,fg=blue]> '
 
 # Barra derecha: compacta con lo esencial
-set -g status-right '#[fg=yellow]T:#(echo "scale=0; $(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)C #[fg=green]B:#(cat /sys/class/power_supply/BAT1/capacity)% #[fg=cyan]L:#(cat /proc/loadavg|awk "{print \$1}") #[fg=white]%H:%M'
+set -g status-right '#[fg=yellow]T:#(echo "scale=0; $(cat /sys/class/thermal/thermal_zone4/temp)/1000"|bc)C #[fg=green]B:#(cat /sys/class/power_supply/BAT1/capacity)% #[fg=cyan]L:#(cat /proc/loadavg|awk "{print \$1}") #[fg=white]%H:%M %m/%d'
 
 # Ventanas: mínimo
 set -g window-status-format '#[fg=brightblack]#I:#W '
