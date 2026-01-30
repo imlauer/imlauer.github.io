@@ -85,3 +85,4 @@ https://archive.org/details/MI_BLOG1769644501-52867 - commit: arch
 https://archive.org/details/MI_BLOG1769677993-87078 - commit: crucero
 https://archive.org/details/MI_BLOG1769726471-68955 - commit: stop watching influencers
 https://archive.org/details/MI_BLOG1769735303-147008 - commit: signo_mayor
+https://archive.org/details/MI_BLOG1769740647-193154 - commit: slatestarcodex
