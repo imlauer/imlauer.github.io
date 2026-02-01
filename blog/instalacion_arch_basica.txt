@@ -17,6 +17,8 @@ Y COPIA LAS COOKIES DE TU NAVEGADOR (EN MI CASO USO FALKON BASADO
 EN CHROMIUM) ESTA EXPLICADO en https://imlauera.github.io/lynx_cookies
 como obtener las cookies de falkon.
 
+TU CONFIGURACION DE JACKETT.
+
 Copiá la configuración de neomutt, la credencial para youtube-upload
 (`.clients_secrets.json`).
 
