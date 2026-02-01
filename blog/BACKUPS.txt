@@ -88,3 +88,5 @@ https://archive.org/details/MI_BLOG1769735303-147008 - commit: signo_mayor
 https://archive.org/details/MI_BLOG1769740647-193154 - commit: slatestarcodex
 https://archive.org/details/MI_BLOG1769895273-4253 - commit: porque
 https://archive.org/details/MI_BLOG1769937032-43280 - commit: colapso
+https://archive.org/details/MI_BLOG1769940122-76170 - commit: colapso
+https://archive.org/details/MI_BLOG1769940141-76314 - commit: colapso
