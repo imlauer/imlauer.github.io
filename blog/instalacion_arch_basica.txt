@@ -1648,3 +1648,191 @@ The `nmcli` method is generally the cleanest approach since it stores the settin
 
 
 ![](https://ia600709.us.archive.org/17/items/2025-12-27-netbsd_archlinux_pasto-images/IMG_20251227_094755525.jpg)
+
+
+## YGGDRASIL
+
+Perfect 😄 Arch makes this pretty clean. Let’s do it **the Arch way**, no fluff.
+
+---
+
+## 1️⃣ Install Yggdrasil (Arch)
+
+It’s in the official repos:
+
+```bash
+sudo pacman -S yggdrasil
+```
+
+---
+
+## 2️⃣ Generate default config
+
+Arch does **not** ship a config by default.
+
+```bash
+sudo mkdir -p /etc/yggdrasil
+sudo yggdrasil -genconf | sudo tee /etc/yggdrasil/yggdrasil.conf
+```
+
+(Optional but recommended) secure permissions:
+
+```bash
+sudo chmod 600 /etc/yggdrasil/yggdrasil.conf
+```
+
+---
+
+## 3️⃣ Enable & start the service
+
+```bash
+sudo systemctl enable --now yggdrasil
+```
+
+Check status:
+
+```bash
+systemctl status yggdrasil
+```
+
+---
+
+## 4️⃣ Verify you’re on Yggdrasil
+
+You **must** see a Ygg IPv6 address:
+
+```bash
+ip -6 addr | grep ygg
+```
+
+You should see something like:
+
+```
+inet6 2xx:xxxx:xxxx::/7
+```
+
+If you don’t → stop here, tell me.
+
+---
+
+## 5️⃣ DNS (this is the usual Arch gotcha ⚠️)
+
+### If you use **systemd-resolved** (most Arch users do)
+
+Edit:
+
+```bash
+sudo nano /etc/systemd/resolved.conf
+```
+
+Set or add:
+
+```ini
+[Resolve]
+DNS=300:53::1
+Domains=~ygg
+```
+
+Then restart:
+
+```bash
+sudo systemctl restart systemd-resolved
+```
+
+Make sure `/etc/resolv.conf` is linked correctly:
+
+```bash
+ls -l /etc/resolv.conf
+```
+
+It should point to:
+
+```
+/run/systemd/resolve/stub-resolv.conf
+```
+
+---
+
+### Quick DNS test
+
+```bash
+ping ygg-us-ny.nadeko.net
+```
+
+If this resolves → 🎉 you’re golden
+If not → DNS still isn’t hooked into Ygg
+
+---
+
+## 6️⃣ Open the site
+
+In your browser:
+
+```
+https://ygg-us-ny.nadeko.net:44441
+```
+
+If the browser warns:
+
+* Click **Advanced → Accept risk**
+  (Self-signed cert is normal on Ygg)
+
+---
+
+## 7️⃣ If it doesn’t load (debug fast)
+
+Check if the port is open:
+
+```bash
+nc -v ygg-us-ny.nadeko.net 44441
+```
+
+Check raw HTTPS:
+
+```bash
+curl -vk https://ygg-us-ny.nadeko.net:44441
+```
+
+If curl works but browser doesn’t → browser IPv6 or DNS issue.
+
+---
+
+## What this server likely is
+
+`nadeko.net` → almost certainly **Nadeko Discord bot infra**
+So the service might be:
+
+* API endpoint
+* admin panel
+* metrics
+* **not** a human-facing webpage
+
+Blank page ≠ broken.
+
+---
+
+## TL;DR (Arch speedrun)
+
+```bash
+sudo pacman -S yggdrasil
+sudo yggdrasil -genconf | sudo tee /etc/yggdrasil/yggdrasil.conf
+sudo systemctl enable --now yggdrasil
+ping ygg-us-ny.nadeko.net
+```
+
+Then open:
+
+```
+https://ygg-us-ny.nadeko.net:44441
+```
+
+---
+
+If you want, tell me:
+
+* **what browser**
+* **does `ping` resolve**
+* **error message or blank page**
+
+and we’ll finish this in 2 commands flat 😎
+
