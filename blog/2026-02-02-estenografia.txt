@@ -1,0 +1,208 @@
+---
+title: "Estenografia"
+date: 2026-02-02T20:17:41-03:00
+tags: ['typing']
+---
+Short answer: **yes, absolutely** — and Arch is actually a *great* choice for this.
+Long answer: you can do **real stenography on a normal keyboard**, mostly from the terminal, with one small graphical piece (X/Wayland) to capture chords.
+
+Let’s break it down cleanly.
+
+---
+
+## 1️⃣ The core tool: **Plover (OpenSteno)**
+
+Plover is the **real stenography engine** used for court-style steno.
+It works with:
+
+* real steno machines ✅
+* **normal QWERTY keyboards** ✅
+
+It’s open source and runs on Linux (including Arch).
+
+> ⚠️ Important truth:
+> **Pure TTY (Ctrl+Alt+F1) cannot do stenography**, because:
+>
+> * steno requires **simultaneous key presses (chords)**
+> * Linux TTY input is sequential, not chord-aware
+
+So:
+
+* **Terminal-based workflow? YES**
+* **Text-only console (no X/Wayland)? NO**
+
+You need **X11 or Wayland**, but you can still *live in the terminal*.
+
+---
+
+## 2️⃣ Install Plover on Arch Linux
+
+### Option A — AUR (recommended)
+
+```bash
+yay -S plover
+```
+
+or
+
+```bash
+paru -S plover
+```
+
+### Option B — pip (works everywhere)
+
+```bash
+pip install --user plover
+```
+
+Run it:
+
+```bash
+plover
+```
+
+This launches a small GUI window (just the engine).
+
+---
+
+## 3️⃣ Use Plover with a **normal keyboard**
+
+In Plover settings:
+
+```
+Machine → Keyboard
+```
+
+This enables **QWERTY steno mode**.
+
+### Default keyboard steno layout (important)
+
+```
+S T K P W H   F P L T D
+A O E U
+```
+
+These are *phonetic*, not letters.
+
+You press **multiple keys at once** to produce words.
+
+Example:
+
+* `TKPW` → "g"
+* `KAT` → "cat"
+* `PWAEUBG` → "basic"
+
+This is **exactly how court reporters type**, just slower at first.
+
+---
+
+## 4️⃣ “Terminal-only” workflow (the good part)
+
+Once Plover is running, it **types into whatever has focus**.
+
+That means you can use:
+
+* `alacritty`
+* `kitty`
+* `foot`
+* `wezterm`
+* `xterm`
+
+Example:
+
+```bash
+nvim notes.txt
+```
+
+Then:
+
+* keep Plover running in background
+* type steno chords
+* text appears in **Neovim**
+
+💡 From your perspective, it feels like *terminal stenography*.
+
+---
+
+## 5️⃣ Learning steno **from the terminal**
+
+Here’s how to stay terminal-native:
+
+### 📘 Lessons
+
+Use **plain-text lessons**:
+
+```bash
+git clone https://github.com/openstenoproject/plover-tutorial
+less plover-tutorial/lessons.md
+```
+
+Or write your own drills in Markdown and open them in `nvim`.
+
+---
+
+### 🧪 Practice method (recommended)
+
+Split terminal:
+
+```bash
+tmux
+```
+
+Pane 1:
+
+```bash
+nvim lesson.txt
+```
+
+Pane 2:
+
+```bash
+nvim practice.txt
+```
+
+* Read lesson
+* Steno-type into practice buffer
+* No mouse
+* No distractions
+
+---
+
+## 6️⃣ Minimalist Arch setup (my recommendation)
+
+* Window manager: `sway` or `i3`
+* Terminal: `foot` or `kitty`
+* Editor: `nvim`
+* Background app: `plover`
+
+This is about as **anti-enshittified** as typing gets.
+
+---
+
+## 7️⃣ Reality check (important)
+
+Learning steno is:
+
+* 🧠 cognitive
+* 🖐️ muscle-memory heavy
+* 📉 frustrating at first
+
+But:
+
+* After basics → **200+ WPM is real**
+* QWERTY typing caps out ~80–120 WPM
+* Steno scales *much* higher
+
+---
+
+## 8️⃣ Want a next step?
+
+I can:
+
+* 🗺️ give you a **30-day steno learning plan**
+* 🧩 explain **phonetic theory vs dictionary theory**
+* ⌨️ design a **QWERTY steno layout optimized for laptops**
+* 🧪 help you avoid RSI while chord typing
+
+Just say which one.
+

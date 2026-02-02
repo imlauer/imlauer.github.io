@@ -1,0 +1,222 @@
+---
+title: "Search youtube videos without invidious"
+date: 2026-02-02T20:03:49-03:00
+tags: ['youtube']
+---
+
+Invidious esta siendo bloqueado por YouTube fuertemente, solo
+nos queda yt-dlp.
+
+Gotcha 👍 — **only search / index YouTube videos, no watching, no Invidious**, and ideally cheap/free.
+
+Here are the **realistic ways people do this in 2026**, from *clean → hacky*, so you can pick what fits your setup.
+
+---
+
+## 1️⃣ Best “no-bullshit” option: **SearXNG (YouTube search only)**
+
+If Invidious is blocked, **SearXNG does NOT rely on it**.
+
+### Why this works
+
+* It scrapes YouTube **search result pages**, not the video player
+* No API key
+* No Google account
+* No watching
+
+### What you get
+
+* Title
+* Channel
+* Thumbnail
+* Upload date
+* Duration
+* URL
+
+### How to use it
+
+You have 2 options:
+
+#### Option A — Use a public instance
+
+Search:
+
+```
+site:searx.space YouTube
+```
+
+Then enable **YouTube** in the engine settings.
+
+⚠️ Downside: instances can rate-limit.
+
+#### Option B — Run your own (recommended)
+
+```bash
+git clone https://github.com/searxng/searxng
+cd searxng
+docker compose up -d
+```
+
+Then in `settings.yml`:
+
+```yaml
+engines:
+  - name: youtube
+    engine: youtube_noapi
+    enabled: true
+```
+
+This is **exactly what you want**: metadata-only YouTube scraping.
+
+---
+
+## 2️⃣ Command-line scraping: **yt-dlp (search mode only)**
+
+You probably know yt-dlp for downloading — but it’s also a **search scraper**.
+
+### Example
+
+```bash
+yt-dlp "ytsearch20:linux kernel scheduling"
+```
+
+### Metadata only (no download)
+
+```bash
+yt-dlp \
+  --skip-download \
+  --print "%(title)s | %(channel)s | %(duration)s | %(upload_date)s | %(id)s" \
+  "ytsearch50:open source ai"
+```
+
+### Why this is great
+
+* Works even when Invidious is blocked
+* Uses YouTube’s public endpoints
+* Very hard to block completely
+* Scriptable (cron, pipelines, bots)
+
+⚠️ If Google rate-limits you → use:
+
+* Tor
+* Rotating proxies
+* IPv6
+
+---
+
+## 3️⃣ RSS scraping (underrated & clean)
+
+YouTube **still exposes RSS feeds**.
+
+### Channel RSS
+
+```
+https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID
+```
+
+### Search-based RSS (semi-documented)
+
+```
+https://www.youtube.com/feeds/videos.xml?search_query=linux+kernel
+```
+
+### What you get
+
+* New uploads only
+* Title
+* Channel
+* Link
+* Timestamp
+
+### Use cases
+
+* Monitoring topics
+* Following channels
+* Zero JavaScript
+* Impossible to “block” fully
+
+---
+
+## 4️⃣ Headless scraping (Playwright / Puppeteer)
+
+If Google is actively blocking everything else.
+
+### Stack
+
+* Playwright
+* Firefox (not Chromium)
+* Stealth mode
+* JS enabled
+
+### Flow
+
+1. Open `youtube.com/results?search_query=...`
+2. Scroll 2–3 times
+3. Extract:
+
+   * `#video-title`
+   * Channel
+   * Views
+   * Duration
+
+⚠️ Downsides:
+
+* Heavy
+* Slower
+* Needs stealth tweaks
+* Overkill unless you’re indexing at scale
+
+---
+
+## 5️⃣ YouTube Data API (free tier, boring but legal)
+
+If you want **zero blocks**, this is the “boring adult” option.
+
+### Free tier
+
+* 10,000 units/day
+* ~100 searches/day (depending on params)
+
+### What you get
+
+* Clean JSON
+* No scraping hacks
+* Stable
+
+⚠️ Requires:
+
+* Google account
+* API key
+* Some quotas
+
+---
+
+## 🔥 What I’d recommend for YOU
+
+Given your vibe (anti-censorship, self-hosted, broke, technical):
+
+**Best combo**
+
+1. **SearXNG self-hosted**
+2. **yt-dlp for fallback**
+3. **RSS for monitoring**
+
+This gives you:
+
+* No Invidious
+* No watching
+* No Google account
+* Minimal censorship
+* Very hard to block
+
+---
+
+If you want, I can:
+
+* 🔧 Write a **Python script** that scrapes yt-dlp search into JSON
+* 🕷️ Build a **mini YouTube indexer**
+* 🌍 Show how to merge **PeerTube + YouTube + Odysee** into one search
+* 🧠 Help you make a **Jackett-style indexer but for videos**
+
+Just tell me how far down the rabbit hole you want to go 🐇
+
