@@ -3,10 +3,15 @@ title: "Estenografia"
 date: 2026-02-02T20:17:41-03:00
 tags: ['typing']
 ---
+
 Short answer: **yes, absolutely** — and Arch is actually a *great* choice for this.
 Long answer: you can do **real stenography on a normal keyboard**, mostly from the terminal, with one small graphical piece (X/Wayland) to capture chords.
 
 Let’s break it down cleanly.
+
+**Plover** no instales yay -S plover porque compila,
+instala el appimage y vas a tener que instalar fuse2
+tambien para que funcione el appimage.
 
 ---
 
