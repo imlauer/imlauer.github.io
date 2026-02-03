@@ -94,3 +94,4 @@ https://archive.org/details/MI_BLOG1769997105-110911 - commit: educacion
 https://archive.org/details/MI_BLOG1769997763-116651 - commit: educacion
 https://archive.org/details/MI_BLOG1769998132-120309 - commit: educacion
 https://archive.org/details/MI_BLOG1770074299-87471 - commit: estenografia
+https://archive.org/details/MI_BLOG1770077050-113146 - commit: colapso
