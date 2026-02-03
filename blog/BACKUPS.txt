@@ -99,3 +99,4 @@ https://archive.org/details/MI_BLOG1770090601-11031 - commit: estenografia
 https://archive.org/details/MI_BLOG1770147727-227735 - commit: miedo
 https://archive.org/details/MI_BLOG1770147868-229145 - commit: miedo
 https://archive.org/details/MI_BLOG1770148761-237413 - commit: miedo
+https://archive.org/details/MI_BLOG1770150579-254080 - commit: billgates
