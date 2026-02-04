@@ -107,3 +107,5 @@ https://archive.org/details/MI_BLOG1770186347-536040 - commit: arch
 https://archive.org/details/MI_BLOG1770192515-3602 - commit: mujeres
 https://archive.org/details/MI_BLOG1770237049-24655 - commit: tldr
 https://archive.org/details/MI_BLOG1770237896-30708 - commit: mover
+https://archive.org/details/MI_BLOG1770242275-69384 - commit: colapso
+https://archive.org/details/MI_BLOG1770242280-69509 - commit: colapso
