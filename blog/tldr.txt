@@ -1,0 +1,224 @@
+---
+title: "Tldr"
+date: 2026-02-04T17:28:55-03:00
+tags: ['tldr']
+---
+# Recursos Masivos para Búsqueda Local con grep
+
+## 1. COMANDOS DE LINUX - Compilaciones Gigantes
+
+### **tldr-pages** (Lo más recomendado)
+```bash
+# Clonar repositorio con miles de ejemplos
+git clone https://github.com/tldr-pages/tldr.git
+cd tldr/pages
+
+# Buscar comandos específicos
+grep -r "ffmpeg" .
+grep -r "convert.*pdf" .
+grep -r "compress" .
+
+# Buscar en español
+cd tldr/pages.es
+grep -r "buscar.*archivo" .
+```
+
+**Contenido:** +5000 comandos con ejemplos prácticos de:
+- ffmpeg, mpv, imagemagick, git, docker, curl, etc.
+- Formato Markdown simple y fácil de buscar
+
+### **cheat.sh - Base de datos masiva**
+```bash
+# Descargar toda la base de datos
+git clone https://github.com/chubin/cheat.sheets.git
+cd cheat.sheets
+
+# Buscar cualquier cosa
+grep -ri "ffmpeg.*convert" .
+grep -ri "mpv.*subtitle" .
+grep -ri "tar.*compress" .
+```
+
+### **Linux Command Library**
+```bash
+# Colección de comandos organizados
+git clone https://github.com/CommandLineFu/CommandLineFu.git
+
+# Buscar
+grep -r "your_search" .
+```
+
+### **Instalar herramientas offline:**
+```bash
+# En Ubuntu/Debian
+sudo apt install tldr cheat
+
+# Actualizar base de datos
+tldr --update
+
+# Uso
+tldr ffmpeg
+tldr tar
+cheat ffmpeg
+```
+
+## 2. WIKIPEDIA OFFLINE - Texto Comprimido
+
+### **Kiwix (Recomendado)**
+```bash
+# Instalar Kiwix
+sudo apt install kiwix-tools
+
+# Descargar Wikipedia en español (texto, ~10GB comprimido)
+wget https://download.kiwix.org/zim/wikipedia_es_all_maxi.zim
+
+# O versión mini (~3GB)
+wget https://download.kiwix.org/zim/wikipedia_es_all_mini.zim
+
+# Buscar en la Wikipedia
+kiwix-search wikipedia_es_all_maxi.zim "tu búsqueda"
+```
+
+### **Wikipedia Text Dump**
+```bash
+# Descargar dump completo de Wikipedia en texto
+# Español (~20GB comprimido, ~60GB descomprimido)
+wget https://dumps.wikimedia.org/eswiki/latest/eswiki-latest-pages-articles.xml.bz2
+
+# Descomprimir
+bunzip2 eswiki-latest-pages-articles.xml.bz2
+
+# Convertir a texto plano con wikiextractor
+pip install wikiextractor
+python -m wikiextractor.WikiExtractor eswiki-latest-pages-articles.xml
+
+# Ahora puedes usar grep
+grep -r "tu búsqueda" text/
+```
+
+### **Wikipedia comprimida alternativa**
+```bash
+# Proyecto WikiTeam - versión más ligera
+git clone https://github.com/WikiTeam/wikiteam.git
+# Seguir instrucciones para descargar wikis específicas
+```
+
+## 3. COMBINACIÓN PERFECTA - Script de Búsqueda
+
+Crea este script `buscar.sh`:
+
+```bash
+#!/bin/bash
+
+QUERY="$1"
+TLDR_PATH="$HOME/tldr/pages"
+CHEAT_PATH="$HOME/cheat.sheets"
+WIKI_PATH="$HOME/wikipedia/text"
+
+echo "=== COMANDOS (tldr) ==="
+grep -ri --color=always "$QUERY" "$TLDR_PATH" | head -20
+
+echo -e "\n=== EJEMPLOS (cheat.sh) ==="
+grep -ri --color=always "$QUERY" "$CHEAT_PATH" | head -20
+
+echo -e "\n=== WIKIPEDIA ==="
+grep -ri --color=always "$QUERY" "$WIKI_PATH" | head -10
+```
+
+Uso:
+```bash
+chmod +x buscar.sh
+./buscar.sh "ffmpeg"
+./buscar.sh "comprimir video"
+./buscar.sh "inteligencia artificial"
+```
+
+## 4. MEGA COLECCIÓN - Todo en Uno
+
+```bash
+# Crear estructura
+mkdir -p ~/knowledge-base
+cd ~/knowledge-base
+
+# Descargar todo
+git clone https://github.com/tldr-pages/tldr.git
+git clone https://github.com/chubin/cheat.sheets.git
+git clone https://github.com/jlevy/the-art-of-command-line.git
+git clone https://github.com/awesome-lists/awesome-bash.git
+
+# Descargar ffmpeg examples específico
+git clone https://github.com/leandromoreira/ffmpeg-libav-tutorial.git
+
+# Crear índice buscable
+find . -type f -name "*.md" -o -name "*.txt" > index.txt
+```
+
+**Buscar en todo:**
+```bash
+cd ~/knowledge-base
+grep -r "tu búsqueda" . --include="*.md" --include="*.txt"
+```
+
+## 5. HERRAMIENTAS AVANZADAS
+
+### **fzf - Búsqueda interactiva**
+```bash
+sudo apt install fzf ripgrep
+
+# Buscar interactivamente en todos los archivos
+rg --files | fzf
+
+# Buscar contenido
+rg "ffmpeg" | fzf
+```
+
+### **Crear base de datos SQLite buscable**
+```bash
+# Script para indexar todo en SQLite
+pip install sqlite-utils
+
+# Indexar todos los comandos
+find ~/knowledge-base -name "*.md" -exec sqlite-utils insert commands.db commands text {} \;
+
+# Buscar
+sqlite3 commands.db "SELECT * FROM commands WHERE text LIKE '%ffmpeg%'"
+```
+
+## 6. RECURSOS ESPECÍFICOS POR PROGRAMA
+
+```bash
+# FFmpeg
+git clone https://github.com/leandromoreira/ffmpeg-libav-tutorial.git
+wget https://ffmpeg.org/ffmpeg-all.html -O ffmpeg-manual.html
+
+# MPV
+git clone https://github.com/mpv-player/mpv.git
+# Manual en mpv/DOCS/
+
+# ImageMagick
+wget https://imagemagick.org/script/command-line-options.php -O imagemagick-commands.html
+
+# Linux in general
+git clone https://github.com/learnbyexample/Command-line-text-processing.git
+```
+
+## RESUMEN DE TAMAÑOS:
+
+| Recurso | Tamaño | Tiempo descarga |
+|---------|--------|-----------------|
+| tldr-pages | ~50MB | 1 min |
+| cheat.sheets | ~100MB | 2 min |
+| Wikipedia mini (ZIM) | ~3GB | 30 min |
+| Wikipedia full (ZIM) | ~90GB | horas |
+| Wikipedia text dump | ~20GB | horas |
+
+## MI RECOMENDACIÓN:
+
+**Para empezar rápido:**
+```bash
+cd ~
+git clone https://github.com/tldr-pages/tldr.git
+git clone https://github.com/chubin/cheat.sheets.git
+sudo apt install kiwix-tools
+wget https://download.kiwix.org/zim/wikipedia_es_all_mini.zim
+```

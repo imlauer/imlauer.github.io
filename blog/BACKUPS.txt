@@ -105,3 +105,4 @@ https://archive.org/details/MI_BLOG1770182803-500336 - commit: neomutt
 https://archive.org/details/MI_BLOG1770182918-502322 - commit: neomutt
 https://archive.org/details/MI_BLOG1770186347-536040 - commit: arch
 https://archive.org/details/MI_BLOG1770192515-3602 - commit: mujeres
+https://archive.org/details/MI_BLOG1770237049-24655 - commit: tldr

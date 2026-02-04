@@ -1838,3 +1838,6 @@ If you want, tell me:
 
 and we’ll finish this in 2 commands flat 😎
 
+
+Instala [tldr](https://imlauera.github.io/tldr) para buscar
+comandos mas rapidos.
