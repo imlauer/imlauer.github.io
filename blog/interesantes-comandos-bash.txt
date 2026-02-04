@@ -403,3 +403,10 @@ ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:no
 ffmpeg -i archivo.mkv -vn -acodec libmp3lame audio.mp3
 ```
 
+#### Peleas UFC se suben a mover.uz
+
+La url del video se genera así (para mirarlo con mpv).
+
+https://mover.uz/watch/unJCMj9x
+
+https://v.mover.uz/unJCMj9x_m.mp4
