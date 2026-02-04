@@ -19,8 +19,10 @@ como obtener las cookies de falkon.
 
 TU CONFIGURACION DE JACKETT.
 
-Copiá la configuración de neomutt, la credencial para youtube-upload
-(`.clients_secrets.json`).
+COPIÁ LA CONFIGURACIÓN DE NEOMUTT, LA CREDENCIAL PARA YOUTUBE-UPLOAD
+(`.CLIENTS_SECRETS.JSON`).
+
+COPIA .password-store etc
 
 Y copia la configuracion de neomutt si tenes contraseñas de aplicaciones
 y cualquier configuracion adicional que quieras.

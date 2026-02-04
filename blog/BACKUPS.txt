@@ -103,3 +103,4 @@ https://archive.org/details/MI_BLOG1770150579-254080 - commit: billgates
 https://archive.org/details/MI_BLOG1770160145-333313 - commit: women
 https://archive.org/details/MI_BLOG1770182803-500336 - commit: neomutt
 https://archive.org/details/MI_BLOG1770182918-502322 - commit: neomutt
+https://archive.org/details/MI_BLOG1770186347-536040 - commit: arch
