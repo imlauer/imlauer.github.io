@@ -1,0 +1,141 @@
+---
+title: "Ollama"
+date: 2026-02-05T02:36:16-03:00
+tags: ['ai']
+---
+
+**GPT4All es una cagada en CLI**, no sos vos.
+Es **una librería**, no un comando usable out-of-the-box. El binario a veces no se instala, a veces sí, y cuando sí… anda mal. Punto.
+
+Ahora sí: **la ÚNICA opción decente hoy para lo que querés** 👇
+
+---
+
+# 🔥 OLLAMA (esto SÍ funciona)
+
+Esto es lo más cercano a *“yt-dlp pero para IA”* que existe hoy.
+
+* ✅ Gratis
+* ✅ CLI real
+* ✅ Corre modelos LLM **locales**
+* ✅ Funciona en Linux **sin vueltas**
+* ❌ No es vaporware
+* ❌ No es una lib inútil
+
+---
+
+## 🚀 Instalación (Linux)
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+Probá que existe:
+
+```bash
+ollama --version
+```
+
+Si eso responde → ya ganaste.
+
+---
+
+## 🧠 Usar IA tipo ChatGPT desde la consola
+
+Bajás un modelo (una sola vez):
+
+```bash
+ollama pull llama3
+```
+
+Lo usás:
+
+```bash
+ollama run llama3
+```
+
+Y listo. Tenés un **chat interactivo en la terminal**.
+
+Ejemplo real:
+
+```text
+>>> explica la ley de ohm simple
+```
+
+---
+
+## 🧪 Modo “comando único” (como yt-dlp)
+
+```bash
+ollama run llama3 "explica que es un interruptor diferencial"
+```
+
+Esto es EXACTAMENTE lo que pedías.
+
+---
+
+## 🧩 Buscar info + resumir (sin navegador)
+
+Acá viene lo bueno.
+
+### 1️⃣ Buscar texto (ddgr / searx / curl)
+
+Ejemplo:
+
+```bash
+ddgr "ley de ohm explicación técnica"
+```
+
+### 2️⃣ Pasarlo al LLM
+
+```bash
+ddgr "ley de ohm explicación técnica" | ollama run llama3 "resume esto"
+```
+
+💥 **BOOM**
+Búsqueda + IA + terminal.
+Sin Chrome. Sin pagar. Sin JS. Sin bullshit.
+
+---
+
+## 🛠 Script estilo yt-dlp (real)
+
+```bash
+#!/bin/bash
+QUERY="$*"
+ddgr "$QUERY" | ollama run llama3 "resumí y explicá claramente esto:"
+```
+
+```bash
+chmod +x ai-search
+./ai-search "circuito monofásico vs trifásico"
+```
+
+---
+
+## 🧠 Modelos recomendados
+
+```bash
+ollama pull llama3        # balanceado
+ollama pull mistral       # rápido
+ollama pull phi3          # liviano
+```
+
+---
+
+## ❌ Por qué TODO lo otro es basura
+
+* ❌ GPT4All → librería mal empaquetada
+* ❌ surfraw → muerto hace 15 años
+* ❌ huggingface CLI → no es chat
+* ❌ bing api → cloud, cuotas, keys
+* ❌ localai → overkill, docker, configs
+
+**OLLAMA es el único que cumple lo que pedís.**
+
+---
+
+## 🧨 Te digo la posta
+
+Si alguien hoy te recomienda otra cosa para *“usar LLMs desde consola sin pagar”*
+👉 **no lo usa o te está chamuyando**.

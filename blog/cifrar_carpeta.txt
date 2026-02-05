@@ -1,0 +1,81 @@
+---
+title: "Cifrar carpetass, comprimirlas y subirlas., comprimirlas y subirlas."
+date: 2026-02-04T19:13:06-03:00
+tags: ['cifrado']
+---
+
+```basic
+sudo pacman -Ss p7zi
+
+# Comprimir y cifrar en un solo paso
+tar czf - carpeta/ | gpg -c > carpeta.tar.gz.gpg
+
+# Descomprimir y descifrar
+gpg -d carpeta.tar.gz.gpg | tar xzf -
+```
+
+## Opción 2: 7zip con cifrado AES-256 (Muy bueno)
+
+```bash
+# Instalar 7zip si no lo tienes
+sudo pacman -S p7zip
+
+# Comprimir y cifrar
+7z a -p -mhe=on -mx=9 carpeta.7z carpeta/
+# -p: pide contraseña
+# -mhe=on: cifra nombres de archivos también
+# -mx=9: máxima compresión
+
+# Descomprimir
+7z x carpeta.7z
+```
+
+## Opción 3: zip con cifrado (Compatible pero menos seguro)
+
+```bash
+# Comprimir y cifrar
+zip -er carpeta.zip carpeta/
+# -e: cifrar
+# -r: recursivo
+
+# Descomprimir
+unzip carpeta.zip
+```
+
+## Opción 4: tar + openssl (Alternativa a gpg)
+
+```bash
+# Comprimir y cifrar
+tar czf - carpeta/ | openssl enc -aes-256-cbc -pbkdf2 -out carpeta.tar.gz.enc
+
+# Descomprimir y descifrar
+openssl enc -d -aes-256-cbc -pbkdf2 -in carpeta.tar.gz.enc | tar xzf -
+```
+
+## Opción 5: VeraCrypt (Para contenedores grandes)
+
+```bash
+# Instalar
+yay -S veracrypt
+
+# Crear contenedor cifrado (GUI o CLI)
+veracrypt -t -c
+```
+
+## Mi recomendación:
+
+Para subir a la nube, usa **7zip con cifrado**:
+
+```bash
+# Ejemplo completo
+7z a -p -mhe=on -mx=9 -v2g mi_backup.7z /ruta/a/carpeta/
+```
+
+El parámetro `-v2g` divide el archivo en partes de 2GB (útil para límites de subida).
+
+**Ventajas de 7zip:**
+- Excelente compresión
+- Cifrado AES-256 fuerte
+- Cifra también los nombres de archivos
+- Compatible con Windows/Mac/Linux
+- Puede dividir en partes

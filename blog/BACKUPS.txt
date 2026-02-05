@@ -109,3 +109,5 @@ https://archive.org/details/MI_BLOG1770237049-24655 - commit: tldr
 https://archive.org/details/MI_BLOG1770237896-30708 - commit: mover
 https://archive.org/details/MI_BLOG1770242275-69384 - commit: colapso
 https://archive.org/details/MI_BLOG1770242280-69509 - commit: colapso
+https://archive.org/details/MI_BLOG1770299513-11465 - commit: 1
+https://archive.org/details/MI_BLOG1770299517-11547 - commit: dropout

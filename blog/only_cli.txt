@@ -1,0 +1,210 @@
+---
+title: "Only cli"
+date: 2026-02-05T02:06:24-03:00
+---
+
+Claro — hay alternativas **gratuitas o de código abierto** que te permiten buscar/consultar información desde la consola sin navegador y sin pagar por ChatGPT. La idea es usar **LLMs locales o APIs libres**, combinadas con buscadores de texto, para reemplazar búsquedas web tradicionales.
+
+---
+
+## 🧠 Opciones para “ChatGPT en la consola” (gratuitas / open-source)
+
+Estas herramientas te permiten **hacer preguntas y obtener respuestas tipo IA desde la terminal**:
+
+### ✅ 1. **GPT4All**
+
+Un modelo LLM local que puedes ejecutar sin internet.
+
+📌 Características
+
+* Funciona totalmente offline.
+* Puedes hacer preguntas desde la consola.
+* Soporta contexto largo.
+
+🔧 Instalación (ejemplo con Python)
+
+```bash
+pip install gpt4all
+gpt4all
+```
+
+O usa el ejecutable:
+
+```bash
+gpt4all --model gpt4all-lora
+```
+
+💬 Ejemplo de uso:
+
+```bash
+gpt4all "¿Qué es un interruptor diferencial?"
+```
+
+---
+
+### ✅ 2. **HuggingFace + Transformers**
+
+Puedes usar modelos LLM directamente desde la consola usando Python.
+
+#### Instalación
+
+```bash
+pip install transformers
+pip install torch
+```
+
+#### Ejemplo básico
+
+```python
+from transformers import pipeline
+
+chat = pipeline("text-generation", model="gpt2")  # modelo básico, gratuito
+print(chat("Explica la Ley de Ohm en 2 párrafos"))
+```
+
+También hay modelos más avanzados alojados en Hugging Face que puedes ejecutar si tu GPU lo soporta.
+
+---
+
+### ✅ 3. **BingAI CLI (gratuita con API de Microsoft)**
+
+Microsoft ofrece una IA tipo ChatGPT accesible por consola si creas una API gratuita.
+
+* Requiere generar una clave desde Azure, pero tiene cuota gratuita.
+
+Puedes usar clientes como:
+
+* **bing-chat-api**
+* **edge-tts** (para texto a voz en consola)
+
+📌 Ejemplo usando Node.js
+
+```bash
+npm install bing-chat-api
+node
+```
+
+```js
+const Bing = require("bing-chat-api");
+const bing = new Bing({ cookie: process.env.BING_COOKIE });
+await bing.sendMessage("¿Qué es un circuito eléctrico?");
+```
+
+---
+
+## 🔎 Herramientas para **buscar texto/información** desde consola
+
+Si lo que quieres es **buscar información completa como un navegador**, hay estas opciones:
+
+---
+
+### 🧠 4. **Searx / SearxNG (buscador en terminal)**
+
+Un meta-buscador libre que combina resultados de múltiples motores.
+
+💡 Puedes levantarlo localmente o usar instancias públicas.
+
+Instalación (Docker):
+
+```bash
+docker run -p 8080 searxng/searxng
+```
+
+Luego haces:
+
+```bash
+curl "http://localhost:8080/search?q=instalación+eléctrica"
+```
+
+---
+
+### 🪶 5. **ddgr — DuckDuckGo desde la terminal**
+
+Buscador CLI simple:
+
+```bash
+sudo apt install ddgr
+ddgr "ley de Watt"
+```
+
+---
+
+### 🧰 6. **surfraw / w3m**
+
+CLI para busquedas rápidas o navegar simple en texto
+
+```bash
+sudo apt install surfraw
+sr google "modelo trifásico"
+```
+
+---
+
+## 🤖 Integrando Buscadores con LLMs
+
+Puedes automatizar búsquedas y luego pasarlas al LLM:
+
+### 🧩 Ejemplo con Bash + GPT4All
+
+```bash
+RESULT=$(ddgr "diferencial eléctrico explicación técnica")
+gpt4all "Resumen de la siguiente información: $RESULT"
+```
+
+Esto te permite:
+
+1. Buscar texto sin navegador.
+2. Enviar resultados al modelo para resumirlos.
+
+---
+
+## 🪄 Otras alternativas CLI
+
+| Herramienta | Gratuita            | Offline                 | Conversacional    |
+| ----------- | ------------------- | ----------------------- | ----------------- |
+| GPT4All     | ✅                   | ✅                       | ✅                 |
+| LLaMA CLI   | Sí (modelo depende) | ✅                       | ✅                 |
+| Bing API    | Sí (cuota)          | ❌                       | ✅                 |
+| ddgr        | ✅                   | ❌                       | ❌ (solo búsqueda) |
+| SearxNG     | ✅                   | ❌ (si instancia remota) | ❌                 |
+
+---
+
+## 🧠 Recomendación según lo que buscás
+
+🔹 **Si querés IA conversacional sin navegador:**
+→ **GPT4All o HuggingFace Transformers local**
+
+🔹 **Si querés buscar texto y resumirlo:**
+→ **ddgr + GPT4All pipeline**
+
+🔹 **Si querés capacidad avanzada sin límite:**
+→ **BingAI o Claude con clave gratuita (si lo configuras)**
+
+---
+
+## 💬 Consejos prácticos
+
+✅ Puedes crear un script que:
+
+1. Busca con `ddgr` o `searx`.
+2. Lo pasa al LLM para resumir.
+3. Te devuelve un resumen tipo ChatGPT.
+
+Ejemplo rápido:
+
+```bash
+#!/bin/bash
+QUERY="$1"
+INFO=$(ddgr "$QUERY")
+echo "Resultados de búsqueda..."
+echo "$INFO"
+echo -e "\nResumen IA:"
+gpt4all "Resume esto: $INFO"
+```
+
+Guárdalo como `ai-search.sh` y úsalo así:
+
+```bash
+./ai-search.sh "puertas AND circuitos eléctricos"
+```

@@ -223,7 +223,9 @@ git config --global user.name "Your Name"
 
 ```bash   
 sudo pacman --needed -S neomutt curl isync msmtp pass ca-certificates gettext goimapnotify lynx notmuch cronie mpop   
-yay -S abook urlview pam-gnupg gallery-dl jackett-bin factorio i2p-bin    
+
+yay -S abook urlview pam-gnupg gallery-dl jackett-bin factorio i2p-bin ollama
+
 ```   
    
 ###### Todos los paquetes de yay se instalan en `/opt`   
@@ -1841,3 +1843,29 @@ and we’ll finish this in 2 commands flat 😎
 
 Instala [tldr](https://imlauera.github.io/tldr) para buscar
 comandos mas rapidos.
+
+
+# Instalar la musica
+
+```bash
+[esotericwarfare@arch Music]$ ls
+2pac  alexstory  as_i_lay_dying  avenged_sevenfold  cancerslug  good_charlotte  hatebreed  iorio  manowar  metallica  misfits  pappo  paramore  playlist.txt  russian  sabaton  serrano  thesmiths
+[esotericwarfare@arch Music]$ 
+```
+
+---
+
+### Descargar mi música con yt-dlp.
+
+```bash
+2pac alexstory as_i_lay_dying avenged_sevenfold cancerslug good_charlotte hatebreed iorio manowar metallica misfits pappo paramore russian sabaton 
+
+archive.org/details/informacion_irrelevante1
+
+pass: cancerslug
+
+o
+
+yt-dlp -f bestaudio "ytsearch9999:2pac alexstory as_i_lay_dying avenged_sevenfold cancerslug good_charlotte hatebreed iorio manowar metallica misfits pappo paramore russian sabaton"
+```
+
