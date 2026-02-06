@@ -118,3 +118,4 @@ https://archive.org/details/MI_BLOG1770359135-231825 - commit: searx
 https://archive.org/details/MI_BLOG1770368788-298374 - commit: adoctricinamiento
 https://archive.org/details/MI_BLOG1770369121-301503 - commit: adoctrinamiento
 https://archive.org/details/MI_BLOG1770369709-306736 - commit: 1
+https://archive.org/details/MI_BLOG1770386731-7919 - commit: adoc
