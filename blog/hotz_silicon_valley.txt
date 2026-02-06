@@ -1,0 +1,34 @@
+---
+title: "Hotz sobre Silicon Valley"
+date: 2026-02-06T02:48:40-03:00
+tags: ['hotz']
+---
+En los textos proporcionados, George Hotz (conocido como geohot) describe varios esquemas fraudulentos o "estafas" (scams) típicos de Silicon Valley, enfocándose en cómo la industria tecnológica, impulsada por capital de riesgo (VC), genera hype alrededor de innovaciones como los robotaxis y la IA, pero termina en monopolios, explotación y pérdida de libertades individuales. Él los presenta como ciclos repetitivos donde los estafadores se mantienen un paso adelante, disfrazando los mismos trucos con narrativas nuevas como "abundancia de IA" o regulaciones "para el bien de la comunidad". A continuación, desgloso las estafas que menciona en los textos, y luego agrego hallazgos de una investigación adicional basada en declaraciones públicas de Hotz.
+
+### Estafas descritas en los textos
+Hotz usa los textos para criticar cómo Silicon Valley transforma productos "propios" (como autos o computación general) en servicios controlados por corporaciones, erosionando la propiedad y la libertad. Las estafas clave son:
+
+1. **Ciclo de hype y consolidación en robotaxis (de "The Coming War on Car Ownership")**:
+   - **Proliferación inicial**: En 3-5 años, surgirán docenas de compañías de robotaxis (alrededor de 26 idénticas), limitadas solo por capital. Los inversores VC financian a todas con proyecciones exageradas de dominar el mercado, a pesar de saber que son clones. Usan "vibes de secreto" para fingir ventajas únicas.
+   - **Estafa disfrazada**: La gente cree que "esta vez es diferente" por la IA, regulaciones o modelos de tokens (ej. respaldados por USDC), pero nada cambia. El crecimiento se basa en mentiras y promesas de retornos masivos, no en viabilidad real. Las compañías son "masivamente no rentables", pero ocultan pérdidas para atraer más inversión.
+   - **Consolidación y gouging**: De 26 compañías, se reduce a 2-3 mediante adquisiciones. Entonces, coordinan precios tácitamente (sin discutir explícitamente, para evitar ilegalidades), basados en datos algorítmicos del máximo que el usuario pagará, ignorando costos reales.
+   - **Eliminación de competencia**: Sin "agujero analógico" (como negociar directamente con un conductor de Uber), los robotaxis eliminan defecciones. La propiedad personal de autos se acaba no por ley, sino por seguros: compañías de seguros dejan de cubrir conductores humanos, favoreciendo flotas corporativas. Alternativa: un bono de $75,000 al DMV para autoasegurarse, inaccesible para la mayoría.
+   - **Resultado**: 2-3 compañías controlan las carreteras, llevando a "enshittification" (degradación del servicio), como negar rides a ciertas áreas (ej. por prostitución a las 2 AM). Hotz contrasta con China, donde el estado evita monopolios extremos.
+
+2. **Control de la IA y pérdida de libre albedrío (de "The World After Wireheading")**:
+   - **Estafa de la publicidad dirigida y hypnodrones**: Hotz ve la IA como una herramienta de Silicon Valley para predecir y manipular comportamientos humanos (ej. modelando personas con "100 billones de parámetros" en redes neuronales). Pregunta cómo es legal y culturalmente aceptable la publicidad targeted, que erosiona el libre albedrío.
+   - **Culto a la muerte de Silicon Valley**: Critica a los "sumos sacerdotes" sin educación en humanidades, que tropiezan con poder sobre la naturaleza pero no entienden a las personas. Mezcla "nerd shit" con propaganda política, llevando a un mundo donde las máquinas fallan sin humanos, pero la IA podría entregar el control a "gente de la calle" si colapsa.
+   - **Estafa mayor**: La IA no acaba la humanidad (como nukes), pero podría causar "edades oscuras" si no es robusta. Hotz ve patrones predecibles en humanos, quitando el "velo de computabilidad" que da ilusión de libre albedrío.
+
+En resumen, para Hotz, las estafas de Silicon Valley son ciclos de hype VC que prometen innovación, pero entregan control corporativo, pérdida de propiedad y manipulación, disfrazados como progreso.
+
+### Investigación adicional sobre las opiniones de Hotz
+Basado en búsquedas en web y posts en X (anteriormente Twitter), Hotz ha sido consistente en criticar Silicon Valley como un ecosistema de hype y fraudes, especialmente en autos autónomos. No encontré posts recientes de él usando exactamente "Silicon Valley scams", pero sus entrevistas y declaraciones públicas (desde 2019-2022) refuerzan los textos. Aquí los puntos clave:
+
+- **Autos autónomos como scam principal**: Hotz ha llamado a los autos fully self-driving (Nivel 4/5 SAE) un "scam" total. Dice que compañías como Waymo, Zoox, Uber y Cruise recaudan miles de millones sin ingresos reales, enfocadas en growth y hype en vez de innovación verdadera. Predice que robotaxis viables (sin resolver fully self-driving) tardarán al menos hasta 2030, y critica el uso de mapas HD como fracaso infraestructura-dependiente. Esto ecoa su texto sobre robotaxis: hype VC lleva a consolidación y control.
+
+- **Silicon Valley "necesita morir"**: En 2020, dijo que el valle se rinde a vicios como enfocarse en growth sobre productos innovadores. Critica la "ideología grotesca" de psicópatas que tratan humanos como datos optimizables, alineado con su crítica al "culto a la muerte" en el texto. Propone alternativas como iglesias en vez de compañías, ya que el capitalismo maximiza lucro pero falla en "ganar" de verdad.
+
+- **Otras estafas relacionadas**: Hotz menciona fraudes en hiring (ej. "reach-ins" falsos para jobs), y ha criticado a Elon Musk/Tesla por cambiar términos en ofertas laborales. En posts no directamente suyos pero relacionados (de búsquedas semánticas), se discute abusos H1B en Silicon Valley como "ghost jobs" para cubrir fraudes, o scams en tech como tokens falsos, que encajan en su visión de estafas sistémicas.
+
+Hotz es visto como un outsider controvertido (comparado a Kanye o un Musk joven), pero sus críticas son substantivas: Silicon Valley prioriza estafas de inversión sobre soluciones reales. Su compañía Comma.ai ofrece kits autónomos baratos ($999) como alternativa al hype corporativo. No encontré evidencia de nuevas estafas específicas post-2022, pero sus textos de 2025-2026 sugieren que ve el problema persistiendo en IA y movilidad.
