@@ -123,3 +123,4 @@ https://archive.org/details/MI_BLOG1770387825-13072 - commit: adoc
 https://archive.org/details/MI_BLOG1770424776-22289 - commit: cancer
 https://archive.org/details/MI_BLOG1770425323-25056 - commit: gratis
 https://archive.org/details/MI_BLOG1770427745-35950 - commit: samsa
+https://archive.org/details/MI_BLOG1770432195-67334 - commit: adoc
