@@ -1,0 +1,25 @@
+---
+title: "El AI slop me terroriza."
+date: 2026-02-08T11:41:31-03:00
+tags: ['ai']
+---
+
+https://ezhik.jp/ai-slop-terrifies-me/
+
+ 
+**"AI slop"** es un término que describe el fenómeno de **contenido o software generado por IA que es "suficientemente bueno" pero de baja calidad**, mediocre y despersonalizado.
+
+Según el artículo que compartes , el autor (ezhik) lo define así:
+
+- Es el resultado de usar IA para crear cosas que están al **90%** de lo que deberían ser, pero sin ese último 10% de esfuerzo humano, cuidado o creatividad que las hace realmente buenas
+- Es la **"temuificación"** del software (comparándolo con productos baratos de Temu) vs. la artesanía genuina
+- Es lo que pasa cuando desarrolladores usan agentes de IA para generar código rápidamente sin entender realmente qué están creando ("AI herders")
+- Es la tendencia de los modelos de IA a empujar todo hacia lo **medio**, lo genérico (como el stack Next-React-Tailwind repetido mil veces)
+
+El autor teme que esto lleve a un futuro donde:
+- El software sea "suficientemente bueno" pero nunca excelente
+- La gente deje de **importarle** la calidad
+- Los desarrolladores artesanales desaparezcan porque nadie valora su trabajo
+- Los usuarios acepten pasivamente productos mediocres porque "así son las cosas"
+
+Esencialmente, **"slop"** (bazura/residuo) se refiere a la inundación de contenido/software generado automáticamente que llena el espacio digital sin alma ni intención humana genuina.

@@ -210,7 +210,7 @@ looking for conflicting packages...
    
    
 ```bash   
-pacman -S openssh ttyd whois fzf bash-completion pipewire pipewire-pulse tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox falkon irssi w3m links imlib2 rsync fbida samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks zip v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils bc xorg-xwayland feh chromium newsboat telegram-desktop   
+pacman -S openssh ttyd whois fzf bash-completion pipewire pipewire-pulse tmux kolourpaint fastfetch os-prober sudo fish sway wmenu foot alsa-utils mpv imagemagick translate-shell git hugo python-pip wl-clipboard grim btop imv yt-dlp neomutt firefox falkon irssi w3m links imlib2 rsync fbida samba obs-studio gimp qt6-wayland qt5-wayland(para smtube) thunderbird tor torsocks zip v4l-utils unrar unzip qbittorrent kdenlive extra/texlive-latex extra/texlive-latexextra extra/texlive-plaingeneric texlive-fontsextra extra/texlive-fontsrecommended evince extra/texlive-langspanish wget acpi telegram-desktop festival espeak-ng speech-dispatcher libreoffice tree rclone inetutils bc xorg-xwayland feh chromium newsboat telegram-desktop   
 ```   
 
 su esotericwarfare
