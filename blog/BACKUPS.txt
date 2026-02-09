@@ -129,3 +129,4 @@ https://archive.org/details/MI_BLOG1770460002-217951 - commit: 1
 https://archive.org/details/MI_BLOG1770500120-4695 - commit: education
 https://archive.org/details/MI_BLOG1770524626-52767 - commit: ja
 https://archive.org/details/MI_BLOG1770597723-211416 - commit: adoctrinamiento
+https://archive.org/details/MI_BLOG1770616888-345875 - commit: confianza
