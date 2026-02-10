@@ -146,11 +146,6 @@ ACCEPT_KEYWORDS="~amd64"
 
 
 
-ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
-hwclock --systohc
-nano /etc/locale.gen # en_US.UTF-8
-locale-gen
-
 ```   
 
    
@@ -171,7 +166,15 @@ nameserver 149.112.112.11
    
 ```bash   
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc` # se usa --dereference para que copie el archivo y no el link simbólico   
+
 arch-chroot /mnt/gentoo` o podes montar uno por uno como está en el Handbook   
+
+ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
+hwclock --systohc
+nano /etc/locale.gen # en_US.UTF-8
+locale-gen
+
+
 source /etc/profile   
 export PS1="(chroot) ${PS1}"   
 emerge-webrsync # Baja una snapshot de los títulos de los paquetes disponibles, sirve si estás detrás de un firewall (se actualiza cada 24 horas)
