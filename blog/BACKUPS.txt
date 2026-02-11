@@ -140,3 +140,4 @@ https://archive.org/details/MI_BLOG1770794248-236233 - commit: groq
 https://archive.org/details/MI_BLOG1770800669-298740 - commit: adoc-linux
 https://archive.org/details/MI_BLOG1770801170-302334 - commit: rain
 https://archive.org/details/MI_BLOG1770802795-310436 - commit: web3
+https://archive.org/details/MI_BLOG1770803461-318598 - commit: web3
