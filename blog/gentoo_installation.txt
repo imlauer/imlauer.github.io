@@ -5,6 +5,23 @@ tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
 
+
+NO USES NETWORKMANAGER ES DEMASIADO BLOAT,
+USA `WPA_SUPPLICANT` CON `DHCPCD`
+
+Para instalar rápido usá binarios y quiet `emerge -qavG`
+
+Yo hice la instlación de binarios de `gentoo_openrc`
+y instalé `emerge -G gentoo-kernel` no instalé el 
+`gentoo-kernel-bin` no funcionó.
+
+## Usé el USE FLAG (agregué xinerama para el dwm)
+
+
+```bash 
+USE="dist-kernel -X -gtk -qt5 -gnome -kde minimal xinerama"
+```
+
 ### Este comando me tomo 8 horas por aproximadamente en una netbook del gobierno G5.
 ```bash
 emerge --quiet yt-dlp mpv irssi net-fs/samba imagemagick tmux
