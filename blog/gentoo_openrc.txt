@@ -121,6 +121,8 @@ tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner -C /mnt/gentoo
 nano `/mnt/gentoo/etc/portage/make.conf`   
    
 ```bash   
+EMERGE_DEFAULT_OPTS="--quiet"
+
 COMMON_FLAGS="-march=native -O2"
 CFLAGS="${COMMON_FLAGS}"
 CXXFLAGS="${COMMON_FLAGS}"
@@ -172,6 +174,10 @@ arch-chroot /mnt/gentoo` o podes montar uno por uno como está en el Handbook
 ln -sf /usr/share/zoneinfo/America/Buenos_Aires /etc/localtime
 hwclock --systohc
 nano /etc/locale.gen # en_US.UTF-8
+
+locale-gen
+eselect locale list
+eselect locale set 4 (en_US.utf8)
 locale-gen
 
 
@@ -259,7 +265,7 @@ emerge -G sys-firmware/intel-microcode
 ```   
    
 ##### Instalando el GRUB:   
-**Para mi esto no lo necesito pero igual lo hice así**:   
+**Para mi esto no lo necesito pero igual lo hice así**
 En el archivo `/etc/portage/package.use/installkernel` agregá:   
 `sys-kernel/installkernel grub dracut`   
    
@@ -271,6 +277,8 @@ sys-apps/systemd-utils boot kernel-install
 `emerge --ask sys-kernel/installkernel`   
    
 Ahora instalamos un "distribution kernel": `emerge -G sys-kernel/gentoo-kernel` o `emerge sys-kernel/gentoo-kernel-bin`   
+
+
    
 Actualizando y limpiando: `emerge --depclean`   
    

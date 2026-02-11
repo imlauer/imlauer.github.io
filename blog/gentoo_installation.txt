@@ -84,11 +84,13 @@ South America -> AR ->  [url]https://gentoo.zero.com.ar/gentoo/[/url] -> release
 ```
 
 ##### Descomprimí y borralo.
+
 ```bash
 tar xvf stage*
 rm stage* 
 genfstab /mnt/gentoo > /mnt/gentoo/etc/fstab
 ```
+
 #### Configurá las dns (No uses las de personal ni claro porque bloquean todo si me creen tirale un ping a thepiratebay.org o a librefutbol.su)
 ```bash
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc
@@ -155,7 +157,8 @@ while true; do xsetroot -name "$(date)"; sleep 1 ; done &
 exec dwm
 ```
 
-#### esa configuración es muy básica lee todo esto XDD: https://wiki.gentoo.org/wiki/Dwm
+#### Esa configuración es muy básica lee todo esto XDD: https://wiki.gentoo.org/wiki/Dwm
+
 INSTALÁ KEYNAV ASÍ PODES MANEJAR EL MOUSE CON EL TECLADO (VIM KEYBINDINGS)
 ```bash
 mkdir tools
@@ -171,6 +174,7 @@ Si querés tener íconos tenés que **COMPILAR UN PARCHE XDDD**.
 
 
 #### Saber que banderas usa un programa
+
 ```bash
 sudo emerge -va app-portage/gentoolkit
 equery uses dwm
