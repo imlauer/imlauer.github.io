@@ -1,0 +1,112 @@
+---
+title: "Vpn cli"
+date: 2026-02-11T05:51:20-03:00
+tags: ['vpn']
+---
+
+Personalmente no uso VPN solo Tor o Lokinet, pero si vas a usar algo como ProtonVPN aca tenes como hacerlo:
+
+En **Arch Linux** no se recomienda ya el viejo `protonvpn-cli` (v2) porque quedó obsoleto.
+La forma correcta hoy es usar la **app oficial de Proton para Linux**, que incluye backend y soporte WireGuard/OpenVPN.
+
+Te dejo las opciones limpias y actuales 👇
+
+---
+
+# ✅ Opción 1 — Instalar cliente oficial (recomendado)
+
+En Arch está en **AUR**.
+
+Si usás `yay`:
+
+```bash
+yay -S proton-vpn-gtk-app
+```
+
+Si usás `paru`:
+
+```bash
+paru -S proton-vpn-gtk-app
+```
+
+Eso instala:
+
+* Backend oficial
+* Soporte WireGuard
+* Kill switch
+* Integración con NetworkManager
+
+Luego podés usarlo desde GUI o manejar conexión vía NetworkManager.
+
+---
+
+# ✅ Opción 2 — Solo consola (más minimalista y más “Arch” 🧠)
+
+Esta es la forma más limpia y controlable:
+
+### 1️⃣ Instalar WireGuard
+
+```bash
+sudo pacman -S wireguard-tools
+```
+
+### 2️⃣ Descargar configuración desde Proton
+
+* Entrá a tu cuenta en protonvpn.com
+* Sección → Downloads → WireGuard config
+* Elegí país y servidor
+* Descargá el `.conf`
+
+### 3️⃣ Conectar
+
+```bash
+sudo wg-quick up nombre.conf
+```
+
+Desconectar:
+
+```bash
+sudo wg-quick down nombre.conf
+```
+
+Esto evita apps extra y es 100% transparente.
+
+---
+
+# ⚠️ NO instales
+
+El viejo:
+
+```bash
+protonvpn-cli
+```
+
+Ese era para OpenVPN antiguo y está discontinuado.
+
+---
+
+# 🔎 ¿Cómo verificar que está funcionando?
+
+```bash
+curl ifconfig.me
+```
+
+Si cambia tu IP → está activo.
+
+También:
+
+```bash
+ip a
+```
+
+Deberías ver interfaz `wg0`.
+
+---
+
+# 🧠 ¿Cuál te conviene?
+
+* Querés simple → app oficial
+* Querés control total, minimalismo y cero magia → WireGuard manual
+
+Si querés te explico cómo activar kill switch real en Arch con iptables o nftables para que **si se cae la VPN no salga tráfico real**.
+
