@@ -1,0 +1,130 @@
+---
+title: "LLM desde la terminal gratis (Groq)"
+date: 2026-02-11T04:00:53-03:00
+tags: ['llm']
+---
+
+Usa aichat tenes que crearte una cuenta en https://console.groq.com/ y una api key.
+
+## Opción 1: LLMs locales ligeros (RECOMENDADO)
+
+Aunque digas que tu hardware es ligero, hay modelos que funcionan incluso en CPUs modestas:
+
+**Ollama** con modelos pequeños:
+```bash
+# Instalar desde AUR
+yay -S ollama
+
+# Iniciar servicio
+sudo systemctl start ollama
+
+# Modelos muy ligeros (1.5-3GB RAM):
+ollama run llama3.2:1b        # El más ligero, 1GB
+ollama run phi3:mini          # 2.3GB
+ollama run qwen2.5:1.5b       # 1.5GB
+```
+
+Luego puedes usarlo desde consola:
+```bash
+ollama run llama3.2:1b "explícame qué hace grep"
+```
+
+## Opción 2: APIs gratuitas
+
+Hay APIs LLM gratuitas sin pagar:
+
+**Groq** (muy rápido, gratis):
+```bash
+# Registrarte en groq.com para API key
+export GROQ_API_KEY="tu_key"
+
+curl -X POST "https://api.groq.com/openai/v1/chat/completions" \
+  -H "Authorization: Bearer $GROQ_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "llama-3.3-70b-versatile",
+    "messages": [{"role": "user", "content": "tu pregunta"}]
+  }'
+```
+
+## Opción 3: Tu idea de scraping (menos recomendado)
+
+Si insistes en scraping de SearX:
+
+```bash
+#!/bin/bash
+# buscar.sh
+QUERY="$*"
+curl -s "http://localhost:8888/search?q=${QUERY// /+}&format=json" | \
+  jq -r '.results[] | .title + "\n" + .content + "\n" + .url + "\n---"' > /tmp/resultados.txt
+
+grep -i "$1" /tmp/resultados.txt
+```
+
+**¿Qué hardware tienes?** Con 4GB RAM ya puedes correr modelos de 1-3B parámetros que son sorprendentemente capaces para uso en terminal.
+
+
+Sí, hay varias opciones de CLI para Groq:
+
+## 1. **groq-cli** (oficial en npm)
+```bash
+# Instalar
+npm install -g groq-cli
+
+# O con pnpm/yarn
+pnpm install -g groq-cli
+
+# Configurar
+export GROQ_API_KEY="tu_key"
+
+# Usar
+groq "tu pregunta aquí"
+```
+
+## 2. **llm** de Simon Willison (más versátil)
+```bash
+# Instalar (Python)
+pipx install llm
+
+# Instalar plugin de Groq
+llm install llm-groq
+
+# Configurar
+llm keys set groq
+# (pega tu API key)
+
+# Usar
+llm -m groq/llama-3.3-70b-versatile "tu pregunta"
+
+# Alias para más comodidad
+alias ask='llm -m groq/llama-3.3-70b-versatile'
+ask "cómo funciona grep"
+```
+
+## 3. **Script bash simple** (sin dependencias)
+```bash
+#!/bin/bash
+# ~/bin/groq
+GROQ_API_KEY="tu_key_aqui"
+
+curl -s https://api.groq.com/openai/v1/chat/completions \
+  -H "Authorization: Bearer $GROQ_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d "{
+    \"model\": \"llama-3.3-70b-versatile\",
+    \"messages\": [{\"role\": \"user\", \"content\": \"$*\"}]
+  }" | jq -r '.choices[0].message.content'
+```
+
+```bash
+chmod +x ~/bin/groq
+groq "explícame systemd"
+```
+
+**Mi recomendación:** `llm` de Simon Willison porque:
+- Soporta múltiples proveedores (Groq, OpenAI, Claude, Ollama local)
+- Muy activo y mantenido
+- Historial de conversaciones
+- Fácil cambiar entre modelos
+
+¿Cuál prefieres probar primero?
