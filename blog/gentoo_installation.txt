@@ -5,6 +5,17 @@ tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
 
+NO USES LA MISMA PARTICIÓN DE EFI PARA INSTALAR
+2 SISTEMAS OPERATIVOS OS-PROBER NO DETECTA BIEN.
+Y SI NO DETECTA BIEN VAS A TENER QUE GENERAR
+EL GRUB CON MKCONFIG DESDE GENTOO COPIAR LA CONFIGURACION
+A A /etc/grub/40_custom VAS A TENER QUE BORRAR
+EL MENUENTRY QUE USE EL KERNEL DE ARCHLINUX (VMLINUZ)
+Y VAS A TENER QUE QUEDARTE CON EL MENUENTRY DE AVANZADO
+QUE USA EL KERNEL DE GENTOO (kernel-6.18.9-gentoo-dist)
+Y CADA VEZ QUE LO ACTUALICES VAS A TENER Q HACER ESO xd
+
+
 
 NO USES NETWORKMANAGER ES DEMASIADO BLOAT,
 USA `WPA_SUPPLICANT` CON `DHCPCD`
@@ -15,11 +26,51 @@ Yo hice la instlación de binarios de `gentoo_openrc`
 y instalé `emerge -G gentoo-kernel` no instalé el 
 `gentoo-kernel-bin` no funcionó.
 
+TENES QUE USAR `--binpkg-respect-use=n` para instalar
+binarios sin respetar las USE FLAGS y `--autounmask-backtrack=y`.
+
+```bash
+emerge -aqvg --autounmask-backtrack=y --binpkg-respect-use=n jackett-bin
+```
+
+Observación: Intenté instalar jackett-bin pero me quedó
+compilando wxGTK por un tiempo largo con `emerge -g jackett-bin`
+luego cancelé e intenté `emerge -G jackett` pero no había binarios,
+entonces lo que hice fue instalar el binario de wxGTK así:
+`emerge -G wxGTK` y luego `emerge -g jackett-bin` (anteriormente
+configuré el repositorio de binarios por defecto como está
+en openrc gentoo). No entiendo por qué no tomó el binario
+de wxGTK, por las flags (banderas) será?
+
+```bash
+arch / # emerge -avG x11-libs/wxGTK
+
+ * IMPORTANT: 27 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+[binary   R   ] x11-libs/wxGTK-3.2.8.1-r2-10  USE="X gstreamer keyring libnotify lzma opengl sdl spell tiff -curl -debug -doc (-pch) -test -wayland -webkit" ABI_X86="(64) -32 (-x32)"
+
+Would you like to merge these packages? [Yes/No] ^CInterrupted.
+arch / # emerge -av x11-libs/wxGTK
+
+ * IMPORTANT: 27 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+[ebuild   R   ] x11-libs/wxGTK-3.2.8.1-r2  USE="X libnotify lzma opengl sdl spell tiff -curl -debug -doc -gstreamer* -keyring* (-pch) -test -wayland -webkit" ABI_X86="(64) -32 (-x32)"
+
+Would you like to merge these packages? [Yes/No]
+
+```
+
+
+
+
+
 ## Usé el USE FLAG (agregué xinerama para el dwm)
 
 
 ```bash 
-USE="dist-kernel -X -gtk -qt5 -gnome -kde minimal xinerama"
+USE="dist-kernel X -wayland -gtk -qt5 -gnome -kde minimal xinerama"
 ```
 
 ### Este comando me tomo 8 horas por aproximadamente en una netbook del gobierno G5.
@@ -199,6 +250,9 @@ equery uses dwm
 
 ### Ahora instalá todos estos paquetes (si usaste dwm borrá sway):
 Para instalar OBS tenes que habilitar las banderas antes sino no funcionará cámara.
+
+Actualización: No uses networkmanager usa wpa_supplicant con dhcpcd
+
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
@@ -289,7 +343,7 @@ Agregá sync-uri (probablemente ya la tengas)
 sudo vim /etc/portage/make.conf
 FEATURES="${FEATURES} binpkg-request-signature"
 ### Esto es para que siempre baje los binarios si es que los tiene. O sea no necesitas usar la opcion -G o g
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --getbinpkg"
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --quiet --getbinpkg --binpkg-respect-use=n"
 
 sudo emerge --getbinpkg -vauDU @world
 ```
@@ -392,8 +446,8 @@ sudo emerge -vag sys-kernel/linux-firmware
 ```
 **Otra forma**:
 ```bash
-echo ">=net-vpn/nordvpn-3.16.6 ~amd64" > /etc/portage/package.accept_keywords/nordvpn
-sudo emerge -va net-vpn/nordvpn
+echo ">=net-vpn/xxxvpn-3.16.6 ~amd64" > /etc/portage/package.accept_keywords/xxxvpn
+sudo emerge -va xxx-vpn/xxxnpn
 ```
 
 **Instalar OBS**: https://forums.gentoo.org/viewtopic-t-1150271-start-0.html

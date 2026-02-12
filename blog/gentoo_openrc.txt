@@ -4,6 +4,17 @@ date: 2025-06-22T22:25:52-03:00
 tags: ['gentoo']
 ---
 
+Este es el comando para instalar la máxima cantidad de paquetes: 
+
+```bash
+# Ignora las USE flags.
+emerge -aqvg --autounmask-backtrack=y --binpkg-respect-use=n jackett-bin
+o
+emerge -aqvG jackett (pero a veces no tenes el binario disponible)
+```
+
+
+
 https://wiki.gentoo.org/wiki/Gentoo_Cheat_Sheet
 
 
@@ -121,6 +132,8 @@ tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner -C /mnt/gentoo
 nano `/mnt/gentoo/etc/portage/make.conf`   
    
 ```bash   
+# Mira los de la publicacion gentoo_instalacion tambien agrega --binpkg-respect-use=n y el otro.
+
 EMERGE_DEFAULT_OPTS="--quiet"
 
 COMMON_FLAGS="-march=native -O2"
