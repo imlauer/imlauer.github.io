@@ -143,3 +143,5 @@ https://archive.org/details/MI_BLOG1770802795-310436 - commit: web3
 https://archive.org/details/MI_BLOG1770803461-318598 - commit: web3
 https://archive.org/details/MI_BLOG1770824646-543393 - commit: jaja
 https://archive.org/details/MI_BLOG1770917164-2532 - commit: winning
+https://archive.org/details/MI_BLOG1770917371-3709 - commit: metautf8
+https://archive.org/details/MI_BLOG1770917436-4205 - commit: ja
