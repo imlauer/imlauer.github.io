@@ -200,7 +200,17 @@ Mejor si usás el repositorio de binarios con la opción `-g` explicado más aba
 
 ### Si queres usar xorg con xinitrc y dwm
 ```bash
-sudo emerge -va x11-base/xorg-server xinit st dmenu # Actualmente estoy usando kitty en vez de st porque soporta imágenes usando chawan 
+sudo emerge -va x11-base/xorg-server xinit st dmenu xterm # Actualmente estoy usando kitty en vez de st porque soporta imágenes usando chawan 
+sudo emerge -vaqG x11-base/xorg-fonts
+sudo emerge -G xfontsel
+sudo emerge -G terminus-font
+
+fc-cache -f -v
+fc-list
+sudo emerge x11-libs/libXft
+xfontsel
+
+sudo emerge media-fonts/dejavu
 EN LA GUÍA DE INSTALACIÓN DE ARCHLINUX ESTÁ COMO CAMBIAR LA DISTRIBUCION DE TECLADO (sudo vim /etc/X11/xorg.conf.d/10-keyboard.conf)
 echo "x11-wm/dwm savedconfig" | tee  /etc/portage/package.use/dwm
 sudo emerge -va dwm
@@ -920,4 +930,109 @@ rc-update add display-manager default
 rc-service display-manager start
 Tenés que crear el .xinitrc y start XD
 
+```
+
+
+Perfecto. **Gentoo sin X11 + eglfs + Falkon + WiFi con wpa_supplicant** — directo y corto.
+
+---
+
+# 1️⃣ Qt + EGLFS (sin X11)
+
+## `/etc/portage/package.use/qt`
+
+```
+dev-qt/qtbase -X egl eglfs opengl gles2 gbm
+dev-qt/qtdeclarative egl
+media-libs/mesa egl gbm gles2
+```
+
+Si usás Wayland → NO pongas `-X` si dependés de algo que lo necesite.
+
+---
+
+## Recompilar Qt (probable)
+
+```bash
+emerge -avuDN dev-qt/qtbase
+```
+
+---
+
+## Falkon (máx binarios posibles)
+
+```bash
+emerge -aqvg \
+  --autounmask-backtrack=y \
+  --binpkg-respect-use=n \
+  www-client/falkon
+```
+
+Para usar solo binarios si existen:
+
+```bash
+emerge -gK www-client/falkon
+```
+
+Opcional en `/etc/portage/make.conf`:
+
+```
+FEATURES="getbinpkg"
+```
+
+---
+
+## Ejecutar con eglfs
+
+```bash
+QT_QPA_PLATFORM=eglfs falkon
+```
+
+---
+
+# 2️⃣ WiFi con wpa_supplicant
+
+## Instalar
+
+```bash
+emerge --ask net-wireless/wpa_supplicant
+```
+
+---
+
+## Config
+
+```bash
+wpa_passphrase NOMBRE_RED PASSWORD >> /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+Agregar arriba del archivo:
+
+```
+ctrl_interface=/run/wpa_supplicant
+update_config=1
+country=AR
+```
+
+---
+
+## Conectar
+
+```bash
+ip link        # ver interfaz (ej: wlp3s0)
+
+wpa_supplicant -B -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+dhcpcd wlp3s0
+```
+
+---
+
+## Auto inicio (OpenRC)
+
+```bash
+systemctl enable wpa_supplicant
+systemctl enable dhcpcd
+
+rc-update add wpa_supplicant default
+rc-update add dhcpcd default
 ```

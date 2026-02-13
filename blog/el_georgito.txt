@@ -6,11 +6,11 @@ date: 2026-02-07T23:34:55-03:00
 ### Generá el audio.
 
 ```bash
-links -dump -width 512 https://imlauera.github.io/el_georgito | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | espeak -v es -s 130 -p 50 -g 10 -w george.m4a
+links -dump -width 512 https://imlauera.github.io/el_georgito | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | espeak-ng -v es  -s 120 -p 30  -w george.m4a
 
 o
 
-links -dump -width 512 https://imlauera.github.io/el_georgito | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | espeak-ng -v es  -s 120 -p 30  -w george.m4a
+links -dump -width 512 https://imlauera.github.io/el_georgito | tr "\n\ r" " " | sed "s/^.*, consoomer version//g" | espeak -v es -s 130 -p 50 -g 10 -w george.m4a
 
 ```
 
@@ -6314,3 +6314,165 @@ La singularidad es un nombre tan bueno para ello, qué bueno que no es real. Dej
 - **GitHub del autor:** https://github.com/geohot
 - **Twitter del autor:** https://www.twitter.com/realgeorgehotz
 - **Email del autor:** geohot@gmail.com
+
+https://geohot.github.io/blog/jekyll/update/2026/02/13/i-told-you-so.html
+
+TE LO DIJE
+
+Mi cita de 2019
+
+“No sé qué tan cerca creen ustedes que está la singularidad, pero yo creo que está muy cerca. Una vez que lleguemos a la singularidad, si tenemos las mismas motivaciones que tenemos ahora — principalmente poder sobre las personas — las cosas van a ser horribles.” – George Hotz
+
+¿Cómo está disfrutando todo el mundo su singularidad? ¿Hasta dónde va a llegar esto? ¿Por qué estamos dejando que las mentes que inventaron el fastpass manejen todo? ¿Para quién estamos haciendo todo esto, al final?
+
+Vivimos en una sociedad. Parece que mucha gente se olvidó de eso. Hay un montón de cosas que se están construyendo que directamente no deberían construirse. Sabés que la tecnología podría ser buena, ¿no? Podría ser todo así https://craigslist.org/ y no asi: https://arg.shein.com/?cdn_rsite=ak&ref=www&rep=dir&ret=arg
+
+
+¿Somos todos, individualmente, demasiado débiles como para desmarcarnos? Suena a que necesitamos una revolución.
+
+
+https://www.theverge.com/2019/3/9/18258030/george-hotz-ai-simulation-jailbreaking-reality-sxsw-2019?utm_source=chatgpt.com
+
+
+### El video es una **crítica fuerte al sistema de “FastPass” (o pases para saltar la fila)** y cómo, según el autor, eso está arruinando la experiencia tradicional de los parques temáticos.
+
+Empieza contando que viajó desde Reino Unido hasta Japón para visitar **Tokyo DisneySea**, considerado por muchos como el mejor parque temático del mundo. Visualmente le pareció increíble, con una ambientación espectacular. Pero, pese a lo impresionante del parque, algo arruinó su experiencia: el sistema de pases rápidos pagos.
+
+---
+
+## 🎢 El problema central: el FastPass
+
+Originalmente, el sistema **FastPass** nació en **Walt Disney World** a fines de los 90.
+Era **gratuito**: sacabas un turno para volver más tarde y hacer la atracción con menos espera. Eso ayudaba a distribuir mejor la gente dentro del parque.
+
+Con el tiempo, otros parques copiaron la idea, pero cobrando extra. Por ejemplo:
+
+* **Universal Studios** creó el Express Pass pago.
+* **Six Flags** lanzó sistemas similares.
+
+Al principio era opcional. No era lo normal.
+
+---
+
+## 😷 El punto de quiebre: COVID
+
+Durante la pandemia, muchos parques cerraron y suspendieron los FastPass.
+Cuando reabrieron, Disney vio una oportunidad:
+
+Eliminó el FastPass gratuito y lo reemplazó por sistemas pagos como Genie+ o Premier Access.
+
+Negocio redondo:
+
+* Más ingresos.
+* Aprovechar el entusiasmo post-pandemia.
+* Convertir el “salto de fila” en parte esencial de la experiencia.
+
+El problema es que ahora:
+
+* Las filas normales se vuelven larguísimas.
+* La mayoría de la capacidad de las atracciones va para quienes pagan extra.
+* La experiencia básica empeora.
+
+En DisneySea, por ejemplo, el autor vio que en una atracción:
+
+* 4000 personas entraron por fila normal.
+* 12000 por FastPass pago.
+
+Eso significa que la mayoría de los lugares del juego eran para quienes pagaron extra, haciendo que la fila común sea interminable (hasta 3 horas).
+
+---
+
+
+### ¿El FastPass gratuito era perfecto?
+
+No. También tenía críticas:
+
+* Había que planificar.
+* Generaba “estrategias”.
+* Beneficiaba más a quien sabía usarlo bien.
+
+Pero la diferencia clave es que no era una barrera económica directa.
+
+## 💸 El problema más profundo
+
+El video no solo critica las filas. Critica algo más grande:
+
+### 1️⃣ La experiencia dejó de ser simple
+
+Antes:
+
+* Caminabas.
+* Veías una atracción.
+* Hacías fila.
+* Disfrutabas.
+
+Ahora:
+
+* Tenés que planificar todo.
+* Estar pendiente del celular.
+* Reservar horarios.
+* Comprar pases extra.
+
+Se pierde la magia y la espontaneidad.
+
+---
+
+### 2️⃣ Exclusión económica
+
+El autor dice que los parques están dejando de ser “para todos”.
+
+Si pagás extra:
+
+* Podés hacer 15 atracciones en un día.
+
+Si no:
+
+* Quizás solo 3.
+
+La experiencia cambia según el tamaño de tu billetera.
+Eso genera desigualdad y exclusión social.
+
+---
+
+## 🌍 Existen alternativas
+
+Menciona parques que no usan fast pass pagos y siguen funcionando bien:
+
+* **Efteling**
+* **Europa-Park**
+* **Dollywood**
+* **Tivoli Gardens**
+
+Estos parques mantienen una experiencia más tradicional, con una sola fila para todos.
+
+---
+
+## 🎭 Conclusión del video
+
+La pandemia fue la excusa perfecta para que las grandes corporaciones conviertan el FastPass pago en el estándar.
+
+Resultado:
+
+* Entradas más caras.
+* Experiencia más complicada.
+* Más planificación.
+* Más uso del celular.
+* Más desigualdad.
+* Menos magia.
+
+El autor termina diciendo que el problema no es solo Disney, sino la industria en general, y que quizás la única solución sería que la gente deje de apoyar estos modelos y visite parques más pequeños que mantengan la experiencia original.
+
+### Viviendo en una simulacion.
+
+Lo que mantiene despierto por las noches a George Hotz, el enigmático hacker y fundador de la startup de conducción autónoma Comma.ai, no es si su empresa de autos autónomos tendrá éxito o en qué otra aventura emprendedora podría embarcarse a continuación. No, en cambio, Hotz dice que está atormentado por la posibilidad de que todos nosotros estemos en una simulación avanzada observada ya sea por un ser extraterrestre u omnipotente sobrenatural, o una inteligencia artificial mucho más allá del ámbito de la concepción y comprensión humana.
+"No hay evidencia de que esto no sea cierto", dijo un animado Hotz a una multitud en su charla de SXSW el viernes, acertadamente titulada "Hackeando la Simulación" y anunciada en el sitio web del festival como una exploración de si escapar de un universo simulado significa que podemos "conocer a Dios" y matarlo. "Es fácil imaginar cosas que son mucho más inteligentes que tú y que podrían construir una jaula que ni siquiera reconocerías".
+"No hay evidencia de que esto no sea cierto".
+La teoría, conocida ampliamente como la hipótesis de la simulación, postula que la vida en la Tierra, y por extensión el Sistema Solar e incluso el universo mismo, es potencialmente una simulación por computadora, ya sea un videojuego o alguna otra forma de entretenimiento para formas de vida avanzadas o posiblemente algún tipo de simulación ancestral guiada por IA creada por una versión de la humanidad del lejano futuro. Es una proposición popular que, en años recientes, ha sido públicamente considerada por grandes nombres de la tecnología, como Elon Musk, y ha sido considerada y analizada más seriamente por filósofos prominentes como Nick Bostrom.
+Hotz, al parecer, es uno de los creyentes, o al menos eso quiso hacerle creer a la multitud de SXSW. El emprendedor de 29 años, que saltó a la notoriedad cuando era adolescente al convertirse en el primer hacker en desbloquear el iPhone de primera generación, siempre ha sido un pensador excéntrico y fuera de lo común en el mundo abotonado y anodino de Silicon Valley.
+Se metió en problemas cuando hackeó la PlayStation 3 de Sony, lo que llevó a una demanda contenciosa que luego se resolvió. Pero el evento encaminó a Hotz hacia ser un outsider de la industria tecnológica desde entonces, llevando a pasos breves en Facebook, Google y la empresa de IA con sede en San Francisco, Vicarious. En 2015, fundó la startup de conducción autónoma Comma.ai, que busca democratizar el acceso al software de conducción autónoma y se basa en la creencia de Hotz de que la dirección actual de la industria autónoma es una estafa gigante.
+Pero en SXSW, parece que Hotz se ha comprometido a soltarse y empujar los límites de los temas aceptables para una conferencia de marketing. Sus charlas aquí, incluyendo una de hace tres años en la que prometió acabar con el capitalismo, presentan una versión de sí mismo aparentemente desquiciada que despotrica con alegría y agita a la multitud hasta llevarla a un frenesí marginal.
+Y las audiencias, aparentemente personas de ideas afines que han seguido la trayectoria de carrera impredecible de Hotz, típicamente lo adoran. Ayer, Hotz habló a una sala de aproximadamente 100 personas mientras lucía una sudadera con capucha, una barba poblada y una melena rizada desaliñada. A lo largo de la charla, comparó la programación con la magia, consideró cómo le gustaría morir algún día, y dijo que uno de los aspectos más perturbadores de la vida en el futuro será cuando todos nos demos cuenta de que probablemente no tenemos libre albedrío.
+En un punto, Hotz dijo que incluso estaba considerando fundar una religión dedicada a escapar del universo simulado. "Estoy pensando en iniciar una iglesia. Hay muchos problemas estructurales con las empresas: no hay una forma real de ganar", dijo Hotz, refiriéndose a cómo el resultado final de cualquier aventura capitalista siempre es maximizar las ganancias, vender la empresa o fracasar, todo lo cual Hotz considera fracasos.
+Hotz está considerando iniciar una iglesia dedicada a escapar de la simulación
+"Con las empresas, solo realmente pierdes. Creo que las iglesias podrían estar mucho más alineadas con estos objetivos, y el objetivo de la iglesia sería realinear los esfuerzos de la sociedad hacia salir [de la simulación]". Suena bastante a lo que está haciendo Anthony Levandowski, el infame ex ingeniero de Uber y Google que generó una demanda multimillonaria entre las dos compañías, con Way of the Future, una organización dedicada a "crear una transición pacífica y respetuosa de quién está a cargo del planeta" una vez que las máquinas superen la inteligencia humana.
+"No sé qué tan cerca creen ustedes que está la singularidad, pero yo creo que está muy cerca. Una vez que alcancemos la singularidad, si tenemos las mismas motivaciones que tenemos ahora —principalmente poder sobre las personas— las cosas van a ser horribles", agregó Hotz. "Reunir a las personas adecuadas, y empezar a decir: '¿Qué significa salir?' Sin charlatanería, sin basura. Todo lo que digas debe ser racionalmente justificable".

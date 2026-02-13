@@ -19,6 +19,8 @@ XTerm.vt100.bellIsUrgent:true
 XTerm.vt100.faceName:Monospace
 XTerm.vt100.faceSize:12
 
+xterm*font:-*-fixed-*-*-*-*-20-*-*-*-*-*-*-*
+
 XTerm*selectToClipboard: true
 
 XTerm.vt100.translations: #override \
