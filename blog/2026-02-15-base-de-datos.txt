@@ -1,0 +1,133 @@
+Para ir en contra de la entropía y vivir para siempre necesitamos
+una tecnología GIGANTE nivel Dios.
+
+Las universidades durante 50 años ¿qué hicieron? XD Comprar barato y vender caro.
+Vender los títulos de mierda, que nos generaron una tremenda pobreza.
+
+Toda esa "docencia" XDD ¿qué es esa mierda?
+
+Tenemos que dejar de buscar poder sobre humanos y buscar poder sobre naturaleza.
+¡¡La naturaleza es tu enemigo boludo!! Por eso la gente le tiene "miedo"
+a la Inteligencia Artificial, porque no la van a usar para ayudarte sino
+para cagarte.
+
+¿Por qué las universidades no hicieron ninguna evolución en la física durante
+50 años? Porque son una estafa, por eso tenemos los mismos aviones que 1970.
+Y los graduados hacen juegos de suma 0 hasta que te reviente el culo, eso
+no solo que no sirve para nada genera pobreza.
+
+Dicen que lo contrario al amor no es el odio, es la indiferencia.
+Yo no odio las universidades, solo soy indiferente y me dan gracia.
+
+Las grandes empresas de "tecnología" son empresas publicitarias que tiran
+caca para todos lados para que no sepas que es verdad y que no.
+
+Etherium slogan: "la computadora del mundo"
+pero han perdido el camino desearía que se enfoquen
+a construir una computadora 
+
+Porque **Ethereum** nació con la idea de ser mucho más que una moneda: quería ser una “computadora mundial” descentralizada.
+
+Te explico qué significa eso y por qué lo planteaban así.
+
+1. No solo dinero, sino código
+
+Antes de Ethereum estaba **Bitcoin**, que sirve principalmente para transferir valor.
+
+Ethereum agregó algo nuevo: los smart contracts (contratos inteligentes).
+Son pequeños programas que se ejecutan automáticamente en la blockchain.
+
+Eso permitía programar lógica como:
+
+* Préstamos automáticos
+* Juegos
+* Sistemas de votación
+* Finanzas sin bancos (DeFi)
+
+Todo ejecutándose en miles de nodos alrededor del mundo.
+
+2. “World Computer” = una sola máquina global
+
+La idea era que:
+
+* Subís tu programa a Ethereum
+* Se ejecuta en todos los nodos
+* Nadie lo puede apagar
+* Nadie lo puede censurar
+
+En vez de usar AWS, Google Cloud o un servidor privado, usás una red distribuida global.
+
+Por eso lo llamaban computadora mundial: un único estado global compartido por todos los participantes de la red.
+
+3. La Ethereum Virtual Machine (EVM)
+
+Ethereum tiene su propia máquina virtual que ejecuta los contratos inteligentes.
+
+* Ejecuta código
+* Cobra “gas” por el cómputo
+* Es determinística (todos los nodos obtienen el mismo resultado)
+
+La idea era, en esencia, poner una CPU global en Internet.
+
+Entonces, ¿qué pasó?
+
+La promesa era ambiciosa, pero aparecieron varios problemas:
+
+Gas caro
+Ejecutar cosas en Ethereum puede ser muy costoso.
+
+Escalabilidad limitada
+No escala como una computadora tradicional o un servicio en la nube.
+
+Limitaciones técnicas
+No sirve para cómputo pesado como inteligencia artificial o procesamiento intensivo.
+
+Enfoque financiero
+Gran parte del uso real terminó siendo financiero: DeFi, NFTs y tokens, más que aplicaciones generales descentralizadas.
+
+Resumen
+
+Ethereum prometía ser:
+
+Una computadora global sin dueño
+Imparable
+Programable
+Pagada con criptomoneda
+
+La visión era reemplazar servidores centralizados con una red distribuida que cualquiera pudiera usar y verificar.
+
+
+
+
+En 2024 todavía es dolorosamente molesto levantar
+una base de datos esto es lo único que realmente
+tienen las grandes empresas "tecnológicas" al punto
+que amenudo uso google sheets o un repositorio
+de GitHub como base de datos. 
+
+Claro podrías usar un SQL hosteado en Azure pero
+lidear con backups, redundancia y configuración
+lo hace tan molesto.
+
+Otro hecho sobre las bases de datos es que el mundo
+solo necesita una de ellas. Levanta múltiplos 
+muchas bases de datos.
+
+Una base de datos propiamente construída puede
+matar a las grandes empresas tecnológicas.
+
+Una vez que una máquina única pueda manejar 
+las transacciones del mundo, las grandes tecnológicas
+caen. ¿Quién está construyendo el Etherium de 10M TPS?
+
+La red Ethereum está promediando 13 transacciones por segundo. Esto es demasiado pequeño. Veamos algunas fuentes de datos que queremos en nuestra base de datos.
+
+
+En lugar de swiping de Tinder, se te presenta una lista que
+puedes filtrar de maneras inteligentes (por cierto, ¿por qué Instagram no me permite filtrar mi bandeja de entrada por hombre/mujer? otro frontend intencionalmente lisiado). Luego pasas un poco de tiempo mirando su perfil con todos los datos agregados y enviando un mensaje que la persona probablemente apreciará mucho más.
+
+Todos tendrían un mejor tiempo.
+
+Excepto las compañías de citas en línea de mierda, que necesitan ser [disrumpidas](https://manifold.love).
+
+Francia tiene el mismo PBI desde el 2008, no es el futuro.

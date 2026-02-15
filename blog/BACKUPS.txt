@@ -148,3 +148,5 @@ https://archive.org/details/MI_BLOG1770917436-4205 - commit: ja
 https://archive.org/details/MI_BLOG1770922079-41437 - commit: win
 https://archive.org/details/MI_BLOG1770995024-94681 - commit: kurtcobain
 https://archive.org/details/MI_BLOG1771003589-137938 - commit: arewethebaddies
+https://archive.org/details/MI_BLOG1771183059-159 - commit: 1
+https://archive.org/details/MI_BLOG1771183129-220 - commit: francia
