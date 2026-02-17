@@ -5,6 +5,42 @@ tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
 
+Si queres bluetooth no te va a alcanzar con instalar
+bluez bluez-tools tenes que activar las banderas de systemd
+ en /etc/portage/make.conf aunque diga que están explícitas
+ supongo.
+
+**Actualización**: Este fue mi error. Instalé bluez de la 
+siguiente manera.
+
+```bash
+emerge -avG bluez y no tenía la bandera systemd activada
+```
+
+cuando lo instalé así
+
+```bash
+emerge -avg bluez me instaló el binario con la bandera systemd activada :)
+Y pude ejecutar
+systemctl start bluetooth
+```
+
+---
+
+```bash
+[gentoo@tux ~]$ ls /lib/systemd/system/*blue*
+/lib/systemd/system/bluetooth.target
+[gentoo@tux ~]$ emerge -pv bluez
+[binary   R   ] net-wireless/bluez-5.85-4  USE="cups mesh obex readline systemd* udev -btpclient -debug -deprecated -doc -experimental -extra-tools -man -midi (-selinux)
+-test -test-programs" ABI_X86="(64) -32 (-x32)" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12"
+```
+
+No tengo el service pero instalé bluez y bluez-tools.
+
+Hice asi la instalacion.
+Comencé instalando Gentoo OpenRC con binarios
+pero no usé OpenRC y despupés seguí con esta XD.
+
 NO USES LA MISMA PARTICIÓN DE EFI PARA INSTALAR
 2 SISTEMAS OPERATIVOS OS-PROBER NO DETECTA BIEN.
 Y SI NO DETECTA BIEN VAS A TENER QUE GENERAR
@@ -200,10 +236,26 @@ Mejor si usás el repositorio de binarios con la opción `-g` explicado más aba
 
 ### Si queres usar xorg con xinitrc y dwm
 ```bash
+[gentoo@tux portage]$ cat /etc/portage/package.use/dwm 
+x11-wm/dwm savedconfig
+[gentoo@tux portage]$ cat /etc/portage/package.use/st
+x11-terms/st savedconfig
+
 sudo emerge -va x11-base/xorg-server xinit st dmenu xterm # Actualmente estoy usando kitty en vez de st porque soporta imágenes usando chawan 
 sudo emerge -vaqG x11-base/xorg-fonts
 sudo emerge -G xfontsel
 sudo emerge -G terminus-font
+
+Agrega a /etc/portage/savedconfig/x11-terms/st-0.9.3
+
+monospace:size=20
+
+Fijate de escribir bien el savedconfig x11-terms/st savedconfig si escribis x11-wm/st no te va a funcionar XD
+
+Luego etc-update o dispatch-conf
+
+eix x11-terms
+sudo emerge -qav x11-terms/st
 
 fc-cache -f -v
 fc-list
@@ -254,14 +306,22 @@ Si querés tener íconos tenés que **COMPILAR UN PARCHE XDDD**.
 #### Saber que banderas usa un programa
 
 ```bash
+emerge --info falkon
 sudo emerge -va app-portage/gentoolkit
 equery uses dwm
+
 ```
 
 ### Ahora instalá todos estos paquetes (si usaste dwm borrá sway):
 Para instalar OBS tenes que habilitar las banderas antes sino no funcionará cámara.
 
-Actualización: No uses networkmanager usa wpa_supplicant con dhcpcd
+Actualización: No uses networkmanager usa wpa_supplicant con dhcpcd, netifrc y usa emerge --ask net-wireless/wireless-tools para tener el comando iwlist para escanear las redes.
+
+```bash
+iwlist wlan0 scan 
+```
+
+---
 
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
@@ -937,27 +997,65 @@ Perfecto. **Gentoo sin X11 + eglfs + Falkon + WiFi con wpa_supplicant** — dire
 
 ---
 
-# 1️⃣ Qt + EGLFS (sin X11)
+To install Qt with EGLFS support on Gentoo for use with Falkon, you'll need to configure the Qt packages with the appropriate USE flags. Here's how:
 
-## `/etc/portage/package.use/qt`
+## Setting USE Flags for Qt
 
-```
-dev-qt/qtbase -X egl eglfs opengl gles2 gbm
-dev-qt/qtdeclarative egl
-media-libs/mesa egl gbm gles2
-```
-
-Si usás Wayland → NO pongas `-X` si dependés de algo que lo necesite.
-
----
-
-## Recompilar Qt (probable)
+First, add EGLFS support to your Qt base packages. Create or edit `/etc/portage/package.use/qt`:
 
 ```bash
-emerge -avuDN dev-qt/qtbase
+sudo nano /etc/portage/package.use/qt
 ```
 
----
+Add these lines:
+
+```
+dev-qt/qtbase eglfs
+dev-qt/qtgui egl
+```
+
+You might also want to ensure you have proper graphics support:
+
+```
+dev-qt/qtbase eglfs egl opengl
+```
+
+## Install/Reinstall Qt packages
+
+```bash
+sudo emerge -av dev-qt/qtbase
+```
+
+This will rebuild qtbase with EGLFS support.
+
+## Install Falkon
+
+```bash
+sudo emerge -av www-client/falkon
+```
+
+## Running Falkon with EGLFS
+
+To run Falkon using EGLFS instead of X11 or Wayland:
+
+```bash
+falkon -platform eglfs
+```
+
+Or set it as the default platform:
+
+```bash
+export QT_QPA_PLATFORM=eglfs
+falkon
+```
+
+## Additional Considerations
+
+- Make sure you have proper GPU drivers installed (mesa with appropriate VIDEO_CARDS in make.conf)
+- EGLFS is typically used for embedded systems or kiosk-mode applications without a full window manager
+- You may need to configure `/etc/eglfs.json` for multi-display or specific graphics configuration
+
+Does this setup work for your use case, or are you encountering specific issues?
 
 ## Falkon (máx binarios posibles)
 
@@ -1020,6 +1118,8 @@ country=AR
 
 ```bash
 ip link        # ver interfaz (ej: wlp3s0)
+ip link set wlan0 up
+
 
 wpa_supplicant -B -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf
 dhcpcd wlp3s0

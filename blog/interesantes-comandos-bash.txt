@@ -410,3 +410,25 @@ La url del video se genera así (para mirarlo con mpv).
 https://mover.uz/watch/unJCMj9x
 
 https://v.mover.uz/unJCMj9x_m.mp4
+
+### Adelantar un video
+
+```bash
+ffmpeg -i simplescreenrecorder-2026-02-14_09.19.56.mkv -filter_complex "[0:v]setpts=0.5*PTS[v];[0:a]atempo=2.0[a]" -map "[v]" -map "[a]" -c:v libx264 -preset veryfast -crf 23 output.mkv
+```
+
+#### Bajar la calidad a un video
+
+Subilo a youtube con youtube-upload y baja la version de baja calidad XD
+
+### Sacar screenshot de un área (imagemagick)
+
+```bash
+import hola.jpg
+```
+
+### Convertir pdf a imagen
+
+```bash
+pdftoppm diccionario1926.pdf -png ja
+```

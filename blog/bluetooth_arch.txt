@@ -3,6 +3,7 @@ title: "Conectar a dispositivo bluetooth en ArchLinux y transferir archivos."
 date: 2025-03-22T14:27:39-03:00
 tags: ['linux']
 ---
+
 Actualmente levanto un Hotspot en Android me conecto desde la computadora y paso los archivos así (cuando no tengo Internet hago esto).
 
 **Si queres transferir archivos tendras que instalar obex primero (explicado más abajo) y después levantar el servicio de bluetooth.** Si solo queres compartir audio podes hacer lo siguiente.

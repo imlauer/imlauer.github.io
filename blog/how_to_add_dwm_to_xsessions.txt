@@ -6,8 +6,7 @@ tags: ['linux']
 Crea un bash script llamado startdwm:
 ```
 $ cat /usr/bin/startdwm
-while true ; do xsetroot -name "$(cat /sys/class/thermal/thermal_zone4/temp) | `date`"; sleep 2
-0; done &
+while true ; do xsetroot -name "$(cat /sys/class/thermal/thermal_zone4/temp) | `date`"; sleep 20; done &
 keynav &
 brightnessctl s 30% &
 mbsync -a &

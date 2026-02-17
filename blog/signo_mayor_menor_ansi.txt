@@ -52,8 +52,8 @@ sudo nano /usr/share/X11/xkb/symbols/es
 
 At the bottom, you can add a **variant** like this:
 
-############ Agregá esto en "nodeadkeys" al comienzo no al final del archivo
-solo agregá las lineas `key`.
+############ Agregá esto en "basic" al comienzo no al final del archivo
+SOLO AGREGÁ LAS LINEAS `KEY`.
 
 ```xkb
 partial alphanumeric_keys

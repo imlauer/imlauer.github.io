@@ -1,0 +1,383 @@
+---
+title: "La maquina que te va a comer"
+date: 2026-02-17T17:11:35-03:00
+tags: ['ai']
+---
+¿Qué significa “la máquina que te va a comer”?   
+Cuando dice:
+
+“You are building the machine that will eat you”
+
+no habla literalmente de robots asesinos. Habla de:
+
+1️⃣ Automatización que reemplaza a quienes la crean
+
+La “máquina” es el sistema corporativo + IA + algoritmos que:
+
+Optimiza beneficios
+
+Reduce costos
+
+Sustituye trabajadores
+
+Despide cuando ya no sos útil
+
+Es una crítica al modelo: los empleados están entrenando y perfeccionando sistemas que eventualmente los vuelven prescindibles.
+
+2️⃣ Tecnología usada para manipular
+
+Él insiste mucho en esto:
+
+El problema no es la IA, es el colapso de la confianza.
+
+Se refiere a:
+
+Algoritmos de redes sociales
+
+Dark patterns
+
+Sistemas cerrados (closed source)
+
+Plataformas diseñadas para manipular atención
+
+La IA sería “otro amplificador” de manipulación social.
+
+3️⃣ Colapso de confianza social
+
+Su tesis más fuerte no es “la IA nos mata”, sino:
+
+Ya vivimos en una sociedad de baja confianza.
+
+Dice que:
+
+Las apps se metieron entre cada interacción humana.
+
+Las relaciones están mediadas por plataformas.
+
+Las decisiones están mediadas por algoritmos.
+
+Todo optimiza métricas, no bienestar.
+
+La IA profundiza eso.
+
+¿Por qué menciona “código cerrado”?
+
+En los comentarios aclara algo clave:
+
+No estoy en contra de la tecnología. Estoy en contra de tecnología closed source usada para manipular personas.
+
+Él defiende:
+
+Software con licencia MIT
+
+Código abierto
+
+Sin trucos ni dark patterns
+
+Lo que critica es:
+
+Modelos propietarios opacos
+
+Sistemas que nadie puede auditar
+
+Corporaciones que controlan infraestructura social
+
+Para él, el peligro no es la IA abierta, sino la IA controlada por pocos actores sin transparencia.
+
+¿Qué significa “morir atomizado y solo”?
+
+“Atomizado” = aislado, individualizado, fragmentado.
+
+Se refiere a:
+
+Gente sin comunidad real
+
+Sin vínculos fuertes
+
+Sin redes de confianza
+
+Dependientes de plataformas
+
+Su visión es que la tecnología está reemplazando tejido social por engagement optimizado.
+
+¿Es anti-IA?
+
+No exactamente.
+
+De hecho:
+
+Construye tecnología.
+
+Contrata ingenieros.
+
+Publica código abierto.
+
+Lo que plantea es más filosófico:
+
+Si seguimos alimentando sistemas que optimizan control y manipulación, eventualmente esos sistemas dominarán la estructura social.
+
+¿Es apocalíptico?
+
+Sí, retóricamente.
+
+Pero su mensaje real es más político que técnico:
+
+No es “AGI nos extermina”.
+
+Es “corporaciones + optimización algorítmica erosionan la sociedad”.
+
+Él cree que el problema ya empezó antes de la IA generativa.
+
+¿Qué está investigando o escribiendo en su blog?
+
+En su blog suele hablar de:
+
+Sistemas autónomos
+
+AGI
+
+Control
+
+Poder
+
+Estructuras de incentivos
+
+Confianza social
+
+Open source vs closed systems
+
+Suele mezclar:
+
+Teoría de juegos
+
+Filosofía política
+
+Ingeniería
+
+Crítica cultural
+
+Resumen simplificado
+
+Cuando dice “la máquina que nos comerá”, se refiere a:
+
+Un sistema tecnológico cerrado, optimizado para beneficio y control, que reemplaza y manipula a los mismos humanos que lo construyen.
+
+No es una advertencia técnica.
+Es una advertencia estructural.
+
+Si querés, puedo hacer un análisis más profundo tipo:
+
+📊 desde teoría de juegos
+
+🧠 desde psicología social
+
+💰 desde economía
+
+🤖 desde alineación de IA
+
+🔓 desde filosofía open source
+
+Decime desde qué ángulo querés verlo y lo desarmamos bien fino.
+
+q es dark patterns?
+¿Qué son los dark patterns?
+
+Los dark patterns (patrones oscuros) son diseños de interfaz hechos intencionalmente para manipularte y lograr que hagas algo que beneficia a la empresa, no necesariamente a vos.
+
+No son bugs.
+No son errores.
+Son decisiones de diseño pensadas para empujarte.
+
+🎯 La idea central
+
+Un dark pattern usa:
+
+Psicología
+
+Diseño visual
+
+Fricción artificial
+
+Confusión intencional
+
+para que:
+
+Aceptes algo sin querer
+
+No canceles
+
+Entregues más datos
+
+Compres más
+
+Te quedes más tiempo
+
+Tipos comunes de dark patterns
+1️⃣ Confirmshaming
+
+Te hacen sentir culpa si elegís no aceptar.
+
+Ejemplo:
+
+❌ “No, prefiero seguir pobre.”
+
+2️⃣ Roach Motel (hotel cucaracha)
+
+Entrar es fácil.
+Salir es difícil.
+
+Ejemplo:
+
+Suscribirte con un click.
+
+Cancelar requiere:
+
+Llamar por teléfono
+
+Hablar con soporte
+
+Pasar 6 pantallas
+
+3️⃣ Preselección engañosa
+
+Opciones marcadas por defecto.
+
+Ejemplo:
+☑ Recibir emails promocionales
+☑ Compartir mis datos con socios
+
+4️⃣ Urgencia falsa
+
+Te empujan con presión artificial.
+
+Ejemplo:
+
+“¡Solo quedan 2 habitaciones!”
+
+(Aunque no sea cierto.)
+
+5️⃣ Costos ocultos
+
+El precio final aparece recién al pagar.
+
+6️⃣ Dificultar el rechazo de cookies
+
+Botón gigante verde para “Aceptar todo”.
+Botón gris pequeño para “Configurar”.
+
+7️⃣ Interfaz confusa intencionalmente
+
+Botón “Cancelar” con diseño que parece “Confirmar”.
+
+¿Por qué se usan?
+
+Porque funcionan.
+
+Están basados en:
+
+Sesgos cognitivos
+
+Fatiga de decisión
+
+Impulsividad
+
+Presión social
+
+Y optimizan métricas como:
+
+Retención
+
+Conversión
+
+Tiempo en app
+
+Ingresos
+
+¿Por qué George Hotz los critica?
+
+Porque:
+
+No son tecnología neutral.
+
+Son diseño para manipulación.
+
+Son invisibles para la mayoría.
+
+Erosionan la confianza.
+
+Cuando él habla de “la máquina que te va a comer”, se refiere a sistemas que:
+
+No buscan tu bienestar, sino optimizarte como recurso.
+
+Los dark patterns son una pieza pequeña pero concreta de ese sistema.
+
+Diferencia clave
+
+🟢 Buen diseño → te ayuda a decidir mejor.
+🔴 Dark pattern → decide por vos usando manipulación.
+
+Si querés, puedo mostrarte:
+
+Cómo detectarlos rápido
+
+Cómo evitarlos
+
+Cómo diseñar sin caer en eso
+
+O cómo se conectan con algoritmos de IA y manipulación masiva
+
+Decime qué te interesa más.
+
+Messages beyond this point are only visible to you
+
+si y dame ejemplos reales
+
+Aquí te dejo algunos ejemplos de dark patterns en situaciones reales que tal vez hayas encontrado:
+
+1️⃣ Amazon: "Solo queda 1 en stock"
+
+Amazon, entre otras plataformas, utiliza este tipo de urgencia falsa. De repente, el producto que estás viendo te muestra un mensaje como:
+
+"¡Solo queda 1 en stock! Compra ahora antes de que se acabe".
+Aunque no sea cierto, el objetivo es que compres rápido, sin pensar mucho.
+
+2️⃣ Spotify: "Suscripción difícil de cancelar"
+
+En Spotify, cuando intentas cancelar tu suscripción, la plataforma te ofrece alternativas como:
+
+“¿Estás seguro de que quieres cancelar? Te podemos dar 3 meses gratis.”
+Esto es un ejemplo de "roaches motel", donde entras fácil (creas la cuenta) pero salir (cancelar) es complicado.
+
+3️⃣ Facebook/Instagram: "Aceptar todo" para cookies
+
+Es muy común ver un botón enorme que dice “Aceptar todo” cuando entras en un sitio web. En cambio, el botón de "configurar preferencias" es mucho más pequeño y menos visible, para evitar que modifiques lo que aceptas. Esto es un dark pattern de "dificultar rechazo de cookies".
+
+4️⃣ Airlines (Aerolineas): Costos ocultos
+
+Cuando compras un boleto de avión, a menudo el precio inicial parece muy atractivo, pero luego te muestran cargos adicionales como:
+
+"Tarifa por selección de asiento", "Impuestos", "Seguro opcional"
+Esto es un ejemplo de "costos ocultos". El precio final no se ve hasta que ya has pasado por el proceso de compra.
+
+5️⃣ LinkedIn: Preselección de correos
+
+Al registrar una nueva cuenta o configurar un perfil, LinkedIn te muestra varias opciones ya marcadas por defecto, como "recibir notificaciones" o "compartir mis datos con terceros". Esto es un ejemplo de preselección engañosa. Si no desmarcas manualmente, estas aceptando opciones que no deseas.
+
+6️⃣ Trenes o boletos de conciertos: "Solo queda un lugar"
+
+Cuando compras boletos para un evento o un tren, a veces el sitio te dice:
+
+"Quedan pocos boletos, ¡apresúrate!"
+Esto es una táctica de urgencia falsa que genera ansiedad para que tomes decisiones más impulsivas y compres rápidamente.
+
+7️⃣ Online shopping: El "barril de la compra"
+
+Algunos sitios de comercio electrónico muestran una barra de progreso que dice cosas como:
+
+"¡Solo tienes que agregar 1 más para llegar al envío gratuito!"
+Esto es un dark pattern que intenta hacer que compres algo innecesario solo para evitar un costo adicional.
+
+8️⃣ "Free trials" de servicios: Cuotas ocultas al final
+
+Muchos servicios de suscripción ofrecen una "prueba gratuita", pero luego, al final del periodo de prueba, te cobran automáticamente.
+El proceso de cancelación suele ser difícil de encontrar o está en un lugar oculto

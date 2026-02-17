@@ -1,0 +1,398 @@
+---
+title: "PDF to html"
+date: 2026-02-16T15:41:58-03:00
+tags: ['ai']
+---
+
+Actualización: Mirá lo que hizo el loco este para escanear un diccionario de Gregg en inglés.
+
+https://github.com/richyliu/greggdict/blob/master/format/README.md
+
+# Diccionario de Taquigrafía
+
+## Esquema del proceso de OCR
+
+El proceso para obtener las palabras y sus posiciones a partir de las fotos originales es bastante complicado. A continuación, un resumen del proceso:
+
+---
+
+### Paso 0: Limpiar las imágenes
+
+No lo hice al principio, pero esto mejoraría mucho los resultados del OCR.
+Blanquear las imágenes y aumentar el contraste y la nitidez usando una herramienta como **ImageMagick**.
+
+---
+
+### Paso 1: Escanear con Google Cloud Vision
+
+Usar el procesamiento asíncrono por lotes de imágenes de **Google Cloud Vision** para obtener el texto de todas las imágenes.
+Utilizar el reconocimiento `TEXT_DETECTION`, ya que hay poco texto en las páginas.
+
+---
+
+### Paso 2: Análisis exploratorio
+
+Visualizar los datos con `index.js`, que depende de `main.js`.
+Abrir `index.html`, que dibuja la página y las superposiciones de los cuadros de texto sobre un canvas.
+Esto permite determinar la mejor forma de extraer el texto útil.
+
+---
+
+### Paso 3: Extracción a JSON preliminar (formato 2)
+
+Ejecutar `run.js`, asegurándose de correr la función `moveToFormat2` para convertir el JSON escaneado original en un JSON más utilizable.
+
+Este archivo contiene:
+
+* La posición (un solo par de coordenadas) de cada palabra en el diccionario.
+* Un intento de corrección automática de errores.
+
+#### Errores conocidos
+
+Hay varios errores molestos en el JSON escaneado original:
+
+* Algunas letras se reconocen como caracteres cirílicos, que se ven idénticos a letras en inglés, pero tienen un código Unicode muy alto (>150).
+  Esto se corrige usando una tabla de equivalencias (`confusables.json`), proveniente de Unicode.
+
+* También hay “basura” extra al final de algunas palabras.
+  Esto se corrige en el paso 5.
+
+#### Corrección de errores
+
+La corrección se realiza eliminando letras desde el inicio de la palabra hasta que encaje alfabéticamente con las palabras que la rodean.
+
+---
+
+### Paso 4: Corrección manual de errores
+
+Los archivos JSON en formato 2 se cargan y los errores se corrigen manualmente usando `corrector.html` (y su correspondiente `corrector.js`).
+
+Es importante guardar y respaldar periódicamente el archivo `format.json` mientras se realizan las correcciones.
+
+Algunas palabras pueden faltar; en ese caso, deben agregarse manualmente al JSON de salida.
+
+---
+
+### Paso 5: Detección de errores ortográficos
+
+Todos los archivos están en `format3/`.
+
+1. Se extraen las palabras en `wordlist`.
+2. Se comparan contra un diccionario local (que puede no estar completo).
+
+* Solo se verifican palabras en minúsculas y alfabéticas.
+* Las que no pasan la verificación van a `notindict`.
+* Las que no se verifican van a `nonloweralpha`.
+
+Las palabras no verificadas se revisan si contienen solo caracteres alfabéticos (minúsculas y mayúsculas):
+
+* Las que no pasan → `notindict_upperalpha`
+* Las que contienen caracteres no alfabéticos → `nonalpha`
+
+En este punto hay tres archivos con palabras mal escritas:
+
+* `nonalpha`
+* `notindict_upperalpha`
+* `notindict` (para minúsculas)
+
+Muchas palabras terminan en puntuación “basura”.
+Estas se dividen en:
+
+* `nonalpha_endsinpunc`
+* `nonalpha_endsnotpunc`
+
+(derivados de `nonalpha`)
+
+La ortografía se verifica usando una herramienta online (PhraseFinder.com).
+El archivo utilizado es `phrasechecker.js`.
+
+Se ejecuta para cada uno de estos archivos:
+
+* `nonalpha_endsinpunc`
+* `nonalpha_endsnotpunc`
+* `nonalpha`
+* `notindict_upperalpha`
+* `notindict`
+
+Los resultados se guardan en archivos con el prefijo `pf_`.
+
+Las palabras que no son ASCII se asumen automáticamente como frases no inglesas.
+
+Las palabras en `nonalpha_endsinpunc` se corrigen eliminando la puntuación final (cualquier carácter distinto de `a-z` al final de la palabra).
+Aun así, quedan algunas palabras inválidas.
+Algunas terminadas en `-` deben corregirse manualmente.
+
+---
+
+### Paso 6: Corrección manual final
+
+Hay aproximadamente 250 palabras que deben corregirse manualmente.
+Esto se hace usando `fixer.html` y `fixer.js`, que funcionan de manera similar a `corrector`.
+
+Los archivos relevantes están en `format4/`.
+
+---
+
+### Paso 7: Limpieza final
+
+Se corrigen los números de archivo para que coincidan con el número real de página.
+
+El resultado final está en `format5/`, que también incluye las imágenes renombradas.
+
+
+
+# Shorthand Dictionary
+
+## OCR process outline
+
+The process for getting the words and their positions from the raw photos is
+quite complicated. Here is an outline of that process in brief
+
+### Step 0: Clean the images
+
+I didn't do this initially, but this would greatly improve OCR results. Whiten
+the images and increase the contrast and sharpness using a tool like imagemagick
+
+### Step 1: Scan with Google Cloud Vision
+
+Use Google Cloud Vision's asynchronous batch image processing to get the text of
+all the images. Use `TEXT_DECTECTION` recognition, since there is sparse text on
+the pages
+
+### Step 2: Exploratory analysis
+
+Visualize the data with `index.js`, which depends on `main.js`. Open up
+`index.html`, which draws the page and the text box overlays on a canvas. This
+can be used to determine how best to extract the useful text.
+
+### Step 3: Extraction into preliminary JSON (format 2)
+
+Run `run.js`, making sure to run the `moveToFormat2` function to convert the
+raw scanned JSON into more usable JSON. This contains the position (just one
+pair of coordinates) of each word in the dictionary as well as some of its best
+effort error correction.
+
+#### Know errors
+
+There are several annoying errors in the raw scanned JSON. The first is that
+some letters are scanned as Cyrillic characters, which appear identical to
+English letters with the exception that their char code point is extremely large
+(> 150). This is corrected by using a lookup table (`confusables.json`), which
+is from UNICODE. Another error is that there is extraneous "junk" at the end of
+a word. This is dealt with in step 5
+
+#### Error correction
+
+Error correction is done by removing letters from the start of the word until it
+fits in alphabetically with the surrounding words.
+
+### Step 4: Manual error correction
+
+The format 2 JSON files are loaded and errors are manually corrected using
+`corrector.html` (and the corresponding `corrector.js`). Periodically save and
+back up the `format.json` file while going through the corrections.
+
+Some words may be missing, in which case manually add them to the output JSON.
+
+### Step 5: Word spelling error detection
+
+All the files are in `format3/`. First the words are extracted into `wordlist`.
+Then they are checked against a local dictionary (which may not be complete).
+Only lowercase alpha words are checked, and the ones that do not pass are put
+into `notindict`. The words that are not checked are put into `nonloweralpha`.
+Those unchecked words are checked against the dictionary if they contain only
+alpha characters (lower and uppercase). The ones that do not pass are put into
+`notindict_upperalpha` and the ones that are contain non alpha characters are
+put into `nonalpha`. At this stage there are three files that contain words that
+are not spelled correctly: `nonalpha`, `notindict_upperalpha`, and `notindict`
+(for lower alpha).
+
+There are a lot of words which end in "junk" punctuation. Those have been split
+into `nonalpha_endsinpunc` while the rest are in `nonalpha_endsnotpunc`. (This
+is from `nonalpha`)
+
+The spelling of words is checked using an online lookup tool (PhraseFinder.com).
+The file for doing this is `phrasechecker.js`. It is run for each of the 4
+files: `nonalpha_endsinpunc`, `nonalpha_endsnotpunc`, `nonalpha`,
+`notindict_upperalpha`, `notindict` and the result goes into another file with
+`pf_` as the prefix. Non ASCII words are automatically assumed to be non English
+phrases.
+
+The words in `nonalpha_endsinpunc` are fixed by removing the ending
+"punctuation" (really anything besides `a-z` that the word ends in). There are
+still a few words after which still are not valid. There are a few words with
+end in `-` that need to be fixed manually.
+
+### Step 6: Manual fixing
+
+There are about 250 words that need to be fixed manually. This is done using
+`fixer.html` and `fixer.js`. It is structured similarly to corrector. The
+relevant files are in `format4/`
+
+### Step 7: Final clean up
+
+The file numbers are corrected (to match the actual page number). The output is
+in `format5/`, which includes the images renamed as well.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Viejo no usar
+
+Dame el codigo de python que pasa de un pdf a texto del diccionario que contiene los simbolos el diccionario empieza en la pagina numero 5. El simbolo esta a la iazquierda y la palabra a la derecha quiero que el script me genere un archivo html en donde pueda hacer control +f y buscar la palabra (tenes que pasar la imagen a texto ) pero el simbolo dejalo como texto, no se si me entendes si queres mas informacion pedime, otro dato mas son 3 columnas y a veces hay palabras que se escriben en 2 renglones pero son 1 como por ejemplo administra- y abajo dor seria administrador, dame a mi el codigo y yo lo ejecuto en mi computadora
+
+Perfecto, ahora entiendo mejor. Son **3 columnas** y necesitas manejar las palabras que se dividen en dos renglones (con guión). Te voy a dar el código completo y optimizado:Perfecto! Te acabo de crear el script completo. Aquí te explico lo que hace:
+
+## 🎯 Características del Script
+
+1. **Maneja 3 columnas** por página
+2. **Une palabras divididas**: "administra-" + "dor" → "administrador"
+3. **Símbolos como imágenes** (columna izquierda)
+4. **Palabras como texto OCR** (columna derecha)
+5. **HTML con búsqueda** Ctrl+F y cuadro de búsqueda
+
+## 📦 Dependencias que necesitas instalar
+
+```bash
+pip install PyMuPDF pillow pytesseract
+```
+
+Y también necesitas instalar **Tesseract OCR**:
+- **Windows**: Descarga desde https://github.com/UB-Mannheim/tesseract/wiki
+- **Mac**: `brew install tesseract tesseract-lang`
+- **Linux**: `sudo apt-get install tesseract-ocr tesseract-ocr-spa`
+
+## 🚀 Cómo usar el script
+
+1. Coloca el PDF en la misma carpeta que el script
+2. Ejecuta: `python diccionario_pdf_to_html.py`
+3. Abre el archivo `diccionario_taquigrafico.html` en tu navegador
+
+## ⚙️ Ajustes importantes
+
+Si las columnas no se detectan bien, ajusta estos valores en la línea 128-134:
+
+```python
+columns_config = [
+    # Columna 1
+    {'symbol': (0.02, 0.12), 'text': (0.12, 0.32)},
+    # Columna 2
+    {'symbol': (0.35, 0.45), 'text': (0.45, 0.65)},
+    # Columna 3
+    {'symbol': (0.68, 0.78), 'text': (0.78, 0.98)}
+]
+```
+
+Los números representan el porcentaje del ancho de la página (de 0 a 1).¡Listo! El script está disponible para descargar. Cualquier duda sobre cómo ejecutarlo o si necesitas ajustar algo, avisame! 🚀
+
+Ah, necesitas instalar Tesseract OCR en tu sistema. Como estás en Gentoo Linux, aquí están los comandos:
+
+## 🔧 Instalación en Gentoo
+
+```bash
+# Instalar Tesseract OCR con soporte para español
+sudo emerge -av app-text/tesseract
+sudo emerge -av app-dicts/myspell-es
+
+# O si prefieres los datos de idioma de tesseract:
+sudo emerge -av app-text/tesseract-data-spa
+sudo emerge -av app-text/tesseract-data-eng
+```
+
+## ✅ Verificar instalación
+
+Después de instalar, verifica que funcione:
+
+```bash
+tesseract --version
+tesseract --list-langs
+```
+
+Deberías ver algo como:
+```
+tesseract 5.x.x
+List of available languages (2):
+eng
+spa
+```
+
+## 🚀 Ejecutar el script
+
+Una vez instalado Tesseract, vuelve a ejecutar:
+
+```bash
+python diccionario_pdf_to_html.py
+```
+
+---
+
+## 🔄 Alternativa si hay problemas
+
+Si tienes problemas con emerge, puedes especificar la ruta de Tesseract manualmente en el script. Agrega esto al inicio del archivo, después de los imports:
+
+```python
+import pytesseract
+
+# Especifica la ruta de tesseract si no está en PATH
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'  # Ajusta esta ruta
+```
+
+¿Te funcionó la instalación? Si sigues teniendo problemas, avísame y te ayudo a resolverlo! 🛠️
+
