@@ -5,6 +5,8 @@ tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
 
+Siempre poné el comando `time` al inicio de emerge.
+
 Si queres bluetooth no te va a alcanzar con instalar
 bluez bluez-tools tenes que activar las banderas de systemd
  en /etc/portage/make.conf aunque diga que están explícitas
@@ -241,6 +243,8 @@ x11-wm/dwm savedconfig
 [gentoo@tux portage]$ cat /etc/portage/package.use/st
 x11-terms/st savedconfig
 
+Poné `dwm -e tmux` en la configuración de dwm: `/etc/portage/savedconfig/x11-wm/dwm`
+
 sudo emerge -va x11-base/xorg-server xinit st dmenu xterm # Actualmente estoy usando kitty en vez de st porque soporta imágenes usando chawan 
 sudo emerge -vaqG x11-base/xorg-fonts
 sudo emerge -G xfontsel
@@ -323,10 +327,20 @@ iwlist wlan0 scan
 
 ---
 
+OJO. Si instalás w3m sin imlib no vas a poder ver las imágenes en la tty.
+
+Esta es la forma más rápida de hacerlo:
+```bash
+emerge -aqvg --autounmask-backtrack=y --binpkg-respect-use=n paquete
+```
+
 ```bash
 emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+```
 
-Agregá --autounmask-write y luego dispatch-conf
+Agregá `--autounmask-write` y luego `dispatch-conf`
+
+```bash
 hwclock --systohc
 systemctl enable NetworkManager
 ```
@@ -337,6 +351,7 @@ el bootloader a la ubicación de respaldo “fallback” porque sino se borra s�
 `sudo grub-install --target=x86_64-efi --efi-directory=/boot --removable`
 
 Para que os-prober descubra otra particiones tenés que montarlo y en `/etc/default/grub` escribí `GRUB_DISABLE_OS_PROBER=false`
+
 ```bash
 grub-mkconfig -o /boot/grub/grub.cfg
 echo "KEYMAP=es" > /etc/vconsole.conf
@@ -372,8 +387,15 @@ Listo.
 Por ejemplo leyendo OBS gentoo dice que las flags más comunes son: 
 
 > For a standard streaming setup that uses a webcam, PulseAudio, has a NVIDIA graphics card and integrates with major streaming services one might add to `/etc/portage/package.use`:
+
 ```bash
-media-video/obs-studio lua nvenc pulseaudio speex v4l
+YO NO USO PULSEAUDIO 
+
+ACTUALMENTE LO USO ASI PORQUE NO TENGO NVIDIA (NVENC)
+media-video/obs-studio v4l lua speex
+
+
+media-video/obs-studio lua nvenc pulseaudio speex v4l 
 ```
 
 ###### Cuando agregás flags USE tenés que ejecutar
@@ -654,10 +676,10 @@ sudo emerge -va gimp
 
 ```bash
 #### Nuevo
-[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
 #### Viejo (pulseaudio)
-[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pulseaudio tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant t ranslate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+[I] esotericwarfare@jentu ~> sudo qlop -t gentoo-kernel-bin grub networkmanager pulseaudio tmux fastfetch os-prober su do fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
 
 2025-04-07T02:02:57 >>> app-misc/fastfetch: 3′40″
 2025-04-07T02:06:37 >>> sys-boot/grub: 23′26″

@@ -152,3 +152,4 @@ https://archive.org/details/MI_BLOG1771183059-159 - commit: 1
 https://archive.org/details/MI_BLOG1771183129-220 - commit: francia
 https://archive.org/details/MI_BLOG1771363450-314 - commit: a
 https://archive.org/details/MI_BLOG1771363682-26 - commit: mas
+https://archive.org/details/MI_BLOG1771498277-66 - commit: gentoo
