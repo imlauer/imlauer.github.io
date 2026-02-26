@@ -1,0 +1,218 @@
+---
+title: "Adicciones software propietario"
+date: 2026-02-24T12:06:08-03:00
+tags: ['nonfree']
+---
+
+# 5 Patrones Increíbles de Monetización en Juegos usando 'Economía del Comportamiento' en el Diseño UX
+
+**Publicado originalmente en:** [Gamasutra](http://www.gamasutra.com/blogs/OmTandon/20161209/287185/5_Incredibly_powerful_F2P_monetisation_patterns_using_Behavioural_Economics_in_UX_design.php)
+
+*La Economía del Comportamiento es una fascinante rama de la economía que explora la psicología del proceso de toma de decisiones de los clientes.*
+
+A lo largo de los años he estado probando y revisando numerosos juegos móviles y aplicaciones de diferentes géneros. Mientras disfruto deconstruyendo y analizando diferentes aspectos de los productos digitales—como la incorporación, el bucle principal, lo social, el meta, PvP, etc.—los patrones de monetización empleados son de especial interés para mí debido a mi formación en economía.
+
+Aquí hay 5 patrones de monetización no convencionales que difieren de lo común pero funcionan increíblemente bien, cada uno basado en un sólido principio de economía del comportamiento.
+
+> Pero antes de sumergirnos en qué son estos patrones, entendamos los principios subyacentes de Economía del Comportamiento y cómo se aplican a estos patrones no convencionales.
+
+## ¿Qué es la 'Economía del Comportamiento'?
+
+*El estudio de la psicología relacionada con los procesos de toma de decisiones económicas de individuos e instituciones.*
+
+La EC divide a los consumidores en 3 categorías distintas, según cuánto dolor de compra experimentan al gastar:
+
+1. **Tacaños (24%):** Estos clientes gastan *menos* en promedio antes de alcanzar sus límites de dolor.
+2. **Sin conflictos (60%):** Estos son tus gastadores promedio.
+3. **Derrochadores (15%):** Estos clientes gastan *más* en promedio antes de alcanzar sus límites de dolor.
+
+Los estudios demuestran que casi una cuarta parte del grupo de compradores son 'Tacaños', estos clientes tienen un umbral muy bajo para gastar debido a la alta sensibilidad al dolor de compra. Esta distribución está aún más sesgada en **juegos free-to-play donde solo el 1% de tu base de jugadores realmente abre su billetera.**
+
+### Pregunta: ¿Cómo reducimos el 'dolor de compra' para los clientes tacaños?
+
+La respuesta reside en varios principios que la EC proporciona al hacer que el costo del producto sea menos doloroso, como veremos a continuación:
+
+---
+
+## 1) EFECTO SEÑUELO - Anclaje de precios
+
+> La toma de decisiones de un cliente cambia dependiendo del señuelo que se incluya en la mezcla.
+
+Las elecciones a menudo ocurren en relación con lo que se ofrece en lugar de basarse en preferencias absolutas. El efecto señuelo es técnicamente conocido como una '**elección asimétricamente dominada**' y ocurre cuando la preferencia de las personas por una opción sobre otra cambia como resultado de agregar una tercera opción (similar pero menos atractiva).
+
+Básicamente, si a las personas se les dan opciones para comprar palomitas grandes por $7 y palomitas pequeñas por $3, las personas comprarán según su preferencia normal. Pero si introducimos una 3ª opción de palomitas medianas por $6.50 (que es marginalmente mejor en términos de **valor/volumen** que el precio más bajo pero inferior en valor a la **opción de precio más alto**), esto desplazará el enfoque de las personas del valor de bajo costo a puramente la **comparación entre el señuelo y la opción de precio más alto**.
+
+Las personas sienten que pueden obtener **mucho más valor** pagando solo **marginalmente más** y por lo tanto se sienten inteligentes al respecto.
+
+> **Los anclajes** distraen la atención de los clientes hacia la opción que las empresas quieren que compren mientras les dan la sensación de satisfacción de haber superado al sistema.
+
+Muchas tiendas de juegos móviles usan este tipo de anclaje con señuelo para vender puntos de precio de alto valor. Por ejemplo: 'Diamond Digger Saga', 'Farmville 2'—cuando el jugador hace clic en la tienda, solo se le **muestran 3 opciones de inmediato** que usan señuelos para anclar las preferencias del jugador.
+
+Esto ayuda a reducir el sesgo de elección al no ofrecer a los jugadores un número abrumador de opciones que pueden llevar a la parálisis de elección y ayuda a la conversión mediante el uso del anclaje con señuelo.
+
+**Nota en ambas pantallas anteriores, hay botones de "Más ofertas/paquetes" que van de 5 a 10 ofertas, pero para el efecto señuelo solo se muestran 3 de inmediato.**
+
+¿Necesitas más pruebas? Mira cómo **Hearthstone** utiliza esta estrategia bien, [aquí](http://www.pocketgamer.biz/news/59728/mark-sorrel-on-behavioural-economics-and-ugly-brother-pricing/).
+
+---
+
+## 2) RECIPROCIDAD - La psicología de las muestras gratis
+
+*La reciprocidad es una norma social que involucra intercambios equivalentes entre personas, principalmente respondiendo a la acción de otro con otra acción equivalente.*
+
+Es una de las **leyes básicas de la psicología social**. Dice que en muchas situaciones sociales devolvemos lo que recibimos de otros. En otras palabras, si alguien te hace un favor, es probable que se lo devuelvas.
+
+> Las organizaciones benéficas a menudo aprovechan la reciprocidad al incluir regalos en cartas de solicitud, mientras que los supermercados intentan hacer que las personas compren más ofreciendo muestras gratis.
+
+Abajo hay una vista común en supermercados a nuestro alrededor. Vemos empresas ofreciendo **muestras gratis** de productos, bebidas y alimentos para despertar el apetito de los clientes sin ninguna inversión inicial.
+
+> Los restaurantes y tiendas de todo el mundo atraen clientes con versiones de bocado de su comida, productos de prueba incluso.
+
+### Pregunta: ¿Cómo puede usarse este modelo del mundo real en tiendas virtuales en juegos?
+
+Los populares juegos de match-3 de **King.com** utilizan este modelo y psicología a su favor:
+
+### Pet Rescue Saga (King.com)
+
+Pet Rescue Saga inicialmente sigue el mismo diseño que otros juegos de match-3 donde el jugador puede desbloquear los potenciadores a medida que progresa. Reciben algunos potenciadores para PROBAR y una vez que se agotan, rápidamente te pide que compres más.
+
+Pet Rescue tiene muchos potenciadores pero hay algunos comunes mostrados en varios niveles como la BOMBA y el COHETE; que no están disponibles para comprar en el juego.
+
+En los niveles iniciales si fallo, vería la típica pantalla de "Sin movimientos" comprar +5 movimientos.
+
+Pero este comportamiento inicial cambia con el tiempo. A medida que los jugadores progresan más profundamente en el juego, las pantallas de fracaso cambian para acomodar nuevos tipos de potenciadores—**Aquellos que no se pueden equipar de antemano pero solo están disponibles en la pantalla de fracaso.**
+
+Puedes preguntar, ¿cuál es el trato? ¿Simplemente reemplazaron la oferta de "+5 movimientos" en la pantalla de fracaso con un montón de potenciadores aleatorios?
+
+... ¿aleatorios? ¿En serio?
+
+**Mira de cerca. Las nuevas ofertas son versiones POTENCIADAS de potenciadores existentes (¡aquellos que los jugadores consumen ocasionalmente gratis)!**
+
+¿Qué está pasando de nuevo? *Visualicémoslo mejor:*
+
+Hay otros juegos de King.com también que usan este modelo frecuentemente que he cubierto en otro artículo. Encuentra el artículo completo [aquí](http://www.linkedin.com/pulse/match-3-monetisation-new-booster-selling-trend-king-games-om-tandon?trk=mp-reader-card).
+
+---
+
+## 3) CONTRAOFERTA - Negociación
+
+Las Estrategias de Economía del Comportamiento están diseñadas para negociar y reducir el dolor de la compra para el cliente. Esto pesa significativamente en el proceso de toma de decisiones de compra del cliente.
+
+La negociación/contraoferta ha existido por siglos. Como humanos, a las personas les encanta regatear antes de hacer realmente la compra. Tanto compradores como vendedores entienden esto y dejan margen para una ganancia significativa en el precio marcado de los bienes.
+
+> Incluso en una era de precios fijos, los compradores siempre comparan precios con otras tiendas y sitios de comercio electrónico como Amazon, Macy's, etc. para obtener la mejor oferta y sentirse empoderados.
+
+### Pregunta: ¿Cómo puede usarse este modelo del mundo real en tiendas virtuales en juegos?
+
+Muchos juegos free-to-play han estado usando esto últimamente. Observa el ejemplo de abajo de **Farm Heroes Saga**, un escenario típico de juego match-3. Cuando el jugador se queda sin movimientos antes de completar un nivel, el jugador recibe un mensaje de compra:
+
+*5 movimientos por 9 barras de oro, para continuar sin perder el progreso*
+
+**Sin embargo, si el jugador no compra, ¡reciben una contraoferta con descuento la próxima vez que vean esta pantalla!**
+
+Observa cómo el precio de la compra es el mismo—9 barras de oro—pero el trato ha sido **endulzado** dando a los jugadores *valor extra* al incluir un paquete de bonificación que ofrece mayor valor comparado con la oferta anterior.
+
+**Importante:** Nota cómo la nueva oferta se da como una elección ahora (en lugar de solo mostrar un botón de precio, se muestran dos botones de precio). Esto deja saber a los jugadores en un nivel subconsciente que se les está ofreciendo una contraoferta.
+
+**Nota** también los cambios sutiles como la diferencia en tamaños y precios tachados (15 vs 9 barras de oro) ayudan a vender la nueva oferta con descuento.
+
+---
+
+## 4) EFECTO DE DOTACIÓN - Las personas atribuyen más valor a las cosas que poseen
+
+> En psicología y Economía del Comportamiento, el efecto de dotación (también conocido como aversión a la desinversión y relacionado con el efecto de mera propiedad en psicología social) es la hipótesis de que las personas atribuyen más valor a las cosas meramente porque las poseen o las crean.
+
+**Slotomania** utiliza un modelo de monetización único basado en el efecto de dotación. Se usa como un mecanismo de conversión efectivo haciendo que las personas se sientan inteligentes sobre sus elecciones.
+
+*Nota el icono del 'Cerdo' que aparece como parte del HUD en Slotomania (arriba) que es similar al modelo mental de una alcancía en la vida real.*
+
+### Pregunta: ¿Cómo funciona el modelo del 'CERDO'?
+
+En esencia, **Slotomania** crea una IAP que sigue el modelo mental de una 'Alcancía' en la vida real.
+
+**El jugador ve sus esfuerzos = Ganancias + Tiempo pasado en el juego = la cantidad de HC que contiene el Cerdo.**
+
+Pero, ¿cómo hace esto que el jugador se sienta más inteligente o diferente de cualquier otra IAP en el juego? ¿Por qué debería el jugador comprar/preferir esta oferta?
+
+Por $3, la tienda ofrece 45,000 monedas, por $2.99 la oferta por tiempo limitado es 51,750 monedas. Pero romper el cerdo ofrece solo 5,000 monedas. ¿Correcto?
+
+Sin embargo, a medida que el jugador sigue jugando el juego, la Alcancía sigue creciendo (cada giro del jugador, el tiempo pasado en el juego agrega monedas gratis al cerdo) y como puedes ver,
+
+**¡Ahora ofrece 132,334 monedas por solo $2.99! ¡Superó la oferta más baja de la tienda (45,000 monedas por $3) y la oferta de TLE (51,750 monedas por $3) por un margen enorme y parece una compra inteligente!**
+
+**NOTA:** *Hay dos principios en juego aquí, también podemos decir que las otras ofertas actúan como Señuelos para impulsar la IAP de "Alcancía".*
+
+p.d.: El jugador puede romper el banco por un costo fijo de $2.99 en cualquier momento del juego independientemente de la cantidad que contenga.
+
+> Psicológicamente, el jugador siente que la cantidad en la "Alcancía" es el resultado de su propia campaña. Cantidad en el Banco = Tiempo pasado por el jugador en el juego. Esto crea apego.
+
+Artículo completo [aquí](http://www.linkedin.com/pulse/ux-review-slotomania-hooks-baits-social-casino-gaming-om-tandon?trk=mp-reader-card)
+
+---
+
+## 5) PSICOLOGÍA DE SUPERMERCADO - ¡Muestra a los clientes lo que quieres que vean!
+
+Cuando entras a un supermercado, probablemente quieres gastar la menor cantidad de dinero posible. Pero el supermercado quiere que gastes la mayor cantidad de dinero posible y está literalmente integrado en su diseño.
+
+**Así es como.** En cualquier supermercado o centro comercial, los artículos más esenciales o de uso diario siempre se mantienen en la parte trasera de la tienda para que tengas que pasar y ver todos los caros y de alto vanidad que no estás planeando comprar pero terminas comprando.
+
+*Esta estrategia de diseño de tienda es usada por la mayoría de los supermercados alrededor del mundo.*
+
+### Pregunta: ¿Cómo puede usarse este modelo del mundo real en tiendas virtuales en juegos?
+
+Puede hacerse, ya que hay una implementación similar en Marvel Contest.
+
+(Captura de pantalla arriba) El inventario de cristales con desplazamiento vertical muestra al jugador los artículos de alto vanidad y visualmente impresionantes comprables en el momento en que aterrizan en esta pantalla.
+
+El jugador luego tiene que desplazarse manualmente hacia abajo para ver o reclamar los cristales que ha ganado en batallas.
+
+La idea aquí es enviar al jugador a la tienda/inventario con la mayor frecuencia posible, lo cual se hace dando al jugador cristales gratuitos por hora y diarios. Esto asegura que el jugador venga a este espacio frecuentemente.
+
+**Toma UX:** Cualquier diseñador UX pensaría, en circunstancias normales, en hacer la pantalla más accesible **ordenando la lista con cristales gratis o listos para abrir en la parte superior y no ocultándolos en una lista desplazable en la parte inferior** para que los jugadores no tengan que esforzarse mucho para encontrarlos.
+
+Pero en este caso el flujo está diseñado para preparar a los jugadores para venir a esta tienda tan a menudo como sea posible y notar las cosas de alto vanidad usando psicología de supermercado y minorista. Así que las cosas gratis están deliberadamente ocultas a la vista de los jugadores, haciéndolos primero ver las cosas premium antes de encontrar su camino desplazándose hacia abajo hasta las cosas gratis de valor percibido bajo (pan y huevos).
+
+Artículo completo [aquí](http://www.linkedin.com/pulse/ux-review-marvel-contest-champions-om-tandon?trk=mp-reader-card)
+
+---
+
+## CONCLUSIÓN
+
+*Las estrategias* ilustradas arriba han sido usadas en el marketing de productos y servicios por siglos, pero a medida que avanzamos hacia la era de los bienes digitales y virtuales, los mismos principios sólidos pueden integrarse en el viaje del cliente sin aparecer demasiado invasivos mediante un diseño UX inteligente.
+
+1. Efecto señuelo - Anclaje de precios
+2. Reciprocidad - La psicología de las muestras gratis
+3. Contraoferta - Negociación
+4. Efecto de dotación - Las personas atribuyen más valor a las cosas que poseen, o piensan que poseen
+5. Psicología y estrategia de supermercado - Hacer que los clientes compren más
+
+Mientras que los ejemplos de arriba se mostraron válidos para juegos móviles, pueden adoptarse fácilmente para cualquier aplicación y servicio digital con algo de diseño UX inteligente.
+
+---
+
+**Autor:** Om Tandon  
+**Fecha de publicación:** 7 de marzo de 2019  
+**Etiquetas:** Monetización, UX, Juegos, F2P
+
+---
+
+## Enlaces de Referencia
+
+1. [Artículo original en Gamasutra](http://www.gamasutra.com/blogs/OmTandon/20161209/287185/5_Incredibly_powerful_F2P_monetisation_patterns_using_Behavioural_Economics_in_UX_design.php)
+2. [Hearthstone y el "Ugly Brother Pricing"](http://www.pocketgamer.biz/news/59728/mark-sorrel-on-behavioural-economics-and-ugly-brother-pricing/)
+3. [Nueva tendencia de venta de potenciadores en juegos King](http://www.linkedin.com/pulse/match-3-monetisation-new-booster-selling-trend-king-games-om-tandon?trk=mp-reader-card)
+4. [UX Review: Slotomania](http://www.linkedin.com/pulse/ux-review-slotomania-hooks-baits-social-casino-gaming-om-tandon?trk=mp-reader-card)
+5. [UX Review: Marvel Contest of Champions](http://www.linkedin.com/pulse/ux-review-marvel-contest-champions-om-tandon?trk=mp-reader-card)
+
+---
+
+**Artículos relacionados:**
+- [UX Review: Slotomania, the hooks & baits of social casino gaming](/home/2019/2/16/ux-review-slotomania-the-hooks-amp-baits-of-social-casino-gaming)
+- [New! booster selling TREND in King games](/home/2019/3/7/new-booster-selling-trend-in-king-games)
+- [Move over Minecraft: Monetising new wave of User Generated Content!](/home/2019/3/7/move-over-minecraft-monetising-new-wave-of-user-generated-content)
+
+https://www.gnu.org/proprietary/proprietary-addictions.es.html
+https://www.gnu.org/proprietary/proprietary-fraud.es.html
+https://www.uxreviewer.com/home/2019/3/7/5-incredibly-powerful-monetisation-patterns-using-behavioural-economics-in-ux-design
+https://www.pcgamer.com/behind-the-addictive-psychology-and-seductive-art-of-loot-boxes/
+

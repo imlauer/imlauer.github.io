@@ -5,6 +5,9 @@ tags: ['tools']
 ---
 ```bash
 wget --recursive --no-parent http://example.com/configs/.vim/
+
+wget -e robots=off --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.37" --mirror --convert-links --adjust-extension --page-requisites --no-parent --recursive --level=5 --span-hosts --domains=harmful.cat-v.org http://harmful.cat-v.org/
+
 ```
 
 Para evitar que se descargue el `index.html`:

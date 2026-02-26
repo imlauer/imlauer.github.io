@@ -5,7 +5,7 @@ tags: ['gentoo','install']
 categories: ['linux','installation']
 ---
 
-Siempre poné el comando `time` al inicio de emerge.
+Siempre poné el comando `time` al inicio de emerge y usá `su` es más conveniente que escribir sudo cada vez.
 
 Si queres bluetooth no te va a alcanzar con instalar
 bluez bluez-tools tenes que activar las banderas de systemd
@@ -55,8 +55,6 @@ Y CADA VEZ QUE LO ACTUALICES VAS A TENER Q HACER ESO xd
 
 
 
-NO USES NETWORKMANAGER ES DEMASIADO BLOAT,
-USA `WPA_SUPPLICANT` CON `DHCPCD`
 
 Para instalar rápido usá binarios y quiet `emerge -qavG`
 
@@ -316,6 +314,17 @@ equery uses dwm
 
 ```
 
+##### Para saber qué paquetes usan una bandera
+
+```bash
+[gentoo@tux ~]$ equery h eglfs
+ * Searching for USE flag eglfs ...
+[IP-] [  ] dev-qt/qtbase-6.10.1:6/6.10.1
+[gentoo@tux ~]$ 
+```
+
+
+
 ### Ahora instalá todos estos paquetes (si usaste dwm borrá sway):
 Para instalar OBS tenes que habilitar las banderas antes sino no funcionará cámara.
 
@@ -324,6 +333,21 @@ Actualización: No uses networkmanager usa wpa_supplicant con dhcpcd, netifrc y 
 ```bash
 iwlist wlan0 scan 
 ```
+
+#### No me podía conectar a WiFis puntos de acceso con WPA TKIP y era porque está deprecado tenés que activar la bandera `tkip` en `wpa_supplicant`: 
+
+```bash
+tkip               : Add support for WPA TKIP (deprecated due to security flaws
+
+[gentoo@tux ~]$ cat /etc/portage/package.use/wpa_supplicant
+net-wireless/wpa_supplicant tkip
+[gentoo@tux ~]$ sudo emerge -vaqg wpa_supplicant
+[gentoo@tux ~]$ sudo systemctl restart wpa_supplicant dhcpcd
+[gentoo@tux ~]$ sudo systemctl daemon-reload
+[gentoo@tux ~]$ sudo wpa_supplicant -B -i wlp1s0 -c  /etc/wpa_supplicant/wpa_supplicant.conf
+[gentoo@tux ~]$ sudo dhcpcd wlp1s0
+```
+
 
 ---
 
@@ -334,16 +358,56 @@ Esta es la forma más rápida de hacerlo:
 emerge -aqvg --autounmask-backtrack=y --binpkg-respect-use=n paquete
 ```
 
+Para instalar netsurf con soporte framebuffer tenes que mirar las banderas primero (actualización NO NO FUNCIONÓ NO TENGO SOPORTE SDL)
+
 ```bash
-emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp
+equery uses netsurf
+vim /etc/portage/package.use/netsurf
+[gen2@tux ~]$ cat /etc/portage/package.use/netsurf
+www-client/netsurf fbcon
+emerge -agv --autounmask-backtrack=y --binpkg-respect-use=n netsurf
+```
+
+NO USES NETWORKMANAGER ES DEMASIADO BLOAT,
+USA `WPA_SUPPLICANT` CON `DHCPCD`
+
+
+```bash
+emerge -va gentoo-kernel-bin grub networkmanager pipewire tmux fastfetch os-prober sudo fish sway wmenu foot alsa-utils firefox-bin mpv php apulse imagemagick sys-kernel/linux-firmware wpa_supplicant translate-shell dev-vcs/git hugo dev-python/pip wl-clipboard grim btop feh yt-dlp neomutt aircrack-ng falkon irssi w3m net-fs/samba vim links obs-studio gimp app-arch/unzip  app-arch/unrar net-im/pidgin net-irc/irssi-xmpp
+
 ```
 
 Agregá `--autounmask-write` y luego `dispatch-conf`
+
+NO USES NETWORKMANAGER ES DEMASIADO BLOAT,
+USA `WPA_SUPPLICANT` CON `DHCPCD`
 
 ```bash
 hwclock --systohc
 systemctl enable NetworkManager
 ```
+
+en mi caso cuando lo instalé no me detectaba todas las wifis (access point) tenía poco alcancé le pregunté a claude ai y ejecuté este comando y se solucionó:
+
+```bash
+iw reg get
+sudo iw reg set AR
+sudo modprobe -r rtl8723be && sudo modprobe rtl8723be ant_sel=1
+echo "options rtl8723be ant_sel=1" | sudo tee /etc/modprobe.d/rtl8723be.conf
+
+```
+
+## NO USES NETWORKMANAGER. Usá iw con wpa_supplicant
+
+ip link set wlp1s0 up # ifconfig wlp1s0 up
+
+sudo iw dev wlp1s0 scan
+
+wpa_passphrase NOMBRE_RED PASSWORD >> /etc/wpa_supplicant/wpa_supplicant.conf
+
+#wpa_supplicant -Dnl80211 -iwlp1s0 -B -c/etc/wpa_supplicant/wpa_supplicant.conf
+
+
 
 En algunos UEFI frameworks con fallas tenes que instalar el grub usando el parámetro --removable para instalar
 el bootloader a la ubicación de respaldo “fallback” porque sino se borra sólo la entrada del efi.
@@ -359,6 +423,8 @@ echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf
 ```
 
 Modifica sudoers opcional si queres sudo sin contraseña
+
+sudo visudo
 
 ```bash
 sudo systemctl enable gpm
@@ -451,7 +517,16 @@ sensors
 https://imlauera.github.io/post/como_configuro_la_hora_y_la_fecha_desde_internet/
 
 
+# Actualizar.
+
 Para actualizar todos los paquetes: `emerge --ask --verbose --update --deep --newuse @world`
+
+```bash
+sudo emerge --sync
+sudo emerge -avuDN @world
+``` 
+
+
 Las noticias se leen con `sudo eselect news list` y `sudo eselect news read 1`
 
 
@@ -1139,17 +1214,17 @@ country=AR
 ## Conectar
 
 ```bash
-ip link        # ver interfaz (ej: wlp3s0)
-ip link set wlan0 up
+ip link        # ver interfaz (ej: wlp1s0)
+ip link set wlp1s0 up
 
 
-wpa_supplicant -B -i wlp3s0 -c /etc/wpa_supplicant/wpa_supplicant.conf
-dhcpcd wlp3s0
+wpa_supplicant -B -i wlp1s0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+dhcpcd wlp1s0
 ```
 
 ---
 
-## Auto inicio (OpenRC)
+## Auto inicio (SystemD y OpenRC)
 
 ```bash
 systemctl enable wpa_supplicant
@@ -1158,3 +1233,42 @@ systemctl enable dhcpcd
 rc-update add wpa_supplicant default
 rc-update add dhcpcd default
 ```
+
+Instalar st terminal con el parche para que no tenga flickering de imágenes w3m.
+
+Primero instalá stterm con USE="savedconfig" o directamente podes compilar.
+
+```bash
+mkdir -p /etc/portage/patches/x11-terms/st
+cd /etc/portage/patches/x11-terms/st
+
+wget https://st.suckless.org/patches/w3m/st-w3m-0.8.3.diff
+
+sudo emerge -a1v x11-terms/st
+```
+
+Al intentar instalar aircrack en gentoo
+
+```bash
+[gentoo@tux ~]$ sudo emerge -av aircrack-ng
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies |
+
+!!! Problem resolving dependencies for net-wireless/aircrack-ng
+... done!
+Dependency resolution took 9.18 s (backtrack: 0/20).
+
+
+!!! The ebuild selected to satisfy "aircrack-ng" has unmet requirements.
+- net-wireless/aircrack-ng-1.7-r3::gentoo USE="airdrop-ng airgraph-ng experimental netlink pcre sqlite -test" ABI_X86="(64)" PYTHON_TARGETS="-python3_11 -python3_12"
+
+  The following REQUIRED_USE flag constraints are unsatisfied:
+    airdrop-ng? ( any-of ( python_targets_python3_11 python_targets_python3_12 ) ) airgraph-ng? ( any-of ( python_targets_python3_11 python_targets_python3_12 ) )
+
+```
+
+Tuve que agregar `PYTHON_TARGETS="python3_12"` al `/etc/portage/make.conf` y volver a ejecutar el comando.
+
+

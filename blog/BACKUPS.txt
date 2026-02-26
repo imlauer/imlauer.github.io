@@ -153,3 +153,11 @@ https://archive.org/details/MI_BLOG1771183129-220 - commit: francia
 https://archive.org/details/MI_BLOG1771363450-314 - commit: a
 https://archive.org/details/MI_BLOG1771363682-26 - commit: mas
 https://archive.org/details/MI_BLOG1771498277-66 - commit: gentoo
+https://archive.org/details/MI_BLOG1771508516-55 - commit: mediocridad
+https://archive.org/details/MI_BLOG1771950003-86 - commit: wining
+https://archive.org/details/MI_BLOG1771950005-94 - commit: winning
+https://archive.org/details/MI_BLOG1771950030-119 - commit: 1
+https://archive.org/details/MI_BLOG1772051036-56 - commit: 1
+https://archive.org/details/MI_BLOG1772069163-84953 - commit: 1
+https://archive.org/details/MI_BLOG1772069563-90382 - commit: gentoo
+https://archive.org/details/MI_BLOG1772069590-14 - commit: gentoo
