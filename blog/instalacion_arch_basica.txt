@@ -22,7 +22,8 @@ TU CONFIGURACION DE JACKETT.
 COPIÁ LA CONFIGURACIÓN DE NEOMUTT, LA CREDENCIAL PARA YOUTUBE-UPLOAD
 (`.CLIENTS_SECRETS.JSON`).
 
-COPIA .password-store etc
+COPIA .password-store (neomutt) y cambiá los directorios (si es que tenes otro usuario) en `.config/mutt` etc
+y tenes que copiar `/.local/share/mail` y  `/usr/local/share/mutt-wizard/mutt-wizard.muttrc` también.
 
 Y copia la configuracion de neomutt si tenes contraseñas de aplicaciones
 y cualquier configuracion adicional que quieras.

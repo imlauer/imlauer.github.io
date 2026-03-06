@@ -115,3 +115,11 @@ Lista de juegos activos: https://ps2online.com/
 https://redirect.invidious.io/watch?v=-C2g_Rm-BvI
 
 Sólo necesitás copiar el iso al pendrive, pero si el iso es muy grande tenés que usar usb util en windows, no sé cual sería la alternativa para linux. OPL Manager solo te sirve para cambiar el nombre del iso y detectar si es un iso válido.
+
+Tenes que poner en la carpeta DVD para que los lea.
+
+
+https://archive.org/download/RedumpSonyPS2NTSCU
+https://archive.org/download/RedumpSonyPS2NTSCUPart2
+
+Tenes que descargar con el comando `ia download RedumpSonyPS2NTSCU`  `ia download RedumpSonyPS2NTSCU2` (te va a descargar tdos los juegos en 7z tenes que descomprimir con  7z x file.7z` y dejarlos como ISO en la carpeta DVD (la ps2 te crea la carpeta automáticamente) si no la tenes te crea. OPL no lee archivos 7z solo iso.

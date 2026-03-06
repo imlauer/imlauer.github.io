@@ -322,10 +322,13 @@ find dir1/ -type f ! -name '*.*'
 #### how can i find every html file and copy to a folder with find command?"   
    
 ```bash   
-find . -type f -name "*.html" -exec cp {} /target/folder/ \;   
-# Para notebooklm   
-cat *.html | tee full.html   
-pandoc -s full.html -o full.txt   
+wget -e robots=off --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.37" --mirror --convert-links --adjust-extension --page-requisites --no-parent --recursive --level=5 --span-hosts --domains=geohot.github.io http://geohot.github.io/blog
+cd geohot.github.io
+mkdir all_in_one
+find . -type f -name "*.html" -exec cp {} all_in_one \;   
+# Para la IA   
+cat *.html > full.html   
+links -dump full.html > full.txt
 ```   
    
 #### Upload to archive from command line.   
@@ -468,3 +471,10 @@ Some clients lack SOCKS4a or later support. In this case you will need to either
 The default tor configuration only optimizes some ports for long-lived connections: For IRC, only 6667 and 6697. If you use a different port, you may face frequent disconnects unless you update LongLivedPorts in your torrc file.
 
 
+### Extraer extensión de un archivo
+
+```bash
+$ F="interesantes-comandos-bash.md"
+$ echo ${F%.*}
+interesantes-comandos-bash
+```
