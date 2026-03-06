@@ -164,3 +164,5 @@ https://archive.org/details/MI_BLOG1772069590-14 - commit: gentoo
 https://archive.org/details/MI_BLOG1772762537-98349 - commit: 2016-03-05
 https://archive.org/details/MI_BLOG1772762542-98406 - commit: 2026-03-05
 https://archive.org/details/MI_BLOG1772762717-99525 - commit: 2026-03-05
+https://archive.org/details/MI_BLOG1772772486-155685 - commit: 1
+https://archive.org/details/MI_BLOG1772772495-155757 - commit: analisismatematico
