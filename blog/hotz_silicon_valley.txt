@@ -32,3 +32,47 @@ Basado en búsquedas en web y posts en X (anteriormente Twitter), Hotz ha sido c
 - **Otras estafas relacionadas**: Hotz menciona fraudes en hiring (ej. "reach-ins" falsos para jobs), y ha criticado a Elon Musk/Tesla por cambiar términos en ofertas laborales. En posts no directamente suyos pero relacionados (de búsquedas semánticas), se discute abusos H1B en Silicon Valley como "ghost jobs" para cubrir fraudes, o scams en tech como tokens falsos, que encajan en su visión de estafas sistémicas.
 
 Hotz es visto como un outsider controvertido (comparado a Kanye o un Musk joven), pero sus críticas son substantivas: Silicon Valley prioriza estafas de inversión sobre soluciones reales. Su compañía Comma.ai ofrece kits autónomos baratos ($999) como alternativa al hype corporativo. No encontré evidencia de nuevas estafas específicas post-2022, pero sus textos de 2025-2026 sugieren que ve el problema persistiendo en IA y movilidad.
+
+Sí, es totalmente cierto. George Hotz **desprecia** el Silicon Valley actual y no tiene pelos en la lengua al llamarlo una estafa ("scam").
+
+Él distingue claramente entre la **tecnología real** (ingeniería, física, hardware) y el **"negocio de la tecnología"** (publicidad, finanzas, apps basura). Para Hotz, Silicon Valley ya no es un lugar de innovación, sino un centro de extracción de valor.
+
+Aquí están los puntos clave de por qué cree que es una estafa, basándonos en sus escritos (como *"Sell Outs"*, *"Class Warfare"* y *"A disgusting playbook"*):
+
+### 1. Son "Rent-Seekers" (Buscadores de Rentas), no Creadores
+Hotz utiliza la teoría económica para dividir el mundo en dos grupos:
+*   **Productores (Value Creators):** Agricultores, ingenieros, mineros. Crean cosas nuevas (energía, alimentos, chips).
+*   **Parásitos (Rent-Seekers):** Publicistas, abogados, gerentes, financistas. No crean nada nuevo, solo mueven dinero de un lado a otro y cobran una comisión.
+
+Su queja es que Silicon Valley solía ser del primer grupo (hacer chips, computadoras), pero ahora es 90% del segundo. Dice literalmente:
+> *"Everything around you that you call 'life' was made up by people who were no smarter than you... The current structures are scams feeding other scams."*
+
+### 2. El modelo de negocio es la "basura"
+Para Hotz, la moneda de Silicon Valley no es la tecnología, es la **atención**. Cree que empresas como Google y Meta (Facebook) son inmorales porque su negocio es manipular la psicología humana para vender anuncios.
+*   Él odia la publicidad. Propone un impuesto del 500% a la publicidad porque es un "juego de suma cero" que no beneficia a la sociedad, solo consume tiempo y recursos.
+
+### 3. La "Professional Managerial Class" (La clase gerencial inútil)
+Él ve a los gerentes de producto, vicepresidentes y burocratas de las grandes tecnológicas como la "clase parásita".
+*   Dice que estos gerentes no saben programar ni construir nada, solo saben gestionar personas.
+*   En su empresa (comma.ai y tiny corp), él no tiene gerentes. Dice: *"I don’t want a manager who can’t code. If you can’t build, you are useless."*
+
+### 4. La estafa de las Startups y el Venture Capital
+Hotz critica duramente el modelo de "crecimiento a toda costa" sin rentabilidad.
+*   Ejemplos como WeWork o empresas de autos autónomos que quemaron miles de millones sin un producto real.
+*   Él dice que estas empresas son una estafa para los inversores y para los empleados, que trabajan largas horas creyendo que están "cambiando el mundo", cuando en realidad solo están construyendo un *wrapper* sobre una API o una app de delivery.
+*   Su contrapropuesta es: *"Sell boxes for more than they cost to make"* (Vender cajas por más de lo que cuesta fabricarlas). Negocio simple, rentable, sin humo.
+
+### 5. "Wokeism" y Conformismo Ideológico
+Hotz también odia la cultura política de Silicon Valley. Dice que la ideología progresista moderna ("woke") funciona como una religión de estado que sofoca la innovación.
+*   En sus escritos, menciona que los directivos de estas empresas son tan cobardes que se dejan intimidar por grupos ideológicos en lugar de centrarse en construir productos.
+
+### En resumen: ¿Qué es una "estafa" para Hotz?
+Una estafa es cuando una empresa levanta $100 millones, contrata a 500 personas, gasta todo el dinero en marketing y oficinas lujosas, y al final **no produce ningún avance tecnológico real**.
+
+Por eso él fundó **tiny corp** y **comma.ai**: para hacer lo opuesto.
+*   Código abierto.
+*   Equipos minúsculos (tiny corp tiene menos de 10 personas).
+*   Ingeniería real (chips, drivers de GPU, autos autónomos).
+*   Rentabilidad real desde el día uno.
+
+Él cree que la "burbuja" de Silicon Valley está chupando recursos del resto de la economía y, tarde o temprano, colapsará.

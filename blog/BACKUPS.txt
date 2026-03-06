@@ -161,3 +161,5 @@ https://archive.org/details/MI_BLOG1772051036-56 - commit: 1
 https://archive.org/details/MI_BLOG1772069163-84953 - commit: 1
 https://archive.org/details/MI_BLOG1772069563-90382 - commit: gentoo
 https://archive.org/details/MI_BLOG1772069590-14 - commit: gentoo
+https://archive.org/details/MI_BLOG1772762537-98349 - commit: 2016-03-05
+https://archive.org/details/MI_BLOG1772762542-98406 - commit: 2026-03-05

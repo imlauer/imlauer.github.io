@@ -1,0 +1,107 @@
+---
+title: "Usar n8n como jenkins"
+date: 2026-02-26T16:17:25-03:00
+---
+Es casi seguro que te refieres a **n8n** (la letra "n", el número "8", la letra "n"). Es muy común confundir el "8" con una "9" al leerlo o escribirlo rápidamente.
+
+**¿Qué es n8n?**
+Es una herramienta de **automatización de flujos de trabajo** (similar a Zapier o Make), pero es de código abierto y se puede alojar en tu propio servidor.
+
+**¿Qué significa "como si fuera Jenkins"?**
+Jenkins es una herramienta clásica para **Integración Continua y Despliegue Continuo (CI/CD)**. Se usa para compilar código, correr pruebas y desplegar aplicaciones automáticamente.
+Decir "usar n8n como si fuera Jenkins" significa: **Usar una herramienta de automatización general (n8n) para realizar tareas específicas de desarrollo (CI/CD)**, como ejecutar scripts de despliegue cuando haces un `git push`.
+
+---
+
+### Tutorial: Cómo usar n8n para simular un Pipeline de Jenkins
+
+Vamos a crear un "pipeline" simple en n8n que:
+1.  Escuche un aviso (Webhook).
+2.  Ejecute un comando en tu servidor (como correr pruebas o desplegar).
+3.  Te avise por Telegram/Slack si funcionó o falló.
+
+#### Requisitos previos
+*   Tener n8n instalado (puedes usar la versión Cloud gratuita o instalarlo vía Docker/NPM en tu servidor).
+*   Tener acceso a tu servidor donde está tu código (o donde harías el trabajo que normalmente hace Jenkins).
+
+---
+
+#### Paso 1: Crear el disparador (El Trigger)
+
+En Jenkins, un pipeline suele empezar cuando detecta un cambio en Git. En n8n, usaremos un **Webhook** para simular eso.
+
+1.  Abre n8n y crea un nuevo "Workflow".
+2.  Haz clic en el botón `+` para añadir el primer nodo.
+3.  Busca y selecciona **Webhook**.
+4.  En la configuración del nodo:
+    *   **HTTP Method**: `POST`.
+    *   **Path**: `mi-pipeline`.
+    *   **Authentication**: Ninguna (para el tutorial, pero en producción pon una contraseña).
+5.  Haz clic en el botón **"Listen for Test Event"** (Escuchar evento de prueba).
+6.  Copia la URL que te da n8n (algo como `https://tu-n8n.com/webhook/mi-pipeline`).
+
+*Nota: Si tienes un GitHub, puedes configurar un Webhook en los ajustes del repositorio para que llame a esta URL cada vez que hagas un "push".*
+
+#### Paso 2: Ejecutar el comando (El Trabajo de Jenkins)
+
+Aquí es donde ocurre la magia. Jenkins corre "Shell scripts". n8n puede hacer lo mismo si tienes el servidor donde se aloja n8n accesible.
+
+1.  Añade un nuevo nodo conectado al Webhook.
+2.  Busca el nodo llamado **SSH** (si n8n está en un servidor diferente a tu código) o **Execute Command** (si n8n está en el mismo servidor).
+    *   *Recomendación:* Usemos **Execute Command** para simplificar, suponiendo que n8n corre en local o tienes acceso.
+3.  En el campo **Command**, escribe los comandos que normalmente pondrías en tu `Jenkinsfile`.
+
+Ejemplo de comando (simulando un despliegue):
+```bash
+cd /ruta/a/tu/proyecto
+git pull origin main
+npm install
+npm run build
+echo "Despliegue finalizado"
+```
+
+*Advertencia: El nodo "Execute Command" ejecuta esto en la máquina donde corre n8n. Si necesitas ejecutarlo en otro servidor, usa el nodo "SSH" de n8n.*
+
+#### Paso 3: Manejo de Errores (El "Post-actions" de Jenkins)
+
+En Jenkins, si algo falla, te envía un correo. En n8n, usamos el manejo de errores de flujos.
+
+1.  Haz clic en el nodo **Execute Command**.
+2.  En la parte superior derecha del nodo, verás una pestaña llamada **"Settings"** (o Ajustes).
+3.  Activa la opción **"On Error"** (En caso de error).
+4.  Ahora verás una salida roja en el nodo. Conecta esa salida roja a un nuevo nodo.
+5.  Añade un nodo de notificación (por ejemplo, **Telegram** o **Slack**).
+6.  Configura el mensaje: `❌ Error en el pipeline. Revisa los logs.`
+
+#### Paso 4: Notificación de Éxito
+
+Si el comando del Paso 2 funciona bien, debe salir por la salida verde (standard output).
+
+1.  Conecta la salida estándar (verde) del nodo **Execute Command** a un nuevo nodo.
+2.  Añade un nodo **Telegram** o **Slack**.
+3.  Configura el mensaje: `✅ Pipeline exitoso. Tu código está desplegado.`
+
+---
+
+### Resumen del Flujo
+
+Visualmente, tu n8n se verá así:
+
+1.  **Webhook** (Escucha el aviso de Git o tú lo llamas manualmente).
+    ⬇️
+2.  **Execute Command** (Hace `git pull`, `build`, `test`).
+    ⬇️
+    *   ✅ (Verde) ➡️ **Mensaje de Éxito** (Telegram).
+    *   ❌ (Rojo) ➡️ **Mensaje de Error** (Telegram).
+
+### Diferencias Clave: n8n vs Jenkins
+
+| Característica | Jenkins | n8n |
+| :--- | :--- | :--- |
+| **Enfoque** | Especialista en CI/CD (Construir software). | Generalista (Conectar APIs, automatizar tareas). |
+| **Interfaz** | Compleja, antigua, basada en formularios o código (Groovy). | Visual, moderna, arrastrar y soltar nodos. |
+| **Plugins** | Miles de plugins específicos para desarrollo. | Cientos de integraciones (Google, Slack, CRMs, etc). |
+| **Ideal para...** | Equipos de desarrollo grandes compilando código. | Automatizaciones rápidas, scripts simples, conectar servicios. |
+
+### ¿Cuándo usar n8n "como Jenkins"?
+Es muy útil si tu proyecto es pequeño o mediano. Si solo necesitas ejecutar un script de Python, hacer un backup de una base de datos o desplegar un contenedor Docker simple, configurar todo esto en n8n toma 5 minutos visualmente, mientras que configurar Jenkins puede tomar horas.

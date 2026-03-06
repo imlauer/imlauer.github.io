@@ -3,6 +3,9 @@ title: "El georgito"
 date: 2026-02-07T23:34:55-03:00
 ---
 
+https://imlauera.github.io/geohot_train.txt
+
+
 ### Generá el audio.
 
 ```bash
@@ -6606,3 +6609,558 @@ El arte se define por lo que es caro. Lo que es raro. Lo que rompe las expectati
 * [Video en YouTube](https://www.youtube.com/watch?v=QtZDkgzjmQI)
 * [Spider-Man: No Way Home en IMDB](https://www.imdb.com/title/tt10872600/)
 * [Reescritura de la trama de Avatar 2](/blog/jekyll/update/2022/12/27/avatar-2-was-bad.html)
+
+https://geohot.github.io/blog/jekyll/update/2026/02/26/the-last-gasps-of-the-rent-seeking-class.html
+
+# Los últimos jadeos de la clase rentista
+
+> Durante los últimos cincuenta años, la economía de EE.UU. construyó una enorme capa de extracción de rentas sobre las limitaciones humanas: las cosas toman tiempo, la paciencia se agota, la familiaridad con la marca sustituye al esfuerzo, y la mayoría de la gente está dispuesta a aceptar un mal precio para evitar más clics. Billones de dólares de valor empresarial dependían de que esas restricciones persistieran.
+> – [Citrini Research](https://www.citriniresearch.com/p/2028gic)
+
+Me alegra no ser el único que lo dice. Hace 7 años vi una demo de Google Duplex en la que una IA llamaba a un restaurante para hacer una reserva por ti. Al principio Google pensó que era genial, pero luego se dieron cuenta de las implicaciones. Ningún restaurante podría aceptar reservas por teléfono nunca más. «Hazme una reserva en 10 restaurantes y dame una lista». Google retiró el vídeo.
+
+Lo que ha pasado desde entonces es lo que tenía que pasar. Surgieron *marketplaces* de terceros para reservas, y no sé, hace tiempo que no voy a cenas elegantes, pero imagino que los restaurantes simplemente han empezado a cobrar. O al menos lo hacen los sitios de reservas propios.
+
+Lo máximo a lo que cualquiera puede aspirar es a un mercado libre, con todo correctamente tasado. Pero durante décadas, el mercado estadounidense no ha sido libre. Ha utilizado fricciones añadidas intencionalmente para explotar una asimetría temporal entre el negocio y tú. Y gracias a cosas como los call centers, esto ha sido muy rentable para las empresas. Las compañías de cable y los seguros dependen de que tu tiempo vale más que el suyo. Pueden contratar gente en India a escala para hacerte perder el tiempo. Pueden usar procedimientos y big data para diseñar protocolos que te lleven justo al borde de la frustración a muy poco coste para ellos. ¿Con qué frecuencia comparas diligentemente Uber y Lyft y eliges el más barato?
+
+Entra la IA, el gran ecualizador del tiempo.
+
+---
+
+Como está hoy, parece que la IA a nivel humano realmente va a acabar en manos de la gente. Esto no es algo que debamos dar por sentado; ha sucedido gracias a que la API es simple (tokens, en un lugar diversificado como OpenRouter) y a las prioridades del estado chino. Temía que la API acabara siendo compleja, que el modelo estuviera profundamente incrustado en tu teléfono o sistema operativo. Pero como a la gente buena con ordenadores, a los modelos les gusta una terminal, no una interfaz de iPad para niños.
+
+Cuando analizas la cadena de suministro de IA, hay 5 niveles: electricidad, fabricación de chips, diseño de chips / software, modelos y aplicaciones. Yo trabajo en el nivel de diseño de chips / software, y no estoy preocupado por un monopolio ahí. NVIDIA merece el retorno de su inversión, fueron muy tempranos, pero no hay un *flywheel* descontrolado aquí (a diferencia, por ejemplo, de la búsqueda de Google) que permita seguir extrayendo rentas. Y el nivel de aplicaciones está totalmente commoditizado. [opencode](https://opencode.ai/) está bien, pero es open source, casi toda la diferenciación de rendimiento viene de los modelos, y si empieza a intentar extraer rentas habrá toneladas de forks inmediatamente. Buena suerte a quien haya sido tan tonto como para invertir en una empresa wrapper de GPT.
+
+El nivel de modelos era donde más preocupado estaba. Pero aquí está ocurriendo un gran punto de inflexión. Anthropic [publicó este post vapuleado](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) que parece exactamente los últimos jadeos de un *moat* que no debería existir. Después de quejarse de cómo los chinos usaron su API, terminaron con esta llamada a la acción:
+
+> Pero ninguna empresa puede resolver esto sola. Como señalamos arriba, los ataques de destilación a esta escala requieren una respuesta coordinada en toda la industria de IA, los proveedores de cloud y los legisladores. Publicamos esto para poner la evidencia a disposición de todos los que tienen interés en el resultado.
+
+Nadie debería «coordinarse» con ellos. Se quedan solos como vanguardia del aparato de extracción de rentas que caducó hace mucho. Los modelos de Z.ai, Qwen, MiniMax y Kimi están solo 6-12 meses por detrás. Y todo el mundo en el planeta está apoyando a los modelos chinos, no a la extracción de rentas closed-source de EE.UU. Porque nadie quiere la continuación de multimillonarios rentistas. El *status quo* está acabado. Es hora de voltear la mesa, no de reacomodar las sillas.
+
+---
+
+> Creo que la diferencia no es tan matizada. Occidente quiere un sistema de extracción de rentas más eficiente. China quiere la IA como utilidad pública.
+> – @ScottCDunn en X
+
+No deberíamos dar por sentado lo que tenemos ahora. Todos los modelos open source de primer nivel están siendo producidos actualmente por China, y las circunstancias podrían cambiar y eso podría parar. Pero creo que ellos ven los modelos como su complemento, y deberías commoditizar tu complemento. Si estás en el negocio de producción de chips y generación de electricidad, es una ventaja estratégica que las capas de arriba sean commodity.
+
+Sin mencionar el bonus añadido del colapso de la economía estadounidense. Francamente, es bien merecido. Nadie debería construir una economía basada en extracción de rentas y en aumentar la fricción. Rezo para que el colapso sea rápido y legible, para que la reconstrucción (de la forma correcta) pueda empezar lo antes posible.
+
+Es posible que la inteligencia superhumana tenga algún retorno mega-compuesto y que este cálculo cambie, pero la inteligencia superhumana probablemente simplemente no será comprensible para las personas, así que mientras la civilización sea de personas, la inteligencia humana es suficiente.
+
+La era de frustrar intencionalmente a los humanos ha terminado. El modelo chino open source que corre en la caja debajo de mi escritorio puede pasar el Test de Turing. Cuando llames, envíes email, mensaje o me muestres un anuncio, nunca sabrás si soy yo o mi modelo quien lo ve.
+
+### ¿Qué es el Rent Seeking?
+
+El "rent seeking" (búsqueda de rentas) es un concepto económico que se refiere a la práctica de obtener ganancias o beneficios económicos no mediante la creación de nuevo valor, riqueza o innovación, sino explotando o manipulando el sistema existente para extraer "rentas" (ganancias no merecidas) de otros. En lugar de producir algo útil o eficiente, se basa en barreras, fricciones o limitaciones que impiden una competencia justa o un mercado libre. Esto puede incluir lobby para regulaciones favorables, monopolios artificiales, o, como se describe en el texto que proporcionaste (el post de George Hotz), explotar limitaciones humanas como el tiempo limitado, la impaciencia, la familiaridad con marcas o la aversión al esfuerzo extra (por ejemplo, evitar más clics para encontrar un mejor precio).
+
+En el contexto del texto, el rent seeking en la economía de EE.UU. se ha construido durante los últimos 50 años sobre una "capa de extracción de rentas" gigante que depende de estas limitaciones humanas. Las empresas agregan fricción intencionalmente (como procesos complicados o atención al cliente ineficiente) para cobrar más sin agregar valor real, porque saben que las personas prefieren pagar un poco más en lugar de invertir tiempo en buscar alternativas. Esto genera billones de dólares en valor empresarial, pero no es sostenible cuando algo como la IA elimina esas limitaciones.
+
+### Ejemplos de Rent Seeking Basados en el Texto y Extensiones
+
+El texto de Hotz da ejemplos claros de cómo esta capa de rent seeking opera en la economía de EE.UU., y cómo la IA la amenaza al "equalizar el tiempo" (haciendo que los agentes de IA tengan paciencia infinita y puedan manejar tareas repetitivas sin costo). A continuación, te doy **muchos ejemplos**, partiendo directamente del texto y expandiendo con casos similares que ilustran el mismo principio (explotación de limitaciones humanas para extraer rentas). Los agrupé por categorías para que sea más claro.
+
+#### 1. **Servicios de Atención al Cliente y Empresas de Servicios Públicos (como Cable e Internet)**
+   - **Ejemplo del texto**: Las compañías de cable e internet (como Comcast o Verizon) dependen de que tu tiempo sea más valioso que el de ellos. Usan centros de llamadas en India para "desgastarte" con protocolos largos y frustrantes, sabiendo que renunciarás y aceptarás un precio más alto en lugar de cancelar o negociar. Esto les permite cobrar tarifas infladas sin mejorar el servicio.
+   - **Más ejemplos**:
+     - Compañías de telefonía móvil (AT&T, T-Mobile): Cobran fees ocultos o planes complicados, apostando a que no revisarás tu factura detalladamente o no cambiarás de proveedor por el esfuerzo de transferir números y datos.
+     - Empresas de energía (como PG&E): Agregan cargos administrativos innecesarios, y el proceso para disputarlos es tan burocrático que la mayoría paga sin cuestionar.
+     - Servicios de suscripción (Netflix, Hulu): Aunque no tan extremo, usan "dark patterns" en interfaces para que olvides cancelar, extrayendo rentas de la inercia humana.
+     - Las pantallas de propinas. Es una slippery slope es una pendiente resvaladiza cuesta abajo, porque aunque es cierto que cobran un bajo salario, también es cierto que si empiezan a aceptar propinas su salario va a disminuir.
+
+#### 2. **Seguros y Servicios Financieros**
+   - **Ejemplo del texto**: Las compañías de seguros (como health insurance providers) diseñan protocolos con big data para frustrarte justo al límite, usando tiempo como barrera. Puedes pasar horas en llamadas para reclamar, y muchos aceptan pérdidas para evitarlo.
+   - **Más ejemplos**:
+     - Seguros de auto (Geico, Progressive): Cotizaciones opacas que requieren múltiples llamadas o sitios web; la mayoría elige la primera opción familiar en lugar de comparar exhaustivamente.
+     - Bancos (Chase, Wells Fargo): Cobran overdraft fees o tarifas por transferencias, sabiendo que la gente no lee los términos finos o no busca alternativas como bancos online gratuitos.
+     - Tarjetas de crédito (Visa, Mastercard issuers): Intereses altos y rewards complicados; explotan la impaciencia para que pagues mínimo y acumules deuda.
+     - Préstamos estudiantiles (federal o privados): Procesos de refinanciamiento tan complejos que estudiantes pagan tasas infladas por años sin renegociar.
+
+#### 3. **Transporte y Servicios de Movilidad**
+   - **Ejemplo del texto**: ¿Cuántas veces chequeas Uber y Lyft para elegir el más barato? La mayoría no lo hace por impaciencia, permitiendo que estas apps cobren precios dinámicos inflados sin competencia real en el momento.
+   - **Más ejemplos**:
+     - Aerolíneas (Delta, United): Fees por equipaje, asientos o cambios; el proceso de comparación entre sitios (Kayak vs. directo) es tedioso, así que pagas más por familiaridad con una marca.
+     - Alquiler de autos (Hertz, Enterprise): Contratos largos con upsells en el counter; la fatiga del viaje hace que aceptes extras innecesarios.
+     - Estacionamientos en ciudades: Apps como ParkMobile agregan fees de conveniencia, explotando que no buscarás un spot gratuito por tiempo.
+
+#### 4. **Reservas y Hospitalidad**
+   - **Ejemplo del texto**: Reservas en restaurantes: Antes, llamar era una barrera; ahora, con IA como Google Duplex, podrías reservar en 10 lugares y elegir, pero esto fuerza a marketplaces de terceros (como Appointment Trader) a cobrar, revelando el rent seeking subyacente. Los restaurantes agregan fricción para cobrar premiums.
+   - **Más ejemplos**:
+     - Hoteles (Marriott, Hilton): Precios dinámicos y loyalty programs complicados; la mayoría reserva en el primer sitio (Booking.com) sin comparar, pagando más.
+     - Boletos de eventos (Ticketmaster): Fees de servicio inflados (hasta 30%); el proceso de compra es estresante, y la impaciencia hace que aceptes.
+     - Airbnb: Hosts agregan cleaning fees ocultos; revisar reseñas y alternativas toma tiempo, así que pagas premium por listings top.
+
+#### 5. **Comercio Electrónico y Publicidad**
+   - **Ejemplo del texto**: La gente acepta precios malos para evitar "más clics". Marcas como Amazon usan familiaridad para que no busques en Walmart o eBay, extrayendo rentas de la pereza.
+   - **Más ejemplos**:
+     - Supermercados online (Instacart, Amazon Fresh): Markups en productos; comparar precios entre apps es tedioso, así que pagas más por conveniencia.
+     - Publicidad en redes (Google Ads, Facebook): Empresas pagan por visibilidad, pero el rent seeking viene de algoritmos que explotan tu atención limitada para mostrarte marcas familiares.
+     - Farmacias (CVS, Walgreens): Precios altos en tiendas físicas; online, comparar con GoodRx toma esfuerzo, así que muchos pagan full price.
+     - Suscripciones a software (Adobe, Microsoft): Modelos de "SaaS" con lock-in; cambiar a alternativas gratuitas requiere migrar datos, explotando inercia.
+
+#### 6. **Otros Sectores Amplios**
+   - Bienes raíces: Agentes cobran comisiones del 6% por "experiencia", pero su valor real es bajo; la IA podría automatizar búsquedas y negociaciones.
+   - Salud: Facturación hospitalaria con códigos complejos; pacientes pagan overcharges por no disputar.
+   - Educación: Universidades cobran tuition alto por "prestigio"; alternativas online son ignoradas por familiaridad.
+   - Automóviles: Dealers agregan markups y upsells; negociar toma horas, así que muchos aceptan.
+   - Telecomunicaciones: Planes de datos con límites artificiales; cambiar carriers es frustrante.
+
+Estos ejemplos muestran cómo el rent seeking no crea riqueza nueva, sino que transfiere dinero de consumidores a empresas mediante fricción intencional.
+
+### ¿Por Qué la Economía de EE.UU. Va a Colapsar por Esto?
+
+Según el texto de Hotz, la economía de EE.UU. ha construido una "capa gigante de extracción de rentas" valorada en billones de dólares que depende de que las limitaciones humanas persistan: el tiempo es finito, la paciencia se agota, y la gente prefiere marcas conocidas o precios malos para evitar esfuerzo. Esta capa no es productiva; es parásita, basada en fricción agregada para explotar asimetrías (tu tiempo vale más que el de un call center en India).
+
+La IA cambia todo porque actúa como "el gran equalizador del tiempo". Agentes de IA (como modelos open source chinos como Z.ai o Qwen) tienen paciencia infinita, pueden comparar precios en segundos, manejar llamadas frustrantes, o reservar masivamente sin costo emocional. Esto elimina las barreras que permiten el rent seeking:
+- Empresas como cable o seguros pierden su ventaja; los consumidores (vía IA) negociarán perfectamente, forzando precios justos y mercados libres.
+- Billones en "valor empresarial" (acciones, empresas) dependen de estas constraints; cuando desaparecen, colapsan (ej: si todos usan IA para chequear Uber/Lyft, los precios bajan, reduciendo ganancias).
+- El texto predice un colapso "rápido y legible" porque la IA humana-nivel ya está aquí (modelos que pasan el Turing Test), y está del lado de la gente (open source, no rent-seeking como Anthropic). China impulsa modelos commoditizados, acelerando esto, mientras EE.UU. defiende el status quo rent-seeking.
+
+En resumen, la economía de EE.UU. no está basada en innovación real, sino en fricción y explotación, lo que la hace frágil ante la IA. El colapso no es total, pero reconstruirá en un mercado más eficiente, sin rent-seekers. Hotz lo ve como merecido y necesario para "voltear la mesa".
+
+# El artículo que George Hotz citó
+
+# LA CRISIS DE INTELIGENCIA GLOBAL DE 2028
+
+### Un ejercicio de reflexión sobre la historia financiera, desde el futuro
+
+## Prefacio
+
+*¿Qué pasa si nuestro optimismo sobre la IA sigue siendo correcto... y si eso en realidad es pesimista?*
+
+**Lo que sigue es un escenario, no una predicción.** Esto no es pornografía bajista ni ficción fatalista sobre la IA. La única intención de este artículo es modelar un escenario que ha sido relativamente poco explorado. Nuestro amigo Alap Shah planteó la pregunta y juntos brainstormingamos la respuesta. Escribimos esta parte, y él ha escrito otras dos que puedes encontrar aquí [aquí][1].
+
+Esperamos que leer esto te deje más preparado para los riesgos potenciales de cola izquierda a medida que la IA hace que la economía sea cada vez más extraña.
+
+**Este es el Macro Memo de CitriniResearch de junio de 2028, que detalla la progresión y las consecuencias de la Crisis de Inteligencia Global.**
+
+---
+
+[Imagen de portada: Una imagen conceptual oscura y abstracta que representa el título "THE 2028 GLOBAL INTELLIGENCE CRISIS", sugiriendo un ambiente tecnológico opresivo o una red de inteligencia artificial envolvente.]
+
+---
+
+## Macro Memo
+
+### Las consecuencias de la inteligencia abundante
+
+*CitriniResearch*
+
+*~~22 de febrero de 2026~~ 30 de junio de 2028*
+
+La tasa de desempleo imprimió un 10,2% esta mañana, una sorpresa al alza de 0,3%. El mercado cayó un 2% con el dato, llevando el retroceso acumulado del S&P a un 38% desde sus máximos de octubre de 2026.
+
+Los operadores se han vuelto insensibles. Hace seis meses, un dato como este habría activado un interruptor de circuito.
+
+*Dos años.* Eso fue todo lo que se necesitó para pasar de "contenido" y "específico del sector" a una economía que ya no se parece en nada a la que cualquiera de nosotros conoció en su infancia. El macro memo de este trimestre es nuestro intento de reconstruir la secuencia: una autopsia de la economía precrisis.
+
+La euforia era palpable. Para octubre de 2026, el S&P 500 coqueteaba con los 8000, el Nasdaq rompió los 30k. La primera ola de despidos debido a la obsolescencia humana comenzó a principios de 2026, e hicieron exactamente lo que se supone que deben hacer los despidos. Los márgenes se expandieron, las ganancias superaron las expectativas, las acciones se revalorizaron. Las ganancias corporativas récord se canalizaron directamente de vuelta al cómputo de IA.
+
+Los números titulares seguían siendo geniales. El PIB nominal imprimió repetidamente un crecimiento anualizado de dígitos medios a altos. La productividad estaba en auge. La producción real por hora aumentó a tasas no vistas desde la década de 1950, impulsada por agentes de IA que no duermen, no toman días por enfermedad ni requieren seguro médico.
+
+Los propietarios del cómputo vieron explotar su riqueza a medida que los costos laborales desaparecían. Mientras tanto, el crecimiento de los salarios reales se colapsó. A pesar de las repetidas jactancias de la administración sobre la productividad récord, los trabajadores de cuello blanco perdieron sus empleos a manos de las máquinas y se vieron obligados a roles peor pagados.
+
+Cuando comenzaron a aparecer grietas en la economía del consumidor, los comentaristas económicos popularizaron la frase "*PIB Fantasma*": producción que aparece en las cuentas nacionales pero nunca circula a través de la economía real.
+
+*En todos los sentidos, la IA superaba las expectativas, y el mercado era IA.* El único problema... **la economía no lo era.**
+
+Debería haber sido claro desde el principio que un solo clúster de GPU en Dakota del Norte generando la producción previamente atribuida a 10,000 trabajadores de cuello blanco en midtown Manhattan es más una pandemia económica que una panacea económica. La velocidad del dinero se estancó. La economía del consumidor centrada en el ser humano, el 70% del PIB en ese momento, se marchitó. Probablemente podríamos haber descubierto esto antes si simplemente hubiéramos preguntado cuánto dinero gastan las máquinas en bienes discrecionales. (Pista: es cero).
+
+Las capacidades de la IA mejoraron, las empresas necesitaron menos trabajadores, los despidos de cuello blanco aumentaron, los trabajadores desplazados gastaron menos, la presión sobre los márgenes empujó a las empresas a invertir más en IA, las capacidades de la IA mejoraron...
+
+Fue un bucle de retroalimentación negativa sin freno natural. La *espiral de desplazamiento de inteligencia humana*. Los trabajadores de cuello blanco vieron su poder de ganancia (y, racionalmente, su gasto) deteriorado estructuralmente. Sus ingresos eran la base del mercado hipotecario de 13 billones de dólares, lo que obligó a los suscriptores a reevaluar si las hipotecas prime siguen siendo "dinero seguro".
+
+Diecisiete años sin un ciclo de impagos real habían dejado a los privados hinchados con acuerdos de software respaldados por capital privado que asumían que los ingresos recurrentes anuales (ARR) seguirían siendo recurrentes. La primera ola de impagos debido a la disrupción de la IA a mediados de 2027 desafió esa suposición.
+
+Esto habría sido manejable si la disrupción se hubiera contenido en el software, pero no fue así. Para finales de 2027, amenazaba cada modelo de negocio basado en la intermediación. Extensiones enteras de empresas construidas sobre la monetización de la fricción para los humanos se desintegraron.
+
+El sistema resultó ser una larga cadena de margaritas de apuestas correlacionadas sobre el crecimiento de la productividad de cuello blanco. El colapso de noviembre de 2027 solo sirvió para acelerar todos los bucles de retroalimentación negativa ya existentes.
+
+Hemos estado esperando que "las malas noticias sean buenas noticias" durante casi un año. El gobierno está comenzando a considerar propuestas, pero la fe pública en la capacidad del gobierno para llevar a cabo algún tipo de rescate ha disminuido. La respuesta política siempre ha ido rezagada respecto a la realidad económica, pero la falta de un plan integral ahora amenaza con acelerar una espiral deflacionaria.
+
+---
+
+### Cómo empezó
+
+A finales de 2025, las herramientas de codificación agéntica dieron un salto funcional en capacidad.
+
+Un desarrollador competente que trabajara con Claude Code o Codex ahora podía replicar la funcionalidad central de un producto SaaS de mercado medio en semanas. No perfectamente o con todos los casos límite manejados, pero lo suficientemente bien como para que el CIO que revisa una renovación anual de $500k comenzara a hacerse la pregunta: "¿qué pasa si simplemente construimos esto nosotros mismos?".
+
+Los años fiscales en su mayoría coinciden con los años naturales, por lo que el gasto empresarial de 2026 se había establecido en el cuarto trimestre de 2025, cuando la "IA agéntica" era todavía una palabra de moda. La revisión de mitad de año fue la primera vez que los equipos de adquisiciones tomaban decisiones con visibilidad sobre lo que estos sistemas podían hacer realmente. Algunos vieron a sus propios equipos internos lanzar prototipos que replicaban contratos SaaS de seis cifras en semanas.
+
+Ese verano, hablamos con un gerente de adquisiciones de una Fortune 500. Nos contó sobre una de sus negociaciones presupuestarias. El vendedor esperaba seguir el mismo guion que el año anterior: un aumento de precio anual del 5%, el discurso estándar de "tu equipo depende de nosotros". El gerente de adquisiciones le dijo que había tenido conversaciones con OpenAI sobre hacer que sus "ingenieros desplegados en el frente" usaran herramientas de IA para reemplazar al proveedor por completo. Renovaron con un descuento del 30%. Ese fue un buen resultado, dijo. La "larga cola del SaaS", como [Monday.com][2], Zapier y Asana, lo tuvieron mucho peor.
+
+Los inversores estaban preparados, incluso expectantes, de que la larga cola fuera golpeada duro. Podrían haber constituido un tercio del gasto de la pila empresarial típica, pero estaban obviamente expuestos. Sin embargo, se suponía que los sistemas de registro estaban a salvo de la disrupción.
+
+No fue hasta el informe del tercer trimestre de 2026 de ServiceNow que el mecanismo de reflexividad se aclaró.
+
+> *SERVICENOW: EL CRECIMIENTO DEL ACV NETO NUEVO SE DESACELERA AL 14% DESDE EL 23%; ANUNCIA UNA REDUCCIÓN DE PLANTILLA DEL 15% Y UN 'PROGRAMA DE EFICIENCIA ESTRUCTURAL'; LAS ACCIONES CAEN UN 18% | Bloomberg, octubre de 2026*
+
+El SaaS no estaba "muerto". Todavía había un análisis de costo-beneficio para ejecutar y soportar construcciones internas. Pero la construcción interna *era* una opción, y eso entró en las negociaciones de precios. Quizás más importante, el panorama competitivo había cambiado. La IA había facilitado el desarrollo y lanzamiento de nuevas funciones, por lo que el diferenciación colapsó. Los incumbentes estaban en una carrera hacia el fondo en precios, una pelea de cuchillos tanto entre ellos como con la nueva cosecha de aspirantes que surgieron. Envalentonados por el salto en las capacidades de codificación agéntica y sin una estructura de costos heredada que proteger, estos tomaron participación agresivamente.
+
+La naturaleza interconectada de estos sistemas no se apreció plenamente hasta este informe. ServiceNow vendía puestos. Cuando los clientes Fortune 500 recortaron el 15% de su fuerza laboral, cancelaron el 15% de sus licencias. Las mismas reducciones de personal impulsadas por la IA que aumentaban los márgenes en sus clientes estaban destruyendo mecánicamente su propia base de ingresos.
+
+La empresa que vendía automatización de flujos de trabajo estaba siendo disrumpida por una mejor automatización de flujos de trabajo, y su respuesta fue recortar personal y usar los ahorros para financiar la misma tecnología que la estaba disrumpiendo.
+
+¿Qué más se suponía que debían hacer? *¿Quedarse quietos y morir más lentamente?* **Las empresas más amenazadas por la IA se convirtieron en las adoptantes más agresivas de la IA.**
+
+Esto suena obvio en retrospectiva, pero realmente no lo era en ese momento (al menos para mí). El modelo histórico de disrupción decía que los incumbentes resisten la nueva tecnología, pierden participación frente a entrantes ágiles y mueren lentamente. Eso es lo que le pasó a Kodak, a Blockbuster, a BlackBerry. Lo que pasó en 2026 fue diferente; los incumbentes no resistieron porque no podían permitírselo.
+
+Con las acciones cayendo un 40-60% y las juntas directivas exigiendo respuestas, las empresas amenazadas por la IA hicieron lo único que podían. Recortar personal, reasignar los ahorros a herramientas de IA, usar esas herramientas para mantener la producción con menores costos.
+
+La respuesta individual de cada empresa fue racional. El resultado colectivo fue catastrófico. Cada dólar ahorrado en personal fluía hacia la capacidad de IA que hacía posible la siguiente ronda de recortes de empleos.
+
+**El software fue solo el acto de apertura.** Lo que los inversores pasaron por alto mientras debatían si los múltiplos de SaaS habían tocado fondo fue que el bucle reflexivo ya había escapado del sector del software. La misma lógica que justificaba que ServiceNow recortara personal se aplicaba a cada empresa con una estructura de costos de cuello blanco.
+
+---
+
+### Cuando la fricción llegó a cero
+
+A principios de 2027, el uso de LLM se había convertido en la norma. La gente usaba agentes de IA sin siquiera saber qué era un agente de IA, de la misma manera que la gente que nunca aprendió qué era la "computación en la nube" usaba servicios de streaming. Lo pensaban de la misma manera que pensaban en el autocompletado o el corrector ortográfico: algo que su teléfono simplemente hacía ahora.
+
+El agente de compras agéntico de código abierto de Qwen fue el catalizador para que la IA manejara las decisiones de los consumidores. En cuestión de semanas, todos los principales asistentes de IA habían integrado alguna función de comercio agéntico. Los modelos destilados significaban que estos agentes podían ejecutarse en teléfonos y laptops, no solo en instancias en la nube, reduciendo significativamente el costo marginal de inferencia.
+
+La parte que debería haber inquietado más a los inversores de lo que lo hizo fue que estos agentes no esperaban a que se les pidiera. Se ejecutaban en segundo plano según las preferencias del usuario. El comercio dejó de ser una serie de decisiones humanas discretas y se convirtió en un proceso de optimización continuo, ejecutándose 24/7 en nombre de cada consumidor conectado. Para marzo de 2027, el individuo mediano en los Estados Unidos consumía 400,000 tokens por día, 10 veces más que al final de 2026.
+
+El siguiente eslabón de la cadena ya se estaba rompiendo.
+
+**Intermediación.**
+
+En los últimos cincuenta años, la economía estadounidense construyó una gigantesca capa de extracción de rentas sobre las limitaciones humanas: las cosas llevan tiempo, la paciencia se agota, la familiaridad con la marca sustituye a la diligencia, y la mayoría de la gente está dispuesta a aceptar un mal precio para evitar más clics. Billones de dólares de valor empresarial dependían de que esas restricciones persistieran.
+
+Comenzó siendo bastante simple. Los agentes eliminaban la fricción.
+
+Suscripciones y membresías que se renovaban pasivamente a pesar de meses de desuso. Precios introductorios que se duplicaban subrepticiamente después del período de prueba. Cada uno fue recalificado como una situación de rehenes que los agentes podían negociar. El valor de vida del cliente promedio, la métrica sobre la que se construyó toda la economía de suscripción, disminuyó notablemente.
+
+Los agentes consumidores comenzaron a cambiar cómo funcionaban casi todas las transacciones de consumo.
+
+Los humanos realmente no tienen tiempo para comparar precios en cinco plataformas competidoras antes de comprar una caja de barras de proteína. Las máquinas sí.
+
+Las plataformas de reserva de viajes fueron una de las primeras víctimas, porque eran las más simples. Para el cuarto trimestre de 2026, nuestros agentes podían ensamblar un itinerario completo (vuelos, hoteles, transporte terrestre, optimización de lealtad, restricciones presupuestarias, reembolsos) más rápido y barato que cualquier plataforma.
+
+Las renovaciones de seguros, donde todo el modelo de renovación dependía de la inercia del asegurado, fueron reformadas. Los agentes que vuelven a cotizar tu cobertura anualmente desmantelaron el 15-20% de las primas que los aseguradores ganaban de las renovaciones pasivas.
+
+Consejería financiera. Preparación de impuestos. Trabajo legal rutinario. Cualquier categoría donde la propuesta de valor del proveedor de servicios era en última instancia "Navegaré la complejidad que tú encuentras tediosa" fue disrumpida, ya que los agentes no encontraban nada tedioso.
+
+Incluso lugares que pensábamos aislados por el valor de las relaciones humanas resultaron frágiles. El sector inmobiliario, donde los compradores habían tolerado comisiones del 5-6% durante décadas debido a la asimetría de información entre agente y consumidor, se derrumbó una vez que los agentes de IA equipados con acceso a MLS y décadas de datos de transacciones pudieron replicar la base de conocimientos instantáneamente. Una pieza del lado vendedor de marzo de 2027 lo tituló "violencia de agente contra agente". La comisión del lado comprador en las principales áreas metropolitanas se había comprimido del 2,5-3% a menos del 1%, y una creciente participación de las transacciones se cerraba sin agente humano en el lado de la compra.
+
+Habíamos sobreestimado el valor de las "relaciones humanas". Resulta que mucho de lo que la gente llamaba relaciones era simplemente fricción con una cara amable.
+
+Ese fue solo el comienzo de la disrupción para la capa de intermediación. Empresas exitosas habían gastado miles de millones para explotar eficazmente peculiaridades del comportamiento del consumidor y la psicología humana que ya no importaban.
+
+Las máquinas que optimizan por precio y ajuste no se preocupan por tu aplicación favorita o los sitios web que has estado abriendo habitualmente durante los últimos cuatro años, ni sienten el atractivo de una experiencia de pago bien diseñada. No se cansan y aceptan la opción más fácil o recurren por defecto a "Siempre pido desde aquí".
+
+Eso destruyó un tipo particular de foso defensivo: **la intermediación habitual.**
+
+DoorDash (DASH US) fue el ejemplo clásico.
+
+Los agentes de codificación habían colapsado la barrera de entrada para lanzar una aplicación de entrega. Un desarrollador competente podía desplegar un competidor funcional en semanas, y docenas lo hicieron, atrayendo a los conductores lejos de DoorDash y Uber Eats al pasar el 90-95% de la tarifa de entrega al conductor. Los tableros de múltiples aplicaciones permitían a los trabajadores del sector gigante rastrear trabajos entrantes de veinte o treinta plataformas a la vez, eliminando el bloqueo del que dependían los incumbentes. El mercado se fragmentó de la noche a la mañana y los márgenes se comprimieron casi a cero.
+
+Los agentes aceleraron ambos lados de la destrucción. Permitieron a los competidores y luego los usaron. El foso de DoorDash era literalmente "tienes hambre, eres perezoso, esta es la aplicación en tu pantalla de inicio". Un agente no tiene pantalla de inicio. Revisa DoorDash, Uber Eats, el propio sitio del restaurante y veinte nuevas alternativas codificadas por "vibes" para elegir la tarifa más baja y la entrega más rápida cada vez.
+
+La lealtad habitual a la aplicación, toda la base del modelo de negocio, simplemente no existía para una máquina.
+
+Esto fue extrañamente poético, como quizás el único ejemplo en toda esta saga de agentes haciendo un favor a los trabajadores de cuello blanco pronto a ser desplazados. Cuando terminaron como repartidores, al menos la mitad de sus ganancias no iban a parar a Uber y DoorDash. Por supuesto, este favor de la tecnología no duró mucho a medida que proliferaron los vehículos autónomos.
+
+Una vez que los agentes controlaron la transacción, salieron en busca de clips más grandes.
+
+Solo había tanto emparejamiento de precios y agregación que hacer. La mayor manera de ahorrarle dinero repetidamente al usuario (especialmente cuando los agentes comenzaron a transaccionar entre ellos) fue **eliminar las comisiones.** En el comercio de máquina a máquina, *la tasa de intercambio de tarjetas del 2-3% se convirtió en un objetivo obvio.*
+
+Los agentes buscaron opciones más rápidas y baratas que las tarjetas. La mayoría se asentaron en usar stablecoins a través de Solana o L2s de Ethereum, donde la liquidación era casi instantánea y el costo de la transacción se medía en fracciones de centavo.
+
+> *MASTERCARD Q1 2027: INGRESOS NETOS +6% A/A; EL CRECIMIENTO DEL VOLUMEN DE COMPRA SE DESACELERA A +3,4% A/A DESDE +5,9% DEL TRIMESTRE ANTERIOR; LA DIRECCIÓN SEÑALA "OPTIMIZACIÓN DE PRECIOS LIDERADA POR AGENTES" Y "PRESIÓN EN CATEGORÍAS DISCRECIONALES" | Bloomberg, 29 de abril de 2027*
+
+El informe del primer trimestre de 2027 de Mastercard fue el punto de no retorno. El comercio agéntico pasó de ser una historia de producto a una historia de infraestructura. MA cayó un 9% al día siguiente. Visa también, pero recuperó pérdidas después de que los analistas señalaron su posicionamiento más fuerte en la infraestructura de stablecoins.
+
+[Imagen: Gráfico financiero que muestra el desempeño bursátil de Mastercard (MA) y otros procesadores de pagos, ilustrando el impacto del desvío de transacciones hacia criptomonedas y agentes de IA.]
+
+El comercio agéntico eludiendo el intercambio supuso un riesgo mucho mayor para los bancos enfocados en tarjetas y los emisores monolínea, que cobraban la mayoría de esa comisión del 2-3% y habían construido segmentos comerciales enteros en torno a programas de recompensas financiados por el subsidio del comerciante.
+
+American Express (AXP US) fue la más afectada; una combinación de vientos en contra por la reducción de la fuerza laboral de cuello blanco que diezmó su base de clientes y agentes eludiendo el intercambio que destruyó su modelo de ingresos. Synchrony (SYF US), Capital One (COF US) y Discover (DFS US) también cayeron más de un 10% en las semanas siguientes.
+
+Sus fosos estaban hechos de fricción. Y **la fricción se estaba yendo a cero.**
+
+---
+
+### De riesgo sectorial a riesgo sistémico
+
+Durante 2026, los mercados trataron el impacto negativo de la IA como una historia sectorial. El software y la consultoría estaban siendo aplastados, los pagos y otros peajes estaban tambaleándose, pero la economía en general parecía bien. El mercado laboral, aunque se ablandaba, no estaba en caída libre. La visión de consenso era que la destrucción creativa era parte de cualquier ciclo de innovación tecnológica. Sería dolorosa en algunos sectores, pero los positivos netos generales de la IA superarían a cualquier negativo.
+
+Nuestro macro memo de enero de 2027 argumentó que este era el modelo mental equivocado. La economía estadounidense es una economía de servicios de cuello blanco. Los trabajadores de cuello blanco representaban el 50% del empleo e impulsaban aproximadamente el 75% del gasto discrecional del consumidor. Los negocios y empleos que la IA estaba masticando no eran tangenciales a la economía estadounidense, *eran* la economía estadounidense.
+
+"La innovación tecnológica destruye empleos y luego crea aún más". Este fue el contraargumento más popular y convincente en ese momento. Era popular y convincente porque había sido correcto durante dos siglos. Incluso si no podíamos concebir cuáles serían los empleos futuros, seguramente llegarían.
+
+Los cajeros automáticos hicieron que las sucursales fueran más baratas de operar, por lo que los bancos abrieron más de ellas y el empleo de cajeros aumentó durante los siguientes veinte años. Internet disrumpió las agencias de viajes, las Páginas Amarillas, el comercio minorista físico, pero inventó industrias completamente nuevas en su lugar que conjuraron nuevos empleos.
+
+Sin embargo, cada nuevo empleo requería un humano para realizarlo.
+
+La IA es ahora una inteligencia general que mejora en las tareas mismas a las que los humanos se reasignarían. Los codificadores desplazados no pueden simplemente moverse a la "gestión de IA" porque la IA ya es capaz de eso.
+
+Hoy, los agentes de IA manejan tareas de investigación y desarrollo de muchas semanas de duración. La exponencial arrasó con nuestras concepciones de lo que era posible, aunque cada año los profesores de Wharton intentaban ajustar los datos a una nueva sigmoide.
+
+[Imagen: Gráfico exponencial mostrando el crecimiento de las capacidades de la IA frente a modelos predictivos anteriores, indicando una aceleración más allá de las expectativas.]
+
+Escriben esencialmente todo el código. Los de mayor rendimiento son sustancialmente más inteligentes que casi todos los humanos en casi todas las cosas. Y siguen haciéndose más baratos.
+
+La IA *ha* creado nuevos empleos. Ingenieros de prompts. Investigadores de seguridad de IA. Técnicos de infraestructura. Los humanos siguen estando en el ciclo, coordinando al más alto nivel o dirigiendo por gusto. Pero por cada nuevo rol que creó la IA, volvió obsoletas a docenas. Los nuevos roles pagaban una fracción de lo que pagaban los antiguos.
+
+> *EE. UU. JOLTS: LAS VACANTES DE EMPLEO CAEN POR DEBAJO DE 5.5M; LA RELACIÓN DESEMPLEADOS-VACANTES SUBE A ~1.7, LA MÁS ALTA DESDE AGO 2020 | Bloomberg, oct 2026*
+
+La tasa de contratación había sido anémica todo el año, pero el informe JOLTS de octubre de 2026 proporcionó algunos datos definitivos. Las vacantes de empleo cayeron por debajo de 5.5 millones, un descenso del 15% interanual.
+
+> *INDEED: LAS PUBLICACIONES CAEN BRUSCAMENTE EN SOFTWARE, FINANZAS, CONSULTORÍA A MEDIDA QUE SE EXTIENDEN LAS "INICIATIVAS DE PRODUCTIVIDAD" | Indeed Hiring Lab, Nov-Dic 2026*
+
+Las vacantes de cuello blanco se estaban colapsando mientras que las de cuello azul permanecían relativamente estables (construcción, salud, oficios). El movimiento estaba en los trabajos que escriben memorandos *(de alguna manera, todavía estamos en el negocio)*, aprueban presupuestos y mantienen lubricadas las capas medias de la economía. Sin embargo, el crecimiento de los salarios reales en ambas cohortes había sido negativo durante la mayoría del año y seguía declinando.
+
+El mercado de valores todavía se preocupaba menos por el JOLTS que por la noticia de que toda la capacidad de turbinas de GE Vernova estaba agotada hasta 2040; deambulaba lateralmente en un tira y afloja entre noticias macro negativas y titulares positivos de infraestructura de IA.
+
+El mercado de bonos (siempre más inteligente que las acciones, o al menos menos romántico) comenzó a descontar el golpe al consumo, sin embargo. El rendimiento del Tesoro a 10 años comenzó un descenso del 4,3% al 3,2% durante los siguientes cuatro meses. Aun así, la tasa de desempleo titular no explotó; la distinción de composición todavía se le escapaba a algunos.
+
+En una recesión normal, la causa eventualmente se autocorrige. La sobreconstrucción conduce a una desaceleración de la construcción, que conduce a tasas más bajas, que conduce a nueva construcción. El exceso de inventario conduce a una reducción de existencias, que conduce a reabastecimiento. El mecanismo cíclico contiene dentro de sí las semillas de su propia recuperación.
+
+**La causa de este ciclo no era cíclica.**
+
+[Imagen: Diagrama de flujo circular ilustrando el bucle de retroalimentación negativa: IA mejorando -> Despidos -> Menor gasto -> Inversión en más IA.]
+
+La IA mejoró y se abarató. Las empresas despidieron trabajadores, luego usaron los ahorros para comprar más capacidad de IA, lo que les permitió despedir a más trabajadores. Los trabajadores desplazados gastaron menos. Las empresas que venden cosas a los consumidores vendieron menos, se debilitaron e invirtieron más en IA para proteger los márgenes. La IA mejoró y se abarató.
+
+Un bucle de retroalimentación sin freno natural.
+
+La expectativa intuitiva era que la caída de la demanda agregada frenaría la construcción de infraestructura de IA. No lo hizo, porque esto no era CapEx estilo hiperescalador. Era sustitución de OpEx. Una empresa que había estado gastando $100M al año en empleados y $5M en IA ahora gastaba $70M en empleados y $20M en IA. La inversión en IA aumentó en múltiplos, pero ocurrió como una reducción en los costos operativos totales. El presupuesto de IA de cada empresa creció mientras que su gasto general se reducía.
+
+La ironía de esto fue que el complejo de infraestructura de IA siguió funcionando bien incluso cuando la economía que estaba disrumpiendo comenzó a deteriorarse. NVDA todavía publicaba ingresos récord. TSM todavía funcionaba al 95%+ de utilización. Los hiperescaladores todavía gastaban $150-200 mil millones por trimestre en CapEx de centros de datos. Las economías que eran puramente convexas a esta tendencia, como Taiwán y Corea, superaron masivamente.
+
+India fue lo inverso. El sector de servicios de TI del país exportaba más de $200 mil millones anuales, el mayor contribuyente individual al superávit de cuenta corriente de la India y el compensador que financiaba su persistente déficit comercial de bienes. Todo el modelo se construyó sobre una propuesta de valor: los desarrolladores indios cuestan una fracción de sus contrapartes estadounidenses. Pero el costo marginal de un agente de codificación de IA había colapsado, esencialmente, al costo de la electricidad. TCS, Infosys y Wipro vieron acelerarse las cancelaciones de contratos durante 2027. La rupia cayó un 18% frente al dólar en cuatro meses a medida que el superávit de servicios que había anclado las cuentas externas de la India se evaporaba. Para el primer trimestre de 2028, el FMI había comenzado "discusiones preliminares" con Nueva Delhi.
+
+El motor que causó la disrupción mejoró cada trimestre, lo que significaba que la disrupción se aceleraba cada trimestre. No había un piso natural para el mercado laboral.
+
+En Estados Unidos, ya no nos preguntábamos cómo estallaría la burbuja en la infraestructura de IA. Nos preguntábamos qué le pasa a una economía de crédito al consumo cuando los consumidores están siendo reemplazados por máquinas.
+
+---
+
+### La espiral de desplazamiento de inteligencia
+
+2027 fue cuando la historia macroeconómica dejó de ser sutil. El mecanismo de transmisión de los doce meses anteriores de desarrollos desconectados pero claramente negativos se volvió obvio. No necesitabas entrar en los datos de BLS. Solo asistía a una cena con amigos.
+
+**Los trabajadores de cuello blanco desplazados no se quedaron inactivos.** Se reconvirtieron. Muchos tomaron trabajos peor pagados en el sector de servicios y la economía gig, lo que aumentó la oferta de mano de obra en esos segmentos y también comprimió los salarios allí.
+
+Un amigo nuestro era gerente de producto sénior en Salesforce en 2025. Título, seguro médico, 401k, $180,000 al año. Perdió su trabajo en la tercera ronda de despidos. Después de seis meses de búsqueda, comenzó a conducir para Uber. Sus ingresos cayeron a $45,000. El punto es menos la historia individual y más las matemáticas de segundo orden. Multiplica esta dinámica por unos pocos cientos de miles de trabajadores en cada área metropolitana importante. La mano de obra sobrecalificada inundando la economía de servicios y gig empujó hacia abajo los salarios de los trabajadores existentes que ya estaban luchando. La disrupción específica del sector se metastizó en una compresión salarial en toda la economía.
+
+[Imagen: Gráfico que ilustra la compresión salarial y el desplazamiento de trabajadores de cuello blanco hacia sectores de servicios peor remunerados.]
+
+El grupo restante de trabajos centrados en humanos tenía otra corrección por delante, ocurriendo mientras escribimos esto. A medida que la entrega autónoma y los vehículos autónomos se abren paso en la economía gig que absorbió la primera ola de trabajadores desplazados.
+
+Para febrero de 2027, estaba claro que los profesionales todavía empleados gastaban como si ellos fueran los siguientes. Estaban trabajando el doble de duro (en su mayoría con la ayuda de la IA) solo para no ser despedidos, las esperanzas de promoción o aumentos se habían ido. Las tasas de ahorro subieron y el gasto se ablandó.
+
+La parte más peligrosa era el retraso. Los asalariados de altos ingresos usaron sus ahorros superiores al promedio para mantener la apariencia de normalidad durante dos o tres trimestres. Los datos duros no confirmaron el problema hasta que ya era vieja noticia en la economía real. Luego llegó el dato que rompió la ilusión.
+
+> *SOLICITUDES DESEMPLEO INICIALES DE EE. UU. SE DISPARAN A 487,000, LAS MÁS ALTAS DESDE ABRIL DE 2020; Departamento de Trabajo, T3 2027*
+
+Las solicitudes iniciales se dispararon a 487,000, las más altas desde abril de 2020. ADP y Equifax confirmaron que la abrumadora mayoría de las nuevas solicitudes provenían de profesionales de cuello blanco.
+
+El S&P cayó un 6% durante la semana siguiente. Lo macro negativo comenzó a ganar el tira y afloja.
+
+En una recesión normal, las pérdidas de empleo se distribuyen ampliamente. Los trabajadores de cuello azul y blanco comparten el dolor aproximadamente en proporción a la participación de cada segmento en el empleo. El golpe al consumo también se distribuye ampliamente y aparece rápidamente en los datos porque los trabajadores de menores ingresos tienen propensiones marginales a consumir más altas.
+
+En este ciclo, las pérdidas de empleo se han concentrado en los deciles superiores de la distribución de ingresos. Son una participación relativamente pequeña del empleo total, pero impulsan una participación salvajemente desproporcionada del gasto del consumidor. El 10% superior de los asalariados representa más del 50% de todo el gasto del consumidor en Estados Unidos. El 20% superior representa aproximadamente el 65%. Estas son las personas que compran las casas, los autos, las vacaciones, las comidas en restaurantes, la matrícula de escuelas privadas, las renovaciones del hogar. Son la base de demanda de toda la economía discrecional del consumidor.
+
+Cuando estos trabajadores perdieron sus empleos, o tomaron recortes salariales del 50% para moverse a roles disponibles, el golpe al consumo fue enorme en relación con el número de empleos perdidos. Una disminución del 2% en el empleo de cuello blanco se tradujo en algo así como un golpe del 3-4% al gasto discrecional del consumidor. A diferencia de las pérdidas de empleo de cuello azul, que tienden a golpear de inmediato (te despiden de la fábrica, dejas de gastar la próxima semana), las pérdidas de empleo de cuello blanco tienen un impacto retrasado pero más profundo porque estos trabajadores tienen colchones de ahorro que les permiten mantener el gasto durante unos meses antes de que se produzca el cambio de comportamiento.
+
+Para el segundo trimestre de 2027, la economía estaba en recesión. El NBER no fecharía oficialmente el inicio hasta meses después (nunca lo hacen), pero los datos eran inequívocos: habíamos tenido dos trimestres consecutivos de crecimiento negativo del PIB real. Pero no era una "crisis financiera"... todavía.
+
+---
+
+### La cadena de margaritas de apuestas correlacionadas
+
+El crédito privado había crecido de menos de $1 billón en 2015 a más de $2.5 billones para 2026. Una parte significativa de ese capital se había desplegado en acuerdos de software y tecnología, muchos de ellos compras apalancadas de empresas SaaS a valoraciones que asumían un crecimiento de ingresos de dígitos adolescentes en perpetuidad.
+
+Esos supuestos murieron en algún lugar entre la primera demostración de codificación agéntica y el colapso del software en el primer trimestre de 2026, pero las valoraciones no parecían darse cuenta de que estaban muertos.
+
+Mientras muchas empresas SaaS públicas cotizaban a 5-8x EBITDA, las empresas de software respaldadas por capital privado se sentaban en balances con valoraciones que reflejaban los precios de adquisición sobre múltiplos de ingresos que ya no existían. Los gerentes bajaron gradualmente las valoraciones, 100 centavos, 92, 85, mientras que los comparables públicos decían 50.
+
+> *MOODY'S DEGRADA $18B DE DEUDA DE SOFTWARE RESPALDADA POR PE EN 14 EMISORES, CITANDO 'VIENTOS EN CONTRA DE INGRESOS SEULARES POR DISRUPCIÓN COMPETITIVA IMPULSADA POR IA'; LA ACCIÓN MÁS GRANDE EN UN SOLO SECTOR DESDE ENERGÍA EN 2015 | Moody's Investors Service, abril 2027*
+
+Todos recuerdan lo que pasó después de la degradación. Los veteranos de la industria ya habían visto el guion siguiendo las degradaciones de energía de 2015.
+
+Los préstamos respaldados por software comenzaron a incumplir en el tercer trimestre de 2027. Las empresas de cartera de PE en servicios de información y consultoría siguieron. Varias LBO multimillonarias de empresas SaaS bien conocidas entraron en reestructuración.
+
+Zendesk fue la prueba definitiva.
+
+> *ZENDESK INCUMPLE LOS PACTOS DE DEUDA A MEDIDA QUE LA AUTOMATIZACIÓN DE SERVICIO AL CLIENTE IMPULSADA POR IA EROSIONA EL ARR; INSTALACIÓN DE PRÉSTAMO DIRECTO DE $5B MARCADA A 58 CENTAVOS; MAYOR IMPAGO DE CRÉDITO PRIVADO DE SOFTWARE EN EL REGISTRO | Financial Times, septiembre 2027*
+
+En 2022, Hellman & Friedman y Permira habían tomado privada a Zendesk por $10.2 mil millones. El paquete de deuda era de $5 mil millones en préstamos directos, la instalación respaldada por ARR más grande de la historia en ese momento, liderada por Blackstone con Apollo, Blue Owl y HPS todos en el grupo de préstamos. El préstamo se estructuró explícitamente en torno al supuesto de que los ingresos recurrentes anuales de Zendesk seguirían siendo recurrentes. Con aproximadamente 25x EBITDA, el apalancamiento solo tenía sentido si lo hacía.
+
+Para mediados de 2027, ya no.
+
+Los agentes de IA habían estado manejando el servicio al cliente de forma autónoma durante la mayor parte del año. La categoría que Zendesk había definido (ticketing, enrutamiento, gestión de interacciones de soporte humano) ya había sido reemplazada por sistemas que resolvían problemas sin generar un ticket en absoluto. Los Ingresos Recurrentes Anualizados sobre los que se suscribió el préstamo ya no eran recurrentes, eran solo ingresos que aún no se habían ido.
+
+El mayor préstamo respaldado por ARR de la historia se convirtió en el mayor impago de crédito privado de software de la historia. Cada mesa de crédito hizo la misma pregunta a la vez: ¿quién más tiene un viento en contra secular disfrazado de uno cíclico?
+
+Pero aquí está lo que el consenso acertó, al menos inicialmente: esto debería haber sido sobrevivible.
+
+El crédito privado no es la banca de 2008. Toda la arquitectura se diseñó explícitamente para evitar la venta forzada. Estos son vehículos de capital cerrado con capital bloqueado. Los LPs se comprometieron por siete a diez años. No hay depositantes para que corran, no hay líneas de repos para retirar. Los gerentes podían sentarse sobre activos deteriorados, resolverlos con el tiempo y esperar recuperaciones. Doloroso, pero manejable. El sistema era tal que se suponía que debía doblarse, no romperse.
+
+Los ejecutivos de Blackstone, KKR y Apollo citaron una exposición al software del 7-13% de los activos. Contenible. Cada nota del lado vendedor y cuenta de crédito de Fintwit decía lo mismo: el crédito privado tiene capital permanente. Podían absorber pérdidas que de otro modo harían explotar un banco apalancado.
+
+*Capital permanente.* La frase apareció en cada llamada de ganancias y carta a inversores destinada a tranquilizar. Se convirtió en un mantra. Y como la mayoría de los mantras, nadie prestó atención a los detalles más finos. Esto es lo que realmente significaba...
+
+Durante la década anterior, los grandes gestores de activos alternativos habían adquirido compañías de seguros de vida y las habían convertido en vehículos de financiamiento. Apollo compró Athene. Brookfield compró American Equity. KKR tomó Global Atlantic. La lógica era elegante: los depósitos de anualidades proporcionaban una base de pasivo estable y de larga duración. Los gerentes invertían esos depósitos en el crédito privado que originaban y se les pagaba dos veces, ganando el diferencial por el lado del seguro y tarifas de gestión por el lado de gestión de activos. Una máquina de movimiento perpetuo de tarifas sobre tarifas que funcionaba bellamente bajo una condición.
+
+*El crédito privado tenía que ser "dinero seguro".*
+
+Las pérdidas golpearon balances construidos para mantener activos ilíquidos contra obligaciones de larga duración. El "capital permanente" que se suponía debía hacer resiliente al sistema no era una piscina abstracta de dinero institucional paciente e inversores sofisticados tomando riesgo sofisticado. Eran los ahorros de los hogares estadounidenses, "Main Street", estructurados como anualidades invertidas en los mismos papeles de software y tecnología respaldados por PE que ahora estaban en incumplimiento. El capital bloqueado que no podía correr era dinero de los titulares de pólizas de seguros de vida, y las reglas son un poco diferentes allí.
+
+En comparación con el sistema bancario, los reguladores de seguros habían sido dóciles, incluso complacientes, pero esta fue la llamada de atención. Ya inquietos por las concentraciones de crédito privado en los aseguradores de vida, comenzaron a degradar el tratamiento de capital basado en el riesgo de estos activos. Eso obligó a los aseguradores a recaudar capital o vender activos, ninguna de las cuales era posible en términos atractivos en un mercado que ya se estaba congelando.
+
+> *LOS REGULADORES DE NUEVA YORK E IOWA SE MUEVEN PARA AJUSTAR EL TRATAMIENTO DE CAPITAL PARA CIERTO CRÉDITO PRIVADO CALIFICADO EN ASEGURADORAS DE VIDA; SE ESPERA QUE LA ORIENTACIÓN NAIC AUMENTE LOS FACTORES RBC Y DESENCADENE UNA REVISIÓN ADICIONAL DE LA SVO | Reuters, nov 2027*
+
+Cuando Moody's puso la calificación de fuerza financiera de Athene en perspectiva negativa, las acciones de Apollo cayeron un 22% en dos sesiones. Brookfield, KKR y los demás siguieron.
+
+Solo se volvió más complejo desde allí. Estas empresas no solo habían creado su máquina de movimiento perpetuo aseguradora, habían construido una arquitectura offshore elaborada diseñada para maximizar los rendimientos a través del arbitraje regulatorio. El asegurador estadounidense escribía la anualidad, luego cedía el riesgo a un reasegurador afiliado en Bermudas o las Islas Caimán que también poseía, configurado para aprovechar una regulación más flexible que permitía mantener menos capital contra los mismos activos. Esa filial recaudó capital externo a través de SPVs offshore, una nueva capa de contrapartes que invirtieron junto con los aseguradores en crédito privado originado por el mismo brazo de gestión de activos de la matriz.
+
+[Imagen: Diagrama de flujo complejo que muestra la "telaraña" de intermediación financiera entre aseguradoras de vida, reaseguradores offshore y gestores de activos.]
+
+Las agencias de calificación, algunas de las cuales eran ellas mismas propiedad de PE, no habían sido paradigmas de transparencia (sorpresa para prácticamente nadie). La telaraña de diferentes empresas vinculadas a diferentes balances fue impresionante en su opacidad. Cuando los préstamos subyacentes incumplieron, la pregunta de quién realmente asumía la pérdida era genuinamente imposible de responder en tiempo real.
+
+El colapso de noviembre de 2027 marcó la transición de la percepción de un retroceso cíclico de jardín a algo mucho más incómodo. *"Una cadena de margaritas de apuestas correlacionadas sobre el crecimiento de la productividad de cuello blanco"* fue como el presidente de la Fed, Kevin Warsh, lo llamó durante la reunión de emergencia de noviembre del FOMC.
+
+Verán, nunca son las pérdidas en sí mismas las que causan la crisis. Es reconocerlas. Y hay otra área de las finanzas mucho más grande y mucho más importante para la cual hemos crecido temerosos de ese reconocimiento.
+
+### La cuestión hipotecaria
+
+> *EL ÍNDICE DE VALOR DE VIVIENDA DE ZILLOW CAE UN 11% A/A EN SAN FRANCISCO, 9% EN SEATTLE, 8% EN AUSTIN; FANNIE MAE SEÑALA 'IMPAGOS EN ETAPA TEMPRANA ELEVADOS' EN CÓDIGOS POSTALES CON >40% DE EMPLEO EN TECNOLOGÍA/FINANZAS | Zillow / Fannie Mae, junio 2028*
+
+Este mes, el Índice de Valor de Vivienda de Zillow cayó un 11% interanual en San Francisco, un 9% en Seattle y un 8% en Austin. Este no ha sido el único titular preocupante. El mes pasado, Fannie Mae señaló mayores impagos en etapa temprana en códigos postales con muchas hipotecas jumbo, áreas pobladas por prestatarios con puntajes de crédito superiores a 780 y típicamente "a prueba de balas".
+
+El mercado hipotecario residencial estadounidense es de aproximadamente $13 billones. La suscripción hipotecaria se basa en el supuesto fundamental de que el prestatario permanecerá empleado a un nivel de ingresos aproximadamente actual durante la duración del préstamo. Durante treinta años, en el caso de la mayoría de las hipotecas.
+
+La crisis de empleo de cuello blanco ha amenazado este supuesto con un cambio sostenido en las expectativas de ingresos. Ahora tenemos que hacer una pregunta que parecía absurda hace solo 3 años: *¿son las hipotecas prime dinero seguro?*
+
+Toda crisis hipotecaria previa en la historia de EE. UU. fue impulsada por una de tres cosas: exceso especulativo (prestando a personas que no podían pagar las casas, como en 2008), shocks de tasas de interés (tasas crecientes haciendo inasequibles las hipotecas de tasa ajustable, como a principios de la década de 1980), o shocks económicos localizados (una sola industria colapsando en una sola región, como el petróleo en Texas en la década de 1980 o el automóvil en Michigan en 2009).
+
+Ninguna de estas se aplica aquí. Los prestatarios en cuestión no son subprime. Tienen puntajes FICO de 780. Pusieron el 20% de entrada. Tienen historiales crediticios limpios, registros de empleo estables e ingresos que fueron verificados y documentados en el origen. Eran los prestatarios que cada modelo de riesgo en el sistema financiero trata como la base de la calidad crediticia.
+
+En 2008, los préstamos eran malos desde el día uno. En 2028, los préstamos eran buenos desde el día uno. El mundo simplemente... cambió después de que se escribieron los préstamos. La gente pidió prestado contra un futuro que ya no pueden permitirse creer.
+
+[Imagen: Gráfico comparativo que muestra la solvencia crediticia entre 2008 y 2028, destacando que en 2028 los préstamos eran inicialmente seguros pero el entorno cambió.]
+
+En 2027, señalamos signos tempranos de estrés invisible: retiros de HELOC, retiros de 401(k) y deudas de tarjetas de crédito disparándose mientras los pagos hipotecarios se mantenían al día. A medida que se perdieron empleos, se congelaron las contrataciones y se recortaron los bonos, estos hogares prime vieron duplicarse sus ratios deuda-ingreso.
+
+Todavía podían hacer el pago de la hipoteca, pero solo deteniendo todo el gasto discrecional, drenando ahorros y posponiendo cualquier mantenimiento o mejora del hogar. Técnicamente estaban al día con su hipoteca, pero a un solo shock más de la angustia, y la trayectoria de las capacidades de IA sugería que ese shock venía. Luego vimos los impagos comenzar a dispararse en San Francisco, Seattle, Manhattan y Austin, incluso cuando el promedio nacional se mantenía dentro de las normas históricas.
+
+Ahora estamos en la etapa más aguda. Los precios de la vivienda en caída son manejables cuando el comprador marginal está sano. Aquí, el comprador marginal está lidiando con el mismo deterioro de ingresos.
+
+Si bien las preocupaciones están aumentando, aún no estamos en una crisis hipotecaria plena. Los impagos han aumentado pero permanecen muy por debajo de los niveles de 2008. Es la trayectoria la verdadera amenaza.
+
+[Imagen: Gráfico de líneas que muestra la trayectoria de impagos hipotecarios y valores de vivienda en áreas de alto empleo tecnológico.]
+
+La Espiral de Desplazamiento de Inteligencia ahora tiene dos aceleradores financieros para la caída de la economía real.
+
+Desplazamiento laboral, preocupaciones hipotecarias, turbulencia en mercados privados. Cada uno refuerza al otro. Y el kit de herramientas políticas tradicionales (recortes de tasas, QE) puede abordar el motor financiero pero no puede abordar el motor de la economía real, porque el motor de la economía real no está impulsado por condiciones financieras ajustadas. Está impulsado por la IA haciendo que la inteligencia humana sea menos escasa y menos valiosa. Puedes bajar las tasas a cero y comprar todos los MBS y toda la deuda de LBO de software en incumplimiento en el mercado...
+
+No cambiará el hecho de que un agente Claude puede hacer el trabajo de un gerente de producto de $180,000 por $200/mes.
+
+Si estos miedos se materializan, el mercado hipotecario se rompe en la segunda mitad de este año. En ese escenario, esperaríamos que el retroceso actual en las acciones finalmente rivalice con el de la GFC (57% de máximo a mínimo). Esto traería el S&P500 a ~3500, niveles que no hemos visto desde el mes anterior al momento ChatGPT en noviembre de 2022.
+
+Lo que está claro es que los supuestos de ingresos subyacentes a $13 billones en hipotecas residenciales están estructuralmente deteriorados. Lo que no está claro es si la política puede intervenir antes de que el mercado hipotecario procese completamente lo que esto significa. Tenemos esperanza, pero no podemos negar las razones para no tenerla.
+
+---
+
+### La batalla contra el tiempo
+
+El primer bucle de retroalimentación negativa estuvo en la economía real: la capacidad de IA mejora, la nómina se encoge, el gasto se ablanda, los márgenes se ajustan, las empresas compran más capacidad, la capacidad mejora. Luego se volvió financiero: el deterioro de los ingresos golpeó las hipotecas, las pérdidas bancarias ajustaron el crédito, el efecto riqueza se rompió y el bucle de retroalimentación se aceleró. Y ambos se han visto exacerbados por una respuesta política insuficiente de un gobierno que parece, francamente, confundido.
+
+[Imagen: Gráfico que muestra la caída en los ingresos federales y la desconexión entre la productividad de la IA y la recaudación fiscal tradicional.]
+
+El sistema no fue diseñado para una crisis como esta. La base de ingresos del gobierno federal es esencialmente un impuesto sobre el tiempo humano. La gente trabaja, las empresas les pagan, el gobierno toma un corte. Los impuestos sobre la renta individual y la nómina son la columna vertebral de los ingresos en años normales.
+
+Durante el primer trimestre de este año, los ingresos federales estaban corriendo un 12% por debajo de las proyecciones de referencia de la CBO. Los ingresos por nómina están cayendo porque menos personas están empleadas con los niveles de compensación anteriores. Los ingresos por impuesto sobre la renta están cayendo porque los ingresos que se ganan son estructuralmente más bajos. La productividad está aumentando, pero las ganancias están fluyendo hacia el capital y el cómputo, no hacia el trabajo.
+
+La participación del trabajo en el PIB disminuyó del 64% en 1974 al 56% en 2024, una erosión de cuatro décadas impulsada por la globalización, la automatización y la erosión constante del poder de negociación de los trabajadores. En los cuatro años desde que la IA comenzó su mejora exponencial, eso ha caído al 46%. La caída más pronunciada en el registro.
+
+La producción sigue ahí. Pero ya no está enrutando a través de los hogares de vuelta a las empresas, lo que significa que ya no está enrutando a través del IRS tampoco. El flujo circular se está rompiendo, y se espera que el gobierno intervenga para arreglar eso.
+
+[Imagen: Gráfico de larga duración mostrando el declive sostenido de la participación del trabajo en el PIB, con una caída pronunciada al inicio de la era de la IA avanzada.]
+
+Como en cada recesión, los gastos aumentan justo cuando los ingresos caen. La diferencia esta vez es que la presión de gasto no es cíclica. Los estabilizadores automáticos se construyeron para pérdidas de empleo temporales, no para desplazamiento estructural. El sistema está pagando beneficios que asumen que los trabajadores serán reabsorbidos. Muchos no lo serán, al menos no a nada como su salario anterior. Durante COVID, el gobierno abrazó libremente déficits del 15%, pero se entendió que era temporal. Las personas que necesitan apoyo del gobierno hoy no fueron golpeadas por una pandemia de la que se recuperarán. Fueron reemplazadas por una tecnología que continúa mejorando.
+
+**El gobierno necesita transferir más dinero a los hogares precisamente en el momento en que está recaudando menos dinero de ellos en impuestos.**
+
+Estados Unidos no entrará en default. Imprime la moneda que gasta, la misma moneda que usa para pagar a los prestatarios. Pero este estrés se ha manifestado en otra parte. Los bonos municipales están mostrando señales preocupantes de dispersión en el desempeño hasta la fecha. Los estados sin impuesto sobre la renta han estado bien, pero los bonos de obligación general emitidos por estados dependientes del impuesto sobre la renta (estados mayoritariamente azules) comenzaron a descontar cierto riesgo de default. Los políticos se dieron cuenta rápidamente, y el debate sobre quién es rescatado ha caído a lo largo de líneas partidistas.
+
+La administración, para su crédito, reconoció la naturaleza estructural de la crisis temprano y comenzó a considerar propuestas bipartidistas para lo que llaman la "Ley de Economía de Transición": un marco para transferencias directas a trabajadores desplazados financiadas por una combinación de gasto deficitario y un impuesto propuesto sobre la inferencia de cómputo de IA.
+
+La propuesta más radical sobre la mesa va más allá. La "Ley de Prosperidad de IA Compartida" establecería un reclamo público sobre los rendimientos de la propia infraestructura de inteligencia, algo entre un fondo soberano y un derecho sobre la producción generada por IA, con dividendos financiando transferencias a hogares. Los lobistas del sector privado han inundado los medios con advertencias sobre la pendiente resbaladiza.
+
+La política detrás de las discusiones ha sido sombríamente predecible, exacerbada por grandilocuencia y brinksmanship. La derecha llama a las transferencias y la redistribución marxismo y advierte que gravar el cómputo le entrega el liderazgo a China. La izquierda advierte que un impuesto redactado con la ayuda de incumbentes se convierte en captura regulatoria con otro nombre. Los halcones fiscales señalan los déficits insostenibles. Las palomas señalan la austeridad prematura impuesta después de la GFC como un cuento de advertencia. La división solo se está magnificiendo en la carrera hacia la elección presidencial de este año.
+
+Mientras los políticos discuten, el tejido social se está deshilando más rápido de lo que el proceso legislativo puede avanzar.
+
+El movimiento Occupy Silicon Valley ha sido emblemático de una insatisfacción más amplia. El mes pasado, los manifestantes bloquearon las entradas a las oficinas de Anthropic y OpenAI en San Francisco durante tres semanas seguidas. Sus números están creciendo, y las manifestaciones han atraído más cobertura mediática que los datos de desempleo que las provocaron.
+
+Es difícil imaginar al público odiando a alguien más que a los banqueros en el colapso de la GFC, pero los laboratorios de IA se están esforzando por lograrlo. Y, desde la perspectiva de las masas, con buena razón. Sus fundadores e inversores tempranos han acumulado riqueza a un ritmo que hace que la Edad Dorada parezca moderada. Las ganancias del auge de productividad acumulándose casi en su totalidad a los propietarios del cómputo y los accionistas de los laboratorios que lo ejecutaban ha magnificado la desigualdad en Estados Unidos a niveles sin precedentes.
+
+Cada lado tiene su propio villano, pero el verdadero villano es el tiempo.
+
+La capacidad de la IA está evolucionando más rápido de lo que las instituciones pueden adaptarse. La respuesta política se mueve al ritmo de la ideología, no de la realidad. Si el gobierno no se pone de acuerdo sobre cuál es el problema pronto, el bucle de retroalimentación escribirá el próximo capítulo por ellos.
+
+---
+
+### El desvanecimiento de la prima de inteligencia
+
+Durante toda la historia económica moderna, la inteligencia humana ha sido el insumo escaso. El capital era abundante (o al menos, replicable). Los recursos naturales eran finitos pero sustituibles. La tecnología mejoraba lo suficientemente lento como para que los humanos pudieran adaptarse. La inteligencia, la capacidad de analizar, decidir, crear, persuadir y coordinar, era lo que no se podía replicar a escala.
+
+La inteligencia humana derivaba su prima inherente de su escasez. Cada institución en nuestra economía, desde el mercado laboral hasta el mercado hipotecario y el código tributario, fue diseñada para un mundo en el que ese supuesto se mantenía.
+
+Ahora estamos experimentando el desvanecimiento de esa prima. La inteligencia de la máquina es ahora un sustituto competente y en rápida mejora de la inteligencia humana en una creciente gama de tareas. El sistema financiero, optimizado durante décadas para un mundo de mentes humanas escasas, se está revalorizando. Esa revalorización es dolorosa, desordenada y está lejos de estar completa.
+
+Pero revalorizar no es lo mismo que colapsar.
+
+La economía puede encontrar un nuevo equilibrio. Llegar allí es una de las pocas tareas que quedan que solo los humanos pueden hacer. Necesitamos hacerlo correctamente.
+
+Esta es la primera vez en la historia que el activo más productivo de la economía ha producido menos, no más, empleos. El marco de nadie encaja, porque ninguno fue diseñado para un mundo donde el insumo escaso se volvió abundante. Así que tenemos que hacer nuevos marcos. **Si los construimos a tiempo es la única pregunta que importa.**
+
+*Pero no estás leyendo esto en junio de 2028. Lo estás leyendo en febrero de 2026.*
+
+*El S&P está cerca de máximos históricos. Los bucles de retroalimentación negativa no han comenzado. Estamos seguros de que algunos de estos escenarios no se materializarán. Estamos igualmente seguros de que la inteligencia de la máquina continuará acelerándose. La prima sobre la inteligencia humana se reducirá.*
+
+*Como inversores, todavía tenemos tiempo para evaluar cuánto de nuestras carteras está construido sobre supuestos que no sobrevivirán la década. Como sociedad, todavía tenemos tiempo para ser proactivos.*
+
+*El canario todavía está vivo.*
+
+---
+
+### Referencias
+
+1.  [The Global Intelligence Crisis (Alap Shah)](https://open.substack.com/pub/alapshah1/p/the-global-intelligence-crisis?r=1g6uar&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
+2.  [Monday.com](http://monday.com)
+
+
+https://geohot.github.io/blog/jekyll/update/2026/02/27/the-insane-stupidity-of-ubi.html
+
+## La insensata estupidez de la RBU
+
+Pensar que la Renta Básica Universal (RBU) resolverá algo proviene de un malentendido sobre el dinero. El dinero es un mapa, no el territorio [1]. Todos los experimentos de RBU [2] han sido a pequeña escala y, por supuesto, la RBU funciona a pequeña escala. Es obvio que puedes darle dinero a unas pocas personas y todo va bien y son felices. Porque la gente a la que le compran no está también en la RBU. Pero una vez que agregas la "U" de Universal...
+
+¿Qué planeas comprar con tus dólares gubernamentales gratis? ¿Quieres comprar huevos? Lo siento, la gente de los huevos dejó de hacer huevos, están viviendo gratis con la RBU. ¿Quieres comprar una casa? ¿Quién la construyó? Nadie, porque todos estaban recibiendo la RBU y ya no querían construir casas. Ahora escriben poemas. Todavía hay casas viejas disponibles, pero su precio se ha multiplicado por 20, muy por encima de lo que puedes pagar.
+
+La creencia en la RBU proviene de la falacia de que la economía es algo natural. Veo un supermercado. El supermercado tiene huevos a \$ 5. Recibo \$ 10,000 de RBU. Puedo comprar 2,000 huevos. Por supuesto, esto no es lo que sucede. Como la mayoría de las cosas que inventan los políticos, nadie consideró los efectos de segundo orden [3], y no obtendrás 2,000 huevos con tu RBU. Porque todos recibieron la RBU y compraron huevos. O ya no hay más huevos o el precio sube. Y lo que es peor, mucha gente dejó de trabajar una vez que obtuvo la RBU. Así que ahora se producen menos huevos. Y todo tu cheque de la RBU te alcanza para 6 o 7 huevos en lugar de 2,000, si es que eso.
+
+La raíz de esta estupidez es que la gente se ve a sí misma aparte de la sociedad. No saben de dónde vienen las cosas, podría ser el "hada de las cosas" quien las pone en las estanterías del supermercado y fija los precios. Si el hada de las cosas fuera real, la RBU podría tener sentido. Pero vivimos en una sociedad. Trabajamos unos para otros. Al menos los adultos lo hacen. Ya existe la RBU en el mundo para algunas personas, se llama mesada. Es para niños y prostitutas de lujo.
+
+Me recuerda al episodio de Malcolm in the Middle [4] donde Malcolm sale con esa chica atractiva pero tonta, y ella sugiere resolver la pobreza convirtiendo cada billete de un dólar en un billete de un millón de dólares. ¿La gente de la RBU ha considerado esa idea?
+
+¿Qué llega primero, probar realmente la RBU o el fin de la democracia?
+
+(lo que realmente quieres es que todo sea barato de producir. pero lo siento, 6 ciudadanos "tienen preocupaciones" [5] y ahora tenemos seis semanas más de memoria cara. Me alegra que los chinos [6] [7] estén aumentando la producción de memoria).
+
+---
+Enlaces:
+[1] https://geohot.github.io/blog/jekyll/update/2025/02/24/money-is-the-map.html
+[2] https://basicincome.stanford.edu/experiments-map/
+[3] https://en.wikipedia.org/wiki/Perverse_incentive
+[4] https://malcolminthemiddle.fandom.com/wiki/Malcolm_Holds_His_Tongue
+[5] https://x.com/SemiAnalysis_/status/2026719180284666046
+[6] https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies
+[7] https://en.wikipedia.org/wiki/Yangtze_Memory_Technologies
+[8] Artículo original: https://geohot.github.io/blog/jekyll/update/2026/02/27/the-insane-stupidity-of-ubi.html

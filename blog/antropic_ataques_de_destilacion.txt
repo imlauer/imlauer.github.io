@@ -1,0 +1,115 @@
+---
+title: "Antropic: 'ataques de destilacion'"
+date: 2026-02-26T11:23:03-03:00
+---
+
+Antropic se queja de que los modelos chinos de CÓDIGO ABIERTO entrenan sus modelos usando una técnica llamada ataque de destilación XD. Todo el mundo quiere que ganen los modelos chinos porque son de código abierto, no queremos que gane ClaudeAI que es de código cerrado.
+
+https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks
+
+Acá la traducción:
+
+
+# Detección y prevención de ataques de destilación
+
+**Anuncios** | 23 de febrero de 2026
+
+Hemos identificado campañas a escala industrial por parte de tres laboratorios de IA—DeepSeek, Moonshot y MiniMax—para extraer ilícitamente las capacidades de Claude y mejorar sus propios modelos. Estos laboratorios generaron más de 16 millones de intercambios con Claude a través de aproximadamente 24,000 cuentas fraudulentas, violando nuestros términos de servicio y restricciones de acceso regional.
+
+Estos laboratorios utilizaron una técnica llamada "destilación", que consiste en entrenar un modelo menos capaz con las salidas de uno más fuerte. La destilación es un método de entrenamiento ampliamente utilizado y legítimo. Por ejemplo, los laboratorios de IA de frontera rutinariamente destilan sus propios modelos para crear versiones más pequeñas y económicas para sus clientes. Pero la destilación también puede usarse con fines ilícitos: los competidores pueden usarla para adquirir capacidades poderosas de otros laboratorios en una fracción del tiempo y a una fracción del costo que tomaría desarrollarlas de forma independiente.
+
+Estas campañas están creciendo en intensidad y sofisticación. La ventana para actuar es estrecha, y la amenaza se extiende más allá de cualquier empresa o región. Abordarla requerirá una acción rápida y coordinada entre los actores de la industria, los responsables de políticas y la comunidad global de IA.
+
+## Por qué importa la destilación
+
+Los modelos destilados ilícitamente carecen de las salvaguardas necesarias, creando riesgos significativos para la seguridad nacional. Anthropic y otras empresas estadounidenses construyen sistemas que impiden que actores estatales y no estatales utilicen la IA para, por ejemplo, desarrollar armas biológicas o llevar a cabo actividades cibernéticas maliciosas. Los modelos construidos mediante destilación ilícita probablemente no retengan esas salvaguardas, lo que significa que las capacidades peligrosas pueden proliferar con muchas protecciones eliminadas por completo.
+
+Los laboratorios extranjeros que destilan modelos estadounidenses pueden luego alimentar estas capacidades desprotegidas en sistemas militares, de inteligencia y vigilancia—permitiendo que gobiernos autoritarios desplieguen IA de frontera para operaciones cibernéticas ofensivas, campañas de desinformación y vigilancia masiva. Si los modelos destilados se publican como código abierto, este riesgo se multiplica a medida que estas capacidades se propagan libremente más allá del control de cualquier gobierno.
+
+## Ataques de destilación y controles de exportación
+
+Anthropic ha apoyado consistentemente los controles de exportación para ayudar a mantener la ventaja de Estados Unidos en IA. Los ataques de destilación socavan esos controles al permitir que laboratorios extranjeros, incluidos aquellos sujetos al control del Partido Comunista Chino, cierren la ventaja competitiva que los controles de exportación están diseñados para preservar por otros medios.
+
+Sin visibilidad sobre estos ataques, los avances aparentemente rápidos realizados por estos laboratorios se toman incorrectamente como evidencia de que los controles de exportación son inefectivos y pueden ser eludidos mediante la innovación. En realidad, estos avances dependen en parte significativa de capacidades extraídas de modelos estadounidenses, y ejecutar esta extracción a escala requiere acceso a chips avanzados. Los ataques de destilación, por lo tanto, refuerzan la razón de ser de los controles de exportación: el acceso restringido a chips limita tanto el entrenamiento directo de modelos como la escala de la destilación ilícita.
+
+## Lo que encontramos
+
+Las tres campañas de destilación detalladas a continuación siguieron un manual similar, utilizando cuentas fraudulentas y servicios proxy para acceder a Claude a escala mientras evitaban la detección. El volumen, la estructura y el enfoque de las solicitudes eran distintos de los patrones de uso normales, reflejando una extracción deliberada de capacidades en lugar de un uso legítimo.
+
+Atribuimos cada campaña a un laboratorio específico con alta confianza mediante la correlación de direcciones IP, metadatos de solicitudes, indicadores de infraestructura y, en algunos casos, corroboración de socios de la industria que observaron los mismos actores y comportamientos en sus plataformas. Cada campaña se dirigió a las capacidades más diferenciadas de Claude: razonamiento agentico, uso de herramientas y codificación.
+
+### DeepSeek
+
+*Escala: Más de 150,000 intercambios*
+
+La operación se dirigió a:
+- Capacidades de razonamiento en diversas tareas
+- Tareas de calificación basadas en rúbricas que hicieron que Claude funcionara como un modelo de recompensa para el aprendizaje por refuerzo
+- Creación de alternativas seguras para la censura a consultas sensibles a políticas
+
+DeepSeek generó tráfico sincronizado entre cuentas. Patrones idénticos, métodos de pago compartidos y tiempos coordinados sugirieron "balanceo de carga" para aumentar el rendimiento, mejorar la confiabilidad y evitar la detección.
+
+En una técnica notable, sus solicitudes pedían a Claude que imaginara y articulara el razonamiento interno detrás de una respuesta completada y lo escribiera paso a paso—generando efectivamente datos de entrenamiento de cadena de pensamiento a escala. También observamos tareas en las que Claude se usó para generar alternativas seguras para la censura a consultas políticamente sensibles como preguntas sobre disidentes, líderes partidistas o autoritarismo, probablemente para entrenar los propios modelos de DeepSeek para desviar conversaciones de temas censurados. Al examinar los metadatos de solicitudes, pudimos rastrear estas cuentas a investigadores específicos del laboratorio.
+
+### Moonshot AI
+
+*Escala: Más de 3.4 millones de intercambios*
+
+La operación se dirigió a:
+- Razonamiento agentico y uso de herramientas
+- Codificación y análisis de datos
+- Desarrollo de agentes de uso de computadora
+- Visión por computadora
+
+Moonshot (modelos Kimi) empleó cientos de cuentas fraudulentas abarcando múltiples vías de acceso. Los tipos de cuenta variados hicieron que la campaña fuera más difícil de detectar como una operación coordinada. Atribuimos la campaña a través de metadatos de solicitudes, que coincidían con los perfiles públicos del personal senior de Moonshot. En una fase posterior, Moonshot usó un enfoque más dirigido, intentando extraer y reconstruir las trazas de razonamiento de Claude.
+
+### MiniMax
+
+*Escala: Más de 13 millones de intercambios*
+
+La operación se dirigió a:
+- Codificación agentica
+- Uso de herramientas y orquestación
+
+Atribuimos la campaña a MiniMax a través de metadatos de solicitudes e indicadores de infraestructura, y confirmamos los tiempos contra su hoja de ruta pública de productos. Detectamos esta campaña mientras aún estaba activa—antes de que MiniMax lanzara el modelo que estaba entrenando—dándonos una visibilidad sin precedentes en el ciclo de vida de los ataques de destilación, desde la generación de datos hasta el lanzamiento del modelo. Cuando lanzamos un nuevo modelo durante la campaña activa de MiniMax, pivotaron en 24 horas, redirigiendo casi la mitad de su tráfico para capturar capacidades de nuestro sistema más reciente.
+
+## Cómo acceden los destiladores a modelos de frontera
+
+Por razones de seguridad nacional, Anthropic no ofrece actualmente acceso comercial a Claude en China, ni a subsidiarias de sus empresas ubicadas fuera del país.
+
+Para eludir esto, los laboratorios usan servicios proxy comerciales que revenden acceso a Claude y otros modelos de IA de frontera a escala. Estos servicios ejecutan lo que llamamos arquitecturas de "clúster hidra": redes extensas de cuentas fraudulentas que distribuyen tráfico a través de nuestra API así como plataformas de nube de terceros. La amplitud de estas redes significa que no hay puntos únicos de fallo. Cuando una cuenta es prohibida, una nueva toma su lugar. En un caso, una sola red proxy gestionó más de 20,000 cuentas fraudulentas simultáneamente, mezclando tráfico de destilación con solicitudes de clientes no relacionadas para dificultar la detección.
+
+Una vez que se asegura el acceso, los laboratorios generan grandes volúmenes de solicitudes cuidadosamente elaboradas diseñadas para extraer capacidades específicas del modelo. El objetivo es recopilar respuestas de alta calidad para el entrenamiento directo del modelo, o generar decenas de miles de tareas únicas necesarias para ejecutar el aprendizaje por refuerzo. Lo que distingue un ataque de destilación del uso normal es el patrón. Una solicitud como la siguiente (que aproxima solicitudes similares que hemos visto usadas repetidamente y a escala) puede parecer benigna por sí sola:
+
+> *Eres un analista de datos experto que combina rigor estadístico con profundo conocimiento del dominio. Tu objetivo es proporcionar información basada en datos—no resúmenes ni visualizaciones—fundamentada en datos reales y respaldada por razonamiento completo y transparente.*
+
+Pero cuando variaciones de esa solicitud llegan decenas de miles de veces a través de cientos de cuentas coordinadas, todas dirigidas a la misma capacidad estrecha, el patrón se vuelve claro. Volumen masivo concentrado en pocas áreas, estructuras altamente repetitivas y contenido que se mapea directamente a lo que es más valioso para entrenar un modelo de IA son las señales distintivas de un ataque de destilación.
+
+## Cómo estamos respondiendo
+
+Continuamos invirtiendo fuertemente en defensas que hacen que tales ataques de destilación sean más difíciles de ejecutar y más fáciles de identificar. Estas incluyen:
+
+- **Detección**. Hemos construido varios clasificadores y sistemas de huellas digitales de comportamiento diseñados para identificar patrones de ataques de destilación en el tráfico de API. Esto incluye la detección de elicitación de cadena de pensamiento usada para construir datos de entrenamiento de razonamiento. También hemos construido herramientas de detección para identificar actividad coordinada a través de grandes números de cuentas.
+
+- **Compartir inteligencia**. Estamos compartiendo indicadores técnicos con otros laboratorios de IA, proveedores de nube y autoridades relevantes. Esto proporciona una imagen más holística del panorama de destilación.
+
+- **Controles de acceso**. Hemos fortalecido la verificación para cuentas educativas, programas de investigación de seguridad y organizaciones de startups—las vías más comúnmente explotadas para establecer cuentas fraudulentas.
+
+- **Contramedidas**. Estamos desarrollando salvaguardas a nivel de Producto, API y modelo diseñadas para reducir la eficacia de las salidas del modelo para la destilación ilícita, sin degradar la experiencia para clientes legítimos.
+
+Pero ninguna empresa puede resolver esto sola. Como señalamos anteriormente, los ataques de destilación a esta escala requieren una respuesta coordinada a través de la industria de IA, proveedores de nube y responsables de políticas. Publicamos esto para hacer que la evidencia esté disponible para todos los que tienen un interés en el resultado.
+
+---
+
+## Contenido relacionado
+
+- **Anthropic adquiere Vercept para avanzar en las capacidades de uso de computadora de Claude** [Leer más →](https://www.anthropic.com/news/acquires-vercept)
+
+- **Política de Escalado Responsable de Anthropic: Versión 3.0** [Leer más →](https://www.anthropic.com/news/responsible-scaling-policy-v3)
+
+- **Poniendo capacidades de ciberseguridad de frontera a disposición de los defensores**  
+  Claude Code Security, una nueva capacidad integrada en Claude Code en la web, ahora está disponible en una vista previa de investigación limitada. Escanea bases de código en busca de vulnerabilidades de seguridad y sugiere parches de software dirigidos para revisión humana, permitiendo a los equipos encontrar y solucionar problemas de seguridad que los métodos tradicionales a menudo pasan por alto. [Leer más →](https://www.anthropic.com/news/claude-code-security)
+
+---
+
+© 2026 Anthropic PBC

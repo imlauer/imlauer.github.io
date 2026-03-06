@@ -1535,160 +1535,74 @@ The systemd binary repository should have packages compiled with `systemd -elogi
 eselect profile list
 ```
 
-You should be using something like `default/linux/amd64/23.0/systemd` rather than just `default/linux/amd64/23.0`.
+
+#### wpa supplicant y dhcpcd en el boot
 
 
+
+Since you mentioned using `systemctl`, you are likely using the **systemd** init system. The reason your current enable commands didn't work is that `wpa_supplicant` and `dhcpcd` need to be tied to your specific network interface (`wlp1s0`).
+
+Here is how to fix this for both init systems (Systemd and OpenRC), as Gentoo users often switch between them.
+
+### Option A: If you are using Systemd
+
+You need to enable the service instances specifically for your wireless interface.
+
+1.  **Enable wpa_supplicant for your interface:**
+    Instead of just `wpa_supplicant`, enable the template service that includes your interface name.
+    ```bash
+    sudo systemctl enable wpa_supplicant@wlp1s0.service
+    ```
+
+2.  **Enable dhcpcd:**
+    The standard `dhcpcd.service` usually works, but to be specific to your interface (and avoid it trying to manage other interfaces like ethernet if you don't want it to), you can often rely on the global service. If you previously enabled the generic one, disable it first to be clean, then ensure it's running:
+    ```bash
+    sudo systemctl enable dhcpcd.service
+    ```
+    *(Note: If `dhcpcd` still fails to pick up the interface, it is because `wpa_supplicant` hasn't associated with the Wi-Fi yet. Systemd handles these dependencies automatically if configured correctly, but sometimes it is cleaner to let the `networkmanager` handle both, or stick to the manual binding below.)*
+
+**A common Systemd alternative (Cleaner):**
+If the above gives you trouble, the most reliable "manual" method on systemd is to bind them together.
+1.  Run `sudo systemctl disable dhcpcd.service` (to stop the global one).
+2.  Enable the interface-specific dhcpcd: `sudo systemctl enable dhcpcd@wlp1s0.service`.
+3.  Ensure wpa_supplicant is enabled as shown in step 1 above.
+
+**Reboot to test.**
 
 ---
 
- * IMPORTANT: 27 news items need reading for repository 'gentoo'.
- * Use eselect news read to view new items.
+### Option B: If you are using OpenRC (Gentoo Default)
 
-Calculating dependencies  .... ... done!
-Dependency resolution took 33.86 s (backtrack: 0/20).
+If you are actually using OpenRC (which uses `rc-update`, not `systemctl`) but installed `systemd` tools by mistake, here is the correct OpenRC way to do this. This is the "Gentoo Way" of handling networks.
 
-[binary  N     ] x11-misc/compose-tables-1.8.12-1 
-[binary  N     ] llvm-core/llvm-common-21.1.8-1  USE="-emacs -verify-sig" 
-[binary  N     ] x11-themes/hicolor-icon-theme-0.17-1 
-[binary  N     ] acct-group/colord-0-r2-1 
-[binary  N     ] acct-group/pipewire-0-r2-1 
-[binary  N     ] acct-group/polkitd-0-r3-1 
-[binary  N     ] x11-themes/sound-theme-freedesktop-0.8-r1-1 
-[binary  N     ] app-text/iso-codes-4.18.0-1 
-[binary  N     ] media-libs/alsa-topology-conf-1.2.5.1-1 
-[binary  N     ] media-libs/alsa-ucm-conf-1.2.14-1 
-[binary  N     ] x11-misc/xkeyboard-config-2.46-1  USE="-test" 
-[binary  N     ] x11-base/xorg-proto-2024.1-1  USE="-test" 
-[binary  N     ] dev-qt/qttranslations-6.10.1-1  USE="-custom-cflags" 
-[binary  N     ] dev-libs/wayland-protocols-1.45-1  USE="-test" 
-[binary  N     ] acct-group/lpadmin-0-r3-1 
-[binary  N     ] acct-user/polkitd-0-r3-1 
-[binary  N     ] acct-user/colord-0-r2-1 
-[binary   R    ] sys-libs/zlib-1.3.1-r1-17  USE="minizip*" ABI_X86="32*" 
-[binary   R    ] virtual/zlib-1.3.1-r1-2  ABI_X86="32*" 
-[binary  N     ] media-libs/alsa-lib-1.2.14-3  USE="-debug -doc -python" ABI_X86="(64) -32 (-x32)" PYTHON_SINGLE_TARGET="-python3_11 -python3_12 -python3_13" 
-[binary  N     ] dev-libs/icu-77.1-2  USE="-debug -doc -examples -static-libs -test -verify-sig" ABI_X86="32 (64) (-x32)" 
-[binary  N     ] media-libs/libogg-1.3.6-1  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/lcms-2.17-2  USE="-doc -jpeg -static-libs -test -tiff" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/libltdl-2.5.4-1  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/wayland-1.24.0-1  USE="-doc -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libICE-1.1.2-3  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/nspr-4.37-1  USE="-debug" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/opus-1.5.2-4  USE="-custom-modes -debug -deep-plc -doc -dred -hardened -osce -static-libs -test" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse" 
-[binary  N     ] dev-lang/orc-0.4.41-1  USE="-gtk-doc -static-libs -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/libatomic_ops-7.8.4-2  ABI_X86="(64) (-32) (-x32)" 
-[binary  N     ] net-libs/libasyncns-0.8-r4-7  USE="-debug -doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXau-1.0.12-3  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXdmcp-1.1.5-5  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] app-arch/snappy-1.2.2-r1-2  USE="-test" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="-avx -avx2" 
-[binary  N     ] dev-lang/duktape-2.7.0-r3-1 
-[binary  N     ] media-libs/flac-1.5.0-4  USE="cxx -debug -ogg -static-libs" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="-avx -avx2" 
-[binary  N     ] media-sound/lame-3.100-r3-7  USE="frontend -debug -mp3rtp -sndfile -static-libs" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="(-mmx)" 
-[binary  N     ] dev-util/spirv-tools-1.4.328.0-1  USE="-test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libxshmfence-1.3.3-3  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/double-conversion-3.4.0-1  USE="-test" 
-[binary  N     ] dev-libs/md4c-0.5.2-2  USE="md2html -test" 
-[binary  N     ] app-text/libpaper-2.1.3-1 
-[binary  N     ] dev-libs/libevdev-1.13.5-1  USE="-doc -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] sys-libs/mtdev-1.1.7-1 
-[binary  N     ] media-libs/speexdsp-1.2.1-7  ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse sse2" 
-[binary  N     ] dev-cpp/abseil-cpp-20250512.1-2  USE="-test -test-helpers" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] virtual/minizip-1.3.1-1  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libxcb-1.17.0-6  USE="xkb -doc (-selinux) -test" ABI_X86="(64) -32 (-x32)" 
-[binary   R    ] dev-libs/libxml2-2.15.1-8  USE="icu*" ABI_X86="32*" PYTHON_TARGETS="-python3_13*" 
-[binary  N     ] media-libs/libvorbis-1.3.7-r2-2  USE="-static-libs -test" ABI_X86="(64) -32 (-x32)" 
-[binary     UD ] x11-libs/libdrm-2.4.127-2 [2.4.131] USE="-udev*" VIDEO_CARDS="amdgpu* nouveau* radeon*" 
-[binary  N     ] media-libs/libwebp-1.6.0-2  USE="jpeg png -gif -opengl -static-libs -swap-16bit-csp -tiff" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse2 -avx2 -sse4_1" 
-[binary  N     ] dev-libs/nss-3.112.2-3  USE="utils -cacert -test -test-full" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="-avx2 -sse3" 
-[binary  N     ] dev-db/mysql-connector-c-8.0.36-3  USE="-ldap -static-libs" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/webrtc-audio-processing-1.3-r3-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libX11-1.8.12-1  USE="-doc -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libxkbcommon-1.12.3-2  USE="X -doc -static-libs -test -tools -wayland" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/xcb-util-0.4.1-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/xcb-util-keysyms-0.4.1-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/xcb-util-renderutil-0.3.10-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/libcanberra-0.30-r8-6  USE="-alsa -gstreamer -oss -pulseaudio -tdb -udev" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] app-eselect/eselect-lua-4-r1-1 
-[binary  N     ] media-libs/libtheora-1.2.0-r1-1  USE="encode -doc -examples -static-libs" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/xcb-util-wm-0.4.2-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXext-1.3.6-6  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXfixes-6.0.2-1  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXrender-0.9.12-3  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXcomposite-0.4.6-6  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXdamage-1.1.6-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/xcb-util-image-0.4.1-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libxkbfile-1.1.3-6  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-lang/lua-5.4.8-1  USE="deprecated readline" 
-[binary  N     ] app-eselect/eselect-mpg123-0.1-r1-1 
-[binary  N     ] media-libs/libglvnd-1.7.0-6  USE="X -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXrandr-1.5.4-6  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXi-1.8.2-3  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXxf86vm-1.1.6-3  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXv-1.0.13-3  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-sound/mpg123-base-1.33.3-3  USE="ipv6 -alsa (-coreaudio) -int-quality -jack -nas -oss -portaudio -pulseaudio -sdl" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse (-3dnow) (-3dnowext) (-mmx)" 
-[binary  N     ] x11-libs/xcb-util-cursor-0.1.6-1  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXcursor-1.2.3-3  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXtst-1.2.5-3  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/libsndfile-1.2.2-r2-16  USE="-alsa -minimal -sqlite -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/libepoxy-1.5.10-r3-4  USE="X -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] virtual/opengl-8-1  USE="(X)" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/glu-9.0.3-1  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] virtual/glu-9.0-r2-1  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/freeglut-3.6.0-r1-2  ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/tiff-4.7.0-r1-11  USE="cxx jpeg lzma opengl webp zlib zstd -jbig -lerc -libdeflate -static-libs -test -verify-sig" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/openjpeg-2.5.3-r1-3  USE="-doc -test" ABI_X86="(64) -32 (-x32)" 
-[binary   R    ] media-libs/freetype-2.14.1-r1-10  USE="harfbuzz*" 
-[binary  N     ] llvm-core/llvm-20.1.8-28  USE="binutils-plugin debug libffi zstd (-debuginfod) -doc -exegesis -libedit -test -verify-sig -xml -z3" ABI_X86="(64) -32 (-x32)" LLVM_TARGETS="(AArch64) (AMDGPU) (ARM) (AVR) (BPF) (Hexagon) (Lanai) (LoongArch) (MSP430) (Mips) (NVPTX) (PowerPC) (RISCV) (SPIRV) (Sparc) (SystemZ) (VE) (WebAssembly) (X86) (XCore) -ARC -CSKY -DirectX -M68k -Xtensa" 
-[binary  N     ] llvm-core/llvm-toolchain-symlinks-20-r1-2  USE="-multilib-symlinks -native-symlinks" 
-[binary  N     ] llvm-core/llvm-21.1.8-6  USE="binutils-plugin debug libffi xml zstd (-debuginfod) -doc -exegesis -libedit -test -verify-sig -z3" ABI_X86="(64) -32 (-x32)" LLVM_TARGETS="(AArch64) (AMDGPU) (ARM) (AVR) (BPF) (Hexagon) (Lanai) (LoongArch) (MSP430) (Mips) (NVPTX) (PowerPC) (RISCV) (SPIRV) (Sparc) (SystemZ) (VE) (WebAssembly) (X86) (XCore) -ARC -CSKY -DirectX -M68k -Xtensa" 
-[binary  N     ] llvm-core/llvmgold-21-1 
-[binary  N     ] llvm-core/llvm-toolchain-symlinks-21-1  USE="-multilib-symlinks -native-symlinks" 
-[binary  N     ] media-libs/mesa-25.2.7-2  USE="X llvm (opengl) proprietary-codecs sysprof vulkan wayland zstd -debug -lm-sensors -opencl -test -unwind -vaapi -valgrind -vdpau" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse2" LLVM_SLOT="20 -18 -19" VIDEO_CARDS="intel nouveau radeon radeonsi -asahi -d3d12 (-freedreno) -lavapipe (-lima) -nvk (-panfrost) -r300 -r600 (-v3d) (-vc4) -virgl (-vivante) -vmware -zink" 
-[binary  N     ] x11-libs/libSM-1.2.6-1  USE="uuid -doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/libusb-1.0.29-1  USE="udev -debug -doc -examples -static-libs -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/libXft-2.3.9-1  USE="-doc" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/libinput-1.29.1-1  USE="-doc -test" INPUT_DEVICES="-wacom" 
-[binary  N     ] virtual/libusb-1-r2-1  USE="udev" ABI_X86="(64) -32 (-x32)" 
-[binary   R    ] x11-libs/cairo-1.18.4-r1-24  USE="X*" 
-[binary  N     ] net-print/cups-2.4.14-8  USE="acl pam -X -dbus -debug -kerberos -openssl (-selinux) -static-libs -systemd -test -usb -xinetd -zeroconf" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-misc/xdg-utils-1.2.1-r9-6  USE="-X -dbus -doc -gnome -perl -plasma" 
-[binary  N     ] gnome-base/gsettings-desktop-schemas-48.0-2  USE="introspection" 
-[binary  N     ] kde-frameworks/breeze-icons-6.20.0-1  USE="-test" 
-[binary  N     ] kde-frameworks/kf-env-6-1 
-[binary  N     ] media-libs/libpulse-17.0-3  USE="X asyncns glib -dbus -doc -gtk (-selinux) -systemd -test -valgrind" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-sound/pulseaudio-daemon-17.0-r1-4  USE="X alsa alsa-plugin asyncns gdbm glib orc ssl udev webrtc-aec -aptx -bluetooth -dbus (-elogind) -equalizer -fftw -gstreamer -jack -ldac -lirc -ofono-headset (-oss) (-selinux) -sox (-system-wide) -systemd -tcpd -test -valgrind -zeroconf" 
-[binary  N     ] media-plugins/alsa-plugins-1.2.12-4  USE="mix pulseaudio usb_stream -arcam_av -debug -ffmpeg -jack -libsamplerate -oss -speex" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] sys-auth/elogind-255.17-r1-1  USE="acl pam policykit -audit -cgroup-hybrid -debug -doc (-selinux) -test" 
-[binary  N     ] sys-auth/polkit-126-r2-8  USE="introspection nls pam -examples -gtk -kde (-selinux) -systemd -test" 
-[binary  N     ] x11-libs/gdk-pixbuf-2.42.12-4  USE="introspection -gif -gtk-doc -jpeg -test -tiff" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/gstreamer-1.24.11-5  USE="caps introspection nls -ptp -test -unwind" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/graphene-1.10.8-r1-5  USE="introspection -doc -test" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse2" 
-[binary  N     ] net-libs/libproxy-0.5.11-2  USE="gnome introspection -duktape -gtk-doc -test -vala" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] app-accessibility/at-spi2-core-2.56.5-6  USE="introspection -X -dbus-broker -gtk-doc -systemd -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/libgudev-238-r2-3  USE="introspection -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-libs/json-glib-1.10.8-2  USE="introspection nls -gtk-doc -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-libs/pango-1.57.0-3  USE="X introspection sysprof -debug -examples -gtk-doc -test" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-util/gtk-update-icon-cache-3.24.42-1 
-[binary  N     ] dev-libs/libgusb-0.4.9-6  USE="introspection -gtk-doc -test -vala" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] gnome-base/librsvg-2.60.0-6  USE="introspection -debug -gtk-doc -test -vala" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-libs/gst-plugins-base-1.24.11-r1-16  USE="X alsa egl gles2 introspection nls ogg opengl orc pango theora vorbis -gbm -ivorbis -test -wayland" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-misc/colord-1.4.8-4  USE="introspection -argyllcms -examples -extra-print-profiles -gtk-doc -scanner (-selinux) -systemd -test -vala" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] x11-themes/adwaita-icon-theme-legacy-46.2-1 
-[binary  N     ] x11-themes/adwaita-icon-theme-48.1-2  USE="-branding" 
-[binary  N     ] x11-libs/gtk+-3.24.51-5  USE="X colord cups introspection sysprof wayland (-aqua) -broadway -cloudproviders -examples -gtk-doc -test -vim-syntax -xinerama" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] dev-qt/qtbase-6.10.1-3  USE="X concurrent cups dbus gtk gui icu libinput libproxy mysql network nls opengl sql sqlite ssl udev vulkan wayland widgets xml (zstd) -accessibility -brotli -custom-cflags -eglfs -evdev -gles2-only -gssapi -journald -oci8 -odbc -postgres -renderdoc -sctp -syslog -test -tslib" 
-[binary  N     ] dev-qt/qtsvg-6.10.1-1  USE="-custom-cflags -test" 
-[binary  N     ] kde-frameworks/karchive-6.20.0-1  USE="crypt zstd -debug -test" 
-[binary  N     ] dev-qt/qtshadertools-6.10.1-1  USE="-custom-cflags -test" 
-[binary  N     ] dev-qt/qtdeclarative-6.10.1-r1-2  USE="jit network opengl sql ssl svg vulkan widgets -accessibility -custom-cflags -qmlls" 
-[binary  N     ] dev-qt/qtwebchannel-6.10.1-1  USE="qml -custom-cflags -test" 
-[binary  N     ] dev-qt/qt5compat-6.10.1-1  USE="gui icu qml -custom-cflags -test" 
-[binary  N     ] media-video/pipewire-1.4.9-r1-4  USE="X dbus gstreamer readline ssl systemd -bluetooth -doc -echo-cancel (-elogind) -extra -ffmpeg -fftw -flatpak -gsettings -ieee1394 -jack-client -jack-sdk -liblc3 -loudness -lv2 -man -modemmanager -pipewire-alsa -roc (-selinux) -sound-server (-system-service) -test -v4l -zeroconf" ABI_X86="(64) -32 (-x32)" 
-[binary  N     ] media-video/wireplumber-0.5.12-2  USE="(elogind) -doc (-system-service) -systemd -test" LUA_SINGLE_TARGET="lua5-4 -lua5-3" 
-[binary  N     ] dev-qt/qtwebengine-6.10.1-3  USE="alsa bindist jumbo-build opengl pdfium pulseaudio qml screencast system-icu vulkan widgets -accessibility -custom-cflags -designer -geolocation -kerberos -test -vaapi -webdriver" 
-[binary  N     ] www-client/falkon-25.08.3-2  USE="X dbus -debug -kde -python -test" PYTHON_SINGLE_TARGET="python3_13 -python3_11 -python3_12" 
-[blocks B      ] sys-apps/systemd ("sys-apps/systemd" is soft blocking sys-auth/elogind-255.17-r1)
+1.  **Create a network script symlink:**
+    Gentoo uses a generic `net.lo` script. You need to link it to your wireless interface.
+    ```bash
+    sudo ln -s /etc/init.d/net.lo /etc/init.d/net.wlp1s0
+    ```
 
-[31;01m * [39;49;00mError: The above package list contains packages which cannot be
-[31;01m * [39;49;00minstalled at the same time on the same system.
+2.  **Configure `/etc/conf.d/net`:**
+    Tell the system to use wpa_supplicant for this interface. Add these lines to the file:
+    ```bash
+    # /etc/conf.d/net
+    modules="wpa_supplicant"
+    wpa_supplicant_wlp1s0="-Dnl80211 -c/etc/wpa_supplicant/wpa_supplicant.conf"
+    config_wlp1s0="dhcp"
+    ```
 
+3.  **Enable the scripts to start at boot:**
+    ```bash
+    sudo rc-update add net.wlp1s0 default
+    ```
+    *(Note: You usually do **not** need to add `dhcpcd` or `wpa_supplicant` separately to the runlevel when using this method; the `net.wlp1s0` script handles calling them).*
+
+4.  **Start it immediately (optional):**
+    ```bash
+    sudo /etc/init.d/net.wlp1s0 start
+    ```
+
+### Summary checklist
+*   **Systemd:** Use `wpa_supplicant@wlp1s0.service`.
+*   **OpenRC:** Use the `net.wlp1s0` symbolic link method.
+
+**Important Note:** Do not mix the two methods. If you use the OpenRC `net.wlp1s0` method, do not enable the standalone `wpa_supplicant` or `dhcpcd` services. If you use Systemd, use the service files directly.

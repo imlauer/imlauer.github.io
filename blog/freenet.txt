@@ -21,6 +21,8 @@ ss -tanp
 
 Deberías ver el puerto :8888 abierto. En mi caso tuve que cambiar cerrar SearXNG que usaba el mismo puerto.
 
+Tenes que configurar 8888 como proxy en falkon.
+
 Ahora prueba ingresar a este sitio:
 
 * [FreeNet: A la mierda copyright](http://127.0.0.1:8888/USK@NiPBeAA-PpA715zb8Jc~Q-ohFbKPt8Mo-YiH~w1D56A,--ZTBvgu7XMdX0QUJGBHp-Hogoh0AQK1p8WoY6IR80Q,AQACAAE/lawiki/5/)
