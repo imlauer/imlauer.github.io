@@ -167,3 +167,4 @@ https://archive.org/details/MI_BLOG1772762717-99525 - commit: 2026-03-05
 https://archive.org/details/MI_BLOG1772772486-155685 - commit: 1
 https://archive.org/details/MI_BLOG1772772495-155757 - commit: analisismatematico
 https://archive.org/details/MI_BLOG1772772726-157019 - commit: guarderia
+https://archive.org/details/MI_BLOG1773171658-24928 - commit: AM2
