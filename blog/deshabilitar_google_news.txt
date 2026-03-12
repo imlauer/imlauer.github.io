@@ -10,3 +10,123 @@ O sería mejor tener un dumbphone en vez de un "smartphone".
 Ve a la página de las "noticias".
 **Toca tu foto de perfil** en la esquina superior derecha.
 **Selecciona "Configuración"** de Discover y deshabilitá eso.
+
+Aca te enseño como instalar Lineage OS: https://imlauer.blogspot.com/2024/10/instalar-nethunt-kali-en-android-60-xd.html https://imlauer.blogspot.com/2024/10/alpine-en-android.html
+
+Si no entendes busca videos o armate de paciencia hacelo tranquilo o podes brickear tu celular.
+
+ https://xdaforums.com/t/rom-7-1-x-official-lineageos-14-1-nightly.3534711/
+
+
+
+Instala lineageos 15: https://www.mediafire.com/file/e5m24eb74x0x3wt/lineage-15.1-20190202-UNOFFICIAL-osprey.zip/file
+
+gapps: https://github.com/MindTheGapps/8.1.0-arm/releases/latest
+
+
+
+Al final me funciono con lineage 14.1 tenia que hacer el proceso de instalcion
+
+primero por eso fallaba.
+
+
+
+tuve que instalar nethunter-armhf que es compatible con armv7 y lo copie a la
+
+memoria del celular no del sd y lo movi de kalifs-rootfs-full-armhf a
+
+kalifs-minimal.
+
+
+
+https://web.archive.org/web/20220428192928if_/https://build.nethunter.com/kalifs/kalifs-latest/kalifs-armhf-full.tar.xz
+
+
+
+
+
+
+
+lineageos 14.1: https://ia800906.us.archive.org/26/items/lineage-14.1-20190220-nightly-osprey-signed/lineage-14.1-20190220-nightly-osprey-signed.zip
+
+gapps: http://opengapps.org/?arch=arm&api=7.1&download=true&variant=pico
+
+su(arm): https://web.archive.org/web/20170206161753/https://mirrorbits.lineageos.org/su/addonsu-arm-signed.zip
+
+o podes usar magisk
+
+
+
+https://androidfilehost.com/?fid=9618401555455773230
+
+
+
+https://xdaforums.com/t/rom-7-1-x-official-lineageos-14-1-nightly.3534711/
+
+https://www.htcmania.com/archive/index.php/t-1282388.html
+
+
+
+
+
+Wipe system, data, cache, dalvik
+
+
+
+https://xdaforums.com/t/official-kali-nethunter-for-moto-g-2015-osprey.3815178/
+
+
+
+
+
+fastboot oem unlock 3A55840866675997#5A59323232584D4C4732004D6F746F4733000000#E649D8C13E00797001A19370E805A465C9609D36#417D0114000000000000000000000000
+
+
+
+
+
+Instalá lineageOS, pasá todos los zips anteriores rom gapps y root a tu sd y
+
+bootea desde el twrp, flashea el twrp con flasboot recovery image.img
+
+
+
+Wipe system, data, cache, dalvik
+
+Install zip rom
+
+Install zip gapps
+
+Install zip root (opcional)
+
+Reiniciar
+
+
+
+Tuve que flashear la boot.img del lineage-os-osprey para que funcione el wifi
+
+extraje el boot.img y lo flashee con el comando: fastboot flash boot boot.img
+
+
+
+
+
+Despues de lograr instalar tenes que instalr el fixed rebooting
+
+
+
+Update V 1.3 - Fixed Rebooting
+
+
+
+Fixed Rebooting after removing wireless adaptor
+
+Download KERNEL below and flash it.
+
+Download Kernel for Oreo ROM's
+
+
+
+
+
+https://xdaforums.com/t/official-kali-nethunter-for-moto-g-2015-osprey.3815178/

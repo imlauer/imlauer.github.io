@@ -191,3 +191,215 @@ Puedo:
 
 [1]: https://stackoverflow.com/questions/43518199/cookies-expiration-time-format?utm_source=chatgpt.com "Cookies expiration time format - google chrome"
 
+---
+
+# Cómo Extraer Cookies de Falkon y Postear en Foros 3DGames
+
+## Resumen
+
+Este tutorial explica cómo extraer cookies del navegador Falkon (QtWebEngine) y usarlas con curl para interactuar con foros vBulletin como foros.3dgames.com.ar.
+
+---
+
+## Paso 1: Cerrar Falkon
+
+Antes de extraer las cookies, es importante cerrar el navegador para evitar problemas de concurrencia:
+
+```bash
+pkill -f falkon
+sleep 2
+```
+
+---
+
+## Paso 2: Extraer Cookies de Falkon (SQLite)
+
+Las cookies de Falkon se encuentran en formato SQLite:
+
+```bash
+~/.config/falkon/profiles/default/Cookies
+```
+
+### Schema de la tabla cookies
+
+```sql
+CREATE TABLE cookies(
+  creation_utc INTEGER NOT NULL,
+  host_key TEXT NOT NULL,
+  name TEXT NOT NULL,
+  value TEXT NOT NULL,
+  encrypted_value BLOB NOT NULL,
+  path TEXT NOT NULL,
+  expires_utc INTEGER NOT NULL,
+  ...
+);
+```
+
+---
+
+## Paso 3: Extraer Cookies y Convertir a Formato Netscape
+
+El formato que funciona con curl es el formato Netscape (el mismo que usa yt-dlp).
+
+### Extraer cookies de 3dgames
+
+```bash
+sqlite3 ~/.config/falkon/profiles/default/Cookies \
+  "SELECT host_key, name, value, path, expires_utc FROM cookies WHERE host_key LIKE '%3dgames%';" \
+  | awk -F'|' 'BEGIN {print "# Netscape HTTP Cookie File"} {
+    expires=int($5/1000000-11644473600); 
+    if(expires<0) expires=0; 
+    print $1"\tTRUE\t"$4"\tFALSE\t"expires"\t"$2"\t"$3
+  }' > /tmp/3dgames_cookies.txt
+```
+
+### Extraer TODAS las cookies (importante!)
+
+El problema clave: solo extraer cookies de 3dgames NO funciona. Se necesitan TODAS las cookies porque vBulletinvalida la sesión mediante JavaScript y necesita cookies adicionales (probablemente de profiles.3dgames.com.ar o del dominio principal).
+
+```bash
+sqlite3 ~/.config/falkon/profiles/default/Cookies \
+  "SELECT host_key, name, value, path, expires_utc FROM cookies;" \
+  | awk -F'|' 'BEGIN {print "# Netscape HTTP Cookie File"} {
+    expires=int($5/1000000-11644473600); 
+    if(expires<0) expires=0; 
+    print $1"\tTRUE\t"$4"\tFALSE\t"expires"\t"$2"\t"$3
+  }' > /tmp/all_cookies.txt
+```
+
+**Fórmula de conversión de expiry:**
+- Chrome/Chromium usa microsegundos desde Unix (1601-01-01)
+- Unix timestamp = microsegundos / 1,000,000 - 11644473600
+
+---
+
+## Paso 4: Verificar Sesión Iniciada
+
+Antes de postear, verificar que la sesión está activa:
+
+```bash
+curl -sL "https://foros.3dgames.com.ar/" \
+  -b /tmp/all_cookies.txt \
+  -c /tmp/session.txt \
+  | grep -oP "LOGGEDIN = \d+"
+```
+
+Debería mostrar `LOGGEDIN = 919561` (o cualquier número != 0).
+
+Si muestra `LOGGEDIN = 0`, las cookies no tienen la sesión válida.
+
+---
+
+## Paso 5: Obtener Formulario de Respuesta
+
+### Obtener el token de seguridad y formulario
+
+```bash
+curl -sL "https://foros.3dgames.com.ar/newreply.php?do=newreply&t=1034102" \
+  -b /tmp/all_cookies.txt \
+  -c /tmp/session.txt
+```
+
+Buscar:
+- `securitytoken` - necesario para POST
+- `action="newreply.php?do=postreply&t=ID"` - URL del formulario
+
+Extraer el securitytoken:
+
+```bash
+grep -oP 'name="securitytoken" value="[^"]*"' | grep -oP 'value="\K[^"]+'
+```
+
+---
+
+## Paso 6: Publicar Respuesta
+
+### Estructura del POST
+
+```bash
+curl -sL "https://foros.3dgames.com.ar/newreply.php?do=postreply&t=1034102" \
+  -b /tmp/all_cookies.txt \
+  -c /tmp/session.txt \
+  -X POST \
+  -d "do=postreply" \
+  -d "t=1034102" \
+  -d "securitytoken=TU_TOKEN_AQUI" \
+  -d "message=TU MENSAJE AQUi" \
+  -d "iconid=0"
+```
+
+### Verificar publicación
+
+```bash
+curl -sL "https://foros.3dgames.com.ar/threads/1034102-programacion-ya-esta-saturado?goto=newpost" \
+  -b /tmp/session.txt \
+  | grep -i "tu mensaje"
+```
+
+---
+
+## Problemas Comunes y Soluciones
+
+### 1. LOGGEDIN = 0 aunque las cookies existen
+
+**Causa:** Solo se extrajeron cookies de 3dgames, faltando cookies de otros dominios.
+
+**Solución:** Extraer TODAS las cookies, no solo las del dominio objetivo.
+
+### 2. El formulario de respuesta redirige a login
+
+**Causa:** La sesión no está validada correctamente o falta alguna cookie.
+
+**Solución:** 
+- Usar todas las cookies
+- Hacer una petición inicial a la página principal para establecer sesión
+- Usar `-c` para guardar las cookies actualizadas
+
+### 3. Security token expirado
+
+**Causa:** El token tiene vigencia limitada.
+
+**Solución:** Obtener un nuevo token de la página de respuesta cada vez.
+
+### 4. vBulletin usa JavaScript para validar sesión
+
+**Causa:** El login se activa al hacer clic en "Responder", no al cargar la página.
+
+**Solución:** 
+- La sesión se establece al hacer curl a `newreply.php?do=newreply&t=ID`
+- Luego de eso, las cookies actualizadas sirven para postear
+
+---
+
+## Comandos Útiles
+
+### Verificar cookies extraídas
+
+```bash
+cat /tmp/all_cookies.txt | grep 3dgames
+```
+
+### Ver tamaño de cookies
+
+```bash
+wc -l /tmp/all_cookies.txt
+```
+
+### Proxies y headers adicionales (si es necesario)
+
+```bash
+curl -sL "https://foros.3dgames.com.ar/" \
+  -b cookies.txt \
+  -c cookies.txt \
+  -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
+  -H "Accept-Language: es-ES,es;q=0.9"
+```
+
+---
+
+## Notas
+
+- Las cookies de Falkon usan el schema de Chromium/Chrome
+- El formato Netscape es compatible con curl, wget, yt-dlp, etc.
+- La sesión de vBulletin se renueva automáticamente al interacturar con el sitio
+- El securitytoken cambia en cada request de respuesta

@@ -1,0 +1,153 @@
+---
+title: "Socat MPV"
+date: 2026-03-08T02:50:58-03:00
+tags: ['cli']
+---
+
+# Tutorial: Controlar MPV con SOCAT
+
+## ¿Qué es esto?
+
+MPV tiene un servidor IPC (inter-process communication) que permite enviar comandos mientras el video está reproduciendo. Usamos `socat` para comunicarse con el socket.
+
+## Instalación
+
+### Arch Linux
+```bash
+sudo pacman -S socat
+```
+
+### Debian/Ubuntu
+```bash
+sudo apt install socat
+```
+
+Asegurate de tener también mpv instalado:
+```bash
+# Arch
+sudo pacman -S mpv
+```
+
+## 1. Abrir un video con socket habilitado
+
+```bash
+mpv video.mp4 --input-ipc-server=/tmp/mpv.sock
+```
+
+Esto crea un socket en `/tmp/mpv.sock` para recibir comandos.
+
+## 2. Enviar comandos con socat
+
+### Silenciar/Desmutear (tecla m)
+```bash
+echo '{"command": ["keypress", "m"]}' | socat - /tmp/mpv.sock
+```
+
+### Play/Pause (tecla espacio)
+```bash
+echo '{"command": ["keypress", "space"]}' | socat - /tmp/mpv.sock
+```
+
+### Obtener volumen actual
+```bash
+echo '{"command": ["get_property", "volume"]}' | socat - /tmp/mpv.sock
+```
+
+### Establecer volumen (0-100)
+```bash
+echo '{"command": ["set_property", "volume", 50]}' | socat - /tmp/mpv.sock
+```
+
+### Obtener posición actual (tiempo)
+```bash
+echo '{"command": ["get_property", "time-pos"]}' | socat - /tmp/mpv.sock
+```
+
+### Seek (ir a un tiempo específico en segundos)
+```bash
+echo '{"command": ["seek", 60]}' | socat - /tmp/mpv.sock  # ir a 1:00
+```
+
+### Obtener duración total
+```bash
+echo '{"command": ["get_property", "duration"]}' | socat - /tmp/mpv.sock
+```
+
+### Salir de mpv
+```bash
+echo '{"command": ["quit"]}' | socat - /tmp/mpv.sock
+```
+
+## 3. Estructura de los comandos JSON
+
+Los comandos siguen este formato:
+
+```json
+{"command": ["nombre_del_comando", argumento1, argumento2, ...]}
+```
+
+### Comandos con argumentos:
+
+| Comando | Descripción | Ejemplo |
+|---------|-------------|---------|
+| `keypress` | Envía una tecla | `["keypress", "m"]` |
+| `set_property` | Cambia una propiedad | `["set_property", "volume", 80]` |
+| `get_property` | Obtiene una propiedad | `["get_property", "time-pos"]` |
+| `seek` | Ir a posición (segundos) | `["seek", 120]` |
+
+## 4. Script de ejemplo
+
+```bash
+#!/bin/bash
+
+SOCKET="/tmp/mpv.sock"
+
+case "$1" in
+    mute)
+        echo '{"command": ["keypress", "m"]}' | socat - $SOCKET
+        ;;
+    pause)
+        echo '{"command": ["keypress", "space"]}' | socat - $SOCKET
+        ;;
+    vol)
+        echo "{\"command\": [\"set_property\", \"volume\", $2]}" | socat - $SOCKET
+        ;;
+    pos)
+        echo '{"command": ["get_property", "time-pos"]}' | socat - $SOCKET
+        ;;
+    quit)
+        echo '{"command": ["quit"]}' | socat - $SOCKET
+        ;;
+    *)
+        echo "Uso: $0 {mute|pause|vol <0-100>|pos|quit}"
+        ;;
+esac
+```
+
+Guardalo como `mpvctl` y usalo así:
+
+```bash
+chmod +x mpvctl
+./mpvctl mute        # silenciar
+./mpvctl pause       # play/pause
+./mpvctl vol 50      # volumen al 50%
+./mpvctl pos         # ver posición actual
+./mpvctl quit        # cerrar mpv
+```
+
+## 5. Keys comunes de mpv
+
+| Tecla | Acción |
+|-------|--------|
+| `space` | Play/Pause |
+| `m` | Mute |
+| `f` | Fullscreen |
+| `left`/`right` | Retroceder/Avanzar 5s |
+| `up`/`down` | Volumen +/- |
+| `q` | Quit |
+
+## Notas
+
+- El socket debe estar habilitado con `--input-ipc-server`
+- Si el socket no existe, el comando falla
+- Algunos comandos devuelven JSON con el resultado

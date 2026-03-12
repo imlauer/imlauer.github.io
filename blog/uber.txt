@@ -1,0 +1,123 @@
+---
+title: "Stallman: Uber"
+date: 2026-03-12T18:29:47-03:00
+tags: ['propietary','software']
+---
+
+https://stallman.org/uber.html
+
+---
+
+### Parte 1: Traducción y Explicación del texto de Stallman
+
+Richard Stallman (fundador del movimiento del software libre y creador de GNU) es un crítico feroz de Uber. En su página (que enlazaste), no habla de números salariales, sino de **ética, derechos digitales y privacidad**.
+
+**Traducción resumida de los puntos clave de su texto:**
+
+1.  **Vigilancia Masiva:** Stallman argumenta que Uber es un sistema de vigilancia. La aplicación rastrea a los pasajeros y conductores constantemente. Uber sabe quién viaja, con quién, a dónde va y cuándo.
+2.  **Software Privativo (No Libre):** La aplicación de Uber es "privativa" (proprietary). Esto significa que el software es un instrumento de poder injusto: el usuario no puede saber qué hace el programa realmente, ni puede modificarlo. Obedece a Uber, no al usuario.
+3.  **Trato a los conductores:** Señala que Uber maltrata a los conductores, obligándolos a asumir todos los riesgos (coche, gasolina, mantenimiento) mientras la empresa se queda con una parte fija de la ganancia. Menciona que Uber tiene el poder de degradar las condiciones de trabajo unilateralmente.
+4.  **Boicot:** Stallman insta a la gente a **no usar Uber** y optar por taxis tradicionales o transporte público, ya que usar la app apoya un negocio basado en la vigilancia y la explotación.
+
+**Explicación del contexto:**
+Para Stallman, el problema no es solo si el conductor gana mucho o poco, sino que Uber es una empresa que **normaliza el espionaje masivo** y convierte a los trabajadores en esclavos digitales controlados por algoritmos que ellos no pueden ver ni auditar.
+
+---
+
+### Parte 2: Investigación - ¿Cuánto gana un conductor de Uber?
+
+Ya que el texto de Stallman es teórico, he realizado una investigación práctica sobre los ingresos. La respuesta es compleja, ya que no hay un sueldo fijo. Los ingresos varían drásticamente según el país, la ciudad y las horas trabajadas.
+
+Aquí tienes el desglose realista (basado en datos de 2023-2024):
+
+#### 1. Estados Unidos (El mercado principal)
+*   **Ingresos Brutos:** Según datos de *Gridwise* y *ZipRecruiter*, un conductor gana en promedio entre **$15 y $25 dólares por hora** antes de impuestos.
+*   **El factor "Hora Activada":** Uber suele anunciar "Gana $30/hora". Esto es cierto solo durante las "horas pico" (viernes noche, lluvia, eventos). El resto del tiempo, las ganancias bajan.
+*   **Ganancia Neta (Lo real):** Después de restar gasolina, seguro, mantenimiento y depreciación del coche, la hora neta suele bajar a **$10 - $15 dólares la hora** (a veces menos que el salario mínimo).
+
+#### 2. Latinoamérica (México, Colombia, Argentina, Chile)
+*   **Ingresos:** En ciudades como Ciudad de México o Bogotá, un conductor que trabaja tiempo completo (8-10 horas) suele facturar entre **$800 y $1,500 pesos mexicanos diarios** (o su equivalente en moneda local).
+*   **El problema de la competencia:** Hay demasiados conductores, lo que hace que a veces pasen horas sin carrera.
+*   **Gastos elevados:** El costo de la gasolina en proporción a la tarifa es muy alto. Un conductor puede ganar el salario mínimo o un poco más, pero con una carga de trabajo mucho mayor y cero prestaciones (seguro médico, pensión).
+
+#### 3. España y Europa
+*   En España, tras la regulación de la "Licencia VTC", se ha limitado el número de coches.
+*   **Ingresos:** Un conductor puede llevarse a casa entre **1.000€ y 1.800€ netos al mes** trabajando jornadas intensas.
+*   Sin embargo, la normativa es más estricta y los conductores suelen ser profesionales con licencias, no cualquiera con un coche, lo que garantiza algo más de estabilidad laboral que en otros países.
+
+---
+
+### Parte 3: La trampa de los gastos (Por qué el dinero "se evapora")
+
+Muchos conductores nuevos se engañan mirando el dinero que entra a la app, sin ver el que sale del bolsillo. Esta es la razón por la que Stallman (y economistas) dicen que el modelo es explotador:
+
+1.  **Comisión de Uber:** Uber se queda típicamente con el **25% al 30%** de cada viaje.
+2.  **Gasolina:** El conductor paga el 100%. Si el precio del combustible sube, el conductor pierde dinero; Uber no.
+3.  **Mantenimiento y Depreciación:** Un coche de particular usado para Uber pierde valor rápidamente y requiere cambios de aceite y neumáticos seguidos.
+    *   *Ejemplo:* Si ganas $1,000 a la semana, quizás $200 se van en gasolina y $100 en desgaste del auto. Te quedan $700. A eso restale impuestos.
+
+### Conclusión de la investigación
+
+**¿Cuánto gana un conductor?**
+Gana **dinero inmediato**, pero a menudo a costa de **perder valor futuro**. Un conductor promedio en 2024 gana ligeramente por encima del salario mínimo de su país, pero trabajando más horas, sin seguridad social, asumiendo todo el riesgo del vehículo y sin protección contra despidos (la "desactivación" de la cuenta).
+
+La crítica de Stallman en el enlace que enviaste cobra sentido económico: Uber externaliza todos los costos al conductor (la "clase trabajadora digital") mientras la empresa se queda con la parte segura de la ganancia y los datos de los usuarios.
+
+
+Esa frase de George Hotz (conocido como "geohot", famoso hacker y fundador de Comma.ai) es una de las definiciones más brutales y precisas de la economía de Uber. Es totalmente cierta y conecta perfectamente con lo que investigamos antes.
+
+Aquí te explico detalladamente qué significa que el conductor "se come el auto" y por qué es una trampa matemática en la que muchos caen sin darse cuenta.
+
+### 1. ¿Qué significa "Comerse el auto"?
+
+Cuando un conductor ve en la pantalla de la app: *"Ganaste $100 hoy"*, piensa que tiene $100 en el bolsillo. Pero Hotz señala que eso es una ilusión óptica.
+
+El coche es una máquina que se desgasta con cada kilómetro. Cada kilómetro que recorres:
+*   Quita valor al auto (depreciación).
+*   Consume aceite, neumáticos, frenos y filtro.
+*   Consume gasolina.
+
+Si divides el costo total del auto entre los kilómetros que dura, cada kilómetro te cuesta dinero existir. Si Uber te paga menos de lo que te cuesta rodar ese kilómetro, **estás perdiendo dinero, no ganando.**
+
+### 2. La matemática de la pérdida (El cálculo que pocos hacen)
+
+Para demostrar esto, utilizaremos el estándar fiscal del IRS (Hacienda en EE.UU.) o cálculos de ingeniería automotriz básicos.
+
+*   **El costo real por milla/km:** En Estados Unidos, el IRS deduce **$0.67 por milla** (aprox. $0.42 USD por km) como costo operativo estándar de un vehículo (gasolina + mantenimiento + depreciación + seguro).
+    *   *Nota:* Esto incluye la pérdida de valor del coche. Si compras un auto por $20,000 y lo vendes por $10,000 después de 100,000 millas, perdiste $0.10 por milla solo en valor.
+
+**El escenario típico:**
+Imagina que un conductor hace un viaje de Uber que le paga **$10 dólares** por 10 millas (aprox 16 km).
+
+*   **Ingreso bruto:** $10.00
+*   **Comisión de Uber (25%):** -$2.50
+*   **Dinero en la app:** $7.50 (El conductor sonríe, cree que ganó esto).
+*   **Costo operativo del auto (10 millas x $0.67):** -$6.70
+
+**Ganancia real neta: $0.80 centavos.**
+
+En este ejemplo, el conductor trabajó quizás 30 minutos (contando esperar al pasajero y tráfico) para ganar 80 centavos de dólar. Si dividimos eso por hora, está ganando mucho menos que el salario mínimo. Y si el viaje era más largo o en una ciudad con tarifas más bajas, **el resultado sería negativo: el conductor pagaría por trabajar.**
+
+### 3. La ilusión del "Flujo de caja"
+
+¿Por qué la gente sigue conduciendo si Hotz tiene razón?
+
+Porque **"comerse el auto" es un proceso invisible y lento.**
+
+*   El conductor recibe el efectivo de la gasolina de inmediato (el pasajero paga el viaje).
+*   El conductor NO ve cómo los neumáticos se desgastan en ese instante.
+*   El conductor NO ve cómo el motor pierde vida útil en ese instante.
+
+El conductor siente que tiene dinero en el bolsillo hoy, pero dentro de 2 años, cuando el coche necesite una reparación de $1,000 dólares o valga $5,000 dólares menos de lo que debería, ahí se "cobra la deuda". Ahí es cuando el conductor descubre que ese dinero que pensó que era "ganancia" en realidad era el valor de su propio coche que se desintegró.
+
+### 4. La conclusión de Hotz
+
+George Hotz, que ha trabajado en tecnología de conducción autónoma, entiende que el negocio de Uber no es el transporte, sino la **externalización de costos**.
+
+*   Uber no compra los coches.
+*   Uber no paga los neumáticos.
+*   Uber no paga las reparaciones.
+
+Uber le pasa esos costos al conductor. La frase "el conductor se come el auto" significa que el conductor está **vendiendo la vida útil de su vehículo a cambio de dinero hoy**, y a menudo lo hace a un precio muy bajo, convirtiendo su patrimonio (el coche) en liquidez inmediata, empobeciéndose a largo plazo.
+
+Es exactamente lo que Stallman denuncia con el "maltrato a los conductores": el sistema está diseñado para que el conductor asuma todo el riesgo financiero mientras la plataforma se queda con la parte segura de los ingresos.

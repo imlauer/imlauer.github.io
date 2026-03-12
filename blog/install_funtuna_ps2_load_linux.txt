@@ -4,6 +4,10 @@ date: 2023-10-22T05:17:35-03:00
 tags: ['juegos','ps2','funtura','freemcboot']
 ---
 
+Como máximo podes instalar 6 juegos en un pendrive de 30GB, depende del juego obviamente God of War II (considerado el mejor juego por muchos) pesa 9GB extraído. Si pesa más de 4GB tenes que usar OPL (aunque yo use OPL para todos).
+
+Yo instalé God Of War II, GTA San Andreas, KillZone, Metal Gear Solid 3, Baldur, y se llenó.
+
 ### Como usar internet en la ps2 a través de una computadora:
 ```bash
 Hello, use "Internet Connection Sharing" on Windows. Open up a Windows Explorer window and copy this: Control Panel\All Control Panel Items\Network and Sharing Center
@@ -123,3 +127,158 @@ https://archive.org/download/RedumpSonyPS2NTSCU
 https://archive.org/download/RedumpSonyPS2NTSCUPart2
 
 Tenes que descargar con el comando `ia download RedumpSonyPS2NTSCU`  `ia download RedumpSonyPS2NTSCU2` (te va a descargar tdos los juegos en 7z tenes que descomprimir con  7z x file.7z` y dejarlos como ISO en la carpeta DVD (la ps2 te crea la carpeta automáticamente) si no la tenes te crea. OPL no lee archivos 7z solo iso.
+
+
+```bash
+(internetarchive) [esotericwarfare@arch ~]$ ia list RedumpSonyPS2NTSCU 
+(internetarchive) [esotericwarfare@arch ~]$ ia download RedumpSonyPS2NTSCU "Grand Theft Auto - Liberty City Stories (USA).7z" "Grand Theft Auto - San Andreas (USA) (v1.03).7z"              "Grand Theft Auto - San Andreas (USA) (v3.00).7z"                    "Grand Theft Auto - Vice City (USA) (v1.40).7z"              "Grand Theft Auto - Vice City (USA) (v2.01).7z"        "Grand Theft Auto - Vice City (USA) (v3.00).7z"         "Grand Theft Auto - Vice City Stories (USA).7z"                                                                 
+```
+
+Si tenes poco espacio hace esto. Agarrá un pendrive de 8 gigas para arriba. Descargá ahi el juego 7z  descomprimí el juego en tu PC y después movete a /mnt/usb y con iso2opl (agarrá el iso de tu PC y pasalo a tu usb).
+
+## Cuando el ISO extraido es mas grande que 4GB.
+
+### Como instalar el GTA San Andreas (es un juego grande porque pasa los 4GB).
+
+```bash
+sudo su
+mount /dev/sdb1 /mnt/usb
+cd /mnt/usb
+mkdir DVD
+cd DVD
+```
+
+Instala internetarchive el comando:
+
+```bash
+python -m venv internetarchive
+source internetarchive/bin/activate
+pip install internetarchive
+ia configure etc...
+
+ia download RedumpSonyPS2NTSCU "Grand Theft Auto - San Andreas (USA) (v3.00).7z"
+7z x "Grand\ Theft\ Auto\ -\ San\ Andreas\ \(USA\)\ \(v3.00\).7z" -o/home/user/Downloads
+```
+
+Te lo va a descomprimir como SLUS-algo y te va a crear una carpeta tenes que sacar la ISO de esa capreta solo deja solo el iso en DVD sin la carpeta de RedumpSonyPS2NTSCU.
+
+# USO ISO2OPL pero ojo solo para juegos que cuando descomprimis el iso pesa mas de 4GB si pesa menos ponelo en la carpeta /mnt/usb/DVD 
+
+# NO USES SPLIT DIRECTAMENTE FUE UN GRAVE ERROR ME HIZO PERDER TIEMPO TENES QUE USAR ISO2OPL si estas en windows no se tambien existe creo
+
+
+
+```bash
+
+[esotericwarfare@arch ~]$ yay -S iso2opl-git
+iso2opl /root/hacked/SCUS-NUMBER.iso /mnt/usb "GOD OF WAR II" DVD
+iso2opl /root/hacked/SCUS-97402 (1.00).iso /mnt/usb "KILLZONE" DVD
+
+```
+
+---
+
+### ISO2OPL hace que el juego sea mas grande solo usalo si el juego pesa mas de 4GB. Si pesa menos cuando lo EXTRAES pasalo asi tal cual.
+
+```bash
+[root@arch RedumpSonyPS2NTSCU]# du -sh *
+1.8G	Baldur's Gate - Dark Alliance II (USA).7z
+2.9G	Devil May Cry 3 - Dante's Awakening (USA) (En,Ja) (Special Edition).7z
+5.8G	God of War II (USA).7z
+2.6G	Killzone (USA).7z
+885M	LEGO Star Wars II - The Original Trilogy (USA).7z
+2.9G	Metal Gear Solid 3 - Snake Eater (USA).7z
+[root@arch RedumpSonyPS2NTSCU]#
+```
+
+Por ejemplo de esa lista usaria God Of War con el ISO2OPL pero los demas lo pondria en DVD.
+
+### El directorio DVD solo se usa para los ISO (menores de 4GB) sino tenes que usar iso2opl
+
+Los buscas usando el comando: `ia list RedumpSonyPS2NTSCU | grep -i colossus y luego ia download RedumpSonyPS2NTSCU "el_nombre.7z"` y a veces el juego está en `ia list RedumpSonyPS2NTSCUPart2 | grep -i resident`.
+
+### Pero aca porque soy bueno te doy el comando directamente (necesitas un pendrive de 32 gigas). No hagas descargas paralelas es decir ejecutar varias veces ia download porque te cortan la descarga al menos a mi me paso eso. Hacelo de esta forma y tenes que poner todo dentro de una carpeta DVD (el iso descomprimido no el 7z).
+
+## Los mejores juegos de la PS2 según la IA: God of War II, Metal Gear Solid 3 - Snake Eater, Shadow of the Colossus, Devil May Cry 3 Dante Awakening, Resident Evil 4, GTA San Andreas, Okami
+
+Ojo si el juego pesa mas de 4GB no lo vas a poder cargar directamente en tu USB, tenes que descargarlo en tu PC primero (God Of War pesa mas de 4GB).
+
+```bash
+
+ia download RedumpSonyPS2NTSCU "Devil May Cry 3 - Dante's Awakening (USA) (En,Ja) (Special Edition).7z" "God of War II (USA).7z" "Metal Gear Solid 3 - Snake Eater (USA).7z" "Shadow of the Colossus (USA).7z" && ia download RedumpSonyPS2NTSCUPart2 "Resident Evil 4 (USA).7z" "Okami (USA).7z" "Shadow of the Colossus (USA).7z"
+
+```
+
+## PES - Quake - NFS Underground - Baldur - Champions of Norrath - Killzone - LEGO Star Wars - GTA SAN ANDREAS.
+
+```bash
+
+ia download RedumpSonyPS2NTSCUPart2 "PES 2013 - Pro Evolution Soccer (USA).7z" "Quake III - Revolution (USA).7z" "Need for Speed - Underground 2 (USA).7z" && ia download RedumpSonyPS2NTSCU "Baldur's Gate - Dark Alliance II (USA).7z" "Killzone (USA).7z" "LEGO Star Wars II - The Original Trilogy (USA).7z" "Grand Theft Auto - San Andreas (USA) (v3.00).7z" "Champions of Norrath (USA).7z"
+
+```
+
+# Esto es de lo que hablamos mas arriba.
+
+
+The error `errno=27 : File too large` indicates that you are trying to extract a file larger than 4 GB onto a file system that does not support it.
+
+Your USB drive is likely formatted as **FAT32**, which has a maximum file size limit of 4 GB. The extracted ISO for *Grand Theft Auto: San Andreas* is a dual-layer DVD image (approximately 4.7 GB or larger), which exceeds this limit.
+
+### Option 2: Split the ISO (Recommended for PS2 via OpenPS2Loader)
+
+1.  Keep your USB as FAT32.
+2.  Extract the ISO to your computer's internal drive (which supports large files) first:
+    ```bash
+    7z x "Grand\ Theft\ Auto\ -\ San\ Andreas\ \(USA\)\ \(v3.00\).7z" -o/home/user/Downloads
+    ```
+3.  Use a tool to split the ISO. The easiest way on Arch Linux is using `split`:
+    ```bash
+    sudo mount /dev/sdb1 /mnt/usb
+    sudo su
+    cd /mnt/usb
+    split -b 1024M "/home/user/Downloads/input_file.iso" "output_prefix.iso.part"
+    ```
+    *(Note: Many users prefer the Windows tool "USBUtil" for this to create the `.iso.0`, `.iso.1` format automatically, but OPL can handle generic splits if named correctly).*
+    
+    Alternatively, install `opl-ps2-tools` or similar utilities designed for OPL formatting if available in the AUR.
+
+### Summary
+*   **FAT32 Limitation:** Max file size is 4GB.
+*   **San Andreas ISO:** ~4.7GB (Too big for FAT32).
+
+
+
+
+Yo trabajé con 2 pendrive porque no tenía más espacio en mi disco duro
+
+```bash
+(internetarchive) [root@arch hacked]# ia download .... && ls
+RedumpSonyPS2NTSCU  RedumpSonyPS2NTSCUPart2
+(internetarchive) [root@arch hacked]# ls /mnt/usb
+APPS  CFG  games.bin  ul.6DF03E3D.SCUS_974.81.00  ul.6DF03E3D.SCUS_974.81.03  ul.6DF03E3D.SCUS_974.81.06  ul.C024101E.SLUS_219.55.01
+ART   CHT  LNG	      ul.6DF03E3D.SCUS_974.81.01  ul.6DF03E3D.SCUS_974.81.04  ul.6DF03E3D.SCUS_974.81.07  ul.cfg
+CD    DVD  THM	      ul.6DF03E3D.SCUS_974.81.02  ul.6DF03E3D.SCUS_974.81.05  ul.C024101E.SLUS_219.55.00  VMC
+(internetarchive) [root@arch hacked]# cd /mnt/usb
+(internetarchive) [root@arch usb]# ls
+APPS  CFG  games.bin  ul.6DF03E3D.SCUS_974.81.00  ul.6DF03E3D.SCUS_974.81.03  ul.6DF03E3D.SCUS_974.81.06  ul.C024101E.SLUS_219.55.01
+ART   CHT  LNG	      ul.6DF03E3D.SCUS_974.81.01  ul.6DF03E3D.SCUS_974.81.04  ul.6DF03E3D.SCUS_974.81.07  ul.cfg
+CD    DVD  THM	      ul.6DF03E3D.SCUS_974.81.02  ul.6DF03E3D.SCUS_974.81.05  ul.C024101E.SLUS_219.55.00  VMC
+(internetarchive) [root@arch usb]# rm -rf *
+(internetarchive) [root@arch usb]# cd /root/hacked/
+(internetarchive) [root@arch hacked]# ls
+RedumpSonyPS2NTSCU  RedumpSonyPS2NTSCUPart2
+(internetarchive) [root@arch hacked]# cp -R * /mnt/usb
+```
+
+
+Para eliminar un juego borrá los archivos que tengan el ID que aparecen en ul.cfg(NO TOQUES EL UL.CFG) y borrá la el juego que no te gusta (OJO  crea una copia antes y anda borrando los caracteres especiales) a veces te va a tirar un error tipo
+
+```bash
+Error: can't read ul.cfg on drive!
+[root@arch RedumpSonyPS2NTSCU]# iso2opl /root/hacked/RedumpSonyPS2NTSCU/SCUS-97402\ \(1.00\).iso /mnt/usb "KILLZONE" DVD
+```
+
+Si te tira eso abrí de nuevo el ul.cfg y borrá un caracter mas y volvé a probar a ver si funciona, suerte XD a mi me funcionó 
+
+Pero creá el backup antes.
+

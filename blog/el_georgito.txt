@@ -7164,3 +7164,581 @@ Enlaces:
 [6] https://en.wikipedia.org/wiki/ChangXin_Memory_Technologies
 [7] https://en.wikipedia.org/wiki/Yangtze_Memory_Technologies
 [8] Artículo original: https://geohot.github.io/blog/jekyll/update/2026/02/27/the-insane-stupidity-of-ubi.html
+
+https://www.citriniresearch.com/p/2028gic
+
+# La crisis global de inteligencia de 2028
+
+**Un ejercicio de pensamiento en historia financiera, desde el futuro**
+por Citrini y Alap Shah
+22 de febrero de 2026
+
+---
+
+# Prefacio
+
+¿Qué pasaría si nuestro optimismo sobre la inteligencia artificial sigue siendo correcto… y eso en realidad fuera bajista para la economía?
+
+Lo que sigue es un escenario, no una predicción. No es pornografía catastrofista ni ficción apocalíptica sobre IA. El objetivo es modelar una situación que casi nadie está analizando.
+
+Nuestro amigo Alap Shah planteó la pregunta y juntos imaginamos la respuesta.
+
+Esperamos que leer esto te prepare mejor para los **riesgos extremos** que podrían surgir mientras la IA vuelve la economía cada vez más extraña.
+
+Este texto es el **memo macroeconómico de Citrini Research de junio de 2028**, que describe el desarrollo y las consecuencias de la **Crisis Global de Inteligencia**.
+
+---
+
+# Memo macroeconómico
+
+## Las consecuencias de la inteligencia abundante
+
+30 de junio de 2028
+
+La tasa de desempleo se publicó esta mañana en **10,2%**, una sorpresa al alza de 0,3%.
+El mercado cayó **2%**, llevando la caída acumulada del **S&P 500 a 38%** desde los máximos de octubre de 2026.
+
+Los traders ya están anestesiados.
+Hace seis meses, un dato así habría activado un “circuit breaker” en la bolsa.
+
+Solo **dos años** bastaron para pasar de una disrupción “limitada a algunos sectores” a una economía que ya no se parece a la que conocíamos.
+
+Este informe intenta reconstruir la secuencia de eventos.
+
+---
+
+# La euforia inicial
+
+En octubre de 2026:
+
+* S&P 500 cerca de **8000**
+* Nasdaq arriba de **30.000**
+
+Las primeras olas de despidos por reemplazo humano empezaron a comienzos de 2026.
+
+Y ocurrió lo que suele pasar con los despidos:
+
+* aumentaron los márgenes
+* subieron las ganancias
+* subieron las acciones
+
+Las empresas ganaban más dinero que nunca… y reinvertían todo en **infraestructura de IA**.
+
+---
+
+# La economía parecía perfecta
+
+El PIB nominal crecía fuerte.
+La productividad se disparó.
+
+La producción por hora creció a niveles **no vistos desde los años 50**.
+
+¿Por qué?
+
+Porque los **agentes de IA**:
+
+* no duermen
+* no se enferman
+* no necesitan seguro médico
+
+---
+
+# El problema
+
+Los dueños de la infraestructura de IA se hicieron extremadamente ricos.
+
+Pero:
+
+* los salarios reales dejaron de crecer
+* muchos trabajadores de oficina perdieron sus empleos
+* muchos tuvieron que aceptar trabajos peor pagos
+
+---
+
+# El fenómeno del “PIB fantasma”
+
+Los economistas empezaron a usar un término nuevo:
+
+**“Ghost GDP” (PIB fantasma)**
+
+Es producción económica que aparece en las estadísticas…
+pero **no circula en la economía real**.
+
+---
+
+# El problema central
+
+La IA superaba todas las expectativas.
+
+El mercado bursátil era **IA**.
+
+Pero **la economía real no**.
+
+---
+
+Un solo centro de GPUs en Dakota del Norte producía el trabajo que antes hacían **10.000 trabajadores de oficina en Manhattan**.
+
+Eso era más parecido a una **pandemia económica** que a una bendición económica.
+
+---
+
+# La velocidad del dinero colapsó
+
+La economía de consumo humana — que era **70% del PIB** — empezó a marchitarse.
+
+Porque hay una pregunta simple:
+
+¿Cuánto dinero gastan las máquinas en consumo?
+
+Respuesta: **cero**.
+
+---
+
+# El círculo vicioso
+
+Ocurrió un ciclo destructivo:
+
+1. mejora la IA
+2. las empresas necesitan menos trabajadores
+3. aumentan los despidos
+4. la gente gasta menos
+5. las empresas invierten más en IA
+6. la IA mejora aún más
+
+Un **loop negativo sin freno**.
+
+---
+
+# El problema hipotecario
+
+Los trabajadores de oficina eran la base del mercado hipotecario de **13 billones de dólares**.
+
+Cuando sus ingresos empezaron a caer, los bancos comenzaron a preguntarse:
+
+¿Las hipotecas “seguras” siguen siendo realmente seguras?
+
+---
+
+# La crisis del software
+
+Durante años el capital privado había financiado empresas de software suponiendo que sus ingresos recurrentes durarían para siempre.
+
+Pero en 2027 comenzaron los **defaults**.
+
+La IA empezó a reemplazar directamente productos de software.
+
+---
+
+# El colapso de la intermediación
+
+Para fines de 2027 la crisis ya no era solo software.
+
+La IA empezó a destruir modelos de negocio basados en **intermediar entre personas**.
+
+Muchas empresas existían solo porque:
+
+* las personas son lentas
+* las personas se cansan
+* las personas prefieren pagar más antes que investigar
+
+Las máquinas **no tienen esas limitaciones**.
+
+---
+
+# El comercio manejado por agentes
+
+En 2027 los agentes de IA empezaron a tomar decisiones de compra por las personas.
+
+Los agentes:
+
+* comparaban precios automáticamente
+* renegociaban suscripciones
+* cancelaban servicios inútiles
+* optimizaban compras
+
+El resultado:
+
+El **valor de vida del cliente** (la métrica clave de muchas empresas) cayó drásticamente.
+
+---
+
+# Sectores destruidos
+
+Los agentes empezaron a reemplazar servicios como:
+
+* reservas de viajes
+* seguros
+* asesoría financiera
+* preparación de impuestos
+* trabajos legales rutinarios
+
+Todo lo que consistía en:
+
+“yo hago algo complejo que vos no querés hacer”.
+
+Para una IA **nada es tedioso**.
+
+---
+
+# El golpe al sector inmobiliario
+
+Incluso sectores basados en relaciones humanas se vieron afectados.
+
+Por ejemplo:
+
+las comisiones inmobiliarias de **2,5% a 3%** cayeron a **menos de 1%**.
+
+Muchos compradores ya no usaban agentes humanos.
+
+---
+
+# Las relaciones humanas no eran tan valiosas
+
+Muchas “relaciones comerciales” en realidad eran solo **fricción con una cara amable**.
+
+Cuando la fricción desapareció, el negocio desapareció.
+
+---
+
+# El caso DoorDash
+
+Los agentes también destruyeron los monopolios de apps.
+
+Crear una app competidora ahora tomaba **semanas**.
+
+Los conductores podían usar **20 apps a la vez**.
+
+Los agentes elegían siempre:
+
+* menor costo
+* entrega más rápida
+
+La lealtad a una app desapareció.
+
+---
+
+# Después llegó el golpe a las tarjetas
+
+Los agentes comenzaron a pagar con **stablecoins**.
+
+Porque:
+
+* liquidación instantánea
+* comisiones casi cero
+
+Eso atacó el modelo de negocio de:
+
+* Mastercard
+* Visa
+* bancos emisores
+
+---
+
+# El problema sistémico
+
+Al principio los mercados creían que esto era un problema de algunos sectores.
+
+Pero no.
+
+La economía de EE.UU. es **principalmente de trabajadores de oficina**.
+
+* 50% del empleo
+* 75% del gasto de consumo
+
+La IA estaba destruyendo **el corazón de la economía**.
+
+---
+
+# El mito histórico
+
+Durante 200 años siempre ocurrió lo mismo:
+
+La tecnología destruye trabajos…
+pero crea otros nuevos.
+
+La diferencia ahora:
+
+Los nuevos trabajos **también los puede hacer la IA**.
+
+---
+
+# La espiral de desplazamiento
+
+Muchos trabajadores desplazados aceptaron trabajos peor pagos.
+
+Ejemplo real:
+
+Una gerente de producto en Salesforce ganaba **$180.000 al año**.
+
+Después de perder su empleo terminó conduciendo **Uber por $45.000**.
+
+Esto comprimió salarios en toda la economía.
+
+---
+
+# La recesión
+
+En 2027 EE.UU. entró en recesión.
+
+Pero todavía no era una crisis financiera.
+
+Eso vino después.
+
+---
+
+# La cadena de apuestas correlacionadas
+
+El crédito privado había explotado.
+
+Gran parte estaba invertido en empresas de software.
+
+Cuando esas empresas empezaron a caer…
+
+los préstamos comenzaron a entrar en default.
+
+---
+
+# El caso Zendesk
+
+Zendesk había sido comprada por **10 mil millones de dólares**.
+
+Pero su modelo dependía de atención al cliente humana.
+
+La IA empezó a resolver los problemas **sin tickets de soporte**.
+
+El negocio desapareció.
+
+El mayor préstamo respaldado por ingresos recurrentes se convirtió en el **mayor default de software de la historia**.
+
+---
+
+# El problema del seguro
+
+Muchos fondos financiaban estos préstamos usando **compañías de seguros de vida**.
+
+Es decir:
+
+El dinero en riesgo era **los ahorros de la gente común**.
+
+Cuando empezaron las pérdidas, los reguladores intervinieron.
+
+---
+
+# La pregunta hipotecaria
+
+Los precios de viviendas empezaron a caer:
+
+* San Francisco: -11%
+* Seattle: -9%
+* Austin: -8%
+
+La pregunta que nadie imaginaba hacer en 2025 apareció:
+
+¿Las hipotecas “prime” siguen siendo seguras?
+
+---
+
+# El problema
+
+En 2008 las hipotecas eran malas desde el principio.
+
+En 2028 eran buenas.
+
+El problema es que **el mundo cambió después**.
+
+---
+
+# La espiral final
+
+Ahora hay tres fuerzas negativas:
+
+1. desempleo por IA
+2. crisis hipotecaria potencial
+3. crisis en crédito privado
+
+Cada una alimenta a las otras.
+
+---
+
+# El problema para el gobierno
+
+El gobierno depende de impuestos sobre **trabajo humano**.
+
+Pero el trabajo humano está desapareciendo.
+
+Resultado:
+
+* menos ingresos fiscales
+* más gasto social
+
+---
+
+# El colapso del ingreso laboral
+
+La parte del PIB que va a salarios cayó:
+
+1974 → 64%
+2024 → 56%
+2028 → **46%**
+
+La producción sigue existiendo.
+
+Pero ahora va **al capital y a las máquinas**, no a las personas.
+
+---
+
+# La respuesta política
+
+Se propusieron leyes como:
+
+**Transition Economy Act**
+
+Transferencias directas a trabajadores desplazados.
+
+Y otra más radical:
+
+**Shared AI Prosperity Act**
+
+Un fondo público que capture parte de las ganancias de la IA para distribuirlas a la población.
+
+---
+
+# Conflicto social
+
+Mientras los políticos discuten…
+
+la sociedad se empieza a romper.
+
+Protestas como **Occupy Silicon Valley** bloquearon oficinas de empresas de IA.
+
+La desigualdad explotó.
+
+---
+
+# El verdadero problema
+
+No es la tecnología.
+
+Es el **tiempo**.
+
+La IA avanza más rápido que las instituciones.
+
+---
+
+# El fin de la prima de inteligencia humana
+
+Durante toda la historia moderna:
+
+La inteligencia humana era el recurso escaso.
+
+Ahora ya no.
+
+La inteligencia artificial es un sustituto cada vez más barato.
+
+---
+
+# Conclusión
+
+No es necesariamente el colapso de la economía.
+
+Pero sí el **fin del modelo económico actual**.
+
+Tenemos que construir uno nuevo.
+
+Y hacerlo rápido.
+
+---
+
+# Última frase
+
+Pero vos no estás leyendo esto en 2028.
+
+Lo estás leyendo en **febrero de 2026**.
+
+El mercado todavía está en máximos.
+
+El canario aún sigue vivo.
+
+https://geohot.github.io/blog/jekyll/update/2026/03/12/changing-my-mind-on-ubi.html
+
+Te lo traduzco **al español**, **sin censura**, y lo convierto a **Markdown limpio**. También agrego **los links al final** como pediste.
+
+---
+
+# Cambiando mi opinión sobre el UBI
+
+**12 de marzo de 2026**
+
+Ayer recibí este e-mail sobre el UBI, y me hizo cambiar mi posición.
+
+> Creo que estás malinterpretando la premisa básica del UBI. Como está en el nombre, es un ingreso básico, para que las personas cubran sus derechos humanos básicos, algo por lo que deberíamos esforzarnos como sociedad. Si cada persona del planeta empezara a recibir 300 $ al mes, por supuesto los precios seguramente se ajustarían, pero como ocurre normalmente, la oferta y la demanda pondrían las prioridades en el lugar correcto (si los huevos se venden a 500 $ la caja, te aseguro que la gente empezará a criar gallinas).
+
+Ignorando el sinsentido sobre los “derechos humanos básicos” (a diferencia de algo como la libertad de expresión, no tienes derecho humano a la comida, porque eso implicaría que tienes derecho a robarle a las personas que cultivan comida). Sigamos el resto de este argumento.
+
+---
+
+Estamos de acuerdo en que después del UBI, el **precio de los huevos subiría**. Y como respuesta, la gente empezará a criar sus propias gallinas. Ahora el trabajo que querían evitar haciendo con el dinero gratis lo terminarán haciendo de todas formas, pero esa ni siquiera es la mejor parte de esto.
+
+Así que genial, la gente está criando gallinas. Algunas personas serán mejores criando gallinas que otras. De hecho serán tan buenas que tendrán un excedente de huevos. Tal vez lo correcto sea vender los huevos.
+
+Sin embargo, si venden los huevos por dólares del UBI, no tendrán mucho poder adquisitivo con esos dólares que ganan. No son solo los huevos: ¡todo es caro en el mundo del UBI! Así que quizá haga un trato con el tipo de la casa de al lado para conseguir alimento para gallinas directamente: tú me das alimento, yo crío las gallinas y te doy huevos.
+
+También necesita alambre para el gallinero, y hay un tipo en el pueblo de al lado que lo fabrica. Pero es un poco molesto comerciar con huevos; él no quiere tener que entregarlos. Así que acuerdan que en vez de huevos deberían usar **oro**. Algo duradero, portátil, fungible y escaso. El tipo del alimento para gallinas también se suma a este sistema basado en oro. En poco tiempo aparece una **economía subterránea basada en oro** para todo.
+
+Como no existe ese enorme drenaje sobre la nueva economía subsidiando a todas esas personas que no están trabajando, la economía basada en oro es mucho más eficiente que la economía basada en dólares del UBI. La supera en competencia, y de repente prácticamente no hay nada que puedas comprar con dólares del UBI (excepto quizá pagar tus impuestos con dólares del UBI; esto cada vez suena mejor).
+
+En susurros entre la gente productiva:
+“eh… en realidad no quiero dólares… ¿tenés oro?”
+
+---
+
+Al comienzo de la administración de Trump, dije que sabríamos si algo era realmente diferente si **el presupuesto del gobierno se reducía más del 50 %**. A pesar de todo el ruido sobre DOGE y los recortes, el presupuesto de 2024 a 2025 **subió 3,1 %**. ¿Qué son 210 mil millones de dólares extra entre amigos?
+
+Está claro que el gobierno nunca va a reducirse a sí mismo. En su mayoría me gustó el discurso del estado de la unión de Trump, pero luego vino la parte donde prometió no tocar nunca el **Seguro Social** ni **Medicare**.
+
+Hay una ironía real en la forma en que el gobierno federal divide el presupuesto. Existe el gasto **discrecional (27 %)**, que es básicamente todo lo que un gobierno debería hacer. Y luego está el gasto **obligatorio (60 %)**, que son programas de beneficios que dan dinero a personas mayores.
+
+Miren, está ahí mismo en el nombre: **“Obligatorio”**. Eso significa que nunca podemos recortarlo.
+
+Tres quintos del presupuesto es obligatorio. Ni siquiera deberíamos hablar de recortarlo, no podemos, es obligatorio.
+
+En la Unión Soviética no criticabas a Stalin diciendo que querías menos Stalin. Eso era malo y te hacía desaparecer.
+
+Pero quizá podías decir algo como:
+“hombre, Stalin es tan genial que ojalá tuviéramos 50 Stalins… no, ¡500 Stalins! ¡Un Stalin para cada hombre, mujer y niño!”
+
+---
+
+Así que sí, ahora apoyo el UBI.
+
+¡Dinero gratis para vos!
+¡Dinero gratis para tus vecinos!
+¡Dinero gratis para las corporaciones!
+¡Dinero gratis para los inmigrantes ilegales!
+¡Dinero gratis para todo el maldito planeta!
+
+¿De dónde viene este dinero gratis?
+
+**¡Imprímelo!
+¡Acuña la moneda!
+¡¡¡DINERO GRATIS!!!
+¡¡¡UNIVERSAL!!!!!!**
+
+Esta es la única forma de deshacerse del **Seguro Social**.
+
+Perdón, perdón… ¿dije recortar programas de beneficios?
+Obviamente eso no puede pasar, son “obligatorios”.
+
+Mantén los programas de beneficios…
+solo haz que paguen **dinero falso sin valor**.
+
+**La única salida es atravesarlo.**
+
+---
+
+# Links
+
+* [https://geohot.github.io/blog/jekyll/update/2026/03/12/changing-my-mind-on-ubi.html](https://geohot.github.io/blog/jekyll/update/2026/03/12/changing-my-mind-on-ubi.html)
+* [https://geohot.github.io/blog/jekyll/update/2026/02/27/the-insane-stupidity-of-ubi.html](https://geohot.github.io/blog/jekyll/update/2026/02/27/the-insane-stupidity-of-ubi.html)
+* [https://geohot.github.io/blog/jekyll/update/2024/11/06/what-is-possible.html](https://geohot.github.io/blog/jekyll/update/2024/11/06/what-is-possible.html)
+

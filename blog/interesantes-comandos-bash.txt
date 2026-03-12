@@ -478,3 +478,34 @@ $ F="interesantes-comandos-bash.md"
 $ echo ${F%.*}
 interesantes-comandos-bash
 ```
+
+```bash
+$ yt-dlp "ytsearch10:george hotz comma ai" --list-subs
+```
+
+Eliminar videos con fzf.
+
+```bash
+while true ; do rm "$(ls *webm *mkv *mp4 | fzf)" ; done
+```
+
+```bash
+w3m internetc...com
+curl -LO https://interne....s.com/tag/knight/page/1/ https://inte.......chicks.com/tag/knight/page/2/ https://int........s.com/tag/knight/page/3/
+
+
+
+for i in $(grep -oP 'href="\K[^"]+' ~/internetch...s | grep stefanie); do curl -s $i | grep PLAYER | grep -oE "https?://[^']+" | grep -i vidoza ;  done  > urls;
+for i in $(cat urls ); do yt-dlp $i; done
+
+w3m internetch...s.com elegí modelo guardá la salida  html
+grep -oP 'href="\K[^"]+'
+grep -oE "https?://[^']+"
+```
+
+### descargar recursivamente.
+
+```bash
+wget -e robots=off --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.37" --mirror --convert-links --adjust-extension --page-requisites --no-parent --recursive --level=5 --span-hosts --domains=internet...com http://internet....com
+grep vidoza -r * | grep -oE "https?://[^']+" | wc -l
+```

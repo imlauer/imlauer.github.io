@@ -1,0 +1,204 @@
+---
+title: "Paper Mills. Cloudflare."
+date: 2026-03-12T00:17:07-03:00
+---
+
+## 1️⃣ PAPERS CIENTÍFICOS FALSOS - "PAPER MILLS"
+
+### **¿Qué está pasando?**
+
+El paper de PNAS (Proceedings of the National Academy of Sciences) titulado *"The entities enabling scientific fraud at scale"* expone una industria completa de fraude académico.
+
+### **¿Qué son los "Paper Mills"?**
+
+Son **empresas criminales** que:
+- Fabrican papers científicos falsos completos
+- Los venden a investigadores que necesitan publicar
+- Crean datos falsos, gráficos falsos, hasta revisores falsos
+- Cobran miles de dólares por "autoría"
+
+### **La escala del problema:**
+
+| Métrica | Dato |
+|---------|------|
+| Papers falsos detectados | Más de 10,000 en 2025 |
+| Crecimiento anual | 300% desde 2020 |
+| Precio por paper | $1,000 - $20,000 |
+| Una "paper mill" europea | 1,500 papers falsos linkados a Ucrania |
+
+### **Cómo funciona el negocio:**
+
+1. **Creación**: La empresa fabrica un paper con datos inventados
+2. **Venta**: Venden "slots" de autoría - puedes ser 1er, 2do, 3er autor según cuánto pagues
+3. **Envío**: Lo mandan a revistas de bajo prestigio (y algunas de alto)
+4. **Revisión falsa**: A veces sobornan revisores, o crean identidades falsas
+5. **Publicación**: El "autor" tiene un paper para su CV
+
+### **¿Por qué es grave?**
+
+- **Medicina**: Papers falsos sobre tratamientos pueden matar gente
+- **Economía**: Políticas basadas en datos falsos
+- **Confianza**: La ciencia pierde credibilidad
+- **Recursos**: Investigadores reales pierden funding ante fraudsters
+
+### **Quiénes son los clientes:**
+
+- Académicos que necesitan "publish or perish"
+- Doctores que necesitan papers para promoción
+- Estudiantes de PhD que no pueden producir resultados
+- Investigadores de países con presión por publicar
+
+**Lo más surreal:** Papers generados por IA (ChatGPT) se están colando en revistas científicas legítimas. La ciencia está siendo inundada de basura sintética.
+
+---
+
+## 2️⃣ CLOUDFLARE CRAWL ENDPOINT + CRÍTICAS DE STALLMAN
+
+### **¿Qué lanzó Cloudflare?**
+
+El **Browser Rendering /crawl endpoint** te permite:
+
+> "Enviar una URL inicial y automáticamente descubrir, renderizar y retornar contenido de un sitio web entero como HTML, Markdown o JSON estructurado"
+
+### **El modelo de negocio:**
+
+| Qué ofrece | Cómo gana Cloudflare |
+|------------|---------------------|
+| Crawling automático | Cobran por uso de la API |
+| Renderizado de JS | Consumo de recursos en sus servidores |
+| Formato estructurado | Valor agregado vs scraper casero |
+| Sin IP expuesta | Tu IP no aparece (usan la de ellos) |
+
+**El negocio**: Te venden la infraestructura para scrapear cualquier web sin:
+- Bloqueos de IP
+- CAPTCHAs
+- Límites de rate
+- Tener que escribir tu propio scraper
+
+### **Las desventajas:**
+
+1. **Centralización**: Un solo actor controla el crawling de medio internet
+2. **Privacidad**: Cloudflare ve TODO lo que scrapeas
+3. **Dependencia**: Si cambian precios o términos, estás atado
+4. **Poder**: Pueden decidir quién puede y quién no scrapear ciertos sitios
+5. **Costo**: Pagan por cada request, scrapeo masivo se pone caro
+
+### **¿Por qué Stallman ODIA a Cloudflare?**
+
+Richard Stallman (fundador del movimiento Software Libre) tiene una página dedicada: **"Reasons Not to Use Cloudflare"**
+
+Sus críticas:
+
+| Crítica | Explicación |
+|---------|-------------|
+| **Man-in-the-middle** | Cloudflare se interpone entre vos y el sitio. Ve todo lo que hacés |
+| **Tracking de ubicación** | Determina tu ubicación por IP - "Rastrear personas es injusto" |
+| **Bloquea Tor** | A veces bloquea conexiones desde Tor por "sospecha de bot" |
+| **CAPTCHAs sin JS libre** | Los CAPTCHAs de Cloudflare requieren JavaScript propietario - Stallman se niega a ejecutar código no-libre |
+| **Centralización** | Una empresa tiene acceso a tráfico de millones de sitios |
+
+**La ironía**: Stallman literalmente no puede visitar muchos sitios porque Cloudflare lo bloquea. Cuando le piden resolver un CAPTCHA, el código es propietario y él se rehúsa por principio.
+
+**Su quote:**
+> *"Por qué debería importar si soy un ser humano, cuando todo lo que intento es ver una página?"*
+
+---
+
+## 3️⃣ ROBLOX - ¿PUBLICIDAD DISFRAZADA DE NOTICIA?
+
+### **Tienes razón - es publicidad**
+
+El artículo de Bloomberg "Roblox is minting teen millionaires" es **periodismo de empresa**, no investigación real.
+
+### **Señales de que es publicidad:**
+
+| Red flag | Evidencia |
+|----------|-----------|
+| **Fuente única** | Solo entrevistan a "millonarios" exitosos |
+| **Sin críticos** | No hay voz de detractores |
+| **Romantiza todo** | "Niños que soñaban y lo lograron" |
+| **Timing** | Sale cuando Roblox necesita buena prensa |
+| **Omite lo oscuro** | No menciona explotación infantil |
+
+### **La realidad que NO cuentan:**
+
+**The Guardian (2022): "The trouble with Roblox, the video game empire built on child labour"**
+
+> *"Jóvenes desarrolladores denuncian explotación financiera, amenazas de despido y acoso sexual"*
+
+**Problemas reales:**
+
+1. **Explotación infantil**: Niños de 13 años trabajando 10 horas/día
+2. **Roblox se queda con 75%+ de los ingresos** de cada transacción
+3. **Acoso sexual**: Adults grooming a menores en la plataforma
+4. **Sin protección laboral**: Son "creadores", no empleados
+5. **Adicción**: Diseñado para enganchar niños
+
+### **El modelo de Roblox:**
+
+```
+Niño crea juego → Juego genera $1000 → Roblox se queda $750 → Niño recibe $250
+```
+
+Te hacen sentir "millonario" mientras se quedan con la mayor parte.
+
+### **El artículo de HN lo admite:**
+
+> "Roblox turns a blind eye to child exploitation (whether being creeped on by adults, or being exploited by teens/adults to make games)"
+
+**Conclusión:** El artículo de Bloomberg es **propaganda corporativa**. Muestra los 0.01% que ganan millones, oculta los millones de niños que trabajan gratis.
+
+---
+
+## 4️⃣ "THE DEAD INTERNET IS NOT A THEORY ANYMORE"
+
+### **¿Qué dice el artículo?**
+
+El autor (Adrian Krebs) argumenta que la **"teoría del internet muerto" ahora es realidad**.
+
+### **Sus evidencias:**
+
+#### **1. Postulante de trabajo con respuesta de IA:**
+Recibió una respuesta de candidato que era claramente generada por IA. El CV pasó su "detector de slop" pero la respuesta fue obviamente bot.
+
+#### **2. Hacker News:**
+- HN restringió "Show HN" para cuentas nuevas por inundación de proyectos "vibe-coded" (hechos con IA)
+- Agregaron regla oficial: "No publiques comentarios generados por IA"
+
+#### **3. Reddit:**
+Encontró bots claramente haciendo astroturfing de productos SaaS en comentarios antiguos suyos. Cuentas con cientos de comentarios idénticos promocionando productos.
+
+#### **4. LinkedIn:**
+Su timeline es 90% contenido generado por IA con pocas actualizaciones profesionales reales.
+
+#### **5. GitHub:**
+PRs automáticos de IA que no tienen sentido, revisados por otros bots de IA.
+
+### **¿Qué es la "Dead Internet Theory"?**
+
+> **La teoría de que la mayoría del contenido en internet es generado por bots y algoritmos, no por humanos.**
+
+### **El artículo concluye:**
+
+> *"Can we go back to an internet like this? I guess we can't."*
+
+Muestra un video de internet en 1996 - limpio, humano, sin algoritmos.
+
+---
+
+## 📊 RESUMEN FINAL
+
+| Tema | Conclusión |
+|------|------------|
+| **Papers falsos** | Industria criminal millonaria que inunda la ciencia con basura. Peligroso para medicina y sociedad |
+| **Cloudflare** | Te venden scraping como servicio. Stallman los odia porque son un man-in-the-middle gigante que rastrea y bloquea |
+| **Roblox** | Publicidad disfrazada de noticia. Ocultan explotación infantil y se quedan con 75% de las ganancias |
+| **Internet muerto** | Ya no es teoría - bots generan la mayoría del contenido. HN, Reddit, GitHub, LinkedIn están inundados de IA |
+
+**La conexión entre todos:** IA generativa masiva + capitalismo sin regulación = internet lleno de basura sintética y explotación.
+
+
+
+Por que Cloudflare te pone una captcha para leer un texto? Por que quiere saber si sos un humano para leer un texto? Esa empresa es cancerigena.
+
+

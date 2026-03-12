@@ -1,0 +1,200 @@
+---
+title: "Openclaw"
+date: 2026-03-09T14:35:00-03:00
+tags: ['ai']
+---
+## OpenClaw - Búsqueda web desde terminal para responder correosOk, ya tengo todo claro. OpenClaw es un **agente de IA personal** (antes llamado Clawdbot) que corre en tu máquina y se conecta a canales de mensajería, herramientas y modelos. Acá va todo directo al grano:
+
+---
+
+## Setup inicial
+
+```bash
+# Ya lo tenés instalado, arrancá el wizard
+openclaw onboard
+
+# O si querés ver qué tenés
+openclaw doctor
+```
+
+El gateway corre en `ws://127.0.0.1:18789`. Lo controlás con la TUI o desde cualquier canal.
+
+---
+
+## Modelos gratis — opciones reales
+
+**Opción 1 — Gemini (la mejor gratis):**
+Google AI Studio en `aistudio.google.com` te da una API key de Gemini gratis, separada del billing de Cloud. Entrás, creás key, y:
+
+```bash
+export GEMINI_API_KEY="AIza..."
+openclaw models set gemini/gemini-2.5-flash
+```
+
+**Opción 2 — OpenRouter con cap en $0:**
+En OpenRouter podés hardcodear el gasto máximo en $0 y acceder a modelos gratis.
+
+```bash
+export OPENROUTER_API_KEY="sk-or-..."
+openclaw models set openrouter/meta-llama/llama-3.3-70b-instruct:free
+```
+
+**Opción 3 — Ollama (100% local, sin internet):**
+```bash
+# Arch
+yay -S ollama
+ollama serve &
+ollama pull llama3.3  # o mistral, qwen2.5, etc
+
+openclaw models set ollama/llama3.3
+```
+
+**Opción 4 — Kimi K2.5 (top tier, gratis en OpenClaw):**
+OpenClaw anunció Kimi K2.5 como el primer modelo premium completamente gratis en la plataforma, que compite en ranking con Claude Opus y Gemini 3 Pro.
+
+---
+
+## Config en `~/.openclaw/openclaw.json`
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "gemini/gemini-2.5-flash",
+        "fallbacks": [
+          "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+          "ollama/llama3.3"
+        ]
+      }
+    }
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "gemini"
+      }
+    }
+  }
+}
+```
+
+---
+
+## Búsqueda web para responder correos
+
+`web_search` soporta Brave Search API, Gemini con Google Search grounding, Grok, Kimi, o Perplexity. `web_fetch` hace HTTP GET y extrae contenido legible (HTML → markdown/texto) y está habilitado por defecto.
+
+Con Gemini como provider ya tenés búsqueda gratis. Con Brave tenés 1000 queries/mes gratis.
+
+Para usarlo desde NeoMutt: abrís un correo, y en otra terminal/tmux pane le preguntás a OpenClaw directamente:
+
+```bash
+# TUI interactiva
+openclaw tui
+
+# O desde IRC/WebChat local
+# O integrado via pipe desde neomutt con un macro
+```
+
+---
+
+## Integración con NeoMutt (el truco loco)
+
+Agregás a tu `~/.config/neomutt/neomuttrc`:
+
+```bash
+# Macro: seleccionás texto del mail y lo mandás a openclaw
+macro index,pager \Co "<pipe-message>openclaw ask --once 'Resumí este email y buscá info relevante para responder'<enter>"
+```
+
+O usás el skill de **Gmail/correo via `gog` CLI** para que OpenClaw lea tus mails directo:
+
+```bash
+# Google OAuth para Gmail
+openclaw plugins enable google-gemini-cli-auth
+openclaw models auth login --provider google-gemini-cli --set-default
+```
+
+---
+
+## Comandos útiles
+
+```bash
+openclaw models list          # ver modelos disponibles
+openclaw models set X         # cambiar modelo
+openclaw gateway restart      # reiniciar después de config
+openclaw plugins list         # ver plugins
+openclaw cron add             # tareas programadas
+openclaw doctor               # diagnóstico
+```
+
+---
+
+## Lo más loco que podés hacer
+
+OpenClaw responde en los canales que ya usás: WhatsApp, Telegram, Slack, Discord, IRC, Matrix, Signal, y más. Puede hablar y escuchar, y renderizar un Canvas en vivo.
+
+Para un usuario de terminal: conectalo a **IRC** (que ya probablemente usás) y tenés un agente que busca en la web, lee archivos, corre comandos, y te ayuda a responder emails, todo desde tu flujo habitual.
+
+El setup clásico avanzado: OpenClaw corriendo en un servidor/VPS, manejando Google Calendar y Gmail via `gog` CLI, trackeando hábitos en markdown, y sincronizando notas a un repo privado de GitHub cada noche.
+
+OpenRouter no se instala, es una API web. Solo necesitás una cuenta y una key.
+
+---
+
+## 1. Cuenta y key
+
+→ `openrouter.ai` → Sign up → **Keys** → Create Key
+
+En la key podés setear **Credit Limit = $0** para que nunca te cobre nada.
+
+---
+
+## 2. Modelos gratis disponibles ahora
+
+```bash
+# Ver todos los gratis
+curl https://openrouter.ai/api/v1/models | python -m json.tool | grep ':free'
+```
+
+Los mejores actualmente:
+- `meta-llama/llama-3.3-70b-instruct:free`
+- `google/gemini-2.5-pro-exp-03-25:free`
+- `deepseek/deepseek-r1:free`
+- `qwen/qwen3-235b-a22b:free`
+- `mistralai/mistral-7b-instruct:free`
+
+---
+
+## 3. Config en openclaw
+
+```bash
+export OPENROUTER_API_KEY="sk-or-..."
+```
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openrouter/google/gemini-2.5-pro-exp-03-25:free",
+        "fallbacks": [
+          "openrouter/meta-llama/llama-3.3-70b-instruct:free",
+          "openrouter/deepseek/deepseek-r1:free"
+        ]
+      }
+    }
+  }
+}
+```
+
+```bash
+openclaw gateway restart
+openclaw models list
+```
+
+---
+
+Los modelos `:free` tienen rate limits bajos pero para uso personal con NeoMutt sobra. El fallback automático de openclaw maneja cuando uno te limita y pasa al siguiente.
