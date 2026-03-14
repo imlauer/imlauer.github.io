@@ -246,13 +246,17 @@ class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co">#--profile=low-latency  </span></span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="ex">--mute=yes</span>  </span></code></pre></div>
 <h4 id="my-etcyt-dlp.conf">My <code>/etc/yt-dlp.conf</code>:</h4>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cat /etc/yt-dlp.conf  </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">--format=233+230</span>  </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">--write-auto-sub</span>  </span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">--write-sub</span>  </span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">--sub-lang=en</span>  </span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">#--cookies-from-browser firefox  </span></span></code></pre></div>
+
+<code><pre>
+--format=bestvideo[height<=?360]+bestaudio/best[height<=?360]/bestvideo[height<=?480]+bestaudio/best[height<=?480]
+#--format=bestvideo[height<=?720]+bestaudio/best[height<=?720]/bestvideo[height<=?720]+bestaudio/best[height<=?720]
+#--write-auto-sub
+#--sub-lang=es,en,ru
+#--sub-lang=en
+#--write-sub
+#--cookies-from-browser firefox  
+</code></pre>
+
 <p><strong>Important</strong>: If you use <code>mpv</code> for videos,
 run it outside <code>tmux</code>; otherwise, you won’t be able to switch
 between other TTYs.</p>
