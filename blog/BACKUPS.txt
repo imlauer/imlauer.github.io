@@ -177,3 +177,4 @@ https://archive.org/details/MI_BLOG1774016358-64387 - commit: 1
 https://archive.org/details/MI_BLOG1774016369-64444 - commit: silicon_valley_scam
 https://archive.org/details/MI_BLOG1774017307-68829 - commit: silicon_valley
 https://archive.org/details/MI_BLOG1774106023-262273 - commit: estafa_del_siglo
+https://archive.org/details/MI_BLOG1774106419-266305 - commit: estafa
