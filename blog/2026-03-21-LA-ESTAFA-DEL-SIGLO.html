@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Estafa del Siglo: Cómo Nos Robaron 20 Años de Datos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <style>
+        body {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            font-size: 1em;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            font-family: 'Consolas', 'Monaco', 'Lucida Console', monospace;
+            line-height: 1.8;
+        }
+        h1 {
+            color: #ff3366;
+            text-align: center;
+            font-size: 2.5em;
+            border-bottom: 4px solid #ff3366;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h2 {
+            color: #00ff88;
+            margin-top: 50px;
+            font-size: 1.5em;
+            border-left: 5px solid #00ff88;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #ffcc00;
+            margin-top: 25px;
+        }
+        .rage {
+            background: linear-gradient(135deg, #1a0a0a, #2d0a0a);
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #ff3366;
+            margin: 20px 0;
+        }
+        .section {
+            background: #111118;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+        .quote {
+            background: #1a1a2e;
+            border-left: 5px solid #00ff88;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+        .code {
+            background: #0d0d0d;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #333;
+            font-size: 0.9em;
+        }
+        .warning {
+            background: linear-gradient(135deg, #2d1a0a, #3d2a1a);
+            border-left: 5px solid #ffcc00;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .good {
+            background: linear-gradient(135deg, #0a1a0a, #1a2d1a);
+            border-left: 5px solid #00ff88;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline-item {
+            background: #1a1a2e;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 3px solid #ff3366;
+            border-radius: 0 5px 5px 0;
+        }
+        .year {
+            color: #ff3366;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .comparison-table th {
+            background: #2a2a3a;
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #333;
+        }
+        .comparison-table td {
+            padding: 12px;
+            border: 1px solid #333;
+        }
+        .comparison-table tr:nth-child(even) {
+            background: #1a1a2e;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #00ff88;
+        }
+        code {
+            background: #2a2a3a;
+            padding: 3px 8px;
+            border-radius: 3px;
+            color: #ffcc00;
+        }
+        .conclusion {
+            background: linear-gradient(135deg, #0a2a2a, #1a3d3d);
+            padding: 30px;
+            border-radius: 10px;
+            border: 3px solid #00ff88;
+            margin-top: 40px;
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🔥 LA ESTAFA DEL SIGLO 🔥</h1>
+<h2 style="text-align: center; color: #ff3366; border: none; font-size: 1.3em;">Cómo Nos Robaron 20 Años de Datos y Por Qué Pudimos Tener Esto Hace Décadas</h2>
+
+<div class="rage">
+    <h2 style="color: #ff3366; border-color: #ff3366;">💀 LA RABIA 💀</h2>
+    
+    <p style="font-size: 1.2em;">
+        <strong>NOS ROBARON LA HISTORIA.</strong>
+    </p>
+    
+    <p>
+        Cada mensaje que mandaste por WhatsApp, cada foto que subiste a Facebook, 
+        cada búsqueda en Google, cada video que viste en YouTube... todo eso tiene 
+        VALOR. Y ellos lo tomaron SIN PREGUNTAR.
+    </p>
+    
+    <p>
+        ¿Sabés cuánto vale tu data? <strong>MILES DE MILLONES DE DÓLARES.</strong>
+        Y vos no viste NI UN CENTAVO.
+    </p>
+    
+    <p style="color: #ff3366; font-size: 1.3em;">
+        <strong>
+        TENÍAMOS LA TECNOLOGÍA PARA HACER TODO ESTO DESCENTRALIZADO 
+        DESDE EL AÑO 2000.
+        </strong>
+    </p>
+    
+    <p>
+        Peer-to-peer existe desde los 90s. Los protocolos abiertos existen desde siempre. 
+        La criptografía para authentication existe desde los 80s. Todo lo que usan 
+        Facebook, Google, Amazon... <strong>YA EXISTÍA.</strong>
+    </p>
+    
+    <p>
+        ¿Por qué no lo hicimos descentralizado?
+    </p>
+    
+    <p style="color: #ffcc00;">
+        <strong>PORQUE A ELLOS LES CONVENÍA LA CENTRALIZACIÓN.</strong>
+    </p>
+    
+    <p>
+        Más control = más datos = más plata = más poder.
+    </p>
+    
+    <p style="font-size: 1.4em; color: #ff3366;">
+        <strong>
+        NOS MIENTEN DESDE SIEMPRE Y NOSOTROS LOS DEJAMOS.
+        </strong>
+    </p>
+</div>
+
+<h2>📅 LA LÍNEA DEL TIEMPO DE LA ESTAFA</h2>
+
+<div class="timeline">
+    <div class="timeline-item">
+        <span class="year">1990s</span> - Existe todo: P2P (Napster), email descentralizado (SMTP), 
+        criptografía (PGP), servidores propios. <strong>La tecnología YA estaba.</strong>
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">1999</span> - Napster muestra que el P2P funciona. 
+        La industria musical lo DERRIBA. <strong>Primera señal de que van a fightear la descentralización.</strong>
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2004</span> - Facebook se funda. "Es gratis!" ¿Te suena familiar? 
+        <strong>Vos sos el producto.</strong>
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2007</span> - El iPhone promete "revolución". Resultado: 
+        <strong>apps centralizadas, tracking masivo, publicidad.</strong>
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2008</span> - Bitcoin muestra que la descentralización ES POSIBLE. 
+        ¿Qué hacemos? <strong>Lo volvemos especulación.</strong>
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2011</span> - Arranca WhatsApp. "Es gratis y seguro". 
+        <strong>Facebook lo compra en 2014 por $19 mil millones.</strong> Tu privacidad: $0.
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2013</span> - Edward Snowden revela que la NSA espía TODO. 
+        <strong>¿Cambió algo?</strong> No. Seguimos usando Gmail.
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2015</span> - Signal existe, es open source, es mejor que WhatsApp. 
+        <strong>¿Lo usa alguien?</strong> 1% de la gente.
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2018</span> - GDPR "protege" tus datos. ¿Resultado? 
+        <strong>47 páginas de cookies que seguís aceptando igual.</strong>
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2020</span> - La pandemia. Zoom se vuelve masivo. 
+        <strong>Zoom tiene 0 encryption real.</strong> Seguimos usándolo.
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2022-2023</span> - ChatGPT, IA generativa. 
+        <strong>¿La hacemos open source?</strong> No, cerramos todo con APIs caras.
+    </div>
+    
+    <div class="timeline-item">
+        <span class="year">2024-2025</span> - Minimax, Kimi (chinos) muestran que la IA 
+        puede ser buena Y open source. <strong>Pero Occidente sigue con APIs cerradas.</strong>
+    </div>
+    
+    <div class="timeline-item" style="border-color: #00ff88;">
+        <span class="year" style="color: #00ff88;">AHORA</span> - GLM, Qwen, Minimax, Kimi, DeepSeek son open source. 
+        <strong>¿Por fin aprendimos?</strong> Todavía estamos a tiempo.
+    </div>
+</div>
+
+<h2>💔 CUÁNTO NOS ROBARON</h2>
+
+<table class="comparison-table">
+    <tr>
+        <th>Servicio</th>
+        <th>Año de "robo"</th>
+        <th>Tu data vale (estimado)</th>
+        <th>Lo que te dieron</th>
+    </tr>
+    <tr>
+        <td>Facebook</td>
+        <td>2007</td>
+        <td>$500-1000/año por usuario</td>
+        <td>"Gratis" (mira nuestra publicidad)</td>
+    </tr>
+    <tr>
+        <td>Google Search</td>
+        <td>1998</td>
+        <td>$200-500/año por usuario</td>
+        <td>"Gratis" (mira nuestra publicidad)</td>
+    </tr>
+    <tr>
+        <td>YouTube</td>
+        <td>2005</td>
+        <td>$100-300/año por usuario</td>
+        <td>Publicidad, más publicidad, ads</td>
+    </tr>
+    <tr>
+        <td>WhatsApp</td>
+        <td>2009</td>
+        <td>$50-200/año por usuario</td>
+        <td>Espiado, revendido, dado a Facebook</td>
+    </tr>
+    <tr>
+        <td>Instagram</td>
+        <td>2010</td>
+        <td>$300-800/año por usuario</td>
+        <td>Adicción, influencers, explotación</td>
+    </tr>
+    <tr>
+        <td><strong>TOTAL POR USUARIO</strong></td>
+        <td></td>
+        <td style="color: #ff3366; font-size: 1.3em;"><strong>$1,000-2,500/AÑO</strong></td>
+        <td>20 años = <strong>$20,000-50,000 ROBADOS</strong></td>
+    </tr>
+</table>
+
+<p style="text-align: center; font-size: 1.5em; color: #ff3366;">
+    <strong>
+    POR CADA USUARIO.
+    <br>
+    SI SOS 1 DE 3 BILLONES DE USUARIOS...
+    <br>
+    ELLOS GANARON <span style="font-size: 1.5em;">$20-75 TRILLONES DE DÓLARES</span>
+    </strong>
+</p>
+
+<h2>❌ POR QUÉ BLOCKCHAIN NO ES LA SOLUCIÓN</h2>
+
+<div class="warning">
+    <h3>La mentira de "blockchain va a solve todo"</h3>
+    
+    <p>
+        Escuchaste esto durante años: "Blockchain va a descentralizar todo, va a reemplazar 
+        a los bancos, va a give back tu privacidad."
+    </p>
+    
+    <p>
+        <strong>¿Qué pasó?</strong>
+    </p>
+    
+    <ul>
+        <li>NFTs = especulación, scams, wash trading</li>
+        <li>DeFi = $4.2 BILLONES perdidos en hacks</li>
+        <li>Crypto = nuevo sistema financiero, igual de corrupto</li>
+        <li>Web3 = 5 tipos en un Discord tienen las private keys</li>
+    </ul>
+    
+    <h3>El problema fundamental:</h3>
+    <p>
+        <strong>Blockchain ≠ Descentralización</strong>
+    </p>
+    
+    <p>
+        Blockchain es un ledger distribuido para consenso trustless. 
+        No hace falta blockchain para authentication o identity management.
+    </p>
+    
+    <p>
+        Los webapps necesitan JavaScript ejecutándose en tiempo real. 
+        Blockchain no puede hacer eso. Es lento, caro, y sobreingeniería para el problema.
+    </p>
+</div>
+
+<h2>✅ LAS SOLUCIONES REALES QUE SIEMPRE TUVIMOS</h2>
+
+<div class="section">
+    <h3>1. FEDERACIÓN</h3>
+    
+    <p>
+        <strong>Federación = Como el email, pero para TODO.</strong>
+    </p>
+    
+    <p>
+        Tu email: <code>vos@servidor.com</code>
+        <br>
+        Podés mandar a: <code>el@servidor-otro.com</code>
+        <br>
+        Cada uno hostea su propio servidor. Nadie te lo puede cerrar.
+    </p>
+    
+    <table class="comparison-table">
+        <tr>
+            <th>Servicio</th>
+            <th>Centralizado (nos robaron)</th>
+            <th>Federado (la solución)</th>
+        </tr>
+        <tr>
+            <td>Social</td>
+            <td>Twitter, Facebook</td>
+            <td>Mastodon, PixelFed, Friendica</td>
+        </tr>
+        <tr>
+            <td>Chat</td>
+            <td>WhatsApp, Telegram</td>
+            <td>Matrix (Element), XMPP</td>
+        </tr>
+        <tr>
+            <td>Video</td>
+            <td>YouTube</td>
+            <td>PeerTube, LBRY/Odysee</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>Gmail, Outlook</td>
+            <td>Tu propio servidor, Thunderbird</td>
+        </tr>
+        <tr>
+            <td>Cloud</td>
+            <td>Google Drive, iCloud</td>
+            <td>Nextcloud, Syncthing</td>
+        </tr>
+        <tr>
+            <td>Login</td>
+            <td>Google, Facebook</td>
+            <td>Matrix ID, Solid, Passkeys</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section">
+    <h3>2. IDENTIDAD AUTO-SOBERANA (SSI)</h3>
+    
+    <div class="quote">
+        "Vos controlás tu identidad. Nadie más. FIRMÁS con tu clave privada."
+    </div>
+    
+    <p>
+        <strong>Cómo funciona:</strong>
+    </p>
+    <ul>
+        <li>Te creás una identidad (ej: <code>did:matrix:vos:servidor.com</code>)</li>
+        <li>Guardás tu private key en TU dispositivo</li>
+        <li>Para authenticate, el server te manda un reto</li>
+        <li>Vos firmás con tu clave privada</li>
+        <li>El server verifica con tu public key</li>
+        <li><strong>NO hay password. NO hay "olvidé mi contraseña". NO hay Facebook login.</strong></li>
+    </ul>
+    
+    <p>
+        <strong>Ejemplos reales:</strong>
+    </p>
+    <ul>
+        <li><strong>Matrix ID</strong> - Chat con identidad portable</li>
+        <li><strong>ENS (Ethereum Name Service)</strong> - Dominios descentralizados</li>
+        <li><strong>Solid</strong> - Tim Berners-Lee's proyecto para datos propios</li>
+        <li><strong>DID (Decentralized Identifiers)</strong> - Estándar W3C</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>3. PASSKEYS / WEBAUTHN</h3>
+    
+    <p>
+        <strong>Reemplazo de passwords que YA EXISTE.</strong>
+    </p>
+    
+    <div class="good">
+        <h4>Cómo funciona:</h4>
+        <ol>
+            <li>Te registrás en example.com</li>
+            <li>Tu dispositivo genera par de claves (pública/privada)</li>
+            <li>Clave privada queda en TU dispositivo</li>
+            <li>Server guarda solo la clave pública</li>
+            <li>Login: server te manda "reto"</li>
+            <li>Tu dispositivo firma con clave privada</li>
+            <li>Server verifica</li>
+        </ol>
+    </div>
+    
+    <p>
+        <strong>Ventajas:</strong>
+    </p>
+    <ul>
+        <li>✅ No hay password que puedan robar</li>
+        <li>✅ No hay "olvidé mi contraseña"</li>
+        <li>✅ No dependés de ningún servicio</li>
+        <li>✅ Funciona con biometrics (huella, cara)</li>
+        <li>✅ Apple, Google, Microsoft YA lo supportan</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>4. APIs ABIERTAS</h3>
+    
+    <p>
+        <strong>La solución más simple: que los servicios expongan SUS DATOS.</strong>
+    </p>
+    
+    <div class="code">
+<pre>
+# TU EMAIL desde la terminal (sin navegador)
+curl -H "Authorization: Bearer $GMAIL_TOKEN" \
+  "https://gmail.googleapis.com/gmail/v1/users/me/messages"
+
+# TU TWITTER desde la terminal
+curl -H "Authorization: Bearer $TWITTER_TOKEN" \
+  "https://api.twitter.com/2/users/me"
+
+# TU DISCORD desde la terminal  
+curl -H "Authorization: Bot $DISCORD_TOKEN" \
+  "https://discord.com/api/users/@me"
+
+# TU GITHUB desde la terminal
+curl -H "Authorization: Bearer $GITHUB_TOKEN" \
+  "https://api.github.com/user"
+</pre>
+    </div>
+    
+    <p>
+        <strong>El problema:</strong> Los servicios cierran las APIs cuando les conviene.
+    </p>
+    <ul>
+        <li>Twitter限制 API, cobra $100/mes</li>
+        <li>Reddit cobra por acceso</li>
+        <li>Google limita todo</li>
+    </ul>
+    
+    <p>
+        <strong>La solución:</strong> Usar servicios que desde el día uno exponen API abierta.
+    </p>
+</div>
+
+<div class="section">
+    <h3>5. OPENCODE COMO TU NUEVO "NAVEGADOR"</h3>
+    
+    <p>
+        <strong>OpenCode + Terminal = 80% de lo que hacés en Chrome, sin browser.</strong>
+    </p>
+    
+    <div class="code">
+<pre>
+# BUSCAR (en vez de google.com)
+opencode "buscame las últimas noticias de tecnología"
+
+# LEER PÁGINAS WEB (en vez de clickear links)
+opencode "leeme el contenido de https://news.ycombinator.com"
+
+# DESCARGAR VIDEOS SIN ADS (en vez de YouTube)
+yt-dlp "ytsearch1:documental interesante"
+mpv video.*
+
+# BUSCAR EN ARCHIVOS (en vez de googlear)
+opencode "busca en mi pc archivos de python sobre..."
+rg "patron" ~/proyectos/
+
+# INVESTIGAR (en vez de leer mil tabs)
+opencode "explicame cómo funciona Docker"
+</pre>
+    </div>
+    
+    <table class="comparison-table">
+        <tr>
+            <th>Acción</th>
+            <th>Navegador</th>
+            <th>OpenCode + Terminal</th>
+        </tr>
+        <tr>
+            <td>Publicidad</td>
+            <td>❌ Miles de ads</td>
+            <td>✅ Cero</td>
+        </tr>
+        <tr>
+            <td>Cookies</td>
+            <td>❌ 47 banners</td>
+            <td>✅ No</td>
+        </tr>
+        <tr>
+            <td>Tracking</td>
+            <td>❌ Te siguen</td>
+            <td>✅ Privado</td>
+        </tr>
+        <tr>
+            <td>Velocidad</td>
+            <td>🐢 Lento</td>
+            <td>🚀 Instantáneo</td>
+        </tr>
+        <tr>
+            <td>Costo</td>
+            <td>-</td>
+            <td>💰 Gratis</td>
+        </tr>
+        <tr>
+            <td>Automatización</td>
+            <td>❌ Manual</td>
+            <td>✅ Scriptable</td>
+        </tr>
+    </table>
+</div>
+
+<h2>🛠️ TU STACK DEL FUTURO (AHORA MISMO)</h2>
+
+<div class="section" style="background: linear-gradient(135deg, #0a1a1a, #1a2d2d);">
+    <h3>La arquitectura:</h3>
+    
+    <div class="code">
+<pre>
+┌─────────────────────────────────────────────────────────────┐
+│                        TU TERMINAL                          │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  opencode (tu IA, tu navegador)                            │
+│      │                                                       │
+│      └──→ mcp servers (puente a servicios)                   │
+│                │                                             │
+│                ├──→ matrix (chat federado)                   │
+│                ├──→ mastodon (social federado)               │
+│                ├──→ peerTube (video federado)                │
+│                └──→ nextcloud (archivos)                     │
+│                                                              │
+│  Identidad: matrix-id / did / passkeys                       │
+│                                                              │
+│  Auth: WebAuthn (sin passwords)                             │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+</pre>
+    </div>
+    
+    <h3>Comandos para empezar HOY:</h3>
+    
+    <div class="code">
+<pre>
+# === CHAT (reemplaza WhatsApp) ===
+# Matrix/Element (federado, encriptado E2E)
+sudo apt install element-desktop  # o desde element.io
+
+# XMPP (protocolo antiguo, robusto, federado)
+sudo apt install pidgin  # client XMPP
+# Servers: jabber.org, dukgo.com, etc.
+
+# O desde terminal:
+sudo apt install weechat
+
+# === SOCIAL (reemplaza Twitter) ===
+# Mastodon
+# Ir a joinmastodon.org y crear cuenta en cualquier servidor
+
+# === VIDEO (reemplaza YouTube) ===
+yt-dlp "url"    # Descargar
+mpv video.*     # Ver sin ads
+
+# === ARCHIVOS (reemplaza Google Drive) ===
+sudo apt install syncthing
+# o
+sudo apt install nextcloud-client
+
+# === EMAIL (reemplaza Gmail) ===
+sudo apt install neomutt
+# Configurás tu propio servidor o usás proveedor privado
+
+# === NAVEGACIÓN WEB (reemplaza Chrome) ===
+# OpenCode
+curl -fsSL https://opencode.ai/install | bash
+opencode "tu pregunta"
+
+# Para páginas específicas:
+curl -sL "url" | w3m -T text/html
+# o
+curl -sL "url" | lynx -stdin
+</pre>
+    </div>
+</div>
+
+<h2>📊 LA DIFERENCIA: ANTES VS DESPUÉS</h2>
+
+<table class="comparison-table" style="font-size: 0.9em;">
+    <tr>
+        <th>Aspecto</th>
+        <th>❌ EL SISTEMA ACTUAL (2004-2026)</th>
+        <th>✅ EL SISTEMA DESCENTRALIZADO</th>
+    </tr>
+    <tr>
+        <td><strong>Tus datos</strong></td>
+        <td>Ellos los tienen, vos no</td>
+        <td>Vos los controlás</td>
+    </tr>
+    <tr>
+        <td><strong>Tu identidad</strong></td>
+        <td>Facebook/Google login</td>
+        <td>Tu clave privada</td>
+    </tr>
+    <tr>
+        <td><strong>Chat</strong></td>
+        <td>WhatsApp (espían todo)</td>
+        <td>Matrix (encriptado E2E)</td>
+    </tr>
+    <tr>
+        <td><strong>Social</strong></td>
+        <td>Twitter (censuran)</td>
+        <td>Mastodon (vos elegís servidor)</td>
+    </tr>
+    <tr>
+        <td><strong>Video</strong></td>
+        <td>YouTube (ads, demonetización)</td>
+        <td>PeerTube (sin ads, federado)</td>
+    </tr>
+    <tr>
+        <td><strong>Archivos</strong></td>
+        <td>Google Drive (te borran)</td>
+        <td>Nextcloud (tu server)</td>
+    </tr>
+    <tr>
+        <td><strong>Búsqueda</strong></td>
+        <td>Google (manipula resultados)</td>
+        <td>Searx, Qwant (agregador)</td>
+    </tr>
+    <tr>
+        <td><strong>IA</strong></td>
+        <td>ChatGPT, Claude (cerrado, $)</td>
+        <td>GLM, Qwen, Minimax, Kimi (open source)</td>
+    </tr>
+    <tr>
+        <td><strong>Login</strong></td>
+        <td>Passwords (roban datos)</td>
+        <td>Passkeys (clave pública)</td>
+    </tr>
+    <tr>
+        <td><strong>Costo</strong></td>
+        <td>"Gratis" (vos sos el producto)</td>
+        <td>Gratis de verdad + privado</td>
+    </tr>
+    <tr>
+        <td><strong>Censura</strong></td>
+        <td>Te banned sin explicación</td>
+        <td>Tu servidor, tus reglas</td>
+    </tr>
+    <tr>
+        <td><strong>Privacidad</strong></td>
+        <td>NULA</td>
+        <td>Completa</td>
+    </tr>
+</table>
+
+<h2>⏰ POR QUÉ AHORA SÍ PODEMOS</h2>
+
+<div class="good">
+    <h3>Las piezas finalmente están en su lugar:</h3>
+    
+    <ul>
+        <li><strong>IA Open Source:</strong> GLM, Qwen, Minimax, Kimi, DeepSeek = tan buenos como GPT</li>
+        <li><strong>Federación madura:</strong> Matrix, ActivityPub = funcionando a escala</li>
+        <li><strong>Passkeys:</strong> Apple, Google, Microsoft = soporte nativo</li>
+        <li><strong>Terminal tooling:</strong> OpenCode, yt-dlp, mpv = workflow completo</li>
+        <li><strong>Hardware barato:</strong> RasPi, VPS por $5 = server propio accesible</li>
+        <li><strong>Conciencia social:</strong> Snowden, Cambridge Analytica, = la gente está waking up</li>
+    </ul>
+</div>
+
+<div class="conclusion">
+    <h2 style="color: #00ff88;">🎯 EL LLAMADO A LA ACCIÓN</h2>
+    
+    <p style="font-size: 1.2em;">
+        <strong>NOS ROBARON 20 AÑOS.</strong>
+    </p>
+    
+    <p>
+        Teníamos la tecnología desde el año 2000. Pero ellos prefirieron 
+        centralizar, cerrar, espiar, y cobrarnos "gratis" con nuestra propia data.
+    </p>
+    
+    <p>
+        <strong>¿Qué hacemos ahora?</strong>
+    </p>
+    
+    <ul style="font-size: 1.1em;">
+        <li>🔴 <strong>NO</strong> uses servicios centralizados para cosas importantes</li>
+        <li>🔴 <strong>NO</strong> confíes en "es gratis"</li>
+        <li>🔴 <strong>NO</strong> aceptes que te espíen</li>
+        <li></li>
+        <li>✅ Instala Matrix/Element HOY</li>
+        <li>✅ Creá cuenta en Mastodon</li>
+        <li>✅ Usá Passkeys donde puedas</li>
+        <li>✅ Migrá a servicios federados</li>
+        <li>✅ Usá IA open source (GLM, Qwen, Minimax, Kimi)</li>
+        <li>✅ Usá OpenCode en vez de Chrome</li>
+        <li>✅ Hosteá tu propio Nextcloud</li>
+        <li>✅ No trabajes para empresas de publicidad</li>
+    </ul>
+    
+    <p style="font-size: 1.3em; color: #00ff88;">
+        <strong>
+        CADA PERSONA QUE MIGRRA ES UN VOTO POR EL FUTURO QUE QUEREMOS.
+        </strong>
+    </p>
+    
+    <p>
+        No esperes a que "la regulation" solve esto. No esperes a que 
+        "las empresas sean más éticas". No esperes a que "alguien más lo haga".
+    </p>
+    
+    <p style="font-size: 1.2em; color: #ffcc00;">
+        <strong>
+        LA REVOLUCIÓN EMPIEZA EN TU TERMINAL.
+        </strong>
+    </p>
+</div>
+
+<h2>📚 RECURSOS</h2>
+
+<div class="section">
+    <h3>Documentación oficial:</h3>
+    <ul>
+        <li><strong>OpenCode:</strong> https://opencode.ai/docs</li>
+        <li><strong>Matrix/Element:</strong> https://element.io + https://matrix.org</li>
+        <li><strong>Mastodon:</strong> https://joinmastodon.org</li>
+        <li><strong>PeerTube:</strong> https://joinpeertube.org</li>
+        <li><strong>Nextcloud:</strong> https://nextcloud.com</li>
+        <li><strong>Passkeys:</strong> https://passkeys.io</li>
+        <li><strong>DID/W3C:</strong> https://www.w3.org/TR/did-core/</li>
+        <li><strong>WebAuthn:</strong> https://webauthn.io</li>
+    </ul>
+    
+    <h3>IA Open Source (NO son de Facebook/Meta):</h3>
+    <ul>
+        <li><strong>GLM (Big Pickle):</strong> https://chat.z.ai - Zhipu AI (China)</li>
+        <li><strong>Qwen:</strong> https://qwenlm.github.io - Alibaba (China)</li>
+        <li><strong>Minimax:</strong> https://www.minimax.io - China</li>
+        <li><strong>Kimi:</strong> https://kimi.moonshot.cn - Moonshot AI (China)</li>
+        <li><strong>DeepSeek:</strong> https://deepseek.com - China</li>
+    </ul>
+    
+    <h3>Textos citados:</h3>
+    <ul>
+        <li>George Hotz - geohot.github.io</li>
+        <li>Curtis Yarvin - mises.org</li>
+        <li>Free Software Foundation - gnu.org</li>
+        <li>Todo el movimiento Open Source</li>
+    </ul>
+</div>
+
+<footer>
+    <p>
+        <strong>Generado por OpenCode</strong> | Modelo: Big Pickle (GLM Open Source)
+    </p>
+    <p>
+        <strong>Fecha:</strong> 21 de Marzo, 2026
+    </p>
+    <p style="color: #ff3366;">
+        <strong>
+        "Dejen de buscar poder sobre otros humanos. Busquen poder sobre la naturaleza."
+        </strong>
+    </p>
+    <p style="margin-top: 30px;">
+        <a href="mailto:todos@servers-propios.com" style="color: #00ff88;">
+            Compartí este documento. Spready la palabra.
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>
