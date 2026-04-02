@@ -192,3 +192,4 @@ https://archive.org/details/MI_BLOG1774898745-126913 - commit: lavio
 https://archive.org/details/MI_BLOG1774900559-137199 - commit: millonarios
 https://archive.org/details/MI_BLOG1774900700-138011 - commit: millonario
 https://archive.org/details/MI_BLOG1775115450-209390 - commit: hacking
+https://archive.org/details/MI_BLOG1775151302-91581 - commit: colap
