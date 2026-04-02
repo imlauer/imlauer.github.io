@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+Programación se trata de resolver problemas, no se trata de aprender la sintaxis del lenguaje de programación, eso es lo más irrelevante. 
+
+
+
+Ahora usan Cursor (que es un editor que tiene Claude AI integrado).
+
+La gente dice que la programación se terminó porque ahora le podés preguntar a ChatGPT que programe algo.
+
+Pero eso es programación. Solo que en vez de usar C/C++/C#/Java/Rust/JavaScript/Python lo que sea estás usando el idioma ESPAÑOL o
+estás usando el idioma INGLES para programar.
+
+Usar el idioma ESPAÑOL o INGLES para programar es BUENO cuando la petición es repetitiva.
+
+Por ejemplo si le decís: "ChatGPT creame un reloj analógico en javascript" (probablemente lo va a programar bien), porque es una 
+tarea repetitiva.
+
+Ahora si le decís programame un sistema operativo en C no te lo va a programar.
+
+ESTÁS PROGRAMANDO CUANDO LE HABLAS A CHATGPT. SOLO QUE ESTÁS PROGRAMANDO EN EL IDIOMA ESPAÑOL.
+
+EL IDIOMA ESPAÑOL ES AMBIGUO 
+
+EL LENGUAJE DE PROGRAMACIÓN ES LÓGICO, PRECISO, CERTERO, EL LENGUAJE COLOQUIAL ES AMBIGUO POR ESO ES MALO.
+
+Hay muchas expresiones del español que no tiene lógica por ejemplo: "No me robaron nada" (esto significa que te robaron todo).
+
+NO me robaron NADA = es doble negación = por lo tanto es una afirmación.
+
+Hay miles de casos así. Por eso cuanto más cerca del lenguaje máquina estés más control vas a tener sobre tu programa y más jugo le
+vas a poder exprimir.
+
+Programando en español tenes un menor control, es peor que programar en javascript.
+
+¡¡¡¡¡¡¡¡¡¡¡¡ESTÁS PROGRAMANDO EN EL IDIOMA ESPAÑOL!!!!!!!!!!!
+
+Siempre es mejor programar en un lenguaje de bajo nivel porque estás más cerca del hardware, tenes más control y entendimiento.
+
+Lo ideal sería que por lo menos entiendas lo que hizo ChatGPT, o sea que tenes que saber el lenguaje de bajo nivel por lo menos, tenes
+que saber leerlo para poder mejorarlo.
+
+Ahora ya no tenes excusa para aprender a programar, mirar videos no te va a servir para nada. Ahora podes programar en español, la única forma de volverte bueno es programando.
