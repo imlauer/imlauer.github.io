@@ -3,8 +3,8 @@ body {
   margin: 0 auto;
   padding: 2rem 1.5rem;
   line-height: 1.7;
-  background: #0a0a0a;
-  color: #c8c8c8;
+  background: #001500;
+  color: #aaffcc;
   font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
   font-size: 16px;
   overflow-wrap: break-word;
@@ -15,9 +15,9 @@ pre {
   max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  background: #111;
-  border: 1px solid #1a1a1a;
-  border-left: 2px solid #00ff41;
+  background: #002200;
+  border: 1px solid #003300;
+  border-left: 2px solid #00ff44;
   border-radius: 2px;
   padding: 1rem;
 }
@@ -29,28 +29,28 @@ pre code {
 }
 
 code {
-  background: #111;
+  background: #002200;
   padding: 0.2em 0.4em;
   border-radius: 2px;
   font-size: 0.9em;
-  color: #00ff41;
+  color: #00ff44;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00ff41;
+  color: #00ff44;
   margin-top: 2.5em;
   margin-bottom: 0.75em;
   font-weight: 600;
   letter-spacing: -0.01em;
-  text-shadow: 0 0 8px rgba(0, 255, 65, 0.15);
+  text-shadow: 0 0 8px rgba(0, 255, 68, 0.2);
 }
 
-h1 { font-size: 2.2em; border-bottom: 1px solid #004d00; padding-bottom: 0.5em; }
+h1 { font-size: 2.2em; border-bottom: 1px solid #004400; padding-bottom: 0.5em; }
 h2 { font-size: 1.5em; }
-h3 { font-size: 1.2em; color: #33cc55; }
-h4 { font-size: 1.05em; color: #33cc55; }
-h5 { font-size: 1em; color: #28a045; }
-h6 { font-size: 0.95em; color: #28a045; }
+h3 { font-size: 1.2em; color: #66ffaa; }
+h4 { font-size: 1.05em; color: #66ffaa; }
+h5 { font-size: 1em; color: #44ff88; }
+h6 { font-size: 0.95em; color: #44ff88; }
 
 .title {
   font-size: 1.6em;
@@ -58,22 +58,22 @@ h6 { font-size: 0.95em; color: #28a045; }
 }
 
 a {
-  color: #ffd700;
+  color: #aaff00;
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+  border-bottom: 1px solid rgba(170, 255, 0, 0.3);
   transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
 }
 
 a:hover {
-  color: #0a0a0a;
-  background-color: #ffd700;
-  border-bottom-color: #ffd700;
+  color: #001500;
+  background-color: #aaff00;
+  border-bottom-color: #aaff00;
 }
 
 hr {
   border: none;
   height: 1px;
-  background: #1a1a1a;
+  background: #003300;
   margin: 2.5em 0;
 }
 
@@ -87,34 +87,34 @@ li {
 }
 
 ul > li::marker {
-  color: #004d00;
+  color: #006600;
 }
 
 ol > li::marker {
-  color: #004d00;
+  color: #006600;
   font-weight: 600;
 }
 
 blockquote {
-  border-left: 2px solid #004d00;
+  border-left: 2px solid #006600;
   margin: 1.5em 0;
   padding: 0.5em 1em;
-  background: #0d0d0d;
+  background: #002200;
   font-style: italic;
-  color: #999;
+  color: #88ccaa;
 }
 
 strong {
-  color: #e0e0e0;
+  color: #ccffee;
 }
 
 em {
-  color: #aaa;
+  color: #88ccaa;
 }
 
 s {
-  color: #444;
-  text-decoration-color: #333;
+  color: #335544;
+  text-decoration-color: #224433;
 }
 
 img {
@@ -130,14 +130,14 @@ table {
 }
 
 th, td {
-  border: 1px solid #1a1a1a;
+  border: 1px solid #003300;
   padding: 0.75em;
   text-align: left;
 }
 
 th {
-  background: #0d0d0d;
-  color: #00ff41;
+  background: #002200;
+  color: #00ff44;
   font-weight: 600;
 }
 
@@ -146,12 +146,12 @@ center {
 }
 
 ::selection {
-  background: #00ff41;
-  color: #000;
+  background: #44ff44;
+  color: #001500;
 }
 
 a:focus-visible {
-  outline: 1px solid #ffd700;
+  outline: 1px solid #aaff00;
   outline-offset: 2px;
 }
 
@@ -160,16 +160,16 @@ pre::-webkit-scrollbar {
 }
 
 pre::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #001500;
 }
 
 pre::-webkit-scrollbar-thumb {
-  background: #222;
+  background: #224422;
   border-radius: 2px;
 }
 
 pre::-webkit-scrollbar-thumb:hover {
-  background: #333;
+  background: #335533;
 }
 
 @media (max-width: 600px) {
