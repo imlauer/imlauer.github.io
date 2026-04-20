@@ -203,3 +203,5 @@ https://archive.org/details/MI_BLOG1776153075-321680 - commit: 1
 https://archive.org/details/MI_BLOG1776205766-96069 - commit: tech
 https://archive.org/details/MI_BLOG1776207050-102087 - commit: mono
 https://archive.org/details/MI_BLOG1776499862-70260 - commit: winning
+https://archive.org/details/MI_BLOG1776669747-176319 - commit: lunar_aterrizaje
+https://archive.org/details/MI_BLOG1776669849-176987 - commit: lunar_aterrizaje
