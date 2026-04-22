@@ -206,3 +206,14 @@ https://archive.org/details/MI_BLOG1776499862-70260 - commit: winning
 https://archive.org/details/MI_BLOG1776669747-176319 - commit: lunar_aterrizaje
 https://archive.org/details/MI_BLOG1776669849-176987 - commit: lunar_aterrizaje
 https://archive.org/details/MI_BLOG1776671648-185174 - commit: adborn
+https://archive.org/details/MI_BLOG1776811389-6102 - commit: abborn_to_analisismatematico2
+https://archive.org/details/MI_BLOG1776811422-6324 - commit: abborn_to_analisismatematico2
+https://archive.org/details/MI_BLOG1776811425-6360 - commit: abborn_to_analisismatematico2
+https://archive.org/details/MI_BLOG1776811441-6481 - commit: abborn_to_analisismatematico2
+https://archive.org/details/MI_BLOG1776811446-6579 - commit: abborn_to_analisismatematico2
+https://archive.org/details/MI_BLOG1776811464-6705 - commit: abborn_to_analisismatematico2
+https://archive.org/details/MI_BLOG1776811492-6859 - commit: 1
+https://archive.org/details/MI_BLOG1776811558-7225 - commit: 1
+https://archive.org/details/MI_BLOG1776811597-7440 - commit: fuente
+https://archive.org/details/MI_BLOG1776817555-37977 - commit: 10
+https://archive.org/details/MI_BLOG1776817663-38627 - commit: adborn
