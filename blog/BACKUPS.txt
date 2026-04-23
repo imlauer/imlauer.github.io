@@ -217,3 +217,5 @@ https://archive.org/details/MI_BLOG1776811558-7225 - commit: 1
 https://archive.org/details/MI_BLOG1776811597-7440 - commit: fuente
 https://archive.org/details/MI_BLOG1776817555-37977 - commit: 10
 https://archive.org/details/MI_BLOG1776817663-38627 - commit: adborn
+https://archive.org/details/MI_BLOG1776932148-167833 - commit: true
+https://archive.org/details/MI_BLOG1776932150-167883 - commit: truth
