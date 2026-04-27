@@ -221,3 +221,4 @@ https://archive.org/details/MI_BLOG1776932148-167833 - commit: true
 https://archive.org/details/MI_BLOG1776932150-167883 - commit: truth
 https://archive.org/details/MI_BLOG1777149534-1139803 - commit: gcc
 https://archive.org/details/MI_BLOG1777267080-2276916 - commit: copyrgiht
+https://archive.org/details/MI_BLOG1777271250-2316737 - commit: copyrgiht
