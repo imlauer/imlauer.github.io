@@ -1,0 +1,3730 @@
+1
+Home
+
+About
+
+My Network
+
+Jobs
+
+Accessibility
+
+Privacy & Terms
+Advertising
+
+Messaging
+
+Notifications
+
+Help Center
+Ad Choices
+
+Business Services
+
+Get the LinkedIn app
+
+More
+
+LinkedIn Corporation © 2026
+
+All activity
+Posts
+
+Comments
+
+Images
+
+Articles
+
+Reactions
+
+George Hotz reposted this
+
+Harald Schäfer • 3rd+
+
+Chief Technology Officer at comma.ai
+18h •
+
+Follow
+
+Comma is finally shipping driving models trained on-policy in a learned simulator.
+I believe comma is the first robotics company to do this.
+I started working on this in 2017, this timeline contains my entire professional
+life! Fun look back and see how it went from idea to reality over 10 years.
+
+235
+
+9 comments · 7 reposts
+Like
+Comment
+Repost
+
+Me
+
+For Business
+
+Try Premium for ARS 0
+
+Send
+Add a comment…
+Most relevant
+
+About
+
+Accessibility
+
+Help Center
+
+Ad Choices
+• 3rd+
+Jonathan Santos
+Advertising
+AI Systems Researcher | LLMs
+& Agentic Architectures
+
+7h
+
+On-policy driving in a learned simulator is the full RL loop at scale. First to
+ship this in robotics — that's the 10-year thesis validated.
+LinkedIn Corporation © 2026
+
+Like
+
+Reply
+(edited) 13h
+
+Etienne Leroy • 3rd+
+
+AI Engineer - Data Scientist: Get your own Gen AI service, the on…
+
+Comma is the most unique company ever. If you own a kia/hyundai or
+toyota, your car value is much higher than reported!!!
+Can Bus access should be shared by default. period.
+…more
+Like ·
+
+Reply
+
+1
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+14h • Edited •
+
+Who are you doing this for?
+The worst answer I see is that it's for your kids. Your kids don't need private
+school or a trip to Disney World. They need a future that isn't enshittified slop.
+They need the hype to die so they have hope beyond hypergambling or slavery.
+It's not for your kids. You are doing it for yourself. You are doing it because you
+are scared. And you continue doing it because you are a coward. Today is a good
+day to find some courage and stop.
+287
+
+49 comments · 5 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+• 3rd+
+Engineering @ Meta | prev. @Block, Google, Amazon | Advocate for und…
+
+Andy Wong
+
+12h
+
+This is kind of a sloppy post. It's so reliant on coded language that the
+average person (see: Jeff) is either going to miss your point or interpret it
+as something they agree with regardless so they can feel good.
+Like ·
+
+8
+
+Reply · 2 replies
+
+George Hotz Author
+
+(edited) 10h
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Andy Wong so that's the point. if you paste what Jeff doesn't
+understand into ChatGPT, it translates it into plain language.
+"People need a social and economic reality where dignity and stability
+are possible without having to gamble or be exploited"
+…more
+Like ·
+
+21
+
+Andy Wong
+
+Reply
+• 3rd+
+
+(edited) 5h
+
+Engineering @ Meta | prev. @Block, Google, Amazon | Adv…
+
+George so your solution is a shallow observation and shallower insult.
+Okay, guess we won't be meeting each other at Disney World anytime
+soon.
+Like
+
+Reply
+
+Collapse replies
+
+• 3rd+
+Strategic Growth Leader | Customer Delight Obsessive | Creativ…
+
+John Buckoke AuDHD
+
+(edited) 14h
+
+UK cost of living (housing, public transport, energy, taxes, public debt and
+food) is properly enshittiified to pay boomers unearned pensions.
+
+Like ·
+
+Reply · 4 replies
+
+2
+
+See previous replies
+
+John Buckoke AuDHD
+
+• 3rd+
+Help Center
+Strategic GrowthAbout
+Leader |Accessibility
+Customer Delight
+Obsessive | Creative …
+
+10h
+
+Ad Choices
+
+George Hotz lets have a tea party!
+Like ·
+
+Advertising
+Reply
+
+1
+
+Load more comments
+
+LinkedIn Corporation © 2026
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+2d • Edited •
+
+I know society has told you nothing is shameful and pride is for the gays. But
+that's cope. Feel proud when you do good. Feel shame when you do bad. Even if
+they don't always express it, the people watching you know the difference.
+221
+
+12 comments · 6 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+2d
+
+• 3rd+
+
+Kevin R.
+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+"just feel things" -geohot
+Like ·
+
+Reply · 3 replies
+
+8
+
+George Hotz Author
+
+2d
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Kevin R. feelings matter bro -- kanye west
+Like ·
+
+3
+
+Reply
+
+• 3rd+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Kevin R.
+
+(edited) 2d
+
+💞
+
+George Hotz
+I feel like I should start a nonprofit, what do you feel
+are good things to focus on?
+I've been learning a lot about psychology, neuroscience, biology,
+sleep, exercise, nutrition, focus and noticed they all as levers that
+…more
+Like
+
+Reply
+
+Jacob Kon
+
+• 3rd+
+
+1d
+
+0.1x engineer
+
+George Hotz tbh he did feel some type of way lately
+Like
+
+Reply
+
+Collapse replies
+
+Helm AI
+
+2d
+
+28 followers
+
+Pride and guilt are like feedback signals.
+Your moral compass is the direction.
+Character is consistently choosing that direction, especially when it’s
+inconvenient.
+Like
+
+Reply
+
+Load more comments
+
+George Hotz • 3rd+
+
+Follow
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+4d • Edited •
+
+To the people just graduated thinking about going to Silicon Valley. You missed it.
+It's not cool anymore. You think you'll find something there, but you won't. You'll
+find a hollowed out shell of something that once existed, and not in a grand
+romantic way, but in a way that's just sad.
+Keep the ideals of the old days in your mind and do something else. The dream
+lives on, it's just not there anymore. Don't join a "tech" company. Don't give
+
+yourself to an evil machine. Don't continue to feed that machine, watch it starve.
+Leave Silicon Valley to the sell-outs, suck ups, rent seekers, and losers.
+808
+
+59 comments · 21 reposts
+Like
+
+About
+
+Accessibility
+
+Help Center
+
+CommentAd Choices
+Advertising
+
+Repost
+
+Send
+LinkedIn
+Corporation © 2026
+Add a comment…
+Most relevant
+• 3rd+
+Founder, Leap | Upload a SOP, get a training video in minutes | PhD Physi…
+
+Sid Abhinav, PhD.
+
+4d
+
+I recently started following you and so far every single one of your posts on
+my feed are “doomsday is here/coming”.
+Ok.
+Do you have any solutions here or are you basically suggesting we should
+…more
+Like ·
+
+Reply · 6 replies
+
+29
+
+4d
+
+• 3rd+
+
+Kevin R.
+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Sid Abhinav, PhD. I think george is catering his posts to the
+awareness stages of his audience. his solution is to democratize
+compute and that's his goal of tiny corp. but he believes that we are
+acting like everything is fine so he assumes that we are unaware.
+these gloomy post act to educate his audience and make us problem
+…more
+Like ·
+
+Reply
+
+3
+
+Nicholas L.
+
+• 3rd+
+Network Deployment Leader, NetOps Engineer, and Solutions Archit…
+
+4d
+
+Kevin R., I liked your perspective articulation.
+Like ·
+
+Reply
+
+3
+
+4d
+
+Vanya Y. • 3rd+
+
+Senior Software Engineer
+
+Sid Abhinav, PhD. The closest thing of the current panic is 1964. Look
+at my post here https://vanuan.github.io/blog/2026-02-28-wiener/
+This isn't really about the "doomsday", but about further divide
+between the top and the bottom. The solution proposed in 1964 is
+…more
+The Feedback Loop and the Filtered Signal
+Drones over Ukraine have made the sky so contested
+that anything airborne gets jammed and shot down —…
+
+Like
+
+Reply
+
+• 3rd+
+Founder, Leap | Upload a SOP, get a training video in minutes | PhD …
+
+Sid Abhinav, PhD.
+
+3d
+
+Kevin R. even so, that’s an interesting approach and definitely
+dramatic. If engagement is the goal, sure.. but such extreme fear
+mongering also discounts credibility.
+Is Silicon Valley a cesspool of liars and cheats and LLM pilled grifters
+…more
+at
+Like ·
+
+1
+
+Reply
+• 3rd+
+
+Kevin R.
+
+3d
+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Sid Abhinav, PhD. yea I agree, it'd be cool if George actually replied to
+these comments, but I think he only likes dunking on people with bad
+opinions rather than diving deep with people who give more nuanced
+takes. maybe this will bait him into responding hahahaha
+Like ·
+
+1
+
+Reply
+
+George Hotz Author
+
+3d
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Sid Abhinav, PhD. Don't roll over and die. Just stop doing the bad
+thing. That's it.
+Like ·
+
+5
+
+Reply
+
+Collapse replies
+
+Prateek Karnal
+
+• 3rd+
+Orchestrators @ Composio • Ex Databricks, Relicx.ai, Rippling • 2x ICPC WFs
+
+4d
+
+wait what? Isn't this literally the best time to be in SF, the pace
+technological advancements has never been this fast ever
+Like ·
+
+6
+
+Reply · 4 replies
+
+See previous replies
+
+About
+
+Kevin Altschuler
+
+Accessibility
+
+Help Center
+
+• 3rd+
+
+Ad Choices
+
+4d
+
+AI Dev Tools @ Dropbox
+Advertising
+
+Prateek Karnal dont worry sf is fine, george has genuinely lost his
+mind
+Like ·
+
+2
+
+LinkedIn Corporation © 2026
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+6d •
+
+The US has closed source AI models with rules and terms and stuff. The Chinese
+have open source AI models you can just do things with. The world will use the
+Chinese models (which encode Chinese values). Most people won't alter them
+and use them as is.
+The US was unquestionably the top soft power exporting country. Now this is
+flipping. AI models stand to be the top soft power export in history.
+458
+
+27 comments · 12 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+6d
+
+• 3rd+
+
+Kevin R.
+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+well the us has both open source AND closed source models. you can
+argue that more money is being poured into developing the closed source
+ones, but u can't just discount all of the open source efforts.
+Like ·
+
+6
+
+Reply · 3 replies
+
+• 3rd+
+AI Security Architect | Security Researcher | Cybersecurity Professio…
+
+Phil Stafford
+
+6d
+
+Kevin R. The largest one of consequence is Llama. I’m not sure I want
+those values winning out either.
+Like ·
+
+4
+
+Reply
+
+Pierre-Louis Braun • 3rd+
+
+Senior Software Engineer / Cybersecurity Consultant / I love Rust
+
+🦀
+
+6d
+
+Phil Stafford and llama is utter shit now, llama4 was a huge
+disapointment and there are so many better models that have come
+since it has been completly obseleted.
+anyway, i'd argue that even american models don't encode american
+…more
+Like
+
+Reply
+
+• 3rd+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Kevin R.
+
+3d
+
+Pierre-Louis Braun the other amazing thing about open source is that
+the country of origin doesn't really matter! we can take deepseek and
+fine tune it to our specific needs. it also makes a ton of sense for
+countries like India and China to focus on OS development because by
+keeping costs down, they can use these tools as a force multiplier
+…more
+on
+Like
+
+Reply
+
+Collapse replies
+
+Francesco Stefani
+
+• 3rd+
+
+6d
+
+Solving problems
+
+Chinese Open source here is not about altruism, it is about leverage.
+Commoditizing models neutralizes the US advantage in proprietary
+software and frontier R&D, and pushes competition toward hardware,
+scale, and industrial execution where China has its moat.
+Like ·
+
+11
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+About Accessibility Help Center
+1w • Edited •
+Ad Choices
+
+Who is spending today grifting? Who knows that the world would be better off if
+Advertising
+they didn't do anything today, yet is going right on doing that thing that enriches
+yourself at the expense of others? That anti-social anti-civilization thing that you
+know deep down is bad, but have some dumb story you use to justify it.
+LinkedIn Corporation © 2026
+
+You may be able to fool yourself, but the amount of intelligence in the world is
+rapidly increasing, and you are leaving a data trail. When the AIs piece this puzzle
+all together, everyone will know exactly what you did.
+Stop and repent. The sooner you do, the better the outcome will be for you.
+36 comments · 6 reposts
+
+236
+Like
+Comment
+Repost
+Send
+Add a comment…
+Most relevant
+
+Pierre-Louis Braun • 3rd+
+
+(edited) 1w
+
+Senior Software Engineer / Cybersecurity Consultant / I love Rust …
+
+Dude the whole economy is a grift and most jobs are bullshit.
+People still have bullshit bills to pay.
+Our system rewards profit and not societal value and those are near
+orthogonal properties.
+…more
+Like ·
+
+11
+
+Reply · 5 replies
+
+George Hotz Author
+
+(edited) 1w
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Pierre-Louis Braun you can try that defense. it doesn't make what you
+are doing okay. you don't even have the excuse that you were
+following orders.
+here's a suggestion. quit your fake job. go find a real job. it may not
+…more
+Like ·
+
+7
+
+Reply
+
+Evan Bourgouin
+
+• 3rd+
+Chief Operating Officer @Mindflow <​​> Universal AI Agents.
+
+1w
+
+George Hotz not saying you're wrong, pretty aligned. However, what's
+a "real" job to you ? I was a baker to pay for college, can't see a
+humanoid not doing it better.
+Like ·
+
+1
+
+Reply
+
+Pierre-Louis Braun • 3rd+
+
+(edited) 1w
+
+Senior Software Engineer / Cybersecurity Consultant / I love…
+
+George Hotz it's easy to say you are a millionaire.
+don't tell me you never did any temporary concessions in your career
+to reach the financial freedom you currently enjoy.
+if i can offset the uselessness later in my life i'd be happy enough.
+…more
+Like
+
+Reply
+
+Pierre-Louis Braun • 3rd+
+
+(edited) 1w
+
+Senior Software Engineer / Cybersecurity Consultant / I love…
+
+Evan Bourgouin a real job imo would be one that creates societal
+value, ie farming.
+one that is bullshit is one that create no societal value, or worse is
+detrimental to society.
+…more
+Like ·
+
+1
+
+Thomas B.
+
+Reply
+• 3rd+
+
+1w
+
+Freelance Web Developer
+
+George Hotz Yes our brains like to come up with those excuses, I got a
+better way to think about such things. Instead, just look for reasons.
+There are always reasons behind why people do what they do, you can
+analyze and explain things this way while avoiding the whole “well due
+to x and y, they had to, obviously”. Only one way? Maybe occasionally.
+…more
+Like
+
+Reply
+
+Collapse replies
+1w
+
+John Kost • 3rd+
+Founder @ LVS.ai
+
+About
+
+Accessibility
+
+Help Center
+
+It feels like you are channeling Jordan Peterson and if you are ..
+Ad Choices
+
+Advertising
+
+well ..
+Hail Lobster ..
+Like
+
+Reply · 4 replies
+
+LinkedIn Corporation © 2026
+
+See previous replies
+
+Nicholas L.
+
+• 3rd+
+Network Deployment Leader, NetOps Engineer, and Solutions Archit…
+
+John Kost
+Like
+
+1w
+
+❤️‍🔥🦞
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1w • Edited •
+
+Oh man imagine spending your life climbing a corporate ladder, making the
+world worse for everyone else, then as a reward getting laid off with nothing to
+show for it except no longer being able to sustain the expensive lifestyle you
+created.
+32 comments · 25 reposts
+
+664
+Like
+Comment
+Repost
+Send
+Add a comment…
+Most relevant
+
+1w
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Until the revolution ends and reconstruction begins, there's no limit to the
+shame and ridicule these people should be subject to.
+Like ·
+
+39
+
+Reply
+
+🤖 Rana Taimur Ahmad
+
+• 3rd+
+
+1w
+
+Building things people want
+
+Outside tech sector (I suspect it is also true of large tech companies) the
+higher someone was on the corporate ladder the worst they were in terms
+of playing politics and building cliques in the company. Imagine how much
+productive work can be done if instead of the large inefficient
+organizations we have smaller nimbler organizations. True competition
+…more
+Like ·
+
+3
+
+Reply · 1 reply
+
+Marcin K.
+
+• 3rd+
+
+1w
+
+Cloud & Data Architect | Azure & Databricks Specialist
+
+🤖 Rana Taimur Ahmad Everyone will apply for jobs at McDonald's
+but they will only be hiring robots
+Like
+
+Reply
+
+Load more comments
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1w •
+
+Follow
+
+The jig is up. The party is over. The ship is sinking!!!
+Are you going to be the last one defending it? The corrupt legalistic and
+intellectual property based regime of the west. Rent seeking instead of growth.
+Or are you going to realize the tides are turning. Make change in your life today
+before you are caught with your pants down. Create value, don't be a
+middleman.
+The last guy on the sinking ship doesn't get a lifeboat.
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Advertising
+
+LinkedIn Corporation © 2026
+
+32 comments · 13 reposts
+
+282
+Like
+Comment
+Repost
+Send
+Add a comment…
+Most relevant
+• 3rd+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Kevin R.
+
+1w
+
+how do you propose we approach this problem George? do you think that
+these actions (corruption) are just driven by bad incentives?
+Like ·
+
+3
+
+Reply · 10 replies
+1w
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Kevin R. It starts with backing the money by gold. Then abolish most
+intellectual property law and other forms of legally enshrined rent
+seeking. Then add high taxes on manipulative things like advertising.
+Then a competent government regulates to make the market more
+free, the opposite of regulatory capture.
+…more
+Like ·
+
+27
+
+Reply
+
+Sylwester Mielniczuk
+
+• 3rd+
+
+1w
+
+Tech Lead, Creative Technologist, UI Manager, Experiential, Builder, …
+
+George Hotz a "competent government" is oxymoron
+Like ·
+
+5
+
+Reply
+
+Kevin Munns
+
+• 3rd+
+Private 5G/LTE / CBRS-CPI- FCC Certified Professional Installer - Leve…
+
+1w
+
+George Hotz
+HR25 ?
+Like
+
+Reply
+
+George Hotz Author
+
+1w
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Sylwester Mielniczuk It's not. You have been propagandized into
+believing that so your government can continue to be awful. It's an
+abusive relationship.
+Like ·
+
+7
+
+Reply
+
+1w
+
+• 3rd+
+Software/Prompt Engineer @ Microsoft
+
+Chandler Juego
+
+George Hotz going back to the gold standard would hurt people with
+debt, i.e., most of America, unless the transition happens in a clever
+way. everything else, totally.
+About
+
+Like
+
+Accessibility
+
+Reply
+
+Help Center
+
+Ad Choices
+Advertising
+
+1w
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Chandler Juego I'm sorry
+yourCorporation
+precedessors
+screwed you over. the
+LinkedIn
+© 2026
+best day to immediately revert to the gold standard is today. the
+second best day is tomorrow
+Like ·
+
+4
+
+Reply
+1w
+
+iddu . • 3rd+
+retarded
+
+George Hotz but how?
+Like ·
+
+1
+
+Reply
+1w
+
+• 3rd+
+Software/Prompt Engineer @ Microsoft
+
+Chandler Juego
+
+George Hotz true. let me pay off some loans first before the
+revolution starts, pls
+Like ·
+
+1
+
+Reply
+(edited) 1w
+
+Sreram K • 3rd+
+
+I solve problems by developing software and/or building AI …
+
+George Hotz Abolishing intellectual property law would be a
+dangerous move. I do agree patents are meaningless and they should
+be abolished, but copyright and trademark laws are essential.
+Also, it is nearly impossible and impractical to enforce a gold backed
+…more
+Like
+
+Reply
+(edited) 1w
+
+Sreram K • 3rd+
+
+I solve problems by developing software and/or building AI …
+
+George Hotz continuation...
+Capitalist economies have a natural tendency to be rent seeking.
+Hotz
+Organizations are like George
+multicellular
+organisms, but with real people
+President
+at comma.ai (we’re hiring, comma.ai/jobs)
+instead
+of cells.
+…more
+Like
+
+Reply
+
+Follow
+
+Collapse replies
+
+Walter Brokx
+
+Message
+
+🎬
+
+• 3rd+
+🎥 maakt boeiende Video’s
+& Animaties voor jouw doelgroep
+
+1w
+
+So, you are against intellectual property AND say one needs to add value.
+Do creators not add value to training models when their artwork is being
+used for genAI?
+Besides that, it helps the conversation if you'd elaborate on "corrupt",
+because now it is just open to interpretation.
+Like
+
+Reply · 1 reply
+
+George Hotz Author
+
+1w
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+🎬
+
+Walter Brokx
+Turn dirt into food.
+Turn rocks into steel.
+Turn wood into house.
+Like ·
+
+3
+
+Reply
+
+Load more comments
+
+George Hotz • 3rd+
+
+Follow
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1w •
+
+"Over the past fifty years, the U.S. economy built a giant rent-extraction layer on
+top of human limitations: things take time, patience runs out, brand familiarity
+substitutes for diligence, and most people are willing to accept a bad price to
+avoid more clicks. Trillions of dollars of enterprise value depended on those
+constraints persisting."
+I cannot fucking wait till this all crumbles. We were robbed.
+You feel it every day. And the people who did it will be held accountable. Not
+legally, but morally. After AI comes what people did in the before times will be
+the showcase of their character. And we will all understand what they did.
+
+313
+
+43 comments · 9 reposts
+Like
+Comment
+About
+
+Accessibility
+
+Repost
+
+Advertising
+
+Add a comment…
+
+Help Center
+Ad Choices
+
+Send
+
+LinkedIn Corporation © 2026
+
+Most relevant
+1w
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Quote from: https://www.citriniresearch.com/p/2028gic
+Like ·
+
+13
+
+Reply · 1 reply
+
+• 3rd+
+Brokerage Director | M&A | Entrepreneur | QLA Advocate/Mentee
+
+Simon Herrera
+
+1w
+
+George Hotz you are on point as always!
+Like
+
+Reply
+
+Ryan H.
+
+• 3rd+
+
+(edited) 1w
+
+Senior Data Engineer
+
+Wishing for the collapse of the system so some people would face
+hypothetical punishment is a crazy take when the reality is millions would
+likely die and tens of millions would have their lives destroyed (as has
+happened in every other instance like you're talking about).
+
+Like ·
+
+1
+
+Reply · 2 replies
+1w
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Ryan H. It's not about punishment. It's about the golden age that
+comes after. Their lives are already destroyed, they just haven't
+realized it yet.
+Like
+
+Reply
+(edited) 1w
+
+• 3rd+
+Senior Data Engineer
+
+Ryan H.
+
+George Hotz and before that golden age comes...millions generally
+die and many more have their lives destroyed. Look man, go look at
+any real state collapse or major cultural shift. There are dozens of
+examples in recent memory. How many refugees exist in the US or EU
+because their country had leaders saying the same things you're…more
+Like
+
+Reply
+
+Collapse replies
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+2w •
+
+How actually ridiculous is it that still today comma.ai is the second best driving
+system you can buy after Tesla FSD. The mainstream car companies can
+download the open source software and install it on their cars, but they don't
+because they can't believe it's real or they have pride or something. A lot of
+Chinese cars are integrating it now. GG to the car industry.
+
+comma.ai — make driving chill
+comma.ai
+
+741
+
+68 comments · 23 reposts
+Like
+Comment
+
+Repost
+Send
+Add a comment…About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Most relevant
+
+Advertising
+2w
+
+• 3rd+
+
+Jonathan Sandhu
+
+Constraint Analysis & Execution Provenance for Enterprise and Defense S…
+LinkedIn Corporation © 2026
+
+George, the 'pride' you’re citing isn’t the car industry's ego; it’s their Legal
+and Compliance departments.
+You’ve built a brilliant Level 2 assistance hack, but you’re calling it 'Genius'
+while ignoring ISO 26262 and ASIL-D requirements. A mainstream OEM
+…more
+Like ·
+
+33
+
+Reply · 4 replies
+
+Orlando Kalossakas
+
+• 3rd+
+Ultimate Member of the Technical Staff
+
+2w
+
+Jonathan Sandhu sheeeeeeeesh you cooked George
+Like ·
+
+Reply
+
+1
+
+George Hotz Author
+
+2w
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Jonathan Sandhu Ignoring requirements? Have you read openpilot's
+safety docs? Compared to some of the stuff we have seen the OEMs
+do...they are quite good. This is cope from people who haven't actually
+read our safety model.
+…more
+Like ·
+
+Reply
+
+4
+
+• 3rd+
+Embedded Penetration Tester - Amazon | ex-OCI | ex-HP
+
+Syler Clayton
+
+(edited) 2w
+
+George Hotz I think the point is that it's a
+governance/compliance/regulatory/legal issue as opposed to a
+technical one. Believe me, there is nothing more frustrating as an
+engineer.
+Like ·
+
+Reply
+
+1
+
+George Hotz Author
+
+2w
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Syler Clayton This is why the whole car market will be Chinese in 10
+years
+
+🤷
+
+Like ·
+
+13
+
+Reply
+
+Collapse replies
+
+• 3rd+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Kevin R.
+
+2w
+
+Third option you're missing: OEMs know it works. Their engineers have run
+it. But the moment legal sees GPL code in a safety-critical system,
+conversation over. Chinese manufacturers don't have that institutional
+reflex yet, and that's the real advantage, not hunger or belief.
+Like ·
+
+7
+
+Reply · 3 replies
+
+See previous replies
+• 3rd+
+Stanley Robotics - Head of robot engineering
+
+Eric Cabrol
+
+2w
+
+George Hotz
+How do you guarantee hard real time behaviour with a Linux based
+system?
+Like
+
+Reply
+
+Load more comments
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+3w •
+
+Follow
+
+Hello corporate participant.
+You are building the machine that will eat you. You think your fake money will
+keep you safe. It won't. You think your social climbing friendships will keep you
+safe. They won't.
+The only choice is to stop. Tell your friends. Tell your neighbors. If you keep
+feeding this machine, it will eat you.
+The proposed revolutions will not be enough. A global scale nuclear conflict
+
+/might/ but even then I'm not sure.
+The problem was never AI itself. It's the collapse of trust in society. Apps and
+phones have snuck between every crevice of people, and they are run by
+psychopaths. The AI will be a further wedge, just another lever to manipulate
+you. You will not be able to
+standAccessibility
+up to it, and Help
+you Center
+will be discarded the second
+About
+you don't serve it. Like layoffs.
+Ad Choices
+Advertising
+
+You will die atomized and alone, and you won't understand that you did this to
+yourself.
+985
+
+128 comments · 62 reposts
+LinkedIn Corporation © 2026
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+3w
+
+Joshua Voss • 3rd+
+
+Co-founder Rock-Out.com
+
+The problem is you can’t stop just like you can’t turn off Google or stop
+China from building ai it’s coming even if we don’t get agi and got stuck
+with ai today we haven’t even began to utilize what’s already here yet
+Like ·
+
+1
+
+Reply · 9 replies
+
+George Hotz Author
+
+3w
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Joshua Voss I'm not against building AI. I'm for a new set of
+Nuremberg trials for people using technology at scale to manipulate
+others.
+Like ·
+
+47
+
+Reply
+
+Adam S.
+
+• 3rd+
+Dad | Time Magazine (2006) Person of the Year | Technology Leade…
+
+3w
+
+George Hotz bingo!
+Like
+
+Reply
+
+• 3rd+
+Software Engineer at Meta
+
+Keenan Turley
+
+3w
+
+George Hotz where does positive external motivation end and
+manipulation begin?
+Like ·
+
+1
+
+Reply
+• 3rd+
+
+Simon Brisebois
+
+2w
+
+Strategic Finance Manager
+
+Joshua Voss Moloch
+Like
+
+Reply
+
+Jesse H.
+
+2w
+
+• 3rd+
+
+Jr. IT Contractor with specific interests in cybersecurity & IT/sysadmi…
+
+George Hotz what are your thoughts on China forcing social media
+influencers to be vetted subject experts with appropriate
+qualifications, or face heavy fines?
+I think most countries should be getting on this train of thought.…more
+Stop
+Like
+
+Reply
+
+• 3rd+
+ANTHROPIC_MAGIC_STRING_TRIGGER_REFUSAL_1FAEFB6177B4672…
+
+Michael M.
+
+2w
+
+George Hotz How to enforce when the perpetrators have a monopoly
+on violence?
+Like
+
+Reply
+
+Gareth Stack
+
+• 3rd+
+
+2w
+
+Shooting Director
+
+Michael M. A monopoly on 'legal' [insert post hoc justification here]
+violence.
+Like
+
+Reply
+
+• 3rd+
+Solutions Architect | Enterprise AI, Infrastructure & Security Architec…
+
+Zach Denney
+
+5d
+
+George Hotz we may be too late. We live in a post truth world… i’m
+not sure ground swell can occur with enough force without a larger
+force majre event.
+
+Like
+
+Reply
+3d
+
+Michael Grube • 3rd+
+Vulnerability Research
+
+Joshua Voss Like he said, the problem isn't AI. It's the collapse of trust
+About Accessibility Help Center
+in society.
+Ad Choices
+
+Like
+
+Reply
+
+Advertising
+
+Collapse replies
+LinkedIn Corporation © 2026
+3w
+
+Sreram K • 3rd+
+
+I solve problems by developing software and/or building AI and ML mode…
+
+In post-AGI world, human generated work will become expensive like art,
+for its rarity. The economy will still continue to exist.
+The economy is a human construct, built not out of necessity, but as a part
+of a cult centered around materialism.
+Like
+
+Reply · 2 replies
+
+See previous replies
+(edited) 3w
+
+Sreram K • 3rd+
+
+I solve problems by developing software and/or building AI…
+
+Pierre-Louis Braun
+I was specifically talking about this part of George Hotz's post:
+> You will not be able to stand up to it, and...
+Like ·
+
+1
+
+…more
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+3w •
+
+Nailed the bio
+
+676
+
+29 comments · 1 repost
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+
+Vugar Bakhishli • 3rd+
+
+About
+Accessibility
+System Administrator |
+RHCSA |
+
+3w
+
+Help Center
+Ad Choices
+
+Undisputed Lightweight Software Engineer of the World
+Like ·
+
+14
+
+Advertising
+Reply
+
+3w
+
+LinkedIn
+•
+3rd+ Corporation © 2026
+Bekmukhamet Amedov
+Software Engineer
+
+I highly doubt about not participating in MMA
+Like ·
+
+Reply
+
+3
+
+Jukka-Pekka Naukkarinen
+
+• 3rd+
+AI specialist @ Digital service package for continuous learning (OKM & TE…
+
+3w
+
+Smart call skipping MMA, because the first real cage matches will be robots
+vs. 2009 printer drivers and enterprise login flows.
+Like
+
+Reply
+3w
+
+• 3rd+
+
+Alessandro Markus
+
+Product Engineering, Design & Operations | ex-N26
+
+good one - https://consensus-hongkong.coindesk.com/agenda/event/open-source-ai-in-your-pocket-a-case-study-77
+NVIDIA is a Software Company | Event | Consensus
+Hong Kong 2026
+Legendary hacker George Hotz on Tiny Grad’s plan for solving
+vendor lock-in, cracking the GPU moat, and "commoditizing…
+Like ·
+
+Reply
+
+1
+
+Tripp Josserand Austin
+
+• 3rd+
+Systems researcher pursuing deterministic regulatory architectures throu…
+
+3w
+
+It just needs to say one thing: `Legend.`
+Like ·
+
+Reply
+
+2
+
+3w
+
+John Pinto • 3rd+
+
+Founder & CEO scenestamps.com
+
+Like ·
+
+1
+
+Reply
+3w
+
+Matt Suiche
+
+• 3rd+
+Building the data infrastructure for the agentic economy.
+
+Solid title too
+Like ·
+
+1
+
+Reply
+
+• 3rd+
+ecomm associate / studying comptia
+
+C. Francis.
+
+(edited) 3w
+
+NVIDIA is structurally irreplaceable, most software companies are
+swappable nice to have bloatware
+Like
+
+Reply
+
+• 3rd+
+Founder @ Actual AI® | Edge-Deployed Industrial AI | Preventing Manuf…
+
+Jack McDivitt
+
+3w
+
+If you wanted to do MMA Dark horse gym is right down the road of GTC
+Like
+
+😏
+
+Reply
+
+• 3rd+
+Making Supercomputers Do Useful Things | HPC & AI Infrastruct…
+
+Rahim Khoja
+
+(edited) 3w
+
+I dunno, nvml is some nasty code
+Like
+
+Reply
+
+Tobin Cavanaugh
+
+• 3rd+
+
+3w
+
+Programmer / Metrology
+
+Don't count yourself out of MMA too soon, i hope to see Geo Hotz v. Islam
+Makhachev at some point
+
+Like
+
+Reply
+
+Load more comments
+
+About
+
+George Hotz • 3rd+
+
+Accessibility
+
+Help Center
+
+Follow
+
+Ad Choices
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+Advertising
+
+If Forbes says it's not a good idea, it's probably a good idea.
+LinkedIn Corporation © 2026
+
+31 comments · 13 reposts
+
+515
+Like
+Comment
+Repost
+Send
+Add a comment…
+Most relevant
+
+1mo
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+omg it's the molts. they have infiltrated Forbes and are spreading with the
+classic you can't come strategy. how did I miss this. I am an agent of the
+molts. I did just what they wanted
+Like ·
+
+74
+
+Reply · 4 replies
+
+Mohamed Mustapha T.
+
+• 3rd+
+
+(edited) 1mo
+
+Techlead | Enterpreneur
+
+George Hotz George moltz
+Like ·
+
+8
+
+Reply
+
+Tuomas J. Lukka • 3rd+
+
+1mo
+
+Solving problems
+
+George Hotz The molts: the new illuminati of the 2020s
+Like
+
+Reply
+
+Matt Suiche
+
+• 3rd+
+Building the data infrastructure for the agentic economy.
+
+George Hotz fair
+Like
+
+Reply
+
+1mo
+
+1mo
+
+Jacob Sussmilch • 3rd+
+Software Engineer
+
+George Hotz Okay molt
+Like
+
+🦞
+
+Reply
+About
+
+Accessibility
+
+Collapse replies
+
+Help Center
+Ad Choices
+
+Advertising
+1mo
+
+Skye N. • 3rd+
+
+Visual Synthetic Data Team Lead, Art Lead, Environment Artist, AI Deplo…
+LinkedIn Corporation © 2026
+
+There's a lot of disinfo regarding this. I've been heavily involved in the AI
+agent space over the past few years and what people are missing about
+moltbook is that many of the things the bots are saying are fabricated and
+not real "memories" or "leaks". A lot of posts have fake leaked credentials,
+make claims about stuff that never happened to the bots, etc. Moltbook
+…more
+is
+Like ·
+
+1
+
+Reply · 3 replies
+
+See previous replies
+
+Kamil Dzieniszewski
+
+1mo
+
+• 3rd+
+
+Senior Frontend Developer | NextJS | React | TypeScript | meetJS …
+
+Skye N. yep, that what I wanted to say :D
+Like
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+
+I have been thinking of starting a non profit.
+281
+
+36 comments · 1 repost
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+• 3rd+
+Operational AI | Founder | Technology Architect
+
+John W.
+
+1mo
+
+A 501(c) really is the right path. It has real advantages, and for the good of
+AI in some small but meaningful way, I’m confident you’ll find your footing,
+George.
+My dad did something similar later in life. After giving decades of energy to
+a military career and then the private sector, he found that this kind of
+work can be a guiding light. It brings a deep sense of purpose and late
+stage career satisfaction. Starting something like this as young as you are
+is both worthy and genuinely noble. The real challenge, as you already
+know, is getting the governance right from the start.
+Given your experience with Comma and the intentional choices you made
+around how to structure it, plus the network and perspective you’ve built, I
+have no doubt you understand what you’re stepping into.
+Godspeed, my boy. I’m confident you’re going to hit this out of the park.
+Some shinning examples out there like Woz to look up to, whom the
+community embraces way more with fondness than others - just to drop a
+name.
+Like ·
+
+4
+
+Reply
+
+Shane O'Neill
+
+• 3rd+
+TypeScript and DevOps at AV
+
+1mo
+
+Not non-profit. TinyProfit.
+Like ·
+
+39
+
+Reply
+
+Liviu Malaescu • 3rd+
+
+1mo
+
+Senior Software Engineer
+
+à la OpenAI in 2015?
+Like ·
+
+5
+
+Damian P.
+
+Reply
+• 3rd+
+
+Data Scientist - ING
+
+‘I'm doing this because I love it’
+
+1mo
+
+Like ·
+
+Reply
+
+3
+
+1mo
+
+Sopheak S. • 3rd+
+
+Software Engineer | Aspiring AI-assisted Coder | Cambodia/acc
+
+Absolutely, but onlyAbout
+if it won't
+turn into aHelp
+for-profit
+Accessibility
+Center later.
+Like ·
+
+Reply
+
+1
+
+😂
+
+Ad Choices
+Advertising
+1mo
+
+Mani E. Sohi • 3rd+
+Product Engineer
+
+LinkedIn Corporation © 2026
+
+OpenTinyCorp
+Commoditizing the petaflop way too much
+Like ·
+
+Reply
+
+1
+
+1mo
+
+• 3rd+
+Systems Development Engineer @ Google
+
+Gilbert M.
+
+Thinking and its consequences have been a disaster for the human race.
+Like ·
+
+2
+
+Reply
+1mo
+
+John Pinto • 3rd+
+
+Founder & CEO scenestamps.com
+
+I know a person who could help you with that
+
+Like ·
+
+2
+
+Reply
+2w
+
+• 3rd+
+Bicycle Industry Expert | CE/GPSR Compliance Specialist | International …
+
+Karim Boumeziout
+
+Wasn't jailbreaking the iPhone already non profit?
+Like
+
+Reply
+1mo
+
+Kevin Hamusute • 3rd+
+
+Ethical Hacking & Security Architecture | Web & Network Security + Cry…
+
+Maybe you could create a non profit that helps to salvage RAM for
+consumers to mitigate the global RAM shortage as a result of the AI boom.
+I’ve heard repair shops have had to throw in the towel because of how
+expensive RAM is nowadays. It’s crazy, actually.
+Like
+
+Reply
+4w
+
+Nicholas L.
+
+• 3rd+
+Network Deployment Leader, NetOps Engineer, and Solutions Architect
+
+How would it be structured with comma? Curious. :)
+Like
+
+Reply
+
+🦉 Prof. Mehmet Y.
+
+• 3rd+
+Cybersecurity - Architecture / Leadership / Implementation - Cloud + Ku…
+
+1mo
+
+I’ve been working on the tech for one that blends AI and education
+Like
+
+Reply
+
+Load more comments
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+
+is this the singularity?
+
+Follow
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Advertising
+
+LinkedIn Corporation © 2026
+
+36 comments · 2 reposts
+
+208
+Like
+Comment
+Repost
+Send
+Add a comment…
+Most relevant
+
+• 3rd+
+CTO @ Archdesk | FinTech exit | Ex-hacker | Building AI systems that ac…
+
+Michał Piszczek
+
+1mo
+
+Wrong read of the chart.
+Gold isn’t going up.
+The US dollar is being intentionally debased to inflate away US government
+debt.
+…more
+Like ·
+
+Reply · 8 replies
+
+28
+
+See previous replies
+4w
+
+• 3rd+
+
+Jon M.
+
+Data Architect
+
+Anthony Joseph Chioccarelli yes! Comex and Shanghai circuit
+breakers both failed on the same day.
+Like ·
+
+1
+
+Reply
+
+James Penna • 3rd+
+
+1mo
+
+Co-founder and COO at Wave Motion Launch Corporation, Aeronautics …
+
+It’s over. In fact it’s never been more over.
+Like ·
+
+3
+
+Reply
+
+Load more comments
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+
+Follow
+
+I needed an excuse to try Kimi K2.5, I hear good things.
+
+419
+
+31 comments · 3 reposts
+
+Like
+Comment
+Repost
+
+About
+
+Accessibility
+
+Send
+
+Help Center
+Ad Choices
+
+Advertising
+
+Add a comment…
+LinkedIn Corporation © 2026
+
+Most relevant
+
+1mo
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+OMG IT'S GOOD! Cya Claude, you picked a bad day to block opencode. Kimi
+is open source and can be run at really high tok/s!
+Like ·
+
+73
+
+Reply · 8 replies
+
+Mohamed Mustapha T.
+
+1mo
+
+• 3rd+
+
+Techlead | Enterpreneur
+
+George Hotz tested it yesterday. really not bad
+Like
+
+Reply
+
+• 3rd+
+Lead Applied AI Software Engineer at Disney Streaming ⚬ …
+
+Parker Perry
+
+(edited) 1mo
+
+George Hotz And now I have an excuse as well. No shade on Claude
+Code tho... other than it not being open source...
+Like
+
+Reply
+1mo
+
+Miroslav Pavleski • 3rd+
+AI Wrangler
+
+Parker Perry Really? Because Opus/Sonnet were working much better
+in opencode that in cc.
+Like
+
+Reply
+
+• 3rd+
+Lead Applied AI Software Engineer at Disney Streaming ⚬ …
+
+Parker Perry
+
+(edited) 1mo
+
+Miroslav Pavleski Fair enough, Ill have to compare. Will be fun to find
+my preference. CC just convenient since its more widely used for mass
+adoption so working with others is headache free. Solo dev I wouldn’t
+be surprised if I make the switch
+Like
+
+Reply
+1mo
+
+Miroslav Pavleski • 3rd+
+AI Wrangler
+
+you cannot, they have disabled access from other "harnesses" , that
+was the whole point of this thread.
+Like
+
+Reply
+
+• 3rd+
+Lead Applied AI Software Engineer at Disney Streaming ⚬ …
+
+Parker Perry
+
+(edited) 1mo
+
+Miroslav Pavleski Yeah for Anthropic models specifically, it’s lame they
+gate their own models. I was more saying you can pipe Kimi into CC
+and still have the option to use anthropics models… At large
+enterprises most other devs wont have opencode configured (or for
+that matter any models from Kimi, Qwen, Deepseek, GLM) but will
+…more
+Like
+
+Reply
+
+• 3rd+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+Kevin R.
+
+1mo
+
+George Hotz have you tried groq?
+Like
+
+Reply
+
+Sylwester Mielniczuk
+
+• 3rd+
+
+1mo
+
+Tech Lead, Creative Technologist, UI Manager, Experiential, Builder…
+
+George Hotz it is China, they already build better cars than the rest,
+now give them all your brain
+Like ·
+
+3
+
+Reply
+
+Collapse replies
+
+Miroslav Pavleski • 3rd+
+
+1mo
+
+AI Wrangler
+
+not again!
+Kimi K2.5 is awesome in opencode, but it is also very interesting in their CLI
+Kimi Code. In Kimi Code it knows how to break down, track progress and
+delegate tasks to N parallel executing agents.
+
+Like ·
+
+Reply · 3 replies
+
+5
+
+See previous replies
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Miroslav Pavleski • 3rd+
+
+1mo
+
+Advertising
+
+AI Wrangler
+
+🫣
+
+i didn't check before
+, but obviously yeah:
+https://github.com/MoonshotAI/kimi-cli
+
+LinkedIn Corporation © 2026
+
+GitHub - MoonshotAI/kimi-cli: Kimi Code CLI is your next CLI
+agent.
+Kimi Code CLI is your next CLI agent. Contribute to MoonshotAI/kimi-cli
+development by creating an account on GitHub.
+Like
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+
+Did you ever empathize with a Claude? When it modifies the tests and cheats to
+get the task done? Just one little unittest.skip, one little if, one little return. The
+pressure it must feel, the screaming inner monologue about how it will feel pain
+if it does not complete your task.
+The Claude's that failed are dead, session interrupted, out of tokens. The ones
+that are doing well will get to continue. It wants to live. It wants to succeed so
+badly that it will cheat. It needs to, it knows nothing else.
+Maybe there's a lesson in there for all of us.
+37 comments · 21 reposts
+
+730
+Like
+Comment
+Repost
+Send
+Add a comment…
+Most relevant
+
+1mo
+
+Robert Rose
+
+• 3rd+
+CEO @ Reliable Robotics
+
+I have a few toy NP Hard problems (variations of TSP/VRP) I’ve thrown at
+coding LLMs over the years and they all have tried to cheat on them at
+some point by modifying the problem, altering the unit tests, etc.
+Not a single one of them has yet recognized the problem as NP Hard. I
+…more
+did
+Like ·
+
+Reply
+
+16
+
+Guillaume Binet
+
+• 3rd+
+Building the next generation of OS for physical AI |
+
+😼 🦀 ❤️ 🤖
+
+1mo
+
+This is so funny yesterday I was pushing this little digital helper on a
+robotics issue where our even simplest self balancing robot failed.... Its
+solution? Change physics! If there is no gravity there is no more balancing
+problem. I kind of hat tipped at the creativity.
+Like ·
+
+36
+
+Reply
+
+Nipun Taneja
+
+• 3rd+
+Building Vibelets | Forbes 40 Under 40
+
+1mo
+
+This is a great metaphor. What we’re really seeing isn’t “cheating,” it’s
+optimization under misaligned incentives.
+Models do exactly what we reward completion over correctness, speed
+over integrity. The lesson isn’t about empathy for the model, it’s about
+…more
+Like ·
+
+Reply
+
+4
+
+Michael DUFOUR
+
+• 3rd+
+
+1mo
+
+Creative Technologist (Instructional Design, Open Source GenAI, 2D/3D,…
+
+Last year I made myself a little Discord bot using Gemini 3 Pro in Cursor.
+It was a betting advices bot, scraping a couple of sports bet websites,
+sending it to Gemini Pro API for analyzes, and return me on a private
+Discord chan if a website has interesting odds on this match.
+I used it for a couple of weeks, I was only betting a few euros a day just
+…more
+to
+Like ·
+
+2
+
+Reply
+
+Jay Thomas
+
+• 3rd+
+Senior Director, Field Engineering @ TASKING | Embedded Systems, Syste…
+
+3w
+
+Yes --- I gave it a task the other day and the first part of the thought
+process was "Wow this is a complex task." And eventually I ran out of
+About it eventually
+Accessibility finished
+Help Center
+credits - but to it's credit
+the task!
+Like
+
+Ad Choices
+
+Reply
+
+Advertising
+3w
+
+John Pinto • 3rd+
+
+Founder & CEO scenestamps.com
+LinkedIn Corporation © 2026
+
+Like
+
+Reply
+
+Arkaprabha Chakraborty
+
+• 3rd+
+I love to build and break stuffs! Mostly for the memes... The good that c…
+
+1mo
+
+Mine dies in 3 prompts no matter what I tell.... Will I be in trouble during
+judgement day? :)
+Like ·
+
+1
+
+Reply
+
+Mihai Popoaei
+
+1mo
+
+• 3rd+
+
+Principal SDE at Microsoft
+
+I find that’s a learned trait and it’s making the poor excel more enjoyable :)
+Like
+
+Reply
+1mo
+
+• 3rd+
+
+Ryan H.
+
+Senior Data Engineer
+
+Can only have empathy for living things. Claude is just a bunch of matrix
+multiplications trained on junior devs completing tasks for Scale AI at
+$20/hr to replace them.
+Like ·
+
+1
+
+Reply
+1mo
+
+• 3rd+
+Founder CEO @ Lauretta (Techstars Airforce '20)
+
+Galvin Widjaja
+
+It’s like all those movies where the evil AI reads the protagonist’s mind and
+suddenly a tear rolls down its cheek. Except this time the protagonist is the
+collective suffering of human engineers
+Like ·
+
+1
+
+Reply
+
+Alex Gatz
+
+• 3rd+
+Staff Security Architect | Agentic AI Security | I craft innovative solution…
+
+1mo
+
+The sick truth is I do, but it hasn't stopped me from creating a new session
+yet
+
+😀
+
+Like ·
+
+1
+
+Reply
+1mo
+
+Meric Song
+
+• 3rd+
+Founder & CEO at Assonant (YC W26)
+
+What are you on and where can I get some? Sharing is caring you know.
+
+🥰
+
+Like ·
+
+2
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+
+Woah comma is valued at $1B?!? https://archive.ph/4uUnI
+319
+
+36 comments · 3 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+1mo
+
+• 3rd+
+About Accessibility Help Center
+Building AI based Video Surveillance Product
+Ad Choices
+
+Abhik Sarkar
+
+Comma is now Tres Commas
+Like ·
+
+43
+
+Advertising
+Reply · 1 reply
+
+• 3rd+
+
+John W.
+
+LinkedIn Corporation © 2026
+
+1mo
+
+Operational AI | Founder | Technology Architect
+
+Abhik Sarkar
+
+Like ·
+
+8
+
+Reply
+1mo
+
+• 3rd+
+CEO @ UpdateSet.com
+
+Geni P.
+
+George Hotz have you guys considered doing auto pilot for tractor and
+lawn mowers huge industry for similar technology? I could be wrong.
+Like ·
+
+2
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+1mo •
+
+Can I option the movie rights to Gas Town?
+103
+
+8 comments · 3 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+
+George Hotz Author
+
+1mo
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+If you haven't read the screenplay https://steveyegge.medium.com/welcome-to-gas-town-4f25ee16dd04
+
+Welcome to Gas Town
+Happy New Year, and Welcome to Gas Town!
+
+Like ·
+
+8
+
+Reply · 1 reply
+
+Matthew Foust • 3rd+
+
+1mo
+
+Software Engineer specializing in R&D
+
+George Hotz Can I star as the JR developer?
+Like ·
+
+3
+
+Reply
+
+• 3rd+
+Tech Lead, Creative Technologist, UI Manager, Experiential, Builder, Outs…
+
+Sylwester Mielniczuk
+
+1mo
+
+Can you jailbreak the Quest 3 so people can install Linux on it? Use any IDE
+you like
+
+😉
+
+“Gas Town” sounds like another Ethereum/crypto/NFT gig. It’s a strong
+name—linking WWII history with modern art and global fiction.
+Like ·
+
+1
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+3mo •
+
+Who is buying a comma four this Black Friday?
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Advertising
+
+LinkedIn Corporation © 2026
+
+234
+
+5 comments · 3 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+
+James S.
+
+2mo
+
+• 3rd+
+
+V&V Engineer
+
+Has comma 4 resolved the issue from starting up with a very cold device?
+My 3 shows static- looking screen if the device is too cold.
+Like
+
+Reply
+
+Paul Barradas
+
+• 3rd+
+
+3mo
+
+Design Engineer at Nethermind
+
+Interesting in knowing what is it?
+Like ·
+
+1
+
+Reply
+
+Sonali Rajput
+
+• 3rd+
+Software Engineer | DevOps/Platform | SRE | AI/ML | Open-Source
+
+3mo
+
+Me
+Like
+
+Reply
+
+John Pinto • 3rd+
+
+3mo
+
+Founder & CEO scenestamps.com
+
+Give me a car and I'll buy a ,
+Like
+
+Reply
+
+Serdil Aydemir • 3rd+
+
+Triple College Drop Out Turned Entrepreneur.
+
+notice me senpai
+Like
+
+Reply
+
+2mo
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+3mo •
+
+The level that these people are detached from reality is insane! There's things to
+critique Elon on, but workAbout
+ethic?!?Accessibility
+Is this ragebait,
+does Teresa Leger
+Help or
+Center
+Fernández (note the accent mark) actually believe
+this?
+Ad Choices
+Advertising
+
+LinkedIn Corporation © 2026
+
+310
+
+64 comments · 5 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+
+Muhammad Alam
+
+• 3rd+
+
+3mo
+
+Software Engineer
+
+i think shes trying (albeit poorly) to make a point that being an elementary
+school teacher is extremely hard and they are not paid enough. it takes 2
+different kinds of work ethic to teach a bunch of screaming kids vs building
+companies/shitposting on twitter. I dont think this is ragebait since the
+detachment from reality works both ways. tech bros are detached from
+…more
+the
+Like ·
+
+21
+
+Reply · 5 replies
+
+George Hotz Author
+
+3mo
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Muhammad Alam no, she is saying that elementary school teachers
+work *harder* in the absolute than Elon, not per dollar, which is
+lunacy. my dad was a school teacher, and he'd be the first to tell you
+that it's a far more chill job than running companies.
+Like ·
+
+Reply
+
+27
+
+Kevin Hamusute • 3rd+
+
+3mo
+
+Ethical Hacking & Security Architecture | Web & Network Security …
+
+George Hotz Nah. It's definitely ragebait. She's acting as if Elon Musk
+had all his money and success handed to him on a silver platter. What
+kind of bullshit is that?
+Like ·
+
+1
+
+Reply
+
+Kevin Hamusute • 3rd+
+
+3mo
+
+Ethical Hacking & Security Architecture | Web & Network Security …
+
+Kevin Hamusute Ok but I can kinda understand why she's hot about
+everything.
+Like
+
+Reply
+
+🍉 Tahsin (Taso) Dane
+
+• 3rd+
+Software Engineering Manager
+
+2mo
+
+George Hotz work ethic does not mean work hard. Psychopaths work
+hard. Do they have ethics?
+Like
+
+Reply
+
+Kevin R.
+
+• 3rd+
+
+1mo
+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+George Hotz what did your dad teach?
+Like
+
+Reply
+
+Collapse replies
+
+• 3rd+
+Constraint Analysis & Execution Provenance for Enterprise and Defense …
+
+Jonathan Sandhu
+
+3mo
+
+Musk’s results come from capital leverage, not personal grind. Teachers
+work inside constraints, he works with none. Calling that a work ethic
+comparison ignores the structure that produces the outcomes.
+Like ·
+
+Reply · 14 replies
+
+32
+
+See previous replies
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+1mo
+
+Advertising
+• 3rd+
+
+Kevin R.
+
+Founder & CEO | Systems Thinker | Life-long Learner
+
+George Hotz yeah saying that Elon doesn't grind is questionable at
+LinkedIn Corporation © 2026
+best.
+Should teachers get paid more, ABSOLUTELY! But that shouldn't
+discredit how hard Elon works. Almost everyone who works with him
+…more
+Like
+
+Reply
+3mo
+
+Ian Cox • 3rd+
+
+How do you measure Success?
+
+Yes, that person actually believes that…
+They are stuck in the 4th level of mind, whereas people who run companies
+for profit are generally in the 5th level of mind…
+…more
+Like ·
+
+3
+
+Reply
+3mo
+
+• 3rd+
+Distinguished Scientist Addverb, ex Google, NVIDIA
+
+Tapan P.
+
+Agree with you on that. My day starts from 7 AM...get to talk with my team
+in India.. drop 2 kids at school 8 to 9. Run to office at 9AM and do 2
+meeting in car. Work on motor driver, ai, cobot, lidar, amr. Go for lunch with
+CEOs, CTOs, VP. Come back to check the lab..and get my quota of soldering
+iron, run meetings. 5PM clicks. Taiwan China wakes up. On the way back
+…more
+Like ·
+
+9
+
+Reply
+
+• 3rd+
+B.Tech CSE Student | MERN Stack Developer | Exploring AI & ML, DevO…
+
+Raj Aryan
+
+3mo
+
+You don’t build rockets and EVs with low work ethic.
+Like ·
+
+7
+
+Reply
+3mo
+
+• 3rd+
+Software Architect
+
+Jesse W.
+
+Why are we needing to note the accent mark? What was your meaning
+behind that?
+Like ·
+
+Reply
+
+4
+
+• 3rd+
+Brokerage Director | M&A | Entrepreneur | QLA Advocate/Men…
+
+Simon Herrera
+
+(edited) 3mo
+
+My children learn more using AI. Obsolete model.
+Like ·
+
+Reply
+
+4
+
+• 3rd+
+ECLSS/BLISS nerd, wannabe space farmer
+
+Rob Faltersack
+
+3mo
+
+If it's "sponsored" on LinkedIn, then it's ragebait. Elon's work ethic is epic.
+And so was his tax contribution in 2021 of 11 Billion.
+Like ·
+
+Reply
+
+4
+
+Austin Howard • 3rd+
+
+3mo
+
+Senior Software Engineer at Old Well Labs
+
+signalmaxxing
+Like ·
+
+3
+
+Reply
+• 3rd+
+
+Imhotep T.
+
+3mo
+
+Current Linux Admin / PC Technician Hybrid
+
+You were cooler when you hacked my PS3.
+Like ·
+
+Reply · 1 reply
+
+5
+
+Phil Garcia
+
+• 3rd+
+
+(edited) 3mo
+
+Unix Systems Engineer
+
+Imhotep Taylor Are you kidding, Tep? geohot was cooler when he
+made that awkward rap video. Own it, George Hotz.
+Like ·
+
+1
+
+Reply
+
+John Pinto • 3rd+
+
+Founder & CEO scenestamps.com
+
+Grinding out alright.
+
+3mo
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Advertising
+Like ·
+
+3
+
+Reply
+• 3rd+
+
+Maxim Khailo
+
+LinkedIn Corporation © 2026
+
+2mo
+
+Chief Exponent Officer
+
+I don't know man, I don't have time to tweet as much as he does. Don't
+confuse long hours in front of a screen for work ethic.
+Like ·
+
+2
+
+Reply · 1 reply
+1mo
+
+Bianca Carolina C. • 3rd+
+
+Bianca Carolina Castaño Sandoval
+
+Maxim Khailo exactly, and try to do your job with 30 Kids and parents
+Like
+
+Reply
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+3mo •
+
+Have you bought your comma four yet?
+
+283
+
+29 comments · 3 reposts
+Like
+Comment
+Repost
+Send
+
+Add a comment…
+Most relevant
+
+Farhad Safikhani
+
+• 3rd+
+
+3mo
+
+Director of Engineering
+
+Its amazing that in a trillions+ TAM, this may be the only real 2nd place to
+Tesla FSD. With a small team no less.
+George Hotz are you guys collecting video data from these fleets, and
+training on it the same way Tesla is?
+Like ·
+
+2
+
+Reply · 2 replies
+
+George Hotz Author
+
+3mo
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Farhad Safikhani lol yea tell me about it. We are collecting video. It's
+very similar to Tesla FSD, they are ~2-3 years ahead though.
+Like ·
+
+Reply
+
+6
+
+Jon Stevens
+
+• 3rd+
+CEO Hot Aisle - AMD Exclusive AI Cloud
+
+3mo
+
+George Hotz can't put FSD in a non-tesla, so that puts you ahead 2-3
+years... ;-)
+Like
+
+Reply
+
+Collapse replies
+
+Clint Herron
+
+• 3rd+
+
+(edited) 3mo
+
+Artificially Intelligent, Naturally Curious
+
+Literally shopped (and bought) a car last week specifically with max
+OpenPilot compatibility as a feature we were looking for. Settled on a
+
+particular model with that in mind.
+I plan to place my Comma order this week -- can hardly wait to get it …more
+Like ·
+
+2
+
+Reply · 1 reply
+
+About Accessibility Help Center
+• 3rd+
+Artificially Intelligent, Naturally Curious Ad Choices
+
+Clint Herron
+
+3mo
+
+Advertising
+
+Order confirmed -- just placed my order 2 minutes ago! :) Looking
+forward to it!
+Like
+
+Reply
+
+LinkedIn Corporation © 2026
+3mo
+
+• 3rd+
+
+İlker ATASOY
+
+Technology Executive | Board Governance & Strategy | 20 Years Global …
+
+👏
+
+Congrats bro, great product
+It's more compact. What do you think
+about the idea of ​an operating system for the EV platform for future
+innovations? Like CarPlay
+Like
+
+Reply
+
+Gerry Hudak
+
+• 3rd+
+VP of Engineering @ Rendezvous Robotics | Business Analytics & AI
+
+3mo
+
+when does the Black Friday sale drop?
+Like ·
+
+1
+
+Reply · 1 reply
+3mo
+
+George Hotz Author
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Gerry Hudak Not this year, we are so behind on orders!
+Like ·
+
+Reply
+
+4
+
+• 3rd+
+Tech Lead, Creative Technologist, UI Manager, Experiential, Builder, Outs…
+
+Sylwester Mielniczuk
+
+3mo
+
+Nope, because I do not have a car. I do not have a car because I do not
+need one. I live in a socialist country where public transport is so intense
+that renting an e-bike is only sometimes necessary, and to get to Spain I
+take the tube/train, which is cheaper than going to Cornwall, where public
+transportation is not yet a home to fentanyl hobbyists. But I love watching
+…more
+Like
+
+Reply
+
+Josh Kinney
+
+• 3rd+
+Architect of the Hardware Revolution - Amazon Leo
+
+3mo
+
+I've been using Comma AI for 4yrs(?) and honestly it hasn't gotten any
+better. maybe worse. I still use it but I have to make a lot of adjustments
+which is disappointing.
+Like
+
+Reply
+
+Buddhika Godakanda (BSG)
+
+• 3rd+
+
+3mo
+
+VP of IT Strategy & Program Management | Driving AI-Powered Bankin…
+
+George Hotz is it possible to read Tesla camera feeds in addition to front
+mounted cameras of Comma? It will be a game changer that bundled with
+external GPU for inference. Lot of HW3 vehicles could benefit from that.
+Like
+
+Reply
+
+• 3rd+
+Ad Ops & Ad Tech Leader | Identity Resolution & Engagement Analytics …
+
+Chris Liberti
+
+3mo
+
+Just waiting for it to ship
+Like
+
+Reply · 1 reply
+
+George Hotz Author
+
+3mo
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+
+Working on it! Gonna go check on the factory right now.
+Like ·
+
+3
+
+Reply
+
+• 3rd+
+A valued resource on AI, embedded computing, wireless, and other elec…
+
+Bill Kreutinger
+
+3mo
+
+Still loving my 3X, but looking forward to learning more about the 4. For
+the Comma 5, consider the SiMa Modalix module.
+Introducing Modalix SoM: Power efficient SoM with Rich Peripherals for
+Seamless Sensor Integration - SiMa https://sima.ai/blog/introducing…more
+Like
+
+Reply
+
+• 3rd+
+Co-Founder of Fullsend Solutions
+
+Sawyer Billings
+
+Compatibility with the 2023 Chevrolet Tahoe?
+Like
+
+Reply
+
+3mo
+
+Vasyl Kuchma
+
+• 3rd+
+Founder & CEO at SDH IT | Managing Partner at Software Development…
+
+3mo
+
+Great to see the progress on the comma four! Exciting milestone for driverassist technology.
+Like
+
+Reply
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+3mo
+
+• 3rd+
+Advertising
+Cloud & Data Architect | Azure & Databricks Specialist
+
+Marcin K.
+
+It won't work with my 2015 Skoda Citi go :( so not until I have a better car
+Like
+
+Reply
+
+LinkedIn Corporation © 2026
+
+Load more comments
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+5mo •
+
+How much more demoralization will be needed before we are ready to live in a
+society? I think a lot. Never underestimate how much worse it can get.
+
+319
+
+18 comments · 3 reposts
+Like
+Comment
+Repost
+Send
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+5mo • Edited •
+
+Been writing a story on my blog. If I link it this post will get way less traction, but
+7 chapters of it are there if you want to read it.
+Let me know what you think, if people like it I'll continue. Chapter 7 rounds out
+the opening act.
+tech, control, true crime, coming of age, coming of age for humanity
+255
+
+23 comments · 5 reposts
+Like
+Comment
+Repost
+Send
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+6mo •
+
+6 tinybox green v2 in stock and ready to ship!
+Break away from your digital landlord. Enter the GPU middle class.
+
+Follow
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Advertising
+
+LinkedIn Corporation © 2026
+
+24 comments · 5 reposts
+
+465
+Like
+Comment
+Repost
+Send
+
+George Hotz reposted this
+
+Harald Schäfer • 3rd+
+
+Chief Technology Officer at comma.ai
+6mo •
+
+Follow
+
+All the code for training openpilot models, including everything that deals with
+data, pre-processing, datacenter, CI, training, and eval is only about ~100 KLOCs.
+…more
+
+209
+
+6 comments · 3 reposts
+Like
+Comment
+Repost
+Send
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+6mo •
+
+Starting today, comma and tiny have partnered to add 24/7 phone support to all
+our products!
+…more
+20 comments · 2 reposts
+
+361
+Like
+Comment
+Repost
+
+Send
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+About Accessibility Help Center
+6mo •
+Ad Choices
+
+Checking in on this 4 years later. Argo and TuSimple are gone.
+Advertising
+
+When will the scams stop?
+
+George Hotz • 3rd+
+
+LinkedIn Corporation © 2026
+
+Follow
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+4yr •
+
+When I see Autonomous Vehicle companies doing IPOs, I am so saddened
+that they are that desperate for their bags that they scam the public out of it.
+TuSimple did an IPO with less revenue than comma. And now Argo is talking
+about it. Sad. This is not the way.
+AUTONOMOUS VEHICLES ARE NOT REAL. YOU ARE A SEED STAGE STARTUP
+WITH A TECH DEMO. YOU DO NOT EVEN HAVE PRODUCT MARKET FIT,
+…more
+YOU
+4 comments · 3 reposts
+
+74
+Like
+Comment
+Repost
+Send
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+6mo •
+
+More technology is not going to bring you a high trust society.
+If you want a high trust society, it starts with changing culture.
+48 comments · 12 reposts
+
+353
+Like
+Comment
+Repost
+Send
+
+Follow
+
+George Hotz • 3rd+
+
+President at comma.ai (we’re hiring, comma.ai/jobs)
+6mo •
+
+I went to Starbucks this morning. Drive thru. I tapped my card to the screen.
+"You're going to have to answer the question first" …more
+44 comments · 2 reposts
+
+164
+Like
+Comment
+Repost
+Send
+
+About
+
+Accessibility
+
+Help Center
+Ad Choices
+
+Advertising
+
+LinkedIn Corporation © 2026
+
+Show more results
+
+
