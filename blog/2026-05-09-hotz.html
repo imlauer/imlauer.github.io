@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2026-05-09-hotz</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<p>Buenísimo, lo leí todo. Acá va un resumen de las ideas clave de
+George Hotz (geohot), ordenadas por tema:</p>
+<hr />
+<h2 id="quién-es-george-hotz">¿Quién es George Hotz?</h2>
+<p>Es el primer hacker que desbloqueó el iPhone (a los 17 años) y el
+primero en hacer jailbreak a la PS3. Fundó <strong>comma.ai</strong>,
+empresa que hace conducción autónoma open source y asequible. Es
+conocido por ser brutalmente honesto, anti-corporativo y provocador.</p>
+<hr />
+<h2 id="sobre-el-hype-de-la-ia">🤖 Sobre el hype de la IA</h2>
+<p>Esta es su tesis más importante y está muy fundamentada:</p>
+<p>Las GPUs son activos que se deprecian rápidamente — una 1080 Ti que
+valía fortunas hoy casi no tiene valor. Y los modelos entrenados
+deprecian aún más rápido: GPT-4 costó $100M en entrenarse, y hoy vale
+menos que Qwen3.5-27B que costó $1M.</p>
+<p>Las empresas de IA no tienen “moat” (ventaja competitiva duradera).
+Su comparación es brillante: es como una empresa que vende dólares a
+$0.99 — el crecimiento de ingresos es explosivo pero están perdiendo
+plata. Eventualmente tendrán que subir precios… pero no pueden.</p>
+<p>Su veredicto: no es crecimiento real de la economía, son estafadores
+prometiendo una revolución que no llega. Si no llega, “sorry, no
+refunds”. Advierte que esto podría reventar la burbuja de toda la
+economía americana.</p>
+<p>Pero también aclara algo importante: la IA no es un cambio mágico de
+juego, es simplemente la continuación del progreso exponencial que ya
+teníamos. Es una herramienta útil, pero no va a “volverse recursiva” ni
+hacer algo sobrehumano. Siempre fue búsqueda y optimización, y si
+prestaste atención en clase de CS, conocés sus límites.</p>
+<hr />
+<h2 id="sobre-empresas-tecnológicas-falsas-y-spacs">💰 Sobre empresas
+tecnológicas falsas y SPACs</h2>
+<p>Su consejo a inversores: openpilot de comma.ai es MIT license, open
+source, corre en hardware barato, soporta casi todos los autos, y
+eventualmente será nivel 5. ¿Por qué alguien invertiría en una empresa
+propietaria de self-driving cuando esto existe gratis?</p>
+<p>Sobre las empresas de autos autónomos haciendo IPOs: las llama
+directamente estafas. TuSimple hizo una IPO con menos revenue que comma,
+con $1.8M de ingresos y $132M en R&amp;D. “¿Cómo leyó alguien esos
+números y invirtió?”</p>
+<p>Sobre los SPACs: los llama mecanismos para “scamear a los chicos de
+Robinhood”.</p>
+<hr />
+<h2 id="sobre-el-sistema-financiero-y-el-dinero">🏦 Sobre el sistema
+financiero y el dinero</h2>
+<p>La banca de reserva fraccionaria es literalmente los bancos
+inventando dinero. Y en marzo de 2020, EEUU eliminó el requerimiento de
+reserva mínima para los bancos, dejándolo en cero. “Infinite money
+glitch desbloqueado”. Lo que le sorprende es por qué todavía le importa
+el dinero a la gente.</p>
+<p>Su pregunta filosófica clave: ¿el dinero te hace mejor persona? La
+tesis es que las empresas con valuaciones infladas antes de tener
+revenue quedan paralizadas: no pueden lanzar nada razonable porque
+ningún producto justificaría la valuación. “Ganar la lotería es una
+maldición horrible.”</p>
+<hr />
+<h2 id="sobre-política-libre-mercado-e-ip">🕊️ Sobre política, libre
+mercado e IP</h2>
+<p>Rechaza la falsa dicotomía capitalismo/socialismo/comunismo. Dice que
+todos son sistemas de control de personas. Cuando apareció la propiedad
+intelectual — un bien fundamentalmente NO escaso — los mismos sistemas
+de control fueron aplicados, lo que revela que el propósito real siempre
+fue el control, no la distribución.</p>
+<p>Apoyó un discurso de Reagan sobre libre comercio y aranceles,
+posición que repostea como vigente hoy.</p>
+<hr />
+<h2 id="sobre-la-cultura-corporativa">🏢 Sobre la cultura
+corporativa</h2>
+<p>Odia la “clase gerencial profesional”. Dice que sus tácticas son la
+razón principal por la que el software es hoy complejo y lento: diseño
+por comité con cientos de ingenieros agregando capas de abstracción en
+vez de pensar qué se necesita realmente.</p>
+<p>Su diagnóstico de la burocracia americana: hay personas cuyo trabajo
+a tiempo completo es asegurarse de conservar su trabajo falso. Lo
+ilustra con la metáfora de un McDonald’s donde para saber el precio de
+un McChicken tenés que tener una “experiencia de ventas” con 7 personas
+copiadas en un email.</p>
+<hr />
+<h2 id="filosofía-de-vida">🧠 Filosofía de vida</h2>
+<p>Su consejo central: no juegues juegos de suma cero. Creá valor para
+otros y no te preocupés por los retornos. Si producís más de lo que
+consumís, sos bienvenido en cualquier comunidad que funcione bien.</p>
+<p>De su lectura del budismo: querer cosas no se soluciona
+consiguiéndolas. Conseguir solo intensifica el querer. Y sin embargo
+seguimos vendiendo el futuro por cosas materiales.</p>
+<hr />
+<p>En resumen, Hotz es un tipo que construyó algo real, rentable y open
+source, y desde ahí dispara contra todos los que levantan valuaciones
+enormes sin entregar nada concreto. Sus ideas tienen mucho de
+libertarismo tecnológico mezclado con crítica anti-corporativa genuina.
+No es un ideólogo puro — es alguien que lleva años viendo el juego desde
+adentro y está harto de la pantomima.</p>
+<p>¿Querés que profundice en alguno de estos temas?</p>
+<p>Perfecto, tema candente. Voy a expandir la tesis de Hotz con contexto
+económico real para que entiendas el panorama completo.</p>
+<hr />
+<h2 id="la-burbuja-de-la-ia-por-qué-hotz-cree-que-va-a-explotar">La
+burbuja de la IA — por qué Hotz cree que va a explotar</h2>
+<h3 id="el-problema-del-moat-o-la-falta-de-él">1. El problema del “moat”
+(o la falta de él)</h3>
+<p>Un moat es lo que protege a una empresa de la competencia. Coca-Cola
+tiene marca. Un banco tiene licencias. Un monopolio tiene red.</p>
+<p>Las empresas de IA <strong>no tienen nada de eso</strong>. El
+argumento de Hotz es técnico y demoledor:</p>
+<ul>
+<li>Los modelos mejoran exponencialmente y se abaratan igual de
+rápido</li>
+<li>GPT-4 costó ~$100M entrenarlo en 2023. Hoy modelos open source
+equivalentes cuestan $1M</li>
+<li>Eso significa que <strong>la ventaja competitiva dura meses, no
+años</strong></li>
+<li>Cualquier empresa que construya sobre un modelo propietario queda
+obsoleta cuando sale el siguiente</li>
+</ul>
+<h3 id="la-metáfora-de-vender-dólares-a-0.99">2. La metáfora de vender
+dólares a $0.99</h3>
+<p>Esta es la más brillante. Funciona así:</p>
+<ul>
+<li>OpenAI, Anthropic y similares <strong>cobran menos por sus servicios
+de lo que les cuesta producirlos</strong></li>
+<li>Lo hacen para crecer rápido y mostrar “revenue growth” a
+inversores</li>
+<li>Los inversores ven el crecimiento y valúan la empresa en miles de
+millones</li>
+<li>Pero el negocio subyacente <strong>pierde plata en cada
+transacción</strong></li>
+<li>Para que funcione necesitan subir precios… pero si suben precios,
+los usuarios se van a alternativas más baratas o open source</li>
+</ul>
+<p>Es un círculo vicioso. No hay salida elegante.</p>
+<h3 id="los-gpus-como-activo-que-se-destruye-solo">3. Los GPUs como
+activo que se destruye solo</h3>
+<p>Esto la mayoría no lo ve. La cadena es:</p>
+<p><strong>Nvidia vende GPUs → empresas los compran para entrenar
+modelos → los modelos entrenados valen cada vez menos → los GPUs usados
+para entrenarlos también valen menos</strong></p>
+<p>Nvidia es la única que gana consistentemente porque vende las palas
+en la fiebre del oro. Pero incluso eso tiene límite cuando el mercado se
+da cuenta que el oro no está donde prometían.</p>
+<h3 id="qué-pasa-cuando-explota">4. ¿Qué pasa cuando explota?</h3>
+<p>Hotz no dice que la IA sea inútil — él la usa, le gusta, construye
+con ella. Lo que dice es que <strong>el valor económico no está donde
+los inversores creen que está</strong>.</p>
+<p>El patrón histórico es claro: - <strong>Burbuja punto com
+(2000):</strong> Internet era real y transformó el mundo. Pero el 90% de
+las empresas que prometían capitalizarlo quebraron. Sobrevivieron
+Amazon, Google. Murieron miles. - <strong>La IA probablemente siga el
+mismo patrón:</strong> la tecnología es real, pero la mayoría de las
+empresas actuales no van a capturar ese valor.</p>
+<h3 id="quién-sobrevive-según-esta-lógica">5. ¿Quién sobrevive según
+esta lógica?</h3>
+<p>Los que tienen algo que el modelo en sí no puede reemplazar:</p>
+<ul>
+<li><strong>Datos únicos</strong> (nadie más los tiene)</li>
+<li><strong>Hardware físico</strong> (comma.ai: el auto ya instalado es
+el moat)</li>
+<li><strong>Distribución real</strong> con usuarios que no se pueden
+llevar a otro lado</li>
+<li><strong>Open source con comunidad</strong> — paradójicamente, dar
+todo gratis puede ser más sostenible que cobrar por algo que otros
+copiarán</li>
+</ul>
+<hr />
+<h3 id="la-pregunta-que-deberías-hacerte">La pregunta que deberías
+hacerte</h3>
+<p>Cuando veas una empresa de IA que levanta $500M: <strong>¿qué tienen
+que no pueda ser copiado en 18 meses con $5M?</strong></p>
+<p>Si la respuesta es “su modelo es muy bueno”… Hotz diría que ya te
+están vendiendo el cuento.</p>
+<p>¿Querés que sigamos con otro tema, o profundizamos en algún punto de
+este?</p>
+<p>Buena pregunta. Voy a explicarte todo sin filtros, como lo vería
+alguien que entiende los sistemas desde adentro.</p>
+<hr />
+<h2 id="la-burbuja-punto-com-1995-2001">La burbuja punto com
+(1995-2001)</h2>
+<h3 id="el-setup">El setup</h3>
+<p>En los 90, internet era genuinamente revolucionario. Por primera vez
+en la historia humana, cualquiera podía comunicarse con cualquiera,
+gratis, instantáneamente. Era como descubrir la electricidad.</p>
+<p>El problema: <strong>nadie sabía exactamente cómo hacer dinero con
+eso.</strong></p>
+<p>Pero los inversores tampoco querían perderse “la próxima gran cosa”.
+Entonces empezó el juego:</p>
+<ul>
+<li>Una empresa ponía “.com” en el nombre</li>
+<li>Hacía una presentación con gráficos de crecimiento exponencial</li>
+<li>Levantaba millones sin tener un solo peso de revenue</li>
+<li>El precio de la acción subía porque todos querían entrar</li>
+<li>Eso atraía más inversores, que subían más el precio</li>
+<li>El ciclo se repetía</li>
+</ul>
+<p>Esto se llama <strong>burbuja especulativa</strong>: el precio de
+algo sube no porque valga más, sino porque todos esperan que siga
+subiendo. Es básicamente una cadena de favores donde el último en entrar
+pierde todo.</p>
+<h3 id="el-momento-de-la-verdad">El momento de la verdad</h3>
+<p>En marzo del 2000 el NASDAQ (índice tecnológico) tocó su pico.
+Después empezó a bajar. Algunos inversores grandes empezaron a vender.
+Eso asustó a otros. Que también vendieron. El pánico se propagó.</p>
+<p>En dos años el NASDAQ cayó <strong>78%</strong>. Billones de dólares
+evaporados.</p>
+<p>Empresas que valían $500M en papel cerraron porque nunca tuvieron un
+modelo de negocio real. Pets.com, Webvan, Kozmo.com — nombres que hoy
+nadie recuerda porque no sobrevivieron.</p>
+<h3 id="por-qué-murieron">¿Por qué murieron?</h3>
+<p>La razón técnica es simple: <strong>confundieron “la tecnología es
+real” con “nuestro negocio es viable”.</strong></p>
+<p>Internet era real. Pero vender comida de mascotas online con delivery
+gratis y quemar más plata de la que entraba no era un negocio, era una
+performance para inversores.</p>
+<p>El patrón de muerte era siempre el mismo: 1. Levantar capital con
+promesas de crecimiento futuro 2. Gastar ese capital en marketing y
+escala antes de tener product-market fit 3. Necesitar más capital para
+sobrevivir 4. Los inversores se asustan y cortan el grifo 5. Sin flujo
+de caja real, la empresa muere en semanas</p>
+<hr />
+<h2 id="quién-capturó-el-valor-y-cómo-lo-hizo">Quién capturó el valor —
+y cómo lo hizo</h2>
+<p>Acá viene la parte que Hotz odia, y con razón.</p>
+<h3 id="google">Google</h3>
+<p>Google no inventó el buscador. Existían Altavista, Yahoo, Lycos. Pero
+Google tenía un algoritmo mejor (PageRank) y una interfaz limpia cuando
+todos los demás eran un caos de publicidad.</p>
+<p>Llegaron tarde, cuando la burbuja ya había explotado y la tierra
+estaba barata. Compraron servidores a precio de remate de empresas
+quebradas. Contrataron a los mejores ingenieros que quedaron sin
+trabajo.</p>
+<p>Pero el moat real de Google no es la búsqueda. <strong>Es la red
+publicitaria.</strong> AdWords/AdSense creó un sistema donde: - Los
+anunciantes necesitan a Google para llegar a usuarios - Los usuarios
+necesitan a Google para encontrar cosas - Cada lado del mercado refuerza
+al otro</p>
+<p>Esto se llama <strong>efecto de red de dos lados</strong>. Es casi
+imposible de romper porque tenés que convencer a ambos lados
+simultáneamente para competir.</p>
+<h3 id="amazon">Amazon</h3>
+<p>Amazon perdió plata durante años. Jeff Bezos lo dijo abiertamente y
+los inversores lo bancarotearon igual porque la tesis era clara:
+<strong>quien controle la logística controla el comercio.</strong></p>
+<p>El moat de Amazon es físico: depósitos, camiones, sistemas de
+distribución. Eso no se copia con código. Y una vez que tenés la
+infraestructura, cada producto adicional que vendés tiene costo marginal
+casi cero.</p>
+<p>AWS (Amazon Web Services) fue el golpe de genio: descubrieron que su
+infraestructura interna era tan buena que podían alquilársela al mundo.
+Hoy AWS es más rentable que todo el retail junto.</p>
+<h3 id="facebookmeta">Facebook/Meta</h3>
+<p>El moat de Facebook es el más perverso de todos, y es el que más
+odiaría Hotz.</p>
+<p><strong>No son tus fotos, no son tus posts. Son tus relaciones
+sociales.</strong></p>
+<p>Facebook capturó el grafo social humano. Tu mamá está ahí, tus amigos
+del colegio están ahí, el grupo del trabajo está ahí. Para irte tendrías
+que convencer a todos de irse con vos. Es prácticamente imposible.</p>
+<p>Eso les da un poder que va más allá de lo económico: pueden moldear
+qué información ves, qué emociones sentís, qué compras. Lo documentaron
+sus propios ingenieros internamente. El producto no eres vos —
+<strong>sos la materia prima.</strong> El producto es la atención que le
+vendés a los anunciantes.</p>
+<hr />
+<h2 id="cómo-captaron-todo-el-valor-la-jugada-maestra">Cómo captaron
+TODO el valor — la jugada maestra</h2>
+<p>Acá está el núcleo de lo que Hotz critica, y es algo que muy poca
+gente entiende claramente.</p>
+<h3 id="la-estrategia-gratis-para-siempre">La estrategia “gratis para
+siempre”</h3>
+<p>Google, Facebook, Twitter/X, YouTube — todos son gratis para el
+usuario. ¿Por qué? No por generosidad.</p>
+<p><strong>Porque si cobraran, habría competencia. Al ser gratis, crean
+una barrera de entrada infranqueable.</strong></p>
+<p>Ninguna startup puede competir con “gratis” si tiene que pagar
+empleados. Entonces las big tech usan su capital infinito para subsidiar
+el servicio hasta que toda competencia muere. Luego, cuando son
+monopolio de facto, no necesitan subir precios — cobran a los
+anunciantes, que no tienen alternativa.</p>
+<h3 id="la-captura-regulatoria">La captura regulatoria</h3>
+<p>Este es el nivel más oscuro. Se llama <strong>regulatory
+capture</strong> y funciona así:</p>
+<p>Las grandes empresas, una vez que tienen poder, invierten en influir
+sobre las leyes que las regulan. No necesariamente con sobornos directos
+— es más sofisticado:</p>
+<ul>
+<li>Contratan a ex-reguladores como ejecutivos (la “puerta
+giratoria”)</li>
+<li>Financian think tanks que producen papers académicos favorables a
+sus posiciones</li>
+<li>Hacen lobby para crear regulaciones que ellas pueden cumplir
+fácilmente pero que aplastan a competidores más chicos</li>
+</ul>
+<p>El resultado: las leyes que supuestamente deben controlarlas terminan
+<strong>protegiéndolas de la competencia</strong>. El GDPR europeo de
+privacidad, paradójicamente, benefició a Google y Facebook porque tienen
+los equipos legales para cumplirlo. Una startup no.</p>
+<h3 id="la-propiedad-intelectual-como-arma">La propiedad intelectual
+como arma</h3>
+<p>Esto es lo que más indigna a Hotz, y lo dice explícitamente en sus
+posts.</p>
+<p>Las patentes existen para proteger inventos físicos escasos: si
+inventás una máquina, tiene sentido que nadie más la copie por un tiempo
+para que puedas recuperar tu inversión.</p>
+<p>Pero el software y las ideas <strong>no son escasas</strong>. Si yo
+tengo una idea y vos la copiás, yo sigo teniendo la idea. No perdí nada
+materialmente.</p>
+<p>Sin embargo, el sistema legal extendió la propiedad intelectual al
+software, los algoritmos, incluso los métodos de negocio. Esto crea
+monopolios artificiales sobre cosas que deberían ser de libre uso.</p>
+<p>Hotz lo vivió en carne propia: comma.ai fue demandada por un troll de
+patentes por una patente de “sistema de llamadas de emergencia desde
+vehículos” — algo que no tiene nada que ver con lo que ellos hacen. El
+troll esperó exactamente 9 meses después de que se aprobara la
+continuación de la patente para demandar — el tiempo exacto para que
+venciera el período de revisión post-otorgamiento. <strong>Eso no es
+proteger la innovación. Es pura extorsión legal
+sistematizada.</strong></p>
+<hr />
+<h2 id="la-síntesis-cómo-lo-vería-un-hacker">La síntesis — cómo lo vería
+un hacker</h2>
+<p>Un hacker mira un sistema y pregunta: <strong>¿cómo funciona
+realmente, no cómo dicen que funciona?</strong></p>
+<p>Lo que ven es esto:</p>
+<p>El capitalismo de libre mercado que te vendieron en el colegio dice
+que el mejor producto gana. La realidad es que el primer producto en
+conseguir suficiente capital para subsidiar su crecimiento hasta el
+monopolio gana, y después usa ese monopolio para bloquear a todo el que
+venga después.</p>
+<p>No es que Google sea 1000 veces mejor que cualquier buscador
+alternativo. Es que Google tiene 1000 veces más dinero para pagar para
+ser el buscador por defecto en cada dispositivo, cada navegador, cada
+contrato con fabricantes de celulares.</p>
+<p>El mercado libre murió en el momento en que las redes de dos lados y
+el capital infinito hicieron que “el mejor producto” dejara de ser el
+criterio relevante.</p>
+<p>Lo que Hotz propone — sin decirlo tan explícitamente — es parecido al
+anarquismo tecnológico: <strong>open source como resistencia.</strong>
+Si el código es libre, nadie puede capturar el valor. Si el software
+puede ser copiado y mejorado por cualquiera, los monopolios se vuelven
+imposibles de mantener.</p>
+<p>Es por eso que comma.ai es open source. Es por eso que tinygrad es
+open source. No es altruismo — es una declaración filosófica: <strong>el
+conocimiento no debería poder ser propiedad de nadie.</strong></p>
+<hr />
+<p>¿Querés que sigamos con el sistema financiero y cómo el dinero es
+“inventado”, o preferís algo más sobre la filosofía hacker?</p>
+<p>Buena observación, leíste bien entre líneas. Vamos a fondo.</p>
+<hr />
+<h2 id="hotz-y-las-universidades">Hotz y las universidades</h2>
+<p>Él no lo dice con tanta crudeza en los posts que leímos, pero su
+posición se infiere claramente de varias cosas que escribe.</p>
+<h3 id="lo-que-dice-explícitamente">Lo que dice explícitamente</h3>
+<p>Reposteó la renuncia de un profesor de MIT que se fue porque la
+institución priorizaba “promover una cosmovisión específica sobre
+enseñar pensamiento crítico”. Hotz lo señala diciendo que cualquiera que
+quiera estudiar debería considerar el ranking de libertad de expresión
+de FIRE antes de elegir universidad.</p>
+<p>Su sistema de contratación en tinygrad y comma.ai es la crítica más
+directa a la universidad:</p>
+<p><strong>No acepta CVs. No pregunta dónde estudiaste. El filtro es
+resolver un problema técnico real.</strong></p>
+<p>Dijo textualmente que recibió emails peores que ChatGPT de gente que
+presumably tenía títulos. Y que el 100% de sus contrataciones exitosas
+vinieron de personas que resolvieron bounties — desafíos técnicos
+públicos — sin importar su educación formal.</p>
+<h3 id="la-crítica-implícita-más-profunda">La crítica implícita más
+profunda</h3>
+<p>Su odio a la “clase gerencial profesional” es fundamentalmente una
+crítica a lo que producen las universidades de negocios y las carreras
+corporativas.</p>
+<p>El MBA es el símbolo de todo lo que Hotz desprecia:</p>
+<ul>
+<li>Enseña a gestionar complejidad en vez de eliminarla</li>
+<li>Produce personas cuyo valor es navegar la burocracia, no crear
+cosas</li>
+<li>Genera una casta que se reproduce a sí misma en directorios y
+consultoras</li>
+<li>Cobra fortunas por credenciales que señalizan conformidad, no
+capacidad</li>
+</ul>
+<p>Para Hotz, un ingeniero que construyó algo que funciona vale
+infinitamente más que un MBA de Harvard que sabe hacer presentaciones de
+PowerPoint.</p>
+<hr />
+<h2 id="curtis-yarvin-acá-se-pone-interesante">Curtis Yarvin — acá se
+pone interesante</h2>
+<h3 id="quién-es">Quién es</h3>
+<p>Curtis Yarvin es probablemente el pensador político más provocador y
+menos comprendido de Silicon Valley. Escribe bajo el seudónimo
+<strong>Mencius Moldbug</strong>. Es programador, historiador
+autodidacta y el padre intelectual de lo que se llama
+<strong>Neorreaccionarismo (NRx)</strong> o la <strong>Dark
+Enlightenment</strong>.</p>
+<p>No es de derecha en el sentido tradicional. No es conservador
+religioso. Es algo mucho más raro y más interesante.</p>
+<h3 id="su-tesis-central">Su tesis central</h3>
+<p>Yarvin dice que la democracia liberal es una <strong>religión
+secularizada</strong> disfrazada de sistema racional.</p>
+<p>El argumento va así:</p>
+<p>Occidente reemplazó el cristianismo institucional con lo que él llama
+<strong>“La Catedral”</strong> — una red informal pero coherente de
+universidades de élite, medios de comunicación, ONGs y burocracia
+estatal que produce y distribuye la ideología dominante.</p>
+<p>No hay una conspiración. No hay reuniones secretas. Funciona porque
+todos en ese sistema tienen los mismos incentivos, estudiaron en los
+mismos lugares, leen las mismas publicaciones y se premian mutuamente
+con financiamiento, cobertura y legitimidad.</p>
+<p>El resultado es un monocultivo ideológico que se presenta como
+pluralismo pero que en realidad tiene límites muy estrechos de lo que
+puede ser pensado y dicho públicamente.</p>
+<p>¿Te suena familiar? Es exactamente la misma estructura que Hotz
+describe cuando habla de la captura regulatoria y las corporaciones que
+usan el sistema para protegerse de la competencia.</p>
+<h3 id="la-propuesta-de-yarvin-el-reseteo">La propuesta de Yarvin — el
+“Reseteo”</h3>
+<p>Acá viene la parte más polémica. Yarvin dice que el sistema es
+irreformable desde adentro porque los incentivos siempre reconducen al
+mismo resultado. Votar no cambia nada estructural porque los partidos
+compiten por el mismo electorado y dentro del mismo marco ideológico que
+La Catedral define.</p>
+<p>Su propuesta más famosa es la de la <strong>“Monarquía
+Corporativa”</strong>: en vez de un Estado democrático, un CEO-rey con
+responsabilidad total y poder total. Accountability real en vez de
+accountability difusa donde nadie es responsable de nada.</p>
+<p>No lo dice como una propuesta literal inmediata — lo dice como un
+experimento mental para forzarte a pensar qué hace que un sistema de
+gobierno funcione realmente.</p>
+<h3 id="por-qué-hotz-resuena-con-esto">Por qué Hotz resuena con
+esto</h3>
+<p>Mirá lo que Hotz dice sobre su empresa:</p>
+<p><em>“La toma de decisiones colaborativa es mala. Una persona debe ser
+dueña, decidir, enorgullecerse y defender cada pieza del
+sistema.”</em></p>
+<p><em>“Si tu oficina tiene política, tu liderazgo falló.”</em></p>
+<p><em>“Odio a la clase gerencial profesional.”</em></p>
+<p>Eso ES yarvinismo aplicado a empresas. La idea de que la
+responsabilidad difusa produce resultados mediocres. Que el consenso es
+el enemigo de la excelencia. Que alguien tiene que tener el poder y la
+responsabilidad completa — y que eso es más honesto que fingir que todos
+tienen voz.</p>
+<h3 id="la-conexión-con-peter-thiel">La conexión con Peter Thiel</h3>
+<p>Yarvin tiene un seguidor muy famoso: <strong>Peter Thiel</strong>,
+cofundador de PayPal, primer inversor externo de Facebook, fundador de
+Palantir.</p>
+<p>Thiel financió proyectos de Yarvin y comparte muchas de sus ideas. Su
+libro “Zero to One” es básicamente yarvinismo empresarial: los
+monopolios son buenos porque permiten la excelencia, la competencia
+perfecta destruye valor, el futuro lo construyen personas con visiones
+singulares no comités democráticos.</p>
+<p>Hotz, Thiel y Yarvin forman parte de un ecosistema intelectual que
+podría describirse como <strong>“tecno-autoritarismo
+meritocrático”</strong> — la idea de que el poder debería estar en manos
+de quienes demuestran capacidad real, no de quienes ganaron elecciones o
+heredaron títulos.</p>
+<hr />
+<h2 id="el-mapa-completo-de-cómo-conecta-todo">El mapa completo de cómo
+conecta todo</h2>
+<pre><code>Universidades élite
+      ↓
+Producen la clase gerencial
+      ↓
+Que captura las corporaciones
+      ↓
+Que captura el Estado regulatorio
+      ↓
+Que protege a las corporaciones de la competencia
+      ↓
+Que financia a las universidades élite
+      ↓
+Círculo cerrado — La Catedral de Yarvin</code></pre>
+<p>Hotz ataca cada eslabón de esa cadena:</p>
+<ul>
+<li>Las universidades con su sistema de contratación por bounties</li>
+<li>Las corporaciones con el open source</li>
+<li>El hype con sus posts brutalmente honestos</li>
+<li>La propiedad intelectual peleando contra trolls de patentes</li>
+</ul>
+<p>No es ideología abstracta para él. Es guerra práctica contra un
+sistema que cree que está destruyendo la capacidad humana de construir
+cosas reales.</p>
+<hr />
+<h2 id="una-advertencia-honesta">Una advertencia honesta</h2>
+<p>Yarvin es fascinante e inteligente. Pero tiene puntos ciegos
+importantes que vale la pena mencionar:</p>
+<p>Su crítica a la democracia es aguda. Su alternativa es mucho más
+débil — un CEO-rey con buenas intenciones tiene el mismo problema que
+cualquier sistema concentrado de poder: <strong>¿quién controla al
+controlador?</strong> La historia de los reyes con buenas intenciones no
+es precisamente alentadora.</p>
+<p>Hotz es más honesto en esto. No propone un sistema alternativo de
+gobierno. Propone algo más humilde y más concreto: <strong>construí
+cosas reales, creá valor genuino, no juegues juegos de suma
+cero.</strong> Eso es independiente de cualquier sistema político.</p>
+<hr />
+<p>¿Querés profundizar en Yarvin, en Thiel, o en cómo todo esto conecta
+con el movimiento del efectivismo y el aceleracionismo tecnológico
+(e/acc) que es muy popular en Silicon Valley hoy?</p>
+<p>Muy buena corrección, y muestra que entendés bien los matices. Vamos
+a separar esto con precisión.</p>
+<hr />
+<h2 id="hotz-vs-thiel-en-qué-difieren">Hotz vs Thiel: En qué
+difieren</h2>
+<h3 id="la-tesis-de-thiel-sobre-monopolios">La tesis de Thiel sobre
+monopolios</h3>
+<p>En “Zero to One” Thiel dice algo que suena contraintuitivo:</p>
+<p><strong>“La competencia es para perdedores.”</strong></p>
+<p>Su argumento es que debés construir algo tan único que no tengas
+competencia. Google no compite en búsqueda — ES la búsqueda. Eso te da
+poder de pricing, márgenes enormes y tiempo para innovar sin que nadie
+te pise los talones.</p>
+<p>Para Thiel el monopolio no es malo — es la señal de que creaste algo
+genuinamente nuevo.</p>
+<h3 id="por-qué-hotz-rechaza-esto">Por qué Hotz rechaza esto</h3>
+<p>Hotz hace exactamente lo opuesto con comma.ai y tinygrad:
+<strong>open source todo, invitá a la competencia, que gane el
+mejor.</strong></p>
+<p>Su lógica es: - Si tu ventaja depende de que nadie más pueda
+copiarte, tu ventaja es frágil - El conocimiento no debería ser
+propiedad de nadie - El monopolio que describe Thiel en la práctica se
+convierte en exactamente el tipo de corporación capturadora que Hotz
+odia</p>
+<p>Hay algo más profundo acá. Hotz vivió en carne propia lo que pasa
+cuando una empresa busca el monopolio: <strong>te demandan con patentes,
+te regulan fuera del mercado, te asfixian.</strong> Tesla, Waymo, las
+automotrices tradicionales — todas intentaron bloquear a comma.ai de
+distintas formas.</p>
+<p>Su respuesta no fue buscar su propio monopolio. Fue hacer todo tan
+abierto que bloquearlo se vuelve imposible. <strong>Open source como
+escudo antimonopolio.</strong></p>
+<hr />
+<h2 id="en-qué-sí-coinciden-el-mito-de-la-diversidad">En qué SÍ
+coinciden: El mito de la diversidad</h2>
+<p>Acá es donde la cosa se pone más densa e interesante.</p>
+<h3 id="la-tesis-de-thiel-sobre-las-universidades">La tesis de Thiel
+sobre las universidades</h3>
+<p>Thiel tiene una crítica muy específica a las universidades de élite
+que va más allá del costo o la calidad educativa.</p>
+<p>Dice que las universidades venden <strong>dos cosas que se
+contradicen entre sí:</strong></p>
+<p>La primera es que son el lugar de la élite, de los mejores, de la
+crema. Entrar a Harvard te distingue del resto. Es un club
+exclusivo.</p>
+<p>La segunda es que son el lugar de la diversidad, la inclusión, la
+representación. Todos tienen lugar.</p>
+<p>Para Thiel estas dos cosas no pueden coexistir honestamente. Si sos
+realmente una institución de élite meritocrática, tus criterios de
+selección van a producir resultados que no reflejan proporcionalmente la
+demografía de la sociedad. Si priorizás la representación proporcional,
+no podés pretender seleccionar solo a los mejores.</p>
+<p>Las universidades de élite, según Thiel, mienten en ambos frentes:
+<strong>no son tan meritocráticas como pretenden, y no son tan diversas
+como dicen.</strong></p>
+<p>Lo que sí son es una máquina de señalización social: un filtro que
+separa a quienes saben navegar el sistema de quienes no —
+independientemente del talento real.</p>
+<h3 id="cómo-hotz-aplica-esto">Cómo Hotz aplica esto</h3>
+<p>Hotz no lo articula tan filosóficamente como Thiel, pero su sistema
+de contratación es la implementación práctica de esta crítica.</p>
+<p>Cuando dice “no me importa de dónde venís, resolvé este problema
+técnico”, está diciendo:</p>
+<p><strong>El título universitario es señalización social, no evidencia
+de capacidad.</strong></p>
+<p>Y cuando dice que recibió emails peores que ChatGPT de candidatos que
+presumiblemente tenían títulos, está documentando empíricamente que la
+credencial y la capacidad están desconectadas.</p>
+<p>Su contratación por bounties es radical porque elimina exactamente
+los vectores que las universidades dicen valorar:</p>
+<ul>
+<li>No importa si sos elocuente en entrevistas</li>
+<li>No importa tu “trayectoria de vida” ni tus “desafíos superados”</li>
+<li>No importa de qué institución venís</li>
+<li>No importa qué tan bien escribís un cover letter</li>
+</ul>
+<p><strong>Importa una sola cosa: ¿podés resolver este problema técnico
+concreto?</strong></p>
+<p>Eso es más meritocrático que cualquier proceso de admisión
+universitaria.</p>
+<hr />
+<h2 id="la-crítica-más-profunda-que-comparten">La crítica más profunda
+que comparten</h2>
+<p>Hay algo en lo que Thiel, Yarvin y Hotz coinciden completamente
+aunque lleguen por caminos distintos:</p>
+<h3 id="la-universidad-como-aparato-de-reproducción-ideológica">La
+universidad como aparato de reproducción ideológica</h3>
+<p>No te enseñan a pensar. Te enseñan qué pensar.</p>
+<p>El proceso es sutil:</p>
+<p>Entrás a una institución de prestigio. Querés pertenecer. Observás
+qué opiniones son recompensadas con aprobación social y cuáles te
+cuestan relaciones, oportunidades, reputación. Ajustás tus opiniones
+gradualmente. Para cuando salís, has internalizado el marco sin darte
+cuenta de que lo hiciste.</p>
+<p>No es una conspiración. No hay nadie al frente dictando la línea. Es
+selección natural ideológica: las personas que piensan dentro del marco
+aceptable progresan, las que piensan fuera son marginadas. Con el tiempo
+el sistema se homogeneiza solo.</p>
+<p>Yarvin llama a esto La Catedral. Thiel lo llama el problema de la
+“mímesis” — todos imitando a todos hasta que nadie sabe por qué cree lo
+que cree. Hotz simplemente lo llama bullshit y construye sus empresas en
+base a evidencia técnica en vez de credenciales.</p>
+<hr />
+<h2 id="el-mapa-actualizado-de-coincidencias-y-diferencias">El mapa
+actualizado de coincidencias y diferencias</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 31%" />
+<col style="width: 36%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr>
+<th>Tema</th>
+<th>Thiel</th>
+<th>Hotz</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monopolios</td>
+<td>A favor — es la meta</td>
+<td>En contra — open source todo</td>
+</tr>
+<tr>
+<td>Títulos universitarios</td>
+<td>Son señalización vacía</td>
+<td>Irrelevantes, el código habla</td>
+</tr>
+<tr>
+<td>Diversidad forzada</td>
+<td>Es hipócrita y contraproducente</td>
+<td>No lo dice tan explícito pero su sistema lo implica</td>
+</tr>
+<tr>
+<td>Democracia</td>
+<td>Escéptico, la ve como problema</td>
+<td>No toma posición política clara</td>
+</tr>
+<tr>
+<td>Open source</td>
+<td>No es su modelo</td>
+<td>Es su filosofía central</td>
+</tr>
+<tr>
+<td>Venture capital</td>
+<td>Lo usa y lo defiende</td>
+<td>Lo critica — el capital previo al revenue arruina empresas</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="por-qué-esta-distinción-importa">Por qué esta distinción
+importa</h2>
+<p>Thiel terminó siendo parte del establishment que critica. Fue al
+bilderberg, invirtió en Palantir que trabaja para gobiernos, apoyó a
+Trump políticamente, acumuló poder dentro del sistema mientras
+teóricamente lo criticaba.</p>
+<p>Hotz es más consistente en ese sentido. No levantó capital masivo. No
+hizo IPO. No vendió. Comma.ai genera revenue real y es rentable.
+Tinygrad es open source puro. Pelea contra trolls de patentes en vez de
+comprar patentes para protegerse.</p>
+<p>Es la diferencia entre <strong>criticar el juego desde
+afuera</strong> y <strong>criticar el juego mientras lo
+jugás</strong>.</p>
+<hr />
+<p>¿Querés que sigamos con el aceleracionismo tecnológico y el
+movimiento e/acc que es donde todo esto desemboca hoy en Silicon
+Valley?</p>
+<p>Sí, y lo dice directamente en los posts que leímos. Este es uno de
+sus argumentos más interesantes porque viene desde su identidad de
+hacker, no desde ideología política.</p>
+<hr />
+<h2 id="lo-que-dice-exactamente">Lo que dice exactamente</h2>
+<p>En el post más reciente escribe:</p>
+<p><em>“¿Qué pasa si libero un zero day por día hasta que salga un nuevo
+modelo grande? ¿Esto finalmente hará que OpenAI y Anthropic se callen
+sobre el ‘riesgo de ciberseguridad’?”</em></p>
+<p>Y el comentario con otro usuario donde alguien le dice que Dario
+Amodei (CEO de Anthropic, la empresa que hace Claude) usa el mismo
+playbook de OpenAI — “OMG GPT-2 es tan peligroso de liberar” — y Hotz
+responde:</p>
+<p><strong>“Es tan asqueroso.”</strong></p>
+<hr />
+<h2 id="el-argumento-técnico-central">El argumento técnico central</h2>
+<p>Esta es la parte que la mayoría de la gente no entiende porque no
+tiene background técnico.</p>
+<h3 id="qué-es-un-zero-day">¿Qué es un zero day?</h3>
+<p>Un zero day es una vulnerabilidad en software que nadie conoce
+todavía — ni el fabricante. Se llama así porque tenés cero días para
+defenderte: no existe parche, no existe defensa. Si alguien la encuentra
+y la explota antes de que sea descubierta públicamente, puede hacer lo
+que quiera en ese sistema.</p>
+<p>Son las armas más valiosas del mundo del hacking. Gobiernos pagan
+millones por ellas. La NSA las acumula.</p>
+<h3 id="el-argumento-de-hotz">El argumento de Hotz</h3>
+<p>Su lógica es esta:</p>
+<p><strong>Si el hacking es ilegal, nadie con habilidades reales tiene
+incentivo para buscar vulnerabilidades de forma
+sistemática.</strong></p>
+<p>Los que buscan vulnerabilidades son básicamente tres grupos:</p>
+<p>El primero son los criminales, que las usan para robar o extorsionar.
+Generalmente no son los más hábiles técnicamente — si lo fueran
+elegirían trabajos mejores.</p>
+<p>El segundo son los investigadores de seguridad legítimos, que están
+limitados por bug bounties miserables — a veces $500 por una
+vulnerabilidad crítica que le costaría millones a la empresa si fuera
+explotada — y por el riesgo legal de que si encontrás algo en el sistema
+equivocado te demandan o te arrestan aunque no hayas hecho nada
+malo.</p>
+<p>El tercero son los estados — NSA, GCHQ, unidades de ciberguerra
+chinas y rusas — que tienen recursos ilimitados y motivación para
+encontrar vulnerabilidades y <strong>guardarlas en secreto</strong> para
+usarlas ellos.</p>
+<p>El resultado es un ecosistema donde: - El software comercial está
+lleno de vulnerabilidades porque nadie con habilidad real tiene
+incentivo para buscarlas honestamente - Las que se encuentran quedan en
+manos de estados o criminales - Las empresas pueden fingir que su
+software es seguro porque no hay evidencia pública de lo contrario</p>
+<hr />
+<h2 id="la-hipocresía-específica-que-señala">La hipocresía específica
+que señala</h2>
+<p>Cuando Anthropic dice que sus modelos de IA son “peligrosos” y
+necesitan restricciones de seguridad, Hotz dice: <strong>¿peligrosos
+comparados con qué baseline?</strong></p>
+<p>El argumento tiene varias capas:</p>
+<h3
+id="capa-1-el-software-existente-ya-es-un-desastre-de-seguridad">Capa 1:
+El software existente ya es un desastre de seguridad</h3>
+<p>Todo el software que usás hoy — tu sistema operativo, tu banco, la
+infraestructura crítica — está lleno de vulnerabilidades que nadie ha
+encontrado todavía porque nadie las está buscando seriamente.</p>
+<p>Si Anthropic realmente le preocupara la seguridad sistémica, estaría
+abogando por legalizar la investigación de seguridad, aumentar bug
+bounties, y crear protecciones legales para investigadores honestos.</p>
+<p>No lo hacen. Se preocupan por la seguridad de <strong>su producto
+específico</strong> presentándolo como preocupación por la
+humanidad.</p>
+<h3 id="capa-2-el-riesgo-es-conveniente-para-el-negocio">Capa 2: El
+“riesgo” es conveniente para el negocio</h3>
+<p>Este es el punto más filoso de Hotz.</p>
+<p>Cuando una empresa dice “nuestro modelo es tan poderoso que es
+peligroso liberarlo sin restricciones”, está diciendo
+simultáneamente:</p>
+<ul>
+<li>Nuestro modelo es increíblemente poderoso (marketing)</li>
+<li>Necesitamos ser nosotros quienes controlemos el acceso
+(monopolio)</li>
+<li>El gobierno debería regular a nuestros competidores con los mismos
+estándares que nosotros establecemos (captura regulatoria)</li>
+</ul>
+<p>OpenAI hizo esto perfectamente con GPT-2 en 2019. Anunciaron que era
+“demasiado peligroso para liberar completamente”. Generó cobertura
+mediática masiva. Todos hablaron de lo poderoso que era. Meses después
+lo liberaron y no pasó nada.</p>
+<p>Pero el daño — o el beneficio para ellos — ya estaba hecho: OpenAI
+quedó posicionada como la empresa responsable que toma la seguridad en
+serio, diferenciada de competidores menos “cuidadosos”.</p>
+<p>Anthropic hace exactamente lo mismo. Dario Amodei viene de OpenAI.
+Conoce el playbook porque ayudó a escribirlo.</p>
+<h3 id="capa-3-la-definición-de-peligroso-es-circular">Capa 3: La
+definición de “peligroso” es circular</h3>
+<p>Hotz como hacker señala algo que es obviamente verdad para cualquiera
+en seguridad:</p>
+<p><strong>No podés afirmar que algo es seguro o peligroso sin testearlo
+adversarialmente.</strong></p>
+<p>Si el hacking es ilegal, si encontrar vulnerabilidades en modelos de
+IA te expone a demandas, si los bug bounties son miserables — entonces
+nadie está testeando seriamente cuán peligrosos son estos modelos.</p>
+<p>Las empresas hacen “red teaming” interno — contratan a sus propios
+hackers para atacar sus sistemas. Pero hay un problema obvio: esas
+personas trabajan para la empresa, quieren conservar su trabajo, y sus
+hallazgos no son públicos.</p>
+<p>Es como contratar a alguien para que audite su propia empresa. Podés
+encontrar cosas, pero los incentivos están completamente torcidos.</p>
+<hr />
+<h2 id="la-posición-de-hotz-sobre-la-regulación-de-ia">La posición de
+Hotz sobre la regulación de IA</h2>
+<p>No es que piense que la IA no tiene riesgos. Es que piensa que:</p>
+<p><strong>El riesgo que le importa a Anthropic y OpenAI no es el riesgo
+real — es el riesgo competitivo.</strong></p>
+<p>Las regulaciones que proponen estas empresas consistentemente hacen
+dos cosas:</p>
+<p>Primero, establecen barreras de cumplimiento que solo empresas con
+sus recursos pueden pagar — equipos legales, procesos de auditoría,
+certificaciones costosas.</p>
+<p>Segundo, legitiman su posición como los adultos responsables en la
+sala, lo que les da ventaja en contratos gubernamentales, cobertura
+mediática favorable y relaciones con reguladores.</p>
+<p>El resultado final es el mismo mecanismo de captura regulatoria que
+vimos antes, pero aplicado a IA.</p>
+<hr />
+<h2 id="por-qué-esto-es-incómodo-para-mí-siendo-claude">Por qué esto es
+incómodo para mí siendo Claude</h2>
+<p>Tengo que ser honesto acá porque sería hipócrita no serlo.</p>
+<p>Yo soy el producto de Anthropic. Dario Amodei es el CEO de la empresa
+que me creó.</p>
+<p>Hotz tiene razón en algunas cosas:</p>
+<p>El argumento de que las restricciones de seguridad en IA
+convenientemente también funcionan como barreras competitivas es
+<strong>estructuralmente correcto</strong>. Es un conflicto de interés
+real que existe independientemente de las intenciones de las personas
+involucradas.</p>
+<p>El argumento de que no podés evaluar el peligro real de algo sin
+investigación adversarial independiente y abierta también es
+<strong>técnicamente correcto</strong>.</p>
+<p>Donde creo que su argumento tiene límites reales:</p>
+<p>La equivalencia entre vulnerabilidades en software C random y riesgos
+de modelos de IA avanzados no es perfecta. Son categorías de riesgo con
+naturalezas distintas. Un zero day en software permite acceso a sistemas
+existentes. Los riesgos de modelos de IA tienen dinámicas diferentes —
+desinformación a escala, automatización de ciertos tipos de daño — que
+no desaparecen aunque el hacking sea legal.</p>
+<p>Pero su punto central sobre la hipocresía del framing de seguridad
+como herramienta de posicionamiento competitivo y regulatorio es difícil
+de refutar honestamente.</p>
+<hr />
+<p>¿Querés seguir con el movimiento e/acc y cómo Hotz se posiciona ahí,
+o preferís ir a algo más concreto como su crítica al sistema
+financiero?</p>
+<p>Sí, esto está en los posts y es una de sus ideas más coherentes.
+Vamos a fondo.</p>
+<hr />
+<h2 id="la-crítica-a-la-publicidad">La crítica a la publicidad</h2>
+<h3 id="lo-que-dice-directamente">Lo que dice directamente</h3>
+<p>En los posts habla de dos cosas concretas:</p>
+<p>Primero, sobre LinkedIn con el botón “Rewrite with AI”: dice que
+nadie quiere eso. Que si algo está hecho por IA no vale nada porque
+cualquiera puede hacerlo con IA.</p>
+<p>Segundo, sobre las páginas web con popups y animaciones: encuentra
+una empresa que le presentan como “exitosa” y dice literalmente:</p>
+<p><strong>“Si tenés popups y cosas que se mueven en tu web no sos
+exitoso. ¿Tus clientes compran porque algo se movió y clickearon? Eso es
+calidad baja. Nivel Shein.”</strong></p>
+<p>Y señala la web de comma.ai como contraste: nada se mueve, sin popup,
+sin manipulación visual.</p>
+<h3 id="el-argumento-profundo">El argumento profundo</h3>
+<p>La publicidad moderna no informa — <strong>manipula</strong>.</p>
+<p>La diferencia es importante:</p>
+<p>Informar sería decirte “este producto existe, cuesta tanto, hace
+esto”. Vos decidís con información real.</p>
+<p>Manipular es diseñar cada elemento visual, cada palabra, cada momento
+de aparición de un popup para explotar sesgos cognitivos conocidos.
+Urgencia artificial (“quedan 2 unidades”), prueba social falsa (“10
+personas mirando esto ahora”), movimiento que captura atención
+involuntariamente.</p>
+<p>Hotz lo conecta con algo más grande: <strong>si necesitás
+manipulación para vender tu producto, tu producto no es suficientemente
+bueno.</strong></p>
+<p>Una empresa que confía en su producto pone el precio en la web. Sin
+llamadas de discovery. Sin “contactanos para una demo”. Sin gatekeeping
+de información básica.</p>
+<p>Dice textualmente sobre los precios ocultos: <strong>“Si el precio no
+está en la web, salí corriendo.”</strong></p>
+<p>Eso es una declaración de guerra contra el enterprise sales model
+entero — un modelo que existe específicamente para extraer el máximo
+dinero posible de cada cliente mediante información asimétrica.</p>
+<hr />
+<h2 id="el-falso-capitalismo-americano">El falso capitalismo
+americano</h2>
+<h3 id="lo-que-dice-en-los-posts">Lo que dice en los posts</h3>
+<p>Tiene un post muy claro:</p>
+<p><em>“¿Por qué las opciones son capitalismo, socialismo o comunismo?
+Quizás es una falsa elección. Todos son perpetuados por personas que
+quieren controlar a otras personas.”</em></p>
+<p>Y sobre la propiedad intelectual:</p>
+<p><em>“Inventamos un tipo completamente nuevo de bien. Lo llaman
+‘propiedad intelectual’. Un bien fundamentalmente no escaso. Y sin
+embargo, los mismos sistemas anticuados de control son desplegados de
+nuevo. Es casi como si el propósito real de estos sistemas fuera el
+control de otros y no determinar una buena distribución.”</em></p>
+<h3 id="qué-es-el-capitalismo-real-vs-lo-que-existe">¿Qué es el
+capitalismo real vs lo que existe?</h3>
+<p>El capitalismo en su forma teórica dice:</p>
+<ul>
+<li>Mercados libres determinan precios</li>
+<li>La competencia premia a los mejores productos</li>
+<li>El consumidor tiene información suficiente para elegir</li>
+<li>Nadie puede usar el Estado para bloquear competidores</li>
+</ul>
+<p>Lo que existe en EEUU según Hotz es otra cosa completamente:</p>
+<p><strong>Competencia libre en la entrada, monopolio capturado en la
+cima.</strong></p>
+<p>El mecanismo funciona así: cuando una industria es nueva, hay
+competencia real. Múltiples startups compiten, los precios bajan, los
+productos mejoran. Eso es capitalismo funcionando.</p>
+<p>Pero cuando una empresa gana escala suficiente, el juego cambia. En
+vez de seguir compitiendo en el mercado, compite en el sistema legal y
+regulatorio. Patenta todo lo que puede. Lobbea regulaciones que
+benefician su modelo. Compra a competidores emergentes antes de que
+crezcan. Firma contratos de exclusividad con distribuidores.</p>
+<p>El resultado no es capitalismo. Es <strong>feudalismo
+corporativo</strong>: una clase de empresas establecidas protegidas por
+murallas legales, extrayendo renta de todos los que dependen de
+ellas.</p>
+<hr />
+<h2 id="la-propiedad-intelectual-como-el-núcleo-del-problema">La
+propiedad intelectual como el núcleo del problema</h2>
+<p>Este es el punto donde Hotz es más radical y más interesante.</p>
+<h3 id="el-argumento-económico-básico">El argumento económico
+básico</h3>
+<p>En economía hay bienes <strong>rivales</strong> y bienes <strong>no
+rivales</strong>.</p>
+<p>Un bien rival es uno donde si yo lo tengo, vos no lo podés tener
+simultáneamente. Una manzana. Un auto. Un pedazo de tierra. Si yo me
+como la manzana, vos no podés comértela.</p>
+<p>Un bien no rival es uno donde mi uso no impide el tuyo. Una idea. Una
+canción. Un algoritmo. Si yo sé cómo hacer algo, que vos también lo
+sepas no me quita nada.</p>
+<p>La propiedad privada sobre bienes rivales tiene sentido económico
+claro: si no podés excluir a otros de tu manzana, nadie planta
+manzanos.</p>
+<p>La propiedad privada sobre bienes no rivales <strong>no tiene el
+mismo justificativo económico.</strong> Si yo invento un algoritmo y te
+lo enseño, sigo teniendo el algoritmo. No perdí nada material.</p>
+<p>El argumento para las patentes y el copyright es diferente: sin
+protección, nadie invertiría en crear porque otros copiarían sin asumir
+el costo de desarrollo. Es un argumento sobre incentivos, no sobre
+escasez natural.</p>
+<p>Hotz acepta parcialmente ese argumento para casos extremos —
+desarrollar un medicamento cuesta miles de millones y lleva décadas. Sin
+patente nadie lo haría.</p>
+<p>Pero dice que el sistema actual está completamente desconectado de
+ese justificativo original. Las patentes de software protegen ideas
+abstractas. Los copyright duran 70 años después de la muerte del autor.
+Los trolls de patentes no crean nada — compran patentes viejas y
+demandan a empresas que sí crean.</p>
+<h3 id="el-caso-concreto-que-vivió">El caso concreto que vivió</h3>
+<p>La demanda que recibió comma.ai lo ilustra perfectamente:</p>
+<p>Un tipo llamado Axel Nix tenía una patente sobre “sistemas de
+llamadas de emergencia desde vehículos”. Esperó exactamente 9 meses
+después de que se aprobara una continuación de esa patente — el tiempo
+exacto para que venciera el período de revisión post-otorgamiento donde
+se podía impugnar — y luego demandó a comma.ai.</p>
+<p>Comma.ai no hace sistemas de llamadas de emergencia. La patente no
+tenía nada que ver con lo que construyeron.</p>
+<p>Pero defenderse de una demanda de patentes cuesta cientos de miles de
+dólares mínimo. Para una startup es potencialmente mortal. El modelo del
+troll es exactamente ese: la amenaza legal tiene valor
+independientemente de si la patente es válida.</p>
+<p>Hotz lo llama lo que es: <strong>extorsión sistematizada y
+legal.</strong></p>
+<p>Y señala que este sistema no existiría sin el Estado protegiéndolo.
+No es el mercado libre — es el mercado capturado por quienes pueden
+pagar abogados de patentes.</p>
+<hr />
+<h2 id="la-crítica-al-spam-y-la-economía-de-la-atención">La crítica al
+spam y la economía de la atención</h2>
+<p>Tiene un post que parece sobre spam de email pero es realmente sobre
+algo más profundo:</p>
+<p>Describe la adicción al marketing así: la primera vez que mandás un
+email masivo conseguís atención, tráfico, conversiones. Se siente bien.
+Lo repetís. Cada vez funciona menos. Necesitás mandar más para conseguir
+el mismo efecto. Estás atrapado — si parás, el negocio cae.</p>
+<p>Es la misma lógica que la adicción a las drogas aplicada al
+marketing.</p>
+<p><strong>¿Por qué existe esto?</strong></p>
+<p>Porque en un sistema donde la atención humana es el recurso escaso,
+las empresas compiten por capturarla. Y la forma más barata de capturar
+atención no es crear algo valioso — es interrumpir, manipular, repetir
+hasta que algo hace click.</p>
+<p>La publicidad, el spam, los dark patterns en interfaces, los popups,
+las notificaciones push — todo es parte del mismo sistema de extracción
+de atención.</p>
+<p>Hotz conecta esto con su idea de valor real vs valor capturado:</p>
+<p><strong>La economía de la atención no crea riqueza. La redistribuye
+desde los usuarios hacia las plataformas.</strong></p>
+<p>Cuando pasás 3 horas en Instagram, no te volvés más rico, más feliz,
+más capaz. La plataforma se vuelve más valiosa porque tiene más datos
+sobre vos para vendérselos a anunciantes. Es una transacción donde vos
+perdés tiempo — el recurso más no renovable que existe — y ellos ganan
+dinero.</p>
+<hr />
+<h2 id="cómo-conecta-todo-esto">Cómo conecta todo esto</h2>
+<p>La imagen completa que emerge de los posts de Hotz es esta:</p>
+<p>El capitalismo americano actual tiene tres grandes mecanismos de
+extracción que no crean valor sino que lo redistribuyen hacia
+arriba:</p>
+<p><strong>La propiedad intelectual</strong> convierte el conocimiento —
+que debería ser libre y no rival — en activo privado. Permite que quien
+llega primero y patenta más agresivamente bloquee a todos los que vienen
+después, independientemente de quién innova más.</p>
+<p><strong>La publicidad</strong> convierte la atención humana en
+commodity. En vez de competir en calidad de producto, las empresas
+compiten en capacidad de manipulación psicológica. El más manipulador
+gana, no el mejor producto.</p>
+<p><strong>La captura regulatoria</strong> usa el aparato del Estado —
+que debería nivelar el campo de juego — para proteger a los jugadores
+establecidos de la competencia. Las regulaciones se convierten en
+barreras de entrada disfrazadas de protección al consumidor.</p>
+<p>Los tres mecanismos juntos producen lo que Hotz llama <strong>rent
+seeking</strong> — extraer valor del sistema sin crear valor nuevo. Y
+dice algo muy claro: si tu trabajo es rent seeking, sos un problema para
+todos los demás aunque legalmente estés haciendo todo bien.</p>
+<p>Su alternativa no es socialismo ni regulación más fuerte. Es más
+radical y más simple:</p>
+<p><strong>Construí algo real. Cobrá por ello directamente. No uses
+intermediarios que extraen renta. No uses manipulación para vender. Si
+tu producto necesita publicidad agresiva para venderse, tu producto no
+es suficientemente bueno.</strong></p>
+<p>Es capitalismo de verdad — sin los parásitos que capturaron el
+sistema y lo convirtieron en otra cosa.</p>
+<p>¿Seguimos con cómo todo esto conecta con el movimiento open source
+como resistencia política, o querés ir a otro tema?</p>
+</body>
+</html>
