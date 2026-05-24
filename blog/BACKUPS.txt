@@ -227,3 +227,4 @@ https://archive.org/details/MI_BLOG1778144425-137769 - commit: win
 https://archive.org/details/MI_BLOG1778696219-38320 - commit: la IA no creara despidos, creara trabajos. Los que despiden mienten
 https://archive.org/details/MI_BLOG1778976522-103510 - commit: rms
 https://archive.org/details/MI_BLOG1779218301-94532 - commit: 1
+https://archive.org/details/MI_BLOG1779581378-142015 - commit: 1
