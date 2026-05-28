@@ -231,3 +231,6 @@ https://archive.org/details/MI_BLOG1779581378-142015 - commit: 1
 https://archive.org/details/MI_BLOG1779738427-14484 - commit: facebook
 https://archive.org/details/MI_BLOG1779738556-15416 - commit: youtube
 https://archive.org/details/MI_BLOG1779739139-18740 - commit: secrecy
+https://archive.org/details/MI_BLOG1779964867-111515 - commit: 1
+https://archive.org/details/MI_BLOG1779964873-111655 - commit: antivirus
+https://archive.org/details/MI_BLOG1779964875-111735 - commit: antivirus
