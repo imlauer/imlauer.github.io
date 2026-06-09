@@ -237,3 +237,5 @@ https://archive.org/details/MI_BLOG1779964875-111735 - commit: antivirus
 https://archive.org/details/MI_BLOG1779966423-124979 - commit: antivirus
 https://archive.org/details/MI_BLOG1780375771-52365 - commit: si
 https://archive.org/details/MI_BLOG1780468092-50524 - commit: 8
+https://archive.org/details/MI_BLOG1780667973-20968 - commit: me
+https://archive.org/details/MI_BLOG1781043631-889238 - commit: opencode
