@@ -239,3 +239,5 @@ https://archive.org/details/MI_BLOG1780375771-52365 - commit: si
 https://archive.org/details/MI_BLOG1780468092-50524 - commit: 8
 https://archive.org/details/MI_BLOG1780667973-20968 - commit: me
 https://archive.org/details/MI_BLOG1781043631-889238 - commit: opencode
+https://archive.org/details/MI_BLOG1781717611-94241 - commit: 1
+https://archive.org/details/MI_BLOG1781717615-94329 - commit: moar
