@@ -1,0 +1,300 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  line-height: 1.7;
+  background: #001500;
+  color: #aaffcc;
+  font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
+  font-size: 16px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #002200;
+  border: 1px solid #003300;
+  border-left: 2px solid #00ff44;
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+pre code {
+  display: block;
+  white-space: pre;
+  font-size: 0.9em;
+}
+
+code {
+  background: #002200;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+  font-size: 0.9em;
+  color: #00ff44;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff44;
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-shadow: 0 0 8px rgba(0, 255, 68, 0.2);
+}
+
+h1 { font-size: 2.2em; border-bottom: 1px solid #004400; padding-bottom: 0.5em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; color: #66ffaa; }
+h4 { font-size: 1.05em; color: #66ffaa; }
+h5 { font-size: 1em; color: #44ff88; }
+h6 { font-size: 0.95em; color: #44ff88; }
+
+.title {
+  font-size: 1.6em;
+  margin-bottom: 0.25em;
+}
+
+a {
+  color: #aaff00;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(170, 255, 0, 0.3);
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+a:hover {
+  color: #001500;
+  background-color: #aaff00;
+  border-bottom-color: #aaff00;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #003300;
+  margin: 2.5em 0;
+}
+
+ul, ol {
+  padding-left: 1.25em;
+}
+
+li {
+  margin-bottom: 0.6em;
+  padding-left: 0.25em;
+}
+
+ul > li::marker {
+  color: #006600;
+}
+
+ol > li::marker {
+  color: #006600;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 2px solid #006600;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  background: #002200;
+  font-style: italic;
+  color: #88ccaa;
+}
+
+strong {
+  color: #ccffee;
+}
+
+em {
+  color: #88ccaa;
+}
+
+s {
+  color: #335544;
+  text-decoration-color: #224433;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+th, td {
+  border: 1px solid #003300;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background: #002200;
+  color: #00ff44;
+  font-weight: 600;
+}
+
+center {
+  margin: 1.5em 0;
+}
+
+::selection {
+  background: #44ff44;
+  color: #001500;
+}
+
+a:focus-visible {
+  outline: 1px solid #aaff00;
+  outline-offset: 2px;
+}
+
+pre::-webkit-scrollbar {
+  height: 4px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #001500;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #224422;
+  border-radius: 2px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #335533;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.25rem 1rem;
+    font-size: 15px;
+  }
+  h1 { font-size: 1.7em; }
+  h2 { font-size: 1.3em; }
+  h3 { font-size: 1.1em; }
+}
+
+/* ======================================================
+   ESTILO DE IMPRESIÓN — "modo libro"
+   Compatible con A4, Carta, Legal/Oficio: no fuerza el
+   tamaño de papel, así que el navegador respeta el que
+   elijas en el diálogo de impresión (Ctrl+P).
+   ====================================================== */
+@media print {
+
+  @page {
+    margin: 2.2cm 2cm;
+  }
+
+  * {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #111 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif;
+    font-size: 11.5pt;
+    line-height: 1.55;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000 !important;
+    text-shadow: none !important;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: left;
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1 { font-size: 20pt; border-bottom: 1px solid #000; }
+  h2 { font-size: 16pt; margin-top: 1.8em; }
+  h3, h4 { font-size: 13pt; color: #222 !important; }
+  h5, h6 { font-size: 11.5pt; color: #333 !important; }
+
+  p, li, blockquote {
+    orphans: 3;
+    widows: 3;
+  }
+
+  li, blockquote, pre {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  hr {
+    background: #999 !important;
+    border: none;
+    height: 1px;
+    page-break-after: avoid;
+  }
+
+  a {
+    color: #000 !important;
+    background: none !important;
+    border-bottom: none !important;
+    text-decoration: underline;
+  }
+
+  /* Muestra la URL después de cada link: en papel no se puede clickear */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #555 !important;
+    word-break: break-all;
+  }
+
+  /* No mostrar URL para anchors internos (ej. #cb1-1) */
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  pre, code {
+    background: #f2f2f2 !important;
+    color: #000 !important;
+    border: 1px solid #ccc !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word;
+    font-size: 9.5pt;
+  }
+
+  img {
+    max-width: 90% !important;
+    filter: grayscale(100%);
+  }
+
+  ul, ol {
+    padding-left: 1.4em;
+  }
+
+  table {
+    page-break-inside: avoid;
+  }
+
+  ::selection {
+    background: transparent;
+  }
+}

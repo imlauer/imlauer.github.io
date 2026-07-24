@@ -242,3 +242,5 @@ https://archive.org/details/MI_BLOG1781043631-889238 - commit: opencode
 https://archive.org/details/MI_BLOG1781717611-94241 - commit: 1
 https://archive.org/details/MI_BLOG1781717615-94329 - commit: moar
 https://archive.org/details/MI_BLOG1782530967-160736 - commit: fernand
+https://archive.org/details/MI_BLOG1784875306-5031 - commit: 1
+https://archive.org/details/MI_BLOG1784875334-5496 - commit: 1
