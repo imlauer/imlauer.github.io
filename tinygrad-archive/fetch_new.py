@@ -52,7 +52,7 @@ async def main():
 
     # Pull as far back as needed; stop once we are well past the oldest
     # known tweet and beyond any new ones.
-    async for t in api.user_tweets(user.id, limit=-1):
+    async for t in api.user_tweets_and_replies(user.id, limit=-1):
         d = t.json()
         tdict = json.loads(d)
         tid = str(tdict.get("id") or tdict.get("id_str"))
