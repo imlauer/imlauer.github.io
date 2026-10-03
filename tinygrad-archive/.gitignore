@@ -1,0 +1,11 @@
+# credenciales de X / twscrape - NUNCA commitear
+cookies.txt
+accounts.db
+accounts.db-journal
+
+# junk
+__pycache__/
+*.pyc
+*.log
+*.err
+fetch_pending.jsonl
